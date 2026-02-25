@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About This Project
+## About This Project 
 
 This is a Laravel-based e-commerce backend application with clean git history.
 
