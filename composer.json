@@ -9,6 +9,7 @@
         "anayarojo/shoppingcart": "^4.2",
         "brian2694/laravel-toastr": "^5.57",
         "guzzlehttp/guzzle": "^7.2",
+        "inertiajs/inertia-laravel": "^2.0",
         "intervention/image": "^3.11",
         "laravel/framework": "^11.19",
         "laravel/sanctum": "^4.0",

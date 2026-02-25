@@ -39,6 +39,7 @@ class Kernel extends HttpKernel
              \App\Http\Middleware\LaravelSecurity::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
              \App\Http\Middleware\PaymentBanner::class,
+            \App\Http\Middleware\HandleInertiaRequests::class,
         ],
 
         'api' => [
