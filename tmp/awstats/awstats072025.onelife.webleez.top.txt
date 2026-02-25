@@ -1,0 +1,530 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202507 will be lost/reset.
+# Last config file used to build this data file was /home/acharmel/tmp/awstats/awstats.onelife.webleez.top.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2050                
+POS_TIME 2734                
+POS_VISITOR 10687               
+POS_DAY 14819               
+POS_DOMAIN 3424                
+POS_LOGIN 3789                
+POS_ROBOT 3944                
+POS_WORMS 4367                
+POS_EMAILSENDER 4498                
+POS_EMAILRECEIVER 4641                
+POS_SESSION 15120               
+POS_FILESIZE 16277               
+POS_SIDER 15315               
+POS_FILETYPES 4776                
+POS_DOWNLOADS 5058                
+POS_OS 5106                
+POS_BROWSER 5374                
+POS_SCREENSIZE 6328                
+POS_UNKNOWNREFERER 6402                
+POS_UNKNOWNREFERERBROWSER 6997                
+POS_ORIGIN 7297                
+POS_SEREFERRALS 7435                
+POS_PAGEREFS 7579                
+POS_SEARCHWORDS 7755                
+POS_KEYWORDS 7907                
+POS_MISC 2397                
+POS_ERRORS 7966                
+POS_CLUSTER 3645                
+POS_SIDER_404 8094                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250801012854 512 153675 15863099902673
+FirstTime 20250722120031
+LastTime 20250731202517
+LastUpdate 20250801114127 512 0 511 0 0
+TotalVisits 86                  
+TotalUnique 81                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 114                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 16 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 3 67926 2 3 5911
+1 5 15 469530 3 8 15994
+2 1 2 51763 0 0 0
+3 0 0 0 0 1 2080
+4 1 1 1165 3 4 8332
+5 4 65 10087238 0 44 15051499
+6 0 0 0 0 0 0
+7 1 2 54590 0 0 0
+8 18 198 12536041 2 8 2946036
+9 6 44 2119749 0 1 24
+10 2 2 26237 3 51 139188
+11 0 0 0 0 0 0
+12 28 91 2830859 51 116 4484144
+13 9 10 129201 2 3 42814
+14 17 138 5355293 0 0 0
+15 8 18 1185348 10 13 76423
+16 11 174 25348710 2 14 5623742
+17 29 183 7378000 12 68 2792176
+18 1 1 1168 2 3 17066
+19 28 298 48558347 8 211 61784620
+20 2 3 255205 1 3 4184
+21 0 0 0 0 0 0
+22 1 2 51780 0 0 0
+23 2 6 185786 2 4 7662
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+us 83 566 44540256
+bd 39 296 31509126
+ie 21 273 36185555
+cn 14 97 2925748
+ca 10 13 1371108
+ru 3 4 82595
+za 2 2 26237
+zz 2 2 174
+be 1 2 51763
+gr 1 1 1374
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+facebookexternalhit/ 343 84553118 20250731191051 2
+link 19 7231678 20250730171617 0
+Go\-http\-client/ 7 41445 20250722170825 0
+checker 5 66131 20250724194005 0
+curl 4 55291 20250730151152 0
+unknown 4 96 20250731202534 4
+scanner 3 91336 20250722124634 0
+no_user_agent 2 2744 20250722120040 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+woff 4 118000 0 0
+jpeg 41 3539207 0 0
+woff2 57 5788668 0 0
+png 39 11944629 0 0
+jpg 313 81675540 0 0
+Unknown 35 84406 0 0
+webp 209 5467942 0 0
+js 218 2044861 0 0
+xml 4 24587 0 0
+css 260 2447211 0 0
+html 76 3558885 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 14
+androidmarshmallow 5 5
+ios_iphone 108 11
+win7 10 1
+android11 33 4
+win8 1 1
+macosx15 9 9
+android 200 12
+linux 148 19
+Unknown 25 18
+macosx7 8 4
+androidoreo 86 9
+win10 340 62
+macosx14 1 1
+android10 282 20
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 43
+chrome34.0.1847.137 1 1
+firefox137.0 2 1
+edge18 68 8
+safari15.4 36 6
+safari17.1 1 1
+chrome83.0.4103.61 10 1
+chrome136.0.0.0 1 0
+Unknown 5 4
+firefox122.0 1 1
+chrome76.0.3809.132 1 1
+chrome91.0.4472.124 1 1
+mozilla 20 14
+chrome120.0.0.0 6 3
+chrome138.0.7204.162 200 12
+safari10.0 71 4
+firefox123.0 1 1
+chrome63.0.3239.111 34 4
+firefox141.0 12 2
+chrome125.0.6422.60 65 4
+safari15.0 1 1
+chrome79.0.3945.79 41 4
+chrome106.0.0.0 5 1
+chrome52.0.2717.98 2 2
+chrome76.0.3809.89 1 1
+chrome74.0.3729.169 1 1
+chrome113.0.0.0 2 2
+chrome17.0.963.56 8 4
+chrome78.0.3904.108 3 3
+chrome138.0.0.0 310 37
+chrome85.0.4183.121 1 1
+chrome47.0.2526.83 3 3
+chrome94.0.4606.61 2 2
+chrome126.0.6478.27 1 1
+chrome57.0.2987.108 51 4
+chrome117.0.5938.132 41 4
+chrome138.0.7204.96 70 4
+chrome91.0.4472.101 32 3
+chrome137.0.0.0 11 6
+chrome122.0.6261.95 54 15
+chrome135.0.0.0 77 5
+firefox121.0 1 1
+firefox21.0.1 1 1
+opera107.0.0.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+fasthttp 20250730090652
+Cpanel-HTTP-Client/1.0 20250722120028
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250731195142
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20250722120032
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250724023333
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20250727235744
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250731195142
+fasthttp 20250730090652
+Cpanel-HTTP-Client/1.0 20250722120028
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 102 123
+From1 0 0
+From2 0 0
+From3 4 4
+From4 70 1129
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://lm.facebook.com 4 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+405 2 565450
+404 128 317810
+419 16 33344
+403 6 7452
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 54
+//onelife.webleez.top/public/frontEnd/js/wow.min.js 2 -
+//onelife.webleez.top/public/frontEnd/js/owl.carousel.min.js 2 -
+//cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js 5 -
+/s/63e2130323e2834323e2136313/_/ 2 -
+/info.php 2 -
+/.DS_Store 2 -
+/xmlrpc.php 1 -
+/actuator/env 2 -
+//www.onelife.webleez.top/public/frontEnd/js/mobile-menu-init.js 2 -
+//www.onelife.webleez.top/public/frontEnd/js/jquery-3.7.1.min.js 2 -
+//onelife.webleez.top/public/frontEnd/js/script.js 2 -
+/telescope/requests 2 -
+//www.googletagmanager.com/gtm.js 5 -
+/login.action 2 -
+/public/uploads/product/1752335197-66068739bf48c_800x800.jpg 5 -
+/php-cgi/php-cgi.exe 2 -
+/wp-includes/wlwmanifest.xml 1 -
+/wp/wp-includes/wlwmanifest.xml 1 -
+//www.onelife.webleez.top/public/frontEnd/js/owl.carousel.min.js 2 -
+/wordpress/wp-includes/wlwmanifest.xml 1 -
+//www.onelife.webleez.top/public/frontEnd/js/mobile-menu.js 2 -
+/about 2 -
+/.env 2 -
+/public/backEnd/assets/images/bg-pattern-2.png 16 http://onelife.webleez.top/public/backEnd/assets/css/app.min.css
+//www.onelife.webleez.top/public/frontEnd/js/wow.min.js 2 -
+/news/wp-includes/wlwmanifest.xml 1 -
+/website/wp-includes/wlwmanifest.xml 1 -
+//cdn.js 4 -
+/web/wp-includes/wlwmanifest.xml 1 -
+//onelife.webleez.top/public/frontEnd/js/jquery-3.7.1.min.js 2 -
+/@vite/env 2 -
+//www.onelife.webleez.top/public/frontEnd/js/wsit-menu.js 2 -
+/wiki 1 -
+/server 2 -
+//www.onelife.webleez.top/public/backEnd/assets/js/toastr.min.js 2 -
+/login 1 -
+//onelife.webleez.top/public/frontEnd/js/bootstrap.min.js 3 -
+/wp-admin/setup-config.php 1 -
+//onelife.webleez.top/public/frontEnd/js/wsit-menu.js 2 -
+/_all_dbs 2 -
+//onelife.webleez.top/public/frontEnd/js/mobile-menu-init.js 2 -
+/v2/_catalog 2 -
+/public/uploads/product/1752382963-untitled-design-17-1000x1000.png 5 -
+/blog/wp-includes/wlwmanifest.xml 1 -
+//www.onelife.webleez.top/public/frontEnd/js/bootstrap.min.js 2 -
+/config.json 5 -
+/debug/default/view 2 -
+//www.onelife.webleez.top/public/frontEnd/js/script.js 2 -
+/.vscode/sftp.json 2 -
+//onelife.webleez.top/public/backEnd/assets/js/toastr.min.js 2 -
+/wordpress/wp-admin/setup-config.php 1 -
+//onelife.webleez.top/public/frontEnd/js/mobile-menu.js 2 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+/server-status 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 114
+45.112.72.184 33 270 30554518 20250730171631
+34.211.155.180 8 68 2651096 20250722141511
+34.212.238.89 8 68 2651111 20250722141831
+192.64.113.146 6 6 38700 20250722135729
+205.169.39.97 5 51 2127321 20250723083420
+34.116.198.208 4 71 4916911 20250723084034
+205.169.39.50 4 41 2046617 20250723093608
+173.252.95.113 4 42 5628591 20250731190441
+31.13.115.115 4 38 4236875 20250731190557
+202.86.220.3 4 14 454118 20250723012553
+35.95.15.32 4 4 51621 20250722134106
+34.122.147.229 3 32 2176098 20250723083930
+152.42.217.236 3 3 637056 20250731153106
+152.32.188.169 3 3 47802 20250730151153
+31.13.115.10 3 24 982933 20250731190546
+31.13.127.17 3 20 3614843 20250726053615
+123.6.49.15 3 28 1075895 20250722173121
+161.248.201.6 2 2 128 20250722120028
+31.13.127.23 2 32 2851808 20250722123659
+23.178.112.210 2 2 174 20250722120031
+31.13.127.2 2 7 223563 20250722123700
+123.6.49.44 2 17 316783 20250722173119
+31.13.115.8 2 25 3950299 20250731190447
+173.252.95.43 2 19 4032273 20250731190441
+47.237.10.137 2 3 73132 20250730090652
+31.13.115.2 0 1 33584 
+3.145.129.51 1 1 87 20250722120032
+34.123.170.104 0 14 874661 
+87.236.176.132 1 1 13109 20250724023332
+34.209.3.135 1 1 87 20250722120032
+165.22.196.197 1 2 51778 20250723133635
+123.6.49.50 0 2 5367 
+31.13.127.6 0 3 36113 
+180.163.220.111 0 1 38654 
+64.15.129.104 1 1 160800 20250722193708
+101.198.0.180 1 1 212281 20250729080820
+31.13.127.112 0 2 41049 
+192.175.111.238 1 1 160800 20250722193711
+180.163.220.110 1 1 212281 20250729081148
+192.175.111.230 1 1 159168 20250722193701
+31.13.127.115 0 3 350460 
+31.13.103.112 1 1 16024 20250731190526
+31.13.127.9 0 2 424041 
+18.143.152.59 1 1 87 20250722120032
+196.251.88.64 1 1 13110 20250723103146
+176.53.219.121 1 1 15403 20250726004111
+165.22.220.165 1 2 53086 20250725141503
+87.236.176.252 0 1 38654 
+173.252.95.5 0 10 1387362 
+104.197.69.115 1 18 1506710 20250723083929
+192.175.111.229 1 1 159168 20250722193640
+34.57.176.236 1 1 12900 20250722163455
+205.169.39.20 0 1 93725 
+196.251.88.59 1 1 13127 20250723101226
+180.163.220.50 1 1 2006 20250729081241
+101.198.0.188 0 1 38654 
+34.72.176.129 0 1 142607 
+192.175.111.245 0 1 9052 
+154.47.30.14 0 1 38654 
+205.169.39.58 0 1 142607 
+31.13.127.114 1 23 2707424 20250726053607
+173.252.95.7 0 3 25388 
+143.110.215.247 1 2 54590 20250730075350
+64.15.129.110 1 1 159168 20250722193658
+24.199.116.72 1 2 54604 20250729123943
+101.198.0.189 1 1 2006 20250729080955
+89.104.101.254 1 1 15412 20250726011019
+31.13.127.20 0 3 6440 
+64.64.112.17 1 1 13869 20250725002853
+123.6.49.47 0 5 67716 
+123.6.49.18 1 17 387000 20250722173113
+164.92.244.132 1 1 1370 20250722120041
+27.115.124.48 0 1 9052 
+159.203.129.204 1 2 54668 20250731122147
+34.216.113.93 1 1 87 20250722120032
+147.185.132.24 1 1 212352 20250731195142
+192.175.111.236 1 1 159168 20250722193635
+199.45.154.144 1 3 92891 20250727235722
+173.252.95.18 0 4 11361 
+69.171.234.15 1 1 16015 20250731190526
+31.13.127.11 0 1 715329 
+3.139.54.120 1 1 87 20250722120032
+178.128.207.138 1 1 1374 20250722120042
+31.13.115.6 0 4 10454 
+64.15.129.123 0 1 9052 
+101.198.0.182 1 1 15942 20250729080907
+13.48.137.194 1 1 87 20250722120032
+31.13.127.4 0 3 441723 
+173.252.95.25 0 4 46482 
+31.13.115.112 0 4 46482 
+123.6.49.12 1 17 286906 20250722173121
+185.247.137.129 0 1 38654 
+134.209.223.121 1 2 53092 20250725125949
+192.175.111.252 1 1 160800 20250722193704
+69.63.189.38 1 1 16023 20250731190621
+173.252.95.39 1 1 16024 20250731190436
+173.252.95.125 0 4 37033 
+205.169.39.19 1 2 30911 20250722120227
+205.169.39.25 0 1 3425 
+185.247.137.168 1 1 13126 20250723223037
+27.115.124.104 1 1 2031 20250731202536
+13.229.126.206 1 1 87 20250722120032
+31.13.115.7 2 60 13629208 20250731190556
+206.168.34.118 1 3 92895 20250727235744
+13.48.124.253 1 1 87 20250722120032
+31.13.115.114 1 17 1866903 20250731190446
+173.252.95.36 0 16 3146480 
+64.15.129.103 1 1 160800 20250722193714
+45.112.72.185 2 12 500490 20250725154859
+27.115.124.113 0 1 38654 
+173.252.95.115 1 21 4844336 20250731190444
+34.44.132.69 1 1 12906 20250722174822
+173.252.95.10 0 21 4393430 
+27.115.124.67 1 1 214520 20250731202517
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 10
+20250722 85 396 13747939 36
+20250723 26 253 14645912 11
+20250724 1 2 51763 1
+20250725 5 18 659191 4
+20250726 6 67 10118053 4
+20250727 2 6 185786 2
+20250728 1 1 1119 1
+20250729 6 9 576428 6
+20250730 18 208 28500445 4
+20250731 26 296 48207300 17
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+2mn-5mn 2
+30mn-1h 1
+1h+ 1
+15mn-30mn 1
+0s-30s 80
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 17
+/ 76 3558885 56 44
+/public/frontEnd/webfonts/fa-brands-400.woff2 21 2268000 2 12
+/public/frontEnd/webfonts/fa-solid-900.woff2 21 3148068 5 6
+/admin/login 16 18559 5 3
+/public/frontEnd/webfonts/fa-regular-400.woff2 15 372600 4 3
+/.well-known/acme-challenge/pub67MGDLpM68wwOa1UE9o_W_iOCtm2D_ClrBGcGblM 5 435 5 4
+/.well-known/acme-challenge/lZFzuUkbXabDSwaoauJbCuz3EZNr75U5jmbTdJkpZxg 5 435 4 5
+/sitemap.xml 4 24587 3 4
+/public/backEnd/assets/fonts/feather.woff 4 118000 0 2
+/stock-check 2 277 0 0
+/product/japani-silk-skin-print-sharee-with-blouse-piece 1 17839 0 0
+/product/luxury-china-spandex-cot-drooped-shulderd-shirt 1 17290 1 1
+/category/mens-fashion 1 12099 0 0
+/.well-known/acme-challenge/_JLHPAO4QV7LN3RU5TUGGP3C1KPA_E-Z 1 64 0 1
+/product/georgette-embroidery-sharee-with-blouse-piece 1 16862 0 1
+/.well-known/acme-challenge/3Y4L9QO-NRUJVVBFINFPLR6LJOCA8CO1 1 64 1 0
+/variable-view 1 482 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+1K-2K 146
+100-500 50
+0-44 9
+500-1K 30
+2K-5K 282
+44-100 13
+5K+ 1281
+END_FILESIZE

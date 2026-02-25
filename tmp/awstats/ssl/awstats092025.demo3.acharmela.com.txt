@@ -1,0 +1,632 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202509 will be lost/reset.
+# Last config file used to build this data file was /home/acharmel/tmp/awstats/ssl/awstats.demo3.acharmela.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2054                
+POS_TIME 2714                
+POS_VISITOR 12185               
+POS_DAY 14438               
+POS_DOMAIN 3403                
+POS_LOGIN 3764                
+POS_ROBOT 3919                
+POS_WORMS 4321                
+POS_EMAILSENDER 4452                
+POS_EMAILRECEIVER 4595                
+POS_SESSION 14853               
+POS_FILESIZE 18174               
+POS_SIDER 15010               
+POS_FILETYPES 4730                
+POS_DOWNLOADS 4973                
+POS_OS 5021                
+POS_BROWSER 5241                
+POS_SCREENSIZE 5931                
+POS_UNKNOWNREFERER 6005                
+POS_UNKNOWNREFERERBROWSER 6631                
+POS_ORIGIN 6904                
+POS_SEREFERRALS 7042                
+POS_PAGEREFS 7205                
+POS_SEARCHWORDS 7797                
+POS_KEYWORDS 7949                
+POS_MISC 2378                
+POS_ERRORS 8008                
+POS_CLUSTER 3620                
+POS_SIDER_404 8152                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250929084256 2 234 3695066695064
+FirstTime 0
+LastTime 20250927104759
+LastUpdate 20250929180251 2 0 2 0 0
+TotalVisits 54                  
+TotalUnique 52                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 56                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 8 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 3 17396 10 21 1224771
+1 1 1 195777 4 4 460754
+2 1 1 15797 5 14 436620
+3 1 8 50177 4 5 3339
+4 4 15 134794 7 64 46060
+5 58 101 4969066 5 5 5662
+6 2 13 114936 6 6 202827
+7 0 0 0 0 0 0
+8 0 0 0 5 5 200803
+9 36 448 37069202 135 145 4188309
+10 3 3 227354 63 80 6601162
+11 6 77 5032886 10 14 859182
+12 3 3 31597 91 91 118242
+13 1 1 15789 2 2 2484
+14 1 1 15789 1 2 197077
+15 0 0 0 0 0 0
+16 2 5 33985 8 11 1526106
+17 2 2 393866 3 14 644097
+18 5 7 621666 4 4 5200
+19 0 0 0 1 1 15785
+20 7 70 4798328 5 5 606672
+21 1 2 16594 7 9 1040250
+22 0 0 0 0 0 0
+23 4 4 63171 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+cn 64 120 6325229
+us 54 551 41564941
+ru 7 10 262518
+in 5 67 4765931
+ca 3 3 407342
+be 2 3 32377
+pl 1 8 50177
+fr 1 1 196933
+rs 1 1 196933
+at 1 1 15789
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+bot[\s_+:,\.\;\/\\-] 108 1650205 20250926162641 5
+Go\-http\-client/ 31 1312232 20250920025457 0
+no_user_agent 10 1832153 20250929084256 0
+checker 2 31571 20250907191456 0
+survey 2 393866 20250910165047 0
+unknown 1 24 20250913030039 1
+Googlebot/ 1 15787 20250912200925 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+jpeg 8 82088 0 0
+js 107 1061519 0 0
+jpg 98 10493952 0 0
+png 49 24791585 0 0
+woff2 21 1979236 0 0
+Unknown 53 587312 0 0
+css 84 562590 0 0
+webp 280 10882400 0 0
+html 65 3377488 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+linuxubuntu 3 3
+macosx15 5 5
+ios_iphone 264 12
+win7 30 7
+androidmarshmallow 1 1
+linux 128 11
+win10 291 85
+androidlollipop 1 1
+android12 1 1
+Unknown 41 13
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 31
+firefox134.0 3 3
+chrome83.0.4093.0 1 1
+firefox139.0 4 2
+Unknown 8 2
+safari10.0 131 4
+chrome117.0.5938.132 103 8
+chrome104.0.0.0 2 2
+chrome108.0.0.0 4 4
+chrome101.0.4951.41 1 1
+netscape5.0 18 4
+chrome73.0.3683.90 1 1
+chrome118.0.0.0 1 1
+chrome138.0.7204.97 1 1
+chrome78.0.3904.108 2 2
+safari 133 8
+chrome79.0.3945.79 66 4
+mozilla 16 8
+chrome139.0.0.0 8 4
+chrome137.0.0.0 2 2
+chrome52.0.2717.98 1 1
+chrome116.0.0.0 1 1
+chrome106.0.0.0 1 1
+chrome58.0.3029.110 1 1
+chrome125.0.6422.60 115 4
+chrome131.0.0.0 1 1
+chrome107.0.0.0 99 57
+chrome83.0.4103.61 10 1
+firefox126.0 1 1
+chrome120.0.0.0 1 1
+chrome49.0.2623.112 20 6
+chrome91.0.4472.124 9 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250927104759
+python-httpx/0.28.1 20250917065609
+Mozilla/5.0 20250911061323
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20250912092625
+Mozilla/5.0_zgrab/0.x 20250917123610
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250924165913
+Mozilla/5.0_(compatible;_UGAResearchAgent/1.0;_Please_visit:_NISLabUGA.github.io) 20250908101958
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250927104759
+python-httpx/0.28.1 20250917065609
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 106 183
+From1 0 0
+From2 1 1
+From3 6 18
+From4 26 563
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 13
+https://keisyu-hirono.com 2 2
+https://crm.edukali.com 2 2
+https://www.sddxhdyf.com 1 1
+https://intelliihome.com 1 1
+http://cpcontacts.estudiopilatescuritiba.com.br 0 1
+https://qmislimited.com.ng 0 1
+https://4u-lisbon-iv-guesthouse.lisbon-hotel.org 0 1
+https://clinicavisionmaraba.com.br 0 1
+https://arenda.diprent.ru 0 1
+https://amr-rentals.com 0 1
+https://www.al-hikmatulwali.com 0 1
+http://b.mtlovergtt.buzz 0 2
+http://billing.iukil.com 0 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+301 2 1590
+404 244 259021
+405 3 572816
+500 68 12288813
+403 22 27324
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 178
+/w3llstore.php 1 -
+/aucxcocoxo.php 1 -
+/login.action 1 -
+/x3x3x3x.php 1 -
+/@vite/env 1 -
+/des.php 1 -
+/abhgt.php 1 -
+/rak.php 1 -
+/aucxzso.php 1 -
+/info.php 1 -
+/C1.php 1 -
+/_all_dbs 1 -
+/ioxi2.php 2 -
+/rsnu.php 1 -
+/akc.php 1 -
+/documentroot.php 1 -
+/dfre.php 1 -
+/s/63e2130323e2834323e2136313/_/ 1 -
+/mo.php 1 -
+/rjv.php 1 -
+/cfile.php 2 -
+/co.php 2 -
+/server 1 -
+/file2.php 1 -
+/bless2.php 1 -
+/an.php 1 -
+/blog.env 1 -
+/404.shtml 1 -
+/articles.php 1 -
+/usep.php 1 -
+/v2/_catalog 1 -
+/wp-omo.php 1 -
+/shell 3 -
+/wp-update.php 1 -
+/520.php 1 -
+/server-status 1 -
+/manager.php 1 -
+/efile.php 1 -
+/gg.php 1 -
+/eauu.php 1 -
+/13.php 1 -
+/foot.php 1 -
+/file1.php 2 -
+/about 1 -
+//www.demo3.acharmela.com/public/backEnd/assets/js/toastr.min.js 5 -
+/_profiler/phpinfo 1 -
+/wp-kisaki.php 1 -
+/wp-gr.php 1 -
+/.vscode/sftp.json 1 -
+//web/wp-includes/wlwmanifest.xml 1 -
+/file17.php 1 -
+/puts.php 1 -
+/ext.php 1 -
+/num.php 1 -
+/yasnu.php 1 -
+/file.php 1 -
+//cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js 5 -
+//www.demo3.acharmela.com/public/frontEnd/js/wow.min.js 5 -
+/site/01775457008 1 -
+/public/backEnd/assets/js/toastr.js.map 1 -
+/CLA.php 2 -
+/lv.php 1 -
+/k.php 1 -
+/lc.php 2 -
+/ar.php 1 -
+/ee.php 1 -
+/default.php 1 -
+/wordpress 1 https://demo3.acharmela.com/wordpress/
+//www.demo3.acharmela.com/public/frontEnd/js/owl.carousel.min.js 5 -
+/class.1.php 1 -
+//www.demo3.acharmela.com/public/frontEnd/js/wsit-menu.js 4 -
+//www.demo3.acharmela.com/public/frontEnd/js/mobile-menu-init.js 4 -
+/gif.php 1 -
+/we.php 1 -
+/js 1 -
+/abcd.php 1 -
+/inc.php 1 -
+/wp-content/plugins/hellopress/wp_filemanager.php 2 -
+/blue.php 1 -
+/aaaa.php 1 -
+/cbrfo.php 1 -
+/goat.php 1 -
+/webshell.php 2 -
+/r4f_1.php 1 -
+//cdn.js 4 -
+/jmfi2.php 1 -
+/xBrain.php 1 -
+/krypton.php 1 -
+/error.php 1 -
+//www.demo3.acharmela.com/public/frontEnd/js/jquery-3.6.3.min.js 4 -
+/system_log.php 1 -
+/config.json 1 -
+/222.php 1 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 1 -
+//www.demo3.acharmela.com/public/frontEnd/js/bootstrap.min.js 4 -
+/good.php 1 -
+//connect.facebook.net/en_US/fbevents.js 4 -
+/jquery.php 1 -
+//www.demo3.acharmela.com/public/frontEnd/js/mobile-menu.js 5 -
+/.DS_Store 1 -
+/public/frontEnd/js/'+b.j+' 1 -
+/jx.php 1 -
+/public/frontEnd/js/parsley.min.js.map 1 -
+/gmo.php 1 -
+/.env.local 1 -
+/gold.php 1 -
+/sitemap.xml 4 -
+/ol.php 1 -
+/ahax.php 1 -
+/va.php 1 -
+/tcp.php 1 -
+/webshell 2 -
+//www.googletagmanager.com/gtm.js 4 -
+/claa.php 1 -
+/page/01775457008 1 -
+/fe5.php 1 -
+/file5.php 1 -
+/v2.php 2 -
+/01775457008 2 -
+/lala.php 1 -
+/wio.php 1 -
+/product/01775457008 1 -
+/xhouf.php 1 -
+/lock360.php 1 -
+/great.php 1 -
+/aa.php 1 -
+/tund.php 1 -
+/fork.php 1 -
+/public/frontEnd/js/'+b.loadinggif+' 1 -
+/gfile.php 1 -
+//xmlrpc.php 1 -
+/axx.php 1 -
+/MARIJUANA.php 1 -
+/nc4.php 1 -
+/actuator/env 1 -
+/pp.php 1 -
+/.well-known/security.txt 1 -
+/ffile.php 2 -
+/makeasmtp.php 1 -
+/ava.php 2 -
+/gm.php 1 -
+/customer/01775457008 1 -
+//blog/wp-includes/wlwmanifest.xml 1 -
+/debug/default/view 1 -
+/hook.php 1 -
+/gfile1.php 1 -
+/filei.php 1 -
+/public/frontEnd/js/jquery.syotimer.min.js.map 1 -
+/add-to-cart 1 -
+/aa17.php 1 -
+/wander.php 1 -
+/cra.php 1 -
+/cccc.php 1 -
+/acxx.php 1 -
+/telescope/requests 1 -
+/public/frontEnd/js/bootstrap.min.js.map 1 -
+/atomlib.php 1 -
+/public/wsr2.php 1 -
+/slo.php 2 -
+/shell.php 3 -
+/zex4.php 1 -
+/wp-includes/certificates/plugins.php 1 -
+/.env.production 1 -
+/sad.php 1 -
+/autoload_classmap.php 1 -
+/css.php 1 -
+/ot.php 1 -
+//www.demo3.acharmela.com/public/frontEnd/js/jquery.syotimer.min.js 4 -
+/vanta.php 1 -
+//wp-includes/wlwmanifest.xml 1 -
+/file32.php 1 -
+/wp-admin/install.php 1 -
+/tesla.php 1 -
+/new4.php 2 -
+/wsback.php 1 -
+/asasx.php 1 -
+/ez.php 1 -
+/hexx.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 56
+183.207.45.126 57 99 4952475 20250912051623
+205.169.39.179 5 76 4835953 20250905112342
+205.169.39.4 4 66 4750142 20250926200831
+205.169.39.58 4 37 1553252 20250905091739
+103.4.250.219 4 66 4750144 20250905091911
+34.122.147.229 4 115 10200019 20250905091838
+3.222.165.167 4 4 63171 20250923232656
+104.252.110.95 4 67 4750946 20250905091911
+34.116.216.162 4 131 14314151 20250905092020
+195.211.77.140 2 2 0 20250905121146
+54.226.182.4 2 2 31596 20250925200334
+195.211.77.142 2 2 31599 20250905121223
+106.75.157.202 2 2 131072 20250905095625
+106.75.157.207 2 2 326849 20250905095931
+52.77.255.153 2 2 391554 20250911183924
+87.236.176.206 1 1 15786 20250924165654
+167.99.191.146 1 2 16591 20250926181309
+3.138.185.30 1 1 15798 20250917123610
+198.235.24.8 1 1 195777 20250927104759
+64.227.159.125 1 2 16590 20250905202424
+45.148.10.248 1 1 15787 20250925041255
+207.148.10.224 1 1 15788 20250905093701
+51.254.49.105 1 1 196933 20250907184109
+54.82.1.127 1 10 85816 20250910042005
+128.192.12.104 1 1 15785 20250905100356
+185.247.137.133 0 1 804 
+87.236.176.142 0 1 804 
+167.94.146.53 1 3 17400 20250912092625
+205.169.39.3 1 1 15787 20250905091818
+185.247.137.177 1 1 15787 20250924164915
+91.196.152.80 1 1 196933 20250907173326
+167.71.175.236 1 1 196933 20250905091737
+34.90.214.70 1 1 15798 20250905095429
+185.247.137.233 0 1 804 
+106.75.141.23 1 8 358950 20250905095158
+37.72.172.138 1 8 50177 20250913030036
+185.247.137.169 0 1 804 
+44.193.254.10 1 1 15789 20250926142435
+206.168.34.43 1 3 17396 20250910004203
+35.198.200.50 1 1 15797 20250906020135
+89.207.146.191 1 1 15789 20250918132220
+104.248.89.195 1 2 16590 20250912041850
+165.22.226.223 1 2 16588 20250907184718
+128.192.12.120 1 1 15790 20250905091810
+128.192.12.108 1 1 15792 20250908101958
+123.6.49.17 1 1 196933 20250906115506
+144.126.229.213 1 2 16601 20250907041644
+106.75.138.231 1 8 358950 20250905095115
+159.223.11.10 1 2 16594 20250909210951
+205.210.31.38 1 1 195777 20250923014034
+91.231.89.124 1 1 196933 20250907171906
+23.234.103.39 1 1 15786 20250905091759
+87.236.176.214 1 1 15787 20250924054613
+98.80.226.18 1 7 38750 20250917065602
+194.32.122.29 1 1 15787 20250905091801
+52.91.217.203 1 6 76186 20250911061319
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20250905 44 526 41935929 23
+20250906 2 2 212730 2
+20250907 5 7 623988 5
+20250908 1 1 15792 1
+20250909 1 2 16594 1
+20250910 2 13 103212 2
+20250911 3 8 467740 2
+20250912 59 104 4986465 3
+20250913 1 8 50177 1
+20250917 2 8 54548 2
+20250918 1 1 15789 1
+20250923 5 5 258948 2
+20250924 3 7 50576 3
+20250925 3 3 47383 2
+20250926 6 69 4782522 3
+20250927 1 1 195777 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 53
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 57
+/ 65 3377488 54 46
+/public/frontEnd/webfonts/fa-solid-900.woff2 7 1049356 0 2
+/public/frontEnd/webfonts/fa-brands-400.woff2 7 756000 0 2
+/public/frontEnd/webfonts/fa-regular-400.woff2 7 173880 0 3
+/category/mobile-accessories 1 10122 0 0
+/product/ugreen-car-charger-with-fm-modulator-pd-2x-usb-1x-type-c-bluetooth-qc-3.0-car-charger-80910-cd229-187 1 14662 0 0
+/product/2025-full-new-desktop-computer-intel-core-i5-ram-8gb-ssd-120gb-hdd-500gb-graphics-2gb-built-in-gaming-pc-win-11-64-bit-and-17-19-22-inch-monitor-192 1 13782 0 0
+/subcategory/tws 1 9911 0 0
+/product/ugreen-tire-inflator-portable-air-compressor-150psi-air-pump-183 1 13466 0 0
+/category/power-bank 1 9884 0 0
+/subcategory/toys 1 9909 0 0
+/page/return-policy 1 8578 0 0
+/category/laptop-&-computer 1 9882 0 0
+/product/joyroom-jr-cl05-78w-multi-5-ports-fast-charging-185 1 13334 0 0
+/subcategory/car-dash-camera 1 10380 0 0
+/category/smart-watch 1 9883 0 0
+/customer/order-track 1 8700 0 0
+/subcategory/health-care-gadgetz 1 10318 0 0
+/subcategory/car-vacuum-cleaner 1 10392 0 0
+/page/delivery-rules 1 8586 0 0
+/hot-deals 1 12022 0 0
+/product/smiling-shark-light-sd1023-led-multifunctional-flashlight-with-hook-1 1 13839 0 0
+/subcategory/bluetooth-speaker 1 9914 0 0
+/product/proove-mr-cleaner-20-in-1-multifunctional-cleaning-kit-182 1 14585 0 0
+/product/intel-10th-gen-core-i5-desktop-computer-189 1 13892 0 0
+/category/premium-gadgetz 1 11397 0 1
+/subcategory/trendy-&-smart-gadget 1 10525 0 0
+/product/usb-bluetooth-5.0-adapter-wireless-dongle-stereo-receiver-audio-for-tv-pc-laptop---black-190 1 13835 0 0
+/customer/login 1 8946 0 0
+/category/bike-&-car 1 9886 0 0
+/subcategory/charger-adapter 1 9913 0 0
+/customer/checkout 1 11646 0 0
+/product/intel-core-i7-8th-gen-ram-16gb-ssd-256gb-hdd-500gb-graphics-8gb-gaming-pc-193 1 13896 0 0
+/subcategory/screen-protector 1 9911 0 0
+/product/jr-cl06-154w-car-cigarette-lighter-adapter-with-three-sockets-+-6-ports-184 1 14054 0 0
+/category/solor-&-eelectric 1 9885 0 0
+/subcategory/premium-backpack-&-bag 1 9910 0 0
+/category/car-accessories 1 11454 0 0
+/product/artiart-grace-470ml-stainless-steel-spill-proof-suction-mug-with-flip-top-lid-180 1 14644 0 0
+/category/multifunctional-hub 1 9885 0 0
+/category/music-accessories 1 10115 0 0
+/product/hp-m10-wired-mouse---mouse-191 1 14045 0 0
+/category/pc-accessories 1 11133 0 0
+/subcategory/bluetooth-neckband-earphone 1 9916 0 0
+/product/wiwu-pc500-72w-2-ports-black-car-charger-%28usb-c-&-usb-a%29-186 1 13304 0 0
+/subcategory/car-tire-inflator 1 9916 0 0
+/page/order-procedure 1 8583 0 0
+/product/joyroom-mount-jr-zs288-bike-phone-mount-quick-release-bicycle-handlebar-phone-holder-for-4.7-7-inch-cell-phones-%E2%80%93-black-188 1 14864 0 0
+/site/contact-us 1 9130 0 0
+/page/test 1 8585 0 0
+/product/wiwu-itag-wt-03-easy-to-find-card-tracker-%28support-apple-find-my-anti-lost%29-181 1 13572 0 0
+/page/terms-&-conditions 1 8584 0 0
+/page/privacy-policy 1 8580 0 0
+/subcategory/car-jump-starter 1 10539 0 0
+/subcategory/smart-lamp-&-lights 1 10330 0 0
+/subcategory/fashion-&-life-style 1 10379 0 0
+/subcategory/charging-cable 1 9909 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 6
+0-44 34
+1K-2K 218
+2K-5K 79
+500-1K 138
+5K+ 789
+100-500 9
+END_FILESIZE

@@ -1,0 +1,8 @@
+﻿  origin/HEAD -> origin/main
+  origin/developer
+  origin/feature/feature-toggles-implementation
+  origin/feature/incomplete-orders-system-Ahasan39
+  origin/feature/pathao-courier-integration-Ahasan39
+  origin/feature/theme-color-setting-fix-Ahasan39
+  origin/main
+  origin/performance-optimization-database-indexes-Ahasan39

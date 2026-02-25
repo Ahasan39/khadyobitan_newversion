@@ -1,0 +1,184 @@
+ PMA_token |s:32:"245d4d49226b5b23606525304f255778"; HMAC_secret |s:16:".1B!!X!l8d%es$I&";auth_type|s:3:"env";browser_access_time|a:2:{s:7:"default";i:1758214779;s:36:"ffe2fc7e-fe37-f20b-e56a-5d94ee81cc81";i:1758212283;}encryption_key|s:32:"NòtÑqO×Ö‡(™á ãCç·ßâ\
+ù²Z~w‡€ãðH";relation|a:1:{i:1;a:41:{s:7:"version";s:5:"5.2.2";s:4:"user";N;s:2:"db";N;s:8:"bookmark";N;s:15:"central_columns";N;s:11:"column_info";N;s:17:"designer_settings";N;s:16:"export_templates";N;s:8:"favorite";N;s:7:"history";N;s:16:"navigationhiding";N;s:9:"pdf_pages";N;s:6:"recent";N;s:8:"relation";N;s:13:"savedsearches";N;s:12:"table_coords";N;s:10:"table_info";N;s:13:"table_uiprefs";N;s:8:"tracking";N;s:10:"userconfig";N;s:10:"usergroups";N;s:5:"users";N;s:12:"bookmarkwork";b:0;s:8:"mimework";b:0;s:18:"centralcolumnswork";b:0;s:8:"commwork";b:0;s:9:"menuswork";b:0;s:20:"designersettingswork";b:0;s:11:"displaywork";b:0;s:19:"exporttemplateswork";b:0;s:12:"favoritework";b:0;s:7:"navwork";b:0;s:7:"pdfwork";b:0;s:10:"recentwork";b:0;s:7:"relwork";b:0;s:17:"savedsearcheswork";b:0;s:11:"historywork";b:0;s:12:"trackingwork";b:0;s:11:"uiprefswork";b:0;s:14:"userconfigwork";b:0;s:8:"allworks";b:0;}}userconfig|a:2:{s:2:"db";a:1:{s:12:"Console/Mode";s:8:"collapse";}s:2:"ts";i:1758214775;}two_factor_check|b:1;cache|a:2:{s:8:"server_1";a:4:{s:15:"userprefs_mtime";i:1758214775;s:14:"userprefs_type";s:7:"session";s:12:"config_mtime";i:1750807243;s:9:"userprefs";a:1:{s:7:"Console";a:1:{s:4:"Mode";s:8:"collapse";}}}s:17:"server_1_acharmel";a:18:{s:17:"is_create_db_priv";b:0;s:14:"is_reload_priv";b:0;s:12:"db_to_create";s:0:"";s:30:"dbs_where_create_table_allowed";a:10:{i:0;s:17:"acharmel\_onelife";i:1;s:24:"acharmel\_update\_system";i:2;s:22:"acharmel\_nronlineshop";i:3;s:15:"acharmel\_wp647";i:4;s:14:"acharmel\_ecom";i:5;s:18:"acharmel\_beautibd";i:6;s:21:"acharmel\_categoryone";i:7;s:32:"acharmel\_update\_system\_second";i:8;s:20:"acharmel\_milamartbd";i:9;s:15:"acharmel\_demo2";}s:11:"dbs_to_test";b:0;s:9:"proc_priv";b:0;s:10:"table_priv";b:0;s:8:"col_priv";b:0;s:7:"db_priv";b:0;s:11:"binary_logs";a:0:{}s:18:"menu-levels-server";a:13:{s:9:"databases";s:9:"Databases";s:3:"sql";s:3:"SQL";s:6:"status";s:6:"Status";s:6:"rights";s:5:"Users";s:6:"export";s:6:"Export";s:6:"import";s:6:"Import";s:8:"settings";s:8:"Settings";s:6:"binlog";s:10:"Binary log";s:11:"replication";s:11:"Replication";s:4:"vars";s:9:"Variables";s:7:"charset";s:8:"Charsets";s:7:"plugins";s:7:"Plugins";s:6:"engine";s:7:"Engines";}s:14:"menu-levels-db";a:14:{s:9:"structure";s:9:"Structure";s:3:"sql";s:3:"SQL";s:6:"search";s:6:"Search";s:5:"query";s:5:"Query";s:6:"export";s:6:"Export";s:6:"import";s:6:"Import";s:9:"operation";s:10:"Operations";s:10:"privileges";s:10:"Privileges";s:8:"routines";s:8:"Routines";s:6:"events";s:6:"Events";s:8:"triggers";s:8:"Triggers";s:8:"tracking";s:8:"Tracking";s:8:"designer";s:8:"Designer";s:15:"central_columns";s:15:"Central columns";}s:19:"profiling_supported";b:1;s:17:"menu-levels-table";a:11:{s:6:"browse";s:6:"Browse";s:9:"structure";s:9:"Structure";s:3:"sql";s:3:"SQL";s:6:"search";s:6:"Search";s:6:"insert";s:6:"Insert";s:6:"export";s:6:"Export";s:6:"import";s:6:"Import";s:10:"privileges";s:10:"Privileges";s:9:"operation";s:10:"Operations";s:8:"tracking";s:8:"Tracking";s:8:"triggers";s:8:"Triggers";}s:14:"mysql_cur_user";s:18:"acharmel@localhost";s:12:"is_superuser";b:0;s:12:"is_grantuser";b:0;s:13:"is_createuser";b:0;}}tmpval|a:16:{s:14:"favoriteTables";a:1:{i:1;a:0:{}}s:12:"recentTables";a:1:{i:1;a:10:{i:0;a:2:{s:2:"db";s:25:"acharmel_ clothingfashion";s:5:"table";s:13:"productimages";}i:1;a:2:{s:2:"db";s:25:"acharmel_ clothingfashion";s:5:"table";s:8:"products";}i:2;a:2:{s:2:"db";s:20:"acharmel_categoryone";s:5:"table";s:10:"categories";}i:3;a:2:{s:2:"db";s:20:"acharmel_categoryone";s:5:"table";s:13:"productimages";}i:4;a:2:{s:2:"db";s:20:"acharmel_categoryone";s:5:"table";s:8:"products";}i:5;a:2:{s:2:"db";s:20:"acharmel_categroytwo";s:5:"table";s:12:"productsizes";}i:6;a:2:{s:2:"db";s:20:"acharmel_categroytwo";s:5:"table";s:13:"productcolors";}i:7;a:2:{s:2:"db";s:20:"acharmel_categroytwo";s:5:"table";s:17:"product_variables";}i:8;a:2:{s:2:"db";s:20:"acharmel_categroytwo";s:5:"table";s:13:"productimages";}i:9;a:2:{s:2:"db";s:20:"acharmel_categroytwo";s:5:"table";s:8:"products";}}}s:18:"table_limit_offset";i:0;s:21:"table_limit_offset_db";s:23:"acharmel_homeappliances";s:13:"table_uiprefs";a:1:{i:1;a:3:{s:20:"acharmel_categroytwo";a:6:{s:8:"products";a:1:{s:10:"sorted_col";s:9:"`id` DESC";}s:10:"categories";a:0:{}s:13:"productimages";a:0:{}s:17:"product_variables";a:0:{}s:13:"productcolors";a:0:{}s:12:"productsizes";a:0:{}}s:20:"acharmel_categoryone";a:3:{s:8:"products";a:0:{}s:13:"productimages";a:0:{}s:10:"categories";a:0:{}}s:25:"acharmel_ clothingfashion";a:2:{s:8:"products";a:0:{}s:13:"productimages";a:0:{}}}}s:5:"query";a:10:{s:32:"bf6a0f117c01b75378817a0758c1a96f";a:8:{s:3:"sql";s:4412:"-- Clothing & Fashion Products Insert
+-- Make sure to update category_id according to your categories table
+
+-- Insert Products
+INSERT INTO `products` (`name`, `category_id`, `description`, `slug`, `type`, `purchase_price`, `old_price`, `new_price`, `stock`, `pro_barcode`, `status`, `topsale`, `new_arrival`, `top_rated`, `top_selling`, `created_at`, `updated_at`) VALUES
+('Men Cotton T-Shirt - Round Neck', 3, 'Premium quality cotton t-shirt for men. Comfortable fit with round neck design. Available in multiple colors.', 'men-cotton-t-shirt-round-neck-29', 1, 350.00, 450.00, 400.00, 0, 'CLO000001', 1, 1, 1, 1, 1, NOW(), NOW()),
+('Men Formal Shirt - Full Sleeve', 3, 'Professional formal shirt for office wear. High-quality fabric with perfect stitching. Classic collar design.', 'men-formal-shirt-full-sleeve-30', 1, 850.00, 1200.00, 1000.00, 0, 'CLO000002', 1, 0, 0, 1, 1, NOW(), NOW()),
+('Men Punjabi - Cotton Fabric', 3, 'Traditional Punjabi for men. Made with pure cotton fabric. Perfect for festivals and special occasions.', 'men-punjabi-cotton-fabric-31', 1, 1200.00, 1500.00, 1350.00, 0, 'CLO000003', 1, 1, 1, 1, 0, NOW(), NOW()),
+('Men Jeans Pant - Slim Fit', 3, 'Trendy slim fit jeans for men. Durable denim fabric with comfortable stretch. Modern styling with perfect fit.', 'men-jeans-pant-slim-fit-32', 1, 1100.00, 1400.00, 1250.00, 0, 'CLO000004', 1, 1, 0, 1, 1, NOW(), NOW()),
+('Men Polo Shirt - Collar Design', 3, 'Classic polo shirt with collar design. Premium cotton blend fabric. Ideal for casual and semi-formal occasions.', 'men-polo-shirt-collar-design-33', 1, 650.00, 800.00, 720.00, 0, 'CLO000005', 1, 0, 1, 0, 1, NOW(), NOW()),
+('Women Cotton Kurti - Long Sleeve', 3, 'Elegant cotton kurti for women. Comfortable and stylish design. Perfect for daily wear and office.', 'women-cotton-kurti-long-sleeve-34', 1, 950.00, 1200.00, 1080.00, 0, 'CLO000006', 1, 1, 1, 1, 1, NOW(), NOW()),
+('Women Saree - Silk Fabric', 3, 'Beautiful silk saree with traditional design. Premium quality silk with attractive border. Perfect for weddings.', 'women-saree-silk-fabric-35', 1, 2500.00, 3200.00, 2800.00, 0, 'CLO000007', 1, 1, 0, 1, 0, NOW(), NOW()),
+('Women Jeans - Skinny Fit', 3, 'Fashionable skinny fit jeans for women. High-quality denim with perfect stretch. Comfortable all-day wear.', 'women-jeans-skinny-fit-36', 1, 1300.00, 1600.00, 1450.00, 0, 'CLO000008', 1, 0, 1, 1, 1, NOW(), NOW()),
+('Women Top - Sleeveless', 3, 'Trendy sleeveless top for women. Soft fabric with modern design. Great for summer and casual outings.', 'women-top-sleeveless-37', 1, 450.00, 600.00, 520.00, 0, 'CLO000009', 1, 1, 0, 0, 1, NOW(), NOW()),
+('Women Dress - Midi Length', 3, 'Elegant midi length dress for women. Premium fabric with beautiful print. Perfect for parties and events.', 'women-dress-midi-length-38', 1, 1800.00, 2200.00, 2000.00, 0, 'CLO000010', 1, 0, 1, 1, 0, NOW(), NOW()),
+('Kids T-Shirt - Cartoon Print', 3, 'Colorful cartoon printed t-shirt for kids. Soft cotton fabric safe for children skin. Fun and comfortable.', 'kids-t-shirt-cartoon-print-39', 1, 280.00, 350.00, 320.00, 0, 'CLO000011', 1, 1, 1, 1, 1, NOW(), NOW()),
+('Kids Jeans - Elastic Waist', 3, 'Comfortable jeans for kids with elastic waistband. Durable denim fabric with easy wash care.', 'kids-jeans-elastic-waist-40', 1, 650.00, 800.00, 720.00, 0, 'CLO000012', 1, 1, 0, 1, 1, NOW(), NOW()),
+('Kids Dress - Frock Style', 3, 'Beautiful frock style dress for girls. Soft fabric with attractive design. Perfect for parties and occasions.', 'kids-dress-frock-style-41', 1, 850.00, 1100.00, 950.00, 0, 'CLO000013', 1, 0, 1, 1, 0, NOW(), NOW()),
+('Kids Shirt - Casual Wear', 3, 'Casual shirt for boys. Premium cotton fabric with comfortable fit. Great for school and daily wear.', 'kids-shirt-casual-wear-42', 1, 450.00, 580.00, 520.00, 0, 'CLO000014', 1, 1, 0, 0, 1, NOW(), NOW()),
+('Kids Shorts - Summer Collection', 3, 'Comfortable shorts for kids summer collection. Breathable fabric with elastic waistband for easy wear.', 'kids-shorts-summer-collection-43', 1, 320.00, 400.00, 360.00, 0, 'CLO000015', 1, 0, 1, 1, 1, NOW(), NOW()),
+('Kids Punjabi Set - Festival Wear', 3, 'Traditional Punjabi set for boys. Premium cotton fabric with ethnic design. Perfect for festivals and ceremonies.', 'kids-punjabi-set-festival-wear-44', 1, 1200.00, 1500.00, 1350.00, 0, 'CLO000016', 1, 1, 1, 1, 0, NOW(), NOW());";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"6c918b2571e7f1caa065b03284cc6075";a:8:{s:3:"sql";s:2447:"-- Insert Product Images
+INSERT INTO `productimages` (`product_id`, `image`, `created_at`, `updated_at`) VALUES
+-- Assuming products start from ID 29 (after medicine products)
+(29, 'public/uploads/product/men-cotton-tshirt-1.jpg', NOW(), NOW()),
+(29, 'public/uploads/product/men-cotton-tshirt-2.jpg', NOW(), NOW()),
+(30, 'public/uploads/product/men-formal-shirt-1.jpg', NOW(), NOW()),
+(30, 'public/uploads/product/men-formal-shirt-2.jpg', NOW(), NOW()),
+(31, 'public/uploads/product/men-punjabi-cotton-1.jpg', NOW(), NOW()),
+(31, 'public/uploads/product/men-punjabi-cotton-2.jpg', NOW(), NOW()),
+(32, 'public/uploads/product/men-jeans-slim-1.jpg', NOW(), NOW()),
+(32, 'public/uploads/product/men-jeans-slim-2.jpg', NOW(), NOW()),
+(33, 'public/uploads/product/men-polo-shirt-1.jpg', NOW(), NOW()),
+(33, 'public/uploads/product/men-polo-shirt-2.jpg', NOW(), NOW()),
+(34, 'public/uploads/product/women-cotton-kurti-1.jpg', NOW(), NOW()),
+(34, 'public/uploads/product/women-cotton-kurti-2.jpg', NOW(), NOW()),
+(35, 'public/uploads/product/women-silk-saree-1.jpg', NOW(), NOW()),
+(35, 'public/uploads/product/women-silk-saree-2.jpg', NOW(), NOW()),
+(36, 'public/uploads/product/women-jeans-skinny-1.jpg', NOW(), NOW()),
+(36, 'public/uploads/product/women-jeans-skinny-2.jpg', NOW(), NOW()),
+(37, 'public/uploads/product/women-sleeveless-top-1.jpg', NOW(), NOW()),
+(37, 'public/uploads/product/women-sleeveless-top-2.jpg', NOW(), NOW()),
+(38, 'public/uploads/product/women-midi-dress-1.jpg', NOW(), NOW()),
+(38, 'public/uploads/product/women-midi-dress-2.jpg', NOW(), NOW()),
+(39, 'public/uploads/product/kids-cartoon-tshirt-1.jpg', NOW(), NOW()),
+(39, 'public/uploads/product/kids-cartoon-tshirt-2.jpg', NOW(), NOW()),
+(40, 'public/uploads/product/kids-elastic-jeans-1.jpg', NOW(), NOW()),
+(40, 'public/uploads/product/kids-elastic-jeans-2.jpg', NOW(), NOW()),
+(41, 'public/uploads/product/kids-frock-dress-1.jpg', NOW(), NOW()),
+(41, 'public/uploads/product/kids-frock-dress-2.jpg', NOW(), NOW()),
+(42, 'public/uploads/product/kids-casual-shirt-1.jpg', NOW(), NOW()),
+(42, 'public/uploads/product/kids-casual-shirt-2.jpg', NOW(), NOW()),
+(43, 'public/uploads/product/kids-summer-shorts-1.jpg', NOW(), NOW()),
+(43, 'public/uploads/product/kids-summer-shorts-2.jpg', NOW(), NOW()),
+(44, 'public/uploads/product/kids-punjabi-set-1.jpg', NOW(), NOW()),
+(44, 'public/uploads/product/kids-punjabi-set-2.jpg', NOW(), NOW());";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"453832e1c7c8dd99cb28035349943335";a:8:{s:3:"sql";s:1204:"-- Insert Purchase Details (for type 1 products)
+INSERT INTO `purchase_details` (`product_id`, `purchase_price`, `old_price`, `new_price`, `stock`, `color`, `size`, `created_at`, `updated_at`) VALUES
+(29, 350.00, 450.00, 400.00, 100, NULL, NULL, NOW(), NOW()),
+(30, 850.00, 1200.00, 1000.00, 80, NULL, NULL, NOW(), NOW()),
+(31, 1200.00, 1500.00, 1350.00, 50, NULL, NULL, NOW(), NOW()),
+(32, 1100.00, 1400.00, 1250.00, 75, NULL, NULL, NOW(), NOW()),
+(33, 650.00, 800.00, 720.00, 90, NULL, NULL, NOW(), NOW()),
+(34, 950.00, 1200.00, 1080.00, 85, NULL, NULL, NOW(), NOW()),
+(35, 2500.00, 3200.00, 2800.00, 30, NULL, NULL, NOW(), NOW()),
+(36, 1300.00, 1600.00, 1450.00, 60, NULL, NULL, NOW(), NOW()),
+(37, 450.00, 600.00, 520.00, 120, NULL, NULL, NOW(), NOW()),
+(38, 1800.00, 2200.00, 2000.00, 40, NULL, NULL, NOW(), NOW()),
+(39, 280.00, 350.00, 320.00, 150, NULL, NULL, NOW(), NOW()),
+(40, 650.00, 800.00, 720.00, 80, NULL, NULL, NOW(), NOW()),
+(41, 850.00, 1100.00, 950.00, 70, NULL, NULL, NOW(), NOW()),
+(42, 450.00, 580.00, 520.00, 100, NULL, NULL, NOW(), NOW()),
+(43, 320.00, 400.00, 360.00, 140, NULL, NULL, NOW(), NOW()),
+(44, 1200.00, 1500.00, 1350.00, 45, NULL, NULL, NOW(), NOW());";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"8f874f7e64173e45ced254681365baa4";a:8:{s:3:"sql";s:19:"TRUNCATE `products`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"00072fed2df2fe2c096f1fe8a403eee5";a:8:{s:3:"sql";s:24:"TRUNCATE `productimages`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"1166d0d43b69a57782a9b07e70ed91c4";a:8:{s:3:"sql";s:21:"TRUNCATE `categories`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"fc3ee1f7dc758e589947c8d7d96961cb";a:8:{s:3:"sql";s:269:"-- First, insert category for Home Appliances (if not exists)
+INSERT INTO `categories` (`id`, `name`, `slug`, `status`, `created_at`, `updated_at`) 
+VALUES (1, 'Home Appliances', 'home-appliances', 1, NOW(), NOW())
+ON DUPLICATE KEY UPDATE `name` = 'Home Appliances';";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"08aa838365ecf72a8bf059d1947b5ada";a:8:{s:3:"sql";s:4266:"-- Insert 16 Home Appliances products
+INSERT INTO `products` (`name`, `slug`, `category_id`, `description`, `type`, `purchase_price`, `old_price`, `new_price`, `stock`, `pro_barcode`, `status`, `topsale`, `new_arrival`, `top_rated`, `top_selling`, `created_at`, `updated_at`) VALUES
+
+-- Refrigerators (4 products)
+('Samsung Double Door Refrigerator 350L', 'samsung-double-door-refrigerator-350l-1', 1, 'Energy efficient double door refrigerator with digital temperature control and frost free technology.', 1, 45000, 55000, 48000, 15, 'REF001', 1, 1, 1, 1, 0, NOW(), NOW()),
+
+('LG Single Door Refrigerator 190L', 'lg-single-door-refrigerator-190l-2', 1, 'Compact single door refrigerator perfect for small families with smart inverter compressor.', 1, 18000, 22000, 19500, 20, 'REF002', 1, 0, 1, 0, 1, NOW(), NOW()),
+
+('Walton Frost Free Refrigerator 400L', 'walton-frost-free-refrigerator-400l-3', 1, 'Large capacity frost free refrigerator with advanced cooling technology and energy saving features.', 1, 42000, 48000, 44000, 12, 'REF003', 1, 1, 0, 1, 1, NOW(), NOW()),
+
+('Vision Side by Side Refrigerator 600L', 'vision-side-by-side-refrigerator-600l-4', 1, 'Premium side by side refrigerator with water dispenser and ice maker facility.', 1, 75000, 85000, 78000, 8, 'REF004', 1, 0, 1, 1, 0, NOW(), NOW()),
+
+-- Washing Machines (4 products)
+('Samsung Front Load Washing Machine 7kg', 'samsung-front-load-washing-machine-7kg-5', 1, 'Fully automatic front load washing machine with diamond drum and eco bubble technology.', 1, 35000, 42000, 38000, 18, 'WM001', 1, 1, 1, 0, 1, NOW(), NOW()),
+
+('LG Top Load Washing Machine 6.5kg', 'lg-top-load-washing-machine-6-5kg-6', 1, 'Semi automatic top load washing machine with smart inverter motor and multiple wash programs.', 1, 25000, 30000, 27000, 25, 'WM002', 1, 0, 0, 1, 1, NOW(), NOW()),
+
+('Walton Twin Tub Washing Machine 8kg', 'walton-twin-tub-washing-machine-8kg-7', 1, 'Twin tub washing machine with powerful motor and separate wash and spin compartments.', 1, 18000, 22000, 19500, 22, 'WM003', 1, 1, 1, 0, 0, NOW(), NOW()),
+
+('Vision Fully Automatic Washing Machine 7.5kg', 'vision-fully-automatic-washing-machine-7-5kg-8', 1, 'Fully automatic washing machine with LED display and multiple wash cycles for different fabrics.', 1, 32000, 38000, 34000, 16, 'WM004', 1, 0, 1, 1, 1, NOW(), NOW()),
+
+-- Blenders (4 products)
+('Philips High Speed Blender 1400W', 'philips-high-speed-blender-1400w-9', 1, 'Powerful blender with stainless steel blades and multiple speed settings for smoothies and juices.', 1, 8500, 10000, 9000, 35, 'BL001', 1, 1, 0, 1, 0, NOW(), NOW()),
+
+('Panasonic Multi Function Blender 800W', 'panasonic-multi-function-blender-800w-10', 1, 'Versatile blender with grinding and chopping functions, perfect for kitchen preparation.', 1, 6500, 8000, 7200, 40, 'BL002', 1, 0, 1, 0, 1, NOW(), NOW()),
+
+('Black & Decker Smoothie Blender 600W', 'black-decker-smoothie-blender-600w-11', 1, 'Compact blender designed for smoothies with portable jar and easy cleaning features.', 1, 4500, 5500, 4800, 50, 'BL003', 1, 1, 1, 0, 1, NOW(), NOW()),
+
+('Singer Power Blender 1000W', 'singer-power-blender-1000w-12', 1, 'Heavy duty blender with shock proof motor and durable glass jar for daily kitchen use.', 1, 7200, 8500, 7800, 30, 'BL004', 1, 0, 0, 1, 0, NOW(), NOW()),
+
+-- Fans (4 products)
+('KDK Ceiling Fan 56 inch', 'kdk-ceiling-fan-56-inch-13', 1, 'Premium ceiling fan with aerodynamic blade design and whisper quiet motor operation.', 1, 4500, 5200, 4800, 45, 'FAN001', 1, 1, 1, 1, 1, NOW(), NOW()),
+
+('Crompton Table Fan 16 inch', 'crompton-table-fan-16-inch-14', 1, 'Portable table fan with adjustable height and oscillation feature for personal cooling.', 1, 2800, 3200, 3000, 60, 'FAN002', 1, 0, 1, 0, 1, NOW(), NOW()),
+
+('Miyako Stand Fan 18 inch', 'miyako-stand-fan-18-inch-15', 1, 'Powerful stand fan with remote control and timer function for convenient operation.', 1, 6500, 7500, 7000, 35, 'FAN003', 1, 1, 0, 1, 0, NOW(), NOW()),
+
+('Vision Exhaust Fan 10 inch', 'vision-exhaust-fan-10-inch-16', 1, 'Wall mount exhaust fan for kitchen and bathroom with high air flow and low noise operation.', 1, 1800, 2200, 2000, 75, 'FAN004', 1, 0, 1, 0, 1, NOW(), NOW());";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"1af770608549a913e526e6813eddbea6";a:8:{s:3:"sql";s:1335:"-- Insert sample product images
+INSERT INTO `productimages` (`product_id`, `image`, `created_at`, `updated_at`) VALUES
+-- Refrigerator images
+(1, 'public/uploads/product/samsung-refrigerator-1.jpg', NOW(), NOW()),
+(2, 'public/uploads/product/lg-refrigerator-2.jpg', NOW(), NOW()),
+(3, 'public/uploads/product/walton-refrigerator-3.jpg', NOW(), NOW()),
+(4, 'public/uploads/product/vision-refrigerator-4.jpg', NOW(), NOW()),
+
+-- Washing Machine images
+(5, 'public/uploads/product/samsung-washing-machine-5.jpg', NOW(), NOW()),
+(6, 'public/uploads/product/lg-washing-machine-6.jpg', NOW(), NOW()),
+(7, 'public/uploads/product/walton-washing-machine-7.jpg', NOW(), NOW()),
+(8, 'public/uploads/product/vision-washing-machine-8.jpg', NOW(), NOW()),
+
+-- Blender images
+(9, 'public/uploads/product/philips-blender-9.jpg', NOW(), NOW()),
+(10, 'public/uploads/product/panasonic-blender-10.jpg', NOW(), NOW()),
+(11, 'public/uploads/product/black-decker-blender-11.jpg', NOW(), NOW()),
+(12, 'public/uploads/product/singer-blender-12.jpg', NOW(), NOW()),
+
+-- Fan images
+(13, 'public/uploads/product/kdk-fan-13.jpg', NOW(), NOW()),
+(14, 'public/uploads/product/crompton-fan-14.jpg', NOW(), NOW()),
+(15, 'public/uploads/product/miyako-fan-15.jpg', NOW(), NOW()),
+(16, 'public/uploads/product/vision-fan-16.jpg', NOW(), NOW());";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"af0ea953aa6304c7e2843ce4c6739679";a:8:{s:3:"sql";s:898:"-- Insert purchase details for all products (since type = 1)
+INSERT INTO `purchase_details` (`product_id`, `purchase_price`, `old_price`, `new_price`, `stock`, `created_at`, `updated_at`) VALUES
+(1, 45000, 55000, 48000, 15, NOW(), NOW()),
+(2, 18000, 22000, 19500, 20, NOW(), NOW()),
+(3, 42000, 48000, 44000, 12, NOW(), NOW()),
+(4, 75000, 85000, 78000, 8, NOW(), NOW()),
+(5, 35000, 42000, 38000, 18, NOW(), NOW()),
+(6, 25000, 30000, 27000, 25, NOW(), NOW()),
+(7, 18000, 22000, 19500, 22, NOW(), NOW()),
+(8, 32000, 38000, 34000, 16, NOW(), NOW()),
+(9, 8500, 10000, 9000, 35, NOW(), NOW()),
+(10, 6500, 8000, 7200, 40, NOW(), NOW()),
+(11, 4500, 5500, 4800, 50, NOW(), NOW()),
+(12, 7200, 8500, 7800, 30, NOW(), NOW()),
+(13, 4500, 5200, 4800, 45, NOW(), NOW()),
+(14, 2800, 3200, 3000, 60, NOW(), NOW()),
+(15, 6500, 7500, 7000, 35, NOW(), NOW()),
+(16, 1800, 2200, 2000, 75, NOW(), NOW());";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}}s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;s:12:"display_blob";b:0;s:19:"hide_transformation";b:0;s:3:"pos";i:0;s:8:"max_rows";i:25;s:12:"repeat_cells";i:100;s:20:"possible_as_geometry";b:1;}git_location|N;is_git_revision|b:0;ConfigFile1|a:4:{s:28:"PmaNoRelation_DisableWarning";b:1;s:12:"ShowCreateDb";b:0;s:7:"Console";a:1:{s:4:"Mode";s:8:"collapse";}s:7:"Servers";a:1:{i:1;a:2:{s:7:"only_db";s:0:"";s:7:"hide_db";s:0:"";}}}debug|a:0:{}flashMessages|a:0:{}__upload_status|a:1:{s:7:"handler";s:47:"PhpMyAdmin\Plugins\Import\Upload\UploadNoplugin";}Import_message|a:2:{s:7:"message";N;s:11:"go_back_url";s:62:"index.php?route=/database/structure&db=acharmel_homeappliances";}is_multi_query|b:1;sql_history|a:25:{i:0;a:3:{s:2:"db";s:20:"acharmel_categroytwo";s:5:"table";s:17:"product_variables";s:8:"sqlquery";s:33:"SELECT * FROM `product_variables`";}i:1;a:3:{s:2:"db";s:20:"acharmel_categroytwo";s:5:"table";s:17:"product_variables";s:8:"sqlquery";s:33:"SELECT * FROM `product_variables`";}i:2;a:3:{s:2:"db";s:20:"acharmel_categroytwo";s:5:"table";s:17:"product_variables";s:8:"sqlquery";s:33:"SELECT * FROM `product_variables`";}i:3;a:3:{s:2:"db";s:20:"acharmel_categroytwo";s:5:"table";s:17:"product_variables";s:8:"sqlquery";s:33:"SELECT * FROM `product_variables`";}i:4;a:3:{s:2:"db";s:20:"acharmel_categroytwo";s:5:"table";s:13:"productcolors";s:8:"sqlquery";s:29:"SELECT * FROM `productcolors`";}i:5;a:3:{s:2:"db";s:20:"acharmel_categroytwo";s:5:"table";s:12:"productsizes";s:8:"sqlquery";s:28:"SELECT * FROM `productsizes`";}i:6;a:3:{s:2:"db";s:20:"acharmel_categroytwo";s:5:"table";s:0:"";s:8:"sqlquery";s:933:"-- Insert Purchase Details (for type 1 products as per your code logic)
+INSERT INTO `purchase_details` (`product_id`, `purchase_price`, `old_price`, `new_price`, `stock`, `color`, `size`, `created_at`, `updated_at`) VALUES
+(1, 450.00, 550.00, 500.00, 100, NULL, NULL, NOW(), NOW()),
+(2, 120.00, 150.00, 135.00, 80, NULL, NULL, NOW(), NOW()),
+(3, 650.00, 750.00, 700.00, 60, NULL, NULL, NOW(), NOW()),
+(4, 80.00, 100.00, 90.00, 120, NULL, NULL, NOW(), NOW()),
+(5, 60.00, 80.00, 70.00, 150, NULL, NULL, NOW(), NOW()),
+(6, 40.00, 60.00, 50.00, 50, NULL, NULL, NOW(), NOW()),
+(7, 50.00, 70.00, 60.00, 200, NULL, NULL, NOW(), NOW()),
+(8, 35.00, 50.00, 42.00, 180, NULL, NULL, NOW(), NOW()),
+(9, 300.00, 400.00, 350.00, 40, NULL, NULL, NOW(), NOW()),
+(10, 80.00, 100.00, 90.00, 60, NULL, NULL, NOW(), NOW()),
+(11, 120.00, 150.00, 135.00, 80, NULL, NULL, NOW(), NOW()),
+(12, 25.00, 35.00, 30.00, 150, NULL, NULL, NOW(), NOW());";}i:7;a:3:{s:2:"db";s:20:"acharmel_categoryone";s:5:"table";s:8:"products";s:8:"sqlquery";s:24:"SELECT * FROM `products`";}i:8;a:3:{s:2:"db";s:20:"acharmel_categoryone";s:5:"table";s:8:"products";s:8:"sqlquery";s:24:"SELECT * FROM `products`";}i:9;a:3:{s:2:"db";s:20:"acharmel_categoryone";s:5:"table";s:8:"products";s:8:"sqlquery";s:24:"SELECT * FROM `products`";}i:10;a:3:{s:2:"db";s:20:"acharmel_categoryone";s:5:"table";s:13:"productimages";s:8:"sqlquery";s:29:"SELECT * FROM `productimages`";}i:11;a:3:{s:2:"db";s:20:"acharmel_categoryone";s:5:"table";s:13:"productimages";s:8:"sqlquery";s:29:"SELECT * FROM `productimages`";}i:12;a:3:{s:2:"db";s:20:"acharmel_categoryone";s:5:"table";s:13:"productimages";s:8:"sqlquery";s:29:"SELECT * FROM `productimages`";}i:13;a:3:{s:2:"db";s:20:"acharmel_categoryone";s:5:"table";s:13:"productimages";s:8:"sqlquery";s:29:"SELECT * FROM `productimages`";}i:14;a:3:{s:2:"db";s:20:"acharmel_categoryone";s:5:"table";s:10:"categories";s:8:"sqlquery";s:26:"SELECT * FROM `categories`";}i:15;a:3:{s:2:"db";s:20:"acharmel_categoryone";s:5:"table";s:10:"categories";s:8:"sqlquery";s:26:"SELECT * FROM `categories`";}i:16;a:3:{s:2:"db";s:20:"acharmel_categoryone";s:5:"table";s:10:"categories";s:8:"sqlquery";s:26:"SELECT * FROM `categories`";}i:17;a:3:{s:2:"db";s:25:"acharmel_ clothingfashion";s:5:"table";s:8:"products";s:8:"sqlquery";s:24:"SELECT * FROM `products`";}i:18;a:3:{s:2:"db";s:25:"acharmel_ clothingfashion";s:5:"table";s:8:"products";s:8:"sqlquery";s:24:"SELECT * FROM `products`";}i:19;a:3:{s:2:"db";s:25:"acharmel_ clothingfashion";s:5:"table";s:8:"products";s:8:"sqlquery";s:24:"SELECT * FROM `products`";}i:20;a:3:{s:2:"db";s:25:"acharmel_ clothingfashion";s:5:"table";s:13:"productimages";s:8:"sqlquery";s:29:"SELECT * FROM `productimages`";}i:21;a:3:{s:2:"db";s:25:"acharmel_ clothingfashion";s:5:"table";s:13:"productimages";s:8:"sqlquery";s:29:"SELECT * FROM `productimages`";}i:22;a:3:{s:2:"db";s:25:"acharmel_ clothingfashion";s:5:"table";s:13:"productimages";s:8:"sqlquery";s:29:"SELECT * FROM `productimages`";}i:23;a:3:{s:2:"db";s:25:"acharmel_ clothingfashion";s:5:"table";s:13:"productimages";s:8:"sqlquery";s:29:"SELECT * FROM `productimages`";}i:24;a:3:{s:2:"db";s:23:"acharmel_homeappliances";s:5:"table";s:0:"";s:8:"sqlquery";s:898:"-- Insert purchase details for all products (since type = 1)
+INSERT INTO `purchase_details` (`product_id`, `purchase_price`, `old_price`, `new_price`, `stock`, `created_at`, `updated_at`) VALUES
+(1, 45000, 55000, 48000, 15, NOW(), NOW()),
+(2, 18000, 22000, 19500, 20, NOW(), NOW()),
+(3, 42000, 48000, 44000, 12, NOW(), NOW()),
+(4, 75000, 85000, 78000, 8, NOW(), NOW()),
+(5, 35000, 42000, 38000, 18, NOW(), NOW()),
+(6, 25000, 30000, 27000, 25, NOW(), NOW()),
+(7, 18000, 22000, 19500, 22, NOW(), NOW()),
+(8, 32000, 38000, 34000, 16, NOW(), NOW()),
+(9, 8500, 10000, 9000, 35, NOW(), NOW()),
+(10, 6500, 8000, 7200, 40, NOW(), NOW()),
+(11, 4500, 5500, 4800, 50, NOW(), NOW()),
+(12, 7200, 8500, 7800, 30, NOW(), NOW()),
+(13, 4500, 5200, 4800, 45, NOW(), NOW()),
+(14, 2800, 3200, 3000, 60, NOW(), NOW()),
+(15, 6500, 7500, 7000, 35, NOW(), NOW()),
+(16, 1800, 2200, 2000, 75, NOW(), NOW());";}}sql_from_query_box|b:1;pma_switch_to_new|b:0;errors|a:0:{}

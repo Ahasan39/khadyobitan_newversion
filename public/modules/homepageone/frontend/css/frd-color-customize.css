@@ -1,0 +1,612 @@
+/*
+FILE TYPE: QUICK FULL THEME COLOR CUSTOMIZATION
+AUTHOR: FAZLE RABBI DHALI
+FILE VERSION: 1.1
+*/
+
+body{
+    background: #FFF !important;
+}
+
+/*******************************************************/
+/* ALL BUTTON TEXT COLOR */
+/*******************************************************/
+.FrHeader4_PC .searchButton,.FrHeader4_Mob .input-group-addon, .xs.frs_headline table td.td1, .sidenav_right .btn_cartclose, .frcart1 .btn_chackout, .frs_sn1 div.snsl a:hover, .frs_sn1 .frclosebtn, .frbtn_vp_atc, button.frsendmeotp, button.frloginconfirm, .fdeliAadd button, .hp_super_secfrd a.frs_moreseebtn, .frs_subcat button, .brand_marque_sec button, .left_side .sp_addtocart_btn, .left_side .sp_frdbtn_ordernow, .left_side .sp_frdbtn_co, .left_side .sp_frdbtn_co a, .FRsSearchoverlay button, footer#fr_foot1 .appdownlodebtn, #myScrollTopBtn, .FrBtn_ChatOptionShow, div.trackp_OorderSumerydiv .frbtn_InvoDownlode, button.frbtn_InvoPrint_OrdTrackP {
+    color: #f4f5f5 !important;
+}
+
+/*******************************************************/
+/* THIS ACTIVE THEME SUPER BUTTON STYELE OVERWRITE */
+/*******************************************************/
+button.frsty_theme_super_btn{
+    color: #f4f5f5 !important;
+    background: #fd12ad !important;
+}
+
+    /********************************************************************/
+    /* FRD HEADER 1 PC */
+    /********************************************************************/
+    #FRtopFnav_3 {
+        background: #FFFFFF !important;
+    }
+    #FRtopFnav_3 .frsec_1 {
+        background: #FFFFFF !important;
+    }
+    #FRtopFnav_3 .frsec_1 a{
+    color: #222222 !important;
+    }
+
+    #FRtopFnav_3 .fricon_sn1_showAhied span{
+        color: #fd12ad !important;
+    }
+
+    #FRtopFnav_3 .frLogoTagline{
+        color: #222222 !important;
+    }
+
+    #FRtopFnav_3 .searchTerm {
+        color: black;
+        border: 2px solid #fd12ad !important;
+    }
+    #FRtopFnav_3 .searchTerm:focus {
+        color: #222222;
+    }
+    #FRtopFnav_3 .searchButton {
+        border: 1px solid #fd12ad !important;
+        background: #fd12ad !important;
+        color: #f4f5f5 !important;
+    }
+
+
+    #FRtopFnav_3 .frs_trigusrpic button.fricon_user{
+        color: #fd12ad !important;
+    }
+    #FRtopFnav_3 .frtnminicart .c_item, #FRtopFnav_3 .frtnminicart .c_icon{
+        color: #fd12ad !important;
+    }
+    #FRtopFnav_3 .fr_tn_spilink a,#FRtopFnav_3 .fr_tn_spilink .dropdown{
+        color: #222222 !important;
+    }
+    #FRtopFnav_3 .fr_tn_spilink .dropdown-menu{
+        background: #FFFFFF !important;
+    }
+    #FRtopFnav_3 .fr_tn_spilink a:hover,#FRtopFnav_3 .fr_tn_spilink .dropdown:hover{
+        border-bottom: none !important;
+        background: #fd12ad;
+        color: #f4f5f5 !important;
+    }
+
+    /***********************************************************/
+    /* HEADER 1 MOBILE */
+    /***********************************************************/
+    #FR_HS_1.navbar{
+        background: #FFFFFF !important;
+    }
+    #FR_HS_1 .fricon_sn1_showAhied span, #FR_HS_1 .frtnminicart .c_item, #FR_HS_1 .frs_os_btn, #FR_HS_1 .c_icon{
+        color: #fd12ad !important;
+    }
+
+    /*******************************************************/
+    /* FRD HEADER 4 STYLE  OW  FOR PC DEVICE*/
+    /*******************************************************/
+    .FrHeader4_PC {
+        background: #FFFFFF !important;
+    }
+    .FrHeader4_PC .searchTerm {
+        border: 2px solid #fd12ad !important;
+    }
+    .FrHeader4_PC .searchButton {
+        border: 2px solid #fd12ad !important;
+        background: #fd12ad !important;
+    }
+
+    .FrHeader4_PC .fricon_cart{
+    color: #fd12ad !important;
+    }
+
+    .FrHeader4_PC .fricon_user{
+        color: #fd12ad !important;
+    }
+
+    .FrHeader4_PC .fricon_home{
+        color: #fd12ad !important;
+    }
+
+    .FrHeader4_PC .fricon_sn1_showAhied span{
+        color: #fd12ad !important;
+    }
+    /*******************************************************/
+    /* FRD HEADER 4 STYLE  OW  FOR MOBILE DEVICE*/
+    /*******************************************************/
+    .FrHeader4_Mob{
+        background: #FFFFFF !important;
+    }
+    .FrHeader4_Mob .frbtn_sidenaveopen{
+    color: #fd12ad !important;
+    }
+    .FrHeader4_Mob .fricon_user{
+    color: #fd12ad !important;
+    }
+    .FrHeader4_Mob input {
+        border: 2px solid #fd12ad !important;
+    }
+    .FrHeader4_Mob input:focus {
+        border: 2px solid #fd12ad !important;
+    }
+    .FrHeader4_Mob .input-group-addon {
+        border: 1px solid #fd12ad !important;
+        background: #fd12ad !important;
+    }
+
+/*******************************************************/
+/* FRD HEADLINE OW */
+/*******************************************************/
+.xs.frs_headline table td.td1 {
+    background: #fd12ad !important;
+}
+.xs.frs_headline table {
+    border: 1px solid #fd12ad !important;
+}
+
+
+
+
+/**************************************************************/
+/* RIGHT SIDENAV CART | FRD SHOPPING CART | CART-CART-1 */
+/**************************************************************/
+#mySidenav_right{
+    background: #FFFFFF !important;
+}
+.frcart1 .cart_items{
+    background: #FFFFFF !important;
+}
+.frcart1 .frlogo_div{
+    background: #FFFFFF !important;
+}
+.sidenav_right .cart_title, .sidenav_right .cart_title small{
+    color: #fd12ad !important;
+}
+.sidenav_right .btn_cartclose {
+    background: #fd12ad !important;
+}
+.frcart1 .btn_chackout {
+    background: #fd12ad !important;
+}
+.frcart1 .item_title{
+    color: #111111 !important;
+}
+.frcart1 .price{
+    color: #fd12ad !important;
+}
+.frcart1 .cpro_qty{
+    color: #111111 !important;
+}
+.pro_qtyup_btn,
+.pro_qtydown_btn {
+    color: #fd12ad !important;
+}
+.t_cartt .btn_proremove {
+    color: #fd12ad !important;
+}
+
+
+
+/*******************************************************/
+/* FRD LEFT SIDE NAVE OW */
+/*******************************************************/
+.frLeftSideNaveMob {
+    background-color: #FFFFFF !important;
+}
+.frs_sn1 a.logolink{
+    background: #FFFFFF !important;
+}
+.frs_sn1 div.snsl a:hover {
+    background: #fd12ad !important;
+}
+.frs_sn1 .frclosebtn{
+    background: #fd12ad !important;
+}
+
+
+
+/*****************************************************************/
+/* FRD POPUP VARIARION PRODUCT ADD TO CART BUTTON */
+/*****************************************************************/
+.frbtn_vp_atc{
+    background: #fd12ad !important;
+}
+
+
+
+
+/*************************************************/
+/* FRD PRODUCT BOX 2 */
+/*************************************************/
+.frs_pbox_2 {
+    background: #FFFFFF !important;
+}
+
+.frs_pbox_2 .frs_dcb{
+        background: #fd12ad !important;
+        color: #f4f5f5 !important;
+}
+
+.frs_pbox_2 .stock_out_alert{
+        background: rgba(229, 36, 36, 0.767);
+        color: #FFFFFF !important;
+}
+
+.frs_pbox_2 .fr_c1 .pprice .markprice{
+    color: #333333 !important;
+}
+.frs_pbox_2 .fr_c1 .pprice{
+    color: #fd12ad !important;
+}
+.frs_pbox_2 .fr_c1 .ptitel{
+    color: #111111 !important;
+}
+
+
+/*************************************************************************/
+/* LOGIN REGISTRATION FORM  OW | LOGIN FORM */
+/*************************************************************************/
+div.loginformdiv{
+  background: #FFFFFF !important;
+}
+
+div.frotpinputformdiv{
+  background: #FFFFFF !important;
+}
+button.frsendmeotp{
+  background: #fd12ad !important;
+}
+button.frloginconfirm{
+  background: #fd12ad !important;
+}
+
+
+
+
+/*************************************************************************/
+/* FRD CHECKOUT FORM  OW */
+/*************************************************************************/
+.OrderSummerysec h4{
+    color: #fd12ad !important;
+}
+.OrderSummerysec{
+    background: #FFFFFF !important;
+}
+.fdeliAadd h4{
+    color: #fd12ad !important;
+}
+form.fdeliAadd {
+    background: #FFFFFF !important;
+    box-shadow: none;
+}
+.fdeliAadd button {
+    background: #fd12ad !important;
+}
+
+
+/*************************************************************************/
+/* FRD HOME PAGE STYLE OW */
+/*************************************************************************/
+.hp_super_secfrd{
+    background: #FFF !important;
+}
+
+.hp_sectitlefrd {
+    color: #fd12ad !important;
+}
+.hp_super_secfrd a.frs_moreseebtn{
+    background: #fd12ad !important;
+}
+.frs_subcat button{
+    background: none !important;
+    color: #fd12ad !important;
+}
+
+.brand_marque_sec button {
+    border: none !important;
+    background: #FFF !important;
+}
+
+
+
+/*******************************************************/
+/*FRD SINGLE PRODUCT PAGE OW*/
+/*******************************************************/
+.left_side{
+    border: none !important;
+}
+.left_side .sp_addtocart_btn {
+    background: #fd12ad !important;
+}
+.left_side .sp_frdbtn_ordernow {
+    background: #fd12ad !important;
+}
+.left_side .sp_frdbtn_co{
+    background: #fd12ad !important;
+}
+.sells_price{
+    color: #fd12ad !important;
+}
+
+div .CallForOrderDiv{
+    background: #FFFFFF !important;
+}
+div .CallForOrderDiv .textt, div .CallForOrderDiv a{
+    color: #fd12ad;
+}
+
+div.insidedhakadcdiv{
+    background: #FFFFFF !important;
+}
+div.outsidedhakadcdiv{
+    background: #FFFFFF !important;
+}
+div.ppp_note_sec{
+    background: #FFFFFF !important;
+}
+
+
+
+/*********************************************************/
+/*FRD CATEGORY BOX 1 STYLE S*/
+/*********************************************************/
+.frs_catbox_1{
+    box-shadow: 0px 0px 5px 0px #fd12ad !important;
+    border: 2px solid #fd12ad !important;
+}
+.frs_catbox_1 a{
+    color: #fd12ad;
+}
+.frs_catbox_1 .procount{
+    color: #111111;
+}
+
+/********************************************************/
+/*FRD CATEGORY LIST STYLE S*/
+/********************************************************/
+.catlistdiv{
+    background: #FFFFFF !important;
+    box-shadow: 0px 0px 10px 0px #fd12ad !important;
+}
+.catlistdiv a:hover{
+    color: #fd12ad !important;
+}
+
+
+
+/******************************************************************/
+/*FRD BRAND BOX 1 STYLE S*/
+/******************************************************************/
+.frs_brandbox_1 {
+    box-shadow: 0px 0px 10px 0px #fd12ad !important;
+}
+.frs_brandbox_1 a {
+    color: #fd12ad !important;
+}
+
+
+
+/*******************************************************/
+/* ORDER TRACK PAGE */
+/*******************************************************/
+div.parcialpainfodiv{
+    background: #FFFFFF !important;
+}
+div.trackp_OorderSumerydiv{
+    background: #FFFFFF !important;
+}
+div.trackp_OorderSumerydiv .frbtn_InvoDownlode{
+    background: #fd12ad !important;
+}
+div.trackp_notediv{
+    background: #FFFFFF !important;
+}
+
+button.frbtn_InvoPrint_OrdTrackP{
+    background: #fd12ad !important;
+}
+
+
+
+/*******************************************************/
+/*FRD SCROLL TO TOP BUTTON OW*/
+/*******************************************************/
+#myScrollTopBtn{
+    background: #fd12ad !important;
+}
+
+
+/*********************************************/
+/* FRD CHAT OPTION OPEN CSS START OW*/
+/*********************************************/
+.FrBtn_ChatOptionShow {
+    background-color: #fd12ad !important;
+}
+
+
+/***************************************************************/
+/* FRD OVERLAY SEARCE */
+/***************************************************************/
+.FRsSearchoverlay button {
+    background: #fd12ad;
+}
+
+/*************************************************/
+/* FRD PRODUCT BOX 4 */
+/************************************************/
+.fr_pbox_4 .frs_discount{
+    background: #fd12ad  !important;
+}
+.fr_pbox_4 .frinfo .pprice{
+color: #fd12ad !important;
+}
+
+.fr_pbox_4 .pbtn button.frbtn_ordernow{
+background: #fd12ad !important;
+}
+
+.fr_pbox_4 .frs_discount, .fr_pbox_4 .pbtn button.frbtn_ordernow{
+color: #f4f5f5 !important;
+}
+
+    .fr_pbox_4 {
+        box-shadow: 0px 0px 5px 0px #fd12ad;
+    }
+
+    .fr_pbox_4{
+        background: #FFFFFF  !important;
+    }
+
+/*************************************************/
+/* FRD PRODUCT BOX 5 */
+/************************************************/
+.fr_pbox_5 .frs_discount{
+        background: #fd12ad  !important;
+}
+.fr_pbox_5 .frinfo .pprice{
+    color: #fd12ad !important;
+}
+
+.fr_pbox_5 .pbtn button.frbtn_ordernow{
+    background: #fd12ad !important;
+}
+
+.fr_pbox_5 .frs_discount, .fr_pbox_5 .pbtn button.frbtn_ordernow{
+    color: #f4f5f5 !important;
+}
+
+    .fr_pbox_5 {
+        box-shadow: 0px 0px 5px 0px #fd12ad;
+    }
+
+    .fr_pbox_5{
+        background: #FFFFFF  !important;
+    }
+
+/*************************************************/
+/* FRD PRODUCT BOX 8 */
+/************************************************/
+.fr_pbox_8 .frs_discount{
+    background: #fd12ad  !important;
+    color: #f4f5f5 !important;
+}
+.fr_pbox_8 .frinfo .pprice{
+  color: #fd12ad !important;
+}
+
+.fr_pbox_8 .buttons .frbtn_ordernow{
+  background: #fd12ad !important;
+  color: #f4f5f5 !important;
+}
+.fr_pbox_8 .buttons .frbtn_addtocart{
+    background: #f4f5f5 !important;
+    color: #fd12ad !important;
+}
+
+    .fr_pbox_8 {
+        box-shadow: 0px 0px 5px 0px #fd12ad;
+    }
+
+    .fr_pbox_8{
+        background: #FFFFFF  !important;
+    }
+
+/*******************************************************/
+/*FRD FOOTER 1 CUSTOMIZE OW*/
+/*******************************************************/
+section.frfoot1, footer#fr_foot1, footer#fr_foot1 .frs_faddress {
+    background: #FFFFFF !important;
+}
+footer#fr_foot1 .frFooterMobile h4 a, footer#fr_foot1 .frFooterEmail h4 a, footer#fr_foot1 .frs_faddress{
+    color: #fd12ad !important;
+}
+footer#fr_foot1 .appdownlodebtn {
+    background: #fd12ad !important;
+ }
+footer#fr_foot1 hr {
+    border-top: 1px solid #fd12ad !important;
+}
+footer#fr_foot1 .frs_copyw, footer#fr_foot1 .frs_copyw a, div.frdcredits span, div.frdcredits a {
+    color: #fd12ad !important;
+}
+
+    section.frfoot1, footer#fr_foot1, footer#fr_foot1 .frs_faddress {
+        background: #FFFFFF !important;
+    }
+
+    section.frfoot1{
+        box-shadow: 0px 0px 10px 0px #fd12ad;
+    }
+
+/*******************************************************/
+/*FRD FOOTER 2 CUSTOMIZE OW*/
+/*******************************************************/
+.footer-3 h2, .footer-3 span i, .footer-3 span.glyphicon{
+    color: #fd12ad !important;
+}
+.footer-3 p, .footer-3 li, .footer-3 a, .footer3-container .copyright p, .footer3-container .copyright a, .footer3-container div.frdcredits span, .footer3-container div.frdcredits a{
+    color: #111111 !important;
+}
+.footer-3 a:hover{
+    color: #fd12ad !important;
+}
+.footer3-container hr{
+    border-top: 1px solid #fd12ad !important;
+}
+
+    .footer3-container {
+        background: #FFFFFF !important;
+    }
+
+    .footer3-container{
+        box-shadow: 0px 0px 10px 0px #fd12ad;
+    }
+
+    .frs_pbox_2 {
+        box-shadow: 0px 0px 5px 0px #fd12ad;
+    }
+
+    .frs_pbox_2 {
+        background: #FFFFFF  !important;
+    }
+
+    #FRtopFnav_3, #FRtopFnav_3 .frsec_1, #FRtopFnav_3 .fr_tn_spilink .dropdown-menu, #FR_HS_1.navbar {
+        background: #FFFFFF !important;
+    }
+
+    nav.FrHeader2{
+        background: #FFFFFF !important;
+    }
+
+    .FrHeader4_PC, .FrHeader4_Mob {
+        background: #FFFFFF !important;
+    }
+
+    .frLeftSideNaveMob, .frs_sn1 a.logolink {
+        background-color: #FFFFFF !important;
+    }
+
+    .frLeftSideNaveMob {
+        box-shadow: 0px 0px 10px 0px #fd12ad;
+    }
+
+    #mySidenav_right, .frcart1 .cart_items, .frcart1 .frlogo_div{
+        background: #FFFFFF !important;
+    }
+
+    #mySidenav_right{
+        box-shadow: 0px 0px 10px 0px #fd12ad;
+    }
+
+    div.parcialpainfodiv, div.trackp_OorderSumerydiv, div.trackp_notediv, div.insidedhakadcdiv, div.outsidedhakadcdiv, div.ppp_note_sec, div.loginformdiv, div.frotpinputformdiv, .OrderSummerysec, form.fdeliAadd{
+        background: #FFFFFF !important;
+    }
+
+    div.insidedhakadcdiv, div.outsidedhakadcdiv, div.ppp_note_sec, div.parcialpainfodiv, div.trackp_OorderSumerydiv, div.trackp_notediv, div.loginformdiv, div.frotpinputformdiv, .OrderSummerysec, form.fdeliAadd{
+        box-shadow: 0px 0px 10px 0px #fd12ad;
+    }
+    

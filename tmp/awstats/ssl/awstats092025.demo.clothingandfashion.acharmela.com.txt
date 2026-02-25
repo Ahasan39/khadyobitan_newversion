@@ -1,0 +1,548 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202509 will be lost/reset.
+# Last config file used to build this data file was /home/acharmel/tmp/awstats/ssl/awstats.demo.clothingandfashion.acharmela.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2072                
+POS_TIME 2750                
+POS_VISITOR 9667                
+POS_DAY 12465               
+POS_DOMAIN 3517                
+POS_LOGIN 3866                
+POS_ROBOT 4021                
+POS_WORMS 4481                
+POS_EMAILSENDER 4612                
+POS_EMAILRECEIVER 4755                
+POS_SESSION 12733               
+POS_FILESIZE 16476               
+POS_SIDER 12919               
+POS_FILETYPES 4890                
+POS_DOWNLOADS 5154                
+POS_OS 5202                
+POS_BROWSER 5406                
+POS_SCREENSIZE 5854                
+POS_UNKNOWNREFERER 5928                
+POS_UNKNOWNREFERERBROWSER 6490                
+POS_ORIGIN 6763                
+POS_SEREFERRALS 6901                
+POS_PAGEREFS 7064                
+POS_SEARCHWORDS 7212                
+POS_KEYWORDS 7364                
+POS_MISC 2414                
+POS_ERRORS 7423                
+POS_CLUSTER 3722                
+POS_SIDER_404 7581                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250929114003 15 3061 16527794176950
+FirstTime 20250918162359
+LastTime 20250929045641
+LastUpdate 20250929180250 15 0 15 0 0
+TotalVisits 75                  
+TotalUnique 66                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 69                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 9 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 35567 1 6 202277
+1 20 21 571785 11 27 1662441
+2 16 16 160503 13 18 734422
+3 10 10 117544 13 20 1597147
+4 11 43 860605 17 20 1300769
+5 6 6 68009 26 35 1484222
+6 6 6 48745 38 42 2596943
+7 17 93 2139859 24 27 401455
+8 2 2 146836 19 21 218405
+9 0 0 0 6 6 51051
+10 2 2 25669 47 49 161919
+11 0 0 0 12 13 408778
+12 2 5 962761 11 15 89153
+13 0 0 0 3 3 314713
+14 1 2 350317 13 15 123241
+15 0 0 0 6 7 320400
+16 72 163 4915137 138 186 5995368
+17 1 1 12835 76 80 4147520
+18 26 315 9368076 53 64 6564224
+19 8 49 1720784 46 65 3924073
+20 10 11 452993 16 17 2997012
+21 13 98 3110125 10 12 1381012
+22 12 12 286804 6 56 692696
+23 2 2 24963 5 9 508677
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+us 148 598 17325498
+in 68 159 4886684
+bd 11 56 1378690
+ru 8 41 1119388
+ca 2 2 293672
+pa 1 1 12835
+jp 1 1 12839
+bg 1 1 12835
+be 0 1 337476
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+Googlebot/ 280 2704686 20250929085733 6
+bot[\s_+:,\.\;\/\\-] 217 5979120 20250929114003 12
+[\s_+:,\.\;\/\\-]bot 16 185014 20250926211216 0
+no_user_agent 7 740998 20250920075313 0
+Go\-http\-client/ 3 14247 20250919104238 0
+scrapy 2 25670 20250918190801 0
+Googlebot\-Image/ 1 337476 20250918220428 0
+unknown 1 24 20250918204001 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+jpeg 162 1049108 0 0
+woff 4 152996 0 0
+webp 109 13772783 0 0
+css 180 1327284 0 0
+jpg 2 155455 0 0
+png 14 80130 0 0
+js 153 2167855 0 0
+Unknown 112 1090543 0 0
+woff2 38 4140832 0 0
+html 86 1442931 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+Unknown 17 9
+linux 124 40
+macosx15 133 12
+ios_iphone 217 17
+androidmarshmallow 111 70
+win10 162 72
+macosx9 1 1
+macos11 1 1
+android10 94 18
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 20
+chrome139.0.7258.127 10 1
+chrome137.0.0.0 3 3
+firefox83.0 1 1
+mozilla 14 7
+chrome138.0.0.0 37 6
+chrome119.0.0.0 91 8
+chrome130.0.0.0 36 4
+safari14.0.3 88 8
+safari17.0.90 1 1
+chrome140.0.7339.127 63 63
+firefox120.0 29 29
+chrome33.0.1750.152 1 1
+safari 129 9
+chrome132.0.0.0 44 4
+chrome139.0.0.0 4 2
+Unknown 3 2
+chrome113.0.0.0 88 8
+chrome52.0.2717.98 2 2
+chrome140.0.0.0 214 79
+chrome108.0.0.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250926084438
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20250928213655
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250920014025
+WhatsApp/2.2535.3_W 20250918165150
+Mozilla/5.0_(compatible;_UGAResearchAgent/1.0;_Please_visit:_NISLabUGA.github.io) 20250925101510
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250926084438
+WhatsApp/2.2535.3_W 20250918165150
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 133 173
+From1 0 0
+From2 1 1
+From3 0 0
+From4 106 686
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+302 19 4279
+405 7 1977131
+403 16 19872
+301 3 2385
+500 123 25653547
+404 109 219491
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 72
+/public/backEnd/assets/images/bg-pattern-2.png 1 https://demo.clothingandfashion.acharmela.com/public/backEnd/assets/css/app.min.css
+/.ssh/id_rsa 1 -
+/public/frontEnd/js/'+b.j+' 1 -
+/server-status 3 -
+/add-to-cart 3 -
+/public/frontEnd/js/bootstrap.min.js.map 1 -
+/db/schema.rb 1 -
+/s/63e2130323e2834323e2136313/_/ 2 -
+/php-cgi/php-cgi.exe 2 -
+/.DS_Store 2 -
+/_all_dbs 2 -
+/config.yml 1 -
+/api/v1/format_query 1 -
+/phpinfo.php 1 -
+/config/production.json 1 -
+/backup.tar.gz 1 -
+/actuator/env 2 -
+/.vscode/sftp.json 3 -
+/info.php 2 -
+/webshell.php 1 -
+/telescope/requests 2 -
+/shell.php 1 -
+/@vite/env 2 -
+/.ssh/id_ecdsa 1 -
+/page/help@nronlineshop.com 4 -
+/actuator/heapdump 1 -
+/site/admin@nronlineshop.com 3 -
+/metrics 1 -
+/user_secrets.yml 1 -
+/public/frontEnd/js/'+b.loadinggif+' 1 -
+/feed 1 -
+/dump.sql 1 -
+/wp-config.php 1 -
+/page/admin@nronlineshop.com 4 -
+/v2/_catalog 2 -
+/config.yaml 1 -
+/about 2 -
+/.well-known/security.txt 1 -
+/wp-admin/setup-config.php 1 -
+/.env 2 -
+/js/lkk_ch.js 1 -
+/server 2 -
+/backup.sql 1 -
+/webshell 1 -
+/backup.zip 1 -
+/_vti_pvt/service.pwd 1 -
+/customer/admin@nronlineshop.com 3 -
+/.env.production 1 -
+/config.xml 1 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+/config.php 1 -
+/etc/ssl/private/server.key 1 -
+/.aws/credentials 1 -
+/settings.py 1 -
+/web.config 1 -
+/database_backup.sql 1 -
+/admin@nronlineshop.com 3 -
+/cloud-config.yml 1 -
+/public/backEnd/assets/js/toastr.js.map 1 -
+/product/admin@nronlineshop.com 3 -
+/config.json 3 -
+/shell 1 -
+/secrets.json 1 -
+/login.action 2 -
+/database.sql 1 -
+/docker-compose.yml 1 -
+/server.key 1 -
+/public/frontEnd/js/parsley.min.js.map 1 -
+/.ssh/id_ed25519 1 -
+/public/frontEnd/css/owl.video.play.png 1 -
+/css/support_parent.css 1 -
+/debug/default/view 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 69
+103.166.59.148 68 159 4886684 20250918165150
+66.249.72.70 26 26 299265 20250919055253
+66.249.72.64 21 21 227203 20250919063330
+66.249.72.71 15 15 175441 20250919051736
+43.231.76.34 11 56 1378690 20250926072543
+35.160.203.129 8 88 2663926 20250918181735
+54.213.173.130 8 88 2663915 20250918182136
+54.247.57.72 6 46 1357636 20250918192822
+185.203.132.199 4 36 743409 20250921083416
+149.57.180.111 4 46 1354235 20250918215241
+23.27.145.76 4 45 1016758 20250918215226
+104.253.247.10 3 43 1307119 20250918181334
+64.233.173.154 3 14 357419 20250926072532
+104.253.247.244 3 43 1307117 20250918181334
+104.252.110.131 3 43 1307115 20250918181333
+149.57.180.119 2 2 25673 20250920210852
+64.233.173.155 2 13 327302 20250926072532
+165.22.34.189 1 1 1391 20250918162359
+23.27.145.94 1 1 12836 20250926043226
+185.247.137.252 1 1 12829 20250920014022
+149.57.180.183 1 1 12839 20250926061640
+23.27.145.136 1 1 12834 20250929043753
+23.27.145.66 1 1 12844 20250926064437
+149.57.180.156 1 1 12835 20250929042621
+199.45.155.109 1 3 687782 20250928213603
+179.43.189.86 1 1 12835 20250919172929
+23.27.145.57 1 1 12839 20250929043711
+91.134.91.17 1 1 12835 20250922164237
+74.125.216.70 1 9 108075 20250918181336
+185.247.137.70 0 1 337476 
+185.247.137.198 1 1 12841 20250919143538
+64.15.129.107 1 1 146836 20250918225006
+87.236.176.213 0 1 337476 
+23.27.145.224 1 1 12844 20250919204814
+198.44.136.218 1 1 12832 20250919161939
+23.27.145.60 1 1 12828 20250919205236
+74.125.216.71 0 1 10809 
+23.27.145.77 1 1 12833 20250922205438
+149.57.180.8 1 1 12835 20250922212450
+159.65.33.193 1 2 350313 20250919190538
+128.192.12.107 1 1 12834 20250925101510
+167.94.138.62 1 2 274980 20250919123327
+128.192.12.120 1 1 12835 20250925101508
+149.57.180.161 1 1 12839 20250929045641
+195.211.77.142 1 1 12833 20250918203054
+149.57.180.110 1 1 12830 20250918201321
+133.242.174.119 1 1 12839 20250918204002
+64.233.173.156 1 10 76448 20250926072531
+66.249.72.69 1 1 1020 20250919062641
+23.27.145.126 1 1 12830 20250919220914
+199.45.155.67 1 3 687781 20250919121914
+23.27.145.211 1 1 12842 20250920211805
+23.27.145.85 1 1 12835 20250920221204
+149.57.180.171 1 1 12831 20250920221406
+23.27.145.134 1 1 12835 20250922221507
+23.27.145.104 1 1 12839 20250929042639
+149.57.180.36 1 1 12836 20250919220845
+23.27.145.53 1 1 12836 20250926042753
+23.27.145.250 1 1 12839 20250922205459
+149.57.180.137 1 1 12837 20250918201255
+198.235.24.244 1 1 146836 20250926084438
+149.57.180.14 1 1 12838 20250926050944
+23.27.145.221 1 1 12838 20250918222219
+134.209.229.146 1 2 350310 20250921204750
+138.197.191.87 1 1 1395 20250918162357
+149.57.180.163 1 1 12834 20250926051255
+149.57.180.123 1 1 12829 20250922222532
+23.27.145.59 1 1 12834 20250922221232
+195.211.77.140 1 1 0 20250918203049
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 9
+20250918 123 626 18272283 23
+20250919 71 108 3124475 19
+20250920 5 6 401650 5
+20250921 2 3 350310 2
+20250922 7 7 89840 7
+20250925 2 2 25669 2
+20250926 24 100 2363722 11
+20250928 1 3 687782 1
+20250929 5 5 64186 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+30mn-1h 1
+15mn-30mn 1
+0s-30s 68
+1h+ 4
+5mn-15mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 94
+/ 86 1442931 63 56
+/admin/products/manage 19 167985 0 0
+/public/frontEnd/webfonts/fa-solid-900.woff2 14 2098712 1 2
+/public/frontEnd/webfonts/fa-brands-400.woff2 14 1512000 0 4
+/public/frontEnd/webfonts/fa-regular-400.woff2 8 198720 0 3
+/livesearch 5 711 0 0
+/products/leather-bag 4 42631 3 1
+/category/gadgets 2 21336 0 0
+/page/terms-&-conditions 2 29392 0 0
+/search 2 22281 0 1
+/admin/products/6/edit 1 9210 0 0
+/admin/products/2/edit 1 9210 0 0
+/page/refund-&-return-policy 1 13805 0 0
+/public/backEnd/assets/fonts/cerebrisans-bold.woff 1 41184 0 0
+/customer/register 1 10613 0 1
+/products/loafer 1 10652 0 0
+/shipping-charge 1 1020 1 1
+/products/kota 1 10647 0 0
+/admin/products/5/edit 1 9210 0 0
+/product/men-polo-shirt-collar-design 1 14655 0 0
+/admin/products/10/edit 1 9205 0 0
+/products/flats 1 10650 1 0
+/products/taant 1 10645 0 0
+/products/tablet 1 10646 0 0
+/admin/categories/manage 1 7949 0 0
+/product/kids-dress-frock-style 1 14385 0 0
+/product/kids-t-shirt-cartoon-print 1 14804 0 0
+/product/men-jeans-pant-slim-fit 1 14304 0 0
+/products/party-bag 1 10662 1 0
+/public/backEnd/assets/fonts/cerebrisans-medium.woff 1 41228 0 0
+/public/backEnd/assets/fonts/cerebrisans-regular.woff 1 41084 0 0
+/products/panjabi 1 10651 0 0
+/keep-alive 1 38 0 0
+/subcategory/bags 1 10659 0 1
+/product/men-punjabi-cotton-fabric 1 14299 0 0
+/products/leather-strap 1 10654 0 0
+/products/shirt 1 10644 0 0
+/products/monitor 1 10647 0 0
+/products/painted-sharee 1 10652 0 1
+/admin/login 1 1167 0 0
+/page/privacy-policy 1 14238 1 0
+/product/women-cotton-kurti-long-sleeve 1 14266 0 0
+/admin/products/3/edit 1 9195 0 0
+/category/shari-and-panjabi-offer 1 10669 0 0
+/admin/products/16/edit 1 9215 0 0
+/products/y-cloth 1 10653 0 0
+/public/backEnd/assets/fonts/materialdesignicons-webfont.woff2 1 325244 0 0
+/product/men-formal-shirt-full-sleeve 1 14309 1 1
+/public/backEnd/assets/libs/summernote/font/summernote.woff2 1 6156 0 0
+/admin/products/8/edit 1 9204 0 0
+/subcategory/smart-watch 1 10660 0 0
+/public/backEnd/assets/fonts/feather.woff 1 29500 0 0
+/products/bracelet 1 10649 0 0
+/admin/products/4/edit 1 9206 0 0
+/subcategory/innerwear 1 10656 0 0
+/admin/products/11/edit 1 9209 0 0
+/product/kids-shorts-summer-collection 1 14821 0 0
+/products/tangail 1 10645 0 0
+/product/women-saree-silk-fabric 1 14308 0 0
+/stock-check 1 51 0 0
+/products/ring 1 10643 0 0
+/products/desktop 1 10645 0 1
+/products/metal-chain 1 10656 0 0
+/products/air-series 1 10647 0 0
+/admin/products/12/edit 1 9197 0 0
+/products/mouse 1 10647 0 0
+/customer/order-track 1 10371 1 0
+/products/purse 1 10648 0 0
+/category/baby-fashion 1 11350 1 0
+/subcategory/baby-boys-fashion 1 10662 0 0
+/products/shirt-pant-combo 1 10657 0 0
+/admin/products/13/edit 1 9204 0 0
+/admin/products/9/edit 1 9188 0 0
+/product/women-dress-midi-length 1 14307 0 0
+/site/contact-us 1 10720 0 0
+/products/ties 1 10646 0 0
+/products/tws-earbuds 1 10656 1 0
+/products/belt-&-wallet 1 10659 0 0
+/admin/products/1/edit 1 9202 0 0
+/product/men-cotton-t-shirt-round-neck 1 14272 0 0
+/admin/products/15/edit 1 9197 0 0
+/products/smart-speaker 1 10654 0 1
+/admin/products/create 1 11212 0 0
+/admin/dashboard 1 9113 0 0
+/products/heels 1 10650 0 0
+/products/keyboard 1 10646 0 0
+/load-more-products 1 798 0 0
+/products/eyeglasses 1 10659 0 0
+/subcategory/speaker-microphone 1 10663 0 0
+/admin/products/7/edit 1 9204 0 0
+/product/women-jeans-skinny-fit 1 14292 0 0
+/admin/products/14/edit 1 9202 0 0
+/products/necklace 1 10649 0 0
+/products/smart-phone 1 10654 0 1
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+44-100 8
+0-44 40
+5K+ 1081
+2K-5K 273
+500-1K 54
+100-500 66
+1K-2K 151
+END_FILESIZE

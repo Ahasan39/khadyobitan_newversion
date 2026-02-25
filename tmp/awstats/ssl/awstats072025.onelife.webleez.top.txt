@@ -1,0 +1,756 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202507 will be lost/reset.
+# Last config file used to build this data file was /home/acharmel/tmp/awstats/ssl/awstats.onelife.webleez.top.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2054                
+POS_TIME 2736                
+POS_VISITOR 11646               
+POS_DAY 17334               
+POS_DOMAIN 3569                
+POS_LOGIN 4047                
+POS_ROBOT 4202                
+POS_WORMS 4823                
+POS_EMAILSENDER 4954                
+POS_EMAILRECEIVER 5097                
+POS_SESSION 17666               
+POS_FILESIZE 23827               
+POS_SIDER 17874               
+POS_FILETYPES 5232                
+POS_DOWNLOADS 5541                
+POS_OS 5611                
+POS_BROWSER 5958                
+POS_SCREENSIZE 7103                
+POS_UNKNOWNREFERER 7177                
+POS_UNKNOWNREFERERBROWSER 7577                
+POS_ORIGIN 7718                
+POS_SEREFERRALS 7862                
+POS_PAGEREFS 8027                
+POS_SEARCHWORDS 8288                
+POS_KEYWORDS 8440                
+POS_MISC 2399                
+POS_ERRORS 8499                
+POS_CLUSTER 3903                
+POS_SIDER_404 8668                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250801001835 229 68813 9396357925220
+FirstTime 20250722120046
+LastTime 20250731202519
+LastUpdate 20250801114127 229 0 228 0 0
+TotalVisits 164                 
+TotalUnique 133                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 143                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 13 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 59 141 4951665 9 68 392755
+1 2 2 26228 1 1 212823
+2 4 17 2993024 8 59 903448
+3 22 27 782960 2 26 51378
+4 77 170 6689613 20 67 384779
+5 231 636 50455884 61 197 11935715
+6 12 58 2237229 2 3 2499
+7 17 27 1120103 8 23 5639993
+8 28 105 12999978 8 16 1155075
+9 39 141 13831629 41 54 421859
+10 72 343 30383526 14 34 90121
+11 1 2 48660 3 3 438919
+12 94 385 15086528 89 113 342379
+13 11 12 181379 9 24 1612163
+14 24 78 2592042 3 10 15349
+15 42 260 22467493 15 23 787513
+16 72 336 40921322 17 86 20470252
+17 334 758 47118055 142 425 29642411
+18 122 310 21983866 54 102 8049038
+19 30 46 7905288 32 107 17842982
+20 29 162 27543431 15 67 1173859
+21 11 89 5213891 2 4 812958
+22 0 0 0 6 11 3274209
+23 0 0 0 6 8 1312690
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 17
+bd 994 2392 207311657
+in 158 734 52702292
+us 116 480 16625104
+ie 17 198 18379367
+ru 11 74 2735890
+gb 6 65 2633363
+cn 6 9 776613
+jp 5 58 3789324
+ca 5 6 406804
+de 5 71 11936355
+za 3 3 40112
+vn 2 2 26217
+am 1 1 12892
+be 1 2 51773
+md 1 8 78661
+cl 1 1 12899
+ir 1 1 12887
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+facebookexternalhit/ 499 70197617 20250731232451 79
+crawl 153 20369679 20250731191104 0
+link 25 11669448 20250730081831 0
+Googlebot/ 9 69048 20250728003318 1
+curl 6 87130 20250730151155 0
+Go\-http\-client/ 5 15861 20250723092444 0
+unknown 5 120 20250730090652 5
+no_user_agent 4 323530 20250722175651 0
+scanner 2 25781 20250722124646 0
+scrapy 2 31866 20250730075640 0
+Dalvik/ 2 371036 20250729052810 0
+Googlebot\-Image/ 1 38654 20250728003337 0
+Googlebot\-Mobile/ 1 13857 20250724202521 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+svg 8 2748 0 0
+js 680 11518662 0 0
+webp 392 11416678 0 0
+xml 3 22556 0 0
+css 619 5972006 0 0
+jpg 873 219906911 0 0
+html 235 4706985 0 0
+jpeg 98 8123949 0 0
+png 102 33415544 0 0
+woff 47 1518968 0 0
+woff2 140 15147052 0 0
+Unknown 908 5780151 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 0 66 1584
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 19
+android11 40 3
+androidmarshmallow 83 16
+win10 1932 718
+win7 70 10
+android13 1 1
+ios_iphone 64 12
+macosx9 1 1
+linuxubuntu 43 10
+android10 520 59
+android12 47 3
+linux 228 61
+android 988 408
+Unknown 30 8
+macosx13 1 1
+win8.1 1 0
+macosx15 47 16
+macosx7 6 3
+macosx14 1 1
+androidoreo 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 53
+chrome45.0.2454.85 35 5
+chrome120.0.0.0 3 3
+chrome116.0.0.0 5 5
+chrome113.0.0.0 37 6
+chrome136.0.0.0 11 2
+chrome14.0.825.0 1 1
+mozilla 11 5
+safari12.0.1 1 1
+chrome138.0.0.0 2240 747
+safari17.2 1 1
+chrome138.0.7204.162 281 61
+chrome138.0.7204.183 70 4
+chrome57.0.2987.108 1 1
+chrome122.0.0.0 69 3
+chrome117.0.0.0 10 8
+chrome98.0.4758.102 35 5
+edge12 1 1
+chrome114.0.5775.194 38 5
+opera90.0.0.0 63 3
+chrome138.0.7204.97 35 4
+firefox124.0 1 1
+Unknown 4 2
+chrome137.0.0.0 24 11
+chrome76.0.3809.132 1 1
+chrome92.0.4515.159 11 2
+chrome52.0.2717.98 2 2
+chrome119.0.0.0 42 4
+firefox111.0.0 1 1
+safari 26 6
+chrome138.0.7204.168 114 14
+chrome130.0.0.0 65 6
+chrome67.0.3396.87 1 1
+firefox132.0.1 1 1
+firefox141.0 298 182
+firefox24.0 4 4
+chrome138.0.7204.92 81 9
+safari14.0.3 35 4
+firefox120.0 31 31
+chrome85.0.4183.121 3 3
+chrome17.0.963.56 6 3
+chrome103.0.5060.132 1 1
+safari18.1.1 2 1
+netscape5.0 15 1
+chrome84.0.4147.89 1 1
+firefox140.0 294 150
+chrome137.0.7151.119 47 8
+safari9.0 1 1
+firefox137.0 4 2
+firefox38.0 1 0
+chrome132.0.0.0 35 4
+firefox83.0 1 1
+chrome33.0.1750.152 1 1
+chrome47.0.2526.83 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+WhatsApp/2.2526.2_W 20250723051933
+Mozilla/5.0 20250723005749
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20250728003913
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250723143534
+fasthttp 20250730090652
+Mozilla/5.0_(compatible) 20250730102718
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+fasthttp 20250730090652
+WhatsApp/2.2526.2_W 20250723051933
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 197 306
+From1 3 3
+From2 10 10
+From3 12 12
+From4 1111 3774
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 10 10
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+https://lm.facebook.com 5 5
+https://l.facebook.com 3 3
+https://acharmela.com:2083 3 3
+https://l.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+500 5 944657
+403 51 63342
+405 5 1418154
+206 1 47623
+302 198 42138
+419 2 4168
+404 538 1210488
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 79
+/web.config 1 -
+/server.key 1 -
+/etc/ssl/private/server.key 1 -
+/s/63e2130323e2834323e2136313/_/ 2 -
+/info.php 2 -
+/public/uploads/banner/17389193411729274176websolution-it-banner-2.jpg 12 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+//onelife.webleez.top/public/backEnd/assets/js/toastr.min.js 7 -
+/config/production.json 1 -
+//onelife.webleez.top/public/frontEnd/js/mobile-menu-init.js 6 -
+/%3FND 1 -
+/config.json 6 -
+/.aws/credentials 1 -
+/public/uploads/default/user.png 233 https://onelife.webleez.top/admin/products/create
+/user_secrets.yml 1 -
+//onelife.webleez.top/public/frontEnd/js/wsit-menu.js 6 -
+//www.onelife.webleez.top/public/frontEnd/js/bootstrap.min.js 5 -
+/public/uploads/banner/1740458085eid-banner-01.jpg 14 -
+/login 1 -
+/public/backEnd/assets/images/bg-pattern-2.png 63 https://onelife.webleez.top/public/backEnd/assets/css/app.min.css
+//onelife.webleez.top/public/frontEnd/js/jquery-3.7.1.min.js 7 -
+/config.yml 1 -
+/backup.zip 1 -
+//onelife.webleez.top/public/frontEnd/js/owl.carousel.min.js 7 -
+/wp-admin/setup-config.php 1 -
+//onelife.webleez.top/public/frontEnd/js/script.js 6 -
+//www.onelife.webleez.top/public/frontEnd/js/owl.carousel.min.js 5 -
+/js/lkk_ch.js 1 -
+/.vscode/sftp.json 3 -
+//www.onelife.webleez.top/public/frontEnd/js/jquery-3.7.1.min.js 6 -
+/actuator/env 2 -
+//cdn.js 12 -
+/db/schema.rb 1 -
+/docker-compose.yml 1 -
+/.ssh/id_rsa 1 -
+/meta.json 1 -
+/about 2 -
+//www.onelife.webleez.top/public/frontEnd/js/wow.min.js 5 -
+/feed 1 -
+//onelife.webleez.top/public/frontEnd/js/wow.min.js 7 -
+/backup.sql 1 -
+/server-status 3 -
+//www.onelife.webleez.top/public/frontEnd/js/mobile-menu-init.js 5 -
+/config.xml 1 -
+/login.action 2 -
+/php-cgi/php-cgi.exe 2 -
+/.env 2 -
+/server 2 -
+/database_backup.sql 1 -
+/.ssh/id_ed25519 1 -
+/.ssh/id_ecdsa 1 -
+/config.php 1 -
+/phpinfo.php 1 -
+/.DS_Store 2 -
+//www.onelife.webleez.top/public/frontEnd/js/wsit-menu.js 6 -
+//www.onelife.webleez.top/public/frontEnd/js/script.js 5 -
+//www.onelife.webleez.top/public/backEnd/assets/js/toastr.min.js 5 -
+/settings.py 1 -
+//www.googletagmanager.com/gtm.js 11 -
+/_all_dbs 2 -
+/js/twint_ch.js 1 -
+/dump.sql 1 -
+/backup.tar.gz 1 -
+/@vite/env 2 -
+//onelife.webleez.top/public/frontEnd/js/mobile-menu.js 7 -
+//cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js 10 -
+/v2/_catalog 2 -
+//www.onelife.webleez.top/public/frontEnd/js/mobile-menu.js 5 -
+/database.sql 1 -
+/wp-config.php 1 -
+/cloud-config.yml 1 -
+/telescope/requests 2 -
+/wiki 1 -
+//onelife.webleez.top/public/frontEnd/js/bootstrap.min.js 5 -
+/secrets.json 1 -
+/config.yaml 1 -
+/.env.production 1 -
+/_vti_pvt/service.pwd 1 -
+/debug/default/view 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 143
+45.112.72.184 638 1361 118056094 20250731185326
+45.112.72.185 130 402 45904034 20250726165646
+202.86.218.202 101 151 6432195 20250725120811
+103.84.37.14 74 298 13471444 20250724063142
+202.86.218.144 71 123 3437516 20250723054524
+103.166.59.149 17 111 13283471 20250730093703
+103.165.93.69 16 21 222995 20250724092005
+103.166.59.151 15 96 4119779 20250724151550
+202.86.216.230 10 76 10396927 20250728053314
+103.166.59.146 9 23 821603 20250730170510
+202.86.216.150 9 28 951797 20250722143326
+52.247.239.25 9 73 2815895 20250722161309
+103.166.59.148 9 92 10871964 20250728102411
+34.221.44.236 8 70 2654529 20250722150149
+103.183.16.69 8 69 9386613 20250725152623
+202.86.222.66 7 13 1280078 20250724185230
+103.15.42.200 7 75 2993838 20250724182227
+34.248.137.227 6 37 1353094 20250722143806
+152.32.225.141 6 6 95568 20250730150343
+31.13.127.113 5 44 2170250 20250724170813
+185.236.203.99 4 35 1327268 20250722124017
+146.70.74.113 4 35 1327272 20250722124135
+66.249.87.37 4 20 1216849 20250722123728
+95.215.0.144 4 34 1318213 20250722124122
+31.13.127.3 4 69 11884795 20250730163621
+98.159.226.244 1 1 108000 20250722210907
+91.99.148.167 1 1 12887 20250722132243
+103.20.141.5 2 11 449127 20250724171923
+173.252.95.35 1 1 13187 20250724170753
+43.250.82.100 2 11 430031 20250722120445
+103.4.251.136 2 2 25786 20250722125655
+47.236.234.72 2 3 73126 20250730090652
+23.27.145.220 1 1 13109 20250723181423
+196.251.88.59 2 2 26991 20250724202523
+87.236.176.79 1 1 13119 20250723143534
+66.249.87.38 0 3 57950 
+206.204.47.83 1 6 5076 20250722120225
+104.164.173.180 1 1 12895 20250722122028
+23.27.145.40 1 1 13107 20250723184427
+45.86.203.52 1 31 1035464 20250722210900
+143.110.215.247 1 2 54580 20250730075352
+138.68.86.32 2 2 2746 20250722120046
+149.57.180.169 1 1 15567 20250726192815
+74.125.216.64 0 4 32824 
+149.57.180.69 1 1 15928 20250729144948
+107.172.195.142 2 4 3905 20250722120223
+159.203.129.204 1 2 54666 20250731122149
+165.22.196.197 1 2 51775 20250723133636
+44.222.20.176 1 1 15942 20250730041233
+103.15.244.133 3 63 10016412 20250725205629
+196.251.88.64 1 1 13121 20250723055530
+168.151.197.70 1 6 5076 20250722120226
+95.181.238.190 1 1 13867 20250725002854
+165.22.220.165 1 2 53080 20250725141504
+206.168.34.66 1 3 92878 20250727141618
+104.252.191.180 2 2 25788 20250722131947
+103.196.9.16 2 2 12899 20250722125655
+155.94.155.152 1 8 36166 20250723005747
+103.130.118.4 2 11 430031 20250723045901
+149.57.180.175 1 1 15583 20250726144106
+23.27.145.81 1 1 13123 20250723210447
+139.99.170.109 1 2 24785 20250722124233
+149.57.180.159 1 1 13856 20250724202304
+149.57.180.122 1 1 13612 20250724185100
+23.27.145.218 1 1 15937 20250729205817
+35.89.125.109 2 2 25805 20250723035733
+23.27.145.13 1 1 13106 20250724012124
+54.156.251.192 1 1 65536 20250730102718
+176.32.195.85 1 1 12892 20250722124118
+54.227.166.157 0 1 9052 
+103.25.248.203 2 12 487784 20250723105646
+149.57.180.165 1 1 13859 20250724192102
+185.247.137.38 0 1 38654 
+194.163.152.77 1 1 12893 20250723025607
+152.32.188.169 2 2 31848 20250730151154
+24.199.116.72 1 2 54604 20250729123945
+69.171.249.5 1 1 13189 20250724170944
+27.115.124.96 1 1 215062 20250731202519
+74.125.216.71 4 18 950525 20250724170827
+168.151.139.30 1 6 5079 20250722120226
+149.57.180.96 1 1 13634 20250724184551
+202.86.218.42 4 6 252037 20250723095513
+31.13.127.7 0 1 38654 
+31.13.127.6 3 41 2123821 20250724170854
+181.214.164.43 1 1 12899 20250722124208
+149.57.180.84 1 1 13120 20250723181456
+134.209.223.121 1 2 53079 20250725125951
+202.173.120.132 3 47 3340196 20250725210352
+173.252.95.10 3 42 2174125 20250724170800
+103.4.251.165 2 2 25788 20250722122037
+149.57.180.105 1 1 13124 20250723184509
+104.234.140.6 1 1 12894 20250722210907
+64.15.129.103 1 1 159576 20250722193700
+69.171.234.21 1 1 13188 20250724170836
+66.249.87.39 0 1 4459 
+23.27.145.221 1 1 12907 20250722182116
+103.196.9.177 1 6 5079 20250722120226
+3.90.3.241 4 35 1327263 20250722125121
+185.247.137.37 1 1 13105 20250723061248
+149.57.180.44 1 1 13190 20250724141811
+149.57.180.137 1 1 15946 20250729203016
+149.57.180.157 1 1 15573 20250726144043
+45.131.195.205 1 1 24840 20250722210907
+27.115.124.33 0 1 38654 
+31.187.78.27 4 70 11923462 20250730102522
+180.163.220.47 1 1 2006 20250729081237
+171.244.43.14 2 2 26217 20250723175154
+45.95.243.76 1 1 149908 20250722210907
+128.90.175.73 4 36 1339156 20250722125420
+23.27.145.112 1 1 13123 20250723135717
+124.6.231.197 4 22 860058 20250723044459
+3.208.116.168 1 1 12903 20250723043109
+107.172.195.113 1 1 686 20250722120207
+149.57.180.181 2 2 25993 20250723135936
+23.27.145.55 1 1 15583 20250726192728
+149.57.180.197 1 1 12891 20250722184314
+149.57.180.47 1 1 15945 20250729144910
+23.27.145.89 1 1 15929 20250729202842
+91.84.87.137 2 30 1306091 20250723134138
+87.236.176.160 0 1 38654 
+176.123.4.217 1 8 78661 20250722155646
+167.94.138.48 1 3 92892 20250728003913
+185.243.76.40 1 2 24783 20250722124233
+101.198.0.189 1 1 212823 20250729080926
+103.234.167.5 2 11 449128 20250725181852
+149.57.180.67 1 1 12901 20250722131933
+167.235.250.30 1 1 12908 20250722132434
+202.86.218.55 4 38 5363729 20250728174419
+31.13.127.2 1 1 13190 20250724170927
+23.27.145.213 1 1 13122 20250724011830
+180.163.220.42 1 1 212823 20250729081139
+74.125.216.65 0 1 4459 
+161.35.189.46 1 1 15995 20250731123830
+149.57.180.82 1 1 12895 20250722132004
+101.198.0.180 1 2 54585 20250729081012
+107.172.195.144 1 1 12889 20250722131939
+149.57.180.168 1 1 13201 20250724141719
+192.175.111.228 1 1 161208 20250722193713
+31.13.115.116 4 42 2148657 20250724170904
+180.163.220.99 0 1 38654 
+149.57.180.155 1 1 13854 20250724195105
+23.27.145.193 1 1 13120 20250723191459
+101.198.0.157 1 1 2006 20250729081044
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 10
+20250722 136 657 24333118 46
+20250723 299 734 27123310 32
+20250724 223 612 31565581 27
+20250725 275 712 66095795 16
+20250726 35 105 10931938 7
+20250727 1 3 92878 1
+20250728 105 316 32962200 5
+20250729 21 120 19304615 13
+20250730 223 761 92872361 12
+20250731 15 85 12251758 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30mn-1h 5
+1h+ 6
+30s-2mn 12
+15mn-30mn 6
+5mn-15mn 4
+0s-30s 127
+2mn-5mn 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 153
+/ 235 4706985 125 98
+/admin/products/manage 84 801644 3 2
+/admin/login 62 72012 19 1
+/admin/products/create 52 573963 2 0
+/ajax-product-subcategory 52 4965 0 0
+/ajax-product-childcategory 50 4199 0 2
+/admin/products/generate-slug 50 3086 1 0
+/admin/dashboard 44 401669 1 2
+/public/frontEnd/webfonts/fa-brands-400.woff2 43 4644000 1 18
+/public/frontEnd/webfonts/fa-solid-900.woff2 43 6446044 3 3
+/admin/banner/manage 41 323690 1 0
+/public/frontEnd/webfonts/fa-regular-400.woff2 32 794880 1 3
+/stock-check 31 3923 0 1
+/category/mens-fashion 28 350149 1 1
+/variable-view 28 10574 0 0
+/public/backEnd/assets/fonts/feather.woff 19 531000 1 8
+/customer/checkout 17 223571 1 4
+/shipping-charge 16 20728 0 1
+/category/gadgets 16 156352 0 1
+/category/womens-fashion 13 161529 1 1
+/admin/order/all 13 143356 0 0
+/admin/settings/manage 13 96590 0 0
+/admin/contact/manage 13 93767 1 0
+/public/backEnd/assets/fonts/cerebrisans-medium.woff 10 329824 0 0
+/public/backEnd/assets/fonts/cerebrisans-regular.woff 9 328672 0 0
+/product/stylish-ladies-bag-3 2 31108 0 0
+/product/sequence-cotton-panjabi 1 15647 0 0
+/admin/pathao-city 1 235 0 0
+/product/georgette-embroidery-sharee-with-blouse-piece 1 17084 0 0
+/admin/pixels/manage 1 7115 0 0
+/admin/shipping-charge/manage 3 22603 0 0
+/admin/banner/1/edit 3 21579 0 0
+/admin/color/manage 1 10623 0 0
+/admin/expensecategories/3/edit 1 6838 0 0
+/products/deshi-boutique 1 11722 0 1
+/admin/page/manage 7 53037 0 0
+/product/stylish-ladies-bag-2 1 15520 0 0
+/admin/order/create 4 32568 0 0
+/admin/campaign/7/edit 1 9400 0 0
+/category/skin-care 5 61142 0 0
+/run-update 2 171 0 1
+/products/bathroom-mirrors 1 11723 0 0
+/admin/products/15/edit 1 18874 0 0
+/product/stylish-ladies-bag-6 1 15379 0 1
+/get-update-details 1 277 0 0
+/product/pure-cotton-full-sleeve-check-print-shirt-for-mens-2 1 16985 0 0
+/admin/paymentgeteway/manage 4 31964 0 0
+/admin/products/28/edit 1 13061 0 0
+/admin/customer/3/edit 1 6877 0 0
+/product/gently-exfoliates-for-smooth-radiant-skin 1 15548 0 0
+/admin/customer/manage 2 17206 0 0
+/admin/products/39/edit 1 9361 0 0
+/admin/order/on-hold 2 17757 0 0
+/admin/page/6/edit 1 9507 0 0
+/public/backEnd/assets/libs/summernote/font/summernote.woff2 5 24624 0 0
+/admin/page/5/edit 2 18679 0 0
+/admin/campaign/manage 3 22623 0 0
+/customer/orders 3 35019 0 0
+/auth/login 1 0 0 0
+/admin/products/3/edit 4 54534 0 0
+/admin/expense/manage 3 21305 0 0
+/admin/banner/5/edit 4 28860 0 0
+/update-version 7 53808 0 1
+/admin/categories/manage 1 8011 0 0
+/admin/banner/create 1 7313 0 0
+/admin/order/on-the-way 2 17753 0 0
+/admin/products/9/edit 1 9975 0 0
+/admin/order-bulk-destroy 2 140 0 0
+/cart/remove 4 4379 0 0
+/admin/order/edit/97027 2 16668 0 0
+/admin/childcategories/manage 1 13711 0 0
+/admin/order/pending 4 46933 0 0
+/admin/products/29/edit 2 32859 0 0
+/admin/products/8/edit 1 10670 0 0
+/admin/customer/2/edit 1 6887 0 0
+/admin/shipping-charge/6/edit 2 13835 0 0
+/best-deals 3 35163 0 1
+/admin/courierapi/manage 1 8581 0 0
+/product/cotton-t-shirt-and-trouser-set 1 15777 0 0
+/admin/campaign/14/edit 3 25870 0 0
+/product/3-in-1-rotatable-multi-plug-adapter 1 15622 0 1
+/product/japani-silk-skin-print-sharee-with-blouse-piece 1 18063 0 1
+/customer/order-track 5 57237 0 0
+/admin/banner/7/edit 4 29472 0 0
+/admin/social-media/manage 7 51708 0 0
+/admin/order/in-courier 2 17755 0 0
+/admin/contact/1/edit 6 41517 0 0
+/customer/login 2 23399 0 0
+/admin/expensecategories/manage 2 14346 0 0
+/customer/register 1 11691 0 0
+/sitemap.xml 3 22556 2 3
+/product/polo-shirt-for-men 7 113872 0 0
+/admin/shipping-charge/3/edit 1 6713 0 0
+/admin/banner/2/edit 4 28881 0 0
+/category/cosmetics 2 24057 0 1
+/admin/order/cart-content 1 584 0 0
+/admin/customer/1/edit 1 6875 0 0
+/admin/fraud-checker 2 1679 0 0
+/visitor/reports 2 14836 0 0
+/admin/banner/6/edit 3 21507 0 0
+/ajax-cart-store 6 420 0 0
+/product/stylish-ladies-bag 2 30866 0 0
+/admin/products/13/edit 1 15760 0 0
+/admin/subcategories/manage 2 18684 0 0
+/admin/settings/2/edit 8 60358 0 0
+/admin/orderstatus/manage 4 30683 0 0
+/category/home-&-lifestyle 2 23516 0 0
+/public/backEnd/assets/fonts/cerebrisans-bold.woff 9 329472 0 0
+/admin/banner-category/manage 6 45132 0 0
+/product/mash-t-shirt-and-short-pant-set 1 16580 0 0
+/admin/banner-category/3/edit 1 7087 0 0
+/admin/brands/manage 1 7120 0 0
+/mobilecart/count 7 126 0 0
+/cart/count 8 4872 0 0
+/admin/smsgeteway/manage 4 30185 0 0
+/admin/products/30/edit 1 10135 0 0
+/products/home-office-furniture 1 11733 0 0
+/admin/social-media/create 1 7136 0 0
+/admin/change-password 1 7064 0 0
+/product/china-magnet-stretched-full-sleeve-shirt 2 32294 0 1
+/admin/products/purchase/3 1 7023 0 0
+/customer/order-track/result 7 81012 0 0
+/admin/contact/create 1 6793 0 0
+/public/backEnd/assets/fonts/materialdesignicons-webfont.woff2 9 2601952 0 1
+/admin/reviews 1 6780 0 0
+/admin/products/4/edit 1 15984 0 0
+/admin/banner/3/edit 5 36194 0 0
+/customer/order-save-draft 4 176 0 0
+/admin/customer/4/edit 1 6886 0 0
+/product/eid-collection-panjabi 6 95156 0 2
+/admin/size/manage 1 8422 0 1
+/products/bath-mats 1 11719 0 0
+/admin/banner-category/2/edit 1 7095 0 0
+/admin/pathao-zone 1 451 0 0
+/product/china-magnet-stretched-full-sleeve-shirt-3 1 17364 0 0
+/admin/products/25/edit 1 9113 0 0
+/admin/banner-category/4/edit 1 7087 0 0
+/admin/subcategories/17/edit 1 7514 0 0
+/admin/order/search 5 100 0 0
+/admin/campaign/create 1 7922 0 0
+/admin/page/7/edit 1 9613 0 0
+/admin/order/cart-details 1 88 0 0
+/product/osufi-whitening-night-cream 1 15650 0 1
+/admin/order/cart-shipping 1 23 0 0
+/customer/account 2 23859 0 0
+/product/ready-made-pure-dubai-silk-digital-print-three-piece 1 16079 0 0
+/admin/banner-category/create 1 7134 0 0
+/public/backEnd/assets/fonts/fa-solid-900.woff2 8 635552 0 1
+/customer/profile-edit 1 12991 0 0
+/customer/order-success/44 1 12901 0 0
+/admin/order/processing 3 25896 0 0
+/admin/social-media/2/edit 1 7165 0 0
+/admin/order-status 5 365 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+5K+ 3490
+0-44 171
+2K-5K 845
+1K-2K 418
+500-1K 144
+44-100 152
+100-500 416
+END_FILESIZE

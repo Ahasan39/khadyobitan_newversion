@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feature Toggle API Test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            color: #666;
+        }
+        
+        .test-section {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+        
+        .test-section h2 {
+            color: #333;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        
+        button:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        .response-box {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .response-box pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        
+        .status {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .status.loading {
+            background: #fff3cd;
+            color: #856404;
+        }
+        
+        .info-box {
+            background: #e7f3ff;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        
+        .info-box strong {
+            color: #1976D2;
+        }
+        
+        .feature-card {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        
+        .feature-card h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .feature-card .badge {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            margin-right: 5px;
+        }
+        
+        .badge.enabled {
+            background: #28a745;
+            color: white;
+        }
+        
+        .badge.disabled {
+            background: #6c757d;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>🧪 Feature Toggle API Tester</h1>
+            <p>Test your Feature Toggle API endpoints in real-time</p>
+        </div>
+
+        <!-- Info Box -->
+        <div class="test-section">
+            <div class="info-box">
+                <strong>ℹ️ Instructions:</strong><br>
+                1. Make sure you have enabled at least one feature in the admin panel<br>
+                2. Click the buttons below to test different API endpoints<br>
+                3. View the JSON response in the boxes below
+            </div>
+        </div>
+
+        <!-- Test All Features -->
+        <div class="test-section">
+            <h2>📋 Test All Features</h2>
+            <div class="button-group">
+                <button onclick="testAllFeatures()">🔍 Get All Enabled Features</button>
+                <button onclick="clearResponse('all')">🗑️ Clear</button>
+            </div>
+            <div id="status-all"></div>
+            <div id="response-all" class="response-box" style="display: none;">
+                <pre id="json-all"></pre>
+            </div>
+        </div>
+
+        <!-- Test Individual Features -->
+        <div class="test-section">
+            <h2>🎯 Test Individual Features</h2>
+            <div class="button-group">
+                <button onclick="testFeature('help_button')">🎧 Help Button</button>
+                <button onclick="testFeature('social_media_floating')">📱 Social Media</button>
+                <button onclick="testFeature('invoice_whatsapp_button')">💬 WhatsApp Button</button>
+                <button onclick="testFeature('installment_message')">💳 Installment Message</button>
+                <button onclick="clearResponse('individual')">🗑️ Clear</button>
+            </div>
+            <div id="status-individual"></div>
+            <div id="response-individual" class="response-box" style="display: none;">
+                <pre id="json-individual"></pre>
+            </div>
+        </div>
+
+        <!-- Features Summary -->
+        <div class="test-section">
+            <h2>📊 Enabled Features Summary</h2>
+            <button onclick="showFeaturesSummary()">📈 Show Summary</button>
+            <div id="features-summary" style="margin-top: 20px;"></div>
+        </div>
+
+        <!-- API Endpoints Info -->
+        <div class="test-section">
+            <h2>🔗 API Endpoints</h2>
+            <div class="feature-card">
+                <h4>Get All Enabled Features</h4>
+                <code>GET /api/v1/feature-toggles</code>
+            </div>
+            <div class="feature-card">
+                <h4>Get Specific Feature</h4>
+                <code>GET /api/v1/feature-toggles/{featureKey}</code>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Get base URL
+        const baseUrl = window.location.origin;
+        const apiUrl = `${baseUrl}/api/v1/feature-toggles`;
+
+        // Test all features
+        async function testAllFeatures() {
+            showStatus('all', 'loading', '⏳ Loading...');
+            showResponse('all');
+
+            try {
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+
+                if (response.ok) {
+                    showStatus('all', 'success', '✅ Success! API is working');
+                    document.getElementById('json-all').textContent = JSON.stringify(data, null, 2);
+                    
+                    // Count enabled features
+                    const count = Object.keys(data.data || {}).length;
+                    if (count === 0) {
+                        showStatus('all', 'error', '⚠️ No features enabled. Enable features in admin panel first.');
+                    } else {
+                        showStatus('all', 'success', `✅ Success! Found ${count} enabled feature(s)`);
+                    }
+                } else {
+                    showStatus('all', 'error', '❌ Error: ' + response.status);
+                    document.getElementById('json-all').textContent = JSON.stringify(data, null, 2);
+                }
+            } catch (error) {
+                showStatus('all', 'error', '❌ Request Failed: ' + error.message);
+                document.getElementById('json-all').textContent = 'Error: ' + error.message;
+            }
+        }
+
+        // Test individual feature
+        async function testFeature(featureKey) {
+            showStatus('individual', 'loading', `⏳ Loading ${featureKey}...`);
+            showResponse('individual');
+
+            try {
+                const response = await fetch(`${apiUrl}/${featureKey}`);
+                const data = await response.json();
+
+                if (response.ok && data.success) {
+                    showStatus('individual', 'success', `✅ ${featureKey} is enabled`);
+                    document.getElementById('json-individual').textContent = JSON.stringify(data, null, 2);
+                } else {
+                    showStatus('individual', 'error', `❌ ${featureKey} is disabled or not found`);
+                    document.getElementById('json-individual').textContent = JSON.stringify(data, null, 2);
+                }
+            } catch (error) {
+                showStatus('individual', 'error', '❌ Request Failed: ' + error.message);
+                document.getElementById('json-individual').textContent = 'Error: ' + error.message;
+            }
+        }
+
+        // Show features summary
+        async function showFeaturesSummary() {
+            const summaryDiv = document.getElementById('features-summary');
+            summaryDiv.innerHTML = '<p>⏳ Loading...</p>';
+
+            try {
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+
+                if (response.ok && data.success) {
+                    const features = data.data;
+                    const count = Object.keys(features).length;
+
+                    if (count === 0) {
+                        summaryDiv.innerHTML = '<p style="color: #856404;">⚠️ No features are currently enabled. Go to admin panel to enable features.</p>';
+                        return;
+                    }
+
+                    let html = `<p style="margin-bottom: 15px;"><strong>Total Enabled Features: ${count}</strong></p>`;
+
+                    for (const [key, feature] of Object.entries(features)) {
+                        html += `
+                            <div class="feature-card">
+                                <h4>
+                                    ${formatFeatureName(key)}
+                                    <span class="badge enabled">ENABLED</span>
+                                </h4>
+                                <p><strong>Feature Key:</strong> ${key}</p>
+                                <p><strong>Settings:</strong> ${Object.keys(feature.settings).length} configuration(s)</p>
+                            </div>
+                        `;
+                    }
+
+                    summaryDiv.innerHTML = html;
+                } else {
+                    summaryDiv.innerHTML = '<p style="color: #721c24;">❌ Failed to load features</p>';
+                }
+            } catch (error) {
+                summaryDiv.innerHTML = `<p style="color: #721c24;">❌ Error: ${error.message}</p>`;
+            }
+        }
+
+        // Helper functions
+        function showStatus(section, type, message) {
+            const statusDiv = document.getElementById(`status-${section}`);
+            statusDiv.innerHTML = `<div class="status ${type}">${message}</div>`;
+        }
+
+        function showResponse(section) {
+            document.getElementById(`response-${section}`).style.display = 'block';
+        }
+
+        function clearResponse(section) {
+            document.getElementById(`response-${section}`).style.display = 'none';
+            document.getElementById(`json-${section}`).textContent = '';
+            document.getElementById(`status-${section}`).innerHTML = '';
+        }
+
+        function formatFeatureName(key) {
+            return key.split('_').map(word => 
+                word.charAt(0).toUpperCase() + word.slice(1)
+            ).join(' ');
+        }
+
+        // Auto-test on page load
+        window.addEventListener('load', () => {
+            console.log('🧪 Feature Toggle API Tester loaded');
+            console.log('📍 API URL:', apiUrl);
+        });
+    </script>
+</body>
+</html>

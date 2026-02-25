@@ -1,0 +1,435 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202509 will be lost/reset.
+# Last config file used to build this data file was /home/acharmel/tmp/awstats/ssl/awstats.demo.homeappliances.acharmela.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2068                
+POS_TIME 2742                
+POS_VISITOR 9765                
+POS_DAY 12174               
+POS_DOMAIN 3399                
+POS_LOGIN 3731                
+POS_ROBOT 3886                
+POS_WORMS 4133                
+POS_EMAILSENDER 4264                
+POS_EMAILRECEIVER 4407                
+POS_SESSION 12483               
+POS_FILESIZE 14023               
+POS_SIDER 12647               
+POS_FILETYPES 4542                
+POS_DOWNLOADS 4805                
+POS_OS 4853                
+POS_BROWSER 5010                
+POS_SCREENSIZE 5380                
+POS_UNKNOWNREFERER 5454                
+POS_UNKNOWNREFERERBROWSER 5887                
+POS_ORIGIN 6004                
+POS_SEREFERRALS 6140                
+POS_PAGEREFS 6284                
+POS_SEARCHWORDS 6432                
+POS_KEYWORDS 6584                
+POS_MISC 2406                
+POS_ERRORS 6643                
+POS_CLUSTER 3587                
+POS_SIDER_404 6759                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250929092033 9 1392 7866914026438
+FirstTime 20250918165401
+LastTime 20250929092033
+LastUpdate 20250929180250 9 0 9 0 0
+TotalVisits 59                  
+TotalUnique 56                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 58                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 9 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 2 2 168720
+1 2 30 682946 0 3 6240
+2 7 34 954361 1 2 3322
+3 5 14 117830 8 8 13288
+4 2 2 20095 2 2 85250
+5 4 5 377669 0 0 0
+6 1 2 347527 0 0 0
+7 1 2 347523 3 3 3726
+8 1 2 347526 0 0 0
+9 4 4 40200 0 0 0
+10 1 1 10043 2 2 85954
+11 0 0 0 0 0 0
+12 3 8 1039363 2 6 92254
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 2 4 511124 0 2 3496
+16 26 118 9183677 27 45 352829
+17 50 82 1113491 31 168 291932
+18 14 154 4733178 2 6 28424
+19 7 43 1567040 0 3 3825
+20 0 0 0 0 0 0
+21 7 9 745299 0 1 1751
+22 5 43 1569218 19 20 41600
+23 6 42 1230653 0 1 2080
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+in 74 252 11859674
+us 60 261 10466350
+ru 9 80 2104458
+gb 1 2 347523
+be 1 1 10047
+bg 1 1 10048
+au 1 1 127445
+tr 1 1 13218
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+no_user_agent 7 683592 20250928123238 0
+scrapy 2 20104 20250918185339 0
+Go\-http\-client/ 1 11760 20250918165521 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+jpeg 131 1741393 0 0
+css 118 990698 0 0
+woff2 23 2518864 0 0
+png 19 3334054 0 0
+woff 4 152996 0 0
+js 127 1255221 0 0
+Unknown 56 490330 0 0
+html 65 950995 0 0
+webp 45 11921913 0 0
+jpg 11 1582299 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+win10 298 82
+Unknown 29 9
+ios_iphone 115 10
+androidmarshmallow 76 7
+macosx9 1 1
+linux 80 39
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 17
+firefox120.0 26 26
+chrome139.0.0.0 6 3
+chrome108.0.0.0 2 2
+chrome140.0.0.0 174 67
+chrome52.0.2717.98 2 2
+chrome137.0.0.0 2 2
+firefox139.0 6 3
+netscape5.0 10 1
+chrome132.0.0.0 39 4
+mozilla 17 7
+chrome130.0.0.0 113 9
+chrome33.0.1750.152 1 1
+firefox83.0 1 1
+Unknown 2 1
+chrome119.0.0.0 82 8
+safari 115 10
+firefox122.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_UGAResearchAgent/1.0;_Please_visit:_NISLabUGA.github.io) 20250925024152
+Mozilla/5.0 20250923035740
+WhatsApp/2.2535.3_W 20250918170841
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20250928212430
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250919194303
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+WhatsApp/2.2535.3_W 20250918170841
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 65 172
+From1 0 0
+From2 0 0
+From3 0 0
+From4 83 427
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 33 7417
+404 207 429192
+403 15 18630
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 51
+/swagger.json 1 -
+/.vscode/sftp.json 1 -
+/public/uploads/product/samsung-refrigerator-1.jpg 2 https://demo.homeappliances.acharmela.com/admin/products/1/edit
+/public/uploads/product/lg-refrigerator-2.jpg 3 https://demo.homeappliances.acharmela.com/admin/products/2/edit
+/public/uploads/product/walton-washing-machine-7.jpg 8 https://demo.homeappliances.acharmela.com/admin/products/7/edit
+/public/uploads/product/vision-fan-16.jpg 17 https://demo.homeappliances.acharmela.com/admin/products/manage
+/@vite/env 2 -
+/api/swagger.json 1 -
+/js/twint_ch.js 1 -
+/api/graphql 2 -
+/.env.production 1 -
+/public/uploads/product/singer-blender-12.jpg 13 https://demo.homeappliances.acharmela.com/admin/products/12/edit
+/graphql 2 -
+/public/uploads/product/lg-washing-machine-6.jpg 7 https://demo.homeappliances.acharmela.com/admin/products/6/edit
+/js/lkk_ch.js 2 -
+/v3/openapi.json 2 -
+/public/uploads/product/kdk-fan-13.jpg 14 https://demo.homeappliances.acharmela.com/admin/products/13/edit
+/debug/default/view 1 -
+/v2/_catalog 1 -
+/public/uploads/product/black-decker-blender-11.jpg 12 https://demo.homeappliances.acharmela.com/admin/products/11/edit
+/public/backEnd/assets/images/bg-pattern-2.png 1 https://demo.homeappliances.acharmela.com/public/backEnd/assets/css/app.min.css
+/actuator/env 2 -
+/public/uploads/category/default.png 10 -
+/.DS_Store 1 -
+/_profiler/phpinfo 1 -
+/public/uploads/product/vision-refrigerator-4.jpg 5 https://demo.homeappliances.acharmela.com/admin/products/4/edit
+/s/63e2130323e2834323e2136313/_/ 1 -
+/_all_dbs 1 -
+/v1/openapi.json 2 -
+/telescope/requests 1 -
+/api/v1/openapi.json 2 -
+/server-status 1 -
+/public/uploads/product/miyako-fan-15.jpg 16 https://demo.homeappliances.acharmela.com/admin/products/15/edit
+/public/uploads/product/walton-refrigerator-3.jpg 4 https://demo.homeappliances.acharmela.com/admin/products/3/edit
+/blog.env 1 -
+/v2/openapi.json 2 -
+/public/uploads/product/samsung-washing-machine-5.jpg 6 https://demo.homeappliances.acharmela.com/admin/products/5/edit
+/public/uploads/product/panasonic-blender-10.jpg 11 https://demo.homeappliances.acharmela.com/admin/products/manage
+/login.action 1 -
+/public/uploads/product/vision-washing-machine-8.jpg 9 https://demo.homeappliances.acharmela.com/admin/products/manage
+/.env.local 1 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 1 -
+/public/uploads/product/philips-blender-9.jpg 10 https://demo.homeappliances.acharmela.com/admin/products/9/edit
+/api/openapi.json 1 -
+/config.json 1 -
+/about 1 -
+/swagger/v1/swagger.json 2 -
+/info.php 1 -
+/public/uploads/product/crompton-fan-14.jpg 15 https://demo.homeappliances.acharmela.com/admin/products/manage
+/server 1 -
+/query 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 58
+103.166.59.148 68 176 9510531 20250918170840
+34.248.137.227 6 41 1219510 20250918195501
+185.203.132.199 5 74 1397656 20250922170139
+23.27.145.151 4 40 1210554 20250918232208
+149.57.180.80 4 42 1559167 20250918225022
+54.226.61.125 4 39 1199412 20250918183618
+103.196.9.249 3 38 1174570 20250918181459
+103.4.250.159 3 38 1174573 20250918181458
+152.39.216.213 3 38 1174568 20250918181459
+23.27.145.132 2 2 20097 20250921024803
+149.57.180.133 1 1 10048 20250922215615
+91.134.91.17 1 1 10048 20250922164239
+159.223.11.117 1 2 347527 20250921063015
+207.154.238.254 1 2 347526 20250919083157
+185.247.137.57 1 1 10054 20250919194303
+64.226.78.121 1 1 128597 20250918165501
+185.156.46.167 1 1 10051 20250919151452
+23.27.145.0 1 1 10042 20250923030439
+23.27.145.220 1 1 10050 20250919023836
+149.57.180.124 1 1 10051 20250918210610
+23.27.145.44 1 1 10046 20250929091924 20250929091924 /
+164.92.206.213 1 2 347522 20250922050608
+23.27.145.31 1 1 10048 20250920024957
+149.57.180.138 1 1 10048 20250929051102
+149.57.180.185 1 1 10053 20250921031754
+185.247.137.24 0 1 337476 
+195.211.77.140 1 1 0 20250918165443
+149.57.180.149 1 1 10049 20250926094538
+165.22.218.64 1 2 347521 20250927162804
+149.57.180.88 1 1 10049 20250929050946
+206.168.34.119 1 3 501073 20250922151912
+167.172.38.3 1 2 347523 20250919072728
+167.94.138.200 1 3 370497 20250919122514
+149.57.180.113 1 1 10048 20250923030221
+139.59.136.184 1 1 127445 20250918165502
+104.253.247.65 1 1 10055 20250918181438
+176.53.177.41 1 1 13218 20250918165401
+128.192.12.121 1 1 10047 20250925024152
+149.57.180.169 1 1 10049 20250922215745
+87.236.176.186 1 1 10047 20250919124137
+162.142.125.195 1 3 685002 20250928212427
+149.57.180.192 1 1 10045 20250920025132
+23.27.145.40 1 1 10051 20250920230132
+54.227.173.38 1 10 77634 20250923035737
+165.227.233.136 1 2 347522 20250920021000
+23.27.145.223 1 1 10053 20250919030836
+149.57.180.181 1 1 10043 20250926101553
+185.247.137.237 0 1 337476 
+23.27.145.97 1 1 10046 20250926045313
+162.142.125.125 1 3 321343 20250919122834
+149.57.180.10 1 1 10049 20250926045129
+23.27.145.92 1 1 10055 20250919214537
+149.57.180.49 1 1 10047 20250918213616
+149.57.180.93 1 1 10056 20250929092033 20250929092033 /
+149.57.180.162 1 1 10051 20250920221918
+149.57.180.23 1 1 10050 20250929053938
+23.27.145.27 1 1 10049 20250926094439
+195.211.77.142 1 1 11745 20250918165504
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20250918 103 460 18534043 16
+20250919 15 77 3381791 13
+20250920 5 6 387717 5
+20250921 3 4 367630 3
+20250922 6 24 1026803 6
+20250923 3 12 97724 3
+20250925 1 1 10047 1
+20250926 5 5 50236 5
+20250927 1 2 347521 1
+20250928 1 3 685002 1
+20250929 5 5 50249 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+0s-30s 55
+1h+ 1
+5mn-15mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 31
+/ 65 950995 59 51
+/admin/products/manage 19 169995 0 0
+/public/frontEnd/webfonts/fa-solid-900.woff2 8 1199264 0 2
+/public/frontEnd/webfonts/fa-brands-400.woff2 8 864000 0 4
+/public/frontEnd/webfonts/fa-regular-400.woff2 5 124200 0 0
+/admin/products/11/edit 2 18539 0 0
+/admin/products/7/edit 2 18535 0 0
+/admin/products/3/edit 2 18552 0 0
+/admin/products/5/edit 2 18553 0 0
+/load-more-products 2 2342 0 0
+/admin/products/12/edit 2 18527 0 0
+/admin/products/1/edit 2 18542 0 0
+/admin/products/10/edit 2 18528 0 0
+/admin/products/14/edit 2 18525 0 0
+/admin/products/15/edit 2 18502 0 0
+/admin/products/6/edit 2 18541 0 0
+/admin/products/8/edit 2 18563 0 0
+/admin/products/13/edit 2 18517 0 0
+/admin/products/2/edit 2 18527 0 0
+/admin/products/4/edit 2 18508 0 0
+/admin/products/9/edit 2 18537 0 0
+/admin/products/16/edit 2 18528 0 0
+/public/backEnd/assets/fonts/feather.woff 1 29500 0 0
+/public/backEnd/assets/fonts/cerebrisans-bold.woff 1 41184 0 0
+/public/backEnd/assets/libs/summernote/font/summernote.woff2 1 6156 0 0
+/public/backEnd/assets/fonts/cerebrisans-regular.woff 1 41084 0 0
+/admin/login 1 1161 0 0
+/public/backEnd/assets/fonts/materialdesignicons-webfont.woff2 1 325244 0 0
+/public/backEnd/assets/fonts/cerebrisans-medium.woff 1 41228 0 0
+/admin/dashboard 1 9101 0 0
+/admin/products/create 1 11207 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 6
+0-44 5
+2K-5K 286
+500-1K 21
+5K+ 436
+100-500 57
+1K-2K 68
+END_FILESIZE

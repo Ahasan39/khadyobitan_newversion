@@ -1,0 +1,1813 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202509 will be lost/reset.
+# Last config file used to build this data file was /home/acharmel/tmp/awstats/ssl/awstats.webleez.top.acharmela.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2060                
+POS_TIME 2745                
+POS_VISITOR 33353               
+POS_DAY 48649               
+POS_DOMAIN 3720                
+POS_LOGIN 4464                
+POS_ROBOT 4619                
+POS_WORMS 5727                
+POS_EMAILSENDER 5858                
+POS_EMAILRECEIVER 6001                
+POS_SESSION 49504               
+POS_FILESIZE 57190               
+POS_SIDER 49716               
+POS_FILETYPES 6136                
+POS_DOWNLOADS 6507                
+POS_OS 6878                
+POS_BROWSER 7379                
+POS_SCREENSIZE 9594                
+POS_UNKNOWNREFERER 9668                
+POS_UNKNOWNREFERERBROWSER 11414               
+POS_ORIGIN 12832               
+POS_SEREFERRALS 12981               
+POS_PAGEREFS 13191               
+POS_SEARCHWORDS 14047               
+POS_KEYWORDS 14199               
+POS_MISC 2407                
+POS_ERRORS 14258               
+POS_CLUSTER 4320                
+POS_SIDER_404 14488               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250929175014 462 113961 14351538789421
+FirstTime 20250901023223
+LastTime 20250929175012
+LastUpdate 20250929180254 462 0 462 0 0
+TotalVisits 500                 
+TotalUnique 363                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 376                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 115 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 65 490 47933354 89 318 6031939
+1 65 217 16261176 71 123 5588406
+2 29 142 12516392 136 181 13929888
+3 104 391 25348437 115 215 25593556
+4 59 272 23995761 97 195 21744721
+5 140 775 77441749 140 238 10622604
+6 69 462 48433784 142 235 11089480
+7 62 282 20981421 130 275 14638520
+8 204 622 30565425 124 266 17564602
+9 230 680 40519459 155 355 20880657
+10 132 533 40664972 149 279 13594263
+11 323 1020 62865779 188 539 22447956
+12 202 892 200271310 169 308 12783347
+13 227 694 48885382 96 241 8767268
+14 207 720 53282505 152 419 7885141
+15 356 953 55624338 622 815 23229305
+16 204 671 55717367 249 599 22957528
+17 81 413 32691760 65 281 6003783
+18 55 295 22444727 81 193 19185044
+19 112 446 23691510 94 163 8166195
+20 18 60 5312507 102 154 17152783
+21 37 66 2239990 176 258 10218648
+22 55 587 54382866 440 605 7253967
+23 45 189 13850979 62 174 6105348
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 34
+in 1939 6046 470926808
+us 544 2819 249017663
+bd 279 1452 109230843
+hu 65 402 74985861
+cn 53 188 14227646
+hk 40 175 18974417
+ru 23 145 19244983
+jp 22 147 9628059
+pt 15 64 4617357
+ie 13 110 9929345
+gb 11 51 6427401
+ca 11 12 1040739
+lt 6 6 77544
+iq 6 46 6401598
+hn 5 44 3896571
+ro 5 45 6388889
+uz 5 45 6388794
+rs 5 5 766485
+ph 4 33 1734909
+de 4 4 0
+se 4 7 979183
+eu 3 4 43735
+bg 3 3 37759
+pa 2 2 26043
+pl 2 2 165852
+ir 1 1 12893
+vn 1 1 12889
+be 1 2 18310
+id 2 2 25388
+eg 2 2 24153
+au 2 3 487029
+fr 1 1 152606
+nl 1 2 18038
+ip 1 1 12728
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 25
+bot[\s_+:,\.\;\/\\-] 781 41564997 20250929131846 67
+AhrefsBot/ 478 28459646 20250929140611 26
+SemrushBot/ 346 2949658 20250926061416 105
+facebookexternalhit/ 342 49328581 20250929105607 48
+bingbot/ 318 11242534 20250929170234 36
+Barkrowler 298 3713739 20250927163840 5
+Dalvik/ 221 58956255 20250926141724 0
+Googlebot/ 166 1295908 20250929095942 13
+BLEXBot/ 102 1240187 20250902145525 2
+MJ12bot/ 76 691178 20250928164650 36
+no_user_agent 16 1916421 20250928125647 0
+unknown 13 312 20250925215012 13
+link 10 2652379 20250915180639 0
+Go\-http\-client/ 6 76025 20250922213551 0
+survey 5 570802 20250910212111 0
+scrapy 3 31711 20250913083232 0
+Googlebot\-Image/ 3 929304 20250925024827 0
+checker 2 24139 20250905162631 0
+YandexBot/ 2 12593 20250916150842 1
+Konqueror/ 1 12210 20250910120839 0
+[\s_+:,\.\;\/\\-]bot 1 12727 20250921153633 0
+robot 1 24 20250903152345 1
+crawl 1 12723 20250919192701 0
+java 1 0 20250919192700 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 12897 20250924160849 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 15
+zip 6 59404 0 0
+php 6 76630 0 0
+Unknown 1487 9810563 0 0
+webp 930 96401130 0 0
+jpg 1498 311998589 0 0
+xml 5 5200 0 0
+ttf 2 39732 0 0
+css 2570 27469847 0 0
+woff 178 6328528 0 0
+png 848 228977493 0 0
+log 6 140196901 0 0
+jpeg 321 83365904 0 0
+woff2 488 57916472 0 0
+html 915 16917715 0 0
+js 2612 36358410 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 6
+/storage/logs/laravel.log 5 0 140196901
+/storage/app/public/updates/update_1.2.4_1758805551.zip 3 0 28347
+/storage/app/public/updates/update_1.1.9_1758362399.zip 1 0 3000
+/storage/app/public/updates/update_1.2.1_1758638709.zip 1 0 24654
+/storage/app/public/updates/update_1.1.9_1758366849.zip 1 0 3403
+/robots.txt 0 18 432
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 29
+android 1003 160
+androidmarshmallow 125 65
+macosx7 8 7
+win7 142 19
+macosx14 49 7
+linux 740 152
+macosx9 2 2
+android11 224 32
+bsdnetbsd 1 1
+macosx 2 2
+android13 259 48
+macosx10 44 5
+android12 1567 191
+symbian 2 2
+macosx15 360 79
+macosx11 3 3
+androidoreo 1 1
+win8.1 96 12
+androidpie 5 5
+Unknown 258 174
+win10 5035 1694
+android10 1576 306
+macosx13 3 3
+winphone 1 1
+ios_ipad 2 2
+androidics 1 1
+ios_iphone 353 97
+linuxubuntu 9 9
+win2003 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 105
+safari14.0.3 1 1
+chrome140.0.7339.52 44 4
+chrome14.0.834.0 1 1
+chrome76.0.3809.111 2 2
+safari7.0.3 2 2
+chrome133.0.0.0 1 1
+chrome141.0.7390.17 60 16
+firefox122.0 3 3
+chrome99.0.4844.88 174 39
+chrome140.0.7339.119 71 27
+Unknown 209 152
+chrome139.0.0.0 2386 656
+firefox61.0 1 1
+chrome83.0.4103.7 1 1
+chrome139.0.7258.158 1084 177
+minefield 1 1
+safari17.2.1 2 2
+chrome96.0.4664.93 129 12
+chrome104.0.0.0 1 1
+chrome139.0.7258.160 176 19
+chrome47.0.2526.106 3 3
+chrome138.0.0.0 307 51
+chrome49.0.2623.112 11 5
+firefox100.0 1 1
+chrome130.0.0.0 157 43
+chrome66.0.3359.181 1 1
+chrome110.0.0.0 4 4
+chrome121.0.0.0 3 3
+chrome74.0.3729.169 1 1
+mozilla 44 17
+safari18.0 1 1
+chrome58.0.3029.110 5 5
+chrome101.0.4951.41 1 1
+safari15.6.7 11 2
+chrome112.0.0.0 2 1
+chrome105.0.0.0 10 7
+firefox127.0 1 1
+firefox55.0 1 1
+chrome67.0.3396.87 1 1
+chrome96.0.4664.55 112 13
+opera9.0 1 1
+safari2.0.1 1 1
+chrome95.0.4638.69 183 17
+chrome124.0.0.0 13 13
+safari3.0 1 1
+firefox30.0 1 1
+chrome126.0.0.0 45 6
+firefox134.0 6 6
+chrome74.0.3729.157 1 1
+firefox90.0 1 1
+chrome139.0.7258.127 7 7
+chrome120.0.0.0 49 9
+chrome76.0.3809.89 2 2
+chrome137.0.0.0 9 9
+chrome131.0.0.0 62 14
+sonyericsson 1 1
+chrome96.0.4664.45 226 27
+chrome117.0.0.0 7 7
+firefox139.0 19 13
+chrome76.0.3809.100 1 1
+firefox14.0.1 1 1
+firefox48.0 1 1
+firefox142.0 35 6
+opera12.16 1 1
+netscape5.0 5 5
+iphone 27 7
+chrome115.0.0.0 1 1
+chrome87.0.4280.88 44 5
+chrome129.0.0.0 2 2
+chrome139.0.7258.143 78 5
+chrome135.0.0.0 10 10
+chrome56.0.2924.87 1 1
+chrome52.0.2717.98 6 6
+chrome91.0.4472.124 1 1
+safari17.5 18 1
+chrome102.0.0.0 1 1
+safari18.6 56 12
+chrome140.0.7339.127 23 23
+safari 241 75
+firefox109.0 44 4
+chrome96.0.4664.110 4 2
+chrome108.0.0.0 5 5
+chrome136.0.0.0 5 3
+chrome116.0.0.0 369 49
+chrome140.0.7339.51 230 58
+opera12.00 1 1
+chrome114.0.0.0 1105 76
+msie11.0 7 1
+chrome140.0.0.0 3642 1221
+safari11.1.2 1 1
+chrome67.0.3396.99 1 1
+chrome75.0.3770.142 1 1
+edge12 1 1
+opera48.0.2685.39 1 1
+chrome134.0.0.0 50 10
+chrome139.0.7258.164 81 14
+chrome125.0.6422.72 47 27
+opera10.10 1 1
+chrome101.0.4951.61 3 3
+chrome109.0.0.0 46 7
+chrome17.0.963.56 7 6
+safari11.0 3 3
+chrome60.0.3112.91 1 1
+chrome122.0.0.0 1 1
+firefox136.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 21
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250928213121
+\ 20250925090632
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632873;FBDM/{density=1.75,width=720,height=1600};FBLC/en_US;FBRV/790080777;FBCR/Grameenphone;FBMF/motorola;FBBD/motorola;FBPN/com.facebook.katana;FBDV/moto_g45_5G;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250911191810
+PostmanRuntime/7.45.0 20250917152004
+PostmanRuntime/7.47.1 20250925190550
+WhatsApp/2.2534.2_W 20250906100645
+nook_browser/1.0 20250924000150
+[FBAN/FB4A;FBAV/530.0.0.48.74;FBBV/789633436;FBDM/{density=1.75,width=720,height=1600};FBLC/en_US;FBRV/792042063;FBCR/Grameenphone;FBMF/motorola;FBBD/motorola;FBPN/com.facebook.katana;FBDV/moto_g45_5G;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250915135324
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250927110553
+python-requests/2.32.4 20250916003730
+SonyEricssonS500i/R6BC_Browser/NetFront/3.3_Profile/MIDP-2.0_Configuration/CLDC-1.1 20250925234830
+quic-go-HTTP/3 20250926123813
+PostmanRuntime/7.46.1 20250923124652
+[FBAN/FB4A;FBAV/530.0.0.48.74;FBBV/789633436;FBDM/{density=1.75,width=720,height=1600};FBLC/en_US;FBRV/792245187;FBCR/Grameenphone;FBMF/motorola;FBBD/motorola;FBPN/com.facebook.katana;FBDV/moto_g45_5G;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250916090314
+Mozilla/5.0_zgrab/0.x 20250925060939
+GuzzleHttp/7 20250925214616
+python-requests/2.32.3 20250916190405
+WhatsApp/2.23.20.0 20250920115050
+WhatsApp/3.0.0.0_A 20250906091741
+WhatsApp/2.2535.3_W 20250924095332
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20250928232156
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 17
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632873;FBDM/{density=1.75,width=720,height=1600};FBLC/en_US;FBRV/790080777;FBCR/Grameenphone;FBMF/motorola;FBBD/motorola;FBPN/com.facebook.katana;FBDV/moto_g45_5G;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250911191810
+\ 20250925090632
+PostmanRuntime/7.47.1 20250925190550
+WhatsApp/2.2534.2_W 20250906100645
+PostmanRuntime/7.45.0 20250917152004
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250927110553
+[FBAN/FB4A;FBAV/530.0.0.48.74;FBBV/789633436;FBDM/{density=1.75,width=720,height=1600};FBLC/en_US;FBRV/792042063;FBCR/Grameenphone;FBMF/motorola;FBBD/motorola;FBPN/com.facebook.katana;FBDV/moto_g45_5G;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250915135324
+nook_browser/1.0 20250924000150
+PostmanRuntime/7.46.1 20250923124652
+python-requests/2.32.4 20250916003730
+quic-go-HTTP/3 20250926123813
+GuzzleHttp/7 20250925214616
+[FBAN/FB4A;FBAV/530.0.0.48.74;FBBV/789633436;FBDM/{density=1.75,width=720,height=1600};FBLC/en_US;FBRV/792245187;FBCR/Grameenphone;FBMF/motorola;FBBD/motorola;FBPN/com.facebook.katana;FBDV/moto_g45_5G;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250916090314
+WhatsApp/2.2535.3_W 20250924095332
+WhatsApp/3.0.0.0_A 20250906091741
+python-requests/2.32.3 20250916190405
+WhatsApp/2.23.20.0 20250920115050
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 737 2227
+From1 0 24
+From2 41 122
+From3 143 656
+From4 2160 8843
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+www_bing_com 4 4
+www_google_com 24 24
+hotbot 6 45
+duckduckgo 7 49
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 22
+http://m.facebook.com 57 57
+https://l.facebook.com 15 15
+http://redz.com 12 129
+http://www.surfwax.com 11 89
+http://yippy.com 10 92
+http://visvo.com 9 104
+http://www.roysearch.com 8 79
+http://www.findelio.com 7 64
+https://www.facebook.com 4 4
+http://www.earthlifetherapies.pectusjourney.com 2 2
+https://www.integrados.com.pe.carsa.pe 2 2
+https://tohurafashion.com 2 2
+https://lm.facebook.com 1 1
+https://kroyhaat.xyz 1 1
+https://sucuri.net 1 7
+https://www.tkconsultingfrance.fr 1 1
+http://a5.366029com006xl01.sbs 0 1
+https://mail.webleez.top 0 1
+http://mail.bluegrass.mov 0 1
+https://www.tampaspiritualensemble.technology4life.institute 0 2
+https://cn.redbean.support 0 1
+http://a4.366029com006xl04.sbs 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 12
+206 20 1705077
+302 165 34078
+204 5 0
+404 3283 7211591
+400 4 208
+422 1 82
+419 1 2084
+401 7 371
+403 62 77004
+301 35 27825
+405 29 6230084
+500 508 112231577
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 679
+/public/public/frontEnd/css/responsive.css 2 -
+/il-take-care 2 -
+/upichalega 2 -
+/laravelfm 1 -
+/icicipoint 2 -
+/shell.php 8 -
+//webleez.top.acharmela.com/public/frontEnd/js/script.js 17 -
+/hdfcsales 2 -
+/verification 2 -
+/bbpou 1 -
+/skydivedubaiaed 1 -
+/fmanager 1 -
+/valmodeliverypartner 2 -
+/mail 2 -
+/public/backEnd/assets/css/app.min.css.map 13 -
+/upiid 1 -
+/staff 3 -
+/modules/homepageone/frontend/img/banner-5.jpg 9 https://webleez.top/homepageones
+/xdubaipark 1 -
+/bhimrecharge 1 -
+/services 2 -
+/naaiaisland 2 -
+/discover-naia 2 -
+/naidubai 2 -
+/account 2 -
+/allthingsev 2 -
+/nach-apb 1 -
+/hdfcbankfastag 2 -
+/npci-international-payments-limited 1 -
+//webleez.top.acharmela.com/public/frontEnd/js/bootstrap.min.js 16 -
+/meesho 2 -
+/administrator 2 -
+/reprobiotech 2 -
+/naia-dubae 2 -
+/netctransactions 1 -
+/public/public/uploads/product/1754497405-copy.png 2 -
+/file 2 -
+/dbadmin 2 -
+/thehdfcschool 2 -
+/islandbyshamal 1 -
+//www.webleez.top.acharmela.com/public/frontEnd/js/wow.min.js 11 -
+/hdfcergohealth 2 -
+/hdfcfund 2 -
+/hellowin 2 -
+/authorize 2 -
+/asset/laravel-filemanager 1 -
+/hdbfs 2 -
+/hidden-files 2 -
+/@vite/env 6 -
+/bhimspoof 1 -
+/public/fm 1 -
+/visit-naiadubai 2 -
+/thooq 2 -
+/0c5220d3-dcf9-4d32-b1ad-426fc87f39aa 1 -
+/shamalholding 2 -
+/public/public/uploads/category/1729957138-home-lifestyle.webp 2 -
+/prize 2 -
+/hdfcbank-cares 2 -
+/password 2 -
+/xparkjr 2 -
+/admin/update-permissions 1 https://webleez.top/admin/update-permissions
+/config.json 9 -
+/aadhaar-authentication 1 -
+/.DS_Store 6 -
+/icicidirect 2 -
+/experience-naia 2 -
+/0gravitybeachclub 1 -
+/wp-admin/setup-config.php 50 -
+/public/backEnd/assets/js/toastr.js.map 15 -
+/public/public/frontEnd/css/owl.carousel.min.css 4 -
+/public/admin/file-manager 1 -
+/icici-lombard-ozone 2 -
+/nasgardens 2 -
+/nipl 2 -
+/icicilombardozone 2 -
+/nachapb 1 -
+/public/backend/file-manager 1 -
+/cache 2 -
+/key 2 -
+/e-rupi 1 -
+/media/filemanager 1 -
+/valmo-logistics 2 -
+/dubai360 2 -
+/digisaathi 2 -
+/invoices 2 -
+/stayat-naia 2 -
+/contact.php 2 -
+/public/public/backEnd/assets/js/toastr.min.js 2 -
+/back-office/ppid-filemanager 1 -
+/icici-reward 2 -
+/js/laravel-filemanager 1 -
+/default 2 -
+/hdfcergoknowledge 2 -
+/hdfccredila 2 -
+/hdfc-ergo-health-insurance-company-limited 2 -
+/reward 2 -
+/upi-app 1 -
+/bhim-customer 1 -
+/userpanel 2 -
+/naia-dubaiisland 2 -
+/kitebeachdubai 1 -
+/0-gravity-dubai 1 -
+/support 2 -
+/transfer 2 -
+/upi-money 1 -
+/caches 2 -
+//webleez.top.acharmela.com/public/frontEnd/js/wow.min.js 17 -
+/nasgardensquare 2 -
+/system 2 -
+/naaia-island 2 -
+/%20 2 -
+/public/public/uploads/product/1758376090-product-06-2.png 1 -
+/npci 2 -
+/hdfc-ergo 2 -
+/login 4 -
+/credit 2 -
+/session 2 -
+//webleez.top.acharmela.com/public/frontEnd/js/mobile-menu.js 14 -
+/confirm 2 -
+/modules/homepageone/frontend/img/category/2.jpg 13 https://webleez.top/homepageones
+/public/public/uploads/product/1757995139-1757916569-file_00000000949c61fd88672702d159aa8d.png 2 -
+/public/public/uploads/product/1758204644-mask-group.png 2 -
+/statement 2 -
+/hdfcbankfinancialservices 2 -
+/baccarat-hotel-and-residences 1 -
+/balance 2 -
+/netc 2 -
+/baccarat-residences-dubai 1 -
+/fishfarmdubai 1 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 6 -
+/risellc 2 -
+/bhim-payments 1 -
+/public/public/uploads/product/1758377003-rectangle-30.png 2 -
+/ipartner-mobile-icici-lombard 2 -
+/nadalshebagarden 1 -
+/public/admin/filemanager 1 -
+/public/backEnd/assets/images/bg-pattern-2.png 87 https://webleez.top/public/backEnd/assets/css/app.min.css
+/almeidavillas 1 -
+/kite-beach-dubai 1 -
+/public/public/frontEnd/css/mobile-menu.css 2 -
+//webleez.top/public/frontEnd/js/jquery-3.7.1.min.js 27 -
+/theespressolab 2 -
+/k441_mx_bank_hsbc_index/mxz/assets/5e0d0c118e63216fd207fa3adcfea2cf.svg 10 -
+/shamal 2 -
+/icici-lombard 2 -
+/hellowyn 2 -
+/admin/feature/filemanager 1 -
+/.aws/credentials 1 -
+/bharat-qr 1 -
+/bank 2 -
+//www.webleez.top.acharmela.com/public/frontEnd/js/jquery-3.7.1.min.js 12 -
+/uploads 2 -
+/0gravitydubai 1 -
+/wiki 2 -
+/hdfcbank 2 -
+/unlock 2 -
+/modules/homepageone/frontend/css/style.css 9 -
+/media/laravel-filemanager 1 -
+/hdfcbankcares 2 -
+/bharatbillpaymentsystem 1 -
+/naiaislandproject 2 -
+/bharat-connect 2 -
+/icicilombardgic 2 -
+/profiles 2 -
+/naiaisland 2 -
+//www.webleez.top.acharmela.com/public/frontEnd/js/mobile-menu.js 11 -
+//www.webleez.top.acharmela.com/public/frontEnd/js/wsit-menu.js 11 -
+/staffs 2 -
+/naia-dubai-island 2 -
+/customer 2 -
+/claim 2 -
+/recover 2 -
+/public/uploads/product/1758108930-screenshot-2025-09-17-085014.png 107 https://webleez.top/
+/dubai-harbour-residences 1 -
+/icicibankltd 2 -
+/sales 2 -
+/manage 2 -
+/fishfarmllc 1 -
+/modules/homepageone/frontend/img/banner-4.jpg 9 https://webleez.top/homepageones
+/modules/homepageone/frontend/img/1710583168_frd.jpg 7 https://webleez.top/homepageones
+/about 6 -
+/bharatbillpaymentoperatingunit 1 -
+/hdfcergogeneralinsurancecompanylimited 2 -
+/public/public/uploads/banner/1740458085eid-banner-01.jpg 2 -
+//webleez.top.acharmela.com/public/frontEnd/js/mobile-menu-init.js 15 -
+/tokens 2 -
+/skyhub 2 -
+/cruisedubai 2 -
+/bcresidences 2 -
+/bhimupi 2 -
+/icici-careers 2 -
+/naia-island 2 -
+/upload 2 -
+/hdfcsecuritieslimited 2 -
+/public/public/frontEnd/js/script.js 2 -
+/public/public/frontEnd/js/owl.carousel.min.js 6 -
+/hdfcergohealthinsurancecompanylimited 2 -
+/config.php 2 -
+/bharat-bill-payment-system 1 -
+/transaction 2 -
+/authorization 2 -
+//webleez.top/public/frontEnd/js/mobile-menu.js 28 -
+/skyhub-dubai 1 -
+/inflightdubai 2 -
+/discovernaia 2 -
+/valmo-franchise 2 -
+//webleez.top.acharmela.com/public/backEnd/assets/js/toastr.min.js 15 -
+/public/media-manager 1 -
+/public/backEnd/assets/js/feather.min.js.map 10 -
+/zabeel-saray 1 -
+/public/public/uploads/product/1755088340-doctor-2025-03-23-04-06-37-9536.png 1 -
+/emails 2 -
+/public/public/uploads/product/1754497290-iphone-13-pro-driverfashion.com.png 1 -
+/dashboard 2 -
+/orders 2 -
+/public/fmanager 1 -
+/public/public/frontEnd/css/select2.min.css 2 -
+/icicibank 2 -
+/netc-program 1 -
+//webleez.top.acharmela.com/public/frontEnd/js/wsit-menu.js 17 -
+/js/file-manager 1 -
+/permissions 1 https://webleez.top/permissions
+/upipay 1 -
+/server 6 -
+/netbanking 2 -
+/bhim-upi 1 -
+/public/uploads/product/1758204905-rectangle-29-(1).png 4 -
+/stayatnaia 2 -
+/bharatbillpaymentcentralunit 1 -
+/public/public/uploads/product/1758376860-product-06-2.png 2 -
+/telescope/requests 6 -
+/hdfc-securities-limited 2 -
+/webshell.php 8 -
+/rupay-credit-card 1 -
+/private-data 2 -
+/icicilombardemail 2 -
+/private 2 -
+/the-island-by-shamal 1 -
+/bankonline 2 -
+/asset/file-manager 1 -
+/shamalisland 2 -
+/carts 2 -
+/xyogadubai 2 -
+//webleez.top/public/frontEnd/js/bootstrap.min.js 25 -
+//www.webleez.top.acharmela.com/public/frontEnd/js/script.js 11 -
+/https://onelife.webleez.top 8 http://m.facebook.com/
+/bhimmakingindiacashless 1 -
+/nayaaisland 2 -
+/hdfc 2 -
+/bhim-app 1 -
+/public/public/uploads/banner/1740461073eid-collection2.jpg 2 -
+/keys 2 -
+/icicihfc 2 -
+/js/filemanager 1 -
+/xmlrpc.php 19 -
+/public/admin/laravel-filemanager 1 -
+/e9cde656-7f6f-4e57-81e8-99aff2c25d03 1 https://webleez.top/e9cde656-7f6f-4e57-81e8-99aff2c25d03/
+/netc-fastag 1 -
+/users 2 -
+/icicilombardmails 2 -
+/dubai-harbour-marinas 1 -
+/bharat-bill-payment-central-unit 1 -
+/ipartnermobileicicilombard 2 -
+/icici-lombard-gic 2 -
+/prodicicilombard 2 -
+/moiaiosdmfo/theme/hsbccommx22/theme/static/image_1734500948306_y2yy6o.svg 11 -
+/portal 2 -
+/s/63e2130323e2834323e2136313/_/ 6 -
+/icicilombard 2 -
+/f782a4ea1cdf41a7bb4dbc55ba5a4cee 1 -
+/api/v1/guest/comm/config 3 -
+/verify 2 -
+/public/public/frontEnd/js/jquery-3.7.1.min.js 2 -
+/upi-gateway 1 -
+/public/uploads/settings/1757843187-whatsapp-image-2025-09-14-at-3.45.27-pm.webp 296 https://webleez.top/admin/campaign/create
+/icicicareers 2 -
+/public/public/uploads/product/1754821270-1751261187popup-banner-1.jpg 3 -
+/meeshoaiservices 2 -
+/meraas 2 -
+/bhimaadhaarpay 1 -
+/filemanager 1 -
+/otto-buddy 2 -
+/ebanking 2 -
+/icici-bank-credit-card 2 -
+/naiaislanddubai 2 -
+/insurancearticlez 2 -
+/admin/file-manager 1 -
+/public/uploads/product/1758204644-mask-group.png 67 https://webleez.top/
+/modules/homepageone/frontend/img/banner-1.jpg 7 https://webleez.top/homepageones
+/hdfc-bank 2 -
+/databases 2 -
+//webleez.top.acharmela.com/public/frontEnd/js/owl.carousel.min.js 15 -
+/dropzone 2 -
+/main 2 -
+/public/public/frontEnd/js/wsit-menu.js 2 -
+/9c50bf9d-6972-42c2-8eed-10ad6ce8b59f 1 -
+/hartshoreditch 2 -
+/rupay 2 -
+/public/laravelfm 1 -
+/sushisamba 2 -
+/public/public/uploads/category/1729870638-womens-fashion.webp 2 -
+/update 2 -
+//webleez.top/public/frontEnd/js/wow.min.js 23 -
+/islandatummsuqeim 1 -
+/0-gravity-beachclub 1 -
+/sql 2 -
+//webleez.top/public/frontEnd/js/script.js 25 -
+/public/public/uploads/product/1754406448-1741787893_l_1.jpg 3 -
+/meeshosuppliers 2 -
+/valmofranchise 2 -
+/email 2 -
+/fm 1 -
+/hdfcergo 2 -
+/dubaiharbour 2 -
+/config.php%7C/.env%7Csettings.py 1 -
+/naia-island-dubai 2 -
+/order 2 -
+/insuranceprod 2 -
+/upiapp 1 -
+/autoninja 2 -
+/hdfcbk 2 -
+/public/uploads/settings/1758131427-kroyhaat.webp 3 https://webleez.top/admin/settings/3/edit
+/icicigroupcompanies 2 -
+/archives 2 -
+/al-meida-villas 1 -
+/token 2 -
+/icici 2 -
+/modules/homepageone/frontend/img/category/4.jpg 13 https://webleez.top/homepageones
+//www.webleez.top.acharmela.com/public/backEnd/assets/js/toastr.min.js 12 -
+/db 2 -
+/media-manager 1 -
+/nayaa-island 2 -
+/india 2 -
+/sys 2 -
+/umm-suqeim-island-dubai 1 -
+/backend/laravel-filemanager 1 -
+/deposit 2 -
+/actuator/env 6 -
+/bharatqr 1 -
+/savings 2 -
+/banking 2 -
+/card 2 -
+/hdfc-ergo-general-insurance-company-limited 2 -
+/shamaldevelopment 2 -
+/htparekhfoundation 2 -
+/valmo-delivery-partner 2 -
+/vendor/laravel-filemanager 1 -
+/client 2 -
+/web 2 -
+/public/public/uploads/product/1758204905-rectangle-30.png 2 -
+/kitebeach 2 -
+/public/public/backEnd/assets/css/toastr.min.css 2 -
+//webleez.top/public/frontEnd/js/wsit-menu.js 26 -
+/lombardicici 2 -
+/_all_dbs 6 -
+/nayaisland 2 -
+/management 2 -
+/fish-farm-dubai 1 -
+/cart 2 -
+//webleez.top/public/backEnd/assets/js/toastr.min.js 29 -
+/secure 2 -
+/ilomgeneralinsurance 2 -
+/zabeelsaray 1 -
+/aadhaarauthentication 1 -
+/user 2 -
+/members 2 -
+/hdfclife 2 -
+/shop 2 -
+/bhimcustomer 1 -
+/public/backend/filemanager 1 -
+/dubaiharbourmarinas 1 -
+/ummsuqeimislanddubai 1 -
+/404javascript.js 1 https://www.google.com/url/
+/deepdivedubai 2 -
+/skydive-dubai-aed 1 -
+/dubaifilm 2 -
+/public/public/uploads/product/1758377105-mask-group.png 1 -
+/wp-login.php 1 -
+/public/public/uploads/product/1758375683-product-06-2.png 1 -
+/icicibankcustomercare 2 -
+/security 2 -
+/iltakecare 2 -
+/randsinvestments 2 -
+/bhimapp 1 -
+/public/public/uploads/banner/17389193411729274176websolution-it-banner-2.jpg 2 -
+/hdfcsec 2 -
+/billing 2 -
+/hdfclifere 2 -
+/skydiveempuriabrava 2 -
+/fishfarm 2 -
+/nach-system 1 -
+/public/public/frontEnd/css/wsit-menu.css 2 -
+/product/gently-exfoliates-for-smooth-radiant-skin 2 -
+/public/file-manager 1 -
+/api 2 -
+/netcprogram 1 -
+/shamalinvestments 2 -
+/public/public/frontEnd/js/wow.min.js 2 -
+/shamalgroup 2 -
+/payment 2 -
+/fiveguys 2 -
+/bhimpayments 1 -
+/theislandummsuqeim 2 -
+/registration 2 -
+/9031c4c0-dcbb-4355-8d84-d2d54bcc11d1 1 -
+/xdubai-shop 1 -
+/xdubai 2 -
+/info.php 6 -
+/laravel-filemanager 1 -
+/hidden 2 -
+/bharatbillpay 2 -
+/shamal-holding 1 -
+/skyhubdubai 1 -
+/ummsuqeimislandbyshamal 1 -
+/vendor/filemanager 1 -
+/backend/file-manager 1 -
+/plugins/file-manager 1 -
+/public/public/uploads/settings/1758365879-download.webp 10 -
+/ummsuqeimisland 1 -
+//webleez.top.acharmela.com/public/frontEnd/js/jquery-3.7.1.min.js 15 -
+/icici-bank 2 -
+/old 2 -
+/meeshoapp 2 -
+/upipin 1 -
+/download 2 -
+/asset/filemanager 1 -
+/public/public/uploads/product/1754482126-copy.jpeg 2 -
+/ninjacrm 2 -
+/public/uploads/default/user.png 182 https://webleez.top/admin/dashboard
+/island-at-umm-suqeim 1 -
+/tmp 2 -
+/naiadubae 2 -
+/engage-il 2 -
+/upiqr 1 -
+/upigateway 1 -
+/admin/laravel-filemanager 1 -
+/hdfcergouat 2 -
+/.vscode/sftp.json 6 -
+/naiadubay 2 -
+//webleez.top/public/frontEnd/js/owl.carousel.min.js 25 -
+/upimoney 1 -
+/upi-pin 1 -
+/public/public/frontEnd/js/mobile-menu-init.js 2 -
+/theme/default/assets/umi.js 5 -
+//webleez.top/public/frontEnd/js/mobile-menu-init.js 22 -
+/aadhaarpaymentbridge 1 -
+/aadharatmpay 1 -
+/public/public/uploads/product/1758376542-product-06-2.png 2 -
+/iciciventure 2 -
+/refund 2 -
+/admin/logo.png 9 -
+//permissions 1 -
+/rupayprepaidcard 1 -
+/reset 2 -
+/npciinternationalpaymentslimited 1 -
+/rupay-prepaid-card 1 -
+/bharat-bill-payment-operating-unit 1 -
+/public/public/uploads/category/1729870308-men-fashion.webp 2 -
+/bharatconnect 1 -
+/public/frontEnd/js/'+b.j+' 4 -
+/404testpage4525d2fdc 1 https://sucuri.net
+/backup 2 -
+/visitnaia-dubai 2 -
+/icici-bank-customer-care 2 -
+/thewppa 2 -
+/signin 2 -
+/archive 2 -
+/ai.txt 1 -
+/nfsswitch 1 -
+/log 2 -
+/public/frontEnd/js/bootstrap.min.js.map 6 -
+/ilgicdash 2 -
+//cdn.js 53 -
+/hdfchealth 2 -
+/hdfcbankhongkong 2 -
+/upi-handle 1 -
+/admin/filemanager 1 -
+/itraceit 2 -
+/apple-touch-icon.png 13 -
+/modules/homepageone/frontend/img/1710584357._frd.jpg 7 https://webleez.top/homepageones
+//www.googletagmanager.com/gtm.js 56 -
+/public/public/frontEnd/css/owl.theme.default.min.css 4 -
+/authentication 2 -
+/netcfastag 1 -
+/hdfcpropertyfund 2 -
+/.well-known/security.txt 8 -
+/root 2 -
+/naiadubai 2 -
+/secrets 2 -
+/iciciprupension 2 -
+/public/frontEnd/js/parsley.min.js.map 3 -
+/shoofo 2 -
+/public/uploads/product/1758204905-rectangle-29.png 4 -
+/ilgicltd 2 -
+/public/uploads/product/1758204905-rectangle-30.png 72 https://webleez.top/
+/add-to-cart 4 -
+/help 2 -
+/llms.txt 2 -
+/loan 2 -
+/downloads 2 -
+/modules/homepageone/frontend/img/category/6.jpg 12 https://webleez.top/homepageones
+/login.action 6 -
+/modules/homepageone/frontend/img/banner-2.jpg 7 https://webleez.top/homepageones
+/.well-known/traffic-advice 3 -
+/bhim-making-india-cashless 1 -
+/neftinternetbanking 1 -
+/valmo 2 -
+/myicicilombard 2 -
+/experiencenaia 2 -
+/public/back-office/ppid-filemanager 1 -
+/jetman 2 -
+/public/backEnd/assets/css/icons.min.css.map 13 -
+/ilgic 2 -
+/umm-suqeim-island-by-shamal 1 -
+/naia-islanddubai 2 -
+/upi-id 1 -
+/skydivedubai 2 -
+/hbctxdom 2 -
+/public/public/frontEnd/css/style.css 2 -
+/home-page 2 -
+/bbpcu 1 -
+/public/uploads/product/1758204905-logo-1-2.png 4 -
+/erupi 1 -
+/cp 2 -
+/public/admin/feature/filemanager 1 -
+/public/filemanager 1 -
+/v2/_catalog 6 -
+/bhim-aadhaar-pay 1 -
+/secret 2 -
+/naiaa-island 2 -
+/123pay 1 -
+/hdfcbankbahrain 2 -
+/public/public/uploads/banner/17450025431740458571eid-banner-2.jpg 2 -
+/baccaratresidencesdubai 2 -
+/ilom 2 -
+/configuration 2 -
+/upi-pay 1 -
+/naia-dubai 2 -
+/naiadubaiisland 2 -
+/withdraw 2 -
+/naia-dubay 2 -
+/rupaycreditcard 1 -
+/modules/homepageone/frontend/img/category/1.jpg 11 https://webleez.top/homepageones
+/meeshogrocery 2 -
+/bhim-recharge 1 -
+/inflight-dubai 1 -
+/feed/atom 1 -
+/bhim-spoof 1 -
+/signup 2 -
+/store 2 -
+/public/uploads/settings/1758131521-kroyhaat.webp 3 https://webleez.top/admin/settings/3/edit
+//www.webleez.top.acharmela.com/public/frontEnd/js/owl.carousel.min.js 11 -
+/deep-dive-dubai 1 -
+/public/public/frontEnd/js/mobile-menu.js 2 -
+/public/public/frontEnd/css/animate.css 2 -
+/apis 2 -
+/public/public/uploads/banner/1740459312right-banner.jpg 2 -
+/island-by-shamal 1 -
+/lombard-icici 2 -
+/hdfcergo-uat 2 -
+/fish-farm-llc 1 -
+/nachsystem 1 -
+/s3cmd.ini 1 -
+/2738c926-23fe-4e09-932a-a792ff7df043 1 -
+/nad-al-sheba-garden 1 -
+/public/uploads/settings/1757838325-whatsapp-image-2025-09-14-at-14.22.11_4baf7e47.webp 252 https://webleez.top/
+/mailer 2 -
+/settings 2 -
+/backups 2 -
+/public/public/frontEnd/css/all.min.css 2 -
+/public/public/uploads/product/1754410984-1742161507_l_1.jpeg 4 -
+/files 2 -
+/nfinite 2 -
+/debug/default/view 6 -
+/meeshosupplier 2 -
+/phpmyadmin 2 -
+//cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js 51 -
+/rupayglobal 1 -
+/accounts 2 -
+/service 2 -
+/user/umi.min.js 4 -
+/aadhaar-payment-bridge 1 -
+/shell 8 -
+/life99 2 -
+/rupay-global 1 -
+/tos 1 https://www.google.com/
+/www 2 -
+/vendor/file-manager 1 -
+/jiwin-invest 2 -
+/visitnaiadubai 2 -
+/xdubaishop 2 -
+/plugins/filemanager 1 -
+/backend/filemanager 1 -
+/k102_mx_points_hsbc/theme/hsbccommx22/theme/static/image_1734500948306_y2yy6o.svg 11 -
+/configurations 2 -
+/media/file-manager 1 -
+/favicon.png 8 -
+/insurancepp 2 -
+/temp 2 -
+//www.webleez.top.acharmela.com/public/frontEnd/js/mobile-menu-init.js 10 -
+/webshell 8 -
+/public/frontEnd/css/bootstrap.min.css.map 2 -
+/modules/homepageone/frontend/img/category/5.jpg 13 https://webleez.top/homepageones
+/public/public/frontEnd/images/delivery-partner.png 2 -
+/public/public/uploads/product/1754401900-1752605195_l_6.jpg 2 -
+/c5f289b38bfc453da292276829757e5d 1 -
+/naiaaisland 2 -
+/public/backEnd/assets/css/bootstrap.min.css.map 12 -
+/upihandle 1 -
+/data 2 -
+/icici-point 2 -
+/hdfc-ergo-uat 2 -
+/nfs-switch 1 -
+/modules/homepageone/frontend/img/category/3.jpg 12 https://webleez.top/homepageones
+/zabeelinvestments 2 -
+/auth 2 -
+/admin/serverConfig.json 12 -
+/password-recovery 2 -
+/public/public/frontEnd/css/bootstrap.min.css 2 -
+/password-reset 2 -
+/logs 2 -
+/activate 2 -
+/home 2 -
+/admin 5 -
+/profile 2 -
+/server-status 6 -
+/bharat-bill-pay 1 -
+/netc-transactions 1 -
+/shamal-island 2 -
+/3af6e65a-1a28-4c48-a091-928084d2322f 1 https://webleez.top/3af6e65a-1a28-4c48-a091-928084d2322f/
+/theme/default/assets/compoments.js 4 -
+/hdfclife-international 2 -
+/icicibankcreditcard 2 -
+/upi 2 -
+/ilomgic 2 -
+/umm-suqeim-island 1 -
+/wordpress/wp-admin/setup-config.php 47 -
+/public/laravel-filemanager 1 -
+/public/public/uploads/product/1758376756-product-06-2.png 1 -
+/invoice 2 -
+/clients 2 -
+/valmologistics 2 -
+/theislandbyshamal 1 -
+/dubaiharbourresidences 2 -
+/gofast 2 -
+/file-manager 1 -
+/ottobuddy 2 -
+/icicilombardmail 2 -
+/extremeflight 2 -
+/public/frontEnd/js/'+b.loadinggif+' 4 -
+/ad 1 -
+/modules/homepageone/frontend/img/1710584365._frd.jpg 7 https://webleez.top/homepageones
+/hdfc-bank-financial-services 2 -
+/public/backend/laravel-filemanager 1 -
+/icicibankbahrain 2 -
+/member 2 -
+/the-island-umm-suqeim 1 -
+/naia-island-project 2 -
+/icicireward 2 -
+/public/public/frontEnd/js/bootstrap.min.js 2 -
+/almaktab 2 -
+/naya-island 2 -
+/meta.json 3 -
+/test 2 -
+/meeshodesign 2 -
+/hdfcpension 2 -
+/0-gravity 2 -
+/baccarathotelandresidences 1 -
+/sessions 2 -
+/thesquareatnas 2 -
+/almedmar 2 -
+/modules/homepageone/frontend/img/banner-3.jpg 7 https://webleez.top/homepageones
+/neft-internet-banking 1 -
+/hdfccapital 2 -
+/adminpanel 2 -
+//www.webleez.top.acharmela.com/public/frontEnd/js/bootstrap.min.js 10 -
+/h5 1 -
+/csfcamps 2 -
+/checkout 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 376
+103.166.59.146 438 750 30431528 20250925214616
+103.127.56.37 302 489 18404816 20250917140335
+103.145.209.25 247 757 143616175 20250924070001
+103.166.59.149 147 470 21936707 20250929175012 20250929170806 /homepageones
+103.166.59.151 94 328 17135318 20250916035910
+161.248.201.6 81 87 443393 20250925214616
+27.147.202.76 79 320 22020609 20250919233247
+103.197.153.124 56 145 7328132 20250908104108
+103.166.59.148 48 378 25626591 20250927071952
+103.82.11.193 43 111 4650485 20250916121730
+34.127.11.77 41 626 58954939 20250923225822
+103.166.59.147 41 72 2401447 20250923164316
+103.166.59.150 40 206 13703760 20250922161018
+103.205.69.71 38 108 6418930 20250906103512
+103.97.161.75 35 128 10363057 20250915135337
+202.134.8.193 33 92 5650598 20250915092713
+103.181.74.8 29 158 12778805 20250908135413
+34.187.173.236 29 401 39438839 20250924000624
+103.181.97.22 28 53 1674702 20250919164153
+103.71.46.71 27 59 1844432 20250912085543
+103.84.37.14 24 127 20811857 20250927160606
+103.96.38.73 23 108 5507807 20250914174222
+59.152.96.67 22 68 3707497 20250905155903
+103.153.199.27 21 55 1585442 20250916191650
+103.183.16.69 20 210 19879042 20250909150343
+54.157.22.61 6 44 3608368 20250915151758
+103.196.9.13 1 1 12445 20250916000931
+93.158.91.19 1 2 18174 20250926032125
+165.227.173.41 1 1 144418 20250915121027
+206.189.19.19 1 1 150766 20250922213534
+59.152.5.38 8 28 1936812 20250908062032
+121.237.36.28 1 1 12661 20250917030232
+185.126.82.201 0 2 3520 
+66.249.83.7 0 3 16522 
+103.126.149.99 9 51 3951002 20250905140949
+167.94.138.206 1 3 470427 20250906152507
+183.134.59.134 3 3 38132 20250924083427
+5.133.192.168 1 2 474192 20250909181514
+157.10.28.50 1 15 415695 20250907083426
+114.31.1.69 2 11 762797 20250908094805
+205.210.31.11 1 1 109833 20250912101138
+64.233.173.135 2 8 200987 20250906120740
+103.15.42.71 2 11 762796 20250905155923
+54.214.226.179 1 1 12076 20250902150554
+101.198.0.182 1 1 10525 20250913140021
+3.239.31.171 1 1 12869 20250920065038
+206.168.34.89 1 3 372615 20250904175538
+113.74.50.198 1 1 13034 20250929034530
+69.172.232.172 1 1 12205 20250908153148
+103.133.200.238 5 45 4389921 20250910154750
+161.35.136.84 1 1 14669 20250919162959
+93.177.119.193 5 45 6388896 20250918051836
+185.68.246.187 5 45 6388911 20250918054904
+144.48.111.247 5 47 3915785 20250907193514
+164.90.165.236 1 2 474160 20250904121746
+5.133.192.99 1 2 474087 20250901164001
+103.15.42.198 2 11 762799 20250906121039
+31.13.127.25 2 12 1224809 20250905122108
+146.190.18.72 1 1 12709 20250923010846
+54.186.12.147 3 3 36404 20250903042521
+44.201.205.39 1 1 12060 20250906125006
+66.249.83.103 0 1 611 
+34.207.145.215 7 13 139354 20250905161741
+206.204.21.187 3 43 4365065 20250909033923
+44.250.172.162 1 1 127704 20250904065255
+64.233.173.134 2 9 278737 20250906120741
+59.153.100.207 1 1 12452 20250914085325
+143.198.3.211 1 1 14534 20250919181342
+185.61.220.65 5 45 6388855 20250918063115
+167.71.244.219 1 1 15062 20250919151444
+103.133.201.65 5 53 3964160 20250906194217
+64.225.13.16 1 2 474212 20250909011639
+152.42.142.202 1 2 18173 20250927084559
+52.90.18.190 10 93 14586594 20250929174145 20250929174129 /
+182.138.158.227 1 1 12801 20250920161820
+185.8.106.140 6 6 77544 20250925143053
+106.75.157.202 2 2 65536 20250915121142
+31.13.127.5 2 10 418062 20250916030907
+209.97.159.73 1 1 15144 20250919090126
+37.111.221.204 8 45 2009574 20250914021616
+209.38.109.95 1 1 12827 20250919195312
+156.249.59.154 1 1 12083 20250903113427
+54.197.218.97 1 1 12440 20250914141957
+159.89.7.218 1 1 12851 20250917184458
+167.94.146.49 2 4 373553 20250906152150
+133.242.174.119 1 1 12856 20250923183042
+103.35.110.71 5 46 6461666 20250926180117
+3.140.182.19 1 1 13005 20250925060939
+103.97.161.73 16 61 5741429 20250916090257
+146.70.165.107 1 1 13031 20250926055604
+123.160.223.73 1 7 46417 20250927215504
+143.110.255.82 1 1 12379 20250923013519
+37.111.229.246 12 66 46523921 20250906121238
+3.146.111.124 2 2 24427 20250908100147
+116.58.202.198 3 44 1607432 20250909151441
+123.160.223.72 0 3 43496 
+167.99.213.57 1 1 12456 20250915024314
+31.13.127.116 1 1 35 20250905104833
+54.91.82.54 1 1 12897 20250928210506
+183.252.22.17 1 1 12456 20250914165631
+3.94.196.177 11 89 14292130 20250916164901
+91.134.91.17 2 2 24984 20250915175656
+203.76.223.5 4 33 1734909 20250906121923
+54.163.20.40 7 64 5277111 20250922142849
+27.11.198.16 1 1 13010 20250928143736
+59.153.100.212 8 57 8425680 20250922045734
+198.235.24.108 1 1 148968 20250915222047
+54.146.48.102 1 1 12745 20250918151702
+91.231.89.32 1 1 152606 20250917063228
+104.28.224.94 5 5 63548 20250921123840
+154.28.229.10 2 2 24902 20250916000958
+138.197.28.115 1 1 11799 20250919155504
+138.197.93.124 1 1 14777 20250919165945
+91.231.89.126 1 1 155284 20250923150842
+205.210.31.108 1 1 156312 20250923054130
+54.162.223.228 1 1 12074 20250904141509
+178.62.97.128 1 2 18252 20250928140142
+103.4.250.204 2 2 25421 20250923093127
+54.90.2.218 1 1 12823 20250922140137
+118.179.134.177 5 40 3551402 20250914121147
+59.152.5.165 5 43 3571086 20250914180916
+44.194.129.236 1 1 12053 20250901030416
+66.249.83.136 0 7 107857 
+165.232.87.104 1 1 12382 20250909030123
+18.209.67.57 6 48 8136176 20250922142815
+159.203.88.172 1 1 10553 20250914031541
+87.236.176.74 0 1 5280 
+103.162.56.23 6 35 1591607 20250911084859
+74.125.212.198 6 37 550539 20250909075137
+46.253.131.195 6 46 6401598 20250918061937
+44.193.254.10 3 3 38679 20250926235519
+31.97.153.61 1 1 12862 20250922230703
+123.253.65.169 6 35 1591595 20250914080844
+103.124.55.69 4 21 1180852 20250919233128
+192.178.8.70 2 13 105140 20250916120159
+23.83.88.38 1 1 12196 20250909232648
+116.58.201.220 7 19 657495 20250917044733
+34.219.78.144 4 45 4851931 20250909123732
+66.249.83.8 0 4 8275 
+173.252.127.12 5 48 5519279 20250921150139
+66.249.83.71 0 1 3079 
+159.89.112.187 1 1 12882 20250920104730
+172.255.93.89 7 11 85811 20250917040417
+199.45.154.159 1 3 936222 20250909140836
+54.152.139.179 9 105 8892517 20250910053443
+163.53.140.70 2 11 762799 20250908094017
+37.111.207.63 4 44 4365117 20250909080634
+103.138.173.51 16 60 2508521 20250913081136
+103.20.141.5 2 10 418061 20250916105517
+37.111.224.38 1 1 12557 20250917071948
+5.133.192.94 1 1 12730 20250917194302
+74.125.212.199 8 39 913620 20250911112652
+66.249.83.102 0 3 8051 
+54.174.231.5 6 45 7216117 20250916164850
+23.81.70.4 8 12 100719 20250924005754
+93.159.230.84 2 2 24902 20250923073228
+69.171.251.8 6 35 1605904 20250913194357
+156.228.108.63 1 1 12070 20250903113013
+15.204.161.7 6 6 69741 20250924011009
+103.196.9.73 1 1 12689 20250923100836
+162.142.125.220 1 3 372516 20250903014726
+1.192.195.11 1 2 463020 20250909205536
+167.71.176.210 1 1 12823 20250918171945
+171.244.43.14 1 1 12889 20250923095659
+179.43.149.114 2 2 26043 20250925234830
+66.249.83.130 1 1 1086 20250916191001
+23.105.147.47 1 1 1179 20250925090632
+54.172.237.105 12 129 11805802 20250910053421
+198.235.24.179 1 1 146684 20250917070526
+51.254.49.104 1 1 152606 20250917083533
+199.45.155.92 1 1 10523 20250913190409
+37.111.214.38 4 44 4365109 20250910130244
+101.198.0.151 1 1 1008 20250913140041
+167.99.233.123 2 2 255408 20250905162946
+43.153.131.82 1 1 12895 20250928141920
+103.166.59.41 6 35 1591595 20250911112632
+43.250.82.233 2 11 762797 20250905155627
+103.166.59.145 9 22 301275 20250927153937
+45.118.70.211 4 44 4307819 20250921134456
+49.44.81.201 4 30 529209 20250918175821
+103.220.206.190 11 58 4579522 20250916114935
+45.134.213.215 1 1 12554 20250916115924
+207.170.178.131 1 1 12481 20250915163741
+159.203.17.114 1 2 18319 20250925140937
+206.168.34.124 1 3 372750 20250908161201
+36.255.81.198 6 46 4417700 20250921152251
+103.190.205.169 4 43 3871725 20250906093655
+103.179.125.66 7 14 829034 20250909151633
+15.204.182.106 2 2 25495 20250923062844
+206.168.34.87 1 3 372522 20250903191010
+54.224.52.103 1 1 12233 20250910053438
+167.94.138.203 1 3 634748 20250903004010
+103.166.59.144 10 25 2455960 20250924095330
+103.230.62.2 5 43 3583502 20250915142225
+162.142.125.122 1 3 23569 20250924150842
+1.192.195.5 1 1 135644 20250909205427
+103.175.133.137 11 54 3972568 20250906111044
+159.203.42.210 1 1 12891 20250923020212
+91.231.89.33 1 1 156815 20250923151036
+104.164.126.184 1 1 12722 20250923154238
+185.177.72.51 2 2 24493 20250910231831
+103.81.231.124 1 1 12530 20250915163804
+202.173.122.68 2 10 418057 20250921154343
+205.210.31.93 1 1 106263 20250912130717
+103.25.250.129 4 43 3871746 20250905063303
+119.30.41.236 6 6 37474 20250917045913
+93.123.109.225 1 1 12775 20250918214136
+103.4.250.28 1 1 12691 20250923093120
+66.249.75.130 5 5 252938 20250918075218
+104.248.5.157 1 1 14531 20250920044457
+103.196.9.100 1 1 12446 20250916011609
+106.75.177.16 2 2 65536 20250915121115
+103.132.249.60 7 48 4637145 20250910205149
+159.65.184.228 1 1 14692 20250919065002
+121.239.44.49 1 1 12665 20250917025054
+142.93.209.255 1 2 18176 20250925074847
+147.185.132.126 1 1 155991 20250920054945
+121.237.36.29 1 1 12660 20250917030114
+157.245.222.223 1 1 14884 20250919161852
+161.35.36.19 1 1 12825 20250918112415
+101.198.0.187 2 2 116787 20250913140029
+159.203.101.69 2 2 22314 20250919113535
+34.11.211.236 3 57 5115358 20250923144147
+103.127.56.36 1 1 9129 20250916111622
+113.21.231.128 18 60 3918899 20250907182046
+103.25.251.207 3 43 4365072 20250910035443
+164.92.191.129 1 1 12690 20250917082737
+195.211.77.142 2 2 25406 20250922213539
+123.160.223.74 3 6 61628 20250927215500
+167.99.88.89 1 1 12381 20250924054659
+104.236.44.95 1 1 12084 20250905162246
+43.250.82.229 2 11 762797 20250908093836
+34.11.227.251 16 16 193461 20250923155728
+72.14.201.130 1 1 12791 20250918174306
+66.249.83.134 3 9 413678 20250914090101
+103.151.75.124 4 44 4365089 20250910124446
+167.99.59.128 1 1 12751 20250919152940
+103.148.148.141 5 34 1299532 20250913194740
+59.153.100.214 16 59 6516054 20250916072522
+209.38.65.58 1 1 10524 20250913013402
+134.209.201.12 1 2 474085 20250901023223
+103.52.135.109 2 12 1224809 20250910075749
+147.182.200.94 1 1 148968 20250915121024
+206.168.34.51 1 3 372018 20250901235256
+161.115.239.80 1 1 10525 20250912022102
+66.220.149.55 5 44 6185318 20250917020001
+123.160.223.75 0 6 47313 
+34.169.58.173 16 16 193645 20250923223858
+98.84.153.11 1 1 10525 20250912140701
+103.138.173.97 2 12 1224807 20250910094434
+124.236.100.56 1 1 12774 20250921080813
+139.59.2.173 1 2 474231 20250911003219
+3.95.237.44 6 47 7075278 20250923005314
+111.224.221.72 2 2 26020 20250928143922
+146.70.65.7 1 1 12624 20250917061956
+3.85.175.107 1 1 12895 20250926210045
+45.55.61.45 1 1 11524 20250919164758
+107.172.195.131 2 2 25383 20250923154252
+167.235.250.30 1 1 13003 20250925055932
+162.120.185.34 1 1 12770 20250921131649
+193.186.4.159 1 1 12774 20250919070553
+124.6.231.197 2 11 762799 20250905175917
+103.234.167.5 6 44 3608379 20250915100701
+180.253.184.52 2 2 25388 20250916190406
+190.123.223.166 5 44 3896571 20250903020203
+103.250.82.102 0 1 0 
+69.171.251.7 4 44 4389907 20250908112034
+146.70.185.32 3 3 0 20250920003448
+64.190.255.175 2 2 22490 20250915143606
+103.120.222.111 16 97 8819720 20250908112431
+66.249.83.9 2 3 46773 20250914090058
+209.97.147.241 1 1 14692 20250919155631
+34.140.38.148 1 1 12447 20250915012453
+147.182.152.95 1 1 12966 20250923062647
+103.179.125.180 11 90 7992647 20250906183346
+103.25.248.129 3 11 419266 20250906122912
+192.178.8.71 1 13 229704 20250916120200
+164.90.228.79 1 1 155777 20250922213535
+138.199.236.196 2 2 25483 20250923211119
+54.144.244.54 8 79 6787003 20250929174223 20250929174109 /public/frontEnd/webfonts/fa-solid-900.ttf
+202.86.222.103 6 44 3583575 20250915040022
+77.220.194.109 5 45 6388794 20250918055921
+159.203.85.204 1 1 9653 20250919111441
+113.11.24.34 12 93 8533382 20250908135750
+64.225.31.188 1 1 14777 20250919071241
+162.142.125.216 1 3 23449 20250928232130
+106.75.137.81 1 7 351285 20250915121053
+69.171.251.114 2 12 1224809 20250909095857
+45.132.184.70 5 45 6388931 20250918052838
+103.67.156.175 9 9 94716 20250912090602
+103.230.62.0 5 44 3897615 20250917154340
+79.191.184.54 1 1 153078 20250927235416
+37.111.194.187 16 86 6797212 20250909120354
+1.192.192.4 2 2 116787 20250913134345
+35.175.104.75 1 1 12556 20250916145217
+103.15.42.69 2 11 762797 20250906132646
+103.151.213.21 9 52 6866052 20250917155325
+110.226.199.19 4 30 529209 20250918175819
+154.28.229.72 2 2 24883 20250916011621
+138.246.253.7 4 4 0 20250926123813
+31.13.115.116 4 44 4389909 20250908112036
+212.119.44.38 5 45 6388884 20250918060923
+64.233.173.136 2 11 217293 20250906120741
+103.204.210.153 5 43 3571105 20250915142345
+68.183.0.91 1 1 12765 20250921012448
+205.210.31.203 1 1 157866 20250927055655
+103.129.236.23 2 10 418062 20250914154229
+31.13.127.18 4 43 3896530 20250905104813
+142.93.77.59 1 1 11670 20250919085953
+160.30.178.1 11 76 5160177 20250914152014
+146.190.144.231 1 1 12797 20250919020107
+143.110.186.143 1 2 474174 20250906112513
+89.47.55.44 5 45 6388889 20250918053846
+209.38.107.53 1 2 474208 20250909154957
+91.99.27.239 1 1 12893 20250927022857
+182.48.76.26 7 58 5324108 20250906181459
+203.55.131.4 1 1 12798 20250918164706
+159.65.167.49 1 1 14533 20250919174853
+23.105.3.80 6 10 74992 20250910003405
+161.115.239.95 1 1 12794 20250918213618
+37.111.213.38 15 73 5138122 20250905104307
+103.196.9.68 2 2 25538 20250923100840
+138.68.129.52 1 1 12381 20250910100300
+44.222.212.118 1 1 12743 20250920140308
+167.94.138.168 1 3 454627 20250909060345
+103.133.78.18 5 44 3896550 20250902171533
+18.224.192.118 1 1 12074 20250905131627
+209.97.144.239 1 1 10006 20250919160135
+188.166.149.249 1 2 18038 20250923184710
+221.207.35.137 3 3 38467 20250923073516
+13.222.166.221 1 1 12187 20250908115053
+199.45.155.80 1 3 936176 20250906163148
+45.148.10.248 2 2 25396 20250924000151
+175.30.48.206 2 2 26015 20250929161131
+103.105.122.17 4 44 3899081 20250904195210
+91.231.89.123 1 1 151290 20250917063453
+103.220.206.189 1 1 12071 20250907032630
+103.21.42.198 2 11 762797 20250905155603
+143.198.5.72 1 1 14912 20250919170326
+103.135.235.201 5 43 3583552 20250915071719
+162.142.125.120 1 1 12812 20250922153011
+54.200.206.157 3 3 37867 20250916171338
+138.197.75.62 1 1 14534 20250919172409
+202.86.220.233 7 48 4404869 20250909075200
+198.235.24.53 1 1 159234 20250927110553
+66.249.83.135 0 5 10036 
+59.152.5.228 5 45 3911667 20250906122712
+15.204.183.221 2 2 19924 20250924004729
+91.231.89.125 1 1 150490 20250923150438
+150.228.135.152 3 11 419144 20250921100144
+87.236.176.76 1 1 13030 20250928213109
+2a06:98c0:3600::103 1 1 12728 20250919131834
+27.147.200.227 3 42 3871706 20250907063911
+103.196.232.134 2 11 762797 20250908094027
+18.204.10.108 1 1 12894 20250924134032
+59.152.5.230 5 43 3571107 20250915180633
+161.35.179.244 1 1 14534 20250919165920
+157.230.19.140 1 1 154022 20250922213535
+74.125.212.200 4 31 613864 20250911112655
+2.81.205.201 15 64 4617357 20250905161337
+66.249.75.129 13 13 135689 20250929113349
+103.154.192.3 0 2 494861 
+43.250.81.73 2 10 418057 20250918103515
+66.249.75.131 12 12 104885 20250929102619
+37.111.213.234 5 43 5774249 20250919164022
+103.89.26.145 2 11 480915 20250909150210
+34.125.230.24 4 44 4389919 20250909011906
+165.227.39.235 1 1 150268 20250915121029
+34.79.192.229 1 1 12441 20250916003730
+1.192.192.6 1 1 1008 20250913134353
+59.153.100.220 15 58 4020231 20250907052826
+161.35.147.224 1 1 12708 20250919003045
+192.178.8.72 3 11 430107 20250916120200
+98.159.40.133 6 46 4212435 20250906100644
+195.211.77.140 2 2 0 20250922213523
+103.81.174.193 4 43 3871714 20250906114103
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20250901 4 8 1332267 4
+20250902 6 45 3908626 2
+20250903 15 91 5989610 10
+20250904 24 134 9987048 7
+20250905 165 818 55481095 33
+20250906 268 1294 232959694 35
+20250907 125 453 29290060 16
+20250908 113 466 35708369 16
+20250909 86 605 51250137 25
+20250910 58 496 45394394 13
+20250911 89 330 16613492 10
+20250912 48 109 3792801 8
+20250913 102 334 14694578 15
+20250914 285 749 32138228 18
+20250915 99 509 39984415 29
+20250916 332 873 66811405 34
+20250917 143 381 28229493 36
+20250918 60 440 52906893 20
+20250919 59 215 18193192 32
+20250920 189 500 31027173 12
+20250921 71 341 30598669 14
+20250922 42 276 29659634 13
+20250923 223 1150 92447853 34
+20250924 121 615 53971754 18
+20250925 273 291 1619601 13
+20250926 7 9 88021 6
+20250927 27 117 9982577 10
+20250928 8 12 124833 7
+20250929 39 211 21737014 10
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 8
+0s-30s 389
+30mn-1h 21
+15mn-30mn 13
+2mn-5mn 18
+30s-2mn 30
+5mn-15mn 18
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 203
+/ 905 16790444 354 268
+/customer/order-save-draft 287 13745 0 1
+/public/frontEnd/webfonts/fa-solid-900.woff2 161 23985280 8 9
+/public/frontEnd/webfonts/fa-brands-400.woff2 161 17280000 7 24
+/load-more-products 112 11953 3 34
+/admin/login 96 108156 45 12
+/public/frontEnd/webfonts/fa-regular-400.woff2 93 2310120 0 1
+/admin/dashboard 74 676570 2 4
+/admin/products/generate-slug 71 2693 0 0
+/public/backEnd/assets/fonts/feather.woff 69 2006000 2 23
+/stock-check 56 9798 0 1
+/api/updates/latest 41 374032 17 9
+/customer/checkout 38 506413 5 7
+/public/backEnd/assets/fonts/materialdesignicons-webfont.woff2 38 12359272 0 1
+/public/backEnd/assets/fonts/cerebrisans-medium.woff 38 1525436 0 0
+/public/backEnd/assets/fonts/cerebrisans-bold.woff 34 1359072 0 0
+/public/backEnd/assets/fonts/cerebrisans-regular.woff 34 1314688 0 1
+/api/updates/details 34 9597 2 6
+/admin/order/all 33 453224 0 5
+/admin/licenses 32 260315 0 1
+/public/backEnd/assets/fonts/fa-solid-900.woff2 24 1906656 0 2
+/keep-alive 18 684 1 3
+/permissions 17 113976 0 0
+/admin/products/manage 16 156587 0 0
+/admin/order/invoice/23865 14 114681 1 0
+/admin/order/incomplete 9 143752 0 1
+/ajax-product-childcategory 1 66 0 0
+/sitemap.xml 5 5200 4 5
+/products/home-office-furniture 1 9922 0 1
+/public/ 10 127271 0 2
+/products/t-shirt 8 79497 0 0
+/products/jeans 1 9949 0 1
+/ajax-product-subcategory 7 614 0 0
+/admin/order/completed 4 26691 0 1
+/variable-view 3 1236 0 0
+/product/project-management-101 13 325216 0 3
+/admin/products/barcode 2 16334 0 0
+/admin/smsgeteway/manage 1 7342 0 0
+/page/terms-&-conditions 7 81575 2 5
+/admin/paymentgeteway/manage 2 15504 0 0
+/controlpanel 4 53825 0 0
+/product/test-preparation 4 57100 1 2
+/_ignition/health-check 2 98 0 0
+/update-version 10 92606 1 3
+/admin/tag-manager/manage 2 14530 0 0
+/ajax-cart-store 3 210 0 0
+/admin/pixels/manage 3 21015 0 1
+/admin/order/edit/81556 1 8427 0 0
+/homepageones 11 64764 1 2
+/admin/order-status 1 109 0 0
+/admin/banner-category/manage 2 14517 0 0
+/cpanel 4 53828 0 0
+/products/belt-&-wallet 1 9880 1 1
+/products/panjabi 2 19868 1 1
+/product/naogoan-digital-print-three-piece-2025 11 2087008 1 3
+/admin/stock-report 9 80703 0 0
+/admin/order/process/15100 2 15399 0 0
+/product/just-size 2 30522 0 0
+/admin/order/search 8 4820 0 0
+/admin/products/stock-alert 3 19863 0 1
+/admin/color/manage 1 10382 0 0
+/admin/change-password 1 6836 0 0
+/admin/business-setting 4 31146 0 0
+/cart/count 5 3473 0 0
+/admin/campaign/create 5 39411 0 0
+/view-update-log 7 48395 0 1
+/products/bath-mats 2 19887 0 0
+/products/crockeries 1 9950 0 0
+/product/size-check 1 14424 0 0
+/admin/brands/manage 1 7141 0 0
+/admin/order/pending 11 182350 0 0
+/subcategory/innerwear 1 9920 1 0
+/admin/expensecategories/manage 2 14402 0 0
+/product/noogann-mhadebpure-vairal-thri-pis-kalekshn-copy 4 63793 0 0
+/product/test-variable-2 2 30124 1 1
+/page/refund-&-return-policy 6 69042 1 1
+/admin/products/29/edit 1 13528 0 0
+/admin/order/create 10 81370 0 0
+/products/loafer 2 19876 0 0
+/products/shirt 1 9951 0 0
+/products/sneakers 1 9914 0 0
+/admin/order/process/76812 1 7617 0 0
+/admin/loss-profit 1 7722 0 0
+/products/hand-bag 1 9952 0 0
+/customer/order-success/955 1 11207 0 0
+/product/with-shipping-charge 2 29761 1 1
+/admin/permissions/manage 2 20019 0 0
+/public/backEnd/assets/libs/summernote/font/summernote.woff2 10 61560 0 0
+/cart/remove 1 1008 0 0
+/products/polo-shirt 1 9957 0 0
+/admin/settings/manage 5 37092 0 0
+/admin/products/19/edit 1 12797 0 0
+/customer/order-success/770 1 11236 0 0
+/admin/users/2/edit 2 14518 0 0
+/admin/purchase-report 1 7224 0 0
+/admin/courierapi/manage 10 85752 0 0
+/shipping-charge 8 11136 0 0
+/admin/order/process/86734 1 7615 0 0
+/public/frontEnd/webfonts/fa-regular-400.ttf 1 25330 1 1
+/admin/reports/facebook-catelogue 1 6870 0 0
+/admin/products/save 1 0 0 0
+/visitor/reports 2 15205 1 0
+/admin/theme-setting 2 14148 0 0
+/admin/expense/manage 2 14487 0 0
+/products/unstitched 1 9870 0 1
+/subcategory/clothing 4 41665 0 0
+/product/noogann-mhadebpure-vairal-thri-pis-kalekshn 10 160985 0 1
+/products/living-room-furniture 1 9927 0 0
+/admin/roles/manage 2 14200 0 0
+/admin/categories/manage 1 8356 0 0
+/new-arrival 3 31887 0 1
+/page/privacy-policy 7 83004 2 1
+/product/size-check-02-4 1 15527 0 0
+/public/backEnd/assets/fonts/cerebrisans-semibold.woff 2 82024 0 0
+/admin/update-permissions 13 87419 0 1
+/products/readymade 1 9911 1 0
+/product/size-check-02-3 1 15126 0 0
+/admin/checkout-content 1 7569 0 0
+/customer/order-success/767 1 11273 0 0
+/admin/order/invoice/15100 2 16276 0 0
+/category/womens-fashion 9 96785 1 2
+/admin/order/invoice/76812 1 7930 0 0
+/customer/order-track 6 58155 1 1
+/admin/users/manage 4 28750 0 0
+/products/y-cloth 1 9927 0 0
+/admin/order/in-courier 2 8321 0 1
+/customer/login 3 29347 0 0
+/admin/order/invoice/74878 1 7936 0 0
+/admin/fraud-checker 3 2197 0 0
+/product/tgtrgr 3 43405 1 1
+/migrate 2 78 0 0
+/product/pabitra-das 9 129723 1 1
+/admin/order-report 5 38338 0 0
+/category/mens-fashion 10 108084 0 2
+/subcategory/bath 1 9934 0 0
+/admin/childcategories/manage 4 41828 0 0
+/products/sandals 1 9926 0 0
+/admin/customer/ip-block 2 15347 0 0
+/admin/banner/manage 4 30605 0 0
+/api/updates/log-history 6 360 0 4
+/admin/order/returned 1 0 0 0
+/product/md-masum-rana 1 15237 0 0
+/admin/order/on-the-way 1 0 0 0
+/products/hats-&-caps 6 59668 0 0
+/livesearch 1 20 0 0
+/products/bracelet 1 9917 0 1
+/register 4 80 0 0
+/product-details 1 7889 0 0
+/product/test-variable 8 102417 3 3
+/admin/reviews 1 6918 0 0
+/admin/campaign/14/edit 1 8065 0 0
+/admin/permissions/93/edit 1 6733 0 0
+/admin/order/edit/33637 1 8450 0 0
+/public/backEnd/assets/fonts/cerebrisans-light.woff 1 41308 0 0
+/category/home-&-lifestyle 4 39797 0 0
+/subcategory/salwar-kameez 2 19926 0 0
+/subcategory/accessories 2 20875 0 0
+/customer/order-success/953 1 11352 0 0
+/products/rice-cooker 1 9868 1 1
+/customer/order-success/958 1 11196 0 0
+/admin/size/manage 1 8170 0 0
+/admin/campaign/manage 9 68671 0 1
+/admin/products/18/edit 2 19093 0 0
+/admin/shipping-charge/manage 1 7549 0 0
+/admin/order/processing 2 21102 0 0
+/cart/store 1 0 0 0
+/product/project-management-3 12 174869 5 6
+/product/test-01 1 15062 1 1
+/subcategory/watches 2 19840 1 2
+/webmail 4 53840 0 0
+/admin/settings/3/edit 1 7269 0 0
+/admin/roles/2/show 1 7209 0 0
+/product/multiple-product 1 14884 1 1
+/products/casual-shoes 1 9921 0 0
+/admin/products/purchase-list 1 7351 0 0
+/customer/forgot-password 1 9666 1 1
+/index.php 6 76630 1 0
+/admin/tag-manager/create 1 7010 0 0
+/admin/order/on-hold 2 10642 0 0
+/mobilecart/count 6 126 0 0
+/public/frontEnd/webfonts/fa-solid-900.ttf 1 14402 0 0
+/public/backEnd/assets/fonts/fa-regular-400.woff2 1 13584 0 0
+/product/project-management-2 10 144261 2 1
+/admin/products/purchase-create 1 7407 0 0
+/admin/subcategories/manage 2 16610 0 0
+/customer/order-success/840 1 11351 0 0
+/site/contact-us 10 100141 4 3
+/products/bathroom-mirrors 1 9918 0 1
+/products/kitchen-&-dining-furniture 1 9923 1 1
+/admin/roles/1/show 1 7269 0 0
+/admin/customer/manage 7 59990 0 0
+/products/cookware-set 1 9913 0 1
+/api/updates/upload 9 1176 2 1
+/products/deshi-boutique 4 39640 0 0
+/subcategory/womens-sharee 1 9881 1 1
+/api/updates/validate-license 5 338 1 2
+/products/mattress-protectors 1 9870 1 0
+/products/formal-shoes 4 39754 1 1
+/subcategory/three-piece 1 11035 1 1
+/cart/increment 1 1305 0 0
+/admin/pixels/create 1 7007 0 0
+/get-update-details 2 492 0 0
+/admin/products/create 9 102777 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+100-500 851
+5K+ 10758
+1K-2K 1227
+0-44 800
+2K-5K 4837
+44-100 241
+500-1K 587
+END_FILESIZE

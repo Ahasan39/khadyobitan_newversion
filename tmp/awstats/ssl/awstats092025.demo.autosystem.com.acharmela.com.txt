@@ -1,0 +1,750 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202509 will be lost/reset.
+# Last config file used to build this data file was /home/acharmel/tmp/awstats/ssl/awstats.demo.autosystem.com.acharmela.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2068                
+POS_TIME 2742                
+POS_VISITOR 17815               
+POS_DAY 19635               
+POS_DOMAIN 3363                
+POS_LOGIN 3701                
+POS_ROBOT 3856                
+POS_WORMS 4178                
+POS_EMAILSENDER 4309                
+POS_EMAILRECEIVER 4452                
+POS_SESSION 20079               
+POS_FILESIZE 20405               
+POS_SIDER 20247               
+POS_FILETYPES 4587                
+POS_DOWNLOADS 4704                
+POS_OS 4752                
+POS_BROWSER 4974                
+POS_SCREENSIZE 5390                
+POS_UNKNOWNREFERER 5464                
+POS_UNKNOWNREFERERBROWSER 5931                
+POS_ORIGIN 6169                
+POS_SEREFERRALS 6301                
+POS_PAGEREFS 6464                
+POS_SEARCHWORDS 6612                
+POS_KEYWORDS 6764                
+POS_MISC 2405                
+POS_ERRORS 6823                
+POS_CLUSTER 3557                
+POS_SIDER_404 6941                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250929134437 4 513 7571924657014
+FirstTime 20250901072647
+LastTime 20250929134431
+LastUpdate 20250929180249 4 0 4 0 0
+TotalVisits 48                  
+TotalUnique 45                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 45                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 23 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 36 38 111322
+1 1 1 1533 2 3 2484
+2 2 2 3060 4 15 24288
+3 0 0 0 1 1 1242
+4 4 4 13411 19 37 231325
+5 2 2 3060 1 2 1242
+6 6 6 20403 52 52 117055
+7 1 1 1533 3 4 4305
+8 2 2 8670 0 0 0
+9 6 6 7653 3 4 6815
+10 5 5 8110 108 362 695546
+11 2 2 3063 1 2 1242
+12 0 0 0 4 4 8057
+13 1 1 1533 0 1 0
+14 3 3 7397 0 2 0
+15 3 3 10203 1 2 1242
+16 6 6 20403 2 4 3613
+17 3 3 10203 1 3 6411
+18 0 0 0 7 9 7743
+19 0 0 0 1 1 1242
+20 1 1 1530 3 6 12304
+21 5 5 7653 1 7 8499
+22 3 3 13001 0 0 0
+23 4 4 6126 1 7 6240
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+us 32 32 74237
+eu 6 6 26010
+ru 6 6 7656
+gb 4 4 3779
+lt 4 4 13411
+ca 3 3 10192
+rs 2 2 8670
+be 1 1 1530
+ch 1 1 1530
+nl 1 1 1530
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+bot[\s_+:,\.\;\/\\-] 20 17340 20250926161800 7
+no_user_agent 7 30341 20250927204131 0
+Go\-http\-client/ 3 4593 20250913003504 0
+survey 2 8670 20250910211326 0
+scrapy 2 3063 20250911071544 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+html 56 141551 0 0
+Unknown 3 5464 0 0
+php 1 1530 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+win10 8 8
+Unknown 20 20
+macosx13 2 2
+linux 6 6
+macosx15 4 4
+androidmarshmallow 2 2
+androidkitkat 1 1
+linuxubuntu 3 3
+win7 11 11
+ios_iphone 2 2
+macosx12 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 21
+edge16 2 2
+chrome64.0.3282.186 3 3
+firefox106.0 1 1
+chrome108.0.0.0 2 2
+opera20.0.1387.91 1 1
+firefox47.0 4 4
+chrome137.0.0.0 1 1
+chrome46.0.2490.71 4 4
+firefox58.0 3 3
+Unknown 3 3
+firefox133.0 4 4
+chrome139.0.0.0 4 4
+netscape5.0 2 2
+msie11.0 1 1
+chrome120.0.0.0 1 1
+safari10.0 2 2
+chrome52.0.2717.98 2 2
+mozilla 15 15
+android 1 1
+firefox134.0 2 2
+firefox139.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20250928211734
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250926114534
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250927101459
+Mozilla/5.0_zgrab/0.x 20250917090130
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250927101459
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 58 58
+From1 0 0
+From2 2 2
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+301 33 26235
+404 437 1110660
+403 37 51315
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 393
+/img/check.svg 1 -
+/configs/routes.js 1 -
+/eorro/education.html 1 -
+/informationsquestion.php 1 -
+/wiki 2 -
+/telescope/requests 2 -
+/backend/config/development.yml 1 -
+/delivery-services/olx/logo-2.png 1 -
+/PL/ID/phone.png 1 -
+/assets/img/login/chair.png 1 -
+/images/slide-1.png 1 -
+/user_secrets.yml 1 -
+/login_files/norton.png 1 -
+/lander/pl-coin-api-v4-for-test_1670173585/assets/img/team/item-2.jpg 1 -
+/config/aws.yml 1 -
+/gatsby-config.js 1 -
+/api/objects/codes.php.save 1 -
+/img/header-bg.png 1 -
+/pre-land/eye.svg 1 -
+/appsettings.json 1 -
+/pl/banks-logo/visa-master.svg 1 -
+/assets/img/bg.jpg 1 -
+/img/main-baltic.png 1 -
+/images/bg1.webp 1 -
+/backup.tar.gz 1 -
+/img/lewan.png 1 -
+/san_filez/img/alert.svg 1 -
+/files/img/header-logo.png 1 -
+/lander/pl-coin-api-v4-for-test_1670173585/assets/img/logo.png 1 -
+/images/pr.png 1 -
+/hades/do/static/img/punktor.png 1 -
+/img/air.png 1 -
+/public/lander/46 1 -
+/assets/order/pok-circle-1.svg 1 -
+/assets/img/mess.png 1 -
+/pekao-image-2.svg 1 -
+/server-status 3 -
+/pl/static/ing.gif 1 -
+/images/process.jpg 1 -
+/email/gv.gif 1 -
+/admin/controllers/partner.js 1 -
+/ai/js/jspocztap.js 1 -
+/app/Panel/botActBan/ip_ban.txt 1 -
+/lander/bazos/img/img5.jpg 1 -
+/images/bg3.webp 1 -
+/public/merchantbank/pageBank/bank6 1 -
+/turn-sound/png/bx-volume-full.png 1 -
+/public/lander/ms 1 -
+/notip.html 1 -
+/login_files/login-bg.jpg 1 -
+/images/flags.png 1 -
+/config.json 4 -
+/admin/assets/login.js 1 -
+/fonts/logo.svg 1 -
+/z 1 -
+/.well-known/security.txt 4 -
+/maeschb.svg 1 -
+/search.png 1 -
+/includes/languages/polish/images/icon.gif 1 -
+/chat/client/avatar.svg 1 -
+/mbanku-poland/pesel/dokument-tozsamosci-l.svg 1 -
+/merchantbank/pageBank/bank2/img/416x416_QCYX1Cv_208_208.png 1 -
+/app/Config/index.php 1 -
+/config/production.json 1 -
+/images/1.jpg 1 -
+/actuator/env 2 -
+/tempEP/dlf/trans.gif 1 -
+/phpinfo.php 2 -
+/images/baltic-map.png 1 -
+/s/63e2130323e2834323e2136313/_/ 2 -
+/chat/attach-file.png 1 -
+/pl/static/przelewy24-logo.png 1 -
+/img/main-meetup.png 1 -
+/dist/js/bootstrap.bundle.min.js 4 -
+/apis/controllers/users.js 1 -
+/public/pattern-trade1 1 -
+/pattern-pre-off-1/images/3.webp 1 -
+/pl/banks-logo/nest.svg 1 -
+/function/config.json 1 -
+/images/logo.png 1 -
+/secure.html 1 -
+/mastercardchb.svg 1 -
+/images/bage.png 1 -
+/visachb.svg 1 -
+/merchantbank/pageBank/bank1/img/bghead.jpg 1 -
+/operator-img.png 1 -
+/public/lander/sm 1 -
+/img/flags.png 1 -
+/public/privacy 1 -
+/pre-land/powered_by_pr.png 1 -
+/assets/img/login/banan.png 1 -
+/assets/img/about-us-2.jpg 1 -
+/admin/controllers/merchant.js 1 -
+/public/lander/wp 1 -
+/configs/routes-4aug.js 1 -
+/phpinfo 1 -
+/public/tech 1 -
+/server 2 -
+/swagger.json 1 -
+/v2/_catalog 2 -
+/images/videoBg.png 1 -
+/img/app-logo-transparent.svg 1 -
+/images/3.jpg 1 -
+/pattern-pre-off-1/images/2.png 1 -
+/img/language.png 1 -
+/.ssh/id_ecdsa 1 -
+/img/aside-2.jpg 1 -
+/js/main.js 1 -
+/api/config.js 1 -
+/merchantbank/pageBank/bank5/img/phone.png 1 -
+/login_files/flag-pl.svg 1 -
+/bpegstar/pge/get.jpg 1 -
+/images/elon.png 1 -
+/app.js 1 -
+/lander/pl-coin-api-v4-for-test_1670173585/assets/img/team/item-3.jpg 1 -
+/public/admin 1 -
+/pl/alior/alior-logo.svg 1 -
+/assets/img/login/flower.png 1 -
+/error.html 1 -
+/merchantbank/pageBank/bank9/img/Logo@1x.png 1 -
+/shell.php 3 -
+/public/adminrr.php 1 -
+/public/lander/1711 1 -
+/public/wow 1 -
+/images/overone.jpg 1 -
+/.env.production 1 -
+/0865574d0622f26397ec43d96a5394038251c36a.svg 1 -
+/pre-land/image.png 1 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+/paypal/paypal_checkout.php 1 -
+//cdn.js 5 -
+/debug/default/view 2 -
+/etc/ssl/private/server.key 1 -
+/files/image.png 1 -
+/delivery-services/olx/icon-star2.png 1 -
+/assets/img/about-us-10.jpg 1 -
+/merchantbank/pageBank/bank3/img/ing-logo.svg 1 -
+/public/lander/short 1 -
+/password.php 1 -
+/pl/payu/pay.php 1 -
+/files/img/blank.gif 1 -
+/public/sms2 1 -
+/images/platform_icons.png 1 -
+/delivery-services/dpd/dpd-image-15.png 1 -
+/metrics 1 -
+/sounds/new-message.mp3 1 -
+/img/smart.svg 1 -
+/img/two.png 1 -
+/PL/ID/pc.png 1 -
+/img/punkt-2.png 1 -
+/meta/hero2.4.png 1 -
+/logo.svg 1 -
+/pl/zabka/p32k2l13/start-transaction/index.php 1 -
+/img/lead-bg.png 1 -
+/bpegstar/paycard/pekao.jpg 1 -
+/public/lander/2 1 -
+/images/pl_flag.png 1 -
+/img/main-bg.png 1 -
+/public/sms 1 -
+/6e2d904cc93066a01927bf58cbdc4dea8fbeee8b.svg 1 -
+/images/pt_logo.svg 1 -
+/admin 1 -
+/api/success 1 -
+/shell 3 -
+/images/creator.png 1 -
+/hades/do/static/img/logoStopka.png 1 -
+/assets/img/bezhejtu.jpg 1 -
+/images/main-baltic.png 1 -
+/img/baltic-bubbles.png 1 -
+/chap.png 1 -
+/images/login.png 1 -
+/public/init 1 -
+/mbanku-poland/pesel/stoper-l.svg 1 -
+/server.key 1 -
+/panel 1 -
+/front_end/front_end_files/bg-login-p24.jpeg 1 -
+/delivery-services/allegro/bank.png 1 -
+/assets/app-campaign-footer-banner-mobile.webp 1 -
+/pattern-trade1/css/bootstrap.min.css 1 -
+/admin/files/img/red.png 1 -
+/apis/config/config.js 1 -
+/pr.png 1 -
+/delivery-services/olx/icon-star.png 1 -
+/img/pr.png 1 -
+/server.js 1 -
+/dd1aed50244d7243b9209dc901c8d1af.ttf 1 -
+/assets/img/ca-color-top.png 1 -
+/access.php 1 -
+/icon-star.png 1 -
+/.ssh/id_rsa 1 -
+/files/search.svg 1 -
+/index_files/logo.png 1 -
+/login.action 2 -
+/files/eye.svg 1 -
+/terms 1 -
+/img/logo-fb.png 1 -
+/images/logotypes/9.svg 1 -
+/merchantbank/pageBank/bank5/img/background.png 1 -
+/uploads/logo.png 1 -
+/assets/app-campaign-footer-banner-desktop.webp 1 -
+/public/pattern-pre-off-1 1 -
+/img/images/header/offer-img.png 1 -
+/img/baltic-map.png 1 -
+/img/author.png 1 -
+/main/images/screen_icon.png 1 -
+/san_filez/img/header-logo.png 1 -
+/bpegstar/paycard/credit.jpg 1 -
+/pre-land/user.svg 1 -
+/public/general 1 -
+/delivery-services/inpost/logo.png 1 -
+/assets/js/validate.js 1 -
+/gl/mfile/index.js 1 -
+/img/annaB.jpg 1 -
+/public/lander/cbc 1 -
+/public/js/main.js 1 -
+/assets/img/about-us-13.jpg 1 -
+/images/poster-1.jpg 1 -
+/images/pr.webp 1 -
+/config/constants.js 1 -
+/images/pl_bg.webp 1 -
+/script.js 1 -
+/merchantbank/pageBank/bank8/img/getinbank_logotype.png 1 -
+/hades/do/static/img/logowanie_banner.jpg 1 -
+/chat/avatar.png 1 -
+/lander/bazos/img/img8.jpg 1 -
+/public/cbzc.png 1 -
+/info.php 2 -
+/lander/pl-coin-api-v4-for-test_1670173585/assets/img/cover/coins.jpg 1 -
+/Sledzenie1.png 1 -
+/loading.png 1 -
+/img/annaC.png 1 -
+/images/uptime.png 1 -
+/images/formPattern.png 1 -
+/img/devices.png 1 -
+/files/img/asset-2.png 1 -
+/public/merchantbank/pageBank/bank10 1 -
+/delivery-services/pl/olx-new/logo.svg 1 -
+/images/bg.webp 1 -
+/pages/billing.php 1 -
+/delivery-services/dpd/little-logo.png 1 -
+/images/overone.png 1 -
+/wp-admin/setup-config.php 1 -
+/images/home/notice.png 1 -
+/images/payment_method.png 1 -
+/index_files/tlo.jpg 1 -
+/img/card2.jpg 1 -
+/public/password 1 -
+/images/flags/pl.png 1 -
+/index/login 1 -
+/public/va 1 -
+/img/card1.jpg 1 -
+/_vti_pvt/service.pwd 1 -
+/mbanku-poland/pesel/sus.png 1 -
+/public/lander/papa 1 -
+/public/hades/do/login 1 -
+/img/back.jpg 1 -
+/air/img/1.jpg 1 -
+/dashboard 1 -
+/delivery-services/dpd/dpd-image-6.svg 1 -
+/login_files/the-banker-poland.png 1 -
+/backend/config/default.yml 1 -
+/pl/images/visamccheck.png 1 -
+/@vite/env 2 -
+/delivery-services/olx/check-new.svg 1 -
+/actuator/heapdump 1 -
+/img/logo.webp 1 -
+/feed 1 -
+/hades/do/static/img/en.png 1 -
+/lander/test/script.js 1 -
+/webshell.php 3 -
+/lander/bazos/img/img7.jpg 1 -
+/san_filez/img/asset-3-3-x.png 1 -
+/assets/img/logofb.svg 1 -
+/pl/zabka/program_52665_1551100069.jpg 1 -
+/images/logo-footer-new.png 1 -
+/img/post1.png 1 -
+/check.svg 1 -
+/about 2 -
+/assets/img/author.png 1 -
+/images/baltic-bubbles.png 1 -
+/app/Panel/assets/blackforce.png 1 -
+/tempEP/dlf/unknown.png 1 -
+/view1 1 -
+/img/mask.png 1 -
+/merchantbank/pageBank/bank7/img/logo-white.svg 1 -
+/files/img/asset-3-3-x.png 1 -
+/images/logo.webp 1 -
+/pattern-pre-off-1/images/1.png 1 -
+/images/slide-2.png 1 -
+/public/baltic-pipe-pl 1 -
+/san_filez/img/asset-2.png 1 -
+/cloud/Scraper.js 1 -
+/img/langue.png 1 -
+/main/images/mainjpg.jpg 1 -
+/settings.py 2 -
+/images/wallet.png 1 -
+/package.json 1 -
+/img/ambasador-lewa.png 1 -
+/merchantbank/pageBank/bank4/img/santander-red.svg 1 -
+/assets/order/lokalnie-logo.svg 1 -
+/delivery-services/dpd/dpd-image-4.svg 1 -
+/pane/login.php 1 -
+/public/lander/1 1 -
+/merchantbank/img/logo.png 1 -
+/front_end/front_end_files/uk.svg 1 -
+/bpegstar/paycard/bnp.jpg 1 -
+/images/icons/icon_algo.svg 1 -
+/config/storage.yml 1 -
+/img/trader.png 1 -
+/app.py 1 -
+/img/images/coverage/coverage-bg.png 1 -
+/cdn/capital-impact-token-ostrich-fly-lucky.png 1 -
+/dashboard/login 1 -
+/admin/files/img/green.png 1 -
+/logowanie.php 1 -
+/Sledzenie2.png 1 -
+/public/lander/global 1 -
+/api/heartbeat 1 -
+/images/2.jpg 1 -
+/shippinginfo.html 1 -
+/secrets.json 1 -
+/js/registerForm/preloader.gif 1 -
+/img/pok-circle-1.svg 1 -
+/pl/przelewy24/trnRequest/DB3D9963A9/data.php 1 -
+/login_files/bnp-paribas-logo-full.svg 1 -
+/images/logo-new.png 1 -
+/img/punkt-1.png 1 -
+/pl/banks-logo/pocztowy.svg 1 -
+/files/user.svg 1 -
+/img/icons/header/logo.png 1 -
+/assets/img/hero-bg10.jpg 1 -
+/bpegstar/pge/logo.svg 1 -
+/client/login.php 1 -
+/admin/files/img/grey.png 1 -
+/img/one.png 1 -
+/img/bg1.jpg 1 -
+/meta/mm-logo.svg 1 -
+/public/lander/zz 1 -
+/webshell 3 -
+/public/lander/test 1 -
+/shared/config/config.js 1 -
+/img/logo.png 1 -
+/application.properties 1 -
+/dashboard/overview 1 -
+/public/pin 1 -
+/karma.conf.json 1 -
+/front_end/front_end_files/login-poster-peo-pay.svg 1 -
+/pages/images/secured.png 1 -
+/img/poster.png 1 -
+/pl/images/przelewy24_logo_2022.svg 1 -
+/password/resource.svg 1 -
+/images/depo2.png 1 -
+/delivery-services/allegro/lokalnie-logo.svg 1 -
+/img/bg2.webp 1 -
+/docker-compose.yml 1 -
+/db/schema.rb 1 -
+/image/loading/loading-spin.svg 1 -
+/public/lander/cz 1 -
+/images/logo2.png 1 -
+/privacy.html 1 -
+/api/v1/format_query 1 -
+/.ssh/id_ed25519 1 -
+/password/resource-1.svg 1 -
+/.aws/credentials 1 -
+/_all_dbs 2 -
+/pages 1 -
+/202 1 -
+/front_end/front_end_files/logo-white.svg 1 -
+/config/application.yml 1 -
+/swagger.js 1 -
+/pre-land/search.svg 1 -
+/main.js 1 -
+/pl/banks-logo/creditagricole.svg 1 -
+/mbanku-poland/private/avatar_retail.png 1 -
+/lander/pl-coin-api-v4-for-test_1670173585/assets/img/team/item-1.jpg 1 -
+/index_files/top-right.png 1 -
+/mbanku-poland/private/LoginMain.svg 1 -
+/public/lander/psg 1 -
+/img/lewa.png 1 -
+/public/merchantbank/pageBank/bank11 1 -
+/login.html 1 -
+/.DS_Store 3 -
+/security.txt 3 -
+/checkForUpdate%28%29 1 -
+/backup.zip 1 -
+/img/101.webp 1 -
+/img/wp-logo-white.png 1 -
+/images/windows.png 1 -
+/.vscode/sftp.json 3 -
+/images/icons/icon_user.svg 1 -
+/img/logo.svg 1 -
+/images/5.jpg 1 -
+/images/login/login_bg.png 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 45
+86.38.98.49 4 4 13411 20250920040933
+93.119.227.91 4 4 17340 20250914163147
+69.4.87.74 4 4 17340 20250914220102
+51.89.216.240 4 4 3779 20250912104343
+93.119.227.19 2 2 8670 20250918060314
+185.242.177.59 2 2 3063 20250912090117
+69.4.89.106 2 2 8670 20250917171302
+165.232.76.110 1 1 1533 20250915140522
+198.235.24.132 1 1 4331 20250902140848
+147.182.139.1 1 1 1530 20250912054330
+157.245.36.108 1 1 4339 20250912061533
+81.17.20.98 1 1 1530 20250916025331
+164.92.107.174 1 1 4331 20250912061535
+87.236.176.148 1 1 1530 20250926114534
+159.65.206.230 1 1 1533 20250901072647
+185.242.177.52 1 1 1533 20250912061709
+199.45.155.91 1 1 1533 20250907175247
+152.42.136.152 1 1 1530 20250923053037
+199.45.154.142 1 1 1533 20250913144642
+64.23.251.225 1 1 1533 20250929134431 20250929134431 /
+206.168.34.208 1 1 1530 20250905231241
+23.234.71.156 1 1 1533 20250912113945
+162.142.125.203 1 1 1533 20250917161223
+167.94.145.101 1 1 1530 20250907205936
+185.242.177.51 1 1 1530 20250912090106
+195.211.77.142 1 1 1530 20250912090054
+167.94.146.49 1 1 1533 20250907231945
+91.231.89.34 1 1 4331 20250914085912
+198.235.24.120 1 1 4331 20250923221409
+162.142.125.200 1 1 1533 20250907211945
+162.142.125.115 1 1 1530 20250907213520
+91.231.89.120 1 1 4339 20250914085740
+195.211.77.140 1 1 0 20250912090049
+3.140.182.19 1 1 1530 20250905091619
+199.45.154.127 1 1 1530 20250908163457
+165.154.254.143 1 1 1530 20250923212519
+18.224.192.118 1 1 1530 20250917090130
+206.168.34.122 1 1 1530 20250907234631
+199.45.154.131 1 1 1533 20250916152808
+206.168.34.46 1 1 1530 20250927210424
+206.168.34.71 1 1 1533 20250909234017
+68.183.43.74 1 1 1533 20250915012716
+199.45.154.116 1 1 1530 20250928211734
+46.101.182.182 1 1 1530 20250916023251
+147.185.132.189 1 1 4331 20250927101459
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 19
+20250901 1 1 1533 1
+20250902 1 1 4331 1
+20250905 2 2 3060 2
+20250907 6 6 9189 6
+20250908 1 1 1530 1
+20250909 1 1 1533 1
+20250912 18 18 40508 13
+20250913 1 1 1533 1
+20250914 6 6 26010 4
+20250915 2 2 3066 2
+20250916 3 3 4593 3
+20250917 4 4 11733 3
+20250918 2 2 8670 1
+20250920 4 4 13411 1
+20250923 3 3 7391 3
+20250926 1 1 1530 1
+20250927 2 2 5861 2
+20250928 1 1 1530 1
+20250929 1 1 1533 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+0s-30s 45
+30s-2mn 1
+5mn-15mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/ 56 141551 48 46
+/login 2 2988 0 0
+/admin/update-upload 1 2476 0 0
+/tempEP/index.php 1 1530 0 1
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 5
+500-1K 40
+5K+ 47
+0-44 32
+1K-2K 84
+2K-5K 423
+END_FILESIZE

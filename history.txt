@@ -1,0 +1,38 @@
+﻿*   62f57e8 Merge: Performance Optimization with Database Indexes
+|\  
+| * 35daee1 feat: Complete performance optimization with 38 database indexes and caching
+| * b095441 feat: Add Feature Toggle System with Admin Panel and API
+* | 83f52db Merge feature: Theme Color Setting Fix
+|\| 
+| * 9711850 Fix: Theme color settings not persisting - Added value attributes to all color inputs - Ahasan39
+* |   dd24d0c Merge feature: Pathao Courier Integration
+|\ \  
+| * | 6578511 Feature: Add Pathao bulk courier integration route and documentation - Ahasan39
+| |/  
+* |   70dabaf Merge feature: Incomplete Orders System
+|\ \  
+| | | * cab7cf2 WIP on feature/incomplete-orders-system-Ahasan39: fe99279 feat: Add Incomplete Orders System with REST API [Ahasan39]
+| | |/| 
+| |/| | 
+| | | * 15d6ce9 index on feature/incomplete-orders-system-Ahasan39: fe99279 feat: Add Incomplete Orders System with REST API [Ahasan39]
+| | |/  
+| |/|   
+| * | fe99279 feat: Add Incomplete Orders System with REST API [Ahasan39]
+|/ /  
+* | 2b4c329 fix: Resolve 'Something went wrong' error in admin orders page by handling Pathao API SSL certificate errors
+* | c665d73 fix: Add missing FeatureHelper.php file to resolve autoload error
+* | 14ef651 feat: Update admin login route to /admin/login for better organization and security
+|/  
+*   e56eeb8 Merge developer branch: Fix Steadfast courier integration and add improvements
+|\  
+| * 97183e6 Update: Add developer credit to courier fix documentation
+| * 1d1ab58 Fix: Add missing courier column to orders table - complete Steadfast integration fix
+| * 19ce641 Fix: Steadfast courier integration - resolve order assignment issue
+| * ececdbf Add: Developer branch documentation and workflow notes
+| *   5543c6b Merge remote main with local changes
+| |\  
+| * | 9e4349c Initial commit - local setup
+|  /  
+* / 04aebc9 Add: Contributors documentation - Ahasan39
+|/  
+* 668ce93 Fresh start without large files

@@ -1,0 +1,1336 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202507 will be lost/reset.
+# Last config file used to build this data file was /home/acharmel/tmp/awstats/ssl/awstats.demo.secondautoupdate.com.acharmela.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2074                
+POS_TIME 2749                
+POS_VISITOR 27246               
+POS_DAY 32035               
+POS_DOMAIN 3428                
+POS_LOGIN 3948                
+POS_ROBOT 4103                
+POS_WORMS 4416                
+POS_EMAILSENDER 4547                
+POS_EMAILRECEIVER 4690                
+POS_SESSION 32441               
+POS_FILESIZE 32988               
+POS_SIDER 32632               
+POS_FILETYPES 4825                
+POS_DOWNLOADS 4989                
+POS_OS 5037                
+POS_BROWSER 5354                
+POS_SCREENSIZE 6438                
+POS_UNKNOWNREFERER 6512                
+POS_UNKNOWNREFERERBROWSER 7007                
+POS_ORIGIN 7322                
+POS_SEREFERRALS 7457                
+POS_PAGEREFS 7601                
+POS_SEARCHWORDS 7749                
+POS_KEYWORDS 7901                
+POS_MISC 2412                
+POS_ERRORS 7960                
+POS_CLUSTER 3804                
+POS_SIDER_404 8101                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250801013332 2 141 13242543234485
+FirstTime 20250713063556
+LastTime 20250731231147
+LastUpdate 20250801114124 2 0 1 0 0
+TotalVisits 137                 
+TotalUnique 123                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 123                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 49 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 7427 1 3 3322
+1 2 2 5877 40 45 81807
+2 8 8 12288 3 4 7673
+3 14 14 19589 215 718 1376460
+4 11 11 10038 3 3 3726
+5 17 17 15119 2 3 2484
+6 20 32 90073 4 14 189114
+7 10 10 31116 5 20 124983
+8 7 7 4879 2 10 99370
+9 12 12 137165 1 7 16027
+10 13 13 16644 1 3 3322
+11 22 22 64959 149 149 306512
+12 24 24 28697 9 25 20415
+13 30 30 23824 22 31 159958
+14 8 8 10230 1 6 3322
+15 34 34 85123 506 512 1043423
+16 0 0 0 1 1 1242
+17 0 0 0 2 2 5585
+18 4 4 6144 0 9 18720
+19 1 1 1534 2 2 5585
+20 0 0 0 0 0 0
+21 3 3 7415 0 1 0
+22 1 1 1534 1 7 14018
+23 2 2 3065 0 1 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 24
+us 96 104 340964
+hu 38 38 22960
+in 28 28 67413
+gb 16 16 11410
+ru 13 13 13594
+ca 7 7 27612
+nl 6 6 7653
+za 6 6 9216
+de 6 6 8040
+cn 4 4 14176
+bg 4 4 6141
+pl 3 3 3441
+ir 3 3 4610
+se 2 2 2294
+ro 2 2 2685
+eu 2 2 17561
+rs 2 2 8694
+am 2 2 3065
+gr 1 1 1147
+mu 1 1 1147
+jp 1 1 1538
+il 1 1 1147
+fr 1 1 1534
+my 1 5 4698
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+unknown 9 216 20250728074935 9
+no_user_agent 8 187382 20250728192017 0
+Go\-http\-client/ 5 21777 20250728155621 0
+scrapy 1 16027 20250713070946 0
+Googlebot/ 1 1538 20250729224404 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+Unknown 49 93095 0 0
+svg 3 1062 0 0
+html 193 471528 0 0
+css 3 3510 0 0
+php 4 6168 0 0
+js 6 7377 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 18
+win8.1 3 3
+android10 2 2
+winlong 1 1
+macosx14 1 1
+win10 99 99
+linux 32 32
+Unknown 14 14
+symbian 1 1
+ios_iphone 50 38
+winunknown 1 1
+macosx9 2 2
+macosx15 12 12
+androidpie 2 2
+ios_ipad 2 2
+linuxubuntu 9 9
+androidmarshmallow 3 3
+win7 17 17
+android12 7 7
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 53
+chrome76.0.3809.111 1 1
+chrome122.0.0.0 1 1
+safari17.0.1 1 1
+chrome33.0.1750.152 2 2
+chrome114.0.0.0 7 7
+edge12 1 1
+chrome138.0.0.0 63 63
+chrome98.0.4758.102 4 4
+chrome130.0.0.0 3 3
+firefox83.0 2 2
+chrome138.0.7204.93 1 1
+chrome131.0.0.0 2 2
+chrome137.0.0.0 10 10
+safari2.0.1 1 1
+chrome75.0.3770.101 1 1
+firefox137.0 3 3
+safari17.5 1 1
+safari9.0 1 1
+Unknown 8 8
+netscape5.0 1 1
+firefox133.0 5 5
+msie11.0 3 3
+safari8.0 1 1
+mozilla 7 7
+chrome76.0.3809.100 1 1
+chrome121.0.0.0 1 1
+opera60.0.3255.59 1 1
+chrome84.0.4147.89 2 2
+chrome138.0.7204.96 1 1
+chrome115.0.5810.222 1 1
+chrome46.0.2490.71 8 8
+chrome116.0.0.0 1 1
+msie7.0 1 1
+chrome60.0.3112.50 1 1
+chrome52.0.2717.98 2 2
+firefox117.0 5 5
+chrome115.0.0.0 2 2
+firefox68.0 1 1
+chrome132.0.0.0 8 8
+chrome75.0.3770.142 1 1
+safari 49 37
+chrome104.0.0.0 2 2
+chrome58.0.3029.110 4 4
+chrome72.0.3626.121 1 1
+safari17.6 1 1
+firefox134.0 2 2
+chrome108.0.0.0 4 4
+chrome138.0.7204.92 2 2
+chrome128.0.0.0 1 1
+chrome120.0.0.0 3 3
+chrome131.0.6778.33 1 1
+firefox120.0 13 13
+chrome45.0.2454.85 8 8
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250715044802
+Mozilla/5.0_zgrab/0.x 20250718192837
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20250728025033
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250728215909
+okhttp/4.9.2 20250713131240
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+okhttp/4.9.2 20250713131240
+Microsoft_URL_Control_-_6.00.8862 20250717081630
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250728215909
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 238 238
+From1 0 0
+From2 0 0
+From3 0 0
+From4 8 20
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+404 1370 2839440
+500 6 300758
+301 70 55650
+401 1 46
+403 49 64234
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 832
+/database_backup.sql 1 -
+/merchantbank/pageBank/bank5/img/phone.png 2 -
+/Sledzenie1.png 2 -
+/savings 2 -
+/bhim 1 -
+/img/logo.webp 2 -
+/public/merchantbank/pageBank/bank10 2 -
+/meeshoapp 1 -
+/san_filez/img/alert.svg 2 -
+/run-update 11 -
+/password/resource-1.svg 2 -
+/email/gv.gif 2 -
+/bharatswitch 1 -
+/app/Panel/assets/blackforce.png 2 -
+/images/flags.png 2 -
+/hbctxdom 1 -
+/national-automated-clearing-house 1 -
+/img/images/header/offer-img.png 2 -
+/bitbucket-pipelines.yml 1 -
+/img/aside-2.jpg 2 -
+/pl/images/przelewy24_logo_2022.svg 2 -
+/neftnpci 1 -
+/ninjacrm 1 -
+/imps-npci 1 -
+/bharatinterfaceformoney 1 -
+/aadhaar-enabled-payment-system 1 -
+/pages 2 -
+/upigateway 1 -
+/uploads/logo.png 2 -
+/PL/ID/phone.png 2 -
+/public/password 2 -
+/panel/settings.php 1 -
+/client 2 -
+/public/lander/test 2 -
+/dist/js/bootstrap.bundle.min.js 21 -
+/informationsquestion.php 2 -
+/tempEP/dlf/unknown.png 2 -
+/unifiedpaymentsinterface 1 -
+/merchantbank/pageBank/bank4/img/santander-red.svg 2 -
+/icici-reward 1 -
+/icicilombardmails 1 -
+/realtimegrosssettlement 1 -
+/images/login/login_bg.png 2 -
+/bharat-interface-for-money 1 -
+/public/lander/short 2 -
+/netcfastag 1 -
+/hdfcbank-cares 1 -
+/real-time-gross-settlement 1 -
+/hellowin 1 -
+/hdfc-ergo-uat 1 -
+/bhimapp 1 -
+/staff 2 -
+/bhim-qr 1 -
+/hdfccapital 1 -
+/userpanel 2 -
+/Login 1 -
+/includes/languages/polish/images/icon.gif 2 -
+/nachapb 1 -
+/client/login.php 2 -
+/public/wow 2 -
+/bhim-aadhaar-pay 1 -
+/images/login.png 2 -
+/delivery-services/pl/olx-new/logo.svg 2 -
+/offer 2 -
+/loan 2 -
+/feed 1 -
+/images/poster-1.jpg 2 -
+/img/pr.png 2 -
+/ipartner-mobile-icici-lombard 1 -
+/iltakecare 1 -
+/help 2 -
+/archives 2 -
+/panel 2 -
+/rtgs-npci 1 -
+/assets/img/login/banan.png 2 -
+/bhimmakingindiacashless 1 -
+/upload.php 1 -
+/pages/billing.php 2 -
+/actuator/env 2 -
+/user 2 -
+/hidden-files 2 -
+/main/images/screen_icon.png 2 -
+/registration 2 -
+/hdfcbankhongkong 1 -
+/old 2 -
+/apis 2 -
+/nationalpaymentscorporationofindia 1 -
+/nationalelectronicfundstransfer 1 -
+/assets/js/validate.js 2 -
+/unlock 2 -
+/hidden 2 -
+/bhimnpci 1 -
+/icici-lombard-ozone 1 -
+/bpegstar/paycard/pekao.jpg 2 -
+/images/payment_method.png 2 -
+/chat/attach-file.png 2 -
+/profiles 2 -
+/public/pattern-trade1 2 -
+/secret 2 -
+/national-payments-corporation-of-india 1 -
+/payment 2 -
+/authorization 2 -
+/public/general 2 -
+/admin/files/img/grey.png 2 -
+/icici-bank-customer-care 1 -
+/public/merchantbank/pageBank/bank6 2 -
+/config.xml 1 -
+/backup.zip 1 -
+/aadhaar-number-seeding 1 -
+/icicibankcustomercare 1 -
+/netc-fastag 1 -
+/allthingsev 1 -
+/bankonline 2 -
+/nationalautomatedclearinghouse 1 -
+/nationalfinancialswitch 1 -
+/database.sql 1 -
+/aadhaarauthentication 1 -
+/uploads 2 -
+/images/1.jpg 2 -
+/password/resource.svg 2 -
+/bhim-customer 1 -
+/secrets.json 1 -
+/password.php 2 -
+/linkbasedpayment 1 -
+/cts-npci 1 -
+/icici-careers 1 -
+/npci-international-payments-limited 1 -
+/login_files/login-bg.jpg 2 -
+/bank 2 -
+/img/main-meetup.png 2 -
+/pre-land/user.svg 2 -
+/index_files/logo.png 2 -
+/bharat-bill-pay 1 -
+/immediate-payment-system 1 -
+/favicon.png 1 -
+/apbsnpci 1 -
+/40c17d4e-65a6-4dbd-b325-62e4793cff69 1 -
+/images/bg.webp 2 -
+/img/annaB.jpg 2 -
+/ilomgeneralinsurance 1 -
+/itraceit 1 -
+/assets/order/pok-circle-1.svg 2 -
+/Dockerfile 1 -
+/bhimqr 1 -
+/img/mask.png 2 -
+/bhim-making-india-cashless 1 -
+/images/videoBg.png 2 -
+/register 2 -
+/delivery-services/dpd/dpd-image-15.png 2 -
+/link-based-payment 1 -
+/verification 2 -
+/privacy.html 2 -
+/store 2 -
+/clients 2 -
+/valmo-delivery-partner 1 -
+/hdfcergogeneralinsurancecompanylimited 1 -
+/interoperablecashdeposit 1 -
+/main/images/mainjpg.jpg 2 -
+/tempEP/dlf/trans.gif 2 -
+/nfs-switch 1 -
+/img/main-bg.png 2 -
+/img/main-baltic.png 2 -
+/nationalunifiedussdplatform 1 -
+/bpegstar/pge/logo.svg 2 -
+/phpmyadmin 2 -
+/hdfcbank 1 -
+/icicilombardmail 1 -
+/images/pl_flag.png 2 -
+/upinpci 1 -
+/images/main-baltic.png 2 -
+/pages/images/secured.png 2 -
+/bpegstar/paycard/bnp.jpg 2 -
+/images/logo.webp 2 -
+/pl/banks-logo/pocztowy.svg 2 -
+/san_filez/img/asset-2.png 2 -
+/202 2 -
+/rupay-credit-card 1 -
+/chequetruncationsystem 1 -
+/admin/files/img/red.png 2 -
+/img/author.png 2 -
+/autoninja 1 -
+/img/langue.png 2 -
+/icici-lombard-gic 1 -
+/hdfcergouat 1 -
+/tokens 2 -
+/hdfcbankbahrain 1 -
+/interoperable-cardless-cash-withdrawal 1 -
+/error.html 2 -
+/statement 2 -
+/mail 2 -
+/www 2 -
+/img/bg2.webp 2 -
+/bbpsnpci 1 -
+/images/logotypes/9.svg 2 -
+/img/bg1.jpg 2 -
+/deposit 2 -
+/icicilombardozone 1 -
+/icicigroupcompanies 1 -
+/upload 2 -
+/npciinternationalpaymentslimited 1 -
+/upichalega 1 -
+/mbanku-poland/private/LoginMain.svg 2 -
+/insurancepp 1 -
+/assets/img/logofb.svg 2 -
+/emails 2 -
+/lander/pl-coin-api-v4-for-test_1670173585/assets/img/logo.png 2 -
+/public/privacy 2 -
+/icon-star.png 2 -
+/npcivajra 1 -
+/6e2d904cc93066a01927bf58cbdc4dea8fbeee8b.svg 2 -
+/merchantbank/pageBank/bank3/img/ing-logo.svg 2 -
+/images/flags/pl.png 2 -
+/interoperablecardlesscashwithdrawal 1 -
+/img/icons/header/logo.png 2 -
+/public/33d2d072-a4f2-4d4b-9049-d7d363d7da34 1 https://demo.secondautoupdate.com.acharmela.com/33d2d072-a4f2-4d4b-9049-d7d363d7da34/
+/secure.html 2 -
+/secrets 2 -
+/pattern-trade1/css/bootstrap.min.css 2 -
+/rupay-contactless 1 -
+/public/hades/do/login 2 -
+/public/merchantbank/pageBank/bank11 2 -
+/key 2 -
+/bhim-aadhaar 1 -
+/icici 2 -
+/about 2 -
+/hdfcbankcares 1 -
+/apbs-npci 1 -
+/card-to-card-fund-transfer 1 -
+/immediatepaymentsystem 1 -
+/hdfcergohealth 1 -
+/india 2 -
+/images/2.jpg 2 -
+/icicilombardemail 1 -
+/delivery-services/allegro/lokalnie-logo.svg 2 -
+/rupayglobal 1 -
+/hdbfs 1 -
+/user_secrets.yml 1 -
+/insurancearticlez 1 -
+/maeschb.svg 2 -
+/auth.json 1 -
+/lander/pl-coin-api-v4-for-test_1670173585/assets/img/cover/coins.jpg 2 -
+/img/flags.png 2 -
+/meeshodesign 1 -
+/icicilombardgic 1 -
+/netc---npci 1 -
+/web 2 -
+/icicibankbahrain 1 -
+/img/baltic-map.png 2 -
+/upi-chalega 1 -
+/public/lander/zz 2 -
+/log 2 -
+/npcimapper 1 -
+/merchantbank/pageBank/bank5/img/background.png 2 -
+/upi-npci 1 -
+/backup.tar.gz 1 -
+/paypal/paypal_checkout.php 2 -
+/images/formPattern.png 2 -
+/public/sms 2 -
+/upi-money 1 -
+/fonts/logo.svg 2 -
+/Sledzenie2.png 2 -
+/bharat-qr 1 -
+/server.key 1 -
+/lombard-icici 1 -
+/public/init 2 -
+/authorize 2 -
+/pl/static/ing.gif 2 -
+/rupay 1 -
+/public/pattern-pre-off-1 2 -
+/dashboard 4 -
+/images/slide-1.png 2 -
+/front_end/front_end_files/bg-login-p24.jpeg 2 -
+/assets/img/author.png 2 -
+/upi-app 1 -
+/bpegstar/pge/get.jpg 2 -
+/national-payments 1 -
+/pane/login.php 2 -
+/nfsswitch 1 -
+/login.action 2 -
+/admin/assets/login.js 2 -
+/pl/static/przelewy24-logo.png 2 -
+/_all_dbs 2 -
+/nach-system 1 -
+/meeshogrocery 1 -
+/bbpou 1 -
+/settings.py 1 -
+/rupayprepaidcard 1 -
+/bharat-billpay 1 -
+/assets/img/about-us-10.jpg 2 -
+/public/53266093-487d-40bf-a320-672e9dd77e39 1 https://demo.secondautoupdate.com.acharmela.com/53266093-487d-40bf-a320-672e9dd77e39/
+/bbps-npci 1 -
+/pl/banks-logo/creditagricole.svg 2 -
+/mbanku-poland/private/avatar_retail.png 2 -
+/users 2 -
+/files/eye.svg 2 -
+/img/back.jpg 2 -
+/bharatqr 1 -
+/upiapp 1 -
+/img/one.png 2 -
+/services 2 -
+/icicidirect 1 -
+/ctsnpci 1 -
+/img/devices.png 2 -
+/aadhaar-authentication 1 -
+/npciupi 1 -
+/package.json 2 -
+/dashboard/login 2 -
+/unzipper.php 1 -
+/upi-gateway 1 -
+/assets/img/about-us-2.jpg 2 -
+/e-rupi 1 -
+/password 2 -
+/nationalpayments 1 -
+/s/63e2130323e2834323e2136313/_/ 2 -
+/bhim-spoof 1 -
+/order 2 -
+/img/pok-circle-1.svg 2 -
+/national-common-mobility-card 1 -
+/delivery-services/olx/check-new.svg 2 -
+/public/lander/papa 2 -
+/hdfc-securities-limited 1 -
+/ilgicdash 1 -
+/card 2 -
+/private 2 -
+/login.html 2 -
+/run-updat 1 -
+/img/punkt-2.png 2 -
+/session 2 -
+/sql 2 -
+/caches 2 -
+/temp 2 -
+/js/registerForm/preloader.gif 2 -
+/img/check.svg 2 -
+/valmo 1 -
+/public/lander/sm 2 -
+/public/lander/cz 2 -
+/aadharatmpay 1 -
+/images/pr.png 2 -
+/management 2 -
+/telescope/requests 2 -
+/digisaathi 1 -
+/merchantbank/pageBank/bank9/img/Logo@1x.png 2 -
+/hdfcbankfastag 1 -
+/npci-clearing-house 1 -
+/neft-npci 1 -
+/impsnpci 1 -
+/8a0b6739-5104-462a-a85c-302da4fd5b9f 1 -
+/public/lander/1 2 -
+/.env.production 1 -
+/npciclearinghouse 1 -
+/mbanku-poland/pesel/stoper-l.svg 2 -
+/downloads 2 -
+/img/baltic-bubbles.png 2 -
+/images/home/notice.png 2 -
+/bhimpayments 1 -
+/hdfc-ergo-general-insurance-company-limited 1 -
+/meeshoaiservices 1 -
+/images/bg1.webp 2 -
+/pattern-pre-off-1/images/2.png 2 -
+/lander/bazos/img/img7.jpg 2 -
+/delivery-services/olx/icon-star.png 2 -
+/national-electronic-toll-collection 1 -
+/npci-upi 1 -
+/images/logo-footer-new.png 2 -
+/img/101.webp 2 -
+/shop 2 -
+/pl/zabka/p32k2l13/start-transaction/index.php 2 -
+/0865574d0622f26397ec43d96a5394038251c36a.svg 2 -
+/meeshosuppliers 1 -
+/uploader.php 1 -
+/images/wallet.png 2 -
+/hdfccredila 1 -
+/invoices 2 -
+/bharat-bill-payment-central-unit 1 -
+/rtgsnpci 1 -
+/upipay 1 -
+/sales 2 -
+/public/lander/46 2 -
+/pl/banks-logo/visa-master.svg 2 -
+/images/bage.png 2 -
+/eorro/education.html 2 -
+/upi-qr 1 -
+/pl/banks-logo/nest.svg 2 -
+/turn-sound/png/bx-volume-full.png 2 -
+/mbanku-poland/pesel/dokument-tozsamosci-l.svg 2 -
+/merchantbank/pageBank/bank8/img/getinbank_logotype.png 2 -
+/images/icons/icon_algo.svg 2 -
+/public/lander/global 2 -
+/upimoney 1 -
+/delivery-services/inpost/logo.png 2 -
+/reward 2 -
+/images/baltic-map.png 2 -
+/login_files/norton.png 2 -
+/bharatconnect 1 -
+/ilgic 1 -
+/config.json 6 -
+/bhim-npci 1 -
+/_vti_pvt/service.pwd 1 -
+/database 2 -
+/img/lead-bg.png 2 -
+/air/img/1.jpg 2 -
+/ncmcwallet 1 -
+/icicibankltd 1 -
+/account 2 -
+/ilgicltd 1 -
+/images/bg3.webp 2 -
+/cp 2 -
+/password-recovery 2 -
+/public/va 2 -
+/api/success 2 -
+/img/language.png 2 -
+/img/logo.svg 2 -
+/icicibankcreditcard 1 -
+/assets/app-campaign-footer-banner-mobile.webp 2 -
+/lander/bazos/img/img5.jpg 2 -
+/public/pin 2 -
+/lombardicici 1 -
+/chat/client/avatar.svg 2 -
+/icicihfc 1 -
+/npci-vajra 1 -
+/nachsystem 1 -
+/hdfc 2 -
+/assets/img/mess.png 2 -
+/aadhaar-payment-bridge 1 -
+/cache 2 -
+/configuration 2 -
+/bpegstar/paycard/credit.jpg 2 -
+/prodicicilombard 1 -
+/checkout 2 -
+/aepsnpci 1 -
+/images/creator.png 2 -
+/hdfcfund 1 -
+/img/logo-fb.png 2 -
+/config/production.json 1 -
+/archive 2 -
+/system 2 -
+/iciciprupension 1 -
+/bharat-clearing-settlement 1 -
+/unzip.php 1 -
+/refund 2 -
+/bhim-upi 1 -
+/life99 1 -
+/bharat-bill-payment-system 1 -
+/assets/app-campaign-footer-banner-desktop.webp 2 -
+/bhim-app 1 -
+/123pay 1 -
+/icicicareers 1 -
+/upi-handle 1 -
+/erupi 1 -
+/backups 2 -
+/public/lander/psg 2 -
+/public/tech 2 -
+/info.php 2 -
+/cheque-truncation-system 1 -
+/.DS_Store 4 -
+/pr.png 2 -
+/hades/do/static/img/punktor.png 2 -
+/ebanking 2 -
+/netctransactions 1 -
+/nach-apb 1 -
+/withdraw 2 -
+/hdfcbankfinancialservices 1 -
+/national-payments-corporation 1 -
+/bharatbillpaymentcentralunit 1 -
+/profile 2 -
+/.ssh/id_ecdsa 1 -
+/.aws/credentials 1 -
+/public/lander/cbc 2 -
+/bharatbillpaymentsystem 1 -
+/verify 2 -
+/lander/pl-coin-api-v4-for-test_1670173585/assets/img/team/item-3.jpg 2 -
+/hdfcsecuritieslimited 1 -
+/logs 2 -
+/aeps 1 -
+/debug/default/view 2 -
+/public/lander/ms 2 -
+/icici-point 1 -
+/nachnpci 1 -
+/mailer 2 -
+/hades/do/static/img/logowanie_banner.jpg 2 -
+/claim 2 -
+/upi-pay 1 -
+/transfer 2 -
+/signup 2 -
+/icicipoint 1 -
+/_profiler/empty/search/results 1 -
+/server-status 3 -
+/files/img/asset-3-3-x.png 2 -
+/bhimspoof 1 -
+/ilomgic 1 -
+/coupon 2 -
+/recover 2 -
+/assets/img/about-us-13.jpg 2 -
+/security.txt 2 -
+/mastercardchb.svg 2 -
+/img/air.png 2 -
+/img/trader.png 2 -
+/login_files/flag-pl.svg 2 -
+/images/elon.png 2 -
+/db/schema.rb 1 -
+/keys 2 -
+/default 2 -
+/hdfc-ergo-health-insurance-company-limited 1 -
+/hdfcergo 1 -
+/images/pt_logo.svg 2 -
+/files 2 -
+/dbbb3f8577bb4a29952b5d888c5eaf83 1 -
+/rupay-select 1 -
+/view1 2 -
+/img/lewan.png 2 -
+/nationalelectronictollcollection 1 -
+/hdfchealth 1 -
+/search.png 2 -
+/rgcs-npci 1 -
+/bhimaadhaar 1 -
+/nfsnpci 1 -
+/pl/images/visamccheck.png 2 -
+/bharat-bill-payment-operating-unit 1 -
+/login_files/bnp-paribas-logo-full.svg 2 -
+/home 2 -
+/activate 2 -
+/z 2 -
+/pre-land/powered_by_pr.png 2 -
+/script.js 2 -
+/sys 2 -
+/assets/order/lokalnie-logo.svg 2 -
+/onocnpci 1 -
+/nuupnpci 1 -
+/tests 2 -
+/myicicilombard 1 -
+/icici-bank 1 -
+/visachb.svg 2 -
+/thehdfcschool 1 -
+/img/ambasador-lewa.png 2 -
+/operator-img.png 2 -
+/notip.html 2 -
+/files/user.svg 2 -
+/hdfclife-international 1 -
+/backup.sql 1 -
+/pl/zabka/program_52665_1551100069.jpg 2 -
+/img/two.png 2 -
+/config.yaml 1 -
+/password-reset 2 -
+/check.svg 2 -
+/confirm 2 -
+/rupay-global 1 -
+/index/login 2 -
+/virtual-payment-address 1 -
+/api/heartbeat 2 -
+/10d89057596e4ecdbd8bccbcbb080b63 1 -
+/delivery-services/olx/logo-2.png 2 -
+/server 2 -
+/images/windows.png 2 -
+/assets/img/bezhejtu.jpg 2 -
+/rupayglobalclearingsystem 1 -
+/public/baltic-pipe-pl 2 -
+/national-unified-ussd-platform 1 -
+/common-service-area 1 -
+/balance 2 -
+/security 2 -
+/image/loading/loading-spin.svg 2 -
+/pekao-image-2.svg 2 -
+/upipin 1 -
+/icici-bank-credit-card 1 -
+/ai/js/jspocztap.js 2 -
+/authentication 2 -
+/images/platform_icons.png 2 -
+/backup 2 -
+/netc 1 -
+/cdn/capital-impact-token-ostrich-fly-lucky.png 2 -
+/upihandle 1 -
+/nationalpaymentscorporation 1 -
+/home-page 2 -
+/virtualpaymentaddress 1 -
+/cart 2 -
+/images/baltic-bubbles.png 2 -
+/support 2 -
+/img/images/coverage/coverage-bg.png 2 -
+/public/cbzc.png 2 -
+/public/admin 2 -
+/assets/img/login/chair.png 2 -
+/ipartnermobileicicilombard 1 -
+/files/image.png 2 -
+/pre-land/image.png 2 -
+/bhimaadhaarpay 1 -
+/front_end/front_end_files/uk.svg 2 -
+/unified-payments-interface 1 -
+/pl/alior/alior-logo.svg 2 -
+/upi 2 -
+/cardtocardfundtransfer 1 -
+/transaction 2 -
+/PL/ID/pc.png 2 -
+/netc-program 1 -
+/pattern-pre-off-1/images/3.webp 2 -
+/adminpanel 2 -
+/assets/img/ca-color-top.png 2 -
+/wp-config.php 1 -
+/chap.png 2 -
+/pre-land/eye.svg 2 -
+/nationalcommonmobilitycard 1 -
+/bharat-connect 1 -
+/b9357365-7ec8-4e9b-8563-7cd728652cc7 1 -
+/san_filez/img/header-logo.png 2 -
+/public/sms2 2 -
+/public/lander/wp 2 -
+/delivery-services/allegro/bank.png 2 -
+/.ssh/id_ed25519 1 -
+/admin/files/img/green.png 2 -
+/npcinet 1 -
+/hdfc-bank-financial-services 1 -
+/.ssh/id_rsa 1 -
+/terms 2 -
+/netcnpci 1 -
+/aadhaarpaymentbridge 1 -
+/dbadmin 2 -
+/public/lander/2 2 -
+/ftpsync.settings 1 -
+/upiid 1 -
+/hdfcbk 1 -
+/images/pl_bg.webp 2 -
+/secure 2 -
+/banking 2 -
+/merchantbank/img/logo.png 2 -
+/national-financial-switch 1 -
+/nipl 1 -
+/img/wp-logo-white.png 2 -
+/wiki 1 -
+/img/punkt-1.png 2 -
+/admin 4 -
+/images/logo.png 2 -
+//cdn.js 20 -
+/images/uptime.png 2 -
+/gl/mfile/index.js 2 -
+/aadhaarenabledpaymentsystem 1 -
+/icicibank 1 -
+/images/icons/icon_user.svg 2 -
+/orders 2 -
+/index_files/top-right.png 2 -
+/img/lewa.png 2 -
+/front_end/front_end_files/login-poster-peo-pay.svg 2 -
+/bhimupi 1 -
+/hades/do/static/img/logoStopka.png 2 -
+/logo.svg 2 -
+/hdfcsales 1 -
+/rupayselect 1 -
+/sitemap.xml 3 -
+/img/card2.jpg 2 -
+/bharatbillpaymentoperatingunit 1 -
+/valmologistics 1 -
+/function/config.json 2 -
+/a21d5e45-c3b1-4491-afa9-c2249c633fb3 1 -
+/neft-internet-banking 1 -
+/dd1aed50244d7243b9209dc901c8d1af.ttf 2 -
+/onoc-npci 1 -
+/nuup-npci 1 -
+/app/Panel/botActBan/ip_ban.txt 2 -
+/hdfcergo-uat 1 -
+/portal 2 -
+/bharatecommercepaymentgateway 1 -
+/assets/img/login/flower.png 2 -
+/pattern-pre-off-1/images/1.png 2 -
+/ncmc-wallet 1 -
+/valmodeliverypartner 1 -
+/_profiler/phpinfo 1 -
+/images/logo-new.png 2 -
+/neftinternetbanking 1 -
+/img/app-logo-transparent.svg 2 -
+/hdfclife 1 -
+/web.config 1 -
+/bharat-switch 1 -
+/auth 2 -
+/v2/_catalog 2 -
+/hdfcsec 1 -
+/phpinfo.php 1 -
+/assets/img/hero-bg10.jpg 2 -
+/images/overone.jpg 2 -
+/pl/payu/pay.php 2 -
+/sounds/new-message.mp3 2 -
+/service 2 -
+/signin 2 -
+/bhimrecharge 1 -
+/api 2 -
+/front_end/front_end_files/logo-white.svg 2 -
+/main 2 -
+/bhartiaxa 1 -
+/assets/img/bg.jpg 2 -
+/hdfcpension 1 -
+/users/sign_in 1 -
+/img/smart.svg 2 -
+/bhim-recharge 1 -
+/merchantbank/pageBank/bank2/img/416x416_QCYX1Cv_208_208.png 2 -
+/hdfcpropertyfund 1 -
+/hdfcergoknowledge 1 -
+/bharatbillpay 1 -
+/ottobuddy 1 -
+/update 2 -
+/bharat-ecommerce-payment-gateway 1 -
+/lander/pl-coin-api-v4-for-test_1670173585/assets/img/team/item-1.jpg 2 -
+/customer 2 -
+/netbanking 2 -
+/rupaycreditcard 1 -
+/db 2 -
+/valmo-logistics 1 -
+/settings 2 -
+/immediate-payment-service 1 -
+/meesho 1 -
+/members 2 -
+/token 2 -
+/configurations 2 -
+/aadhaarnumberseeding 1 -
+/otto-buddy 1 -
+/file 2 -
+/files/search.svg 2 -
+/netcprogram 1 -
+/hdfc-bank 1 -
+/email 2 -
+/config.yml 1 -
+/config.php 3 -
+/pre-land/search.svg 2 -
+/images/process.jpg 2 -
+/nfs-npci 1 -
+/icicireward 1 -
+/images/logo2.png 2 -
+/img/post1.png 2 -
+/app/Config/index.php 2 -
+/rupay-prepaid-card 1 -
+/@vite/env 2 -
+/reset 2 -
+/bharatclearingsettlement 1 -
+/merchantbank/pageBank/bank1/img/bghead.jpg 2 -
+/etc/ssl/private/server.key 1 -
+/icicilombard 1 -
+/icici-lombard 1 -
+/login_files/the-banker-poland.png 2 -
+/rupay-global-clearing-system 1 -
+/files/img/header-logo.png 2 -
+/hdfcergohealthinsurancecompanylimited 1 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+/htparekhfoundation 1 -
+/img/poster.png 2 -
+/administrator 2 -
+/access.php 2 -
+/hellowyn 1 -
+/national-electronic-funds-transfer 1 -
+/rupaycontactless 1 -
+/.vscode/sftp.json 3 -
+/npci-mapper 1 -
+/billing 2 -
+/aeps-npci 1 -
+/npci 1 -
+/databases 2 -
+/merchantbank/pageBank/bank7/img/logo-white.svg 2 -
+/files/img/asset-2.png 2 -
+/upi-pin 1 -
+/immediatepaymentservice 1 -
+/img/annaC.png 2 -
+/invoice 2 -
+/images/3.jpg 2 -
+/images/overone.png 2 -
+/delivery-services/olx/icon-star2.png 2 -
+/images/depo2.png 2 -
+/test 2 -
+/hades/do/static/img/en.png 2 -
+/docker-compose.yml 1 -
+/img/logo.png 2 -
+/lander/pl-coin-api-v4-for-test_1670173585/assets/img/team/item-2.jpg 2 -
+/hdfclifere 1 -
+/engage-il 1 -
+/up.php 1 -
+/img/header-bg.png 2 -
+/hardhat.config.js 1 -
+/data 2 -
+/root 2 -
+/accounts 2 -
+/prize 2 -
+/staffs 2 -
+/upiqr 1 -
+/chat/avatar.png 2 -
+/hdfc-ergo 1 -
+/commonservicearea 1 -
+/member 2 -
+/ilom 1 -
+/il-take-care 1 -
+/delivery-services/dpd/little-logo.png 2 -
+/wp-admin/setup-config.php 1 -
+/config 2 -
+//create-storage-link 2 -
+/lander/test/script.js 2 -
+/pl/przelewy24/trnRequest/DB3D9963A9/data.php 2 -
+/manage 2 -
+/nfinite 1 -
+/index_files/tlo.jpg 2 -
+/dump.sql 1 -
+/bhimcustomer 1 -
+/private-data 2 -
+/bbpcu 1 -
+/delivery-services/dpd/dpd-image-4.svg 2 -
+/files/img/blank.gif 2 -
+/images/slide-2.png 2 -
+/cloud-config.yml 1 -
+/meta/mm-logo.svg 2 -
+/fastag 1 -
+/images/5.jpg 2 -
+/nach-npci 1 -
+/sessions 2 -
+/credit 2 -
+/mbanku-poland/pesel/sus.png 2 -
+/netc-transactions 1 -
+/img/card1.jpg 2 -
+/lander/bazos/img/img8.jpg 2 -
+/delivery-services/dpd/dpd-image-6.svg 2 -
+/logowanie.php 2 -
+/bhartiaxageneralinsurance 1 -
+/tmp 2 -
+/images/pr.webp 2 -
+/meta/hero2.4.png 2 -
+/meeshosupplier 1 -
+/san_filez/img/asset-3-3-x.png 2 -
+/dashboard/overview 2 -
+/shippinginfo.html 2 -
+/download 2 -
+/valmofranchise 1 -
+/upi-id 1 -
+/public/lander/1711 2 -
+/carts 2 -
+/public/adminrr.php 2 -
+/valmo-franchise 1 -
+/loading.png 2 -
+/bhim-payments 1 -
+/insuranceprod 1 -
+/interoperable-cash-deposit 1 -
+/rgcsnpci 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 123
+37.111.243.232 21 21 9301 20250713140120
+103.166.59.145 20 20 60295 20250714050041
+35.87.98.139 16 16 60131 20250730114852
+37.111.245.70 16 16 13585 20250714104302
+35.230.52.169 16 16 60129 20250729154337
+51.68.155.113 8 8 7578 20250731030741
+34.248.137.227 6 6 96162 20250713090608
+146.70.185.32 4 4 0 20250716154013
+185.242.177.59 4 4 4498 20250728155629
+196.251.88.64 4 4 6144 20250729184458
+203.76.188.24 3 3 4602 20250731231147
+94.72.104.135 3 3 3441 20250713121549
+185.82.219.124 2 2 3076 20250716125202
+196.251.88.59 2 2 3072 20250729084958
+52.247.239.25 2 2 2486 20250713151034
+176.32.195.85 2 2 3065 20250714035039
+44.243.55.132 2 2 3072 20250729023102
+195.211.77.142 2 2 2245 20250728155643
+89.248.171.23 2 2 3065 20250713230040
+93.174.93.114 2 2 2294 20250713121346
+195.211.77.140 2 2 0 20250728155632
+40.80.158.10 2 2 2492 20250713140819
+91.134.91.17 2 2 3065 20250716070805
+54.174.140.70 2 2 2294 20250713131305
+103.166.59.149 2 2 148 20250715113743
+136.144.168.61 1 1 1147 20250713121354
+205.210.31.181 1 1 4351 20250718002202
+143.110.235.58 1 1 1534 20250730133506
+128.140.53.20 1 1 1534 20250728155619
+44.250.144.207 1 1 1538 20250729022942
+2.56.72.36 1 1 1147 20250713130132
+85.237.194.63 1 1 1538 20250715023447
+41.220.240.242 1 1 1147 20250713121324
+149.57.180.21 1 1 1534 20250714091953
+83.171.226.216 1 1 1147 20250713121954
+103.82.25.111 1 1 1147 20250713121325
+128.90.165.137 1 1 1147 20250713135056
+156.146.57.134 1 1 1147 20250713121414
+185.247.137.43 1 1 1534 20250715044802
+199.45.154.153 1 1 1534 20250728025033
+193.36.225.52 1 1 1538 20250715023444
+143.198.13.240 1 1 1538 20250727062345
+142.93.208.198 1 1 1538 20250716030222
+34.223.50.114 1 1 1534 20250713140100
+180.163.220.126 1 1 4343 20250716011715
+91.231.89.122 1 1 4343 20250730061912
+198.235.24.40 1 1 4343 20250723092043
+3.237.61.108 1 1 1534 20250717081630
+123.6.49.38 1 1 4343 20250728074931
+89.47.55.186 1 1 1147 20250713121350
+91.231.89.35 1 1 4351 20250730061712
+205.210.31.180 1 1 4343 20250728215909
+104.232.194.0 1 1 1147 20250713121337
+192.145.38.133 1 1 1534 20250723055056
+203.109.54.226 1 5 4698 20250713063616
+23.27.145.196 1 1 1538 20250715095338
+3.140.182.19 1 1 1534 20250718192837
+149.57.180.102 1 1 1534 20250717102839
+205.210.31.177 1 1 4351 20250723101946
+34.234.97.50 1 1 1147 20250713133138
+128.90.119.243 1 1 1147 20250713135057
+138.199.21.241 1 1 16027 20250713074342
+44.234.63.232 1 1 1534 20250730062800
+188.126.89.136 1 1 1147 20250713121354
+51.89.207.163 1 1 1147 20250713121240
+104.224.90.207 1 1 1531 20250713141309
+149.57.180.38 1 1 1534 20250720105227
+180.163.220.51 1 1 4343 20250721032922
+159.223.19.225 1 1 1534 20250728155606
+34.211.89.1 1 1 1538 20250717080031
+205.210.31.219 1 1 4343 20250718064047
+94.102.49.206 1 1 1147 20250713131519
+199.45.155.66 1 1 1534 20250714122849
+37.111.243.242 1 1 74 20250715115816
+149.57.180.103 1 1 16027 20250713090807
+64.227.134.45 1 1 1534 20250714010109
+104.253.247.110 1 5 4694 20250713063616
+178.62.230.240 1 1 1534 20250719073132
+164.90.168.75 1 1 1538 20250730003800
+139.155.243.8 1 1 1147 20250713121330
+149.57.180.138 1 1 1538 20250723110445
+149.57.180.74 1 1 1538 20250727104444
+78.159.108.37 1 1 1147 20250713121220
+146.70.203.23 1 1 1147 20250713135056
+23.230.163.109 1 1 1147 20250713121351
+23.27.145.146 1 1 16027 20250713090845
+37.46.113.204 1 1 1147 20250713131615
+193.24.123.66 1 1 1531 20250714035035
+23.27.145.190 1 1 1538 20250720102153
+35.86.226.102 1 1 1534 20250730060339
+216.24.212.165 1 1 1534 20250715030514
+185.247.137.113 1 1 1538 20250714184401
+23.27.145.206 1 1 1538 20250717105821
+160.238.37.80 1 1 1538 20250730215028
+188.245.193.111 1 1 1538 20250716073702
+149.57.180.0 1 1 1534 20250727104518
+52.33.108.208 1 1 1534 20250716115953
+167.94.145.99 1 1 1538 20250714144426
+138.68.166.157 1 1 1147 20250713121512
+103.166.59.147 1 1 74 20250715085701
+91.84.87.137 1 1 0 20250714073132
+23.27.145.208 1 1 1534 20250723110601
+104.252.110.250 1 5 4698 20250713063616
+103.195.4.182 1 1 1147 20250713122702
+194.163.152.77 1 1 1534 20250716224609
+164.92.244.132 1 1 4351 20250728155608
+198.235.24.60 1 1 4343 20250725061140
+23.27.145.222 1 1 1534 20250715095251
+176.125.230.136 1 1 1534 20250728155607
+206.168.34.114 1 1 1538 20250718101436
+80.82.70.198 1 1 1147 20250713131523
+92.205.20.105 1 1 1147 20250713121325
+185.231.155.84 1 1 1534 20250718061022
+91.99.148.167 1 1 1538 20250728155624
+206.81.24.227 1 1 4343 20250728155608
+100.26.58.121 1 1 1147 20250713121947
+173.244.55.20 1 1 1534 20250715030517
+35.94.177.95 1 1 1534 20250729072059
+78.159.108.31 1 1 1147 20250713131417
+35.88.35.179 2 2 3072 20250715005237
+185.242.177.53 1 1 711 20250713063534
+193.24.123.85 1 1 1534 20250714025755
+44.251.247.226 1 1 1534 20250730062618
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20250713 88 100 271542 51
+20250714 38 38 37505 13
+20250715 12 12 12584 11
+20250716 12 12 15097 8
+20250717 4 4 6144 4
+20250718 5 5 13300 5
+20250719 1 1 1534 1
+20250720 2 2 3072 2
+20250721 1 1 4343 1
+20250723 5 5 13300 5
+20250725 1 1 4343 1
+20250727 3 3 4610 3
+20250728 15 15 32728 13
+20250729 26 26 75489 8
+20250730 24 24 78037 9
+20250731 9 9 9112 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 5
+30mn-1h 2
+15mn-30mn 2
+30s-2mn 2
+0s-30s 126
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/ 191 468450 129 127
+/run-update 26 2762 7 6
+/admin/update-upload 5 3990 0 2
+/login 5 3691 0 1
+/create-storage-link 4 268 1 0
+/api/updates/latest 3 464 0 0
+/index.php 2 3096 0 0
+/controlpanel 2 27304 0 0
+/webmail 2 27310 0 0
+/public/ 2 3078 0 0
+/cpanel 2 27306 0 0
+/tempEP/index.php 2 3072 0 1
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+500-1K 88
+44-100 23
+5K+ 27
+1K-2K 212
+100-500 19
+2K-5K 1398
+0-44 67
+END_FILESIZE

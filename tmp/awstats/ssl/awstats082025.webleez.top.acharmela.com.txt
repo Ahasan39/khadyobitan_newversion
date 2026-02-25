@@ -1,0 +1,1244 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202508 will be lost/reset.
+# Last config file used to build this data file was /home/acharmel/tmp/awstats/ssl/awstats.webleez.top.acharmela.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2060                
+POS_TIME 2740                
+POS_VISITOR 17495               
+POS_DAY 31309               
+POS_DOMAIN 3701                
+POS_LOGIN 4326                
+POS_ROBOT 4481                
+POS_WORMS 5400                
+POS_EMAILSENDER 5531                
+POS_EMAILRECEIVER 5674                
+POS_SESSION 32215               
+POS_FILESIZE 43482               
+POS_SIDER 32428               
+POS_FILETYPES 5809                
+POS_DOWNLOADS 6180                
+POS_OS 6782                
+POS_BROWSER 7250                
+POS_SCREENSIZE 9164                
+POS_UNKNOWNREFERER 9238                
+POS_UNKNOWNREFERERBROWSER 10074               
+POS_ORIGIN 10681               
+POS_SEREFERRALS 10828               
+POS_PAGEREFS 11026               
+POS_SEARCHWORDS 11258               
+POS_KEYWORDS 11410               
+POS_MISC 2403                
+POS_ERRORS 11469               
+POS_CLUSTER 4182                
+POS_SIDER_404 11706               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250901022931 65 15134 16847683431072
+FirstTime 20250801002250
+LastTime 20250831175521
+LastUpdate 20250901120245 65 0 64 0 0
+TotalVisits 490                 
+TotalUnique 335                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 345                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 91 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 20 37 3314753 81 116 6033099
+1 50 143 11596186 83 148 12992087
+2 71 90 6091016 113 211 11031138
+3 42 124 13047536 80 132 5784213
+4 50 59 2712075 235 270 12955133
+5 97 279 15011084 175 254 4293207
+6 88 255 15399080 72 171 7683987
+7 66 119 4851752 142 189 11086086
+8 164 383 17017361 133 204 4453095
+9 519 1003 39876569 165 239 3901106
+10 339 1085 48474376 157 225 6178674
+11 488 1347 63573445 198 327 22411618
+12 473 1116 50604796 149 220 29969048
+13 767 2079 96471604 453 650 14439853
+14 351 634 20828627 193 285 10388980
+15 784 1827 65496712 313 470 27655931
+16 489 1863 95928079 331 431 11533109
+17 71 290 16832083 68 150 4695045
+18 143 237 5293518 90 187 4476259
+19 21 62 5344385 549 688 30235828
+20 79 250 15084909 256 311 7564450
+21 134 273 24938976 132 253 5025907
+22 9 42 1976930 57 81 4442189
+23 11 21 3064342 52 72 4444633
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 26
+in 4335 10208 437232916
+us 438 1203 65339869
+hu 228 920 56008176
+bd 121 544 32187286
+ca 45 50 3392785
+jp 34 194 10176569
+cn 29 83 5160621
+se 17 103 8470543
+gb 11 12 569843
+hk 11 89 4264522
+ru 8 9 554719
+tw 8 22 36804
+de 5 5 0
+au 5 9 1556387
+eu 5 44 3792429
+am 4 42 3658780
+sa 4 41 3196841
+ph 4 22 1191409
+rs 3 3 570604
+za 2 2 28274
+be 2 5 1410284
+ir 2 2 26562
+nl 2 3 486530
+bg 1 1 12163
+cz 1 1 12095
+cl 1 1 12127
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 20
+bot[\s_+:,\.\;\/\\-] 621 20134534 20250830212930 68
+SemrushBot/ 526 4575015 20250830082402 111
+MJ12bot/ 428 3900452 20250831164028 101
+Googlebot/ 393 3683882 20250830174927 31
+crawl 256 29557753 20250811061607 0
+bingbot/ 212 7646197 20250831194756 11
+Barkrowler 204 2451641 20250830210223 5
+facebookexternalhit/ 104 8189532 20250831133151 42
+unknown 14 336 20250828130856 14
+no_user_agent 13 1903452 20250831014400 0
+Lightspeed 11 1977302 20250803173536 0
+Go\-http\-client/ 7 261288 20250827222447 0
+[\s_+:,\.\;\/\\-]bot 6 76933 20250802191717 0
+curl 6 76231 20250823214140 0
+CFNetwork 6 58554 20250803173756 0
+survey 6 621419 20250811112356 0
+Googlebot\-Image/ 5 958358 20250824223331 0
+AhrefsBot/ 4 96 20250831062614 4
+scrapy 2 23716 20250814091343 0
+ELinks/ 1 12068 20250824190234 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 15
+jpg 1081 183704700 0 0
+woff 197 6915832 0 0
+webp 1160 149449972 0 0
+html 694 11975294 0 0
+js 2733 42292352 0 0
+map 1 0 0 0
+png 432 58930845 0 0
+mp4 6 4608777 0 0
+css 2600 25290829 0 0
+xml 9 24034 0 0
+zip 13 173429 0 0
+woff2 615 67653542 0 0
+jpeg 267 53960286 0 0
+Unknown 3807 34077010 0 0
+ttf 3 292236 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 9
+/public/uploads/product/1754256804-vid_20250803_015849.mp4 6 34 4608777
+/storage/app/public/updates/update_1.0.9_1753792164.zip 4 0 26212
+/storage/app/public/updates/update_1.1.7_1754924247.zip 3 0 59289
+/storage/app/public/updates/update_1.1.4_1754732509.zip 2 0 23230
+/storage/app/public/updates/update_1.0.8_1753633158.zip 1 0 13645
+/storage/app/public/updates/update_1.1.4_1754730928.zip 1 0 7054
+/storage/app/public/updates/update_1.1.6_1754733273.zip 1 0 18908
+/storage/app/public/updates/update_1.1.5_1754732947.zip 1 0 25091
+/robots.txt 0 31 744
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 26
+Unknown 317 246
+android12 1 1
+macintosh 1 1
+androidhoneycomb 1 1
+win8.1 1 1
+androidlollipop 22 4
+win10 10069 3936
+androidmarshmallow 390 61
+macosx14 3 3
+android13 24 6
+win7 41 3
+androidnougat 1 1
+macosx15 129 49
+androidoreo 3 3
+androidpie 1 1
+macos11 20 2
+macosx9 4 4
+linux 391 175
+macosx12 4 4
+android11 98 10
+macosx7 8 4
+win2003 1 1
+android10 1830 737
+android 3 3
+ios_iphone 236 57
+linuxubuntu 53 12
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 89
+chrome114.0.5775.194 45 5
+firefox59.0 1 1
+chrome131.0.0.0 27 7
+chrome83.0.4103.97 3 3
+chrome138.0.7204.23 42 4
+safari18.4 1 1
+chrome77.0.3835.0 1 1
+chrome109.0.5414.46 41 4
+safari17.5 34 3
+chrome60.0.1245.56 1 1
+chrome125.0.6422.19 1 1
+chrome132.0.0.0 12 12
+android 1 1
+chrome127.0.6533.24 1 1
+safari17.4.1 1 1
+chrome96.0.4664.110 8 3
+safari 49 8
+chrome137.0.0.0 66 17
+mozilla 76 30
+chrome121.0.0.0 5 5
+chrome117.0.0.0 2 2
+chrome112.0.0.0 9 9
+chrome62.0.1723.25 1 1
+firefox120.0 4 4
+chrome119.0.6045.161 1 1
+chrome128.0.0.0 1 1
+safari16.4 1 0
+chrome116.0.0.0 36 5
+chrome84.0.4147.111 2 2
+chrome87.0.4280.88 20 2
+chrome76.0.3809.132 2 2
+chrome108.0.0.0 2 2
+netscape5.0 8 8
+chrome76.0.3809.100 1 1
+safari17.2.1 1 1
+chrome85.0.4183.121 6 6
+chrome136.0.0.0 97 13
+chrome126.0.0.0 1 1
+safari15.0 2 2
+chrome66.0.3359.181 20 20
+iphone 75 29
+chrome138.0.0.0 5148 2091
+chrome85.0.4183.101 1 1
+chrome38.0.2125.102 22 4
+chrome63.0.3239.111 1 1
+safari18.5 39 5
+chrome52.0.2717.98 3 3
+chrome75.0.3770.80 1 1
+firefox48.0 1 1
+chrome101.0.4950.0 1 1
+chrome115.0.5810.222 2 1
+firefox56.0 1 1
+chrome116.0.5845.169 1 1
+chrome99.0.4812.0 46 5
+Unknown 237 212
+chrome130.0.0.0 135 51
+chrome120.0.0.0 6 6
+opera90.0.0.0 11 2
+chrome107.0.5304.12 1 1
+chrome44.0.2403.107 1 1
+chrome56.0.2570.118 1 1
+chrome84.0.4147.89 1 1
+firefox134.0 3 3
+safari18.3 1 1
+chrome61.0.1885.136 1 1
+chrome137.0.7151.119 65 13
+safari11.0 25 5
+chrome139.0.0.0 6929 2609
+chrome96.0.4664.45 39 1
+chrome123.0.0.0 1 1
+chrome134.0.0.0 2 2
+chrome105.0.0.0 9 5
+chrome114.0.0.0 6 6
+chrome17.0.963.56 8 4
+chrome95.0.4638.54 42 4
+chrome100.0.4896.75 43 4
+firefox137.0 4 2
+safari17.0 9 3
+chrome19.0.833.0 1 1
+firefox131.0 2 2
+chrome108.0.5359.132 1 1
+chrome59.0.1455.104 1 1
+chrome133.0.0.0 18 17
+chrome122.0.6261.39 1 1
+firefox139.0 16 9
+chrome76.0.3809.89 1 1
+chrome129.0.0.0 2 2
+chrome104.0.0.0 52 13
+chrome135.0.0.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 15
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250830043024
+python-requests/2.32.3 20250820194011
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250831140225
+GuzzleHttp/7 20250830143737
+Python/3.13_aiohttp/3.12.13 20250811184338
+WhatsApp/2.23.20.0 20250810104127
+fasthttp 20250819070028
+quic-go-HTTP/3 20250829054922
+Mozilla/5.0_zgrab/0.x 20250828011653
+WhatsApp/3.0.0.0_A 20250816090707
+PostmanRuntime/7.45.0 20250811145726
+okhttp/4.9.2 20250810012235
+PostmanRuntime/7.44.1 20250802161350
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20250829233033
+WhatsApp/2.2531.4_W 20250813112819
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 12
+PostmanRuntime/7.44.1 20250802161350
+WhatsApp/2.2531.4_W 20250813112819
+WhatsApp/3.0.0.0_A 20250816090707
+PostmanRuntime/7.45.0 20250811145726
+okhttp/4.9.2 20250810012235
+WhatsApp/2.23.20.0 20250810104127
+fasthttp 20250819070028
+quic-go-HTTP/3 20250829054922
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250830043024
+python-requests/2.32.3 20250820194011
+GuzzleHttp/7 20250830143737
+Python/3.13_aiohttp/3.12.13 20250811184338
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 754 1154
+From1 0 0
+From2 129 167
+From3 3 44
+From4 4440 12287
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google_com 67 67
+goodsearch 4 42
+www_google_com 58 58
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://www.webc-i.com 2 40
+https://lm.facebook.com 1 1
+https://mail.webleez.top 0 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 12
+400 3 156
+401 7 371
+405 25 7067935
+422 44 4154
+302 533 111322
+404 1981 4378519
+204 29 0
+403 28 34776
+500 664 164420102
+206 20 1342942
+419 19 39596
+301 15 11925
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 119
+/public/uploads/default/user.png 692 https://webleez.top/update-version
+//webleez.top.acharmela.com/public/frontEnd/js/owl.carousel.min.js 4 -
+/product/shirt 3 -
+/.DS_Store 3 -
+/public/frontEnd/css/owl.video.play.png 2 -
+/shell 8 -
+/shell.php 7 -
+//webleez.top.acharmela.com/public/frontEnd/js/wsit-menu.js 3 -
+//www.webleez.top.acharmela.com/public/frontEnd/js/bootstrap.min.js 1 -
+//www.webleez.top.acharmela.com/public/frontEnd/js/wow.min.js 1 -
+/storage/updates/update_1.0.9_1753792164.zip 14 -
+/server-status 3 -
+/public/backEnd/assets/css/bootstrap.min.css.map 23 -
+//cdn.js 6 -
+//webleez.top.acharmela.com/public/frontEnd/js/mobile-menu-init.js 3 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 3 -
+/info.php 3 -
+/login 3 -
+/api/updates/check-version 7 https://webleez.top/update-version
+/about 3 -
+/public/frontEnd/js/bootstrap.min.js.map 162 -
+/login.action 3 -
+//cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js 6 -
+//www.webleez.top.acharmela.com/public/frontEnd/js/jquery-3.7.1.min.js 1 -
+/.vscode/sftp.json 3 -
+/add-to-cart 4 -
+/static/index/css/trade-history.css 1 http://www.webleez.top.acharmela.com:443/static/index/css/trade-history.css
+//webleez.top.acharmela.com/public/frontEnd/js/mobile-menu.js 3 -
+/@vite/env 3 -
+/public/backEnd/assets/js/feather.min.js.map 21 -
+//webleez.top/public/frontEnd/js/wow.min.js 4 -
+/public/frontEnd/campaign/webfonts/fa-solid-900.ttf 3 https://webleez.top/public/frontEnd/campaign/css/all.css
+//webleez.top/public/frontEnd/js/mobile-menu.js 2 -
+/v2/_catalog 3 -
+/dist/images/mask/guide/cn/step1.jpg 1 http://www.webleez.top.acharmela.com:443/dist/images/mask/guide/cn/step1.jpg
+/pc 1 http://www.webleez.top.acharmela.com:443/pc/
+//webleez.top.acharmela.com/public/frontEnd/js/wow.min.js 3 -
+/0211/index.html 1 http://www.webleez.top.acharmela.com:443/0211/index.html
+/debug/default/view 3 -
+/012/index.html 1 http://www.webleez.top.acharmela.com:443/012/index.html
+/tos 1 -
+/imei 1 http://www.webleez.top.acharmela.com:443/imei/
+//wp-json/wc/store/products/collection-data 1 -
+/product/test 12 -
+/enhancecp 1 -
+/067/index.html 1 http://www.webleez.top.acharmela.com:443/067/index.html
+/sitemap.txt 1 -
+/xmlrpc.php 25 -
+/admin/admin/business-setting 2 https://webleez.top/admin/subcategories/manage
+//webleez.top.acharmela.com/public/backEnd/assets/js/toastr.min.js 2 -
+/wp-admin/setup-config.php 93 -
+/view-update-log 3 https://webleez.top/admin/dashboard
+//webleez.top/public/frontEnd/js/bootstrap.min.js 3 -
+/actuator/env 3 -
+/public/frontEnd/js/'+b.j+' 2 -
+/public/frontEnd/campaign/webfonts/fa-solid-900.woff2 3 https://webleez.top/public/frontEnd/campaign/css/all.css
+/_all_dbs 3 -
+/api/v1/guest/comm/config 3 -
+/apple-touch-icon-precomposed.png 3 -
+/telescope/requests 3 -
+/product/xiaomi-wifi-repeater-pro-dual-antenna-300m 1 -
+/sitemap_index.xml 1 -
+/staff 1 -
+/sitemaps.xml 2 -
+/wap 1 http://www.webleez.top.acharmela.com:443/wap
+/user/umi.min.js 2 -
+/index/login 1 http://www.webleez.top.acharmela.com:443/index/login
+//webleez.top.acharmela.com/public/frontEnd/js/jquery-3.7.1.min.js 3 -
+/custom-download/update_1.0.9_1753792164.zip 1 -
+/035/index.html 1 http://www.webleez.top.acharmela.com:443/035/index.html
+/wordpress/wp-admin/setup-config.php 97 -
+/webshell 8 -
+/public/backEnd/assets/css/app.min.css.map 23 -
+/vip 1 http://www.webleez.top.acharmela.com:443/vip/
+/m 1 http://www.webleez.top.acharmela.com:443/m/
+//www.webleez.top.acharmela.com/public/frontEnd/js/wsit-menu.js 1 -
+/sitemap.xml.gz 2 -
+//webleez.top/public/frontEnd/js/script.js 5 -
+/api 1 http://www.webleez.top.acharmela.com:443/api
+/public/frontEnd/js/parsley.min.js.map 68 -
+/api/updates/latest/api/updates/log-history 1 -
+/theme/metron/js/metron.js 1 -
+/public/frontEnd/js/'+b.loadinggif+' 2 -
+//webleez.top.acharmela.com/public/frontEnd/js/script.js 3 -
+/public/backEnd/assets/js/toastr.js.map 180 -
+/public/backEnd/assets/css/icons.min.css.map 23 -
+/product/xiaomi-mi-hair-clipper-fast-charging-rechargeable-hair-trimmer-with-two-speed-ceramic-cutter-enchen-boost 1 -
+/webshell.php 8 -
+/v2 1 http://www.webleez.top.acharmela.com:443/v2
+/public/backEnd/assets/images/bg-pattern-2.png 103 https://webleez.top/public/backEnd/assets/css/app.min.css
+//www.googletagmanager.com/gtm.js 8 -
+/favicon.png 1 -
+//www.webleez.top.acharmela.com/public/frontEnd/js/mobile-menu-init.js 1 -
+//webleez.top/public/frontEnd/js/owl.carousel.min.js 3 -
+/7 1 http://www.webleez.top.acharmela.com:443/7/
+/static/wap/js/order.js 1 http://www.webleez.top.acharmela.com:443/static/wap/js/order.js
+/meta.json 2 -
+/wp-login.php 1 -
+/js/lkk_ch.js 1 -
+/public/uploads/product/1752335197-66068739bf48c_800x800.jpg 8 https://webleez.top/customer/checkout
+/public/frontEnd/css/bootstrap.min.css.map 161 -
+//webleez.top/public/frontEnd/js/jquery-3.7.1.min.js 3 -
+//webleez.top/public/backEnd/assets/js/toastr.min.js 3 -
+/storage/updates/update_1.1.1_1754151231.zip 2 -
+/.well-known/security.txt 6 -
+/security.txt 8 -
+/apple-touch-icon.png 3 -
+/theme/default/assets/umi.js 2 -
+/config.json 8 -
+/s/63e2130323e2834323e2136313/_/ 3 -
+//webleez.top.acharmela.com/public/frontEnd/js/bootstrap.min.js 3 -
+/h5 4 http://www.webleez.top.acharmela.com:443/h5
+//webleez.top/public/frontEnd/js/mobile-menu-init.js 3 -
+/theme/default/assets/compoments.js 2 -
+/im 1 http://www.webleez.top.acharmela.com:443/im/
+//webleez.top/public/frontEnd/js/wsit-menu.js 4 -
+/server 3 -
+/wiki 3 -
+/admin 1 http://www.webleez.top.acharmela.com:443/admin
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 345
+103.166.59.151 905 1874 55356951 20250831143645
+103.166.59.146 752 1480 64424264 20250827044840
+103.112.53.239 698 954 36657528 20250806052044
+103.166.59.148 524 2034 85660085 20250827022331
+103.166.59.149 383 979 50408346 20250826061937
+103.166.59.147 319 633 30126845 20250826031312
+103.84.37.14 225 549 23112185 20250810112302
+103.166.59.144 188 373 17317525 20250825090523
+161.248.201.6 163 175 754990 20250830143737
+37.111.244.138 83 443 31406587 20250803164350
+103.166.59.150 80 497 24851155 20250822153314
+103.96.105.235 77 162 6867555 20250806222029
+37.111.247.130 61 105 4097963 20250818135932
+103.183.16.69 51 141 10116184 20250827091010
+103.166.59.145 40 198 11174520 20250821093015
+45.118.70.211 35 151 9951262 20250815145810
+58.145.189.218 27 58 2035315 20250804052647
+103.172.29.194 22 63 3142741 20250808191714
+37.111.214.126 17 60 2874567 20250803114808
+103.85.197.137 16 68 4118534 20250807092925
+103.60.204.68 16 71 5129333 20250819173006
+37.111.213.253 16 96 4718631 20250815212718
+103.78.226.114 15 64 2909751 20250804091108
+74.125.212.200 13 70 2161856 20250819171743
+59.152.6.57 13 22 1534015 20250804074325
+199.45.155.75 2 4 572975 20250822034757
+64.233.173.135 5 30 492986 20250812140537
+199.45.154.141 1 3 372611 20250822034439
+202.173.122.5 4 31 873514 20250804154159
+139.59.9.242 1 2 473766 20250812005354
+47.79.202.202 1 1 10125 20250806200802
+159.65.170.31 1 1 14560 20250823043530
+138.68.82.23 1 1 164151 20250802041153
+123.160.223.74 1 8 289279 20250809145006
+98.86.205.209 1 1 12080 20250825053209
+37.111.246.234 9 58 4241752 20250821122009
+162.142.125.200 1 3 421737 20250822040524
+157.143.53.238 2 45 4023372 20250813121409
+167.94.138.187 1 3 31382 20250802015804
+37.111.200.97 2 3 980068 20250804035325
+43.250.82.105 2 11 428612 20250803120504
+141.148.153.213 9 91 6977336 20250820134635
+138.68.163.244 1 1 12383 20250826150835
+167.99.44.77 1 2 22269 20250802004328
+103.124.54.250 5 15 690277 20250815133651
+103.72.147.82 3 3 36534 20250819135758
+152.32.168.40 6 6 79704 20250801023615
+87.249.134.33 1 1 12095 20250820194011
+167.172.251.191 1 1 11862 20250814211206
+47.79.193.170 1 1 9618 20250807120249
+165.227.186.99 1 1 12681 20250822165105
+159.203.107.75 1 1 12275 20250804212246
+103.237.76.210 11 89 4264522 20250802115121
+142.93.147.126 1 2 474090 20250830000912
+103.15.42.202 2 11 428614 20250803213655
+149.57.180.41 1 1 11948 20250815135511
+37.111.218.59 5 8 1019524 20250807073905
+54.191.211.193 1 1 12078 20250823160654
+103.27.227.78 1 2 356746 20250823150205
+87.236.176.221 0 1 462012 
+66.249.82.100 2 29 2278456 20250806205200
+47.79.214.243 1 1 9613 20250807104150
+66.249.82.99 5 39 3320238 20250806205219
+167.71.178.124 1 1 11702 20250822202125
+44.244.210.67 1 1 12077 20250827134919
+44.250.51.18 1 1 11868 20250813141354
+123.6.49.49 1 1 172615 20250802112105
+98.81.236.143 4 24 415597 20250805180920
+205.210.31.244 1 1 128461 20250811194413
+198.235.24.67 1 1 131806 20250819183933
+64.225.79.95 1 2 474052 20250804193546
+47.79.196.251 1 1 9630 20250807091223
+47.79.195.36 1 1 9617 20250807111220
+23.27.145.171 1 1 11972 20250815142452
+54.236.225.197 5 44 4132464 20250810012324
+206.168.34.219 1 3 503452 20250806003135
+142.93.44.133 1 2 474238 20250806195645
+74.125.216.198 4 14 1428174 20250807100355
+34.230.54.110 1 1 12079 20250828082748
+202.173.120.21 5 46 1434160 20250804162820
+159.65.154.148 1 2 23209 20250803081528
+37.111.253.91 2 2 225493 20250821123247
+68.235.46.110 5 5 60501 20250819024710
+47.79.197.62 1 1 9619 20250807151118
+206.189.226.254 1 2 474078 20250822013055
+104.252.191.212 1 1 13218 20250802041149
+143.198.13.167 1 1 11202 20250805194753
+167.71.91.90 1 1 10037 20250823023352
+62.133.47.150 1 1 12264 20250808004421
+91.231.89.32 1 1 193692 20250804031558
+152.32.190.66 8 9 108250 20250819133215
+123.160.223.72 1 3 621603 20250818123006
+47.79.200.176 1 1 9930 20250807121332
+47.79.214.40 1 1 11971 20250804223215
+47.79.201.144 1 1 9614 20250807091120
+103.35.110.71 3 30 1308919 20250828181558
+83.143.242.11 4 43 3779209 20250823151543
+157.245.12.70 1 1 9689 20250822223129
+34.220.69.30 1 1 11755 20250811153406
+103.146.54.65 10 12 127369 20250803173806
+103.54.151.101 2 12 1224811 20250822101004
+47.237.16.63 2 3 481444 20250819070028
+3.138.185.30 2 2 25352 20250821105022
+47.79.199.245 1 1 9612 20250807034139
+206.168.34.223 1 3 503195 20250818234023
+167.71.110.188 1 2 473911 20250817021130
+167.71.135.94 1 2 473857 20250806015253
+47.79.198.58 1 1 9347 20250807133611
+199.45.155.73 1 3 936185 20250829233027
+147.185.132.90 1 1 131806 20250821235501
+71.6.134.235 1 2 473808 20250812060349
+45.148.234.91 4 35 1301877 20250801221451
+64.227.99.146 1 2 474138 20250831032259
+66.220.149.11 4 44 2673418 20250803110014
+54.185.79.106 1 1 12071 20250829145515
+159.65.164.211 2 2 24101 20250823040515
+37.111.244.204 4 36 1959680 20250816090027
+66.249.83.134 2 2 2293 20250815134156
+159.65.177.60 1 1 10113 20250805080732
+103.181.74.14 1 2 200021 20250816090706
+103.15.244.134 2 11 762797 20250804153920
+37.111.221.68 6 20 10538 20250822104313
+123.6.49.38 0 2 18104 
+37.111.219.81 2 12 437662 20250804072807
+167.172.25.242 1 1 9955 20250822191238
+206.168.34.221 1 3 454442 20250823000520
+87.236.176.214 1 1 12073 20250831140225
+74.125.212.198 10 72 2729249 20250828181607
+54.149.252.26 2 2 28898 20250803211030
+74.125.212.202 0 8 39582 
+144.126.194.96 1 1 12380 20250827122304
+164.90.142.100 1 1 12898 20250804230919
+203.76.223.5 2 11 428612 20250804130720
+44.250.32.46 1 1 11680 20250809131656
+202.173.122.54 4 22 1525594 20250822152727
+202.173.120.20 2 11 428610 20250803213709
+103.196.232.135 2 11 762798 20250807092904
+143.198.23.252 1 1 11321 20250805141255
+173.252.127.9 4 44 2673417 20250803110125
+167.172.29.252 1 1 9691 20250805165458
+5.133.192.140 1 2 23156 20250803055751
+47.79.195.83 1 1 9934 20250807143216
+54.191.28.215 1 1 13214 20250801131725
+161.35.37.18 1 2 474234 20250807110838
+15.204.161.7 6 6 70182 20250828132233
+44.248.242.226 1 1 12083 20250831175521
+85.208.3.109 4 41 3196841 20250810173816
+167.94.145.108 2 6 564297 20250819020723
+37.111.253.212 1 1 15020 20250821123222
+198.235.24.201 1 1 127704 20250822013603
+167.94.138.173 1 3 618380 20250822041949
+45.55.59.67 1 1 9954 20250805080619
+159.203.86.56 1 1 9814 20250805151540
+104.131.112.254 1 1 12061 20250819133558
+35.92.33.128 1 1 12084 20250823095750
+104.28.224.94 2 2 26429 20250802041455
+44.227.127.2 4 44 2673404 20250802122117
+51.159.181.104 1 1 12078 20250822172206
+124.133.215.191 2 2 28717 20250804082120
+47.79.205.18 1 1 10231 20250807054429
+195.211.77.140 1 1 0 20250802041206
+46.101.255.195 1 1 12380 20250812020416
+123.6.49.41 1 1 192224 20250802125332
+45.118.245.70 2 11 428614 20250802154412
+206.189.57.98 1 2 474078 20250826014147
+37.111.237.166 9 9 54470 20250819090039
+64.225.74.156 1 2 474089 20250824034519
+45.55.224.122 1 1 12073 20250823011307
+142.93.234.207 1 2 473938 20250806082543
+15.204.183.221 2 2 20081 20250829090939
+167.172.239.234 1 1 11826 20250823012907
+124.6.231.229 4 22 857222 20250804052417
+60.13.138.99 2 2 24711 20250808184031
+47.79.193.180 1 1 9614 20250807024029
+143.198.43.243 1 2 473705 20250810002810
+18.234.159.195 1 1 12089 20250824050411
+191.96.32.42 1 1 12127 20250807040838
+196.251.88.64 2 2 28274 20250803080814
+107.172.41.69 1 1 12060 20250828193955
+123.6.49.6 1 1 1150 20250802112137
+103.80.3.34 6 45 3911661 20250810111413
+176.32.195.85 4 42 3658780 20250809190814
+167.94.138.127 1 3 618034 20250811015509
+47.79.204.143 1 1 9684 20250807114838
+147.182.161.145 1 2 474270 20250808020837
+45.55.206.81 1 1 9955 20250823015301
+3.222.213.225 1 1 12066 20250829040446
+54.70.100.175 1 1 14109 20250802162728
+185.247.137.246 1 1 12159 20250824121443
+45.55.34.21 1 1 11550 20250823035657
+44.247.153.216 1 1 12124 20250806173613
+128.199.51.140 1 2 474100 20250820003303
+54.188.16.60 1 1 11873 20250817140348
+134.209.26.181 1 2 473763 20250812113550
+149.57.180.86 1 1 12069 20250822184846
+91.231.89.37 1 1 185124 20250804031054
+64.233.173.136 6 35 891406 20250828181605
+74.125.216.199 0 3 29474 
+203.55.131.3 1 1 12379 20250827023138
+44.244.245.160 1 1 12130 20250806173309
+66.249.82.97 1 1 12116 20250806205156
+193.233.233.29 4 4 55181 20250804034536
+18.246.237.214 1 1 11849 20250806110418
+93.123.109.225 1 1 12163 20250827062919
+47.79.215.24 1 1 11350 20250807005352
+47.79.215.203 1 1 10125 20250807112808
+35.94.234.90 1 1 12265 20250808124214
+34.169.80.28 1 1 12094 20250818081512
+195.211.77.142 1 1 13280 20250802041221
+1.192.195.8 0 1 462012 
+5.133.192.108 2 4 947971 20250824154539
+47.79.206.49 1 1 10760 20250809132537
+47.79.196.218 1 1 9619 20250806210243
+205.210.31.192 1 1 130987 20250814210955
+198.235.24.3 1 1 131806 20250827053727
+52.207.108.27 1 1 12053 20250823054102
+47.237.108.155 2 3 31795 20250801002251
+103.218.242.148 3 3 39834 20250801024258
+174.138.78.79 1 1 14041 20250822181148
+47.79.192.122 1 1 9612 20250806170002
+103.42.228.132 6 20 10401 20250814105704
+198.235.24.206 1 1 132978 20250826000932
+163.53.140.70 2 11 762796 20250819172331
+87.236.176.133 0 1 462012 
+162.142.125.43 1 1 12183 20250821051953
+206.168.34.211 2 4 466675 20250828125705
+37.111.218.238 6 15 463585 20250804082447
+52.12.155.156 1 1 11689 20250809094545
+3.86.149.202 1 1 12126 20250830005932
+206.168.34.75 1 3 634558 20250815220515
+3.220.220.25 1 1 12092 20250827062041
+123.160.223.73 0 1 462012 
+210.64.24.100 2 2 26403 20250811184338
+103.20.180.169 3 43 2648574 20250803105955
+3.239.179.192 1 1 12158 20250830130911
+203.57.50.250 2 4 713496 20250823150206
+123.6.49.46 1 2 462966 20250809035908
+43.245.232.68 2 11 762796 20250804153706
+23.27.145.186 1 1 11962 20250815153540
+143.110.220.176 1 2 474081 20250826035753
+103.20.141.5 6 53 3862931 20250816090038
+165.22.34.189 1 1 170171 20250802041155
+94.247.172.129 4 4 47795 20250827204509
+167.99.53.218 1 1 9950 20250822194714
+1.192.192.6 1 1 142249 20250809022433
+103.15.42.198 2 11 428614 20250804052658
+109.70.148.168 3 3 16593 20250813101840
+87.236.176.150 1 1 12175 20250818183259
+47.79.197.192 1 1 12342 20250807004740
+91.99.148.167 1 1 13283 20250802041211
+209.170.91.201 4 43 3896334 20250814033025
+162.142.125.214 1 2 274106 20250815235539
+123.6.49.42 1 1 137361 20250807003538
+128.140.51.187 1 1 13279 20250802041201
+143.244.169.127 1 2 23405 20250804065030
+123.6.49.9 1 1 143605 20250809035844
+162.142.125.45 1 3 601996 20250822031236
+64.233.173.134 8 38 587975 20250828181605
+106.161.65.206 1 2 356745 20250823150205
+203.76.223.6 2 11 762797 20250807092727
+165.227.102.238 1 2 474131 20250826033335
+198.235.24.71 1 1 132978 20250830043024
+74.125.212.203 2 9 153502 20250812140542
+104.164.173.147 2 2 26434 20250802041159
+123.160.223.75 1 4 32806 20250809145004
+205.210.31.227 1 1 127704 20250827042818
+104.248.125.169 1 2 474182 20250823031402
+138.199.236.196 1 1 13220 20250802041203
+47.79.196.214 1 1 10047 20250807050437
+47.79.202.223 1 1 11204 20250807053323
+24.199.101.150 1 2 473875 20250816014254
+138.246.253.7 5 5 0 20250829054922
+199.45.154.131 1 3 572285 20250817092115
+162.142.125.194 1 3 618275 20250826215030
+103.21.42.198 2 11 762798 20250804153910
+58.145.190.193 1 3 807839 20250806070325
+54.190.131.34 1 1 12067 20250825162053
+138.197.143.143 1 2 473811 20250812074652
+54.244.205.204 1 1 11877 20250815143043
+43.250.82.231 4 22 1191409 20250815133608
+206.168.34.49 2 4 503987 20250815232152
+35.86.94.139 1 1 11960 20250805133746
+18.224.192.118 2 2 24299 20250828011653
+66.249.83.135 3 3 3446 20250815133916
+15.204.182.106 2 2 24167 20250823024636
+74.125.212.201 1 5 218392 20250812140543
+103.15.42.196 4 31 873326 20250804140825
+47.79.212.179 1 1 10122 20250807084704
+123.6.49.4 1 1 1270 20250802125351
+3.80.204.135 1 1 12075 20250831174950
+144.48.151.200 3 43 2648567 20250802125910
+103.15.42.70 4 22 1525597 20250817141122
+54.213.103.129 1 1 14246 20250803130559
+183.230.204.246 2 2 24772 20250808184031
+44.251.33.178 1 1 11966 20250804134750
+138.197.124.97 1 1 9276 20250805082319
+164.90.165.203 1 2 474090 20250828032011
+206.168.34.215 1 3 536259 20250816012745
+74.125.216.200 0 1 375 
+159.65.47.243 1 1 10080 20250805201428
+138.197.117.164 1 1 9951 20250822233826
+34.203.219.48 1 1 12079 20250830023221
+206.189.225.181 1 1 171891 20250802041155
+103.96.38.73 6 47 3918376 20250814061249
+44.243.9.44 1 1 12066 20250819133316
+46.101.16.99 1 2 474150 20250821154320
+165.22.219.126 1 2 23225 20250802203503
+44.202.158.116 1 1 11945 20250816130644
+47.79.214.211 1 1 9617 20250807010038
+95.215.0.144 0 1 462012 
+47.79.202.175 1 1 11478 20250807101343
+54.162.54.107 1 1 12065 20250826054354
+199.115.103.136 1 1 11870 20250816052032
+47.79.197.253 1 1 9614 20250807000703
+34.90.20.41 1 1 12128 20250807092231
+5.133.192.99 1 2 474285 20250807204201
+87.236.176.110 0 1 462012 
+111.7.96.174 2 12 555395 20250809145001
+66.249.82.98 2 25 2538813 20250806205216
+91.231.89.36 1 1 191788 20250804031255
+58.247.150.194 6 6 77897 20250805144415
+159.203.64.27 1 1 9887 20250805155953
+34.215.71.123 1 1 12071 20250821134958
+1.192.195.5 1 1 954 20250809022453
+198.235.24.79 1 1 119579 20250805143952
+47.79.193.143 1 1 9614 20250807023749
+185.130.227.201 1 1 12087 20250824210010
+52.1.59.228 1 1 12074 20250831010402
+104.131.63.7 1 1 11286 20250805034517
+34.223.23.195 1 1 14179 20250803053326
+206.168.34.193 1 3 699978 20250811012212
+66.249.82.96 1 1 12128 20250806205155
+159.223.183.76 1 2 23692 20250804005355
+47.79.200.179 1 1 9614 20250807100948
+199.45.154.150 2 4 799405 20250817135744
+103.15.42.72 1 16 897277 20250802154516
+202.173.122.53 2 11 428613 20250802155042
+43.245.117.35 1 1 12067 20250830032358
+74.125.212.199 10 74 2076830 20250828181607
+68.183.149.139 1 1 9702 20250822225450
+37.111.242.246 5 52 3502636 20250823085118
+143.198.3.98 1 1 9285 20250805083605
+167.172.30.215 1 1 11474 20250805152806
+146.190.22.135 1 2 474405 20250809081136
+174.138.90.11 1 1 14054 20250823015841
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20250801 19 51 1492938 8
+20250802 957 1887 45632962 50
+20250803 376 1277 83956364 25
+20250804 361 804 34397106 46
+20250805 301 615 26106763 31
+20250806 328 762 43957684 31
+20250807 524 1978 83123933 39
+20250808 19 46 1572234 8
+20250809 208 316 11308646 15
+20250810 278 796 43669480 10
+20250811 305 634 31106414 11
+20250812 160 713 39380001 15
+20250813 151 379 22592382 5
+20250814 33 171 11838500 9
+20250815 76 329 18430885 19
+20250816 108 343 16932833 9
+20250817 224 302 6987166 6
+20250818 267 617 29115348 10
+20250819 123 226 8684474 18
+20250820 18 147 11001853 6
+20250821 41 138 8846632 10
+20250822 50 190 10118235 24
+20250823 91 272 19343314 21
+20250824 11 30 3471300 6
+20250825 101 112 920399 6
+20250826 75 195 12319042 9
+20250827 74 128 7251784 13
+20250828 21 82 3115863 11
+20250829 6 8 980427 5
+20250830 11 12 688413 8
+20250831 9 58 4486795 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 30
+5mn-15mn 15
+30mn-1h 19
+0s-30s 380
+2mn-5mn 11
+30s-2mn 18
+15mn-30mn 17
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 283
+/ 694 11975294 296 221
+/customer/order-save-draft 637 34300 0 2
+/stock-check 380 52378 1 2
+/customer/checkout 299 4040443 5 6
+/shipping-charge 205 286840 0 2
+/public/frontEnd/webfonts/fa-solid-900.woff2 186 27595322 14 14
+/public/frontEnd/webfonts/fa-brands-400.woff2 185 19872000 6 35
+/public/frontEnd/webfonts/fa-regular-400.woff2 161 3974400 0 3
+/admin/dashboard 125 1158425 4 6
+/admin/login 121 139343 55 14
+/admin/products/manage 114 985629 2 4
+/load-more-products 111 3885 1 10
+/api/updates/latest 88 587041 18 13
+/product/project-management-3 77 1728507 4 3
+/admin/products/generate-slug 76 3580 0 0
+/cart/count 76 55294 0 0
+/public/backEnd/assets/fonts/feather.woff 70 1976500 1 25
+/update-shipping-session 64 4493 1 0
+/api/updates/details 60 17946 2 8
+/cart/remove 57 69147 0 0
+/variable-view 56 27243 0 2
+/mobilecart/count 56 1155 0 0
+/keep-alive 55 2090 2 7
+/admin/order/pending 49 763115 2 1
+/public/backEnd/assets/fonts/cerebrisans-medium.woff 49 1896488 1 2
+/admin/products/10/edit 9 914358 0 0
+/admin/order-report 1 7716 0 0
+/admin/stock-report 1 8409 0 0
+/customer/order-success/735 1 11284 0 0
+/admin/expensecategories/3/edit 1 7276 0 0
+/subcategory/shoes 1 9613 1 1
+/admin/categories/2/edit 1 7438 0 0
+/customer/order-success/736 1 11283 0 0
+/customer/order-success/650 1 10529 0 0
+/admin/purchase-report 1 7218 0 0
+/admin/products/14/edit 1 9367 0 0
+/products/sandals 3 29857 3 0
+/admin/business-setting 9 68884 1 1
+/admin/order/incomplete 6 129420 0 0
+/admin/tag-manager/5/edit 1 6848 0 0
+/product/noogann-mhadebpure-vairal-thri-pis-kalekshn-copy 26 417872 0 2
+/products/bath-towels 1 9955 1 1
+/customer/order-success/637 1 10902 0 0
+/subcategory/kitchen-&-dining 1 9617 1 1
+/customer/order-success/597 1 10805 0 0
+/customer/order-success/742 1 11281 0 1
+/customer/order-success/681 1 10996 0 0
+/customer/order-success/667 1 10873 0 0
+/customer/order-success/692 2 21541 0 0
+/customer/order-success/690 1 11067 0 0
+/public/frontEnd/webfonts/fa-solid-900.ttf 1 157762 0 0
+/admin/order/cart-content 6 5447 0 0
+/customer/order-success/687 1 11074 0 0
+/admin/fraud-checker 6 4866 0 1
+/public/frontEnd/webfonts/fa-brands-400.ttf 1 109144 0 1
+/admin/order/invoice/65555 2 16525 0 0
+/customer/order-success/658 1 10830 0 0
+/customer/order-success/711 1 11328 0 0
+/new-arrival 2 22684 1 2
+/customer/order-success/626 1 10807 0 0
+/category/gadgets 2 24692 0 0
+/public/backEnd/assets/fonts/cerebrisans-semibold.woff 1 41012 0 0
+/customer/order-success/639 1 10727 0 0
+/admin/order/cart-details 6 546 0 0
+/visitor/reports 5 38631 0 0
+/admin/coupon-code/manage 6 42985 0 1
+/admin/order/edit/13053 1 8469 0 0
+/admin/categories/5/edit 1 7429 0 0
+/admin/orderstatus/9/edit 2 13918 0 0
+/customer/order-success/664 1 10885 0 0
+/admin/contact/1/edit 7 50452 0 0
+/customer/order-success/647 1 10788 0 0
+/customer/order-track 5 49383 3 4
+/admin/banner/manage 11 87607 0 0
+/customer/login 4 40347 1 0
+/subcategory/furniture 2 19574 2 2
+/customer/order-success/662 1 10851 0 0
+/admin/products/purchase/10 1 6946 0 0
+/admin/order/invoice/57691 1 8105 0 0
+/customer/order-success/696 1 11263 0 0
+/customer/forgot-password 4 40289 2 2
+/public/backEnd/assets/fonts/cerebrisans-bold.woff 30 1111968 0 1
+/customer/order-success/669 1 10720 0 0
+/customer/order-success/651 1 10530 0 0
+/admin/products/11/edit 6 63592 0 0
+/update-version 22 197809 0 0
+/public/backEnd/assets/libs/summernote/font/summernote.woff2 13 73872 0 1
+/customer/order-success/640 1 10444 0 0
+/admin/loss-profit 1 7860 0 0
+/api/updates/log-history 19 1140 0 0
+/subcategory/cleaning 1 9614 1 1
+/public/backEnd/assets/js/toastr.js.map 1 0 0 0
+/customer/order-success/643 1 10884 0 0
+/admin/products/purchase/5 1 7026 0 0
+/admin/childcategories/manage 3 34978 0 0
+/product/test-preparation 32 439291 1 1
+/admin/categories/10/edit 1 7457 0 0
+/admin/brands/5/edit 1 7180 0 0
+/customer/order-success/721 1 11277 0 1
+/subcategory/innerwear 1 9619 1 1
+/admin/settings/manage 12 90115 0 0
+/admin/order/invoice/50259 1 8200 0 0
+/admin/products/2/edit 1 13549 0 0
+/admin/permissions/manage 2 20419 0 0
+/customer/order-success/593 1 13157 0 0
+/admin/categories/11/edit 1 7435 0 0
+/customer/order-success/679 1 10970 0 0
+/get-update-details 17 4373 0 0
+/admin/page/manage 5 37525 0 0
+/admin/order/search 2 1300 0 0
+/customer/order-success/630 1 10938 0 0
+/top-rated 2 20076 2 2
+/admin/banner-category/2/edit 1 7146 0 0
+/admin/admin/business-setting 35 259833 0 0
+/admin/size/manage 5 42197 0 0
+/customer/order-success/663 1 11087 0 0
+/category/womens-fashion 4 42559 2 2
+/admin/banner-category/manage 4 30155 0 0
+/view-update-log 11 76788 0 0
+/product/ilektrniks-gzajet 4 3777004 0 0
+/admin/categories/1/edit 1 7433 0 0
+/admin/licenses 41 316069 0 1
+/admin/expense/1/edit 3 22529 0 0
+/campaign/shirt 3 17333 1 1
+/customer/order-success/652 1 10916 0 0
+/customer/order-success/660 1 10925 0 0
+/admin/order/cart-product-discount 1 258 0 0
+/admin/order/invoice/89232 1 8313 0 0
+/customer/order-success/666 1 10876 0 0
+/admin/brands/manage 6 44014 0 1
+/admin/order-bulk-destroy 13 910 0 0
+/subcategory/three-piece 1 10760 1 1
+/product/project-management-101 25 348650 0 0
+/top-selling 2 20205 2 2
+/customer/order-success/718 1 11277 0 0
+/subcategory/watches 1 9614 1 1
+/admin/products/8/edit 6 1915710 0 0
+/admin/products/15/edit 5 47753 0 0
+/customer/order-success/706 1 11406 0 0
+/admin/products/stock-alert 5 34011 0 1
+/admin/social-media/manage 2 15153 0 0
+/customer/order-success/634 1 10847 0 0
+/customer/order-success/762 1 11373 0 0
+/admin/categories/status-update 2 72 0 0
+/admin/order/on-hold 1 8601 0 0
+/admin/categories/4/edit 1 7428 0 0
+/admin/theme-setting 5 36293 0 0
+/admin/expensecategories/manage 5 37206 0 0
+/subcategory/bedding 1 9614 1 1
+/ajax-product-childcategory 10 676 0 0
+/admin/order/returned 1 8449 0 0
+/customer/order-success/380 1 13224 0 0
+/admin/products/9/edit 5 47446 0 0
+/product/project-management-2 35 488449 2 4
+/customer/order-success/596 1 10724 0 0
+/subcategory/eyewear 1 9612 1 1
+/product/noogann-mhadebpure-vairal-thri-pis-kalekshn 29 453816 0 2
+/customer/order-success/594 1 13114 0 0
+/admin/products/16/edit 2 26443 0 0
+/public/frontEnd/webfonts/fa-regular-400.ttf 1 25330 1 1
+/subcategory/bath 1 9612 1 1
+/admin/users/manage 1 7282 0 0
+/customer/order-success/628 1 10788 0 0
+/admin/subcategories/39/edit 1 7403 0 0
+/admin/pixels/manage 3 21240 0 0
+/admin/orderstatus/create 1 7007 0 0
+/customer/order-success/734 1 11276 0 0
+/customer/order-success/697 1 11204 0 0
+/admin/color/manage 3 31878 0 0
+/admin/settings/2/edit 2 15220 0 0
+/customer/order-success/617 1 10694 0 0
+/subcategory/clothing 1 9934 1 1
+/products/bathrobes 1 9950 1 1
+/admin/courierapi/manage 1 8652 0 0
+/customer/register 2 21631 0 1
+/admin/coupon-code/create 3 22537 0 0
+/product/xiaomi-wifi-repeater-pro-dual-antenna-300m 2 31613 0 0
+/admin/order/invoice/54413 1 8389 0 0
+/category/new-arrivals 2 24303 0 0
+/admin/order/cart-shipping 6 138 0 0
+/customer/order-success/688 1 11108 0 0
+/products/bedroom-furniture 1 9955 1 1
+/products/bathroom-mirrors 1 9951 1 1
+/admin/campaign/manage 11 85830 0 0
+/admin/order/invoice/53849 1 8266 0 0
+/admin/order/cart-add 1 250 0 0
+/admin/order/process/57691 1 7547 0 0
+/admin/send-sms 2 16604 0 0
+/public/backEnd/assets/fonts/materialdesignicons-webfont.woff2 47 14310736 0 4
+/admin/checkout-content 3 23219 0 0
+/admin/expense/manage 19 140029 0 0
+/cart/increment 2 2676 0 0
+/admin/tag-manager/manage 6 43680 0 0
+/run-update 9 810 0 0
+/customer/order-success/747 1 11282 0 1
+/admin/products/purchase-list 2 14597 0 0
+/admin/reviews 4 28896 0 0
+/api/updates/validate-license 42 2824 2 2
+/admin/shipping-charge/manage 3 23116 0 0
+/admin/expense/create 1 7293 0 0
+/admin/banner-category/3/edit 1 7138 0 0
+/customer/order-success/744 1 11364 0 0
+/admin/categories/manage 19 171543 1 0
+/product/digital-print-three-piece-2025 3 427460 0 0
+/subcategory/jewellery 1 9617 1 1
+/customer/order-success/676 1 10782 0 0
+/category/home-&-lifestyle 3 33891 1 1
+/campaign/1000-manusher-cul-paka-cul-pra-cule-khuski-smszar-smadhan-kreche-mehedee-heyar-pzak 2 13614 0 0
+/public/backEnd/assets/fonts/cerebrisans-regular.woff 47 1889864 0 0
+/customer/order-success/657 1 10437 0 0
+/cart/decrement 2 2356 0 0
+/product/xiaomi-mi-hair-clipper-fast-charging-rechargeable-hair-trimmer-with-two-speed-ceramic-cutter-enchen-boost 8 145521 0 0
+/customer/order-success/709 1 11279 0 0
+/customer/order-success/686 1 10968 0 0
+/customer/order-success/656 1 10439 0 0
+/campaign/eed-dhamaka-ofar 3 14680 0 1
+/customer/order-success/689 1 10854 0 0
+/customer/order-success/740 1 11376 0 0
+/product/naogoan-digital-print-three-piece-2025 37 7898049 1 3
+/page/terms-&-conditions 6 69036 3 3
+/admin/brands/create 1 7227 0 0
+/admin/subcategories/manage 6 51993 0 0
+/admin/banner-category/4/edit 1 7135 0 0
+/livesearch 2 136 0 0
+/category/cosmetics 3 36652 0 0
+/page/refund-&-return-policy 6 68211 3 4
+/admin/order/cart-increment 3 743 0 0
+/admin/products/7/edit 1 13237 0 0
+/customer/order-success/705 1 11154 0 0
+/best-deals 1 9887 1 1
+/customer/order-success/625 1 10878 0 0
+/subcategory/bags 1 9614 1 1
+/admin/products/4/edit 1 11593 0 0
+/subcategory/womens-sharee 1 9619 1 1
+/customer/order-success/595 1 10610 0 0
+/customer/order-success/636 1 10895 0 0
+/admin/order/all 31 596169 0 2
+/customer/order-success/645 1 10880 0 0
+/customer/order-success/684 1 10970 0 0
+/customer/order-success/653 1 10923 0 0
+/product/project-management 1 15602 0 1
+/customer/order-success/695 1 11134 0 0
+/admin/categories/3/edit 1 7430 0 0
+/customer/order-success/717 1 11433 0 1
+/customer/order-success/648 1 10913 0 0
+/customer/order-success/738 1 11276 0 0
+/api/updates/upload 8 1043 0 0
+/product/shirt 3 41385 1 1
+/admin/customer/manage 5 45033 0 1
+/admin/childcategories/1/edit 1 7675 0 0
+/customer/order-success/732 1 11418 0 0
+/customer/order-success/632 1 10885 0 0
+/customer/order-success/677 1 11283 0 0
+/admin/campaign/create 3 23869 0 0
+/subcategory/salwar-kameez 1 9618 1 1
+/sitemap.xml 9 24034 4 9
+/admin/products/purchase-create 3 22380 0 0
+/customer/order-success/621 1 10689 0 0
+/customer/order-success/612 1 11005 0 0
+/product/gently-exfoliates-for-smooth-radiant-skin 2 31287 0 0
+/customer/order-success/694 1 11051 0 0
+/admin/contact/manage 15 111475 0 0
+/admin/products/create 24 273023 1 1
+/product/test 10 154502 2 1
+/admin/products/5/edit 4 39862 0 0
+/admin/products/purchase/8 1 7025 0 0
+/customer/order-success/623 1 10807 0 0
+/admin/products/barcode 6 48548 0 0
+/admin/order-status 7 400 0 0
+/admin/order/create 6 49818 0 0
+/site/contact-us 9 90967 5 5
+/admin/orderstatus/manage 4 31154 0 0
+/product/pabitra-das 35 500121 1 4
+/ajax-product-subcategory 14 1278 0 0
+/category/mens-fashion 4 45276 2 2
+/subcategory/accessories 1 9930 1 1
+/ajax-cart-store 16 1120 0 0
+/public/backEnd/assets/fonts/fa-solid-900.woff2 23 1827212 0 1
+/admin/order/invoice/58066 4 33060 0 0
+/customer/order-success/678 1 11181 0 0
+/page/privacy-policy 6 69850 4 3
+/admin/products/13/edit 5 47612 0 0
+/customer/order-success/722 1 11518 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+0-44 924
+500-1K 661
+44-100 1043
+5K+ 10872
+2K-5K 3393
+100-500 1515
+1K-2K 1528
+END_FILESIZE

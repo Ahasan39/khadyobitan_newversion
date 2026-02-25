@@ -1,0 +1,1244 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202507 will be lost/reset.
+# Last config file used to build this data file was /home/acharmel/tmp/awstats/ssl/awstats.wp.acharmela.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2051                
+POS_TIME 2730                
+POS_VISITOR 17112               
+POS_DAY 31489               
+POS_DOMAIN 3667                
+POS_LOGIN 4465                
+POS_ROBOT 4620                
+POS_WORMS 5232                
+POS_EMAILSENDER 5363                
+POS_EMAILRECEIVER 5506                
+POS_SESSION 32162               
+POS_FILESIZE 48456               
+POS_SIDER 32375               
+POS_FILETYPES 5641                
+POS_DOWNLOADS 6060                
+POS_OS 6416                
+POS_BROWSER 6821                
+POS_SCREENSIZE 8804                
+POS_UNKNOWNREFERER 8878                
+POS_UNKNOWNREFERERBROWSER 9648                
+POS_ORIGIN 10161               
+POS_SEREFERRALS 10310               
+POS_PAGEREFS 10473               
+POS_SEARCHWORDS 11685               
+POS_KEYWORDS 11837               
+POS_MISC 2394                
+POS_ERRORS 11896               
+POS_CLUSTER 4321                
+POS_SIDER_404 12103               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250801025248 71 13119 10644494382625
+FirstTime 20250710162749
+LastTime 20250731233615
+LastUpdate 20250801114128 71 0 70 0 0
+TotalVisits 632                 
+TotalUnique 352                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 361                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 27 44 825571 21 41 1310338
+1 27 27 160410 23 55 491921
+2 51 57 1251774 28 214 1205729
+3 181 481 5653534 31 88 396104
+4 87 92 3149706 65 196 1074612
+5 154 374 4611128 18 37 220431
+6 395 872 10323739 52 102 809877
+7 361 672 12220796 136 152 2068482
+8 914 2299 29923257 56 69 234488
+9 565 1458 22581794 47 138 1414663
+10 491 1137 16960011 71 355 5077445
+11 817 1928 254903514 44 52 284234
+12 472 782 13448954 46 123 1649363
+13 549 2231 23422077 54 214 343232
+14 661 3013 35094096 25 77 1692014
+15 262 530 10721713 46 90 3708758
+16 259 426 7533847 42 73 297185
+17 458 911 15085130 41 112 1461268
+18 422 650 10864507 341 622 17499430
+19 159 159 877063 1433 1653 53764329
+20 999 1088 2640370 1542 1714 63864900
+21 1050 1091 1256204 877 982 37998289
+22 997 1013 549338 20 39 686152
+23 125 125 333753 53 100 2863276
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 39
+in 3680 10985 378975260
+ua 2771 2838 2204954
+us 2168 4357 31813393
+hu 969 1475 33381206
+jp 319 336 8232933
+bd 258 589 11385645
+au 96 96 1338481
+gb 40 61 996980
+de 28 335 7598624
+ru 27 43 627007
+cn 25 53 2094774
+ca 19 19 1790169
+nl 15 39 785899
+kr 11 163 1380427
+ie 6 6 142832
+it 6 6 251708
+id 5 5 92898
+cz 5 5 165792
+be 4 4 76431
+br 3 3 96315
+cr 3 7 94800
+ro 3 3 71416
+se 2 7 86954
+pl 2 2 75949
+ir 2 2 54954
+gr 1 1 44210
+pt 1 1 0
+ug 1 1 41832
+tr 1 1 41856
+nz 1 1 53611
+bg 1 1 10741
+cl 1 1 42390
+es 1 1 48485
+eu 1 1 51269
+cy 2 7 86954
+si 1 1 10741
+za 1 1 44211
+no 1 1 10741
+gh 2 2 89444
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+bot[\s_+:,\.\;\/\\-] 4254 164522212 20250731233641 26
+Googlebot/ 1293 6696390 20250731054848 17
+facebookexternalhit/ 148 3970260 20250731201735 29
+Googlebot\-Image/ 34 623417 20250731143559 0
+no_user_agent 26 2818242 20250731094801 0
+crawl 24 6307561 20250731233616 0
+Dalvik/ 20 989412 20250712103923 0
+unknown 15 1713 20250723040918 15
+Go\-http\-client/ 9 67316 20250731094830 0
+checker 8 286745 20250728161239 0
+scrapy 2 21482 20250710174349 0
+Applebot/ 1 154 20250730172833 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 18
+jpg 484 29765256 0 0
+png 578 29053404 0 0
+svg 223 579839 0 0
+html 842 31372272 0 0
+woff2 3420 83347686 0 0
+json 1 112811 0 0
+ttf 10 28932 0 0
+xml 6 1626 0 0
+avif 111 926218 0 0
+webp 243 12827412 0 0
+php 6024 247370010 0 0
+gif 16 713764 0 0
+txt 10 77114 0 0
+woff 4 36888 0 0
+js 4747 39552755 0 0
+jpeg 1 15133 0 0
+css 4675 8599894 0 0
+Unknown 65 11272 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 5
+/wp-content/plugins/mailchimp-for-wp/readme.txt 2 0 28050
+/wp-content/plugins/checkout-field-editor-and-manager-for-woocommerce/readme.txt 2 0 7522
+/wp-content/plugins/elementor/readme.txt 2 0 21440
+/wp-content/plugins/woocommerce/readme.txt 2 0 12642
+/wp-content/plugins/google-site-kit/readme.txt 2 0 7460
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 22
+Unknown 1492 1438
+winxp 2 2
+win7 34 12
+macosx13 2 2
+macosx9 3 3
+androidmarshmallow 95 64
+macosx11 1 1
+linuxubuntu 41 21
+android 310 66
+linux 584 221
+winlong 1 1
+androidoreo 17 13
+macosx15 67 63
+androidpie 2 2
+android12 56 52
+macosx7 9 7
+win8 1 1
+androidnougat 1 1
+android10 4285 1942
+android11 417 106
+win10 12989 6349
+ios_iphone 1051 116
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 90
+chrome108.0.0.0 4 4
+opera93.0.2254.78340 25 25
+chrome47.0.2526.106 1 1
+chrome126.0.6478.71 4 4
+Unknown 1468 1426
+chrome116.0.0.0 16 11
+firefox124.0 3 3
+chrome106.0.0.0 2 2
+chrome68.0.3440.75 1 1
+chrome76.0.3809.111 2 2
+chrome132.0.0.0 195 32
+chrome138.0.7204.93 7 2
+mozilla 22 10
+chrome49.0.2623.112 10 3
+chrome138.0.7204.97 7 3
+chrome137.0.0.0 77 52
+chrome84.0.4147.89 3 3
+chrome17.0.963.56 9 7
+safari15.4 344 30
+firefox122.0 3 3
+chrome138.0.7204.157 16 16
+chrome138.0.7204.23 6 2
+chrome130.0.0.0 30 18
+chrome63.0.3239.111 10 6
+chrome138.0.7204.168 3 3
+chrome131.0.0.0 190 19
+chrome114.0.0.0 4 0
+firefox125.0 1 1
+chrome33.0.1750.152 3 3
+chrome99.0.4844.84 1 0
+chrome137.0.7151.118 14 8
+safari16.5 6 6
+chrome104.0.0.0 21 7
+firefox98.0 1 1
+chrome138.0.7204.68 21 21
+chrome92.0.4515.105 3 3
+edge18 354 38
+safari 649 32
+chrome138.0.7204.67 11 11
+chrome52.0.2717.98 3 3
+safari17.6 8 4
+chrome135.0.0.0 3 3
+chrome138.0.7204.153 17 17
+chrome138.0.7204.63 269 25
+netscape5.0 2 2
+safari13.1.2 1 1
+safari18.5 4 4
+chrome45.0.2454.85 24 9
+chrome99.0.4844.51 14 4
+firefox23.0 1 1
+edge12 1 1
+opera90.0.0.0 3 3
+firefox137.0 1 1
+chrome138.0.7204.92 27 8
+chrome137.0.7151.119 41 19
+opera9.20 1 1
+safari14.0.3 3 3
+chrome132.0.6834.79 9 9
+chrome138.0.7204.96 8 4
+chrome75.0.3770.100 1 1
+chrome106.0.5249.91 6 6
+chrome138.0.7204.150 3 3
+firefox117.0 6 6
+chrome59.0.3071.125 1 1
+chrome78.0.3904.108 288 288
+firefox120.0 16 16
+chrome115.0.5810.222 35 15
+chrome41.0.2224.3 1 1
+chrome123.0.0.0 323 21
+chrome103.0.0.0 1 1
+chrome125.0.6422.41 37 37
+chrome136.0.0.0 17 17
+chrome57.0.2987.108 4 4
+chrome137.0.7151.103 27 27
+chrome89.0.4389.114 56 56
+iphone 37 37
+chrome137.0.7151.117 395 90
+chrome113.0.0.0 7 3
+chrome138.0.0.0 16167 7872
+chrome121.0.0.0 3 3
+chrome120.0.0.0 2 2
+chrome117.0.0.0 9 9
+chrome138.0.7204.162 3 3
+msie6.0 1 1
+chrome131.0.6778.33 7 2
+chrome107.0.0.0 3 3
+chrome123.0.6312.118 7 7
+chrome102.0.0.0 1 1
+chrome122.0.0.0 1 1
+firefox83.0 8 8
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 12
+WordPress/6.8.1;_https://wp.acharmela.com 20250716032707
+WhatsApp/3.0.0.0_A 20250712103702
+GoogleOther 20250712145738
+WordPress/6.8.2;_https://wp.acharmela.com 20250731233615
+python-requests/2.32.4 20250713005103
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20250721061617
+Mozilla/5.0 20250719124040
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250729183817
+Mozilla/5.0_zgrab/0.x 20250721075211
+okhttp/4.9.2 20250710214802
+WhatsApp/2.23.20.0 20250712082541
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250712042927
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+python-requests/2.32.4 20250713005103
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250729183817
+okhttp/4.9.2 20250710214802
+WordPress/6.8.1;_https://wp.acharmela.com 20250716032707
+GoogleOther 20250712145738
+WhatsApp/3.0.0.0_A 20250712103702
+WordPress/6.8.2;_https://wp.acharmela.com 20250731233615
+WhatsApp/2.23.20.0 20250712082541
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2058 2097
+From1 0 0
+From2 4 4
+From3 3078 3248
+From4 5343 16111
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 22
+https://saspremiumstore.webleez.com 1273 1299
+https://secretmarket.xyz 1036 1067
+https://wpdemo1.webleez.com 587 694
+https://chapaiyerswad.webleez.com 144 144
+https://saspremiumstore.webleez.com/wp-content/uploads/elementor/google-fonts/css/poppins.css 10 10
+https://saspremiumstore.webleez.com/wp-content/uploads/elementor/google-fonts/css/rubik.css 9 9
+https://saspremiumstore.webleez.com/wp-content/uploads/elementor/google-fonts/css/cabin.css 7 7
+https://190.196.207.42 2 2
+http://wpdemo1.webleez.com 2 2
+http://m.facebook.com 2 2
+http://www.luxxbouquet.com 1 1
+http://www.wpdemo1.webleez.com 1 1
+https://wpdemo1.webleez.com/wp-content/uploads/elementor/google-fonts/css/poppins.css 1 1
+https://wpdemo1.webleez.com/wp-content/uploads/elementor/google-fonts/css/rubik.css 1 1
+https://wpdemo1.webleez.com/wp-content/uploads/elementor/google-fonts/css/cabin.css 1 1
+https://sserver1.webleez.com:2083 1 1
+http://weq32eddqa1.com 0 1
+https://voids.gay 0 1
+https://1p5ig.gcash.work 0 1
+https://190.207.27.98 0 1
+https://epuwq.gcash.work 0 1
+http://milominky.com 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 10
+400 2 22
+405 4 120
+503 176 135516
+302 124 113848
+403 63 78246
+500 5 4232
+409 2 2288
+404 275 13606332
+301 634 16405
+206 103 154607
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 168
+/equitycol 1 -
+/allsouthfcu 1 -
+/database.sql 1 -
+/current_add.rf 1 https://wp.acharmela.com/
+/developer_id.dZTNiMT 1 https://wp.acharmela.com/
+/taylormorrison 1 -
+/wp-content/plugins/woocommerce/assets/fonts/star.eot 2 https://wp.acharmela.com/
+/product-category/kitchen-accessories/page/2/ 12 -
+/mdcnh 1 -
+/current_add.fd 1 https://wp.acharmela.com/
+/tegral 1 -
+/js/lkk_ch.js 2 -
+/docker-compose.yml 1 -
+/db/schema.rb 1 -
+/wp-content/plugins/woocommerce/assets/js/jquery-blockui/+c.iframeSrc+ 1 -
+/wp-content/themes/woodmart/js/libs/%url% 1 -
+/soilmender 1 -
+/config.yaml 1 -
+/dow-jones 1 -
+/wp-content/plugins/chaty-pro/js/%22+t.widget_icon_url+ 1 -
+/tampabayrays 1 -
+/current.cmp 1 https://wp.acharmela.com/
+/actuator/env 3 -
+/shell.php 6 -
+/elmachip 1 -
+/udata.vst 1 https://wp.acharmela.com/
+/mallgiftcard 1 -
+/wp-content/themes/woodmart/js/scripts/wc/+e[o].href+ 1 -
+/database_backup.sql 1 -
+/sbabusiness 1 -
+/elementor/lazyload/observe 1 https://wp.acharmela.com/
+/dupont 1 -
+/premiereradio 1 -
+/current.mdm 1 https://wp.acharmela.com/
+/telefonica-tech 1 -
+/webshell 6 -
+/baricitinib 1 -
+/fabletics 1 -
+/js/twint_ch.js 2 -
+/phpinfo.php 1 -
+/phreesia 1 -
+/lastingadvantage 1 -
+/myo2 1 -
+/public/css/preloaders/t 1 https://wp.acharmela.com/
+/webshell.php 6 -
+/etc/ssl/private/server.key 1 -
+/backup.sql 1 -
+/smarties 1 -
+/wp-emoji-release.min.js 4 -
+/telescope/requests 3 -
+/v2/_catalog 3 -
+/.aws/credentials 4 -
+/wp-content/plugins/chaty-pro/js/%22+window.location.href+ 1 -
+/faralloncaptmgt 1 -
+/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.eot 2 https://wp.acharmela.com/
+/info.php 3 -
+/wp-content/plugins/chaty-pro/js/%22+e.wp_popup_profile+ 1 -
+/wp-content/plugins/chaty-pro/js/%22+i.agent_image+ 1 -
+/revslider/revslider.php 1 https://wp.acharmela.com/
+/shop/page/3/ 13 -
+/current.fmt 1 https://wp.acharmela.com/
+/current.plt 1 https://wp.acharmela.com/
+/.DS_Store 3 -
+/server 3 -
+/enduramax 1 -
+/current.typ 1 https://wp.acharmela.com/
+/wp-content/themes/woodmart/js/scripts/wc/+woodmart_settings.cart_url+ 1 -
+/weatherfox 1 -
+/hollidaysand 1 -
+/session.pgs 1 https://wp.acharmela.com/
+/optionnavigator 1 -
+/wp-content/plugins/chaty-pro/js/%22+e.qr_code_image_url+ 1 -
+/fortrexsolutions 1 -
+/wp-content/themes/woodmart/js/scripts/wc/+a[i].src+ 2 -
+/voltaren 1 -
+/shop/page/2/ 4 -
+/bishopskinner 1 -
+/server-status 4 -
+/eypersonalbenefits 1 -
+/wiki 1 -
+/@vite/env 3 -
+/config.php 1 -
+/wp-content/themes/woodmart/js/scripts/wc/+a[i].full_src+ 1 -
+/debug/default/view 3 -
+/default.js 2 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 3 -
+/closedescrow 1 -
+/.ssh/id_ecdsa 1 -
+/current.cnt 1 https://wp.acharmela.com/
+/tarmacreward 1 -
+/ironplanet 1 -
+/gtm.start 1 https://wp.acharmela.com/
+/dump.sql 1 -
+/.ssh/id_rsa 1 -
+/golubcapital 1 -
+/backup.tar.gz 1 -
+/lambertbrothers 1 -
+/dibsso 1 -
+/wp-content/themes/woodmart/readme.txt 2 -
+/server.key 1 -
+/saunderson-house 1 -
+/wp-content/plugins/add-to-cart-direct-checkout-for-woocommerce/readme.txt 2 -
+/wp-content/plugins/chaty-pro/js/%22+t.custom_image_url+ 1 -
+/config/production.json 1 -
+/vimeo-player.min.js 1 -
+/udata.uag 1 https://wp.acharmela.com/
+/maxwell 1 -
+/advantagetitlems 1 -
+/backup.zip 1 -
+/.env.production 1 -
+/wp-content/plugins/pro-elements/readme.txt 2 -
+/sapp-plugin-activate.php 6 -
+/wp-content/plugins/revslider/readme.txt 2 -
+/_vti_pvt/service.pwd 1 -
+/config.json 5 -
+/wp-content/plugins/chaty-pro/js/%22+e.url+ 1 -
+/gtm.js 1 https://wp.acharmela.com/
+/current.trm 1 https://wp.acharmela.com/
+/settings.py 1 -
+/cerriar 1 -
+/dib-islamic 1 -
+/wp-content/themes/woodmart/js/scripts/elements/+e.data 1 -
+/.vscode/sftp.json 4 -
+/admin-ajax.php 1 -
+/getfinom 1 -
+/login.action 3 -
+/pixior 1 -
+/creedboutique 1 -
+/wp 1 -
+/wp-includes/js/,b 1 -
+/revslider.php 1 -
+/hormozi 1 -
+/wp-content/plugins/chaty-pro/js/%22+h+ 1 -
+/config.xml 1 -
+/shell 6 -
+/current.src 1 https://wp.acharmela.com/
+/user_secrets.yml 1 -
+/liveramp 1 -
+/oldcastleedu 1 -
+/security.txt 2 -
+/cionews 1 -
+/secrets.json 1 -
+/taylormorrisonhf 1 -
+/26bcfa02-d80f-422a-b882-185feabbc595 1 -
+/s/63e2130323e2834323e2136313/_/ 3 -
+/.ssh/id_ed25519 1 -
+/theraflu 1 -
+/bandmfoundation 1 -
+/xn--ch-qsa 1 -
+/cloud-config.yml 1 -
+/web.config 1 -
+/favicon.png 2 -
+/config.yml 1 -
+/independencefirstescrow 1 -
+/paycheckplus 1 -
+/current_add.ep 1 https://wp.acharmela.com/
+/wordpress/wp-admin/setup-config.php 1 http://wp.acharmela.com/wordpress/wp-admin/setup-config.ph%70
+/helium10 1 -
+/_all_dbs 3 -
+/wp-content/themes/woodmart/js/libs/+t+ 1 -
+/iagcargo 1 -
+/wp-content/plugins/chaty-pro/readme.txt 2 -
+/edhardyoriginal 1 -
+/current.tct 1 https://wp.acharmela.com/
+/cefgroup 1 -
+/pepsi 1 -
+/sallybeauty 1 -
+/index.min.js 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 361
+103.84.37.14 2916 8839 351711481 20250731112839
+37.19.205.149 2768 2835 2101226 20250715085154
+161.248.201.6 1408 1408 1539911 20250731233615
+37.111.217.184 573 812 20317410 20250719125412
+103.130.197.243 529 1132 12910732 20250712094314
+165.99.90.15 302 319 7832621 20250721070859
+37.111.193.132 106 291 5272176 20250717141754
+202.134.9.157 81 85 1914163 20250719040033
+43.251.164.62 56 56 384183 20250729125721
+43.255.20.160 54 230 3155026 20250716103219
+103.112.53.239 53 234 4249424 20250715042407
+34.74.205.76 44 44 298224 20250728163916
+34.135.78.143 44 44 69260 20250711114715
+54.196.10.24 44 44 298224 20250728134331
+184.73.6.172 44 44 298224 20250728063431
+54.204.104.243 36 36 643060 20250728094546
+37.111.224.165 35 35 1119864 20250724122220
+37.111.232.63 34 106 1020545 20250722125816
+103.120.162.4 33 282 2820624 20250712171414
+37.111.193.73 32 32 803711 20250716115606
+37.111.232.170 31 31 852784 20250729051325
+37.111.193.77 30 34 802935 20250718152812
+43.245.120.22 28 28 969148 20250717104251
+34.85.200.6 28 28 291808 20250713181918
+141.0.8.130 25 25 518348 20250718152621
+146.190.219.129 1 1 44211 20250727122517
+103.113.172.64 3 3 71416 20250726064952
+178.128.227.137 1 1 44210 20250731143040
+52.39.40.52 6 6 142832 20250717091955
+91.222.56.229 1 1 34146 20250729121037
+89.248.171.23 7 21 268708 20250713021644
+44.251.38.170 1 1 10741 20250710180705
+176.126.245.48 1 1 10741 20250711003001
+37.111.193.211 24 24 532982 20250717143833
+103.135.255.146 3 3 71416 20250722151339
+173.252.127.61 3 3 71416 20250719102120
+106.75.143.53 1 8 937847 20250721162202
+34.170.194.91 1 1 10741 20250710170451
+98.58.171.177 1 1 0 20250710205916
+83.229.92.210 2 6 82183 20250710210233
+123.6.49.4 1 5 32507 20250713005032
+167.94.138.119 1 1 10741 20250710191803
+103.198.133.53 17 192 1968599 20250719115257
+103.195.4.182 3 7 94800 20250712175254
+41.139.11.173 1 1 37733 20250729121041
+74.125.215.39 2 77 281068 20250712112221
+103.115.243.221 3 3 71416 20250721065031
+66.220.149.6 3 3 71416 20250725170943
+23.27.145.187 1 1 43813 20250712130240
+182.252.69.40 3 3 71416 20250722013710
+103.148.26.44 9 9 214248 20250726171703
+66.249.90.227 1 2 54086 20250712102012
+173.252.87.5 3 3 71416 20250725151740
+37.111.212.195 3 3 71416 20250727054850
+185.196.9.254 3 3 98917 20250712165850
+123.6.49.38 0 1 3761 
+103.179.125.180 21 21 407399 20250719105640
+37.111.245.51 3 3 71416 20250722150906
+37.111.218.108 8 8 296616 20250721162456
+193.200.13.173 2 7 86954 20250710210212
+180.163.220.41 1 1 271 20250718033758
+104.252.191.231 1 1 10741 20250710175242
+46.199.75.104 2 7 86954 20250710210559
+185.63.133.64 1 1 48573 20250729121039
+52.33.108.208 1 1 44212 20250716195528
+52.16.245.145 19 23 421552 20250717100806
+31.13.140.187 1 1 41813 20250729120946
+190.10.8.89 3 7 94800 20250712180753
+64.233.173.198 7 74 332293 20250728062848
+45.67.155.104 1 1 53611 20250729121040
+38.54.124.8 3 11 118184 20250712172336
+185.216.35.73 2 2 21482 20250710210130
+66.249.90.225 5 22 302869 20250712145745
+44.202.235.64 4 4 53220 20250712073243
+91.228.32.43 1 1 41803 20250729121040
+104.232.199.235 8 161 1310837 20250727141119
+34.212.0.59 1 1 44021 20250712132408
+31.13.127.5 3 3 71416 20250720101237
+37.221.140.124 1 1 33618 20250729121041
+146.70.184.218 2 6 82183 20250710205800
+44.243.135.61 0 4 23384 
+161.123.88.247 8 160 1309011 20250727141119
+91.134.91.17 1 1 10741 20250710201137
+102.39.57.158 1 1 10741 20250710223038
+103.151.60.188 17 17 510864 20250715154447
+37.111.232.221 16 16 364964 20250726065216
+161.35.38.129 1 1 44209 20250713140502
+103.108.94.169 6 13 125322 20250710210829
+149.57.180.108 1 1 44209 20250717201416
+23.27.145.205 1 1 10741 20250710181012
+37.111.232.136 3 3 71416 20250729144048
+38.2.169.228 1 1 41811 20250729120946
+179.189.199.168 1 1 41808 20250729120950
+103.122.251.225 18 18 427780 20250730101644
+206.168.34.73 1 4 51784 20250719052359
+58.145.190.209 3 3 71416 20250721065718
+205.169.39.57 1 1 44149 20250712234833
+34.209.56.108 4 12 164366 20250710181804
+67.21.178.226 1 1 41830 20250729121040
+123.6.49.14 0 1 2892 
+34.207.116.132 2 6 82183 20250710205949
+196.251.88.59 1 1 44211 20250728131022
+149.57.180.192 1 1 44209 20250717204421
+185.63.132.211 1 1 41826 20250729121039
+37.111.200.39 3 3 71416 20250719121627
+190.83.74.232 1 1 42390 20250729121041
+173.194.92.179 3 3 71416 20250720073241
+173.244.49.52 1 1 10741 20250710220129
+173.252.95.10 3 3 71416 20250723105830
+35.229.225.15 23 23 289803 20250715195437
+159.89.107.240 1 1 10741 20250711125155
+205.169.39.12 1 1 44210 20250728200741
+174.231.135.241 3 3 71416 20250720170426
+94.102.49.206 2 7 86954 20250710205935
+149.57.180.34 1 1 44211 20250724212649
+176.125.228.9 1 1 10741 20250710210013
+66.249.69.100 2 2 40610 20250719075817
+162.142.125.46 1 1 10741 20250710192106
+104.252.191.193 1 1 10741 20250710170105
+206.168.34.68 1 4 51785 20250721061604
+124.6.231.228 1 20 492385 20250712131154
+192.175.111.239 2 2 102538 20250710164108
+46.101.111.185 1 1 279990 20250729044534
+74.125.215.38 3 55 245551 20250712112231
+66.102.6.228 11 86 322531 20250728110526
+66.249.82.98 3 3 99016 20250717180206
+149.57.180.68 1 1 44207 20250714192518
+123.6.49.41 0 2 17041 
+43.255.20.165 6 6 142832 20250719070535
+123.6.49.36 1 2 6592 20250713004939
+87.249.148.90 1 1 33274 20250729121038
+34.27.108.165 1 1 10741 20250710170442
+102.129.152.206 3 3 71416 20250714045238
+209.74.79.20 2 2 88424 20250720213158
+5.101.64.6 1 1 10741 20250711145546
+149.57.180.94 1 1 10741 20250711182735
+192.175.111.248 1 1 51269 20250710164047
+157.230.71.9 1 1 10741 20250710210121
+185.247.137.200 1 1 10741 20250711075427
+185.89.43.91 3 3 71416 20250713143442
+104.252.191.195 1 1 10741 20250710163541
+35.85.47.75 6 6 142832 20250717081021
+101.128.68.139 1 1 10741 20250710205945
+116.68.202.136 3 3 71416 20250730020833
+149.88.26.141 1 1 10741 20250710205952
+57.129.4.123 1 1 44208 20250714145909
+185.255.212.8 1 1 32758 20250729121037
+23.27.145.93 1 1 44213 20250720200122
+104.168.34.150 1 1 10741 20250710210123
+103.167.15.171 3 3 71416 20250722154815
+107.174.224.18 1 1 44215 20250719124040
+104.131.88.105 1 1 44209 20250731154611
+64.15.129.103 1 1 51269 20250710164040
+94.102.49.123 1 1 10741 20250710205918
+185.15.171.31 1 1 33621 20250729121039
+177.149.151.48 1 1 13615 20250710211008
+202.173.122.69 3 3 71416 20250716144408
+43.250.82.229 3 3 71416 20250721044841
+123.6.49.17 0 1 2892 
+84.247.150.34 1 1 10741 20250710223039
+205.210.31.92 1 1 280002 20250718075515
+66.249.87.37 5 5 121540 20250723111845
+34.217.46.14 1 1 44214 20250728041544
+91.236.157.212 1 1 37084 20250729121040
+43.250.82.105 3 3 71416 20250719115218
+160.30.62.206 10 10 249596 20250714115521
+206.41.176.107 0 4 23384 
+23.27.145.112 1 1 44212 20250720200037
+66.249.73.66 6 13 276380 20250715122745
+183.134.59.131 1 1 44153 20250713053601
+41.139.11.79 1 1 51711 20250729121041
+65.130.229.81 6 10 166216 20250712175641
+62.31.152.167 10 10 222132 20250729144325
+194.163.152.77 1 1 10741 20250711124005
+147.185.132.162 1 1 6726 20250729183817
+35.95.94.4 4 12 164366 20250710181726
+66.249.82.100 4 4 79300 20250717180212
+52.247.239.25 10 34 379452 20250710220044
+45.118.245.69 3 3 71416 20250715032058
+31.222.13.161 1 1 33948 20250729121039
+66.249.73.65 13 34 646462 20250715170551
+44.223.2.37 3 7 93699 20250712172618
+100.26.99.112 4 4 53220 20250712070327
+35.231.178.148 4 4 53220 20250711115420
+87.236.176.78 1 1 10741 20250712031030
+180.163.220.110 1 1 271 20250718033809
+104.252.191.82 2 2 21482 20250711065419
+103.161.104.18 10 173 2618042 20250712112437
+198.235.24.58 1 1 6726 20250723092848
+203.145.36.225 13 13 293548 20250719114312
+3.17.255.71 1 1 44212 20250721075211
+103.196.9.238 2 2 21482 20250710185743
+103.242.9.228 3 7 94800 20250712142544
+149.57.180.117 1 1 44151 20250712184644
+5.181.233.75 3 3 71416 20250719052715
+103.183.16.69 3 3 71416 20250717134557
+85.13.92.94 1 1 45514 20250729121038
+103.143.242.254 3 3 71416 20250723052930
+188.245.193.111 1 1 10741 20250711171254
+191.53.107.213 1 1 40892 20250729121041
+64.233.173.200 7 72 393167 20250724112848
+95.0.32.13 1 1 41856 20250729121040
+103.217.98.152 3 3 71416 20250723141924
+206.81.24.227 1 1 279990 20250730232205
+193.200.26.116 1 1 41771 20250729121038
+85.237.194.63 2 7 86954 20250711143210
+173.252.127.23 3 3 71416 20250730140848
+66.102.8.104 2 2 43096 20250731110824
+185.253.162.131 1 1 684 20250710162749
+27.115.124.2 1 1 271 20250718030133
+198.235.24.173 1 1 280002 20250715004744
+188.94.124.219 1 1 41797 20250729121039
+103.4.250.160 1 1 10741 20250711065414
+111.224.219.8 1 1 44151 20250713013004
+198.235.24.209 1 1 280002 20250729142553
+178.156.113.158 1 1 48485 20250729121039
+136.38.11.83 1 1 13615 20250710211031
+69.171.251.4 2 15 1507400 20250714140324
+80.82.70.198 2 7 86954 20250710205925
+66.249.87.35 4 4 99736 20250723111848
+209.97.186.152 1 2 46039 20250721135918
+94.102.63.27 1 1 10741 20250710205918
+44.248.231.211 6 6 142832 20250717081238
+89.244.95.132 21 323 7418772 20250712160143
+34.248.137.227 12 172 1798801 20250712132123
+202.134.14.234 3 3 71416 20250715143335
+66.249.87.36 1 1 28320 20250719061613
+66.249.73.67 6 6 249663 20250715135745
+64.233.173.199 5 80 305614 20250728062848
+68.183.197.59 1 2 46035 20250729134815
+23.27.145.183 1 1 44211 20250724212621
+173.252.127.9 3 3 71416 20250719111132
+45.125.223.142 3 3 71416 20250726165913
+195.211.77.142 2 2 54954 20250727065236
+106.52.249.139 2 7 86954 20250711000416
+161.123.3.103 3 3 71416 20250717063445
+103.220.204.71 3 3 71416 20250723154054
+103.138.173.133 3 3 71416 20250721044820
+37.111.232.68 12 12 277645 20250723061502
+123.6.49.9 0 1 3730 
+206.168.34.66 1 4 51783 20250720064042
+115.127.142.130 3 3 71416 20250729050835
+192.175.111.253 1 1 51269 20250710164054
+202.134.14.233 7 7 198752 20250718152953
+69.171.251.10 7 162 1297974 20250714140308
+37.111.232.58 6 6 142832 20250723085413
+172.253.234.209 3 3 71416 20250720073228
+123.6.49.42 1 1 279797 20250713004910
+152.42.157.60 3 3 71416 20250730094724
+103.25.250.130 1 1 1765 20250712082541
+123.6.49.10 1 1 44152 20250713005012
+23.27.145.16 1 1 44207 20250714185713
+66.102.6.227 11 97 566921 20250730170743
+64.15.129.126 1 1 51269 20250710164051
+34.211.112.84 2 2 21482 20250710180639
+185.236.203.101 2 6 82183 20250710205804
+103.130.197.212 9 9 4708 20250712192256
+113.11.83.112 9 18 1790439 20250717180146
+149.102.244.66 3 3 71416 20250717103827
+35.225.24.88 4 4 282184 20250728165914
+103.35.156.42 3 3 71416 20250728062827
+182.48.65.87 22 126 1113009 20250715064033
+185.165.240.55 2 14 89558 20250716120828
+103.196.9.41 1 1 10741 20250710185732
+203.145.36.227 6 6 142832 20250721131121
+106.75.157.46 2 2 327680 20250721163417
+89.238.156.102 3 3 71416 20250717111632
+88.214.180.125 1 1 0 20250710205917
+37.111.232.85 3 4 238487 20250728062839
+23.27.145.18 1 1 44151 20250712184602
+38.121.112.26 1 1 33616 20250729121040
+193.32.249.244 1 1 10741 20250710163304
+104.252.191.88 2 2 21482 20250710175249
+193.24.123.69 2 7 86954 20250711145554
+104.28.78.107 3 3 71416 20250727135106
+79.172.196.168 1 1 41855 20250729121039
+192.175.111.247 1 1 51269 20250710164057
+196.0.111.142 1 1 41832 20250729121043
+64.15.129.121 1 1 51269 20250710164049
+54.164.157.105 3 8 97695 20250710214820
+67.21.179.46 1 1 33396 20250729121039
+87.249.151.64 1 1 42315 20250729121038
+52.36.22.31 6 6 142832 20250717093703
+138.199.60.26 1 1 51269 20250710222717
+147.185.132.138 1 1 6726 20250718123129
+44.244.78.170 18 329 3280316 20250712134142
+66.249.90.226 0 4 38148 
+66.249.69.101 3 3 128627 20250719081452
+37.120.237.22 3 3 71416 20250717112732
+195.211.77.140 2 2 0 20250727065214
+162.249.238.28 1 1 51583 20250729121041
+172.111.15.177 3 3 71416 20250717063500
+167.235.250.30 1 1 44211 20250727055606
+192.175.111.236 1 1 51269 20250710164043
+91.84.87.137 13 17 213550 20250731163709
+34.217.101.196 2 2 83136 20250712132408
+54.217.83.13 1 1 44152 20250713014703
+31.13.127.2 3 3 71416 20250714140712
+37.111.232.155 9 9 214248 20250726171718
+114.31.31.68 1 20 492384 20250714083019
+178.20.28.146 1 1 10741 20250710205945
+104.252.110.53 8 163 1313090 20250727141116
+27.115.124.6 4 4 79300 20250719104400
+66.102.6.229 16 82 569709 20250730170743
+104.164.126.212 2 2 21482 20250710170134
+206.168.34.64 1 4 51782 20250717154242
+37.111.237.254 3 3 71416 20250721092904
+66.249.82.99 4 4 51700 20250717180217
+109.248.149.40 3 3 71416 20250730120224
+149.57.180.22 1 1 10741 20250710181120
+139.59.231.238 1 1 73654 20250727071538
+37.111.207.107 3 3 71416 20250719113412
+192.175.111.235 1 1 51269 20250710164102
+194.60.213.54 1 1 41811 20250729121039
+119.30.41.184 1 1 1270 20250719122608
+37.111.206.148 3 3 71416 20250729043644
+171.22.235.151 1 1 41855 20250729121040
+52.87.44.246 3 3 71416 20250717094527
+123.6.49.46 0 1 14025 
+74.125.215.40 3 71 228135 20250712112231
+146.70.116.248 3 7 91641 20250712171624
+37.111.218.207 3 3 56378 20250729164624
+103.188.167.165 2 2 88420 20250716223140
+165.154.254.143 2 2 88421 20250731142746
+202.59.211.208 4 4 106764 20250721111124
+52.55.247.251 3 7 92924 20250710165338
+46.29.224.18 1 1 10741 20250710223047
+37.111.193.182 13 18 240198 20250716104424
+38.2.162.79 1 1 41811 20250729120946
+206.217.206.57 1 1 10741 20250710173127
+43.250.82.101 6 6 142832 20250725043024
+66.249.69.99 3 3 84497 20250719083525
+34.85.137.144 20 20 288600 20250713181916
+116.58.205.224 3 3 71416 20250722124612
+103.4.251.222 2 2 21482 20250710163545
+101.198.0.189 1 1 271 20250713012715
+109.248.147.71 3 3 71416 20250730094738
+176.103.5.224 1 1 33026 20250729121040
+37.111.193.235 9 9 214248 20250721060746
+185.43.18.24 1 1 44078 20250729121056
+193.31.126.247 1 1 10741 20250710205943
+66.102.8.102 1 1 28320 20250731110824
+205.210.31.23 1 1 280002 20250723051906
+87.236.176.73 1 1 10741 20250711210837
+116.58.205.217 7 7 150716 20250722071438
+87.236.176.232 1 1 10741 20250712042927
+34.221.201.142 18 329 3281020 20250712134140
+40.80.158.10 7 15 197484 20250712185645
+103.20.243.143 4 4 79300 20250722131354
+203.145.36.224 10 10 222132 20250730091123
+34.91.134.241 25 25 290605 20250715195432
+203.145.36.226 10 10 222132 20250727114952
+103.21.42.197 3 3 71416 20250720064006
+103.18.166.190 1 1 44211 20250729121039
+52.88.228.176 1 1 10741 20250711131628
+104.253.247.160 5 154 1134238 20250727141117
+149.57.180.128 1 1 10741 20250711182724
+128.140.51.187 1 1 44213 20250727055602
+35.162.90.119 6 6 142832 20250728140342
+37.111.232.227 3 3 71416 20250725043012
+171.22.234.19 1 1 41813 20250729120946
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 22
+20250710 157 309 4148778 70
+20250711 107 133 797555 33
+20250712 2425 8814 331307443 50
+20250713 489 972 8463810 22
+20250714 3088 3759 11868346 19
+20250715 321 606 8297318 32
+20250716 212 410 5977658 19
+20250717 368 579 13976426 41
+20250718 359 1207 15382690 28
+20250719 985 1599 34410942 45
+20250720 268 277 5957504 25
+20250721 108 121 3825029 29
+20250722 116 395 3156397 22
+20250723 123 124 2759924 19
+20250724 58 58 1351418 11
+20250725 41 41 500292 17
+20250726 51 51 873020 13
+20250727 63 672 5532306 21
+20250728 252 253 2905362 27
+20250729 205 206 4205285 56
+20250730 629 816 17942849 17
+20250731 58 58 751934 16
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 26
+30s-2mn 24
+0s-30s 444
+2mn-5mn 20
+1h+ 49
+15mn-30mn 25
+30mn-1h 44
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 218
+/wp-admin/admin-ajax.php 4136 235372658 4 19
+/wp-cron.php 1344 26880 152 150
+/wp-content/uploads/elementor/google-fonts/fonts/rubik-ijwkbxyifdniv7nbrxw.woff2 957 33280793 70 55
+/wp-content/uploads/elementor/google-fonts/fonts/cabin-u-4i0qwljrw-pfu81xckcpdpbgzjl6xvqdns.woff2 955 26441349 66 82
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlgt9z1xlfq.woff2 951 7339940 70 57
+/ 438 15085821 179 133
+//xmlrpc.php 306 128023 0 12
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxieyp8kv8jhgfvrjjfecg.woff2 115 904609 2 10
+/wp-content/uploads/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia1zl7.woff2 64 2909269 0 1
+/shop/ 56 2411813 25 22
+/wp-content/uploads/elementor/google-fonts/fonts/hindsiliguri-ijwos5juqtsyllr5jn4cxbeorcf_0vqvkxgv.woff2 54 3509359 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/hindsiliguri-ijwos5juqtsyllr5jn4cxbeorcf_0uyvkw.woff2 54 734296 1 0
+/wp-content/uploads/elementor/google-fonts/fonts/hindsiliguri-ijwos5juqtsyllr5jn4cxbeorep-0vqvkxgv.woff2 53 3399376 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/hindsiliguri-ijwos5juqtsyllr5jn4cxbeorep-0uyvkw.woff2 53 733975 0 0
+/wp-login.php 49 115040 11 9
+/wp-admin/load-styles.php 42 3178379 0 0
+/wp-content/themes/woodmart/fonts/woodmart-font-2-400.woff2 40 553956 2 4
+/wp-admin/load-scripts.php 36 1725020 0 0
+/checkout/ 33 700823 0 2
+/wp-admin/admin.php 28 2555207 0 0
+/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2 26 1393600 0 17
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlej6z1xlfq.woff2 25 199150 0 3
+/wp-json/elementor/v1/checklist/user-progress 20 3636 0 2
+/wp-admin/ 20 773142 2 0
+/wp-content/uploads/2025/05/S40bf2991667e455a940c5d2cddb56194P.jpg_960x960q75.jpg_-400x457.avif 17 84728 0 0
+/wp-admin/users.php 4 112977 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlgt9z1jlfc-k.woff2 1 5484 0 0
+/wp-comments-post.php 1 1068 0 1
+/wp-admin/options.php 2 369659 0 0
+/wp-content/uploads/2025/05/S2f2c01d2a8d44609b1c7e0cfc6782d79l.jpg_960x960q75.jpg_-300x300.avif 1 12561 0 0
+/wp-json/wc-admin/options 9 800 0 0
+/update_pass.php 1 90 1 0
+/product-category/combo-offer/ 1 33618 1 1
+/faq/ 4 131456 0 1
+//wp-login.php 12 85959 0 1
+/wp-content/uploads/elementor/google-fonts/fonts/rubik-ijwebxyifdniv7nenxy61f3f.woff2 1 9688 0 0
+/product/%e0%a7%a8-%e0%a6%aa%e0%a6%bf%e0%a6%b8-%e0%a6%ab%e0%a7%87%e0%a6%b8-%e0%a6%b8%e0%a7%8d%e0%a6%95%e0%a7%8d%e0%a6%b0%e0%a6%bf%e0%a6%ae/ 14 696771 1 1
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlej6z11lfc-k.woff2 1 39292 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/cabin-u-4g0qwljrw-pd815fnqc8t_wafcx-c37onuhxg.woff2 1 29844 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlm21lvfteoceg.woff2 1 45772 0 0
+/product-category/health-beauty/ 8 304829 2 1
+/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.ttf 1 14748 0 0
+/ethimo-mountain-style/feed/ 1 445 1 1
+/wp-content/uploads/elementor/google-fonts/fonts/hindsiliguri-ijwos5juqtsyllr5jn4cxbeorg_50uyvkw.woff2 2 14896 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/rubik-ijwebxyifdniv7nenx661a.woff2 1 36616 0 0
+/wp-json/wc-admin/marketing/misc-recommendations 1 107 0 0
+/wp-content/plugins/all-in-one-wp-migration/lib/view/assets/font/servmask.woff 1 8676 0 0
+/wp-content/uploads/2025/05/S40bf2991667e455a940c5d2cddb56194P.jpg_960x960q75.jpg_.avif 4 15292 0 0
+/product/mini-digital-hanging-luggage-fishing-weighing-scale/ 4 204832 1 1
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldd4z1xlfq.woff2 1 7824 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/cabin-u-4g0qwljrw-pd815fnqc8t_wafcx-c37onghxi-ag.woff2 1 17464 0 0
+/wp-content/themes/woodmart/inc/admin/assets/fonts/xts-icon-font.woff2 5 93440 0 0
+/2025/07/10/hello-world/ 5 68075 2 2
+/wp-content/uploads/2025/05/S40bf2991667e455a940c5d2cddb56194P.jpg_960x960q75.jpg_-350x400.avif 15 63975 1 1
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxieyp8kv8jhgfvrjjbecmne.woff2 1 39660 0 0
+/product/inima-japan-coffee-grinder-1500-watt/ 7 310173 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/hindsiliguri-ijwos5juqtsyllr5jn4cxbeorg_50vqvkxgv.woff2 2 106438 0 0
+/product/usb-rechargeable-electric-6-blades-juicer/ 2 102308 0 0
+/product/simplicity-portable-multicooker-with-steamer-1-8-l/ 2 50918 0 0
+/woodmart_layout/single-product-layout-furniture-2/ 1 54263 0 0
+//wp-json/wp/v2/users/ 13 11699 0 0
+/wp-content/uploads/2025/05/S62239c2a815849298aac387d5bf57e1bU.jpg_960x960q75.jpg_-600x600.avif 1 25792 0 0
+/wp-json/wp/v2/users/me 2 3628 0 0
+/product/portable-electric-blender-and-juicer/ 2 102810 0 0
+/wp-content/uploads/2025/05/S84aa7d2944c3444fafd00df983798deda.jpg_960x960q75.jpg_-150x150.avif 1 7685 0 0
+/wp-content/uploads/2025/05/S40edcf887edb41bb8c19496c33654750M.jpg_960x960q75.jpg_-350x400.avif 11 76978 0 1
+/wp-content/uploads/2025/05/S1383af6f458b4b58917bce234086b31dZ.jpg_960x960q75.jpg_-600x600.avif 1 27923 0 0
+/wp-admin/theme-install.php 1 11969 0 0
+/wp-content/plugins/pro-elements/modules/lottie/assets/animations/default.json 1 112811 0 0
+/wp-admin/index.php 2 60239 0 0
+/wp-content/uploads/2025/05/S40bf2991667e455a940c5d2cddb56194P.jpg_960x960q75.jpg_-150x150.avif 1 1632 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxigyp8kv8jhgfvrjjluchta.woff2 1 8668 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/cabin-u-4i0qwljrw-pfu81xckcpdpbgzjl6xvp9nsbxw.woff2 2 31984 1 0
+/wp-admin/theme-editor.php 4 525648 0 0
+/here-comes-autumn/ 1 42852 1 1
+/wp-content/uploads/2025/05/S653c41cf54204a9eafe3fa18268fb2499.jpg_960x960q75.jpg_-400x457.avif 3 38484 0 0
+/wp-content/uploads/2025/05/S40edcf887edb41bb8c19496c33654750M.jpg_960x960q75.jpg_-600x600.avif 1 10757 0 0
+/wp-content/uploads/2025/05/Sffd557fa6a504a549299fb93e1b46ffci.jpg_960x960q75.jpg_-150x150.avif 1 2869 0 0
+/wishlist/ 12 407951 1 1
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxiayp8kv8jhgfvrjjlme0tcmpi.woff2 1 8404 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmv1pvgdeoceg.woff2 1 5980 0 0
+/product/electric-cooking-pot-1-8l/feed/ 1 460 1 1
+/xmlrpc.php 1 304 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/rubik-ijwkbxyifdniv7nfrxyi0a.woff2 1 15112 0 0
+/product/4-in-1-stainless-steel-knife-sharpener/ 15 772581 1 1
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlej6z1jlfc-k.woff2 1 5524 0 0
+/wp-content/plugins/revslider/ 1 0 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldd4z1jlfc-k.woff2 1 5492 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlbt5z1jlfc-k.woff2 1 5380 0 0
+/search/ 3 98402 0 0
+/my-account/ 6 194325 1 1
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldz8z1xlfq.woff2 1 7840 0 0
+/wp-content/uploads/2025/05/Sffd557fa6a504a549299fb93e1b46ffci.jpg_960x960q75.jpg_-600x600.avif 1 14276 0 0
+/wp-json/wc-analytics/reports/performance-indicators 2 552 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/rubik-ijwkbxyifdniv7nerxyi0a.woff2 2 64928 0 0
+/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff 1 8084 0 0
+/our-news/ 7 207069 3 1
+/check_charset.php 1 77 0 0
+/product/portable-rechargeable-neck-fan/ 2 106660 0 0
+/wp-content/plugins/elementor/assets/ 1 4103 0 0
+/product/automatic-doi-maker-yogurt-maker-1-5l/ 10 536510 0 0
+/wp-content/plugins/cartflows/assets/fonts/cartflows-icon.ttf 8 12672 0 0
+/wp-admin/edit.php 8 260006 0 0
+/wp-content/uploads/2025/05/S384000fa10494b2595f98bcbbf65fb51X.jpg_960x960q75.jpg_-350x400.avif 1 6933 0 1
+/feed/ 1 707 0 0
+/step/thank-you-2/ 5 191335 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmv1pvf9eo.woff2 1 8720 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlbt5z1xlfq.woff2 1 7632 0 0
+/wp-admin/upgrade.php 1 21 0 0
+/product/3in1-osaka-japan-%e0%a6%9a%e0%a6%aa%e0%a6%be%e0%a6%b0%e0%a6%ac%e0%a7%8d%e0%a6%b2%e0%a7%87%e0%a6%a8%e0%a7%8d%e0%a6%a1%e0%a6%be%e0%a6%b0%e0%a6%97%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%87%e0%a6%a8%e0%a7%8d/ 8 369826 1 1
+/about-us/ 9 299359 2 2
+/wp-json/wc-analytics/products/count-low-in-stock 4 124 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/cabin-u-4i0qwljrw-pfu81xckcpdpbgzjl6xvptnsbxw.woff2 2 11784 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/rubik-ijwebxyifdniv7nenxq61f3f.woff2 1 16488 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxieyp8kv8jhgfvrjjnecmne.woff2 1 5644 0 0
+/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 1 18824 0 0
+/wp-admin/profile.php 15 824969 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/rubik-ijwebxyifdniv7nenxc61f3f.woff2 1 21088 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldz8z11lfc-k.woff2 1 39412 0 0
+/wp-admin/plugins.php 9 741021 0 0
+/wp-admin/upload.php 1 21540 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/rubik-ijwkbxyifdniv7nprxyi0a.woff2 1 19508 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlfj_z1xlfq.woff2 1 7932 0 0
+/wp-json/elementor/v1/global-widget/templates 2 44 0 0
+/wp-content/uploads/2025/05/Sa608382ef6e2488c9b822f49250e3295n.jpg_960x960q75.jpg_.avif 1 23509 0 0
+/wp-json/wc-analytics/products/reviews 4 88 0 0
+/wp-json/elementor/v1/site-navigation/recent-posts 2 662 0 0
+/product-category/kitchen-accessories/ 2 84628 1 1
+/product/new-design-3-in-1-suquin-blender-grinder-chopper/ 2 103272 0 0
+/wp-json/wc/v3/products 1 33 0 0
+/wp-content/uploads/2025/05/S40edcf887edb41bb8c19496c33654750M.jpg_960x960q75.jpg_-400x457.avif 16 128448 0 0
+/cart/ 13 870086 4 5
+/product-category/gadget-electronics/ 10 331200 1 2
+/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2 6 615480 0 0
+/product-category/mobile-accessories/ 1 33621 1 1
+/wp-content/uploads/elementor/google-fonts/fonts/rubik-ijwebxyifdniv7nenxu61f3f.woff2 1 32744 1 0
+/wp-admin/options-permalink.php 2 19488 0 0
+/wp-content/uploads/2025/05/Sb4dbd64b295a4c85876b8364c2c265502.jpg_960x960q75.jpg_-400x457.avif 3 81912 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/cabin-u-4g0qwljrw-pd815fnqc8t_wafcx-c37onhhxi-ag.woff2 1 6432 0 0
+/product/nima-2-in-1-japani-blender-and-grinder/ 2 102630 0 0
+/wp-admin/plugin-install.php 2 54270 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlgt9z11lfc-k.woff2 1 39084 0 1
+/wp-content/uploads/2025/05/Sb4dbd64b295a4c85876b8364c2c265502.jpg_960x960q75.jpg_-600x600.avif 1 40777 0 0
+/the-clean-series/ 1 44688 1 0
+/product/silver-crest-mini-grinder-1200-watt/ 3 153732 0 0
+/wp-admin/post.php 2 556287 0 0
+/wp-json/elementor/v1/kit-elements-defaults 2 44 0 0
+/wp-admin/options-general.php 10 524107 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldd4z11lfc-k.woff2 1 38940 0 0
+/product/portable-air-conditioner-fan-500-ml-water-tank-usb-personal-cooler/ 2 102236 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/rubik-ijwkbxyifdniv7ndrxyi0a.woff2 1 9364 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlm21lvgdeoceg.woff2 1 5956 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxigyp8kv8jhgfvrlptufntakpy.woff2 1 5364 0 0
+/wp-json/wc-analytics/orders 4 132 0 0
+/wp-content/uploads/2025/05/Ha1b044351c5a49ca9b294d19209b3ccb1.jpg_720x720q50-400x457.avif 3 26448 0 0
+/wp-json/ 2 1664628 0 0
+/wp-json/wc-admin/onboarding/profile 1 243 0 0
+/wp-json/jetpack/v4/connection 1 141 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/rubik-ijwebxyifdniv7nenxo61f3f.woff2 1 13676 0 0
+/product/multifunctional-non-stick-mini-rice-cooker/ 1 51531 0 0
+/wp-content/uploads/2025/05/S40edcf887edb41bb8c19496c33654750M.jpg_960x960q75.jpg_-150x150.avif 1 2573 0 0
+/flowing-serpentines/ 2 80400 1 0
+/terms-of-service/ 2 69807 1 1
+/wp-json/elementor/v1/globals 2 650 0 0
+/wp-content/uploads/2025/05/S40bf2991667e455a940c5d2cddb56194P.jpg_960x960q75.jpg_-300x300.avif 1 3245 0 0
+/privacy-policy/ 5 146343 1 0
+/product-category/baby-care/ 5 167783 1 1
+/compare/ 2 74677 1 1
+/in-the-heart-of-valencia/ 2 80329 2 2
+/shipping-policy/ 5 181254 1 0
+/wp-content/uploads/2025/05/S1383af6f458b4b58917bce234086b31dZ.jpg_960x960q75.jpg_-150x150.avif 1 4986 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlcz7z11lfc-k.woff2 1 39252 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxiayp8kv8jhgfvrjjlme0tmmpkzsq.woff2 1 5720 0 0
+/wp-content/uploads/ 1 10805 0 0
+/wp-sitemap.xml 6 1626 6 6
+/product/electric-cooking-pot-1-8l/ 10 521344 0 1
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlcz7z1jlfc-k.woff2 1 5432 0 0
+/comments/feed/ 2 720 0 2
+/wp-content/plugins/ 1 0 0 0
+/wp-content/uploads/2025/05/S384000fa10494b2595f98bcbbf65fb51X.jpg_960x960q75.jpg_-400x457.avif 12 98712 0 0
+/wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2 1 106112 0 0
+/shop/page/2/ 11 171989 0 0
+/wp-content/plugins/woocommerce/assets/fonts/star.ttf 1 1512 0 0
+/wp-content/uploads/2025/05/S40bf2991667e455a940c5d2cddb56194P.jpg_960x960q75.jpg_-768x768.avif 1 8120 0 0
+/product/%f0%9d%90%80%f0%9d%90%9d%f0%9d%90%a3%f0%9d%90%ae%f0%9d%90%ac%f0%9d%90%ad%f0%9d%90%9a%f0%9d%90%9b%f0%9d%90%a5%f0%9d%90%9e-%f0%9d%90%ab%f0%9d%90%9e%f0%9d%90%9c%f0%9d%90%a1%f0%9d%90%9a%f0%9d%90%ab/ 1 52119 0 0
+/wp-content/uploads/2025/05/S40bf2991667e455a940c5d2cddb56194P.jpg_960x960q75.jpg_-600x600.avif 3 18897 0 0
+/contact-information/ 8 265039 0 1
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxiayp8kv8jhgfvrjjlme0tdmpkzsq.woff2 1 41984 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlfj_z11lfc-k.woff2 1 39192 0 0
+/wp-json/wc-admin/plugins/active 1 223 0 0
+/refund-and-return-policy/ 6 213768 0 1
+/wp-content/uploads/2025/05/S5a574032c70b4365a23382a5c47ec3a2t.jpg_220x220q75.jpg_.avif 2 8686 0 0
+/contact-us/ 4 145578 1 1
+/wp-json/wc-analytics/admin/notes 6 132 0 0
+/wp-content/uploads/2025/05/S62239c2a815849298aac387d5bf57e1bU.jpg_960x960q75.jpg_.avif 1 18179 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlfj_z1jlfc-k.woff2 1 5508 0 0
+/product/%e0%a7%a7-%e0%a6%aa%e0%a6%bf%e0%a6%b8-%e0%a6%ab%e0%a7%87%e0%a6%b8-%e0%a6%b8%e0%a7%8d%e0%a6%95%e0%a7%8d%e0%a6%b0%e0%a6%bf%e0%a6%ae/ 11 541522 1 1
+/wp-content/uploads/2025/05/S62239c2a815849298aac387d5bf57e1bU.jpg_960x960q75.jpg_-400x457.avif 2 30062 0 0
+/wp-content/plugins/woocommerce/assets/fonts/star.woff 1 1304 0 0
+/product/mini-electric-boom-blender-950w-450-ml/ 4 209375 1 0
+/wp-content/uploads/elementor/google-fonts/fonts/rubik-ijwkbxyifdniv7nmrxyi0a.woff2 2 24776 0 0
+/wp-content/plugins/pro-elements/assets/ 1 2688 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldz8z1jlfc-k.woff2 1 5524 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmv1pvfteoceg.woff2 1 45300 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlbt5z11lfc-k.woff2 1 38192 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxigyp8kv8jhgfvrlptucxtakpy.woff2 1 36136 0 0
+/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff2 2 12976 0 0
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlcz7z1xlfq.woff2 3 23448 0 0
+/product/bathroom-shower-helping-handle-safety-grip-anti-slip-support-1/ 8 425424 0 0
+/wp-json/cartflows-pro/v1/flow-analytics/ 15 2034 0 1
+/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxigyp8kv8jhgfvrlptuchta.woff2 1 7484 0 0
+/wp-content/uploads/2025/05/Sa608382ef6e2488c9b822f49250e3295n.jpg_960x960q75.jpg_-300x300.avif 1 16446 0 0
+/wp-content/uploads/2025/05/S40edcf887edb41bb8c19496c33654750M.jpg_960x960q75.jpg_.avif 2 13100 0 0
+/ethimo-mountain-style/ 2 87665 0 2
+/wp-json/wc/v3/orders 1 33 0 0
+/wp-admin/themes.php 4 99104 0 0
+/product/electric-egg-beater-and-mixer-for-cake-cream/ 2 103421 0 1
+/wp-content/uploads/2025/05/Ha1b044351c5a49ca9b294d19209b3ccb1.jpg_720x720q50-600x600.avif 1 12233 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+2K-5K 1994
+0-44 3000
+44-100 3597
+500-1K 3119
+100-500 3998
+1K-2K 2048
+5K+ 11002
+END_FILESIZE

@@ -1,0 +1,1222 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202507 will be lost/reset.
+# Last config file used to build this data file was /home/acharmel/tmp/awstats/ssl/awstats.nronlineshop.acharmela.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2061                
+POS_TIME 2745                
+POS_VISITOR 20441               
+POS_DAY 29472               
+POS_DOMAIN 3670                
+POS_LOGIN 4431                
+POS_ROBOT 4586                
+POS_WORMS 5418                
+POS_EMAILSENDER 5549                
+POS_EMAILRECEIVER 5692                
+POS_SESSION 29733               
+POS_FILESIZE 41948               
+POS_SIDER 29942               
+POS_FILETYPES 5827                
+POS_DOWNLOADS 6154                
+POS_OS 6223                
+POS_BROWSER 6598                
+POS_SCREENSIZE 8051                
+POS_UNKNOWNREFERER 8125                
+POS_UNKNOWNREFERERBROWSER 9817                
+POS_ORIGIN 10610               
+POS_SEREFERRALS 10752               
+POS_PAGEREFS 10931               
+POS_SEARCHWORDS 11210               
+POS_KEYWORDS 11362               
+POS_MISC 2407                
+POS_ERRORS 11421               
+POS_CLUSTER 4287                
+POS_SIDER_404 11635               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250801001104 227 53580 12982398554744
+FirstTime 20250725132156
+LastTime 20250731221820
+LastUpdate 20250801114126 227 0 226 0 0
+TotalVisits 258                 
+TotalUnique 213                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 228                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 184 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 134 170 3615832 73 92 1468826
+1 49 167 11144110 57 103 6793536
+2 34 304 20940280 101 253 21543516
+3 65 130 6488484 65 118 2779157
+4 98 366 16528603 49 60 2991745
+5 62 399 18414291 53 83 2865974
+6 111 349 12802693 72 95 1903469
+7 109 321 13312306 129 179 8047653
+8 26 90 2587284 101 167 1502239
+9 84 291 14757120 47 74 2009942
+10 103 337 12854675 122 299 10456885
+11 143 379 21020576 82 210 13332528
+12 124 202 4743346 60 76 654122
+13 61 163 4249236 192 266 2073609
+14 249 730 24186180 102 226 2564501
+15 129 466 17064596 76 197 2992553
+16 110 332 8052539 64 161 1630792
+17 75 194 5035965 51 81 3916914
+18 797 1009 63114378 101 118 15961360
+19 146 182 22395793 52 55 4078656
+20 13 45 2023437 35 38 3511511
+21 24 25 211931 40 47 1909527
+22 17 20 292215 41 45 159231
+23 26 134 5658351 37 49 1526663
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 35
+gb 856 1121 85675655
+nz 478 1204 43588390
+in 406 957 28952390
+bd 368 848 34926850
+us 304 1286 59893505
+hu 200 494 16601293
+nl 24 155 7830639
+ru 21 108 4166252
+th 19 59 2951618
+hk 15 90 4120161
+de 15 55 2129291
+ao 10 80 3957326
+cn 8 40 1974238
+bg 8 11 88211
+jp 8 42 2041609
+ir 7 39 1934485
+cl 6 42 2001432
+kz 5 36 1920786
+uz 5 39 1963921
+ie 4 39 2912440
+eg 3 33 1240962
+za 3 3 31872
+ro 2 2 27832
+se 2 3 34862
+ca 2 2 326496
+tw 1 1 13247
+cz 1 2 18132
+ua 1 1 13908
+mt 1 1 13920
+ge 1 3 46700
+eu 1 1 592
+be 1 3 38790
+au 1 2 24039
+it 1 2 22773
+vn 1 1 9268
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 18
+facebookexternalhit/ 362 30892703 20250731222207 24
+crawl 304 16501638 20250731184808 1
+Googlebot/ 179 1381105 20250731161318 12
+AdsBot\-Google[\x20]\( 22 403709 20250731113838 0
+Googlebot\-Image/ 20 2847625 20250731114421 0
+bot[\s_+:,\.\;\/\\-] 11 264 20250731173410 11
+Go\-http\-client/ 10 54588 20250726102515 0
+no_user_agent 10 561707 20250727191558 0
+unknown 5 120 20250731141048 5
+scrapy 4 37113 20250731105515 0
+Applebot/ 4 96 20250727204355 4
+bingbot/ 2 48 20250731231720 2
+scanner 2 1172 20250725132239 0
+Dalvik/ 2 22526 20250728010100 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 18542 20250729003516 0
+YandexBot/ 1 12381 20250727191301 0
+Adsbot 1 9253 20250731113755 0
+curl 1 9272 20250729065448 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+svg 2 5264 0 0
+jpg 362 58957819 0 0
+webp 724 14018850 0 0
+ttf 8 0 0 0
+css 1277 11250888 0 0
+js 1254 18056263 0 0
+Unknown 1928 83141800 0 0
+env 1 12379 0 0
+woff 56 2106632 0 0
+jpeg 120 33278606 0 0
+woff2 261 27982428 0 0
+html 535 7213854 0 0
+png 277 55469102 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 0 14 336
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 20
+android 117 9
+winphone 41 5
+androidnougat 1 1
+linuxdebian 1 1
+macosx11 4 4
+android12 96 6
+macosx14 1 1
+androidmarshmallow 201 30
+win10 2714 1242
+android10 1540 591
+linuxubuntu 98 21
+Unknown 221 59
+macosx9 2 2
+win7 175 25
+ios_ipad 1 1
+linux 1071 536
+macosx15 94 23
+ios_iphone 424 231
+win8.1 2 0
+androidpie 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 69
+msie10.0 41 5
+chrome138.0.7204.93 37 5
+chrome101.0.0.0 1 1
+chrome108.0.0.0 4 4
+firefox38.0 2 0
+chrome135.0.0.0 78 11
+Unknown 127 21
+chrome33.0.1750.152 1 1
+firefox85.0 1 1
+chrome52.0.2717.98 3 3
+opera105.0.0.0 1 1
+chrome117.0.0.0 9 7
+firefox120.0 22 22
+chrome 8 8
+msie9.0 35 2
+firefox113.0 15 1
+netscape5.0 19 11
+chrome114.0.0.0 96 6
+chrome114.0.5775.194 92 16
+chrome132.0.0.0 73 10
+firefox83.0 1 1
+chrome84.0.4147.89 2 2
+chrome105.0.0.0 2 1
+safari16.6.1 38 5
+safari17.2 216 200
+chrome131.0.0.0 47 9
+chrome138.0.0.0 3217 1405
+chrome115.0.5810.222 2 1
+mozilla 11 9
+iphone 2 1
+chrome97.0.4692.71 1 1
+chrome96.0.4664.110 11 2
+safari17.4.1 1 1
+chrome116.0.0.0 533 126
+safari18.1.1 2 1
+chrome137.0.0.0 189 64
+chrome104.0.0.0 72 10
+chrome130.0.0.0 173 16
+chrome76.0.3809.111 1 1
+edge12 731 637
+chrome138.0.7204.162 117 9
+safari 132 21
+chrome56.0.2924.87 9 3
+chrome66.0.3359.181 6 6
+chrome71.0.3578.99 1 1
+chrome99.0.4844.51 15 2
+chrome92.0.4515.159 37 4
+chrome128.0.0.0 3 3
+chrome47.0.2526.83 3 3
+firefox59.0 40 4
+chrome138.0.7204.23 41 6
+sonyericsson 1 1
+firefox128.0 1 1
+firefox124.0 6 6
+chrome137.0.7151.119 155 29
+chrome116.0.5845.180 72 10
+chrome123.0.0.0 5 5
+firefox141.0 47 4
+chrome134.0.0.0 1 1
+firefox114.0 1 1
+chrome47.0.2526.106 4 4
+chrome45.0.2454.85 117 18
+firefox137.0 7 4
+chrome98.0.4758.102 23 3
+chrome122.0.0.0 2 2
+firefox126.1 2 0
+firefox117.0 3 3
+chrome72.0.3626.119 1 1
+safari13.0.3 36 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 20
+WhatsApp/2.23.20.0 20250731094454
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko;_Mozilla/5.0,_Google-AdWords-Express)_Chrome/137.0.7151.119_Safari/537.36 20250731113706
+[FBAN/FB4A;FBAV/523.0.0.39.61;FBBV/766987302;FBDM/{density=1.6875,width=720,height=1612};FBLC/en_Qaau_US;FBRV/770635516;FBCR/;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/V2310;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250731021450
+okhttp/4.9.2 20250726052503
+Mozilla/5.0_(compatible;_OpenDirScraper/1.0) 20250727201303
+Python/3.13_aiohttp/3.12.13 20250725202455
+Mozilla/5.0_(compatible) 20250726050002
+Mozilla/5.0,_Google-AdWords-Express 20250731113703
+Google-Adwords-DisplayAds 20250731114346
+SonyEricssonK550i/R1JD_Browser/NetFront/3.3_Profile/MIDP-2.0_Configuration/CLDC-1.1 20250726052155
+Mozilla/5.0 20250727144009
+Mozilla/5.0_zgrab/0.x 20250728151615
+Mozilla/5.0_researchscan.comsys.rwth-aachen.de 20250731133329
+[FBAN/FB4A;FBAV/523.0.0.39.61;FBBV/766987302;FBDM/{density=1.6875,width=720,height=1612};FBLC/en_US;FBRV/770742157;FBCR/;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/V2310;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250731113627
+Mozilla/5.0_(MeeGo;_NokiaN950-00/00)_AppleWebKit/534.13_(KHTML,_like_Gecko)_NokiaBrowser/8.5.0_Mobile_Safari/534.13 20250726150026
+Mozilla/5.0_(en-us)_AppleWebKit/537.36(KHTML,_like_Gecko;_Google-Adwords-DisplayAds-WebRender;)_Chrome/137.0.7151.119Safari/537.36 20250731114226
+Google-Ads-Creatives-Assistant 20250731113832
+Google-Safety 20250730235626
+WhatsApp/2.2528.4_W 20250730115110
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250727013257
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 9
+WhatsApp/2.2528.4_W 20250730115110
+Google-Adwords-DisplayAds 20250731114346
+Google-Safety 20250730235626
+Python/3.13_aiohttp/3.12.13 20250725202455
+Google-Ads-Creatives-Assistant 20250731113832
+[FBAN/FB4A;FBAV/523.0.0.39.61;FBBV/766987302;FBDM/{density=1.6875,width=720,height=1612};FBLC/en_US;FBRV/770742157;FBCR/;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/V2310;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250731113627
+okhttp/4.9.2 20250726052503
+[FBAN/FB4A;FBAV/523.0.0.39.61;FBBV/766987302;FBDM/{density=1.6875,width=720,height=1612};FBLC/en_Qaau_US;FBRV/770635516;FBCR/;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/V2310;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250731021450
+WhatsApp/2.23.20.0 20250731094454
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 599 939
+From1 0 30
+From2 9 16
+From3 6 7
+From4 2175 5813
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com 9 11
+google_com 0 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+https://l.facebook.com 3 3
+https://acharmela.com:2083 2 2
+https://dbid.gov.bd 1 1
+https://cpanel.nronlineshop.com/js/lkk_ch.js 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 11
+500 86 59196173
+403 54 67068
+401 18 937
+308 1 97
+400 3 156
+405 4 1136382
+419 6 12504
+302 309 65123
+404 1460 3103282
+206 1 0
+301 18 14310
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 228
+/sitemap.xml.gz 1 -
+/home/section/home_categories 3 -
+/favicon.png 2 -
+//nronlineshop.com/public/frontEnd/js/mobile-menu-init.js 3 -
+/sellers.json 1 -
+/9XgxmrM3 2 -
+/product/tws-m19-earbuds 3 -
+//www.nronlineshop.acharmela.com/public/frontEnd/js/bootstrap.min.js 3 -
+/SrBkPK64 2 -
+/kXMGtQpC 2 -
+/public/assets/img/logo.png 1 -
+/app-ads.txt 1 -
+/public/uploads/default/user.png 243 https://nronlineshop.com/customer/orders
+//www.nronlineshop.acharmela.com/public/frontEnd/js/wow.min.js 3 -
+/lander/sberchat5v4_tds_newcrm_038-vnutr_1721815245/index.php 2 -
+//www.nronlineshop.acharmela.com/public/frontEnd/js/script.js 3 -
+/old 1 -
+/page/admin@nronlineshop.com 2 https://nronlineshop.acharmela.com/page/refund-&-return-policy
+/4gpzSvhY 2 -
+/ad 1 -
+/info.php 3 -
+/n5cw4Z3Y 2 -
+/sbr 2 -
+/zMmL28CN 2 -
+/admin@nronlineshop.com 3 https://nronlineshop.acharmela.com/
+/.vscode/sftp.json 3 -
+/9LBgkTzq 2 -
+/qJYNKtCd 2 -
+/p3y69 2 -
+/admin/logi 1 -
+/public/uploads/all/CbsqV7zdL2W8qLbRiKTfq1mlCS2QWFc4yGLuOB5q.jpg 1 -
+/telescope/requests 3 -
+/nqw80 2 -
+//nronlineshop.acharmela.com/public/frontEnd/js/jquery-3.7.1.min.js 3 -
+/product/jbl-wireless-music-and-gaming-headphone-with-micro-sd-mp3-player 1 -
+/SyhZkyvD 2 -
+//nronlineshop.acharmela.com/public/frontEnd/js/wow.min.js 3 -
+/public/assets/css/custom-style.css 1 -
+/about 3 -
+//nronlineshop.com/public/frontEnd/js/jquery-3.7.1.min.js 2 -
+/CMdTKBx3 2 -
+/YWy6BPtM 2 -
+/lander/sberchat5v4_tds_newcrm_017-ec_register-_1730370309/index.php 2 -
+/wp-plain.php 1 www.google.com
+/sKmcMfjD 2 -
+/wp-content/themes/seotheme/db.php 1 www.google.com
+/customer/admin@nronlineshop.com 2 https://nronlineshop.acharmela.com/customer/login
+/3ds.php 2 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 3 -
+/%3FMA 2 -
+/Kd67Fq1x 2 -
+/tink_chat 2 -
+/cart/addtocart 2 -
+/cart/updateQuantity 2 -
+/home/section/auction_products 3 -
+/5jshCV 2 -
+/brands 1 -
+/@vite/env 3 -
+/public/uploads/all/f9SzxKmFf3qBUimYBNdWcEo2hkbjqFlkyiGDhvEs.png 1 -
+/public/uploads/all/4fjavdmkNJCdDEdXRX07bwK005LbdA9bmMD7T1MB.jpg 1 -
+/sberbank-quiz-v2 2 -
+/.DS_Store 3 -
+/j26HRfdD 2 -
+/zxDLJZ 2 -
+/vNyFhhL5 2 -
+/public/uploads/all/OSfxyulQCPvoFIDrmrRP0dcqGEQJHkWVLHZzcREn.jpg 1 -
+/home/section/best_selling 2 -
+/lander/sberchat5v4_tds_newcrm_028-vnutr/index.php 2 -
+/.well-known/traffic-advice 5 -
+/xmlrpc.php 8 -
+/ads.txt 1 -
+/admi 1 -
+/public/uploads/all/fs4ea1KyWjfAlLwDp6tkMne4aqQ42LPGkylUhPtv.webp 1 -
+//www.googletagmanager.com/gtm.js 9 -
+/wp-content/plugins/woocommerce-refund-and-exchange/readme.txt 1 -
+/users/login 4 https://www.google.com/
+/admin/loging 1 -
+/28kxhS 2 -
+//nronlineshop.acharmela.com/public/frontEnd/js/owl.carousel.min.js 3 -
+/server 3 -
+/customer/auth/login 2 -
+/cabinet 2 -
+/%3FSA 2 -
+/mQ2bDkV4 2 -
+/cart/show-cart-modal 3 -
+/public/uploads/all/IIMQDdnABpdjqmUh5eMBqDFualUVjy1WDlIeHutn.jpg 1 -
+/contactus 1 -
+/product/xt02-wireless-bluetooth-selfie-stick 1 -
+/3ds1633693954432212 2 -
+/NWJs6k27 2 -
+/v2/_catalog 3 -
+/product/t900-ultra-smart-watch 2 -
+/s/63e2130323e2834323e2136313/_/ 3 -
+/admin 15 -
+/%3FND 2 -
+/product/g63-smart-light-clock 1 -
+/product/admin@nronlineshop.com 2 https://nronlineshop.acharmela.com/product/airpods-pro2-3month-vietnam
+/lander/sber-fix 2 -
+/q1gpDhK4 2 -
+/5fH7sTTJ 2 -
+/product/gently-exfoliates-for-smooth-radiant-skin 2 https://nronlineshop.com/campaign/1000-manusher-cul-paka-cul-pra-cule-khuski-smszar-smadhan-kreche-mehedee-heyar-pzak
+/product/variant_price 2 -
+/wp-login.php 2 https://www.google.com/
+/settings.yaml 2 -
+/GJcjXsGY 2 -
+/wp-content/plugins/include.php 1 -
+/dwztdbhG 2 -
+/prVdNCXD 2 -
+//www.nronlineshop.acharmela.com/public/frontEnd/js/owl.carousel.min.js 3 -
+/public/uploads/all/4YkPz5i6pPfljf7KiNDqQG6Sz4wYN8KOyngWEkuL.webp 1 -
+/lander/sberchat5v4_tds_newcrm_017-ec_register-_1732091122/index.php 2 -
+/BSDLw5Mp 2 -
+/public/uploads/all/PH1Inh1t7hrsWWRlNnaF2h3hEKfji6AYCWCHzhni.jpg 1 -
+/sFRWyHsz 2 -
+//www.nronlineshop.acharmela.com/public/frontEnd/js/jquery-3.7.1.min.js 3 -
+/public/uploads/all/mt3uU0NKSY1OkKyTNTsQv7TpBl5yYGIogMzt1WAs.webp 1 -
+/meta.json 1 -
+//www.nronlineshop.acharmela.com/public/backEnd/assets/js/toastr.min.js 3 -
+/cart 1 -
+//www.nronlineshop.acharmela.com/public/frontEnd/js/mobile-menu.js 3 -
+/n6PdMqLz 2 -
+/public/assets/img/placeholder-rect.jpg 1 -
+//nronlineshop.acharmela.com/public/frontEnd/js/bootstrap.min.js 3 -
+//nronlineshop.com/public/frontEnd/js/owl.carousel.min.js 3 -
+//www.nronlineshop.acharmela.com/public/frontEnd/js/wsit-menu.js 3 -
+/6bXX29bt 2 -
+/js/twint_ch.js 2 -
+/sberchat008-prilca 2 -
+/home/section/best_sellers 2 -
+/83036323 2 -
+/public/uploads/all/WaENGZ1nXSWaOvHYdy4MlfBs4aQSCFxwTg8NGr5M.png 1 -
+/public/assets/img/avatar-place.png 1 -
+//nronlineshop.acharmela.com/public/frontEnd/js/mobile-menu-init.js 3 -
+//nronlineshop.com/public/frontEnd/js/bootstrap.min.js 3 -
+/flash-deal/flash-sale-84ExG 2 -
+/YRWnWHy7 2 -
+//nronlineshop.com/public/frontEnd/js/script.js 3 -
+/public/uploads/all/5M61qM9Yi3zGzsAkQk4z6VQbkT0u29vaY26FcIO9.jpg 6 -
+/lander/sberquiz-2223-3 2 -
+/product/cannotbe 1 https://www.nronlineshop.com/product/neckband-sa-s404-220h
+/public/frontEnd/css/owl.video.play.png 2 https://nronlineshop.acharmela.com/public/frontEnd/css/owl.carousel.min.css
+/product/5m-app-phantom-ic-rgb-led-neon-strip-light 2 https://www.google.com/
+/config.php 2 -
+/admin/log 1 -
+/9hs69 2 -
+/server-status 3 -
+/public/backEnd/assets/images/bg-pattern-2.png 40 https://nronlineshop.com/public/backEnd/assets/css/app.min.css
+/product/new-leather-design-slingbag 1 -
+/wp-content/themes/include.php 1 -
+/public/uploads/product/1752382963-untitled-design-17-1000x1000.png 6 https://nronlineshop.com/customer/checkout
+/language 2 -
+/merchant/code 2 -
+/sitemap_index.xml 1 -
+/actuator/env 3 -
+/merchant/z/payment 2 -
+/site/admin@nronlineshop.com 2 https://nronlineshop.acharmela.com/site/contact-us
+//www.facebook.com/profile.php 6 -
+/wp-includes/images/include.php 1 -
+/wp-content/plugins/WordPressCore-1/include.php 1 -
+/.env 3 -
+/debug/default/view 3 -
+/nfvX2mRq 2 -
+/KLFzmbdm 2 -
+/public/uploads/all/6d9au6dh3dtX21UmXhL7hfCu27DwD4MHA9pp8hKO.jpg 1 -
+/product/most-qute-baby-bag 2 -
+/product/one-handed-gaming-keyboard 2 -
+//nronlineshop.com/public/frontEnd/js/mobile-menu.js 3 -
+/fpyB8SZ3 2 -
+/wp-admin/setup-config.php 338 -
+/page/terms-of-service 1 -
+/js/lkk_ch.js 2 -
+/home/section/featureds 3 -
+/wp-sitemap.xml 1 -
+/sitemap.txt 1 -
+//nronlineshop.acharmela.com/public/frontEnd/js/wsit-menu.js 3 -
+/config.json 3 -
+/xv2qwZ3s 2 -
+/public/assets/js/intlTelutils.js 2 -
+/wp-admin 1 https://www.google.com/search
+/public/uploads/all/jNMuccUra4yvaVjTROHGjTNAJCIPhwPQizxVmBSX.jpg 1 -
+/public/uploads/product/1752335197-66068739bf48c_800x800.jpg 8 https://nronlineshop.com/customer/checkout
+/adm 1 -
+/users/registration 1 https://www.google.com/
+//nronlineshop.acharmela.com/public/frontEnd/js/script.js 3 -
+/order 1 -
+/3vt4yTCT 2 -
+//nronlineshop.acharmela.com/public/frontEnd/js/mobile-menu.js 3 -
+/lander/sber 2 -
+/llms.txt 1 -
+/gpLFR5sr 2 -
+/sberbank-quiz-4 2 -
+/product/jbl-p66-wireless-bluetooth-headphone-blue-teNC1j 1 -
+/product/ulisii-r03-wireless-neckband-headphone 4 -
+/wp-content/plugins/redirection/readme.txt 1 -
+/public/assets/css/vendors.css 1 -
+/public/assets/img/app.png 1 -
+/home/section/featured 4 -
+/cart/removeFromCart 3 -
+/public/uploads/all/644ygDwb6p1uxLzXhOyiw6WlWYgF30VhejUaj0nW.jpg 1 -
+/giiiscei.php 1 www.google.com
+/262LBNFp 2 -
+/wordpress 1 -
+/public/uploads/all/IolbsPZbbAxqBshMWnXg119ObI2GToVlx5A1Z77s.jpg 1 -
+//www.nronlineshop.acharmela.com/public/frontEnd/js/mobile-menu-init.js 3 -
+//nronlineshop.com/public/frontEnd/js/wow.min.js 3 -
+/public/assets/img/play.png 1 -
+/CtdJ76V 2 -
+/lander/testsberv4-copy--1 2 -
+/_all_dbs 3 -
+/wp-content/plugins/woocommerce-products-filter/readme.txt 1 -
+/php-cgi/php-cgi.exe 3 -
+/n4TWwtZ4 2 -
+//cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js 9 -
+/BNp8hDTk 2 -
+/public/uploads/all/BP4TrAUBV2w6qv6APJZx9CrE1SnYyxUFzSkA5XCZ.png 2 -
+/login.action 3 -
+//nronlineshop.com/public/frontEnd/js/wsit-menu.js 3 -
+/wordpress/wp-admin/setup-config.php 334 -
+/public/uploads/all/RUJI82DlOO1isQTMy6b4aqmvzrDDbhP0ZAFSEwjC.png 1 -
+/public/assets/css/aiz-core.css 1 -
+/yZdx79 2 -
+/product/t-wolf-t20-wired-rgb-gaming-keyboard 5 -
+/admin/lo 1 -
+//nronlineshop.acharmela.com/public/backEnd/assets/js/toastr.min.js 3 -
+/5/130/narodanimat-1/index.html 2 -
+//nronlineshop.com/public/backEnd/assets/js/toastr.min.js 3 -
+//cdn.js 9 -
+/product/56-led-indoor-outdoor-solar-sensor-light-BpIyZL 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 228
+51.79.160.196 836 946 77831714 20250725195846
+103.16.25.131 288 639 26035198 20250726213439
+119.30.41.229 214 341 17002515 20250731121716
+103.16.25.133 173 453 12321185 20250725161717
+103.190.74.86 166 216 6514083 20250731021447
+59.152.4.189 84 193 4195532 20250725181525
+103.183.16.69 83 234 7052367 20250725150444
+103.166.59.147 64 71 963187 20250730115321
+37.111.212.213 55 87 2243198 20250729070942
+103.25.251.230 45 95 4687743 20250729152853
+37.111.243.48 45 128 4936016 20250728065131
+37.111.245.73 37 175 5634919 20250725162527
+104.28.208.84 36 89 1969452 20250730205809
+37.111.245.38 36 43 1682442 20250726044114
+103.166.59.149 29 142 4041591 20250730102433
+104.28.208.85 23 25 429872 20250725180758
+104.28.240.85 21 37 353808 20250725180322
+203.223.89.41 19 59 2951618 20250726140046
+37.111.206.230 17 17 122479 20250729150956
+119.148.32.98 16 112 5815894 20250729074315
+103.166.59.146 15 16 157105 20250730161257
+103.166.59.148 15 75 3117168 20250728102354
+59.153.100.221 11 43 1991195 20250728065345
+74.125.215.168 11 29 643307 20250731114345
+89.248.171.23 10 72 3841694 20250726192848
+103.4.250.75 2 4 3631 20250725132205
+149.57.180.26 1 1 13299 20250725201159
+162.243.51.137 5 5 46487 20250727201303
+154.210.110.17 5 40 1978657 20250726054646
+77.220.195.131 5 39 1963921 20250726050833
+74.125.216.171 0 1 33584 
+5.251.243.255 5 36 1920786 20250731012712
+23.27.145.45 1 1 9289 20250729155336
+23.27.145.138 1 1 9291 20250727151220
+52.112.74.61 1 3 32872 20250729072719
+149.57.180.40 1 1 13302 20250725175007
+13.217.166.94 6 41 1992598 20250726051026
+5.133.192.127 1 2 25588 20250731221820
+37.111.212.186 3 3 27807 20250728134136
+72.14.199.231 4 34 693473 20250725145518
+35.88.187.238 1 1 9271 20250727154552
+93.123.109.7 1 1 12379 20250727144755
+128.199.182.55 1 1 1158 20250725132156
+23.27.145.241 1 1 9292 20250726192912
+188.241.80.64 1 1 13908 20250726054833
+173.252.95.12 5 36 1920762 20250731074030
+192.178.10.8 1 1 9254 20250731113832
+74.125.212.162 1 4 451197 20250730235626
+107.172.195.23 2 4 3643 20250725132201
+93.71.103.137 1 2 22773 20250726055436
+23.27.145.140 1 1 9298 20250726150047
+91.92.22.229 1 4 4221 20250725132424
+3.146.111.124 1 1 9284 20250727183411
+149.57.180.88 1 1 9295 20250729173318
+23.27.145.13 1 1 9297 20250729202545
+18.224.192.118 1 1 12384 20250728151615
+104.252.191.199 1 1 12921 20250725135629
+5.255.118.151 1 1 9283 20250726071152
+87.236.176.239 0 1 14750 
+103.4.250.81 2 2 25760 20250725135633
+103.15.42.200 1 24 213401 20250730235700
+23.27.145.139 1 1 9299 20250726154943
+128.140.51.187 1 1 9273 20250728115825
+54.198.55.229 1 1 65536 20250726050002
+23.249.161.76 4 39 1953835 20250726050150
+103.124.55.68 2 11 426943 20250728102342
+74.125.212.160 2 8 749634 20250730235626
+104.28.208.87 0 3 12947 
+72.14.199.162 0 1 915 
+66.220.149.11 4 39 2925159 20250731021538
+149.57.180.64 1 1 9267 20250727154807
+91.99.127.48 1 1 595 20250725132213
+5.101.64.6 5 36 1920848 20250726202956
+13.220.1.8 0 1 14750 
+149.34.248.71 1 2 18138 20250726071152
+173.252.127.6 1 15 150824 20250731021624
+139.59.174.68 1 2 24039 20250728072346
+104.232.199.121 1 4 4224 20250725132424
+23.27.145.121 1 1 9293 20250727160629
+143.137.166.75 1 2 28672 20250726052413
+66.220.149.10 1 1 12238 20250731021531
+154.210.96.143 5 40 1978669 20250726045616
+104.164.173.219 1 1 12885 20250725135628
+51.159.102.239 5 38 1950306 20250727181826
+64.23.218.208 1 1 1144 20250725132203
+74.125.212.161 0 3 46915 
+185.241.208.52 1 1 9279 20250727223015
+54.167.142.210 5 37 1935588 20250726101956
+149.57.180.11 1 1 9291 20250726150014
+138.199.236.196 1 1 592 20250725132215
+37.111.245.6 1 2 18122 20250726135837
+202.173.122.4 5 38 1999031 20250731121033
+23.27.145.144 1 1 13304 20250725170538
+143.110.222.34 1 1 12377 20250730154955
+103.15.42.68 2 11 426945 20250730101902
+206.204.1.192 4 36 1910678 20250729103224
+3.140.182.19 1 1 12381 20250726015224
+59.152.2.42 3 29 473851 20250730145020
+103.16.25.128 9 70 3235976 20250730151544
+74.125.215.167 10 25 1375630 20250731114344
+40.80.158.10 5 37 1935698 20250726070806
+185.216.35.74 7 46 2034611 20250726055841
+31.13.103.10 1 1 12117 20250731021702
+34.222.50.184 1 1 13248 20250725213549
+94.159.108.209 1 1 9269 20250730165607
+91.239.206.69 1 3 46700 20250727021721
+192.175.111.254 1 1 164064 20250725141633
+66.249.82.233 2 19 2541163 20250731114205
+23.27.145.66 1 1 9300 20250726193001
+103.187.68.237 5 37 1919344 20250731094627
+176.126.104.119 1 1 13908 20250726045617
+94.102.49.123 6 40 1977845 20250726045553
+138.197.173.183 1 2 24015 20250729193811
+103.196.9.238 1 4 4224 20250725132423
+66.249.82.231 0 21 2903247 
+116.206.126.62 1 2 18137 20250726071152
+44.251.207.51 1 1 9274 20250726172619
+45.74.44.7 6 41 1992568 20250726054536
+68.183.99.135 1 2 24051 20250729061214
+171.244.43.14 1 1 9268 20250726142704
+64.233.173.136 1 3 494121 20250731091358
+45.66.35.21 0 1 8852 
+31.187.78.111 7 42 2006527 20250726045445
+197.193.9.48 3 33 1240962 20250728151645
+74.125.216.169 1 10 117027 20250726054537
+148.251.185.39 0 2 23602 
+37.111.206.208 1 2 18120 20250730040020
+45.132.224.130 1 13 117240 20250727024247
+54.160.129.3 5 40 1978651 20250726061451
+179.61.240.22 6 42 2001432 20250726060634
+59.132.68.79 1 1 0 20250726061009
+64.226.121.15 1 2 28662 20250726064837
+188.214.122.104 1 1 13924 20250726045610
+54.149.212.100 1 1 10840 20250731151231
+195.211.77.142 2 2 1178 20250725132230
+103.4.250.69 2 2 25830 20250725135638
+37.111.245.43 4 36 1910704 20250727084507
+77.243.89.28 1 1 13920 20250726050652
+52.16.245.145 6 36 713231 20250725162230
+72.14.199.160 4 33 3176058 20250731021602
+66.220.149.4 1 1 12118 20250731021612
+91.134.91.17 6 6 71611 20250728135029
+137.226.113.44 2 2 21703 20250731133330
+173.252.127.16 0 1 14750 
+54.90.58.91 6 41 1992589 20250726061751
+64.15.129.102 1 1 162432 20250725141620
+194.36.91.210 0 1 14750 
+72.14.201.159 1 1 8476 20250727142620
+91.84.87.137 5 92 3864112 20250727133835
+23.27.145.181 1 1 13282 20250725201828
+104.164.126.235 1 1 586 20250725132158
+93.174.93.114 6 40 1977797 20250726054747
+64.233.173.164 0 10 60454 
+66.249.82.232 4 21 2026389 20250731114346
+103.130.118.70 6 48 2427440 20250730235634
+74.125.215.169 8 28 313360 20250731114343
+45.66.208.236 1 1 13908 20250726045634
+148.113.202.94 2 2 20111 20250731144927
+216.238.108.250 1 1 14098 20250726070639
+35.91.87.75 1 1 9273 20250727154254
+195.211.77.140 2 2 0 20250725132211
+34.41.118.114 2 35 835831 20250726113345
+104.28.240.86 4 4 37096 20250728032139
+183.134.59.131 4 4 41065 20250729003512
+173.252.127.11 3 38 2912924 20250731014009
+62.204.49.145 5 39 1963929 20250726045735
+104.28.163.230 7 25 583919 20250725175243
+103.150.154.138 1 29 199527 20250731061905
+94.247.172.129 1 1 9274 20250728083933
+52.112.125.8 1 3 32876 20250727113047
+59.132.68.81 1 1 13906 20250726061010
+149.57.180.111 1 1 9297 20250729155225
+173.252.87.10 4 40 2939912 20250731022011
+69.171.251.8 5 41 2942578 20250731021945
+146.70.212.73 1 1 13914 20250726051149
+143.244.168.161 1 1 1154 20250725132200
+185.195.19.194 1 18 172467 20250727021714
+103.15.244.134 1 32 1684026 20250730235623
+210.64.24.100 1 1 13247 20250725202455
+23.27.145.242 1 1 9300 20250727151114
+31.13.115.8 3 38 2900323 20250731021625
+23.27.145.162 2 2 22561 20250727194050
+87.236.176.59 1 1 9290 20250726124013
+44.251.93.240 3 48 3068431 20250726074615
+52.112.49.196 0 1 14750 
+192.227.212.164 1 1 13880 20250726051426
+104.232.194.162 1 1 13917 20250726045605
+31.97.153.61 1 1 13247 20250726033322
+103.4.250.77 1 4 4221 20250725132423
+95.215.0.144 1 1 9301 20250726202950
+59.153.100.209 4 47 2128966 20250729051605
+157.230.106.219 1 2 24047 20250727073401
+173.252.127.14 1 1 12239 20250731014003
+18.246.17.18 3 48 3068356 20250729154440
+149.57.180.56 1 1 9297 20250726155024
+154.28.229.17 1 1 592 20250725132156
+213.209.143.116 6 9 77459 20250727144008
+149.57.180.65 1 1 9291 20250729173040
+23.94.155.52 2 4 130457 20250727024256
+188.245.193.111 1 1 13917 20250726050122
+185.247.137.89 1 1 9299 20250727013255
+196.251.88.64 3 3 31872 20250726150026
+151.115.57.126 1 1 13250 20250725171902
+94.176.80.68 4 36 1910700 20250729103135
+103.84.37.14 10 48 1943457 20250725162328
+54.174.109.174 6 41 1992613 20250726052641
+74.125.215.160 3 7 70634 20250731001106
+128.90.174.50 2 2 27838 20250726053628
+52.34.228.235 2 2 27357 20250726052155
+103.15.42.199 2 11 426943 20250730103343
+149.57.180.86 1 1 9263 20250728230122
+72.14.199.161 0 5 53963 
+104.194.200.66 1 1 13912 20250726054630
+36.255.83.240 3 34 1915036 20250727142622
+64.233.173.166 3 9 326396 20250731000450
+95.173.223.90 1 2 18132 20250726071153
+157.245.68.221 1 2 25593 20250731205447
+46.101.217.141 1 2 24020 20250727184426
+87.236.176.97 0 1 14750 
+103.47.53.61 1 1 9272 20250728094042
+34.235.48.77 1 1 131072 20250726045958
+164.92.252.130 1 2 28003 20250725183748
+34.216.118.74 1 1 9269 20250727005743
+37.111.200.41 1 1 7486 20250730102935
+64.233.173.165 1 7 43344 20250731000450
+103.16.25.132 7 40 1973271 20250726151947
+69.171.249.9 1 1 12119 20250731022041
+185.91.122.40 1 1 9275 20250726133841
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20250725 1370 2443 116847710 50
+20250726 515 1768 78697988 77
+20250727 60 313 12737066 34
+20250728 99 344 13701612 19
+20250729 136 375 16207223 18
+20250730 309 580 14580197 23
+20250731 300 982 58722425 37
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 6
+5mn-15mn 10
+1h+ 8
+15mn-30mn 8
+30mn-1h 5
+30s-2mn 10
+0s-30s 211
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 321
+/ 535 7213854 200 180
+/shipping-charge 93 126734 0 1
+/public/frontEnd/webfonts/fa-brands-400.woff2 87 9180000 1 14
+/public/frontEnd/webfonts/fa-solid-900.woff2 85 12442364 6 3
+/customer/checkout 73 1125574 0 2
+/customer/order-save-draft 65 3417 0 1
+/public/frontEnd/webfonts/fa-regular-400.woff2 61 1465560 2 5
+/admin/products/manage 49 401018 1 1
+/stock-check 44 9843 0 0
+/admin/login 42 47449 13 2
+/admin/dashboard 42 377451 2 2
+/admin/shipping-charge/manage 32 243335 0 1
+/admin/smsgeteway/manage 31 228328 1 3
+/category/gadgets 29 533641 3 3
+/admin/send-sms 29 220348 2 4
+/product/a9-pro-anc-wireless-earbuds-touch-display-best-price-bd 27 496620 3 3
+/customer/login 26 523697 0 0
+/product/neckband-sa-s404-220h 25 309193 13 7
+/product/airpods-pro2-3month-vietnam 24 666553 0 1
+/customer/order-track/result 19 237397 5 2
+/public/backEnd/assets/fonts/feather.woff 17 501500 0 4
+/admin/order/pending 15 180994 0 1
+/livesearch 15 1625 0 0
+/admin/settings/manage 13 96396 0 0
+/public/backEnd/assets/fonts/cerebrisans-medium.woff 13 535964 0 0
+/customer/order-success/50 1 13347 0 0
+/admin/customer/profile 1 7328 0 0
+/admin/users/manage 4 28521 0 0
+/products/mattress-protectors 4 299150 0 0
+/admin/settings/create 1 7213 0 0
+/products/replica 8 896730 0 0
+/category/womens-fashion 7 604326 0 1
+/admin/shipping-charge/1/edit 2 14172 0 0
+/admin/order/process/19563 3 22719 0 0
+/products/lawn 8 896550 0 0
+/products/brooms,-mops-&-sweepers 4 299310 0 0
+/customer/profile-edit 1 8769 0 0
+/products/keyboard 4 298930 0 0
+/products/earrings 8 896790 0 0
+/products/hand-bag 6 601590 0 0
+/admin/order/processing 3 30213 0 0
+/admin/page/7/edit 1 9613 0 0
+/update-version 10 79562 0 0
+/subcategory/mobile-accessories 4 299370 0 0
+/subcategory/womens-sharee 8 897810 0 0
+/products/tablet 4 298890 0 0
+/products/purse 8 896610 0 0
+/products/shirt 8 896610 0 0
+/customer/order-success/51 1 13378 0 0
+/subcategory/man%27s-care 4 299292 0 0
+/public/frontEnd/webfonts/fa-brands-400.ttf 2 0 0 0
+/admin/social-media/manage 9 68497 0 0
+/products/hair-styler 4 298990 0 0
+/products/soap-&-body-wash 4 299170 0 0
+/admin/order/process/69110 3 22803 0 0
+/products/men%27s-body 4 299052 0 0
+/campaign/1000-manusher-cul-paka-cul-pra-cule-khuski-smszar-smadhan-kreche-mehedee-heyar-pzak 1 6809 0 0
+/admin/shipping-charge/3/edit 6 42688 0 0
+/product/airpods-4gen-with-anc-vietnam 2 24864 0 0
+/products/smart-watch 8 896970 0 0
+/admin/subcategories/create 3 22120 0 0
+/products/t-shirt 8 896730 0 0
+/products/talcum-powder 4 299030 0 0
+/products/sunthetic-strap 8 897210 0 0
+/admin/products/generate-slug 10 597 0 0
+/admin/order-status 3 219 0 0
+/get-update-details 4 1115 0 0
+/products/bath-towels 4 298990 0 0
+/products/pump-shoes 8 896910 0 0
+/public/backEnd/assets/libs/summernote/font/summernote.woff2 5 30780 0 0
+/products/tangail 6 601550 0 0
+/admin/order/invoice/44444 1 7948 0 0
+/admin/brands/manage 4 28481 0 0
+/admin/order/all 2 41166 0 0
+/run-update 5 432 0 2
+/admin/subcategories/manage 9 84526 0 0
+/products/body-lotion 4 298990 0 0
+/subcategory/innerwear 6 594650 0 0
+/admin/order/invoice/15709 1 7907 0 1
+/ajax-product-childcategory 12 708 0 0
+/public/frontEnd/webfonts/fa-solid-900.ttf 2 0 0 0
+/products/haire-brush 4 298990 0 0
+/customer/order-success/48 1 13360 0 0
+/products/metal-chain 6 594250 0 0
+/products/wallet 8 896670 0 0
+/products/mouse 4 298870 0 0
+/products/eyeglasses 6 601670 0 0
+/admin/order/invoice/99717 2 16242 0 0
+/products/toothpaste 6 594210 0 0
+/admin/contact/manage 8 58172 0 0
+/subcategory/air-buds 4 301824 0 0
+/products/deshi-boutique 8 897150 0 0
+/admin/pixels/manage 1 7116 0 0
+/admin/page/5/edit 1 9333 0 0
+/ajax-product-subcategory 10 1217 0 0
+/admin/courierapi/manage 3 25619 0 0
+/admin/social-media/4/edit 2 14271 0 0
+/products/bathroom-mirrors 4 299090 0 0
+/products/cable 4 298870 0 0
+/admin/order/cart-content 2 1160 0 0
+/customer/order-success/46 1 13348 0 0
+/products/rice-cooker 4 298990 0 0
+/admin/page/manage 4 30651 0 0
+/admin/brands/create 2 13658 0 0
+/admin/shipping-charge/8/edit 1 6766 0 0
+/customer/order-track 10 343532 1 1
+/cart/remove 1 1377 0 0
+/admin/childcategories/manage 6 81380 0 0
+/products/hair-care 4 298950 0 0
+/site/contact-us 11 362318 0 2
+/products/cleaning 4 298930 0 0
+/products/taant 8 896610 0 0
+/products/lips 4 298850 0 0
+/admin/products/update-deals 1 76 0 0
+/admin/contact/1/edit 4 28083 0 0
+/visitor/reports 1 7466 0 0
+/admin/order/completed 5 102346 0 0
+/subcategory/accessories 8 897690 0 0
+/products/sneakers 8 896790 0 0
+/public/backEnd/assets/fonts/materialdesignicons-webfont.woff2 13 4228172 0 0
+/products/haire-oil 4 298950 0 0
+/.env 1 12379 0 1
+/admin/shipping-charge/6/edit 2 14068 0 0
+/admin/products/save 1 0 0 0
+/products/air-series 4 298970 0 0
+/products/bedroom-furniture 4 299110 0 0
+/subcategory/kitchen-&-dining 4 299410 0 0
+/products/conditioner 4 298990 0 0
+/products/neckband 5 306882 0 0
+/public/backEnd/assets/fonts/cerebrisans-semibold.woff 3 123036 0 0
+/products/sanitary-napkin 6 594410 0 0
+/admin/roles/2/show 1 7458 0 0
+/products/haire-color 4 298990 0 0
+/category/skin-care 4 299474 0 0
+/subcategory/body-&-massage-oils 4 299470 0 0
+/products/living-room-furniture 4 299190 0 0
+/admin/shipping-charge/create 5 34308 0 0
+/products/bluetooth-speaker 4 299110 0 0
+/subcategory/bath 4 299090 0 0
+/admin/order/process/44444 1 7586 0 0
+/products/panties 8 896730 0 0
+/admin/products/11/edit 10 166076 0 2
+/cart/increment 2 2721 0 0
+/products/polo-shirt 8 896910 0 0
+/product/sx9-wireless-microphone 3 41635 0 0
+/admin/users/create 1 7022 0 0
+/admin/order/edit/69110 1 8424 0 0
+/products/perfumed 4 298930 0 0
+/subcategory/clothing 6 602070 0 0
+/admin/categories/manage 9 70736 0 0
+/products/kitchen-&-dining-furniture 4 299370 0 0
+/products/blender-and-juice-maker 4 299230 0 0
+/admin/childcategories/31/edit 1 7401 0 0
+/products/painted-sharee 6 594370 0 0
+/admin/coupon-code/create 1 7566 0 0
+/admin/users/2/edit 2 14177 0 0
+/products/laptop 4 298890 0 0
+/products/pressure-cooker 4 299070 0 0
+/products/y-cloth 8 896730 0 0
+/products/original-brand 8 897150 0 0
+/admin/order/process/99087 2 15784 0 0
+/page/terms-&-conditions 4 312098 0 0
+/products/face 4 298850 0 0
+/products/face-mask-&-packs 4 299190 0 0
+/page/refund-&-return-policy 4 310500 0 0
+/products/sandals 8 896730 0 0
+/admin/order/invoice/99087 1 8167 0 0
+/products/tws-earbuds 4 298990 0 0
+/subcategory/cleaning 4 299170 0 0
+/public/backEnd/assets/fonts/cerebrisans-regular.woff 11 451924 0 0
+/customer/order-success/87 1 8751 0 0
+/subcategory/salwar-kameez 8 897810 0 0
+/admin/subcategories/42/edit 1 7149 0 0
+/admin/permissions/manage 2 20036 0 0
+/subcategory/speaker-microphone 4 299382 0 0
+/product/regrsi-re-ny060-neckband-200-ghntar-bzatari-laif 6 94517 0 1
+/admin/products/3/edit 3 30317 0 0
+/products/heels 8 896610 0 0
+/search 7 55845 3 1
+/admin 1 0 0 0
+/products/makeup-palettes-&-sets 4 299290 0 0
+/cart/decrement 2 2718 0 0
+/products/bed-sheets 4 298970 0 0
+/admin/roles/manage 1 7341 0 0
+/admin/reports/facebook-catelogue 2 13916 0 0
+/public/backEnd/assets/fonts/cerebrisans-bold.woff 12 494208 0 0
+/product/gently-exfoliates-for-smooth-radiant-skin 3 47303 0 0
+/products/makeup-removers 4 299070 0 0
+/products/earphone 4 298930 0 0
+/subcategory/head-phones 5 307464 0 0
+/customer/order-success/54 1 8730 0 0
+/products/desktop 4 298910 0 0
+/products/face-wash 4 298950 0 0
+/.git/config 1 12379 1 1
+/admin/categories/2/edit 1 7043 0 0
+/subcategory/watches 8 897450 0 0
+/customer/orders 13 130842 0 0
+/admin/expensecategories/manage 2 14552 0 0
+/admin/order/incomplete 2 23950 0 0
+/products/ties 6 593970 0 0
+/subcategory/computer-accessories 4 299410 0 0
+/products/mpod-earbuds 6 314630 0 0
+/admin/campaign/7/edit 1 8798 0 0
+/product-feed 3 9780 0 0
+/customer/account 12 115507 0 0
+/customer/order-success/65 1 8744 0 0
+/public/frontEnd/webfonts/fa-v4compatibility.ttf 2 0 0 0
+/customer/order-success/85 1 8775 0 0
+/products/bedding-sets 4 299010 0 0
+/products/adapter 4 298910 0 0
+/products/powerbank 4 298950 0 0
+/products/necklace 8 896790 0 0
+/mobilecart/count 4 84 0 0
+/product/airpods-pro2-non-anc-dubai 7 95639 0 0
+/products/casual-shoes 6 594290 0 0
+/admin/coupon-code/manage 3 21883 0 0
+/products/body-and-skin-care 4 299130 0 0
+/products/loafer 6 601510 0 0
+/subcategory/personal-care 4 299270 0 0
+/products/kota 8 896550 0 0
+/page/privacy-policy 4 312680 0 0
+/admin/tag-manager/manage 1 7028 0 0
+/admin/order/in-courier 4 38036 0 0
+/admin/checkout-content 3 21730 0 0
+/subcategory/furniture 4 299190 0 0
+/admin/orderstatus/manage 1 7779 0 0
+/products/readymade 8 896850 0 0
+/products/women%27s-body-spray 4 299212 0 0
+/products/cleaning-gloves 4 299070 0 0
+/customer/order-success/44 1 13090 0 0
+/customer/order-success/63 1 8792 0 0
+/products/bath-mats 4 298950 0 0
+/products/ring 8 896550 0 0
+/admin/expensecategories/2/edit 1 6872 0 0
+/customer/forgot-verify 1 0 0 0
+/variable-view 4 1807 0 0
+/admin/order/edit/57087 1 8292 0 0
+/admin/order/process/15709 4 30779 0 0
+/products/panjabi 4 298910 0 0
+/category/home-&-lifestyle 4 299622 0 0
+/admin/products/create 11 121543 0 0
+/customer/order-success/61 1 8750 0 0
+/admin/page/6/edit 1 9508 0 0
+/subcategory/haire-care 4 299210 0 0
+/admin/coupon-code/4/edit 1 7655 0 0
+/subcategory/makeup 4 299130 0 0
+/category/mens-fashion 6 595170 0 0
+/public/frontEnd/webfonts/fa-v4compatibility.woff2 2 0 0 0
+/products/bathrobes 4 298950 0 0
+/products/shampoo 4 298910 0 0
+/subcategory/skin-care 4 299190 0 0
+/customer/forgot-password 6 313686 0 0
+/ajax-cart-store 3 210 0 0
+/cart/count 8 6454 0 0
+/product/shirt 1 15062 0 0
+/customer/order-success/64 1 8738 0 0
+/category/cosmetics 6 595034 0 0
+/admin/order/create 1 8329 0 0
+/products/leather-strap 6 594330 0 0
+/admin/products/9/edit 3 28803 0 0
+/admin/fraud-checker 5 3574 0 0
+/products/bras 6 593970 0 0
+/subcategory/eyewear 8 897450 0 0
+/products/hats-&-caps 8 897210 0 0
+/admin/order/cart-product-discount 2 593 0 0
+/products/smart-phone 4 298990 0 0
+/admin/campaign/manage 3 23038 0 0
+/admin/order/invoice/60777 1 7849 0 0
+/public/backEnd/assets/fonts/fa-solid-900.woff2 8 635552 0 0
+/products/party-bag 8 896850 0 0
+/best-deals 7 328934 0 0
+/products/home-office-furniture 4 299190 0 0
+/products/crockeries 4 298970 0 0
+/admin/paymentgeteway/manage 3 23607 0 0
+/products/belt-&-wallet 8 897330 0 0
+/products/nails 4 298870 0 0
+/products/cleaning-buckets-&-tubs 4 299310 0 0
+/admin/shipping-charge/7/edit 2 14380 0 0
+/public/frontEnd/webfonts/fa-regular-400.ttf 2 0 0 0
+/admin/order/cart-details 2 168 0 0
+/admin/permissions/114/edit 1 6636 0 0
+/admin/theme-setting 12 86829 0 0
+/subcategory/shoes 8 897330 0 0
+/admin/products/10/edit 2 21966 0 0
+/admin/products/5/edit 7 106516 0 0
+/subcategory/fragrances 6 594690 0 1
+/customer/invoice 5 57622 0 1
+/subcategory/bedding 4 299150 0 0
+/products/aftershave-&-foam 4 299190 0 0
+/customer/register 12 395133 1 2
+/products/flats 8 896610 0 0
+/products/cookware-set 4 299010 0 0
+/products/cotton 8 896670 0 0
+/subcategory/bags 6 601910 0 0
+/subcategory/jewellery 8 897570 0 0
+/admin/customer/manage 2 17359 0 0
+/admin/banner-category/manage 2 14962 0 0
+/admin/shipping-charge/2/edit 2 14182 0 0
+/products/unstitched 6 601670 0 0
+/admin/settings/2/edit 3 22553 0 0
+/products/portable-speaker 4 299090 0 0
+/customer/order-success/69 1 8794 0 0
+/admin/social-media/3/edit 1 7122 0 0
+/products/formal-shoes 6 601750 0 0
+/products/charger 4 298910 0 0
+/products/cream 4 298870 0 0
+/admin/social-media/2/edit 1 7119 0 0
+/admin/order/on-the-way 4 37920 0 0
+/admin/order/invoice/69110 1 7948 0 0
+/products/electric-blankets 4 299110 0 0
+/products/smart-speaker 5 306575 0 1
+/admin/banner/manage 2 15528 0 0
+/customer/forgot-password/reset 4 27301 0 0
+/products/monitor 4 298910 0 0
+/products/jeans 6 601470 0 0
+/products/leather-bag 8 896970 0 0
+/products/lingerie-sets 6 594330 0 0
+/admin/childcategories/create 3 21981 0 0
+/customer/order-success/49 1 13346 0 0
+/customer/order-success/53 1 8793 0 0
+/products/bracelet 8 896790 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+100-500 668
+2K-5K 2144
+1K-2K 1014
+5K+ 5096
+44-100 137
+500-1K 305
+0-44 533
+END_FILESIZE

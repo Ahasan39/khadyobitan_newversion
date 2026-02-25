@@ -1,0 +1,467 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202509 will be lost/reset.
+# Last config file used to build this data file was /home/acharmel/tmp/awstats/ssl/awstats.demo.categroy.acharmela.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2062                
+POS_TIME 2745                
+POS_VISITOR 9097                
+POS_DAY 12092               
+POS_DOMAIN 3423                
+POS_LOGIN 3774                
+POS_ROBOT 3929                
+POS_WORMS 4226                
+POS_EMAILSENDER 4357                
+POS_EMAILRECEIVER 4500                
+POS_SESSION 12405               
+POS_FILESIZE 14036               
+POS_SIDER 12589               
+POS_FILETYPES 4635                
+POS_DOWNLOADS 4901                
+POS_OS 4949                
+POS_BROWSER 5156                
+POS_SCREENSIZE 5630                
+POS_UNKNOWNREFERER 5704                
+POS_UNKNOWNREFERERBROWSER 6293                
+POS_ORIGIN 6566                
+POS_SEREFERRALS 6703                
+POS_PAGEREFS 6847                
+POS_SEARCHWORDS 6995                
+POS_KEYWORDS 7147                
+POS_MISC 2408                
+POS_ERRORS 7206                
+POS_CLUSTER 3630                
+POS_SIDER_404 7362                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250929112040 351 73592 12352131571044
+FirstTime 20250918145304
+LastTime 20250929070402
+LastUpdate 20250929180250 351 0 351 0 0
+TotalVisits 78                  
+TotalUnique 73                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 75                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 11 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 7 7 107933 5 5 88295
+1 2 58 784064 1 7 74363
+2 8 46 1579793 84 133 7548035
+3 3 23 167212 72 114 6240116
+4 0 0 0 25 28 2898902
+5 0 0 0 0 0 0
+6 3 4 364432 9 9 54066
+7 2 3 355439 3 3 3726
+8 0 0 0 0 0 0
+9 1 2 346460 0 0 0
+10 0 0 0 2 2 2484
+11 0 0 0 2 2 2484
+12 1 2 346459 1 2 7845
+13 1 2 346455 0 0 0
+14 17 92 7046682 53 60 366596
+15 35 111 4911165 8 18 47161
+16 61 206 5198110 14 14 3052
+17 17 125 3621643 1 4 65845
+18 6 8 818362 0 2 3496
+19 18 146 3797317 7 7 12884
+20 2 3 355439 0 0 0
+21 2 2 124238 0 0 0
+22 1 1 0 0 0 0
+23 15 51 1382364 25 26 176002
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+us 88 460 15020706
+in 82 242 11804596
+ru 10 86 969235
+ca 6 6 347161
+cn 5 40 857765
+bd 4 44 1193178
+au 4 9 759023
+bg 2 2 17964
+be 1 3 683939
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+bot[\s_+:,\.\;\/\\-] 175 3661620 20250929041213 2
+no_user_agent 9 437383 20250929041658 0
+Go\-http\-client/ 3 10169 20250928234609 0
+scrapy 2 26373 20250918153744 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 191 1528678 0 0
+webp 69 14787358 0 0
+jpeg 182 1803656 0 0
+woff 4 152996 0 0
+Unknown 48 522852 0 0
+js 213 2681917 0 0
+jpg 12 1587573 0 0
+woff2 41 3988440 0 0
+png 23 3361079 0 0
+html 109 1239018 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+linux 155 41
+android10 44 4
+Unknown 52 21
+androidoreo 120 12
+win10 369 102
+macosx9 1 1
+ios_iphone 16 4
+androidmarshmallow 86 10
+macosx15 49 7
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 22
+edge18 120 12
+chrome52.0.2717.98 4 4
+chrome138.0.7204.23 39 4
+safari17.4.1 1 1
+firefox120.0 21 21
+chrome137.0.0.0 4 4
+chrome119.0.0.0 83 8
+chrome63.0.3239.111 120 12
+firefox83.0 1 1
+chrome33.0.1750.152 1 1
+chrome140.0.0.0 285 86
+chrome139.0.0.0 6 3
+chrome108.0.0.0 4 4
+safari 16 4
+firefox139.0 12 5
+chrome132.0.0.0 40 4
+chrome130.0.0.0 81 5
+firefox127.0.2 1 1
+netscape5.0 20 2
+Unknown 8 7
+mozilla 24 12
+chrome138.0.0.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Mozilla/5.0_(compatible;_UGAResearchAgent/1.0;_Please_visit:_NISLabUGA.github.io) 20250928234708
+Mozilla/5.0 20250920190926
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250919231548
+WhatsApp/2.2535.3_W 20250918161006
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250927181040
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20250926184034
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+WhatsApp/2.2535.3_W 20250918161006
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250927181040
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 91 211
+From1 0 0
+From2 0 0
+From3 0 0
+From4 111 681
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+302 22 4787
+405 4 997177
+404 121 277156
+403 20 24840
+500 62 12136777
+301 2 1590
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 46
+/actuator/env 4 -
+/public/frontEnd/js/bootstrap.min.js.map 2 -
+/login.action 3 -
+/js/lkk_ch.js 3 -
+/page/help@nronlineshop.com 2 -
+/_all_dbs 3 -
+/public/uploads/product/pulse-oximeter-2.jpg 1 https://demo.categroy.acharmela.com/admin/products/28/edit
+/info.php 3 -
+/public/backEnd/assets/images/bg-pattern-2.png 1 https://demo.categroy.acharmela.com/public/backEnd/assets/css/app.min.css
+/actutor/env 2 -
+/product/admin@nronlineshop.com 2 -
+/.env.local 2 -
+/webshell 3 -
+/.env 4 -
+/.vscode/sftp.json 5 -
+/shell.php 3 -
+/debug/default/view 3 -
+/public/uploads/product/pulse-oximeter-1.jpg 4 https://demo.categroy.acharmela.com/admin/products/28/edit
+/config.json 3 -
+/shell 3 -
+/js/twint_ch.js 2 -
+/public/frontEnd/css/owl.video.play.png 2 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 3 -
+/_profiler/phpinfo 2 -
+/.DS_Store 3 -
+/php-cgi/php-cgi.exe 2 -
+/css/support_parent.css 3 -
+/server-status 3 -
+/webshell.php 3 -
+/.env.production 1 -
+/telescope/requests 3 -
+/public/frontEnd/js/parsley.min.js.map 2 -
+/v2/_catalog 3 -
+/public/frontEnd/js/'+b.loadinggif+' 2 -
+/server 3 -
+/s/63e2130323e2834323e2136313/_/ 3 -
+/@vite/env 6 -
+/page/admin@nronlineshop.com 2 -
+/about 3 -
+/.well-known/security.txt 2 -
+/add-to-cart 2 -
+/public/frontEnd/js/'+b.j+' 2 -
+/customer/admin@nronlineshop.com 2 -
+/admin@nronlineshop.com 2 -
+/site/admin@nronlineshop.com 2 -
+/public/backEnd/assets/js/toastr.js.map 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 75
+103.166.59.148 82 242 11804596 20250918161006
+44.243.115.1 8 80 2390489 20250918195014
+54.68.1.108 8 80 2390477 20250918171754
+35.94.226.118 8 80 2390485 20250918162618
+52.16.245.145 6 42 1213204 20250918175301
+185.203.132.199 5 81 942291 20250919222339
+202.120.37.109 5 40 857765 20250928235152
+202.134.10.133 4 44 1193178 20250918164500
+149.57.180.55 4 42 1217521 20250918195535
+23.27.145.48 4 41 1206386 20250920021858
+3.88.40.214 2 20 153370 20250920190925
+195.211.77.142 2 2 17963 20250928234723
+91.134.91.17 2 2 17964 20250922151624
+195.211.77.140 2 2 0 20250928234701
+96.41.38.202 2 6 6558 20250918145319
+149.57.180.115 1 1 8984 20250921003129
+185.247.137.132 1 1 8981 20250919073128
+128.192.12.108 1 1 8983 20250928234708
+147.185.132.48 1 1 62355 20250926215848
+149.57.180.122 1 1 8984 20250926025114
+149.57.180.48 1 1 8982 20250929070402
+157.230.238.212 1 2 346457 20250927202906
+174.138.41.145 1 2 346461 20250920061808
+205.210.31.254 1 1 61883 20250927145647
+173.244.42.174 1 1 592 20250918145244
+23.234.78.92 1 1 8981 20250918185016
+149.57.180.180 1 1 8983 20250918181251
+149.57.180.147 1 1 8982 20250926025024
+104.253.247.109 1 4 4225 20250918145318
+139.59.11.137 1 2 346460 20250922090444
+128.192.12.114 1 1 8986 20250924163849
+157.245.251.83 1 2 346460 20250924025627
+139.59.132.8 1 1 61883 20250928234552
+198.235.24.232 1 1 53740 20250923180835
+64.226.78.121 1 1 1155 20250918145244
+23.27.145.32 1 1 8985 20250919192109
+206.168.34.40 1 3 320282 20250920152433
+149.57.180.96 1 1 8980 20250921003245
+198.235.24.162 1 1 61883 20250923162906
+23.27.145.196 1 1 8981 20250929025421
+66.132.153.141 1 3 422805 20250918154059
+23.27.145.1 1 1 8983 20250923004225
+23.27.145.181 1 1 8984 20250918234442
+149.57.180.90 1 1 8984 20250926062629
+87.236.176.187 0 1 337476 
+149.57.180.124 1 1 8982 20250920202107
+23.27.145.119 1 1 8985 20250923001155
+139.59.154.138 1 2 346455 20250920130858
+23.27.145.28 1 1 8984 20250922191640
+199.45.154.151 1 3 530865 20250918151814
+205.210.31.165 1 1 53740 20250927181040
+149.57.180.14 1 1 8983 20250918234513
+87.236.176.52 1 1 8987 20250919231548
+23.27.145.207 1 1 8987 20250920000654
+149.57.180.169 1 1 8985 20250929032442
+104.232.199.27 1 4 4221 20250918145316
+150.129.93.77 1 4 4225 20250918145318
+24.144.86.10 1 2 346459 20250922121649
+87.236.176.237 0 1 337476 
+192.175.111.242 1 1 61883 20250918215601
+23.27.145.89 1 1 8982 20250920000441
+167.160.13.94 1 1 8982 20250919171252
+167.94.146.58 1 3 324467 20250918153509
+23.27.145.149 1 1 8987 20250929063447
+128.192.12.116 1 1 592 20250918145304
+138.68.82.23 1 1 1159 20250918145245
+104.168.71.70 1 4 4221 20250918145319
+23.234.90.94 1 1 8982 20250928234835
+128.192.12.121 1 1 596 20250918145339
+207.154.212.47 1 1 62355 20250928234553
+198.235.24.227 1 1 54032 20250927001258
+128.192.12.120 1 1 8983 20250928234703
+199.45.155.106 1 3 683937 20250926184031
+149.57.180.34 1 1 8986 20250920194948
+149.57.180.51 1 1 8982 20250919192947
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20250918 142 654 24021406 28
+20250919 10 88 1662160 8
+20250920 13 72 2408891 9
+20250921 2 2 17964 2
+20250922 4 6 710886 4
+20250923 4 4 133591 4
+20250924 2 3 355446 2
+20250926 5 7 773242 5
+20250927 4 5 516112 4
+20250928 12 47 1017934 8
+20250929 4 4 35935 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+0s-30s 74
+5mn-15mn 1
+30s-2mn 1
+1h+ 1
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 33
+/ 109 1239018 75 68
+/admin/products/manage 17 157090 0 0
+/public/frontEnd/webfonts/fa-brands-400.woff2 13 1404000 0 2
+/public/frontEnd/webfonts/fa-solid-900.woff2 13 1948804 0 1
+/public/frontEnd/webfonts/fa-regular-400.woff2 12 298080 0 3
+/load-more-products 5 4967 0 1
+/admin/products/28/edit 3 28444 0 0
+/customer/checkout 3 161512 3 3
+/public/backEnd/assets/libs/summernote/font/summernote.woff2 2 12312 0 0
+/admin/categories/manage 2 14263 0 0
+/admin/products/34/edit 1 9272 0 0
+/admin/products/37/edit 1 9289 0 0
+/public/backEnd/assets/fonts/cerebrisans-medium.woff 1 41228 0 0
+/admin/products/39/edit 1 9253 0 0
+/admin/products/42/edit 1 9271 0 0
+/admin/products/31/edit 1 9307 0 0
+/admin/dashboard 1 9095 0 0
+/admin/products/40/edit 1 9317 0 0
+/admin/products/33/edit 1 9311 0 0
+/admin/categories/create 1 7110 0 0
+/admin/products/36/edit 1 9282 0 0
+/admin/products/29/edit 1 9292 0 0
+/admin/login 1 1156 0 0
+/admin/products/32/edit 1 9298 0 0
+/admin/products/43/edit 1 9248 0 0
+/public/backEnd/assets/fonts/materialdesignicons-webfont.woff2 1 325244 0 0
+/public/backEnd/assets/fonts/feather.woff 1 29500 0 0
+/public/backEnd/assets/fonts/cerebrisans-bold.woff 1 41184 0 0
+/admin/products/41/edit 1 9262 0 0
+/admin/products/35/edit 1 9267 0 0
+/admin/products/38/edit 1 9259 0 0
+/admin/products/30/edit 1 9287 0 0
+/public/backEnd/assets/fonts/cerebrisans-regular.woff 1 41084 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+2K-5K 307
+1K-2K 177
+500-1K 61
+44-100 2
+0-44 13
+100-500 74
+5K+ 694
+END_FILESIZE

@@ -1,0 +1,1033 @@
+# Webalizer V2.23-08 Incremental Data - 09/29/2025 13:17:23
+2025 9 29 13 17 23
+509 12 136 4 7 231 397652 231 114 0
+9 1 126 1 29
+6 0 4770 4 3 3
+1 0 795 1 0 0
+1 0 795 1 0 0
+1 0 795 1 0 0
+3 0 2385 2 1 1
+4 0 4074 3 1 1
+102 0 81090 2 101 4
+3 0 2385 3 2 2
+65 12 43232 20 35 19
+87 0 69612 16 15 13
+15 0 11130 11 13 11
+9 0 7155 7 8 8
+8 0 6360 5 4 4
+21 0 16695 12 12 12
+9 0 7155 6 7 7
+3 0 2385 3 2 2
+3 0 2385 3 1 1
+6 0 4770 6 4 4
+6 0 5217 5 3 3
+3 0 2385 3 2 2
+129 0 102555 4 2 2
+3 0 2385 3 2 2
+0 0 0 0 0 0
+4 0 3627 4 3 3
+0 0 0 0 0 0
+1 0 795 1 1 1
+2 0 1590 2 2 2
+1 0 795 1 1 1
+13 0 10335 9 6 6
+0 0 0 0 0 0
+0 0 0 0 0 0
+4 0 3180 3
+103 0 81885 102
+3 0 2385 2
+6 0 4770 3
+0 0 0 0
+14 0 11130 7
+128 0 101760 1
+3 0 2385 1
+1 0 1242 0
+5 0 3975 3
+8 0 6807 6
+8 0 6360 6
+19 0 15105 11
+20 0 15900 19
+82 0 65637 3
+7 0 5565 7
+5 0 4422 4
+13 0 10335 6
+66 12 44027 37
+2 0 1590 2
+1 0 795 1
+3 0 2832 2
+1 0 795 1
+7 0 4770 4
+0
+0
+0
+12
+0
+0
+0
+0
+0
+0
+0
+490
+0
+0
+0
+0
+0
+0
+0
+0
+7
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/.well-known/acme-challenge/3nUV8OjgwJViaUHKYi4oq-4x3LPnxTPjVul5b4Ksd2E
+0 5 3257848749287158061 435 0 0
+/.well-known/acme-challenge/DDACWDEJDW6M_LU_3V45P_5LEA45UV3T
+0 1 0 64 0 0
+/.well-known/acme-challenge/21-C3KOF1U__0W3YSPDDNBNW9ZAQ2B4C
+0 1 0 64 0 0
+/.well-known/acme-challenge/oXb4qznLB4kv_JTB_BtwGdm4fFOlee2xy4nSFPrqyGc
+0 5 0 435 0 0
+# End Of Table - urls
+# -sites- (monthly)
+217.134.116.34.bc.googleusercontent.com
+0 1 0 795 1 1757441909
+-
+202.161.12.34.bc.googleusercontent.com
+0 1 0 795 1 1757863016
+-
+160.112.172.34.bc.googleusercontent.com
+0 1 0 795 1 1758092838
+-
+198.235.24.144
+0 1 0 795 1 1757957546
+-
+216.24.229.35.bc.googleusercontent.com
+0 1 0 795 1 1758279170
+-
+fwdproxy-cco-024.fbsv.net
+0 1 0 795 0 0
+-
+ec2-13-60-93-245.eu-north-1.compute.amazonaws.com
+0 1 1 87 0 0
+-
+hostedby.privatelayer.com
+0 126 0 100170 0 0
+-
+196.251.70.47
+0 1 0 795 0 0
+-
+fwdproxy-atn-014.fbsv.net
+0 1 0 795 0 0
+-
+45.139.104.170
+0 1 0 795 0 0
+-
+fwdproxy-ldc-112.fbsv.net
+0 1 0 795 0 0
+-
+205.210.31.166
+0 1 0 795 1 1758463089
+-
+waller.probe.onyphe.net
+0 1 0 795 1 1757546301
+-
+outbound2k.letsencrypt.org
+0 1 1 87 0 0
+-
+fwdproxy-ldc-004.fbsv.net
+0 1 0 795 0 0
+-
+27.115.124.41
+0 1 0 795 0 0
+-
+24.199.126.123
+0 2 0 1590 1 1757034742
+-
+vmi1902529.contaboserver.net
+0 1 0 795 1 1758195888
+-
+144.126.220.60
+0 2 0 1590 1 1757593128
+-
+229.147.122.34.bc.googleusercontent.com
+0 1 0 795 1 1757441855
+-
+noble.monitoring.internet-measurement.com
+0 1 0 795 1 1758398221
+-
+64.23.171.92
+0 2 0 1590 1 1756697272
+-
+134.122.39.65
+0 2 0 1590 1 1759150376
+-
+205.210.31.140
+0 1 0 795 1 1757156256
+-
+93.123.109.175
+0 2 0 2484 0 0
+-
+205.210.31.8
+0 1 0 795 1 1758407444
+-
+199.122.48.34.bc.googleusercontent.com
+0 2 0 1590 2 1757872872
+-
+sserver1.webleez.com
+0 2 2 128 0 0
+-
+illuminating.monitoring.internet-measurement.com
+0 1 0 795 1 1758974261
+-
+30.225.79.34.bc.googleusercontent.com
+0 1 0 795 1 1757690085
+-
+198.235.24.143
+0 1 0 795 1 1759151843
+-
+ec2-51-20-126-8.eu-north-1.compute.amazonaws.com
+0 1 1 87 0 0
+-
+nc-ph-2478.web-hosting.com
+0 4 0 1590 2 1757634979
+-
+129.176.63.34.bc.googleusercontent.com
+0 1 0 795 1 1759114793
+-
+78.94.75.34.bc.googleusercontent.com
+0 1 0 795 1 1757517040
+-
+209.204.196.35.bc.googleusercontent.com
+0 2 0 1590 2 1757944595
+-
+167.94.138.170
+0 2 0 1590 1 1756728862
+-
+ac09637315.scan.leakix.org
+0 21 0 17142 5 1757441754
+-
+ec2-44-249-178-168.us-west-2.compute.amazonaws.com
+0 2 2 174 0 0
+-
+webs401.pakchamp.com
+0 1 0 795 1 1758199490
+-
+185.177.72.21
+0 1 0 795 1 1758707534
+-
+162.142.125.113
+0 1 0 795 1 1758298209
+-
+unn-149-102-254-17.datapacket.com
+0 101 0 80295 4 1757209923
+-
+138.110.29.34.bc.googleusercontent.com
+0 2 0 1590 2 1757873306
+-
+205.169.39.18
+0 1 0 795 1 1757441861
+-
+outbound2l.letsencrypt.org
+0 1 1 87 0 0
+-
+138.68.79.83
+0 2 0 1590 1 1757723702
+-
+a7638675e3.scan.leakix.org
+0 21 0 17142 6 1757441750
+-
+205.169.39.20
+0 1 0 795 1 1757441686
+-
+96.19.195.35.bc.googleusercontent.com
+0 2 0 1590 2 1757505927
+-
+27.115.124.112
+0 1 0 795 1 1759123921
+-
+fwdproxy-ftw-008.fbsv.net
+0 1 0 795 0 0
+-
+nuha.probe.onyphe.net
+0 1 0 795 0 0
+-
+205.169.39.159
+0 2 0 1590 1 1757463619
+-
+165.232.167.236
+0 2 0 1590 2 1758918778
+-
+198.235.24.95
+0 1 0 795 1 1757365765
+-
+ec2-100-26-104-229.compute-1.amazonaws.com
+0 1 0 795 1 1758172487
+-
+143.144.126.34.bc.googleusercontent.com
+0 2 0 1590 1 1757483518
+-
+205.210.31.176
+0 1 0 795 1 1759069442
+-
+27.115.124.2
+0 1 0 795 0 0
+-
+45.148.10.246
+0 1 0 1242 0 0
+-
+ec2-3-80-21-129.compute-1.amazonaws.com
+0 1 0 795 1 1758684434
+-
+ec2-54-196-254-54.compute-1.amazonaws.com
+0 1 0 795 1 1757826086
+-
+scanner-202.ch1.censys-scanner.com
+0 1 0 795 1 1758554833
+-
+117.15.30.34.bc.googleusercontent.com
+0 1 0 795 1 1757865932
+-
+167.94.146.48
+0 1 0 795 1 1757960691
+-
+228.176.41.34.bc.googleusercontent.com
+0 1 0 795 1 1758029431
+-
+ec2-44-251-56-49.us-west-2.compute.amazonaws.com
+0 68 0 54060 0 0
+-
+165.227.42.209
+0 2 0 1590 1 1757908442
+-
+fwdproxy-ldc-114.fbsv.net
+0 1 0 795 0 0
+-
+vm-websrv-4.client328.ambyrenodes.net
+0 1 0 795 1 1759143283
+-
+176.53.178.41
+0 2 0 1590 1 1757729495
+-
+30.139.63.34.bc.googleusercontent.com
+0 1 0 795 1 1758549244
+-
+hn.kd.ny.adsl
+0 4 0 3180 1 1759124841
+-
+fwdproxy-eag-115.fbsv.net
+0 1 0 795 0 0
+-
+scanner-206.hk2.censys-scanner.com
+0 1 0 795 1 1757425743
+-
+rpvwc.shop
+0 2 0 1590 1 1757597071
+-
+ec2-54-229-165-141.eu-west-1.compute.amazonaws.com
+0 1 0 795 1 1756761728
+-
+ec2-3-138-192-33.us-east-2.compute.amazonaws.com
+0 1 1 87 0 0
+-
+fwdproxy-ftw-004.fbsv.net
+0 1 0 795 0 0
+-
+42.28.230.35.bc.googleusercontent.com
+0 1 0 795 1 1757608777
+-
+205.210.31.128
+0 1 0 795 1 1757857438
+-
+fwdproxy-cco-113.fbsv.net
+0 1 0 795 0 0
+-
+35.109.245.35.bc.googleusercontent.com
+0 1 0 795 1 1758215129
+-
+184.238.48.34.bc.googleusercontent.com
+0 1 0 795 1 1758021603
+-
+106.75.165.62
+0 2 0 1590 2 1757596942
+-
+scanner-204.hk2.censys-scanner.com
+0 1 0 795 1 1757670181
+-
+fwdproxy-ftw-113.fbsv.net
+0 1 0 795 0 0
+-
+knott.probe.onyphe.net
+0 1 0 795 0 0
+-
+ec2-52-47-198-191.eu-west-3.compute.amazonaws.com
+0 8 0 6360 1 1757871246
+-
+246.163.23.34.bc.googleusercontent.com
+0 1 0 795 1 1757697505
+-
+charlotte.probe.onyphe.net
+0 1 0 795 1 1757545792
+-
+ec2-3-144-116-248.us-east-2.compute.amazonaws.com
+0 1 1 87 0 0
+-
+fwdproxy-nha-115.fbsv.net
+0 1 0 795 0 0
+-
+ec2-3-128-202-23.us-east-2.compute.amazonaws.com
+0 1 0 1242 0 0
+-
+fwdproxy-nha-011.fbsv.net
+0 1 0 795 0 0
+-
+205.210.31.224
+0 1 0 795 1 1757745634
+-
+ec2-13-214-195-169.ap-southeast-1.compute.amazonaws.com
+0 2 2 174 0 0
+-
+fwdproxy-cco-006.fbsv.net
+0 1 0 795 0 0
+-
+27.115.124.3
+0 1 0 795 0 0
+-
+fwdproxy-eag-001.fbsv.net
+0 1 0 795 0 0
+-
+217.138.193.179
+0 2 0 1590 1 1757441698
+-
+107.190.13.34.bc.googleusercontent.com
+0 2 0 1590 2 1757945041
+-
+230.62.205.35.bc.googleusercontent.com
+0 1 0 795 1 1757600020
+-
+fwdproxy-atn-034.fbsv.net
+0 1 0 795 0 0
+-
+fwdproxy-ldc-116.fbsv.net
+0 1 0 795 0 0
+-
+43.106.12.34.bc.googleusercontent.com
+0 2 0 1590 2 1757506505
+-
+unn-154-47-30-29.datapacket.com
+0 1 0 795 1 1757441701
+-
+117.37.11.34.bc.googleusercontent.com
+0 1 0 795 1 1758461307
+-
+ec2-44-222-176-19.compute-1.amazonaws.com
+0 1 0 795 1 1758713293
+-
+ec2-54-227-192-93.compute-1.amazonaws.com
+0 1 0 795 1 1757495566
+-
+109.44.182.34.bc.googleusercontent.com
+0 1 0 795 1 1757588253
+-
+fwdproxy-pnb-007.fbsv.net
+0 1 0 795 0 0
+-
+95.221.22.34.bc.googleusercontent.com
+0 1 0 795 1 1757852008
+-
+unassigned.quadranet.com
+0 1 0 1242 0 0
+-
+fwdproxy-cco-025.fbsv.net
+0 1 0 795 0 0
+-
+192.101.138.34.bc.googleusercontent.com
+0 1 0 795 1 1757851206
+-
+aqucknews.life
+0 1 0 795 1 1757596941
+-
+111.182.186.35.bc.googleusercontent.com
+0 1 0 795 1 1757587532
+-
+157.245.47.206
+0 2 0 1590 1 1757768038
+-
+80.172.11.34.bc.googleusercontent.com
+0 1 0 795 1 1757516859
+-
+fwdproxy-eag-015.fbsv.net
+0 1 0 795 0 0
+-
+fwdproxy-eag-006.fbsv.net
+0 1 0 795 0 0
+-
+fwdproxy-ldc-002.fbsv.net
+0 1 0 795 0 0
+-
+224.246.16.34.bc.googleusercontent.com
+0 2 0 1590 2 1757682849
+-
+ec2-100-26-52-186.compute-1.amazonaws.com
+0 1 0 795 1 1757501306
+-
+105.23.19.34.bc.googleusercontent.com
+0 1 0 795 1 1757603460
+-
+130.237.78.34.bc.googleusercontent.com
+0 1 0 795 1 1757522998
+-
+fwdproxy-cco-114.fbsv.net
+0 1 0 795 0 0
+-
+fwdproxy-eag-008.fbsv.net
+0 1 0 795 0 0
+-
+94.1.138.34.bc.googleusercontent.com
+0 2 0 1590 2 1757682467
+-
+188.166.179.188
+0 1 0 795 1 1759001043
+-
+0.54.237.35.bc.googleusercontent.com
+0 1 0 795 1 1757862305
+-
+64.23.165.229
+0 2 0 1590 1 1758289854
+-
+86.5.134.34.bc.googleusercontent.com
+0 1 0 795 1 1757684782
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+27.115.124.41
+0 1 0 795 0 0
+-
+134.122.39.65
+0 2 0 1590 1 1759150376
+-
+198.235.24.143
+0 1 0 795 1 1759151843
+-
+129.176.63.34.bc.googleusercontent.com
+0 1 0 795 1 1759114793
+-
+27.115.124.112
+0 1 0 795 1 1759123921
+-
+27.115.124.2
+0 1 0 795 0 0
+-
+vm-websrv-4.client328.ambyrenodes.net
+0 1 0 795 1 1759143283
+-
+hn.kd.ny.adsl
+0 4 0 3180 1 1759124841
+-
+27.115.124.3
+0 1 0 795 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+https://www.google.com/
+0 8
+- (Direct Request)
+0 488
+http://121.67.238.23:35153
+0 1
+http://wp.acharmela.com/
+0 5
+http://mail.cbcoder.shop
+0 2
+https://www.pollenpeck.com
+0 2
+http://www.wp.acharmela.com/
+0 3
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.4.6.1000 Chrome/30.0.1599.101 Safari/537
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/76.0.3809.87 Chrome/76.0.3809.87 Safari/
+0 1
+Mozilla/5.0 (Linux; Android 5.1.1; SM-J111F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36
+0 2
+Mozilla/5.0 (X11; Linux i686; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+0 1
+Mozilla/5.0 (iPhone13,2; U; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/15
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+0 1
+Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 920) like Gecko
+0 1
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3844.0 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+0 1
+Wget/1.9 cvs-stable (Red Hat modified)
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36
+0 1
+Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.9 (KHTML, like Gecko) Chrome/5.0.309.0 Safari/532.9
+0 1
+Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0) Asus;Galaxy6
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+0 2
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.4 (KHTML like Gecko) Chrome/22.0.1229.56 Safari/537.4
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3889.0 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.138 Safari/537.36 Edg/112.
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+0 4
+Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)
+0 2
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36
+0 1
+Mozilla/5.0 (Windows; U; MSIE 9.0; Linux x86_64; Trident/5.0; X11)
+0 8
+Mozilla/5.0 (X11; FreeBSD amd64; rv:5.0) Gecko/20100101 Firefox/5.0
+0 1
+SonyEricssonK310iv/R4DA Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.1.13.0
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 OPR
+0 1
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.71 (KHTML like Gecko) WebVideo/1.0.1.10 Version/7.0 Safari/537.71
+0 1
+Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/536.5 (KHTML like Gecko) Chrome/19.0.1084.56 Safari/536.5
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; U; Android 9; en-US; ASUS_X00TD Build/PKQ1) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+0 2
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/75.0.3770.90 Chrome/75.0.3770.90 Safar
+0 1
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 1
+Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; MALNJS; rv:11.0) like Gecko
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/74.0.3729.121 Mobile/15
+0 1
+Mozilla/5.0 (Linux; Android 9; POT-LX1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.101 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.835.186 Safari/535.1
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+0 1
+SonyEricssonW995/R1EA Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0
+0 1
+Mozilla/5.0 (Linux; Android 9; VTR-L09) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+0 1
+Opera/9.80 (Windows NT 5.2; U; en) Presto/2.2.15 Version/10.10
+0 1
+Mozilla/5.0 (X11; U; Linux armv7l like Android; en-us) AppleWebKit/531.2+ (KHTML, like Gecko) Version/5.0 Safari/533.2+ Kindl
+0 1
+Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)
+0 10
+Mozilla/5.0 (Linux; U; Android 4.0.3; de-ch; HTC Sensation Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 M
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.19 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.1
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_2 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0 Mobile/15C202 S
+0 1
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+0 5
+Mozilla/5.0 (Fedora; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0
+0 1
+Mozilla/5.0 (Linux; Android 8.0.0; LG-H873) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+0 1
+Gaisbot/3.0 (robot@gais.cs.ccu.edu.tw; http://gais.cs.ccu.edu.tw/robot.php)
+0 1
+Mozilla/5.0 (Maemo; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1
+0 1
+Mozilla/5.0 (X11; NetBSD x86; en-us) AppleWebKit/666.6+ (KHTML, like Gecko) Chromium/20.0.0000.00 Chrome/20.0.0000.00 Safari/
+0 1
+Mozilla/5.0 (X11; U; Linux i686; en-us) AppleWebKit/528.5  (KHTML, like Gecko, Safari/528.5 ) lt-GtkLauncher
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3864.0 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 7.0; Nexus 9 Build/NRD90R) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Safari/537
+0 1
+Mozilla/5.0 (Linux; Android 9; MI 8 SE Build/PKQ1.181121.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/6
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.143 YaBrowser/19.7.2.455 Yowser/2
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A5362a 
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2859.0 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15
+0 1
+Mozilla/5.0 (iPad; CPU OS 13_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/79.0.259819395 Mobile/17A5556d Saf
+0 1
+Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+0 7
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.102 Safari/537.36 Vivaldi/2
+0 1
+Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 630) like Gecko
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) SFive/64.0 Chrome/64.0.3282.204 Safari/537.36
+0 1
+ELinks (0.4pre5; Linux 2.6.10-ac7 i686; 80x33)
+0 1
+Mozilla/5.0 (compatible; Konqueror/4.5; Windows) KHTML/4.5.4 (like Gecko)
+0 1
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.2) Gecko/20090803 Ubuntu/9.04 (jaunty) Shiretoko/3.5.2
+0 1
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+0 1
+Mozilla/5.0 (X11; U; Linux x86_64; en-AU) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/3.91
+0 1
+Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.
+0 1
+MOTORIZR-Z8/46.00.00 Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; 356) Opera 8.65 [it] UP.Link/6.3.0.0.0
+0 1
+Mozilla/4.8 [en] (Windows NT 5.1; U)
+0 1
+Mozilla/5.0 (Linux; Android 9; Redmi Note 6 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.143 Mobile Safari/53
+0 1
+Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; DEVICE INFO) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Mobil
+0 1
+Go-http-client/1.1
+0 39
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36
+0 4
+Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16C104 MicroMessenge
+0 1
+Mozilla/5.0 (Linux; Android 8.0.0; SM-A530F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; WOW64; Trident/5.0)
+0 1
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 9; ONEPLUS A3010) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.3
+0 1
+Mozilla/5.0 (Linux; Android 7.0; YS900) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.136 Iron Safari/537.36
+0 1
+Mozilla/5.0 (iPad; CPU OS 12_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/76.0.3809.81 Mobile/15E148 Safar
+0 1
+Mozilla/5.0 (Linux; U; Android 1.5; en-us; SPH-M900 Build/CUPCAKE) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobil
+0 1
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+0 1
+Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/10.0.012; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525
+0 2
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 GTB5
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 SeaMonkey/2.7.1
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/125.0.6422.60 Safari/537.36
+0 1
+Mozilla/5.0 (X11; U; OpenBSD arm; en-us) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  Epiphany/2.30.0
+0 1
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.29 Safari/537.36 OPR/15.0.1147.24 (Editi
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36
+0 1
+BlackBerry9000/4.6.0.167 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102
+0 1
+Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.2
+0 1
+Mozilla/5.0 (X11; Linux x86_64; rv:139.0) Gecko/20100101 Firefox/139.0
+0 4
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4240.193 Safari/537.36
+0 4
+Mozilla/5.0 (Linux; Android 5.1.1; Nexus 7 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Safari/53
+0 1
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/29.0
+0 1
+Mozilla/5.0 (Linux; Android 7.0; EVA-L09) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 9; moto g(7) power) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.89 Mobile Safari/537.
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0
+0 1
+Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3947.100 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.27 (KHTML, like Gecko) Chrome/12.0.712.0 Safari/534.27
+0 1
+MOT-V9mm/00.62 UP.Browser/6.2.3.4.c.1.123 (GUI) MMP/2.0
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+0 3
+Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 8.1.0; SM-G390F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.89 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; en-US; rv:1.9.0.3) Gecko/2008092414 Firefox/3.0.3
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) CriOS/76.0.3809.81 Mobile/15E
+0 1
+Mozilla/5.0 (Linux; Android 8.0.0; SM-G930F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 9; COL-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 8.0.0; SAMSUNG-SM-G930A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safar
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) Sprint:PPC6800
+0 1
+Mozilla/5.0 (Linux; Android 7.1.1; 1713-A01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.89 YaBrowser/19.9.1.64 (beta) Yowser/2.5
+0 1
+Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D257 Safari/9537
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+0 1
+Mozilla/5.0 (OS/2; Warp 4.5; rv:24.0) Gecko/20100101 Firefox/24.0
+0 1
+Mozilla/5.0 (Linux; Android 8.0.0; SM-G930V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.89 Mobile Safari/537.36
+0 1
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+0 23
+Cpanel-HTTP-Client/1.0
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36
+0 1
+HTC-ST7377/1.59.502.3 (67150) Opera/9.50 (Windows NT 5.1; U; en) UP.Link/6.3.1.17.0
+0 1
+Opera/9.80 (Android 4.0.4; Linux; Opera Mobi/ADR-1205181138; U; pl) Presto/2.10.254 Version/12.00
+0 1
+Mozilla/5.0 (l9scan/2.0.63e2130323e2834323e2136313; +https://leakix.net)
+0 2
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+0 21
+Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 6.0; CAM-L23) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.89 Mobile Safari/537.36
+0 1
+LG-LX550 AU-MIC-LX550/2.0 MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+0 1
+Mozilla/5.0 (Linux; Android 7.0; KIICAA POWER) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.101 Mobile Safari/537.
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 9; SM-G950F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.143 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 9; SM-G955U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.88 Safari/537.36 Vivaldi/2.
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.80 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11
+0 6
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; U; Android 2.3.3; en-us ; LS670 Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Saf
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 1083) AppleWebKit/537.36 (KHTML like Gecko) Chrome/28.0.1469.0 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/607.2.6 (KHTML, like Gecko) Version/12.1.1 Safari/607.2.6 Maxthon
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 YaBrowser/19.6.2.594 (beta) Yowse
+0 1
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:35.0) Gecko/20100101 Firefox/35.0
+0 1
+Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) QupZilla/1.2.0 Safari/534.34
+0 1
+python-httpx/0.28.1
+0 1
+Mozilla/5.0 (iPad; CPU OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H321 Safari/600.1
+0 1
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+0 2
+Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Nokia6120c/3.70; Profile/MIDP-2.0 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML,
+0 1
+Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.137 Mobil
+0 1
+Mozilla/5.0 (Linux; Android 9; STF-L09) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+0 1
+Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Sc
+0 2
+Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 9; SM-G950F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.78.1 (KHTML like Gecko) Version/7.0.6 Safari/537.78.1
+0 1
+Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; en-US; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15
+0 1
+Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.181 Chrome/65.0.3325.181 Safar
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+0 12
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121
+0 1
+NokiaN70-1/5.0609.2.0.1 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.1.13.0
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0
+0 1
+Mozilla/5.0 (Linux; U; Android 9; en-US; RMX1851 Build/PKQ1.190101.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Ch
+0 1
+Mozilla/5.0 (Linux; Android 9; moto g(7) play) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.143 Mobile Safari/537.
+0 1
+POLARIS/6.01(BREW 3.1.5;U;en-us;LG;LX265;POLARIS/6.01/WAP;)MMP/2.0 profile/MIDP-201 Configuration /CLDC-1.1
+0 1
+Mozilla/5.0 (Linux; Android 5.1; A1601) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 9; SM-G950U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 6.0; ALE-L21 Build/HuaweiALE-L21) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobi
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:35.0) Gecko/20100101 Firefox/35.0
+0 1
+Mozilla/5.0 (Linux; Android 5.0.1; GT-I9500) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 8.0.0; Pixel XL Build/OPR6.170623.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10
+0 1
+SonyEricssonW850i/R1ED Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1
+0 1
+Mozilla/5.0 (iPad; CPU OS 13_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/76.0.3809.81 Mobile/15E148 Safar
+0 1
+Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0 )
+0 1
+Mozilla/5.0 (Linux; Android 9; Redmi Note 5 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.89 Mobile Safari/537
+0 1
+Mozilla/4.77 [en] (X11; I; IRIX;64 6.5 IP30)
+0 1
+Mozilla/5.0 (Linux; Android 9; SM-A530F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+0 1
+Opera/9.80 (X11; Linux i686; U; en) Presto/2.2.15 Version/10.10
+0 1
+Mozilla/5.0 (Windows; U; ; en-NZ) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.8.0
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 OPR/62.0.
+0 1
+Mozilla/5.0 (X11; Linux i686; rv:12.0) Gecko/20100101 Firefox/12.0
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7; rv:126.0) Gecko/20100101 Firefox/126.0
+0 2
+Mozilla/5.0 (Linux; Android 9; ONEPLUS A5000) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.89 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/80.0.262003652 Mobile/16G
+0 1
+Mozilla/2.02E (Win95; U)
+0 1
+Mozilla/5.0 (Windows; U; Windows NT 5.1; tr; rv:1.9.2.8) Gecko/20100722 Firefox/3.6.8 ( .NET CLR 3.5.30729; .NET4.0E)
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.36 Safari/535.7
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Sa
+0 1
+Mozilla/5.0 (Linux; Android 8.1.0; Redmi 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36
+0 1
+Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 8.1.0; LM-Q710.FG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.101 Mobile Safari/537.
+0 1
+Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-G973F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/
+0 1
+Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+0 1
+Vodafone/1.0/V802SE/SEJ001 Browser/SEMC-Browser/4.1
+0 1
+Mozilla/5.0 (Linux; Android 8.0.0; SM-N950F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.89 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Linux; U; Android 8.1.0; en-us; Redmi 5 Plus Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Versi
+0 1
+Mozilla/5.0 (Linux; Android 9; Pixel 3 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3881.0 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; CMS-Checker/1.0; +https://example.com)
+0 19
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 6.0; HTC One M9 Build/MRA439600) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2717.98 Mobil
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Safari/605.1.15
+0 1
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

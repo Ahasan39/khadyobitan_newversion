@@ -1,0 +1,2021 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202509 will be lost/reset.
+# Last config file used to build this data file was /home/acharmel/tmp/awstats/ssl/awstats.milamartbd.acharmela.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2059                
+POS_TIME 2743                
+POS_VISITOR 40095               
+POS_DAY 66810               
+POS_DOMAIN 3800                
+POS_LOGIN 4574                
+POS_ROBOT 4729                
+POS_WORMS 6070                
+POS_EMAILSENDER 6201                
+POS_EMAILRECEIVER 6344                
+POS_SESSION 67735               
+POS_FILESIZE 86333               
+POS_SIDER 67949               
+POS_FILETYPES 6479                
+POS_DOWNLOADS 6782                
+POS_OS 6853                
+POS_BROWSER 7619                
+POS_SCREENSIZE 11868               
+POS_UNKNOWNREFERER 11942               
+POS_UNKNOWNREFERERBROWSER 24076               
+POS_ORIGIN 30903               
+POS_SEREFERRALS 31054               
+POS_PAGEREFS 31273               
+POS_SEARCHWORDS 31619               
+POS_KEYWORDS 31771               
+POS_MISC 2406                
+POS_ERRORS 31830               
+POS_CLUSTER 4430                
+POS_SIDER_404 32038               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250929173219 623 143678 10219407484271
+FirstTime 20250901023029
+LastTime 20250929090141
+LastUpdate 20250929180253 623 0 623 0 0
+TotalVisits 725                 
+TotalUnique 630                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 644                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 41 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 299 510 15254034 200 374 26353803
+1 44 592 96320876 246 343 33820519
+2 73 1244 229415371 231 403 33141852
+3 102 1880 433693659 190 518 104906415
+4 98 2511 319203780 153 700 91500623
+5 182 3513 718200057 212 963 91250458
+6 322 2355 534230816 345 945 158797163
+7 105 1960 326757802 210 537 90636820
+8 175 3166 624348672 329 1186 141096296
+9 156 2812 534715345 233 627 79716776
+10 132 3175 513298299 356 608 48137797
+11 258 3809 701092507 380 818 91838207
+12 132 2109 407055859 322 557 106143821
+13 219 5253 1028443555 274 1535 221165123
+14 145 3317 830309281 328 1029 160767099
+15 196 3521 724152633 458 1420 224295045
+16 153 2024 396397107 262 896 139254660
+17 146 3663 780947809 355 1164 260194869
+18 138 2113 483208084 441 1020 175325364
+19 91 1355 380334290 247 485 64719917
+20 115 1507 324644134 481 955 132832172
+21 50 506 119642050 364 503 28153371
+22 51 1076 354606042 236 378 19496950
+23 59 351 40832560 153 203 19404117
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 33
+in 1009 26025 5230751260
+us 657 3391 531793248
+bd 447 11420 2350958333
+hk 279 1488 347791963
+gb 269 388 6495190
+ro 224 224 3317252
+hu 158 4044 851742248
+cn 126 2640 640701279
+jp 70 1802 357810126
+ie 51 749 133842358
+au 39 950 317367765
+ca 21 22 449390
+vn 13 13 1946721
+ru 12 12 117901
+ph 11 391 26585792
+se 8 70 6408135
+be 8 107 27531869
+id 7 275 34450286
+de 4 4 0
+nz 4 97 18278707
+my 3 63 7670220
+kr 3 68 13110743
+ma 3 62 7404957
+rs 2 2 401112
+eg 2 2 13647
+eu 1 2 19404
+ua 1 1 13731
+ch 1 1 13651
+nl 1 2 19592
+ir 1 1 13648
+bg 2 2 27298
+pa 2 2 27377
+pl 2 2 26011
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 30
+facebookexternalhit/ 2234 428372800 20250929155739 210
+AhrefsBot/ 1559 468993525 20250929162754 36
+bot[\s_+:,\.\;\/\\-] 1423 73620435 20250929040141 48
+Googlebot/ 1336 19506908 20250929135424 56
+SemrushBot/ 1233 19374226 20250929173217 125
+Dalvik/ 809 184171665 20250929003326 0
+bingbot/ 577 38375541 20250929152214 28
+crawl 373 87458461 20250929084549 0
+YandexBot/ 271 2837139 20250929154056 65
+Googlebot\-Image/ 205 104928576 20250929134218 0
+link 160 62386533 20250926185753 0
+YandexImages/ 143 71821517 20250929154056 0
+Lightspeed 110 24634273 20250926020300 0
+yandex 88 13889355 20250929002814 0
+Applebot/ 65 5998063 20250929021303 5
+MJ12bot/ 59 1347239 20250922034605 3
+Go\-http\-client/ 24 207484 20250928064353 1
+no_user_agent 21 988692 20250929090014 0
+unknown 15 336 20250929033212 15
+[\s_+:,\.\;\/\\-]bot 11 142421 20250921024348 0
+(firefox/)([0-9]\.|[0-1][0]\.) 6 31443 20250929003259 0
+survey 4 436497 20250910155041 0
+Konqueror/ 3 18172 20250929002950 0
+scrapy 3 41108 20250917233828 0
+360Spider 2 48 20250910102329 2
+TurnitinBot 1 297 20250929003445 0
+curl 1 131072 20250928033522 0
+CFNetwork 2 19403 20250918132144 0
+Googlebot\-Video/ 1 1671 20250929002814 0
+scanner 2 27381 20250919151152 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+html 362 8551524 0 0
+Unknown 2157 33051018 0 0
+xml 7 19262 0 0
+ttf 1 157762 0 0
+js 4162 35063060 0 0
+woff2 886 105888887 0 0
+css 4881 36125961 0 0
+jpg 37723 10147244814 0 0
+webp 3222 70160204 0 0
+png 893 479802746 0 0
+woff 28 1035976 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 0 142 3408
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 47
+macosx14 26 4
+os/2 2 1
+unix 9 8
+beos 1 0
+android12 2898 118
+winphone 1 0
+bsdopenbsd 1 1
+linuxubuntu 76 8
+macosx6 2 0
+win7 265 9
+androidlollipop 1 0
+androidcupcake 1 0
+bsdfreebsd 2 1
+macosx9 1 1
+win2003 1 0
+winlong 5 2
+androidnougat 180 7
+win10 3227 508
+androidoreo 66 4
+j2me 1 1
+android10 13616 601
+androidjellybean 1 0
+macosx7 13 8
+macos12 1 1
+androidkitkat 2 0
+win8 2 0
+ios_iphone 6285 242
+sunos 1 0
+symbian 3 0
+win8.1 2 2
+macosx8 1 0
+macosx10 2 0
+linux 92 55
+ios_ipad 3 2
+androidpie 507 15
+androidmarshmallow 311 300
+android11 3897 160
+macosx 8 2
+android13 5956 233
+android 15591 542
+androideclair 2 0
+macosx13 1 0
+Unknown 837 270
+macosx15 158 72
+androidhoneycomb 1 0
+macosx12 1 1
+macos11 262 262
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 199
+chrome87.0.4280.88 262 262
+chrome109.0.0.0 63 4
+firefox14.0.1 1 1
+safari15.2 1 1
+chrome58.0.2991.0 1 1
+chrome62.0.1750.3 1 1
+chrome126.0.0.0 132 14
+safari15.3 1 0
+opera8.01 1 1
+safari14.0.3 1 1
+chrome52.0.2717.98 3 3
+chrome139.0.0.0 7289 527
+opera86.0.4363.50 1 1
+opera14.0.1116.4 1 0
+chrome115.0.0.0 2 2
+chrome125.0.6422.72 633 19
+safari16.0 1 0
+chrome85.0.4183.101 1 1
+chrome80.0.3987.162 1 1
+chrome17.0.963.56 14 9
+chrome60.0.475.111 1 1
+chrome61.0.3163.49 1 0
+chrome61.0.3163.100 1 1
+chrome100.0.4896.127 5 2
+chrome66.0.3359.181 1 1
+chrome99.0.4844.83 3 1
+chrome132.0.0.0 2 2
+firefox55.0 2 1
+firefox122.0 1 1
+chrome139.0.7258.127 15 4
+chrome91.0.4472.114 3 0
+chrome99.0.4844.58 2 2
+safari18.3.1 2 2
+chrome139.0.7258.75 247 4
+chrome139.0.7258.144 323 8
+chrome139.0.7258.135 831 41
+netpositive 1 0
+portalmmm 1 1
+chrome71.0.3578.98 2 0
+safari16.2 2 2
+chrome140.0.7339.156 339 10
+chrome138.0.0.0 1178 103
+firefox137.0 1 1
+chrome139.0.7258.158 6472 224
+chrome93.0.4577.63 3 0
+firefox125.0 1 1
+firefox120.0 1 1
+chrome123.0.6312.118 45 4
+chrome45.0.2454.93 1 0
+Unknown 575 252
+safari17.8 99 7
+chrome56.0.2333.38 1 1
+chrome116.0.0.0 26 26
+chrome140.0.7339.119 1485 70
+chrome91.0.4472.124 1 1
+safari15.0 1 0
+chrome138.0.7204.169 123 4
+chrome89.0 1 1
+chrome108.0.0.0 5 5
+chrome36.0.1985.135 1 0
+firefox131.0 1 1
+chrome139.0.7258.151 1508 62
+firefox136.0 2 2
+iceape 1 1
+chrome83.0.4103.97 24 4
+chrome92.0.4515.166 1 0
+chrome139.0.7258.147 62 3
+chrome98.0.4758.102 1 0
+opera85.0.4341.75 1 0
+chrome87.0.4280.101 1 0
+chrome100.0.4896.147 1 0
+chrome134.0.6998.35 29 1
+chrome136.0.0.0 1 1
+safari3.1.1 1 0
+chrome35.0.1916.153 1 0
+chrome90.0.4430.210 1 0
+chrome129.0.0.0 4 4
+chrome101.0.4951.64 3 0
+firefox31.0 1 0
+chrome101.0.4951.61 7 0
+chrome56.0.2924.87 2 0
+chrome100.0.4896.88 1 0
+chrome77.0.3865.42 1 1
+chrome28.0.1469.0 4 0
+chrome140.0.7339.155 824 24
+chrome100.0.4896.60 2 0
+chrome139.0.7258.160 2145 77
+chrome100.0.4896.133 1 0
+chrome125.0.6422.26 51 1
+mozilla 32 14
+firefox59.0 106 8
+chrome112.0.0.0 9 9
+chrome47.0.2526.83 6 6
+safari7.0 1 0
+chrome128.0.0.0 69 4
+chrome135.0.0.0 8 8
+chrome138.0.7204.179 539 17
+chrome114.0.5775.194 69 5
+chrome91.0.4472.88 62 3
+chrome57.0.2196.37 1 1
+firefox20.0 1 0
+safari18.6 81 9
+opera68.3.3557.64528 1 0
+firefox47.0 1 1
+safari18.1 1 1
+chrome61.0.3163.128 1 0
+chrome105.0.0.0 8 5
+opera66.2.3445.62346 1 0
+firefox89.0 88 10
+chrome5.0.359.0 1 1
+opera9.64 1 0
+safari17.6 62 4
+netscape5.0 14 5
+seamonkey 1 0
+chrome58.0.3029.83 1 0
+chrome120.0.0.0 74 9
+chrome117.0.0.0 17 17
+chrome91.0.4472.77 1 0
+chrome58.0.2086.106 1 1
+chrome51.0.2704.106 1 1
+chrome60.0.3112.78 1 0
+chrome140.0.7339.97 42 3
+chrome26.0.1410.63 1 0
+firefox115.0 256 5
+firefox135.0 2 2
+safari14.1.1 1 1
+chrome101.0.4950.2 1 0
+chrome140.0.7339.207 279 5
+chrome101.0.4951.41 2 1
+chrome114.0.0.0 87 4
+chrome78.0.3904.108 2 1
+chrome139.0.7258.143 3125 116
+safari15.6 38 4
+chrome131.0.0.0 26 15
+safari2.0.4 1 0
+msie9.0 1 0
+real 100 0
+chrome140.0.7339.154 436 22
+chrome124.0.0.0 6 6
+safari14.1.2 3 1
+chrome111.0.5563.116 373 7
+chrome5.0.310.0 1 0
+chrome58.0.3029.110 10 10
+firefox139.0 29 15
+chrome140.0.0.0 5472 267
+chrome140.0.7339.51 6987 244
+chrome110.0.0.0 1 1
+chrome127.0.0.0 62 3
+chrome51.0.2704.103 1 0
+chrome119.0.6045.193 96 5
+android 15 0
+msie7.0 2 0
+chrome44.0.2403.107 1 1
+chrome42.0.2311.90 3 3
+firefox134.0 4 4
+chrome89.0.4389.105 1 0
+safari5.0.4 1 0
+chrome91.0.4472.164 1 0
+firefox109.0 69 4
+safari 683 21
+chrome92.0.4515.131 1 0
+safari5.1.7 1 0
+iphone 4855 184
+safari11.0 1 0
+arora 1 1
+chrome130.0.0.0 410 34
+chrome98.0.4758.80 1 0
+chrome52.0.2743.116 1 0
+chrome45.0.2454.94 1 0
+chrome138.0.7204.183 274 274
+chrome69.0.1972 1 1
+safari13.1.2 1 0
+safari18.5 467 12
+firefox38.0 1 0
+chrome33.0.1750.152 1 0
+chrome79.0.3945.79 1 0
+chrome107.0.0.0 34 4
+firefox142.0 62 3
+firefox108.0 2 2
+chrome134.0.0.0 68 9
+chrome136.0.7103.60 62 3
+msie11.0 1 0
+chrome115.0.5810.222 2 1
+chrome96.0.4664.45 1 0
+opera9.25 1 1
+chrome140.0.7339.127 13 13
+firefox32.0 1 0
+chrome140.0.7339.52 206 4
+chrome137.0.0.0 95 12
+opera47.0.2631.55 1 0
+safari12.0 1 1
+chrome47.0.2526.73 1 1
+safari1.3.1 1 0
+safari2.0.1 2 0
+chrome99.0.4844.84 1 0
+safari18.4 2 2
+samsung 118 0
+chrome139.0.7258.164 3202 148
+chrome139.0.7258.90 49 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 62
+python-requests/2.32.4 20250927004857
+Mozilla/5.0_(compatible;_Dataprovider.com) 20250917095639
+[FBAN/FB4A;FBAV/531.0.0.47.70;FBBV/792873347;FBDM/{density=3.0,width=2400,height=1080};FBLC/en_US;FBRV/796907188;FBCR/Robi;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SC-51B;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250926134904
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632875;FBDM/{density=2.75,width=1080,height=2388};FBLC/en_US;FBRV/788029031;FBCR/;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/V2249;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250906150241
+[FBAN/FB4A;FBAV/528.0.0.62.74;FBBV/784418772;FBDM/{density=2.75,width=1080,height=2400};FBLC/en_GB;FBRV/787186678;FBCR/;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/V2237;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250906092748
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250927143559
+[FBAN/FB4A;FBAV/528.0.0.62.74;FBBV/784418772;FBDM/{density=3.0,width=1080,height=2280};FBLC/en_GB;FBRV/787186678;FBCR/Robi;FBMF/realme;FBBD/realme;FBPN/com.facebook.katana;FBDV/RMX3031;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250918124304
+[FBAN/FB4A;FBAV/531.0.0.47.70;FBBV/792873347;FBDM/{density=2.75,width=1080,height=2392};FBLC/en_US;FBRV/795373080;FBCR/;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/V2427;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250923142531
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632873;FBDM/{density=1.875,width=720,height=1465};FBLC/en_GB;FBRV/791116052;FBCR/Airtel;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A035F;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250914110539
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632875;FBDM/{density=2.55,width=1080,height=2304};FBLC/en_US;FBRV/788916750;FBCR/Robi;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH2099;FBSV/11;FBOP/1;FBCA/arm64-v8a:;] 20250908174512
+[FBAN/FB4A;FBAV/530.0.0.48.74;FBBV/789633436;FBDM/{density=2.0,width=720,height=1436};FBLC/en_GB;FBRV/791862982;FBCR/Grameenphone;FBMF/INFINIX;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X6528;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250915123742
+portalmmm/2.0_N410i(c20;TB) 20250912134104
+[FBAN/FB4A;FBAV/527.0.0.59.76;FBBV/781803177;FBDM/{density=1.75,width=720,height=1449};FBLC/en_US;FBRV/786383517;FBCR/Grameenphone;FBMF/motorola;FBBD/motorola;FBPN/com.facebook.katana;FBDV/moto_g04;FBSV/14;FBOP/1;FBCA/arm64-v8a:;] 20250922025002
+[FBAN/FB4A;FBAV/528.0.0.62.74;FBBV/784418772;FBDM/{density=2.75,width=1080,height=2177};FBLC/en_GB;FBRV/787186678;FBCR/airtel;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/M2101K6G;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250915074803
+WhatsApp/2.2534.2_W 20250907085531
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632871;FBDM/{density=1.5,width=720,height=1460};FBLC/en_US;FBRV/791116052;FBCR/Teletalk;FBMF/TECNO;FBBD/TECNO;FBPN/com.facebook.katana;FBDV/TECNO_BF7;FBSV/12;FBOP/1;FBCA/arm64-v8a:;] 20250920183435
+[FBAN/FB4A;FBAV/525.0.0.53.51;FBBV/773514916;FBDM/{density=1.875,width=720,height=1475};FBLC/en_GB;FBRV/779001039;FBCR/Grameenphone;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/V2026;FBSV/11;FBOP/1;FBCA/arm64-v8a:;] 20250902092406
+Mozilla/5.0_(compatible;_UGAResearchAgent/1.0;_Please_visit:_NISLabUGA.github.io) 20250927084920
+[FBAN/FB4A;FBAV/530.0.0.48.74;FBBV/789633439;FBDM/{density=2.625,width=1080,height=2195};FBLC/en_GB;FBRV/791659144;FBCR/Grameenphone;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A315N;FBSV/12;FBOP/1;FBCA/arm64-v8a:;] 20250914160532
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632875;FBDM/{density=2.625,width=1080,height=2273};FBLC/en_GB;FBRV/788916750;FBCR/Grameenphone;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A525F;FBSV/14;FBOP/1;FBCA/arm64-v8a:;] 20250909015345
+[FBAN/FB4A;FBAV/528.0.0.62.74;FBBV/784418769;FBDM/{density=2.0,width=720,height=1612};FBLC/en_US;FBRV/787186678;FBCR/Grameenphone;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH2579;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250905152529
+[FBAN/FB4A;FBAV/530.0.0.48.74;FBBV/789633439;FBDM/{density=3.0,width=1080,height=2400};FBLC/en_US;FBRV/792042063;FBCR/Grameenphone;FBMF/realme;FBBD/realme;FBPN/com.facebook.katana;FBDV/RMX3750;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250915180159
+python-httpx/0.28.1 20250918054447
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632875;FBDM/{density=3.0,width=1080,height=2352};FBLC/en_US;FBRV/789527296;FBCR/Grameenphone;FBMF/INFINIX_MOBILITY_LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X6812;FBSV/11;FBOP/1;FBCA/arm64-v8a:;] 20250910203450
+[FBAN/FB4A;FBAV/527.0.0.59.76;FBBV/781803097;FBDM/{density=3.0,width=1080,height=2161};FBLC/en_US;FBRV/786067039;FBCR/Grameenphone;FBMF/realme;FBBD/realme;FBPN/com.facebook.katana;FBDV/RMX3363;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250902055101
+[FBAN/FB4A;FBAV/530.0.0.48.74;FBBV/789633418;FBDM/{density=2.2250001,width=1080,height=2413};FBLC/en_US;FBRV/792245187;FBCR/Grameenphone;FBMF/Sony;FBBD/KDDI;FBPN/com.facebook.katana;FBDV/SOV42;FBSV/10;FBOP/1;FBCA/arm64-v8a:;] 20250916061141
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632875;FBDM/{density=2.75,width=1080,height=2176};FBLC/en_GB;FBRV/789126744;FBCR/Grameenphone;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/23129RAA4G;FBSV/14;FBOP/1;FBCA/arm64-v8a:;] 20250909075240
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632875;FBDM/{density=3.0,width=1080,height=2161};FBLC/en_US;FBRV/789126744;FBCR/airtel;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH2363;FBSV/14;FBOP/1;FBCA/arm64-v8a:;] 20250909120526
+[FBAN/FB4A;FBAV/530.0.0.48.74;FBBV/789633439;FBDM/{density=2.8125,width=1080,height=2316};FBLC/en_GB;FBRV/793778724;FBCR/Robi;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-S918B;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250919120042
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632875;FBDM/{density=2.8125,width=1080,height=2340};FBLC/en_GB;FBRV/789407418;FBCR/Airtel;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A566B;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250909182354
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632586;FBDM/{density=2.75,width=1080,height=2168};FBLC/en_GB;FBRV/789527296;FBCR/Grameenphone;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/Redmi_Note_9_Pro;FBSV/10;FBOP/1;FBCA/arm64-v8a:;] 20250910071200
+[FBAN/FB4A;FBAV/530.0.0.48.74;FBBV/789633258;FBDM/{density=2.0,width=720,height=1460};FBLC/en_Qaau_US;FBRV/792634125;FBCR/Stay_Home-Teletalk;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH2477;FBSV/12;FBOP/1;FBCA/arm64-v8a:;] 20250917124039
+SearchExpress 20250929003445
+[FBAN/FB4A;FBAV/530.0.0.48.74;FBBV/789633436;FBDM/{density=2.0,width=720,height=1444};FBLC/en_US;FBRV/792245187;FBCR/Airtel;FBMF/INFINIX_MOBILITY_LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X665B;FBSV/11;FBOP/1;FBCA/arm64-v8a:;] 20250916134221
+[FBAN/FB4A;FBAV/530.0.0.48.74;FBBV/789633439;FBDM/{density=3.0,width=1080,height=2400};FBLC/en_US;FBRV/793762646;FBCR/airtel;FBMF/OnePlus;FBBD/OnePlus;FBPN/com.facebook.katana;FBDV/CPH2621;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250920190810
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632855;FBDM/{density=2.75,width=1080,height=2134};FBLC/en_US;FBRV/789126744;FBCR/Airtel;FBMF/Xiaomi;FBBD/POCO;FBPN/com.facebook.katana;FBDV/M2004J19PI;FBSV/10;FBOP/1;FBCA/arm64-v8a:;] 20250910052529
+[FBAN/FB4A;FBAV/528.0.0.62.74;FBBV/784418772;FBDM/{density=2.75,width=1080,height=2320};FBLC/en_US;FBRV/787186678;FBCR/airtel;FBMF/Xiaomi;FBBD/Mi;FBPN/com.facebook.katana;FBDV/M2012K11AI;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250905093024
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632873;FBDM/{density=2.0,width=720,height=1451};FBLC/en_US;FBRV/790080777;FBCR/Robi;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH2669;FBSV/14;FBOP/1;FBCA/arm64-v8a:;] 20250911175927
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632875;FBDM/{density=2.8125,width=1080,height=2340};FBLC/en_GB;FBRV/788823390;FBCR/Airtel;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A566B;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250908122434
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632875;FBDM/{density=3.0,width=1080,height=2158};FBLC/en_US;FBRV/789295571;FBCR/Grameenphone;FBMF/realme;FBBD/realme;FBPN/com.facebook.katana;FBDV/RMX3085;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250909142547
+quic-go-HTTP/3 20250926153714
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632873;FBDM/{density=2.0,width=720,height=1444};FBLC/en_US;FBRV/789126744;FBCR/Robi;FBMF/ITEL_MOBILE_LIMITED;FBBD/Itel;FBPN/com.facebook.katana;FBDV/itel_S661LP;FBSV/11;FBOP/1;FBCA/arm64-v8a:;] 20250909094633
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632875;FBDM/{density=2.55,width=1080,height=2249};FBLC/en_US;FBRV/788916750;FBCR/Airtel;FBMF/realme;FBBD/realme;FBPN/com.facebook.katana;FBDV/RMX3081;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250908173636
+[FBAN/FB4A;FBAV/527.0.0.59.76;FBBV/781803179;FBDM/{density=2.8125,width=1080,height=2177};FBLC/en_GB;FBRV/785837805;FBCR/Airtel;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A536E;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250901204945
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632875;FBDM/{density=2.75,width=1080,height=2177};FBLC/en_GB;FBRV/790740433;FBCR/;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/M2101K6I;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250912101352
+[FBAN/FB4A;FBAV/528.0.0.62.74;FBBV/784418772;FBDM/{density=2.675,width=1284,height=2706};FBLC/en_Qaau_US;FBRV/787186678;FBCR/Grameenphone;FBMF/INFINIX_MOBILITY_LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X688B;FBSV/11;FBOP/1;FBCA/arm64-v8a:;] 20250905050206
+Mozilla/5.0_zgrab/0.x 20250926091836
+[FBAN/FB4A;FBAV/531.0.0.47.70;FBBV/792873321;FBDM/{density=2.625,width=1080,height=2094};FBLC/en_GB;FBRV/796907188;FBCR/;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A750GN;FBSV/10;FBOP/19;FBCA/arm64-v8a:;] 20250925194122
+[FBAN/FB4A;FBAV/530.0.0.48.74;FBBV/789633444;FBDM/{density=3.375,width=1080,height=2097};FBLC/en_US;FBRV/0;FBCR/Robi;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-S911B;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250913172433
+[FBAN/FB4A;FBAV/527.0.0.59.76;FBBV/781803179;FBDM/{density=3.0,width=1080,height=2170};FBLC/en_US;FBRV/786067039;FBCR/Teletalk_3G;FBMF/realme;FBBD/realme;FBPN/com.facebook.katana;FBDV/RMX3491;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250902032725
+panscient.com 20250907063859
+[FBAN/FB4A;FBAV/527.0.0.59.76;FBBV/781803179;FBDM/{density=2.55,width=1080,height=2412};FBLC/en_US;FBRV/786067039;FBCR/Grameenphone;FBMF/realme;FBBD/realme;FBPN/com.facebook.katana;FBDV/RMX3686;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250902080703
+[FBAN/FB4A;FBAV/530.0.0.9.74;FBBV/787399855;FBDM/{density=3.75,width=1440,height=3088};FBLC/en_US;FBRV/0;FBCR/Grameenphone;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-S908E;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250908100217
+[FBAN/FB4A;FBAV/527.0.0.59.76;FBBV/781803179;FBDM/{density=3.0,width=1220,height=2560};FBLC/en_GB;FBRV/785790502;FBCR/Airtel;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/23090RA98I;FBSV/14;FBOP/1;FBCA/arm64-v8a:;] 20250901142531
+WhatsApp/2.23.20.0 20250921050721
+Web_Downloader/6.9 20250929002814
+[FBAN/FB4A;FBAV/530.0.0.48.74;FBBV/789633209;FBDM/{density=3.0,width=1080,height=2158};FBLC/en_US;FBRV/792634125;FBCR/Grameenphone;FBMF/realme;FBBD/realme;FBPN/com.facebook.katana;FBDV/RMX3710FB;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250917161658
+[FBAN/FB4A;FBAV/527.0.0.59.76;FBBV/781803179;FBDM/{density=2.8125,width=1080,height=2177};FBLC/en_GB;FBRV/786196396;FBCR/Airtel;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A536E;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250902173145
+[FBAN/FB4A;FBAV/531.0.0.47.70;FBBV/792873347;FBDM/{density=3.0,width=1080,height=2412};FBLC/en_GB;FBRV/795890899;FBCR/Grameenphone;FBMF/realme;FBBD/realme;FBPN/com.facebook.katana;FBDV/RMX3771;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250923200047
+Mozilla/5.0 20250920182149
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20250926184327
+[FBAN/FB4A;FBAV/531.0.0.47.70;FBBV/792873345;FBDM/{density=2.0,width=720,height=1532};FBLC/en_US;FBRV/797230436;FBCR/Grameenphone;FBMF/INFINIX;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X6528;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250926234628
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 36
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632875;FBDM/{density=2.75,width=1080,height=2388};FBLC/en_US;FBRV/788029031;FBCR/;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/V2249;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250906150241
+[FBAN/FB4A;FBAV/528.0.0.62.74;FBBV/784418772;FBDM/{density=2.75,width=1080,height=2400};FBLC/en_GB;FBRV/787186678;FBCR/;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/V2237;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250906092748
+Midori/0.1.10_(X11;_Linux_i686;_U;_en-us)_WebKit/(531).(2) 20250929003138
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250927143559
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632875;FBDM/{density=3.0,width=1080,height=2161};FBLC/en_US;FBRV/789126744;FBCR/airtel;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH2363;FBSV/14;FBOP/1;FBCA/arm64-v8a:;] 20250909120526
+python-requests/2.32.4 20250927004857
+[FBAN/FB4A;FBAV/530.0.0.48.74;FBBV/789633436;FBDM/{density=2.0,width=720,height=1444};FBLC/en_US;FBRV/792245187;FBCR/Airtel;FBMF/INFINIX_MOBILITY_LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X665B;FBSV/11;FBOP/1;FBCA/arm64-v8a:;] 20250916134221
+[FBAN/FB4A;FBAV/530.0.0.48.74;FBBV/789633439;FBDM/{density=3.0,width=1080,height=2400};FBLC/en_US;FBRV/793762646;FBCR/airtel;FBMF/OnePlus;FBBD/OnePlus;FBPN/com.facebook.katana;FBDV/CPH2621;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250920190810
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632873;FBDM/{density=2.0,width=720,height=1451};FBLC/en_US;FBRV/790080777;FBCR/Robi;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH2669;FBSV/14;FBOP/1;FBCA/arm64-v8a:;] 20250911175927
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632855;FBDM/{density=2.75,width=1080,height=2134};FBLC/en_US;FBRV/789126744;FBCR/Airtel;FBMF/Xiaomi;FBBD/POCO;FBPN/com.facebook.katana;FBDV/M2004J19PI;FBSV/10;FBOP/1;FBCA/arm64-v8a:;] 20250910052529
+[FBAN/FB4A;FBAV/528.0.0.62.74;FBBV/784418772;FBDM/{density=2.75,width=1080,height=2320};FBLC/en_US;FBRV/787186678;FBCR/airtel;FBMF/Xiaomi;FBBD/Mi;FBPN/com.facebook.katana;FBDV/M2012K11AI;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250905093024
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632586;FBDM/{density=2.75,width=1080,height=2168};FBLC/en_GB;FBRV/789527296;FBCR/Grameenphone;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/Redmi_Note_9_Pro;FBSV/10;FBOP/1;FBCA/arm64-v8a:;] 20250910071200
+SearchExpress 20250929003445
+[FBAN/FB4A;FBAV/530.0.0.48.74;FBBV/789633258;FBDM/{density=2.0,width=720,height=1460};FBLC/en_Qaau_US;FBRV/792634125;FBCR/Stay_Home-Teletalk;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH2477;FBSV/12;FBOP/1;FBCA/arm64-v8a:;] 20250917124039
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632875;FBDM/{density=2.55,width=1080,height=2304};FBLC/en_US;FBRV/788916750;FBCR/Robi;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH2099;FBSV/11;FBOP/1;FBCA/arm64-v8a:;] 20250908174512
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632873;FBDM/{density=2.0,width=720,height=1444};FBLC/en_US;FBRV/789126744;FBCR/Robi;FBMF/ITEL_MOBILE_LIMITED;FBBD/Itel;FBPN/com.facebook.katana;FBDV/itel_S661LP;FBSV/11;FBOP/1;FBCA/arm64-v8a:;] 20250909094633
+[FBAN/FB4A;FBAV/531.0.0.47.70;FBBV/792873347;FBDM/{density=2.75,width=1080,height=2392};FBLC/en_US;FBRV/795373080;FBCR/;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/V2427;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250923142531
+quic-go-HTTP/3 20250926153714
+[FBAN/FB4A;FBAV/530.0.0.48.74;FBBV/789633436;FBDM/{density=2.0,width=720,height=1436};FBLC/en_GB;FBRV/791862982;FBCR/Grameenphone;FBMF/INFINIX;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X6528;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250915123742
+[FBAN/FB4A;FBAV/527.0.0.59.76;FBBV/781803177;FBDM/{density=1.75,width=720,height=1449};FBLC/en_US;FBRV/786383517;FBCR/Grameenphone;FBMF/motorola;FBBD/motorola;FBPN/com.facebook.katana;FBDV/moto_g04;FBSV/14;FBOP/1;FBCA/arm64-v8a:;] 20250922025002
+[FBAN/FB4A;FBAV/528.0.0.62.74;FBBV/784418772;FBDM/{density=2.675,width=1284,height=2706};FBLC/en_Qaau_US;FBRV/787186678;FBCR/Grameenphone;FBMF/INFINIX_MOBILITY_LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X688B;FBSV/11;FBOP/1;FBCA/arm64-v8a:;] 20250905050206
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632875;FBDM/{density=2.75,width=1080,height=2177};FBLC/en_GB;FBRV/790740433;FBCR/;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/M2101K6I;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250912101352
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632871;FBDM/{density=1.5,width=720,height=1460};FBLC/en_US;FBRV/791116052;FBCR/Teletalk;FBMF/TECNO;FBBD/TECNO;FBPN/com.facebook.katana;FBDV/TECNO_BF7;FBSV/12;FBOP/1;FBCA/arm64-v8a:;] 20250920183435
+WhatsApp/2.2534.2_W 20250907085531
+[FBAN/FB4A;FBAV/528.0.0.62.74;FBBV/784418772;FBDM/{density=2.75,width=1080,height=2177};FBLC/en_GB;FBRV/787186678;FBCR/airtel;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/M2101K6G;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250915074803
+WhatsApp/2.23.20.0 20250921050721
+Web_Downloader/6.9 20250929002814
+[FBAN/FB4A;FBAV/527.0.0.59.76;FBBV/781803179;FBDM/{density=3.0,width=1220,height=2560};FBLC/en_GB;FBRV/785790502;FBCR/Airtel;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/23090RA98I;FBSV/14;FBOP/1;FBCA/arm64-v8a:;] 20250901142531
+panscient.com 20250907063859
+[FBAN/FB4A;FBAV/525.0.0.53.51;FBBV/773514916;FBDM/{density=1.875,width=720,height=1475};FBLC/en_GB;FBRV/779001039;FBCR/Grameenphone;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/V2026;FBSV/11;FBOP/1;FBCA/arm64-v8a:;] 20250902092406
+python-httpx/0.28.1 20250918054447
+[FBAN/FB4A;FBAV/528.0.0.62.74;FBBV/784418769;FBDM/{density=2.0,width=720,height=1612};FBLC/en_US;FBRV/787186678;FBCR/Grameenphone;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH2579;FBSV/15;FBOP/1;FBCA/arm64-v8a:;] 20250905152529
+[FBAN/FB4A;FBAV/531.0.0.47.70;FBBV/792873345;FBDM/{density=2.0,width=720,height=1532};FBLC/en_US;FBRV/797230436;FBCR/Grameenphone;FBMF/INFINIX;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X6528;FBSV/13;FBOP/1;FBCA/arm64-v8a:;] 20250926234628
+[FBAN/FB4A;FBAV/530.0.0.48.74;FBBV/789633418;FBDM/{density=2.2250001,width=1080,height=2413};FBLC/en_US;FBRV/792245187;FBCR/Grameenphone;FBMF/Sony;FBBD/KDDI;FBPN/com.facebook.katana;FBDV/SOV42;FBSV/10;FBOP/1;FBCA/arm64-v8a:;] 20250916061141
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632875;FBDM/{density=2.75,width=1080,height=2176};FBLC/en_GB;FBRV/789126744;FBCR/Grameenphone;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/23129RAA4G;FBSV/14;FBOP/1;FBCA/arm64-v8a:;] 20250909075240
+[FBAN/FB4A;FBAV/529.0.0.44.73;FBBV/786632875;FBDM/{density=3.0,width=1080,height=2352};FBLC/en_US;FBRV/789527296;FBCR/Grameenphone;FBMF/INFINIX_MOBILITY_LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X6812;FBSV/11;FBOP/1;FBCA/arm64-v8a:;] 20250910203450
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1257 1775
+From1 0 477
+From2 24 27
+From3 337 339
+From4 1823 51704
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+www_google_com 19 22
+www_google_com_hk 3 3
+www_bing_com 1 1
+google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+http://m.facebook.com 238 238
+https://l.facebook.com 71 71
+https://lm.facebook.com 13 13
+https://www.facebook.com 8 8
+https://l.wl.co 6 6
+https://l.instagram.com 1 1
+https://mail.milamartbd.com 0 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+400 10 559324
+403 99 124674
+206 5027 726617813
+301 9 7155
+405 28 5607477
+500 893 197401554
+302 121 25537
+401 5 265
+404 1193 2777641
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 239
+//milamartbd.com/public/frontEnd/js/bootstrap.min.js 20 -
+/settings.json 1 -
+/file-manager/ckeditor 2 -
+/application/config/profiler.php 1 -
+/feed/atom 1 -
+/add-to-cart 6 -
+/product/ambush-wall-paper-16 3 -
+/product/ambush-wall-paper-31 3 -
+//milamartbd.com/public/frontEnd/js/jquery-3.7.1.min.js 21 -
+//milamartbd.com/public/frontEnd/js/mobile-menu-init.js 20 -
+/apple-touch-icon.png 1 -
+/Public/ueditor/ueditor.config.js/x.php 1 -
+/api/graphql 1 -
+/debug/default/view 3 -
+/site/gtm.js 11 -
+/dashboard/phpinfo.php 1 -
+/_profiler/phpinfo 1 -
+//www.milamartbd.acharmela.com/public/frontEnd/js/script.js 14 -
+/product/ambush-wall-paper-23 2 -
+/config/application.config.php 1 -
+/static/web/UEditor/ueditor.config.js/x.php 1 -
+/public/backEnd/assets/images/bg-pattern-2.png 14 https://milamartbd.com/public/backEnd/assets/css/app.min.css
+/config/test.config.php 1 -
+/config/autoload/global.php 1 -
+//milamartbd.com/public/frontEnd/js/script.js 20 -
+/config/acl.config.php 1 -
+/public/frontEnd/js/bootstrap.min.js.map 4 -
+/shell.php 3 -
+//www.milamartbd.acharmela.com/public/backEnd/assets/js/toastr.min.js 15 -
+/old_phpinfo.php 1 -
+/login.action 3 -
+/config/default.json 1 -
+/hosting.json 1 -
+//milamartbd.com/public/frontEnd/js/wsit-menu.js 19 -
+/s/63e2130323e2834323e2136313/_/ 3 -
+/appsettings.Production.json 1 -
+/config/autoload/local.php 1 -
+//milamartbd.acharmela.com/public/frontEnd/js/wow.min.js 11 -
+/product/ambush-wall-paper-25 3 -
+/aws.yml 1 -
+//milamartbd.acharmela.com/public/frontEnd/js/jquery-3.7.1.min.js 11 -
+/public/frontEnd/js/parsley.min.js.map 4 -
+/product/ambush-wall-paper-4 3 -
+//cdn.js 44 -
+/product/ambush-wall-paper-28 2 -
+/wiki 1 -
+/sitemaps.xml 4 -
+/vendor/file-manager/css/file-manager.css 1 -
+//milamartbd.com/public/frontEnd/js/wow.min.js 20 -
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper 7 -
+/apple-touch-icon-precomposed.png 1 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 3 -
+/public/frontEnd/js/'+b.loadinggif+' 4 -
+/.well-known/traffic-advice 5 -
+/product/ambush-wall-paper-17 2 -
+/about 3 -
+/config/development.config.php 1 -
+//milamartbd.com/public/frontEnd/js/owl.carousel.min.js 21 -
+/application/config/migration.php 1 -
+//www.milamartbd.acharmela.com/public/frontEnd/js/bootstrap.min.js 14 -
+/application/config/foreign_chars.php 1 -
+/config/php.ini 1 -
+/launchSettings.json 1 -
+/product/ambush-wall-paper-9 4 -
+/config/app.default.php 1 -
+/appsettings.Local.json 1 -
+/application/config/constants.php 1 -
+/appsettings.QA.json 1 -
+//www.milamartbd.acharmela.com/public/frontEnd/js/owl.carousel.min.js 13 -
+/telescope/requests 3 -
+/product/ambush-wall-paper-29 3 -
+/appsettings.Development.json 1 -
+/helpers/utility.js 1 -
+/config/production.config.php 1 -
+/customer/milamartbd@gmail.com 4 -
+/ads.txt 1 -
+/product/ambush-wall-paper-11 3 -
+/wp-login.php 1 -
+/pinfo.php 1 -
+/public/client/planinfo 1 -
+/app/etc/config.php 1 -
+/secured/phpinfo.php 1 -
+/php-info.php 1 -
+/gtm.js 10 -
+/config.js 1 -
+/atom.xml 4 -
+/product/ambush-wall-paper-40 4 -
+//milamartbd.com/public/backEnd/assets/js/toastr.min.js 20 -
+//cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js 44 -
+/query 1 -
+/application/config/hooks.php 1 -
+/product/ambush-wall-paper-3 2 -
+//milamartbd.acharmela.com/public/frontEnd/js/owl.carousel.min.js 11 -
+/phpinfo.php4 1 -
+/elmah.axd 1 -
+/app/app/ueditor/ueditor.config.js/x.php 1 -
+/config/cli_bootstrap.php 1 -
+//milamartbd.acharmela.com/public/frontEnd/js/mobile-menu-init.js 11 -
+/config/settings.json 1 -
+/appsettings.Test.json 1 -
+/milamartbd@gmail.com 9 -
+/api/config/tsconfig.json 1 -
+/app_dev.php/_profiler/phpinfo 1 -
+/wordpress/wp-admin/setup-config.php 67 -
+//www.googletagmanager.com/gtm.js 47 -
+/@vite/env 3 -
+/vendor/laravel-filemanager/css/lfm.css 1 -
+/product/ambush-wall-paper-22 2 -
+/config/aws.json 1 -
+/prevlaravel/sftp-config.json 1 -
+/infophp.php 1 -
+//milamartbd.acharmela.com/public/frontEnd/js/bootstrap.min.js 11 -
+/product/shirt 1 -
+/application/config/doctypes.php 1 -
+/sftp.json 1 -
+/product/ambush-wall-paper-33 2 -
+/product/ambush-wall-paper-27 3 -
+//milamartbd.acharmela.com/public/frontEnd/js/mobile-menu.js 11 -
+/product/ambush-wall-paper-5 9 -
+/product/ambush-wall-paper-21 2 -
+/product/ambush-wall-paper-34 3 -
+/product/medium-quality-fridge-sticker 6 -
+//www.milamartbd.acharmela.com/public/frontEnd/js/wow.min.js 15 -
+/config/test.json 1 -
+/.aws/credentials 1 -
+/xmlrpc.php 30 -
+/wp-json/sure-triggers/v1/automation/action 3 -
+/product/ambush-wall-paper-30 2 -
+/config.json 7 -
+/plugin/ueditor/ueditor.config.js/x.php 1 -
+/page/gtm.js 10 -
+/blog.env 1 -
+/graphql 1 -
+/src/config/config.json 1 -
+/product/ambush-wall-paper 4 -
+/config/config.php 1 -
+/angular.json 1 -
+/product/ambush-wall-paper-10 2 -
+/appsettings.json 1 -
+/.well-known/security.txt 3 -
+/contact 3 https://milamartbd.com/contact
+/.vscode/sftp.json 4 -
+/.local 1 -
+/meta.json 7 -
+/config/routes.php 1 -
+/test1.php 1 -
+/product/gtm.js 10 -
+/phpinfo.php5 1 -
+/config/app_local.php 1 -
+/info.php 4 -
+/bundleconfig.json 1 -
+/config/development.json 1 -
+/config/paths.php 1 -
+/actuator/env 3 -
+/admin 1 -
+/.well-known/apple-app-site-association 6 -
+/product/ambush-wall-paper-2 2 -
+/product/ambush-wall-paper-14 2 -
+/product/ambush-wall-paper-37 3 -
+/manifest.json 1 -
+/.DS_Store 3 -
+/page/milamartbd@gmail.com 4 -
+/tsconfig.spec.json 1 -
+/admin/lib//ueditor/ueditor.config.js/x.php 1 -
+/webshell.php 3 -
+/symfony/_profiler/phpinfo 1 -
+/.env.production 1 -
+/sitemap.txt 5 -
+/sitemap_index.xml 4 -
+//www.milamartbd.acharmela.com/public/frontEnd/js/wsit-menu.js 16 -
+/config/bootstrap.php 1 -
+/time.php 1 -
+/tsconfig.app.json 1 -
+/config/module.config.php 1 -
+//www.milamartbd.acharmela.com/public/frontEnd/js/mobile-menu.js 14 -
+/phpinfo.php 1 -
+/_all_dbs 3 -
+//milamartbd.acharmela.com/public/frontEnd/js/script.js 11 -
+//www.milamartbd.acharmela.com/public/frontEnd/js/mobile-menu-init.js 15 -
+/shell 3 -
+/product/milamartbd@gmail.com 6 -
+/temp.php 1 -
+/product/ambush-wall-paper-15 3 -
+/tsconfig.json 1 -
+/public/static/common/lib/ueditor/ueditor.config.js/x.php 1 -
+/config/database.config.php 1 -
+/ueditor/ueditor.config.js/x.php 1 -
+/config.php 1 -
+/app/etc/config.local.php 1 -
+/product/ambush-wall-paper-19 3 -
+/product/ambush-wall-paper-13 2 -
+/include/ueditor/ueditor.config.js/x.php 1 -
+/product/ambush-wall-paper-6 2 -
+/app/admincp/ui/ueditor/ueditor.config.js/x.php 1 -
+/apple-app-site-association 6 -
+/product/ambush-wall-paper-36 3 -
+/site/milamartbd@gmail.com 7 -
+/sitemap.xml.gz 4 -
+/.env.local 1 -
+/phpinfos.php 1 -
+/config/requirements.php 1 -
+/product/ambush-wall-paper-35 2 -
+/admin/ueditor/ueditor.config.js/x.php 1 -
+/config/security.config.php 1 -
+/asdf.php 1 -
+/phpinfo.php3 1 -
+/product/ambush-wall-paper-32 2 -
+/includes/ueditor/ueditor.config.js/x.php 1 -
+/v2/_catalog 3 -
+/application/config/routes.php 1 -
+/server-status 3 -
+/public/backEnd/assets/js/toastr.js.map 4 -
+/phpversion.php 1 -
+/public/frontEnd/js/'+b.j+' 4 -
+/product/ambush-wall-paper-8 3 -
+/test.php 1 -
+/appsettings.Staging.json 1 -
+//milamartbd.acharmela.com/public/frontEnd/js/wsit-menu.js 11 -
+/config/production.json 1 -
+/i.php 1 -
+/linusadmin-phpinfo.php 1 -
+//www.milamartbd.acharmela.com/public/frontEnd/js/jquery-3.7.1.min.js 14 -
+//milamartbd.acharmela.com/public/backEnd/assets/js/toastr.min.js 11 -
+/product/ambush-wall-paper-12 3 -
+/product/ambush-wall-paper-41 3 -
+/php.php 1 -
+/meteor.settings.json 1 -
+/product/ambush-wall-paper-24 3 -
+/product/ambush-wall-paper-38 3 -
+/php_info.php 1 -
+//milamartbd.com/public/frontEnd/js/mobile-menu.js 20 -
+/wp-admin/setup-config.php 70 -
+/.aws/config 1 -
+/product/gently-exfoliates-for-smooth-radiant-skin 7 -
+/server 3 -
+/product/ambush-wall-paper-18 2 -
+/js 8 -
+/infos.php 1 -
+/webshell 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 644
+141.98.11.115 263 372 6364903 20250929002343
+59.153.100.208 260 994 197117099 20250927215358
+84.239.41.204 223 223 3303529 20250907063859
+192.178.6.1 101 101 1898060 20250915083700
+192.178.6.10 98 98 1844493 20250908163510
+192.178.6.2 75 75 1398515 20250915113700
+103.209.197.166 54 879 246554690 20250912155858
+144.48.111.250 32 864 279604924 20250911151237
+103.145.209.25 30 124 9063408 20250907085531
+123.253.38.49 27 841 171756790 20250919085028
+103.101.199.47 26 440 51763213 20250904052439
+103.169.209.249 25 356 111868504 20250919104432
+37.111.229.251 25 839 295446501 20250903081940
+202.86.220.199 23 894 146649984 20250918132212
+37.111.229.224 21 486 62221074 20250902114528
+58.145.184.203 19 553 96984445 20250904173420
+103.150.19.45 18 303 122394606 20250919034749
+103.115.24.232 18 508 78383549 20250927032420
+220.247.129.4 16 193 31118892 20250901025529
+103.126.23.88 16 464 52045845 20250902134829
+103.166.59.146 15 109 14334404 20250925194446
+103.162.209.163 15 499 80451372 20250910104216
+103.133.246.68 15 325 78196316 20250904180208
+103.131.100.250 15 283 109138609 20250902173229
+103.138.251.81 15 292 29856214 20250912112724
+209.38.111.52 1 1 12380 20250912123819
+165.232.109.5 1 1 12374 20250926091650
+106.75.50.6 1 1 13653 20250928064346
+64.233.173.36 1 8 83472 20250910094723
+103.218.226.88 3 62 7404961 20250921000544
+146.70.185.32 2 2 0 20250919234331
+193.186.4.159 1 1 13006 20250907153808
+74.125.212.128 6 37 797615 20250921041720
+69.171.251.3 1 1 11641 20250907185525
+103.84.37.15 4 38 2063577 20250916084424
+173.252.127.59 0 17 3055083 
+107.189.2.51 1 1 13839 20250901094148
+104.164.173.58 2 2 27299 20250920113252
+37.111.229.98 4 63 7417370 20250914180034
+118.179.97.90 9 442 49840302 20250903102048
+103.120.46.28 10 312 102701337 20250917110307
+64.233.173.38 0 1 2531 
+138.197.86.185 1 1 13728 20250918163321
+167.71.81.114 1 1 205119 20250919151103
+103.100.234.29 3 17 200481 20250912193845
+91.231.89.123 1 1 203091 20250921071601
+34.207.211.128 1 1 13868 20250903195808
+103.197.155.48 9 344 23788200 20250910132408
+202.134.14.233 8 66 2281701 20250913164036
+103.127.0.146 3 62 7404960 20250923090506
+34.234.203.80 1 1 13647 20250921170548
+165.22.34.61 1 1 24584 20250919154833
+34.125.230.24 4 69 13135580 20250918021210
+154.28.229.5 1 1 13732 20250920040335
+103.184.94.130 5 105 47767741 20250916061122
+15.204.161.7 6 6 76544 20250922073835
+103.109.239.11 3 62 7404959 20250903075715
+143.198.226.175 1 2 19412 20250912082757
+31.13.115.1 12 168 22030659 20250910154655
+193.186.4.130 1 1 13005 20250907103303
+199.45.154.145 1 3 25243 20250920152257
+31.13.127.5 4 68 13129842 20250909025702
+74.125.218.5 4 15 475394 20250905152912
+103.184.94.22 9 457 79076134 20250915203211
+202.134.8.193 10 111 1059972 20250912130417
+202.86.220.171 1 15 139085 20250914093433
+58.84.33.193 4 72 8297284 20250916030910
+178.62.32.251 1 2 19404 20250924094234
+58.145.186.130 5 268 31188084 20250903175442
+45.118.70.220 5 256 112598473 20250902093912
+103.156.238.16 6 95 22596230 20250913163154
+59.152.5.229 5 77 9904656 20250921171206
+103.195.141.12 8 273 17981577 20250902143447
+188.166.169.222 1 2 19592 20250902075520
+103.186.238.48 12 143 17356778 20250923181451
+165.227.173.41 1 1 198021 20250919151105
+31.13.115.7 4 63 6335800 20250904043908
+103.4.251.67 2 2 27464 20250920210428
+103.55.146.166 4 72 8297282 20250907051211
+174.138.112.39 4 68 5982947 20250903141549
+113.21.230.251 4 215 64330849 20250906102048
+45.153.34.33 1 1 13651 20250926054819
+103.190.205.43 4 66 7449487 20250926143204
+59.153.100.202 3 72 8318346 20250915123703
+91.231.89.34 1 1 198021 20250921071931
+179.43.149.114 2 2 27377 20250924005720
+173.252.127.50 8 106 10190337 20250916143902
+74.125.215.5 1 5 52077 20250910094724
+149.56.150.47 1 1 200049 20250917095639
+103.112.207.191 5 255 60412244 20250905075730
+103.138.146.207 6 124 14810045 20250915065851
+103.106.119.218 4 80 15570056 20250910094716
+209.38.42.79 1 2 19618 20250904081320
+138.246.253.7 4 4 0 20250926153714
+64.233.173.234 2 28 421370 20250921000551
+107.172.195.97 2 2 27300 20250920210424
+66.220.149.50 4 34 632502 20250902201315
+103.31.155.229 3 62 7405087 20250907085747
+103.189.226.251 3 62 7404958 20250907095840
+47.82.11.80 1 1 12768 20250922003007
+42.0.7.77 7 124 14829007 20250908090609
+124.236.100.56 3 3 40989 20250922091921
+103.76.46.181 3 62 6310960 20250910102551
+162.120.184.46 1 1 13001 20250910100641
+103.229.86.90 5 268 120428503 20250915193425
+114.130.185.25 4 53 11809636 20250909015334
+167.172.238.47 1 2 19403 20250922071756
+37.111.211.82 5 77 9904649 20250914163803
+27.159.75.50 9 87 13583680 20250915232905
+59.152.5.29 3 62 7404959 20250906081307
+31.13.127.6 3 51 8372075 20250907185454
+103.218.24.83 3 72 8318352 20250909075215
+206.168.34.55 1 3 25154 20250920162041
+5.133.192.135 1 2 19406 20250914020001
+123.6.49.14 1 1 3209 20250912015847
+103.69.59.91 4 87 16795915 20250921041722
+103.39.120.244 12 177 54758043 20250913130147
+154.28.229.11 2 2 27298 20250920034947
+103.178.30.45 4 63 7417374 20250913144757
+104.164.173.40 2 2 27466 20250920124024
+103.120.202.169 4 170 6004184 20250906064434
+103.120.222.9 3 67 7594284 20250907055954
+152.39.211.164 3 68 13110743 20250924141125
+37.111.217.157 6 240 54323999 20250925181349
+173.252.95.10 4 68 13129847 20250926185133
+15.204.182.106 2 2 27305 20250921065910
+54.224.200.98 1 1 13649 20250923203749
+202.65.173.58 5 184 45200094 20250909094632
+47.82.11.51 1 1 11791 20250920223235
+157.10.82.20 7 320 23209768 20250922105000
+103.38.55.243 6 105 24505698 20250910052334
+103.126.20.144 9 273 50838797 20250905075751
+138.197.39.246 1 2 19486 20250921003012
+206.168.34.56 1 3 25237 20250912095918
+103.127.92.206 14 625 115393225 20250921130518
+101.91.110.3 1 1 131072 20250910074216
+104.28.208.84 1 4 60402 20250923200439
+101.91.110.16 0 1 5756 
+27.115.124.112 1 2 203777 20250929033106
+159.65.177.120 1 1 13648 20250929074044
+139.99.170.109 1 2 18617 20250903203146
+202.86.221.86 1 25 271053 20250911114831
+43.245.121.154 3 62 7404960 20250907094126
+103.179.239.205 3 62 7404959 20250924071338
+49.184.231.158 4 68 7618131 20250903203840
+104.131.170.165 1 1 24581 20250919123410
+37.111.200.128 5 167 14112729 20250926120332
+106.74.24.66 2 52 9510752 20250924172355
+64.233.172.137 1 9 50512 20250923181139
+103.72.61.107 6 263 33018295 20250910141116
+167.94.146.52 1 3 25420 20250906164853
+37.111.200.144 7 129 9904661 20250923122624
+202.86.219.183 5 99 14538864 20250911174601
+101.181.70.18 1 2 18574 20250903140641
+45.117.63.26 4 63 7417368 20250911114321
+47.82.11.9 1 1 12568 20250922002325
+47.82.11.12 1 1 12228 20250921194209
+164.90.208.56 1 1 203091 20250919151102
+162.120.184.35 1 1 13002 20250914055932
+202.53.162.69 6 101 18363041 20250925212639
+58.145.190.143 8 277 23751342 20250926112545
+27.147.202.76 13 107 8660779 20250906231452
+188.245.73.95 1 1 13648 20250924025654
+103.115.24.239 4 160 8985855 20250912100844
+59.152.5.36 6 122 14131637 20250901101148
+202.86.220.249 4 166 13096209 20250920151745
+37.111.201.136 8 250 18318843 20250905063936
+103.59.179.105 3 62 6310970 20250911155349
+143.244.171.115 1 2 19402 20250908070213
+34.83.79.105 3 86 16744051 20250920014754
+103.167.40.80 1 1 12404 20250923000435
+162.243.168.51 1 2 19487 20250923001451
+54.84.169.195 1 1 13651 20250919195531
+45.251.231.52 3 62 7404957 20250911024002
+173.252.127.114 4 62 6330046 20250913141518
+47.82.11.13 1 1 12703 20250921092225
+147.185.132.67 1 1 203091 20250926035305
+103.142.69.177 3 72 8318326 20250902032721
+37.111.206.65 4 217 56007142 20250927215843
+165.22.236.211 1 2 19621 20250906064806
+101.198.0.150 1 1 196608 20250928174231
+103.120.222.108 3 62 7404963 20250925100520
+103.78.227.163 6 130 20515723 20250917083707
+103.168.8.98 6 130 36493530 20250918054315
+173.252.87.28 4 63 7429918 20250923045750
+103.143.35.129 3 78 15918149 20250908122419
+173.252.127.5 4 62 7424257 20250901114945
+51.222.15.189 1 10 83508 20250920005546
+195.211.77.142 2 2 27386 20250919151102
+43.245.120.9 11 71 6344829 20250924094031
+161.35.136.84 1 1 24586 20250919155239
+203.76.222.71 3 62 7405083 20250906015927
+103.7.5.7 3 67 3519216 20250925125805
+173.252.127.32 1 2 20855 20250901114957
+58.145.190.247 12 87 10022850 20250902173354
+202.4.112.242 3 62 7404961 20250904092220
+66.220.149.23 4 34 632499 20250907160109
+103.166.59.81 4 210 20570636 20250910122839
+175.141.28.102 0 1 265255 
+103.111.227.146 4 62 7424046 20250926020258
+167.99.147.113 1 1 13650 20250909160417
+103.209.197.173 11 184 35774567 20250920170501
+123.6.49.4 4 24 442220 20250919101230
+118.68.5.237 2 2 266151 20250901023032
+173.252.127.6 0 3 520298 
+123.6.49.41 1 1 198021 20250912015732
+27.115.124.2 1 1 131072 20250929001048
+47.82.11.26 1 1 13055 20250922083016
+64.233.173.37 2 5 263306 20250910094724
+47.82.11.28 1 1 11030 20250921180011
+31.13.127.34 4 41 7649224 20250915200617
+101.91.110.4 1 1 3209 20250910074316
+103.213.242.62 3 72 8318352 20250920190650
+167.94.146.55 1 3 25426 20250906154950
+103.162.209.160 0 100 4519500 
+3.138.185.30 2 2 27386 20250926091836
+103.158.62.194 7 171 57898154 20250908161535
+182.163.103.138 3 61 28522920 20250907153809
+31.13.115.114 3 61 7399413 20250901115042
+185.130.227.201 1 1 13649 20250908024110
+68.183.155.11 1 1 13737 20250919163450
+104.252.191.149 1 1 13737 20250920030233
+47.82.11.102 1 1 12362 20250921151008
+103.5.216.125 6 78 9916592 20250906114045
+34.236.234.25 1 1 13869 20250903221230
+103.120.160.28 3 52 15893320 20250914110521
+103.177.249.206 1 2 18350 20250920031254
+202.173.122.54 2 11 422760 20250902200936
+128.192.12.100 1 1 13726 20250927084920
+58.145.190.205 6 228 60273089 20250903054314
+103.41.95.79 7 262 112832554 20250906060608
+142.93.182.192 1 2 19404 20250914064330
+104.164.173.18 1 1 13645 20250920040403
+34.200.203.81 1 1 13648 20250909184643
+103.122.250.37 3 62 7405056 20250902030157
+74.125.215.6 0 6 47942 
+167.71.246.21 1 1 12761 20250919091554
+173.252.95.17 1 1 12499 20250901115000
+104.164.126.171 1 1 13732 20250920113103
+103.130.118.36 2 11 422762 20250906231438
+66.249.77.5 4 4 98033 20250913024140
+18.236.221.241 1 1 198021 20250919121823
+103.130.115.6 3 62 7404963 20250915041844
+192.178.15.2 4 19 502623 20250915115122
+103.190.133.208 3 62 7404963 20250903034424
+98.80.226.18 8 64 295624 20250918054450
+103.4.251.238 1 1 13646 20250920204408
+103.25.250.226 14 311 66905141 20250922135219
+118.179.162.65 5 95 38487083 20250905211948
+103.109.96.209 3 62 7404960 20250923152454
+1.54.215.132 5 5 794714 20250910182906
+27.123.253.218 4 213 27045326 20250916065412
+103.204.210.174 3 31 464599 20250914073325
+157.119.239.150 4 76 9892266 20250922023653
+142.93.125.7 1 1 12381 20250912101700
+103.20.243.109 5 94 31044589 20250920132803
+103.147.162.184 2 60 6047306 20250919063049
+103.205.134.46 4 182 38277175 20250910173119
+37.111.253.11 3 62 7404965 20250907022509
+31.13.127.25 3 38 7158745 20250926112550
+64.225.8.239 1 2 19491 20250929090141
+58.145.187.129 3 62 7405083 20250918102715
+143.198.125.56 1 2 19484 20250915134748
+103.136.3.173 3 62 7404954 20250903072432
+118.179.97.22 9 180 93462391 20250909142532
+34.244.246.31 1 12 95128 20250918052015
+47.82.11.25 1 1 11027 20250922125239
+103.138.123.90 3 72 8318328 20250902080700
+157.245.11.151 1 1 12657 20250919102221
+165.232.109.157 1 2 19482 20250916055510
+125.253.56.119 0 1 4704 
+37.111.212.16 1 1 13648 20250927204407
+103.108.94.168 1 2 18570 20250903140640
+103.27.227.202 1 2 18617 20250903203146
+216.164.22.85 1 1 11060 20250901203521
+118.179.22.66 3 68 13110755 20250919102623
+103.87.136.120 10 354 29909707 20250918115714
+27.147.186.158 3 67 11562797 20250912091331
+103.153.52.66 3 72 8318318 20250901142528
+103.96.104.77 3 52 15893316 20250908173626
+103.96.105.206 4 62 1732334 20250904183818
+103.161.153.177 7 332 38545483 20250913172428
+103.135.253.134 7 350 141908334 20250907052022
+223.185.60.142 4 35 634648 20250922200907
+103.10.194.115 4 71 617410 20250920050047
+54.158.215.166 1 1 13868 20250904213112
+202.86.217.253 1 16 169565 20250916015412
+27.147.245.221 4 62 19508972 20250914184935
+103.4.251.158 2 2 27464 20250920034843
+66.220.149.1 1 15 139503 20250919164332
+103.229.86.178 0 2 767358 
+58.145.187.199 3 62 7404959 20250909113830
+103.150.255.2 4 215 63800260 20250910222316
+103.120.144.13 4 93 15391702 20250910122217
+103.173.90.95 4 104 9922900 20250915180149
+103.89.25.20 8 280 34985436 20250915102851
+118.179.20.104 3 41 2860831 20250909043952
+118.179.166.33 4 94 21374923 20250911175843
+173.252.87.113 4 33 626743 20250903161053
+157.245.4.0 1 1 24590 20250919112143
+146.70.65.8 1 1 13731 20250925175625
+66.249.70.33 1 1 11016 20250903191836
+202.134.10.140 3 62 7404961 20250924041547
+69.63.184.10 1 1 11628 20250907185658
+202.181.16.56 3 68 13110762 20250915110125
+103.130.118.70 2 11 422764 20250925194439
+103.164.254.92 3 72 7956512 20250903114550
+116.111.98.251 2 2 264390 20250902171526
+114.130.184.245 6 185 50232080 20250903033242
+23.81.59.60 4 9 56198 20250911203653
+104.244.76.184 1 1 13648 20250912161242
+64.233.172.139 3 13 418042 20250923181142
+103.111.165.2 3 72 8318343 20250925194101
+103.126.149.56 3 62 7404962 20250918163832
+64.233.173.100 4 21 422258 20250911174608
+104.164.173.4 2 2 27292 20250920204424
+202.134.10.141 3 35 3630805 20250913160616
+147.185.132.255 1 1 203091 20250919003109
+47.82.11.93 1 1 11038 20250921090223
+202.86.216.8 1 1 12404 20250916074629
+66.220.149.18 1 1 11031 20250903160431
+104.164.126.84 1 1 13643 20250920034938
+69.172.232.242 1 1 13646 20250910215046
+185.163.204.173 1 1 4189 20250926123323
+103.73.47.200 4 115 18816474 20250918124445
+47.82.11.33 1 1 11641 20250922011143
+202.134.11.226 2 190 87090599 20250910093735
+35.90.216.30 1 1 13833 20250901180630
+103.108.178.47 3 62 6310961 20250922143624
+66.249.77.6 3 3 73512 20250913023540
+64.225.55.119 1 1 11126 20250919155255
+103.73.107.197 3 62 7404959 20250916052905
+173.252.95.4 4 63 7429916 20250904145228
+47.82.11.61 1 1 11023 20250919152155
+103.25.248.84 3 62 7404960 20250927123319
+103.166.193.0 13 763 169733581 20250921083116
+27.115.124.113 0 1 5756 
+103.145.113.49 3 67 7594252 20250902082820
+103.196.9.57 1 1 13728 20250920210419
+93.158.91.25 1 2 19406 20250922033122
+103.129.114.48 4 165 13143635 20250904064252
+31.13.127.17 2 19 204453 20250917034815
+206.168.34.214 1 3 25244 20250909053528
+103.95.98.72 9 384 79047163 20250909171109
+202.86.220.123 2 47 7265876 20250914093435
+37.111.218.12 3 62 7404961 20250925181754
+119.12.182.186 3 68 13110748 20250918041829
+103.4.250.58 2 2 27457 20250920030238
+103.239.6.26 4 76 9892510 20250915053206
+47.82.11.18 1 1 11028 20250921215213
+103.25.248.130 3 72 7570248 20250922024956
+138.197.130.85 1 2 19400 20250918165126
+103.129.212.102 5 267 120435437 20250913184259
+103.168.207.96 4 206 12346812 20250924093911
+5.133.192.133 1 2 19623 20250906011140
+37.111.200.17 3 62 7404959 20250907081226
+101.91.110.13 1 1 13738 20250910074243
+173.252.87.11 4 43 8270695 20250921094743
+58.145.187.131 6 317 83247399 20250922150502
+161.35.134.179 1 1 24587 20250919084744
+74.125.215.7 0 4 47868 
+174.138.0.111 1 2 19415 20250913145920
+37.111.200.161 3 67 6211126 20250908152903
+103.121.12.168 4 81 9945649 20250904092022
+202.86.222.156 2 47 7265876 20250904173133
+161.123.7.145 3 68 13110743 20250924141209
+182.48.94.58 4 63 7417376 20250912115220
+3.88.40.214 2 11 94972 20250920182152
+162.120.185.34 1 1 13666 20250920170250
+103.176.18.222 3 62 7404962 20250919093901
+37.111.221.148 1 65 12847094 20250925204901
+149.56.160.240 2 2 13678 20250917095728
+172.236.122.62 1 1 13646 20250919162211
+104.252.191.176 1 1 13648 20250920113244
+202.86.222.188 1 15 139085 20250904173132
+103.183.63.61 5 257 112775239 20250905060010
+188.214.125.62 1 1 13723 20250920040907
+94.247.172.129 1 1 13859 20250905150858
+27.159.75.49 2 30 485756 20250916221418
+103.173.90.94 5 149 4639975 20250924141220
+103.242.21.79 4 214 63050275 20250922125838
+109.199.100.207 1 1 13648 20250929083623
+37.111.207.3 4 93 38450379 20250916110757
+123.6.49.17 0 1 5756 
+103.134.242.51 14 276 120597395 20250919114228
+103.115.243.119 3 62 7404963 20250919085320
+118.69.6.88 4 4 621466 20250910182913
+31.13.127.2 9 138 45926784 20250907185650
+107.21.34.39 1 1 13862 20250906190003
+137.59.155.158 4 63 6335841 20250907111717
+137.184.58.189 1 1 13645 20250917032615
+202.12.123.133 3 62 7404964 20250912141650
+103.103.33.45 5 169 35393198 20250913182115
+103.197.250.157 5 267 59691765 20250921133134
+103.167.40.205 3 62 7404965 20250915043913
+103.197.153.24 4 69 13135602 20250910115855
+36.255.80.139 8 127 49527192 20250916084246
+114.31.31.69 4 68 13129825 20250925194430
+59.152.5.52 3 62 7405089 20250919111949
+103.71.46.68 1 1 0 20250906125942
+58.145.187.130 14 612 177577323 20250903174840
+103.143.35.131 4 151 54038879 20250909182330
+117.103.83.3 3 68 13110760 20250926183644
+202.181.6.123 11 500 221303747 20250926225451
+103.62.50.140 1 2 18351 20250920031255
+101.198.0.182 1 1 3211 20250928174326
+27.147.206.115 3 61 7399330 20250904044252
+159.65.46.102 1 2 19637 20250901135658
+66.249.77.7 4 4 84542 20250913014140
+103.161.153.169 3 62 7404934 20250902142247
+165.227.202.203 1 2 19482 20250923185441
+202.86.222.254 3 62 7404964 20250906132655
+202.86.216.132 3 62 7405089 20250916024250
+154.26.159.157 1 1 13867 20250903140638
+104.252.191.54 1 1 13647 20250920210417
+139.59.74.111 1 2 19475 20250921231526
+103.157.92.139 5 279 120507211 20250926122811
+114.129.15.199 5 96 38487333 20250922031511
+31.13.127.3 3 39 8205443 20250907185537
+103.230.61.247 4 196 42685592 20250919082157
+103.118.76.122 11 373 90190563 20250921091001
+104.164.126.112 2 2 27296 20250920124254
+103.4.250.67 1 1 13734 20250920204423
+101.198.0.187 0 1 5756 
+103.135.253.103 3 67 7594290 20250904042129
+161.248.245.144 3 67 7594290 20250903164354
+167.99.63.131 1 1 12926 20250919114159
+209.38.153.190 1 2 19416 20250927173555
+103.120.167.125 6 68 7449490 20250918060946
+173.252.107.4 1 1 11641 20250907185606
+124.6.231.229 2 11 422763 20250902200931
+103.196.9.4 2 2 27462 20250920113112
+103.7.120.18 6 260 16732541 20250921132217
+103.4.251.234 2 2 27293 20250920030152
+173.252.127.39 4 63 7430016 20250901114929
+103.146.16.17 8 488 17721456 20250907042953
+27.147.186.216 4 165 14606806 20250902073749
+64.233.173.98 2 21 377542 20250903010838
+103.185.24.249 3 68 13110764 20250927092647
+31.13.127.40 1 15 139204 20250926112542
+199.45.155.84 1 3 25234 20250911142441
+35.91.109.95 4 70 13141339 20250918223007
+54.90.203.251 1 1 13643 20250917184543
+13.223.49.76 1 1 13835 20250901230500
+159.203.85.204 1 1 10788 20250919100907
+74.125.212.142 7 38 630849 20250922135123
+101.198.0.189 1 1 13649 20250928174254
+45.135.232.178 2 2 27737 20250904080005
+103.170.231.76 4 163 19749865 20250914130515
+103.158.62.140 3 67 7594254 20250901154210
+103.149.57.213 12 453 95748971 20250905153258
+113.21.231.33 3 62 7405089 20250905072414
+103.25.251.216 4 115 8219525 20250924041133
+36.255.81.225 5 267 95335743 20250920035712
+37.111.229.184 6 165 26642165 20250926154909
+31.13.127.9 3 48 7290716 20250917034822
+103.85.157.245 2 16 152308 20250903101707
+27.147.200.226 3 72 8318355 20250912101233
+103.197.153.229 4 95 38818213 20250920163505
+15.204.183.221 2 2 22174 20250922073845
+202.134.8.195 3 68 13110757 20250911131228
+173.252.69.1 1 1 12499 20250901115019
+103.138.31.165 3 62 7405058 20250901164653
+203.95.220.193 3 72 8318345 20250923142515
+54.200.206.157 3 3 41102 20250912134104
+162.243.184.223 1 1 13203 20250919071617
+37.19.200.152 1 1 13731 20250920140338
+66.249.69.10 1 1 20 20250922043903
+103.173.60.21 3 72 8318347 20250919120029
+167.99.59.128 1 1 10780 20250919153947
+103.85.193.39 4 67 2130570 20250904203120
+54.242.45.28 1 1 13647 20250909175332
+103.161.226.5 3 59 7351342 20250917184842
+103.4.250.102 1 1 13733 20250920124014
+103.129.238.241 10 184 58527147 20250906093327
+45.127.246.198 7 319 63200815 20250912150730
+42.0.6.155 3 62 6310958 20250913141440
+202.134.11.229 5 120 48959675 20250912193543
+36.255.81.192 7 291 124566741 20250925171801
+182.48.69.228 4 104 17077871 20250910071131
+93.123.109.225 1 1 13650 20250919025222
+103.253.247.206 8 329 19180709 20250903084534
+103.234.203.106 5 66 7468572 20250917093116
+195.211.77.140 2 2 0 20250919151024
+64.233.172.138 1 14 188106 20250923181141
+37.111.229.16 3 62 7404960 20250926174742
+47.82.11.4 1 1 12408 20250921201325
+103.92.153.207 3 68 13110754 20250909104420
+54.157.165.162 1 1 13651 20250907174748
+103.13.193.53 5 266 120429908 20250908142259
+103.25.248.198 4 63 7417616 20250918111913
+59.153.100.193 3 52 15893312 20250908100210
+23.234.86.193 5 5 68305 20250915061120
+45.79.123.232 2 2 0 20250922041432
+164.90.134.134 1 1 10776 20250919153843
+64.233.173.233 5 22 563692 20250925181304
+103.67.159.58 3 62 7404960 20250922032539
+66.220.149.113 3 48 6196299 20250919164336
+103.73.226.199 4 109 8402355 20250904042731
+37.111.207.114 1 1 17969 20250913094125
+81.17.20.98 1 1 13651 20250909162412
+103.200.38.140 11 266 112941594 20250904190949
+103.114.97.87 4 63 7404963 20250904070504
+107.172.195.210 2 2 27465 20250920040351
+147.182.230.205 1 2 19406 20250916061051
+103.127.70.20 6 65 7440697 20250908085632
+173.252.95.116 4 68 13129846 20250917155036
+103.109.214.80 7 250 55509871 20250915164009
+192.241.138.200 1 2 19437 20250927151036
+106.161.65.206 2 3 32487 20250903203145
+103.62.50.135 1 2 18612 20250903203146
+104.131.62.248 1 2 19403 20250918065932
+103.72.137.112 6 102 35898270 20250926185752
+199.45.154.128 1 3 25419 20250906223155
+103.138.212.250 6 94 38482159 20250912061035
+202.134.11.233 10 345 130756086 20250908134704
+36.255.83.206 14 165 44185093 20250903010925
+37.111.212.229 4 76 8362803 20250902055125
+74.125.212.129 5 36 871121 20250922135123
+202.134.8.192 0 10 2807390 
+34.91.77.109 1 1 13728 20250920054300
+103.25.123.40 4 97 18278707 20250917122617
+146.70.239.4 1 1 13645 20250920153836
+37.111.230.237 6 68 7467328 20250911145639
+52.7.116.10 1 1 13869 20250905201718
+103.162.58.210 5 67 7461888 20250919151828
+103.6.123.242 12 237 33378738 20250915074957
+192.178.15.1 3 22 544041 20250915115122
+93.159.230.28 1 1 13648 20250918023210
+23.94.32.130 1 1 13653 20250920101412
+44.212.144.114 1 1 13646 20250907184606
+57.129.83.93 4 103 27477248 20250904050407
+103.160.20.22 3 62 7404960 20250906144742
+103.126.60.107 7 383 83699522 20250917163100
+192.241.137.94 1 2 19626 20250904094820
+37.111.210.152 5 261 112823801 20250905021217
+103.189.163.176 3 72 8318358 20250916133744
+36.255.83.141 3 62 7404957 20250922095044
+223.25.254.61 3 62 7404965 20250927082606
+37.111.218.65 6 68 7449497 20250919192406
+103.205.69.68 6 195 50305844 20250904041719
+47.82.11.14 1 1 11023 20250921055030
+119.30.41.192 3 68 13110758 20250925224101
+185.177.72.48 3 3 41110 20250922135254
+165.227.151.83 1 2 19641 20250902085329
+104.28.208.85 5 130 51766910 20250923200139
+103.126.61.105 4 123 28156579 20250901193829
+207.170.179.59 4 9 56207 20250911205753
+103.96.107.174 10 500 66661328 20250924054059
+159.65.169.251 1 1 24586 20250919083620
+103.73.225.40 3 62 7404964 20250903170957
+205.210.31.175 1 1 205119 20250927143559
+103.196.235.73 3 52 15893321 20250908174434
+157.245.102.243 2 2 27464 20250910075737
+103.138.250.167 6 64 7448852 20250913151707
+77.105.161.125 1 1 4189 20250928024549
+104.164.126.145 1 1 13647 20250920030143
+173.252.127.15 4 63 7429920 20250920035645
+202.86.220.196 3 62 7405057 20250902103936
+103.31.179.74 3 62 7404958 20250908091552
+103.4.250.241 2 2 13734 20250920034843
+103.157.95.23 4 76 9892250 20250921132227
+103.175.242.230 5 217 8486820 20250923161550
+103.153.210.63 3 62 7404958 20250916053831
+103.133.203.45 3 72 8318356 20250906150227
+182.48.76.12 10 195 71475248 20250914135435
+103.79.183.220 3 68 13110762 20250910063814
+100.24.56.188 1 1 13868 20250905203303
+103.161.226.1 1 4 66024 20250917184832
+103.200.38.188 4 76 9892251 20250918194845
+103.113.148.149 7 298 18328106 20250925152127
+54.221.87.111 1 1 13656 20250908184841
+173.252.107.13 1 1 12502 20250901115116
+50.16.23.183 1 1 13868 20250902215016
+192.178.15.10 3 18 173117 20250915115119
+147.185.132.16 2 2 408210 20250924022118
+202.134.10.138 6 196 18956773 20250917010455
+138.197.31.100 2 2 37393 20250919102745
+27.115.124.68 1 1 3211 20250929033219
+103.20.229.220 6 77 3681447 20250920141545
+66.220.149.115 4 62 6330047 20250926212547
+103.141.174.238 3 61 3559477 20250912154135
+64.233.173.99 4 24 416283 20250909085435
+64.233.173.235 4 23 394354 20250925181304
+103.91.130.1 3 62 7404963 20250914155824
+123.253.134.146 3 72 9642553 20250920183421
+182.252.81.233 3 62 7404963 20250904060040
+103.102.139.6 4 257 39849195 20250902092423
+156.228.107.235 2 2 13647 20250923193149
+52.90.52.196 1 1 13651 20250913175614
+23.234.84.193 1 1 13663 20250927004857
+37.111.230.170 3 62 7405089 20250914074953
+103.230.105.17 11 156 21802973 20250909080803
+52.214.10.209 1 12 95128 20250918090344
+103.149.56.8 5 269 112859430 20250906151114
+103.4.251.92 2 2 27464 20250920204434
+123.253.133.168 4 78 10229805 20250909042911
+103.23.206.170 3 62 7404960 20250921150731
+68.183.55.116 1 1 10776 20250919153537
+69.171.251.7 4 63 6335799 20250910093438
+57.129.137.190 4 4 54621 20250909214831
+103.153.199.210 4 76 9892257 20250905121152
+103.100.234.96 7 99 18625106 20250915084407
+37.111.193.50 3 62 7404964 20250905055418
+47.82.11.23 1 1 12741 20250921125300
+142.252.14.238 2 2 24735 20250916225120
+103.127.1.147 3 61 7399208 20250905112758
+167.94.138.57 1 3 25243 20250926184321
+37.111.230.84 3 62 7404961 20250922032048
+103.81.29.26 3 62 7404959 20250915122636
+72.14.201.130 1 1 13005 20250907103249
+113.21.230.49 6 184 20683643 20250921070855
+95.181.235.144 1 1 13730 20250920024125
+103.115.157.111 5 135 68477385 20250914160516
+37.111.218.18 4 67 8173708 20250912053458
+27.115.124.104 1 1 13733 20250929001114
+27.115.124.49 1 1 3211 20250929001139
+37.111.243.10 7 114 19007951 20250907080442
+103.189.158.134 5 256 112598476 20250902063200
+47.82.11.42 1 1 11024 20250923093132
+202.86.219.30 3 62 6310927 20250902163500
+165.227.219.161 1 1 12378 20250926120010
+103.115.24.236 4 67 6861339 20250902134908
+36.50.182.25 4 78 7802341 20250905092957
+47.82.11.7 1 1 11028 20250919193050
+103.4.251.77 2 2 27295 20250920040420
+103.152.105.148 3 62 7405091 20250918134859
+209.38.67.15 1 2 19435 20250913060559
+157.245.214.227 1 1 24590 20250919161542
+103.231.239.135 5 63 7436444 20250916034852
+103.96.104.41 6 287 125539976 20250926143755
+45.125.221.40 4 212 45599201 20250915105041
+59.153.100.201 5 289 122744796 20250926134947
+157.245.123.248 1 1 24592 20250919160157
+100.24.208.151 1 1 13651 20250921104612
+157.15.222.10 5 268 82724816 20250916072111
+104.244.72.17 1 1 13873 20250905081140
+103.168.68.179 4 65 7427891 20250916174933
+37.111.213.36 4 96 24782952 20250926225416
+64.227.169.110 1 2 19407 20250910060912
+106.0.52.237 7 233 75097424 20250910203433
+157.119.50.91 3 72 9642547 20250905050145
+27.131.12.177 3 62 7404962 20250909085428
+104.164.126.233 1 1 13649 20250920124234
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20250901 111 1319 222361120 25
+20250902 244 3306 612978530 29
+20250903 383 3942 793048237 51
+20250904 155 2898 511840381 33
+20250905 82 2337 546906365 20
+20250906 73 1631 411622686 20
+20250907 408 2409 372619225 34
+20250908 80 1495 458896822 20
+20250909 72 1511 359771409 22
+20250910 102 2886 542180837 29
+20250911 74 1447 358043684 16
+20250912 136 2400 484092260 26
+20250913 72 1403 305389379 19
+20250914 56 1067 253770188 16
+20250915 113 2656 476941341 28
+20250916 84 1535 323461377 23
+20250917 59 1477 318294965 16
+20250918 97 2255 326821028 25
+20250919 170 3073 699619875 54
+20250920 110 1430 266236048 53
+20250921 102 2605 442669672 37
+20250922 85 1748 322515145 28
+20250923 53 875 119072842 19
+20250924 53 1359 149018147 14
+20250925 65 1315 285779637 16
+20250926 91 2648 790797236 26
+20250927 35 906 155346502 12
+20250928 5 6 237210 5
+20250929 271 383 6772474 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 20
+5mn-15mn 22
+30s-2mn 108
+15mn-30mn 12
+1h+ 11
+30mn-1h 12
+0s-30s 540
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 434
+/subcategory/wall-paper-interior 430 5042490 233 65
+/public/frontEnd/webfonts/fa-brands-400.woff2 398 42623651 7 167
+/public/frontEnd/webfonts/fa-solid-900.woff2 398 59161528 19 19
+/ 362 8551524 263 200
+/product/ambush-wall-paper-43 229 4733116 1 53
+/category/all-sticker 129 1622059 62 25
+/public/frontEnd/webfonts/fa-regular-400.woff2 81 1987200 1 12
+/livesearch 72 66433 1 3
+/admin/products/manage 66 767202 1 0
+/category/home-decor 55 721189 6 13
+/subcategory/wooden-frame 37 422725 27 11
+/customer/checkout 33 442051 1 10
+/admin/dashboard 19 169945 0 1
+/admin/login 19 26874 8 2
+/subcategory/fridge-sticker 17 221059 8 6
+/site/contact-us 16 789742 5 11
+/subcategory/almari-sticker 15 185365 2 4
+/get-update-details 13 3050 0 0
+/subcategory/3d-wall-paper-interior 13 162775 2 2
+/search 12 145290 0 2
+/admin/products/create 11 121170 0 1
+/ajax-product-subcategory 10 1440 0 0
+/ajax-product-childcategory 10 220 0 0
+/public/backEnd/assets/fonts/feather.woff 10 295000 0 4
+/admin/products/generate-slug 10 449 0 0
+/product/5-part-pvc-wall-canvas-36 2 48492 0 0
+/products/flats 3 33040 0 0
+/products/sugar 2 22020 0 0
+/products/bras 2 22023 0 0
+/products/shirt 2 22023 0 0
+/product/3d-frame-5 2 48692 0 0
+/product/18-ps-wallboard-5 2 48669 0 0
+/product/wooden-frame-5 4 97988 2 1
+/product/5-part-pvc-wall-canvas-50 2 49337 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-23 2 49485 0 0
+/shipping-charge 2 2646 0 1
+/admin/products/144/edit 1 9377 0 0
+/products/monitor 2 22019 0 0
+/admin/products/114/edit 1 9377 0 0
+/product/5-part-pvc-wall-canvas-28 2 49343 0 0
+/product/wall-hanger-4 2 49334 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-9 2 49478 0 0
+/products/sneakers 2 22028 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-2 9 197131 0 3
+/subcategory/wall-hanger 3 35374 1 1
+/product/wooden-frame-3 3 73550 1 2
+/product/5-part-pvc-wall-canvas-15 2 49344 0 0
+/admin/orderstatus/manage 1 7446 0 0
+/customer/register 4 285612 0 2
+/page/privacy-policy 5 64481 2 1
+/product/3d-frame-15 2 48688 0 0
+/customer/order-track 5 53805 3 3
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-15 2 49486 0 0
+/subcategory/body-&-massage-oils 1 11059 0 0
+/products/ring 2 22022 0 0
+/products/cooking-sauce 2 22033 1 1
+/product/premium-quality-fridge-sticker-26 4 72180 0 2
+/public/backEnd/assets/fonts/fa-solid-900.woff2 2 158888 0 0
+/subcategory/personal-care 1 11037 0 0
+/subcategory/3d-frame 4 50962 1 1
+/products/tablet 1 11011 0 0
+/product/premium-quality-fridge-sticker-8 2 35933 0 0
+/subcategory/eyewear 2 22049 0 0
+/product/premium-quality-fridge-sticker-3 3 53330 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-3 2 49464 0 0
+/products/fruits 2 22025 1 0
+/admin/products/136/edit 1 9379 0 0
+/products/cofee 2 22028 0 0
+/admin/products/124/edit 1 9380 0 0
+/product/5-part-pvc-wall-canvas-31 2 49342 0 0
+/category/grocery 5 55184 1 1
+/products/salt 2 22017 1 0
+/product/18-ps-wallboard-12 1 24464 0 0
+/products/air-series 2 22031 0 0
+/products/coffee 2 22024 0 0
+/products/unstitched 2 22039 0 0
+/product/5-part-pvc-wall-canvas-23 2 49351 1 0
+/products/smart-phone 3 33050 0 1
+/product/3d-frame-12 1 24472 0 0
+/product/wooden-frame-4 4 97985 2 3
+/product/ambush-wall-paper-36 3 48692 0 0
+/category/gadgets 2 22069 0 0
+/product/wall-hanger-5 1 24436 0 0
+/products/deshi-boutique 2 22036 0 0
+/product/premium-quality-fridge-sticker-15 3 53838 1 1
+/products/sandals 2 22028 0 0
+/products/tangail 2 22028 0 0
+/product/5-part-pvc-wall-canvas-17 2 49337 0 0
+/admin/products/112/edit 1 9450 0 0
+/admin/products/142/edit 2 18756 0 0
+/admin/products/128/edit 1 9379 0 0
+/subcategory/5-part-wall-canvas 7 88766 1 1
+/subcategory/watches 2 22055 0 0
+/products/meat 3 33037 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-34 3 74436 0 0
+/product/5-part-pvc-wall-canvas-19 2 49337 0 0
+/product/combo-wall-board-9 3 72835 1 0
+/admin/subcategories/manage 2 18872 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-26 2 49475 1 0
+/public/backEnd/assets/fonts/cerebrisans-regular.woff 6 246504 0 0
+/districts 1 22 0 0
+/product/3d-frame-13 2 48635 0 0
+/products/powerbank 1 11009 0 0
+/subcategory/dairy-&-eggs 4 44112 1 1
+/product/premium-quality-door-sticker-5 4 71046 0 0
+/subcategory/cooking 3 33065 1 1
+/admin/products/122/edit 1 9379 0 0
+/product/premium-quality-fridge-sticker-17 4 72136 0 1
+/admin/products/148/edit 1 9377 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-20 2 49483 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-37 2 49551 0 0
+/admin/order/incomplete 1 8221 0 0
+/product/combo-wall-board-11 4 97060 0 0
+/subcategory/clothing 2 22041 0 0
+/products/kota 2 22024 0 0
+/product/premium-quality-almari-sticker-13 2 35898 0 0
+/products/sunthetic-strap 2 22049 0 0
+/product/premium-quality-fridge-sticker-24 6 107836 0 0
+/products/portable-speaker 1 11009 0 0
+/subcategory/head-phones 2 22053 0 0
+/admin/products/139/edit 1 9379 0 0
+/products/necklace 2 22030 1 1
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-12 2 49480 0 0
+/product/18-ps-wallboard-15 3 72825 0 0
+/subcategory/haire-care 1 11037 0 0
+/product/3d-frame-10 3 72842 0 0
+/admin/products/118/edit 1 9378 0 0
+/product/premium-quality-fridge-sticker-4 9 161715 2 2
+/product/premium-quality-fridge-sticker-23 2 35947 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-31 2 49483 0 0
+/products/pump-shoes 3 33063 1 1
+/category/womens-fashion 3 33140 0 1
+/products/rice 2 22018 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-22 2 49475 0 0
+/admin/products/138/edit 1 9379 0 0
+/admin/products/152/edit 1 9452 0 0
+/product/18-ps-wallboard-13 2 48664 0 0
+/subcategory/door-sticker 4 49613 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-13 3 74379 0 0
+/product/pvc-japanese-sticker-almari-sticker-2 3 53447 0 1
+/admin/products/119/edit 1 9379 0 0
+/products/jeans 2 22018 0 0
+/product/3d-frame-3 3 72861 0 1
+/products/talcum-powder 1 11028 1 1
+/public/backEnd/assets/libs/summernote/font/summernote.woff2 1 6156 0 0
+/product/premium-quality-door-sticker-8 3 53278 0 1
+/product/premium-quality-fridge-sticker-21 2 35943 0 0
+/product/combo-wall-board-21 3 72872 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-8 3 74112 0 1
+/product/5-part-pvc-wall-canvas-46 2 49352 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-24 2 49477 0 0
+/products/uht-milk 2 22027 0 0
+/products/party-bag 2 22045 0 0
+/admin/products/149/edit 1 9378 0 0
+/product/premium-quality-door-sticker-7 3 53281 0 0
+/product/combo-wall-board-4 3 72859 0 0
+/admin/products/129/edit 1 9378 0 0
+/subcategory/bags 2 22051 0 0
+/products/smart-speaker 1 11012 0 0
+/product/5-part-pvc-wall-canvas-51 7 170925 1 2
+/product/5-part-pvc-wall-canvas-14 2 49339 0 0
+/product/premium-quality-fridge-sticker-5 2 35936 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-45 3 74546 0 0
+/product/3d-frame-18 2 48690 0 0
+/product/premium-quality-fridge-sticker-13 4 71851 0 0
+/product/18-ps-wallboard-9 3 72793 0 0
+/product/5-part-pvc-wall-canvas-44 2 49340 0 0
+/product/premium-quality-fridge-sticker-19 2 35952 0 0
+/product/5-part-pvc-wall-canvas-57 3 72836 0 0
+/products/casual-shoes 2 22044 1 1
+/subcategory/accessories 2 22051 0 0
+/admin/products/132/edit 1 9379 0 0
+/public/backEnd/assets/fonts/materialdesignicons-webfont.woff2 6 1951464 0 0
+/product/5-part-pvc-wall-canvas-37 2 49350 0 0
+/products/metal-chain 2 22039 0 0
+/subcategory/fruits,-meat-&-frozen 4 44090 1 2
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-32 2 49489 0 0
+/product/5-part-pvc-wall-canvas-11 2 48490 1 0
+/product/wooden-frame-10 3 73387 2 0
+/product/5-part-pvc-wall-canvas-32 2 48486 0 0
+/product/5-part-pvc-wall-canvas-10 2 48498 0 0
+/subcategory/herbs,-spices-&-sauces 4 44111 1 1
+/admin/products/116/edit 1 9379 0 0
+/product/combo-wall-board-7 3 72865 0 0
+/product/premium-quality-door-sticker-2 3 53307 0 1
+/product/5-part-pvc-wall-canvas-33 2 48497 0 0
+/subcategory/sharee 1 11024 0 0
+/product/5-part-pvc-wall-canvas-12 2 49340 0 0
+/product/combo-wall-board-23 3 72868 0 0
+/products/polo-shirt 3 33274 0 0
+/category/mens-fashion 5 55184 0 1
+/admin/products/146/edit 1 9379 0 0
+/product/premium-quality-door-sticker-15 6 106637 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-39 2 49553 0 0
+/subcategory/fragrances 1 11034 0 0
+/product/premium-quality-almari-sticker-14 8 139760 0 1
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-27 2 49480 0 0
+/product/18-ps-wallboard-10 1 24463 0 0
+/admin/products/126/edit 1 9378 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-16 2 49483 1 1
+/product/combo-wall-board-24 2 48711 0 0
+/product/5-part-pvc-wall-canvas-21 2 49347 0 0
+/product/wooden-frame-7 4 97972 2 2
+/product/3d-frame-7 2 48684 0 0
+/products/adapter 1 11009 0 0
+/admin/products/purchase-create 1 9250 0 0
+/product/5-part-pvc-wall-canvas-56 3 72841 0 0
+/product/3d-frame-21 1 24471 0 0
+/products/laptop 2 22018 0 0
+/products/panties 3 33045 0 0
+/products/taant 2 22025 0 0
+/admin/products/134/edit 1 9380 0 0
+/products/milk-powder 2 22027 1 1
+/products/hand-bag 2 22041 0 0
+/products/bracelet 2 22033 0 0
+/product/combo-wall-board-27 4 96986 1 1
+/product/premium-quality-fridge-sticker-22 2 35948 0 0
+/product/18-ps-wallboard-4 3 72796 0 0
+/product/5-part-pvc-wall-canvas-34 2 49343 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-7 2 49476 0 0
+/products/painted-sharee 2 22039 0 0
+/product/5-part-pvc-wall-canvas-27 2 49346 0 0
+/public/backEnd/assets/fonts/cerebrisans-bold.woff 6 247104 0 0
+/product/wooden-frame-9 4 97990 3 2
+/product/premium-quality-fridge-sticker-6 2 35943 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-44 2 49545 0 0
+/products/dry-fruits 2 22039 0 0
+/admin/products/140/edit 1 9379 0 0
+/product/5-part-pvc-wall-canvas-35 2 49340 0 0
+/product/5-part-pvc-wall-canvas-9 2 48481 0 0
+/visitor/reports 1 7471 0 0
+/product/wall-hanger-8 2 48555 0 0
+/products/leather-strap 2 22029 1 0
+/products/loafer 1 11007 0 0
+/admin/products/141/edit 2 18758 0 0
+/products/fish 3 33020 0 0
+/admin/products/111/edit 1 9452 0 0
+/product/ambush-wall-paper-21 1 24097 0 1
+/customer/login 4 43590 0 0
+/admin/products/133/edit 1 9379 0 0
+/product/5-part-pvc-wall-canvas-2 2 48488 0 0
+/products/panjabi 2 22032 0 0
+/product/3d-frame-8 3 72845 0 0
+/product/18-ps-wallboard 2 48647 0 1
+/admin/products/110/edit 1 9470 0 0
+/product/premium-quality-fridge-sticker-25 2 35946 1 0
+/product/5-part-pvc-wall-canvas-5 2 48479 0 0
+/product/3d-frame-20 2 48635 0 0
+/product/3d-frame-2 2 48693 0 0
+/product/5-part-pvc-wall-canvas-41 2 49339 0 0
+/subcategory/man's-care 1 11055 0 0
+/product/combo-wall-board-25 2 48671 0 0
+/product/combo-wall-board-19 3 72864 0 0
+/product/5-part-pvc-wall-canvas-52 3 72855 0 0
+/admin/categories/manage 2 15329 0 0
+/product/5-part-pvc-wall-canvas-55 3 72875 0 0
+/product/premium-quality-almari-sticker-15 7 124989 0 2
+/product/combo-wall-board 3 72857 0 0
+/products/heels 3 33041 0 0
+/subcategory/women-bags 1 11037 0 0
+/subcategory/speaker-microphone 2 22057 0 0
+/admin/products/120/edit 1 9379 0 0
+/product/18-ps-wallboard-8 3 72804 0 0
+/product/3d-frame-19 3 72867 0 0
+/product/5-part-pvc-wall-canvas-26 2 49351 0 0
+/admin/products/121/edit 1 9390 0 0
+/product/premium-quality-door-sticker-11 4 71022 0 1
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-11 2 49485 0 0
+/product/premium-quality-fridge-sticker-16 2 35965 0 0
+/subcategory/skin-care 1 11034 0 0
+/product/3d-frame-23 1 24479 0 0
+/public/frontEnd/webfonts/fa-solid-900.ttf 1 157762 0 1
+/subcategory/3-piece 1 11029 0 0
+/page/terms-&-conditions 6 76630 1 1
+/product/5-part-pvc-wall-canvas-18 2 49344 0 0
+/product/18-ps-wallboard-2 2 48600 0 0
+/admin/campaign/manage 1 7466 0 0
+/products/desktop 2 22018 0 0
+/product/18-ps-wallboard-14 2 48671 0 0
+/product/combo-wall-board-22 3 72872 0 0
+/products/condensed-milk 2 22034 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-36 2 49557 0 0
+/products/y-cloth 2 22026 0 0
+/product/combo-wall-board-15 3 72874 0 0
+/admin/products/125/edit 1 9380 0 0
+/products/readymade 2 22028 0 0
+/products/formal-shoes 3 33051 1 0
+/subcategory/computer-accessories 2 22061 0 0
+/subcategory/shoes 2 22046 0 0
+/product/premium-quality-fridge-sticker-18 4 71881 0 0
+/product/5-part-pvc-wall-canvas-45 2 49342 0 0
+/products/cable 2 22022 0 1
+/product/5-part-pvc-wall-canvas-8 2 48476 0 0
+/product/5-part-pvc-wall-canvas-24 2 49351 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-46 5 123767 0 2
+/product/3d-frame-16 3 72853 0 0
+/subcategory/snacks-&-beverages 4 44103 1 1
+/product/5-part-pvc-wall-canvas-4 2 48480 0 0
+/product/5-part-pvc-wall-canvas-53 3 72877 0 0
+/products/original-brand 1 11016 0 0
+/products/tws-earbuds 2 22051 0 0
+/admin/products/115/edit 1 9378 0 0
+/product/3d-frame-22 1 24469 0 0
+/product/premium-quality-almari-sticker-16 3 53906 0 0
+/product/ambush-wall-paper-41 1 24416 0 1
+/admin/products/99/edit 1 9605 0 0
+/product/wooden-frame 7 171382 1 5
+/products/belt-&-wallet 1 11016 0 0
+/product/5-part-pvc-wall-canvas-43 2 49358 0 0
+/subcategory/mobile-accessories 3 33087 0 0
+/products/lingerie-sets 2 22036 0 0
+/products/ties 1 11011 0 0
+/subcategory/panjabi 1 11028 0 0
+/run-update 1 90 0 1
+/product/3d-frame-4 3 72850 0 0
+/products/noodles 3 33037 0 0
+/products/shemai-&-suji 2 22022 0 0
+/product/wall-hanger-7 2 49348 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-5 2 49471 1 0
+/product/combo-wall-board-8 3 72862 0 0
+/admin/subcategories/create 1 7181 0 0
+/sitemap.xml 7 19262 6 5
+/product/combo-wall-board-10 2 48702 0 0
+/update-version 3 27435 0 0
+/admin/products/145/edit 1 9379 0 0
+/admin/products/137/edit 1 9379 0 0
+/products/bluetooth-speaker 1 11015 0 0
+/admin/products/117/edit 1 9378 0 0
+/products/hats-&-caps 3 33028 1 1
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-18 2 49480 0 0
+/subcategory/jewellery 2 22061 0 0
+/products/earphone 2 22021 0 0
+/products/smart-watch 1 11019 0 0
+/public/backEnd/assets/fonts/cerebrisans-medium.woff 6 247368 0 0
+/best-deals 4 52070 0 1
+/product/combo-wall-board-16 3 72845 0 0
+/products/wallet 2 22028 0 0
+/product/premium-quality-fridge-sticker-12 3 53942 1 0
+/product/5-part-pvc-wall-canvas-38 2 49343 0 0
+/product/5-part-pvc-wall-canvas-54 4 97451 0 1
+/product/18-ps-wallboard-3 2 48857 0 0
+/products/mpod-earbuds 2 22049 0 0
+/products/cotton 3 33028 0 0
+/product/premium-quality-fridge-sticker-14 2 35934 0 0
+/product/wooden-frame-8 5 122489 1 2
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-43 2 49543 0 0
+/products/replica 2 22026 0 1
+/product/3d-frame 3 72968 0 0
+/admin/paymentgeteway/manage 1 7547 0 1
+/product/premium-quality-fridge-sticker-2 2 35808 0 0
+/product/5-part-pvc-wall-canvas-3 2 48479 0 0
+/product/5-part-pvc-wall-canvas-22 2 49344 0 0
+/admin/products/135/edit 1 9379 0 0
+/admin/products/147/edit 1 9379 0 0
+/subcategory/combo-wall-board 6 78562 1 1
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-17 2 49486 1 1
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-14 2 49479 0 0
+/product/premium-quality-almari-sticker-12 9 142398 1 4
+/product/5-part-pvc-wall-canvas-25 2 49340 0 0
+/product/premium-quality-door-sticker-3 3 53299 0 0
+/product/premium-quality-fridge-sticker-20 4 71900 0 1
+/admin/products/127/edit 1 9380 0 0
+/product/5-part-pvc-wall-canvas-29 2 49345 0 0
+/product/premium-quality-door-sticker-12 4 71047 0 0
+/products/leather-bag 3 33070 1 1
+/products/purse 2 22024 0 0
+/product/3d-frame-6 2 48689 0 0
+/products/earrings 2 22038 0 0
+/product/premium-quality-fridge-sticker-10 3 53911 0 1
+/product/3d-frame-11 2 48635 0 0
+/product/5-part-pvc-wall-canvas-47 2 49337 0 0
+/products/ready-mix 2 22019 1 1
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-19 2 49486 0 0
+/product/3d-frame-17 3 72851 0 0
+/products/keyboard 4 287143 2 1
+/subcategory/makeup 1 11028 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-33 2 49485 0 0
+/products/lawn 3 33033 0 0
+/admin/products/123/edit 1 9378 0 0
+/stock-check 1 51 1 1
+/customer/forgot-password 2 21539 1 1
+/product/5-part-pvc-wall-canvas-39 2 49345 0 0
+/product/premium-quality-fridge-sticker-7 2 35946 0 0
+/subcategory/salwar-kameez 2 22062 0 0
+/products/neckband 2 22020 0 0
+/product/wooden-frame-2 4 97979 3 3
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-35 3 74427 0 0
+/subcategory/18-ps-wallboard 5 204899 2 1
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-6 2 49478 0 1
+/subcategory/mens-shoes 1 11030 0 0
+/products/mouse 3 33025 0 0
+/product/5-part-pvc-wall-canvas-48 2 49344 0 0
+/product/premium-quality-door-sticker-4 4 71275 0 1
+/products/eyeglasses 2 22032 0 0
+/product/5-part-pvc-wall-canvas-7 2 48483 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-30 2 49485 0 0
+/admin/order/all 3 24647 0 0
+/product/5-part-pvc-wall-canvas-16 2 49341 0 0
+/products/charger 1 11009 0 0
+/product/combo-wall-board-29 4 97635 1 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-41 2 49549 0 0
+/admin/products/150/edit 1 9453 0 0
+/product/3d-frame-14 1 24475 0 0
+/admin/products/151/edit 1 9453 0 0
+/product/wooden-frame-6 3 73547 2 1
+/product/5-part-pvc-wall-canvas 3 73882 0 0
+/product/combo-wall-board-26 3 72854 0 0
+/product/18-ps-wallboard-11 2 48604 0 0
+/product/premium-quality-door-sticker-9 3 53269 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-4 8 194939 0 3
+/admin/products/130/edit 1 9380 0 0
+/product/5-part-pvc-wall-canvas-13 2 49345 0 0
+/product/ambush-wall-paper-22 2 48435 0 1
+/product/premium-quality-fridge-sticker-27 3 53847 0 0
+/products/spices 2 22022 0 1
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-38 2 49545 0 1
+/products/tea 2 22022 1 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-21 2 49481 0 0
+/admin/products/113/edit 1 9451 0 0
+/product/combo-wall-board-28 4 97289 0 0
+/product/3d-frame-9 3 72841 0 1
+/product/combo-wall-board-17 3 72871 0 0
+/product/combo-wall-board-12 2 48700 0 0
+/admin/products/131/edit 1 9380 0 0
+/product/ambush-wall-paper-40 3 48196 0 1
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-42 2 49547 0 0
+/product/3d-wall-paper-interior-self-adhesive-pvc-paper-40 2 49557 0 0
+/admin/products/143/edit 1 9379 0 0
+/subcategory/innerwear 2 22052 0 0
+/subcategory/womens-sharee 2 22069 0 0
+/products/vegetables 2 22021 0 0
+/products/t-shirt 2 22021 0 0
+/page/refund-&-return-policy 5 63131 1 2
+/products/oil 2 22013 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+2K-5K 4789
+44-100 52
+0-44 5939
+5K+ 57224
+100-500 1153
+500-1K 1009
+1K-2K 2323
+END_FILESIZE

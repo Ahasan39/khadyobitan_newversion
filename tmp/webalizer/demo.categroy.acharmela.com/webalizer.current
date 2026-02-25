@@ -1,0 +1,920 @@
+# Webalizer V2.23-08 Incremental Data - 09/29/2025 17:46:31
+2025 9 29 17 46 31
+779 681 75 228 5 50 15181789 113 74 0
+5 2 165 18 29
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+335 296 7043620 31 50 31
+33 27 933779 12 11 7
+59 52 1513738 7 7 6
+24 24 143357 2 1 1
+20 20 693959 3 2 2
+16 16 1024 1 0 0
+16 16 347366 2 1 1
+14 14 896 1 0 0
+34 30 970901 9 6 6
+18 18 347485 2 1 1
+183 152 3126057 13 30 15
+27 16 59607 5 4 4
+0 0 0 0 0 0
+0 0 0 0 0 0
+20 20 1280 0
+1 1 61765 1
+2 2 346470 1
+22 22 1408 0
+4 1 13100 3
+21 19 104487 1
+29 25 427958 4
+12 1 31864 1
+0 0 0 0
+25 25 356865 2
+1 1 8997 1
+4 3 80996 3
+45 41 538921 5
+7 5 544964 4
+59 20 56864 28
+47 47 1891280 8
+166 166 3843070 9
+4 4 364444 3
+36 36 829569 2
+1 0 1242 0
+80 80 2076667 3
+28 28 598547 6
+0 0 0 0
+165 134 3001031 28
+0
+0
+0
+681
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+11
+86
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/.well-known/acme-challenge/OJ40TP60TUBN-CC791QZ10TL1XYM8SB1
+0 1 7526766700158350693 64 0 0
+/.well-known/acme-challenge/MA6DWE22DR7M21R77PQE8PO2-Y-Y3C4F
+0 1 0 64 0 0
+/.well-known/acme-challenge/LIPQ399V8B-ER4_S0FXLN0NX15BMAF0Z
+0 1 0 64 0 0
+/.well-known/acme-challenge/I688FYJ7-52WRDQSDCD97_XIZDN0FU78
+0 1 0 64 0 0
+/.well-known/acme-challenge/ICH6JM6LXSSW9DU67RFXU4N7W8JYIVN1
+0 1 0 64 0 0
+/.well-known/acme-challenge/VD5MQ3N9XPQY1C1KJJ3DUWV_53ZY-L3T
+0 1 0 64 0 0
+/.well-known/acme-challenge/E3FZSYKM0KOPZEPHN4P5S_HRL__MMGO-
+0 1 0 64 0 0
+/.well-known/acme-challenge/S6WPKKWBU6UN-T4J8OYJ6_4WUS49HE9M
+0 1 0 64 0 0
+/.well-known/acme-challenge/6CWQ9GPO1J7W9TG9CS-58LIXBQ2S5290
+0 1 0 64 0 0
+/.well-known/acme-challenge/1NYBEE7P5ZUMO27G3ETDI68ZXJI4971S
+0 1 0 64 0 0
+/.well-known/acme-challenge/9OQXCDBP-GIMCVMVY4XLPBBDYKP257EE
+0 1 0 64 0 0
+/.well-known/acme-challenge/PVY1IO7BYEVS-QEW4Q4KZI0S60BFKRH4
+0 1 0 64 0 0
+/.well-known/acme-challenge/57U3AHWBU_AWM9691EBFI75SZO0J_-ZK
+0 1 0 64 0 0
+/.well-known/acme-challenge/MJ7HAKJA2A-E4CLXRIQJPKWDUDRJNAE7
+0 1 0 64 0 0
+/.well-known/acme-challenge/BYUG4ETY_NQ60DHBJG0N_C_U50HP7VCA
+0 1 0 64 0 0
+/.well-known/acme-challenge/J8SLN6XJRRFTOEAS8T6_JIGGQ9NZ2D41
+0 1 0 64 0 0
+/.well-known/acme-challenge/H7WYF_59SWB2VZQKIQ-SNVA4-DB0Q3H1
+0 1 0 64 0 0
+/public/frontEnd/js/mobile-menu-init.js
+0 15 0 12919 0 0
+/public/frontEnd/js/script.js
+0 15 0 5033 0 0
+/public/frontEnd/js/jquery-3.7.1.min.js
+0 10 0 303456 0 0
+/.well-known/acme-challenge/HTA2UO8ISO076XX2NWQFSX8UZBRFWWFA
+0 1 9 64 0 0
+/.well-known/acme-challenge/JS01JM1AH1NSNJ0-WSR70ZP1N6CWCELX
+0 1 0 64 0 0
+/.well-known/acme-challenge/PX-FBLT9JI14IIU9YRU96ZYOZ6S4R9HL
+0 1 0 64 0 0
+/public/frontEnd/css/all.min.css
+0 9 0 201402 0 0
+/public/uploads/product/1758211657-download-(23).jpeg
+0 9 0 25614 0 0
+/.well-known/acme-challenge/H-BYHYAYU-ZP4FQCJDS7EWDV8UGUU5CB
+0 1 0 64 0 0
+/.well-known/acme-challenge/-XFC4_79P_357P3PK_C6KPWJU56G1TFU
+0 1 0 64 0 0
+/.well-known/acme-challenge/6O-ST6_IH587Z8AEUHBR92I2L93L_WGT
+0 1 0 64 0 0
+/.well-known/acme-challenge/6WES-PY62KA1_BSLVJMM6BW2D17JX9WB
+0 1 0 64 0 0
+/.well-known/acme-challenge/4U5B_OBVA-PQOICBC53APXFG1-3XRZXC
+0 1 1124791230022225152 64 0 0
+/.well-known/acme-challenge/110I-IMSUNQGWSMN5XGB1Z4FOUKXLHAY
+0 1 0 64 0 0
+/.well-known/acme-challenge/L6BDVBMJJZTJJZTV3TQU8J2DS3QSISLS
+0 1 0 64 0 0
+/.well-known/acme-challenge/QOWUPL17LE78U7REMUJNWM9CT58Y662I
+0 1 0 64 0 0
+/.well-known/acme-challenge/MBIL0U_PL5T7HEKIMH1_EKPTS9M6-7B6
+0 1 0 64 0 0
+/.well-known/acme-challenge/76HSIZPT00SN1LNF-EU26L75T5_SPYAN
+0 1 0 64 0 0
+/.well-known/acme-challenge/9GRHO4AL9ZI97AS2KIW004FNJGREKHG1
+0 1 0 64 0 0
+/.well-known/acme-challenge/V8S6UPK-4YV0J_MYNSPD4949MDXD38VU
+0 1 0 64 0 0
+/.well-known/acme-challenge/XSWGD56XEZCRWVT60KIXC9J97GR5J9X5
+0 1 0 64 0 0
+/.well-known/acme-challenge/P_2NRZO6CWSE15H8XD-G_ITI0KYGKO9H
+0 1 0 64 0 0
+/.well-known/acme-challenge/0GX8UX3M7YF6G8-IY6KK8MGNI6OX8LGA
+0 1 0 64 0 0
+/.well-known/acme-challenge/0C7HALH750ROTVU534RKQ_JWQQIN105M
+0 1 0 64 0 0
+/.well-known/acme-challenge/WN7F_BLRXIDGEZIDBTOESGRWLY1BW9TT
+0 1 0 64 0 0
+/.well-known/acme-challenge/UK_JXQCAWANR85ZYQ2VJRJLTK30L4YNS
+0 1 0 64 0 0
+/.well-known/acme-challenge/T7H2G4O02DG8GB0C9AWFJC45QGGTT40V
+0 1 0 64 0 0
+/.well-known/acme-challenge/HUO97QXX1FEOFXSFB4QF3RITW2KVOIU6
+0 1 0 64 0 0
+/public/uploads/product/1758211154-download-(13).jpeg
+0 9 0 41310 0 0
+/.well-known/acme-challenge/2I_PXN-PN3AGGSBAMBY3AKET72QPRT9Q
+0 1 0 64 0 0
+/.well-known/acme-challenge/VNF3E4Q7JW_PNSLG_UAEERYTQL7-DMK9
+0 1 0 64 0 0
+/.well-known/acme-challenge/2JMPV2T8ENR_2Y1Y79C38HD-UEJJ0X1B
+0 1 8818449809525798005 64 0 0
+/.well-known/acme-challenge/853CTE63C2HINPFYZATRTXQWH7QKGPN1
+0 1 1836016430 64 0 0
+/.well-known/acme-challenge/S5UGIWW-84PIQWJKGRD_4-D0G3GFVJ8G
+0 1 4121411584578813952 64 0 0
+/.well-known/acme-challenge/KPJFHGE861I_5KEEGX1-97DZ61MN8I3J
+0 1 29500555613255731 64 0 0
+/.well-known/acme-challenge/PB4AEJ3LLL_NTJKX5_5H-B3HI977NNIM
+0 1 8026105533649911808 64 0 0
+/public/uploads/product/1758211248-download-(15).jpeg
+0 9 1836016430 59985 0 0
+/.well-known/acme-challenge/UDBHXO3SKSE2XYJ_6MN1USOJWHA9I-2V
+0 1 3977859544917750017 64 0 0
+/public/uploads/settings/1755678443-whatsapp-image-2025-08-20-at-14.25.19_cb652786.webp
+0 9 7017579286604887088 3037284 0 0
+/.well-known/acme-challenge/PK2DS6BA2ITSAI-X2YKJTQN0IQM6P7J3
+0 1 7526766700158350693 64 0 0
+/.well-known/acme-challenge/_IW2OWB90NLP7XK82JVK07XSDI8LHSBZ
+0 1 0 64 0 0
+/.well-known/acme-challenge/Y-6WEN1HGUS8LEQJ-3I9LCX5K5ARTW83
+0 1 0 64 0 0
+/.well-known/acme-challenge/39O6DCZDV7KWJILB_7767WHDW666II-S
+0 1 0 64 0 0
+/.well-known/acme-challenge/JSQTEV_80BD3YF0ZQG5R7M3QXMVMS3RP
+0 1 0 64 0 0
+/.well-known/acme-challenge/OIN8NWI-668MJ_36O8TC38AS0GUBGMZ8
+0 1 0 64 0 0
+/.well-known/acme-challenge/WF__UK8APDVJOT87VIVTPB8U4THC9-4T
+0 1 0 64 0 0
+/public/uploads/product/1758211608-images-(6).jpeg
+0 9 0 44487 0 0
+/.well-known/acme-challenge/W6OG8H-9155WTKO3YIYUUOYFX8ZVOAWY
+0 1 0 64 0 0
+/public/uploads/product/1758211563-download-(20).jpeg
+0 9 0 37287 0 0
+/public/frontEnd/css/style.css
+0 9 0 98577 0 0
+/public/frontEnd/css/wsit-menu.css
+0 9 0 17478 0 0
+/.well-known/acme-challenge/M9ZP91BA1GAUNAH6ADPHAJP9P56SUEY4
+0 1 0 64 0 0
+/public/frontEnd/css/animate.css
+0 10 0 47670 0 0
+/public/uploads/product/1758211530-download-(19).jpeg
+0 9 0 46260 0 0
+/.well-known/acme-challenge/8FV2BEBXBYXKHDOFXWX2SLWEQCNOY1PJ
+0 1 0 64 0 0
+/.well-known/acme-challenge/90F6IKK8VZLP7XFEQWZ4VBBD__V34-U2
+0 1 0 64 0 0
+/favicon.ico
+0 7 0 14253 0 0
+/.well-known/acme-challenge/RHS-FM5_IOGL411CJITUKR89B5F7701A
+0 1 0 64 0 0
+/.well-known/acme-challenge/JRO4ZMWRA4Q437HGH_H6_936FCAWC7F3
+0 1 0 64 0 0
+/.well-known/acme-challenge/A2BBZ08WO5IN4ANQW2MGTVTWXGXDBTHN
+0 1 0 64 0 0
+/.well-known/acme-challenge/O2NA6OQTKAPQ46Y0HLWXETP9VIQA97N3
+0 1 0 64 0 0
+/.well-known/acme-challenge/KNWYLQE5J3KEIHT4-MA2UMTMPDFQF4T-
+0 1 0 64 0 0
+/.well-known/acme-challenge/YOS2_X7DOL-7ZF0N9D-I074FSB4XEQKP
+0 1 0 64 0 0
+/.well-known/acme-challenge/O7CGVBOI9WX329B-6HDJTDX6X3BF3P04
+0 1 0 64 0 0
+/public/uploads/product/1758211633-download-(22).jpeg
+0 9 0 40131 0 0
+/.well-known/acme-challenge/_JFF43F8VTOG3TCTCR5CC4NQSK6ZBAR-
+0 1 16 64 0 0
+/.well-known/acme-challenge/AISFPYV144U4UIH3-_SLPGO0JIDAR2-P
+0 1 0 64 0 0
+/.well-known/acme-challenge/CWE0OV_NGMW9JI9QQB2HPA213IA8JL7F
+0 1 0 64 0 0
+/.well-known/acme-challenge/ZJWA3AM_E0Q0SDE2E9UUNCXFE8Y5-COS
+0 1 0 64 0 0
+/public/frontEnd/webfonts/fa-brands-400.woff2
+0 9 0 972000 0 0
+/.well-known/acme-challenge/A34HE87UYMPULYFJ2SCG7PGK53PWC0BL
+0 1 0 64 0 0
+/.well-known/acme-challenge/5E6NCNOF13MVWCEQH_Q482ZC4FHPH2_O
+0 1 0 64 0 0
+/public/uploads/product/1758211505-download-(18).jpeg
+0 9 0 80298 0 0
+/.well-known/acme-challenge/HGHMRSF9EMVO78CEMF80Q9V0T40MSLJ4
+0 1 0 64 0 0
+/.well-known/acme-challenge/OEMM39YQQHYCJ5WSQPL8A7_MO_H-PE03
+0 1 1 64 0 0
+/.well-known/acme-challenge/GW6RKZOLVL3DRLTYQ35764-OXDO3PZS3
+0 1 0 64 0 0
+/.well-known/acme-challenge/8YWWD3EJ4A34ODWA16__S07MCRHJUMI1
+0 1 0 64 0 0
+/.well-known/acme-challenge/HLQ2IP0G8ZX0V5AVGWITTTOWRHM97K47
+0 1 0 64 0 0
+/public/frontEnd/js/owl.carousel.min.js
+0 19 0 282415 0 0
+/public/frontEnd/js/mobile-menu.js
+0 15 0 78450 0 0
+/public/backEnd/assets/css/toastr.min.css
+0 9 0 24210 0 0
+/.well-known/acme-challenge/9_6-TJ36A80TA23DAM8UVI3RDS_-8KYU
+0 1 0 64 0 0
+/.well-known/acme-challenge/VOQLU4GSSSJZWSFLWT39LXBUUIFJPKII
+0 1 0 64 0 0
+/public/uploads/product/1758211442-download-(16).jpeg
+0 9 0 44748 0 0
+/.well-known/acme-challenge/COC4M6UXEKPMKQ4_A9MXZ2JAUUYCDXKF
+0 1 0 64 0 0
+/.well-known/acme-challenge/YXINH33O2ROIA5MY2UXASYX22H9XE3UO
+0 1 0 64 0 0
+/.well-known/acme-challenge/F02SNY70XN_WRNOK7MDCP6NVFF3QEX1P
+0 1 0 64 0 0
+/.well-known/acme-challenge/UTL-Z51XLQYDFR--9BXSN5A2U957MC5-
+0 1 0 64 0 0
+/.well-known/acme-challenge/RDU944UM2FEYCTBHGMMS5XQD9SAHFH_D
+0 1 0 64 0 0
+/.well-known/acme-challenge/XPQRKJUUPER0GW3JZ6932E4TW4ZF4HI6
+0 1 0 64 0 0
+/public/uploads/settings/1755678407-whatsapp-image-2025-08-20-at-14.25.19_cb652786.webp
+0 19 0 5442688 0 0
+/.well-known/acme-challenge/Q7T4JXYIK8Y9884WSKFJA007EW7PWDQ5
+0 1 0 64 0 0
+/.well-known/acme-challenge/472CT7C97O1UJHVT0P__0B-SLIPPH03F
+0 1 0 64 0 0
+/.well-known/acme-challenge/ARJ8PKH16O87T_COX7XS38FT2TWF8R2H
+0 1 0 64 0 0
+/public/frontEnd/webfonts/fa-solid-900.woff2
+0 9 0 1349172 0 0
+/public/uploads/product/1758211194-download-(14).jpeg
+0 9 0 50436 0 0
+/public/frontEnd/css/owl.theme.default.min.css
+0 9 0 4311 0 0
+/.well-known/acme-challenge/YC-Z9NOO_Q3NEQ9NM44YJ28SXFH2AOC0
+0 1 0 64 0 0
+/.well-known/acme-challenge/EN7KOT8NZ_D58WUHIGZ5BZFZP_81SQL0
+0 1 0 64 0 0
+/public/frontEnd/css/owl.carousel.min.css
+0 9 0 9612 0 0
+/.well-known/acme-challenge/N2LWD1J4YMS_UNSBLX9AMQB4L_4KYVVN
+0 1 0 64 0 0
+/.well-known/acme-challenge/_JD3I8AAWAZ9NT0_ZQYRMIJY0QYOE4VB
+0 1 0 64 0 0
+/public/frontEnd/js/wow.min.js
+0 15 0 52844 0 0
+/.well-known/acme-challenge/OU69BJSVC0YCCJKP_QDW73X6CGN6J_N0
+0 1 0 64 0 0
+/.well-known/acme-challenge/AFY9FG52_1OKJ6ABBRRKBTDJTRIU2NFP
+0 1 0 64 0 0
+/.well-known/acme-challenge/5839RKBC2MH4WN4SIRRBNQYWIG2ZS459
+0 1 0 64 0 0
+/.well-known/acme-challenge/PYOQDN8IHNJD8EZBJAS2N4VPF4KB2U1O
+0 1 0 64 0 0
+/public/frontEnd/css/mobile-menu.css
+0 9 0 30825 0 0
+/.well-known/acme-challenge/A4JF_6Y07ZI_02RE5KFK5BVZZIO1XGNJ
+0 1 0 64 0 0
+/.well-known/acme-challenge/U7WFEZRFTZBO8BGNIFQWB_4YQW0Y9G69
+0 1 0 64 0 0
+/.well-known/acme-challenge/033UNZJ9OD3ELIE_G6-5UTLDBCLY20P1
+0 1 0 64 0 0
+/customer/checkout
+0 1 0 53667 1 0
+/.well-known/acme-challenge/S1VTI24M4ZKEIT-YLYL4ODM6GV65EAT3
+0 1 0 64 0 0
+/.well-known/acme-challenge/VJ9_HVNRH949W-GE1-1N5L_HRF6F3YNC
+0 1 0 64 0 0
+/.well-known/acme-challenge/X_3RHI7EVB5MEGCGYI_HSK68J9FEGN0V
+0 1 0 64 0 0
+/.well-known/acme-challenge/J74T3_4_QHT6BFW5L0XZ-22O9W4RSSIN
+0 1 0 64 0 0
+/.well-known/acme-challenge/7NW415CNP1G6KWV5VT4QX26EOWCA80BH
+0 1 0 64 0 0
+/.well-known/acme-challenge/G60CY9VZT6T277CPL4VTWJDGD1OZVAMC
+0 1 0 64 0 0
+/.well-known/acme-challenge/X03L_JNAQ8LR_0ZGV6BG7-AQQ9KNR73T
+0 1 0 64 0 0
+/.well-known/acme-challenge/N26AMQEHVQ3WJN825BASNWLHDKNA4_A_
+0 1 0 64 0 0
+/.well-known/acme-challenge/U6P-OIKFDB7IDGOI2V5J7D4S7KU_RJKY
+0 1 0 64 0 0
+/public/frontEnd/js/bootstrap.min.js
+0 10 0 161277 0 0
+/.well-known/acme-challenge/2E8Z1DPEGAQQIL9-RDA9DI33CQWANEZM
+0 1 0 64 0 0
+/.well-known/acme-challenge/8FKRLNVKXUG1MCXKLZOKF2RJDYGA1MRO
+0 1 0 64 0 0
+/.well-known/acme-challenge/ZWSZTYTX07SJ0QGR1FTM2ZXJDQ9QLFL8
+0 1 0 64 0 0
+/.well-known/acme-challenge/HIURPYCV7AXPQJX3P56NO0Y94UQMGPL7
+0 1 0 64 0 0
+/public/uploads/product/1758211687-download-(24).jpeg
+0 9 0 35721 0 0
+/.well-known/acme-challenge/0A6CKA1B-UPD6RGGCD2KM7ET2KG7WUY_
+0 1 3 64 0 0
+/.well-known/acme-challenge/ZOB_GWOGL8QRWC_608AS703KKKB1NMPZ
+0 1 0 64 0 0
+/public/frontEnd/js/wsit-menu.js
+0 15 0 46248 0 0
+/.well-known/acme-challenge/Q1QBPBSH11QT8LVIX7S1E66E4E8KO9KH
+0 1 0 64 0 0
+/.well-known/acme-challenge/93T-CGIJ9ER-H3SGQX_AEEMR76FF-8QQ
+0 1 0 64 0 0
+/.well-known/acme-challenge/BHWRFGYR3PLONAY8TFWB7QS75ZTH4O5Y
+0 1 0 64 0 0
+/.well-known/acme-challenge/K-5T76B8D_-53XOTYAMPFID7EG0CHZB2
+0 1 0 64 0 0
+/public/frontEnd/webfonts/fa-regular-400.woff2
+0 9 0 223560 0 0
+/.well-known/acme-challenge/W4O3K7KU7Y_NENJ2R2TYA8OU0C-HO-U_
+0 1 0 64 0 0
+/.well-known/acme-challenge/_-VJQ9EF9QSHJFL7FTGCEUKANL_HOI0F
+0 1 0 64 0 0
+/.well-known/acme-challenge/Z1_YNTV34-TW-W-0NLX1PW5FIPTQCHE1
+0 1 0 64 0 0
+/.well-known/acme-challenge/O9C7TV89OGV7SK6OL4A02KR44_D4C75B
+0 1 0 64 0 0
+/public/frontEnd/css/responsive.css
+0 9 0 29457 0 0
+/.well-known/acme-challenge/SXAA9S0OMC33WIU385PQQ883E2VP14_S
+0 1 0 64 0 0
+/.well-known/acme-challenge/RTFJ1-ILHQ-XTJZ-Q84_YZ4-BUMH7GSE
+0 1 0 64 0 0
+/.well-known/acme-challenge/YYWG61QAEY6-0T96KMLRIBXPI156JYMS
+0 1 0 64 0 0
+/.well-known/acme-challenge/B-YA-F0K1OGCNO9BMWPH45YD1UBD8DOQ
+0 1 0 64 0 0
+/.well-known/acme-challenge/Q_0B4SPE2QAB27TIVY3E7Y8FMJT12JV1
+0 1 0 64 0 0
+/.well-known/acme-challenge/YMO1HSHIRI_R9IVWCPTG4B3QLVPC_RJ0
+0 1 0 64 0 0
+/.well-known/acme-challenge/35CE221ET98-R1UJGKXWM4-YR45E53AT
+0 1 0 64 0 0
+/.well-known/acme-challenge/QKKBMWRLELKVJ0G7IYLC433DDPEJO_IH
+0 1 0 64 0 0
+/.well-known/acme-challenge/S1MTYVN26OTMH7XM_FS67TRVRLGKZ_KO
+0 1 0 64 0 0
+/.well-known/acme-challenge/gJmwePt6S9CwIypxx0Ujuc81sLT37I1F67atp17mb64
+0 5 0 435 0 0
+/.well-known/acme-challenge/AEBWC5A5NLATX6YHWGCZ1U4IOTESAY5V
+0 1 0 64 0 0
+/public/frontEnd/images/delivery-partner.png
+0 9 0 48645 0 0
+/.well-known/acme-challenge/64NGVFOKWYBHNY29-2HUET-SIT0CLR-Q
+0 1 0 64 0 0
+/.well-known/acme-challenge/2_NI9EGZ1RV7A-8BAXR2EEZ2UG-G5L3H
+0 1 0 64 0 0
+/.well-known/acme-challenge/PBLUKO25O16-WNF29GQ4JGD_TT_H7X6Z
+0 1 0 64 0 0
+/.well-known/acme-challenge/0ZVMN0JDB2J__35B5LXVYVBQNDXMZ83W
+0 1 0 64 0 0
+/.well-known/acme-challenge/ZZUM8LIT00MSY_W71LV5WTJTARSWQJUB
+0 1 0 64 0 0
+/
+0 69 0 1417475 59 8
+/.well-known/acme-challenge/S09EL0GH3A9X3JUWFI0BM7KSP3FHV57Q
+0 1 0 64 0 0
+/.well-known/acme-challenge/3X8AT_3ZMHN6M2RMNT7ZKS7XMB5ZAG_3
+0 1 0 64 0 0
+/.well-known/acme-challenge/IXR50BHU148P8KXF1ZC290C19FFOG-UR
+0 1 0 64 0 0
+/.well-known/acme-challenge/R8S1C5VLPOIQC-2I4HJ8O2ASPO5SEDOT
+0 1 0 64 0 0
+/.well-known/acme-challenge/G8C0QA2DM4_3_L_QE-WKVCOVVZUC1PIA
+0 1 0 64 0 0
+/.well-known/acme-challenge/HAAHFQ2NZ_G866VIAJRHCTHN_-VKH2LV
+0 1 0 64 0 0
+/public/frontEnd/css/bootstrap.min.css
+0 9 0 271368 0 0
+/.well-known/acme-challenge/O1B9NSLVC1MQF6SABKJCN5ZN0HT0V8ZH
+0 1 0 64 0 0
+/.well-known/acme-challenge/834V3MGJ4FX65SADOX--OEJHX-52_0-4
+0 1 0 64 0 0
+/.well-known/acme-challenge/T9XUKACS-Q5EKUEL_BC99WY-334FCQX7
+0 1 0 64 0 0
+/.well-known/acme-challenge/2Z5ZXYLWD59EI8XBM2FYEW8SCJVS28WC
+0 1 0 64 0 0
+/.well-known/acme-challenge/K8ND74Z_KC2LFBKO_4A3XTZ-ER594BOY
+0 1 0 64 0 0
+/.well-known/acme-challenge/QLRWDO6FGZV-J99E9DPO0612KRRQVPBK
+0 1 0 64 0 0
+/.well-known/acme-challenge/7ZOUWPBFB1S4K3OQ0TB4SRZ6-78RB0WA
+0 1 0 64 0 0
+/.well-known/acme-challenge/MMD9X5-KALWNBM6PVL8803ZOF3WSMZR_
+0 1 0 64 0 0
+/.well-known/acme-challenge/QJAMV4V2GKDCY23-9UI9_P35PR4CW85D
+0 1 0 64 0 0
+/.well-known/acme-challenge/-WUMMLG__R102LIBONIG-S_GVP95NEVS
+0 1 0 64 0 0
+/.well-known/acme-challenge/SP6UJR3QSQZX6ZK00NG8BHNY9KYPRKFG
+0 1 0 64 0 0
+/public/frontEnd/css/select2.min.css
+0 9 0 19458 0 0
+/.well-known/acme-challenge/VMOLOJYECXRPVX5L9Y3OC87MJIYP53N-
+0 1 0 64 0 0
+/public/uploads/product/1758211472-download-(17).jpeg
+0 9 0 48636 0 0
+/.well-known/acme-challenge/PZRKC3527QI-76_JJZ9K60ZM57ZIWCBU
+0 1 0 64 0 0
+/public/backEnd/assets/js/toastr.min.js
+0 15 0 30258 0 0
+/.well-known/acme-challenge/HO8M8C6NF_-HWWJ8A3I61ZI9P-KUH-7L
+0 1 0 64 0 0
+/.well-known/acme-challenge/FM0EIZO5V7AUITV7-4NROERS9690JTVJ
+0 1 0 64 0 0
+/.well-known/acme-challenge/242PYMDKY5W7T48LS0GINPW6BNFOL5M4
+0 1 0 64 0 0
+/.well-known/acme-challenge/_xhtJrhw63xDnuZNXL0rsQSQRwjp8mUtqcjmtkBPgeE
+0 5 0 435 0 0
+/.well-known/acme-challenge/G-PCP7QV11HPKCXVMEFSP75TPMZ0T7V9
+0 1 0 64 0 0
+/.well-known/acme-challenge/AQXKVY4NT5NLU2KF1HF5ILX341S4W1FN
+0 1 0 64 0 0
+/.well-known/acme-challenge/BJWPEOPQNJC6L2HN__W-M_QM00_08PJG
+0 1 0 64 0 0
+/.well-known/acme-challenge/2I51UIWVLCBGLITZB2QK2KJLP7UB3LTR
+0 1 16 64 0 0
+/.well-known/acme-challenge/N0SFRNBR6ADC62IGJA9-2QRVDK9044QJ
+0 1 0 64 0 0
+/.well-known/acme-challenge/1FOZXE22BUC9J587S9DB91Q3K_7BDZ3S
+0 1 0 64 0 0
+/.well-known/acme-challenge/L--XDC1OI54TL34T97OM_QCJO_331H7L
+0 1 0 64 0 0
+/.well-known/acme-challenge/17-U0ELL2CGKC2ZVVFTS52OPIEZVB1LE
+0 1 94368332920768 64 0 0
+/.well-known/acme-challenge/XB1-QR_GRI5NL85V7L165O16XJI74RNR
+0 1 0 64 0 0
+/.well-known/acme-challenge/VTL4GQ4VQZ6ED9EKN0_AB9DDA5Y6146O
+0 1 0 64 0 0
+/.well-known/acme-challenge/LH5WDG-G_Y_9ASA3UJJTCU-9K2PABJ35
+0 1 0 64 0 0
+/.well-known/acme-challenge/73H9717Z6_VK6GUKM7CKX9QFWWAO7HKY
+0 1 0 64 0 0
+/.well-known/acme-challenge/U2C49KQPV9VAZUZ0QOOUQ8MNX8IRZTKS
+0 1 0 64 0 0
+/.well-known/acme-challenge/LAZF_UOOXKDA-G5EACKUDMB14_Q1UO4V
+0 1 0 64 0 0
+/.well-known/acme-challenge/4OXQ1E5ZASEYQWGP9-GW1RULN3FJVOUA
+0 1 0 64 0 0
+/.well-known/acme-challenge/15384832VOZKC7X939F0NLWASLXL_ZQM
+0 1 0 64 0 0
+/.well-known/acme-challenge/RTFBLX_UPT2WKH13YF03DMEYW_7VDAAF
+0 1 0 64 0 0
+/.well-known/acme-challenge/AR61M83OL1MHUIEJ6L5Y-G-HFWXI1CWV
+0 1 0 64 0 0
+/.well-known/acme-challenge/OR5DLDZ3V41DFLWJYE29PBV_K-CYGD4I
+0 1 0 64 0 0
+/.well-known/acme-challenge/RO8G1S2V7V-0VGSFZ_HG7I1SN0C0M0QM
+0 1 0 64 0 0
+/.well-known/acme-challenge/2CXCN5VPUX--GCLQ-I62OK_B1Q-65MZD
+0 1 0 64 0 0
+/.well-known/acme-challenge/8XCRF3SX5HDO1VZC7LUF_P8BVKU6PJWK
+0 1 0 64 0 0
+/.well-known/acme-challenge/CHHQRI7LDW-BQ-YI956_JKHRG-F-4NRQ
+0 1 0 64 0 0
+/.well-known/acme-challenge/31Y-ITP_0GPYDSJWWIP17_-FW6_E1OUM
+0 1 0 64 0 0
+/public/uploads/category/1758211109-download-(12).webp
+0 9 0 141156 0 0
+/.well-known/acme-challenge/-Q4OH1UV6XE72FNJAUEXDG54YWXKEFP4
+0 1 0 64 0 0
+# End Of Table - urls
+# -sites- (monthly)
+scanner-201.ch1.censys-scanner.com
+0 4 4 665335 1 1758382352
+/
+unused-space.coop.net
+0 4 4 685700 1 1758911868
+/
+ec2-34-220-219-21.us-west-2.compute.amazonaws.com
+0 2 2 174 0 0
+-
+ec2-13-59-220-158.us-east-2.compute.amazonaws.com
+0 1 1 87 0 0
+-
+38.92.6.34.bc.googleusercontent.com
+0 1 1 8997 1 1758278017
+/
+157.245.251.83
+0 2 2 346470 1 1758682584
+/
+205.210.31.3
+0 1 0 6603 1 1758866952
+-
+167.94.146.52
+0 4 4 397198 1 1758210070
+/
+3.148.197.35.bc.googleusercontent.com
+0 1 1 13221 1 1758208845
+/
+157.230.238.212
+0 2 2 346461 1 1759004939
+/
+56.46.127.34.bc.googleusercontent.com
+0 1 1 8986 1 1758275527
+/
+229.147.122.34.bc.googleusercontent.com
+0 4 4 16813 0 0
+-
+sserver1.webleez.com
+0 184 184 11776 0 0
+-
+ec2-34-235-126-133.compute-1.amazonaws.com
+0 5 3 198501 1 1758286807
+/
+205.169.39.30
+0 39 39 865108 1 1759103138
+/
+mail.immuniweb.com
+0 1 1 337476 0 0
+-
+nc-ph-2478.web-hosting.com
+0 2 2 8984 2 1758230637
+/
+205.169.39.25
+0 1 1 4767 0 0
+-
+129.176.72.34.bc.googleusercontent.com
+0 16 16 304032 1 1759103139
+/
+ec2-54-187-159-189.us-west-2.compute.amazonaws.com
+0 78 78 1730209 2 1758212095
+/
+193.45.231.35.bc.googleusercontent.com
+0 1 1 8985 1 1759168286
+/
+inspirational.monitoring.internet-measurement.com
+0 1 1 337476 0 0
+-
+147.185.132.112
+0 1 0 6603 0 0
+-
+185.177.72.21
+0 21 19 104487 1 1758347152
+/
+ec2-13-48-46-137.eu-north-1.compute.amazonaws.com
+0 1 1 87 0 0
+-
+35.179.226.35.bc.googleusercontent.com
+0 1 1 13218 1 1758208774
+/
+192.175.111.244
+0 1 1 3747 0 0
+-
+a7638675e3.scan.leakix.org
+0 22 3 26658 4 1758207161
+-
+205.169.39.20
+0 1 1 8986 1 1759103162
+/
+f19.immuniweb.com
+0 1 1 61765 1 1758232563
+/
+ec2-13-212-191-37.ap-southeast-1.compute.amazonaws.com
+0 1 1 87 0 0
+-
+impeccable.monitoring.internet-measurement.com
+0 1 1 337476 0 0
+-
+155.230.142.34.bc.googleusercontent.com
+0 3 1 11858 1 1758257016
+-
+f16.immuniweb.com
+0 1 1 61765 1 1758232553
+/
+205.210.31.193
+0 1 1 53667 1 1758867295
+/customer/checkout
+198.235.24.15
+0 1 1 61765 1 1759060446
+/
+205.169.39.15
+0 1 1 698 1 1758207406
+/
+178.128.18.196
+0 16 16 284666 2 1758889974
+/
+45.148.10.246
+0 2 0 2484 0 0
+-
+24.144.86.10
+0 2 2 346464 1 1758543406
+/
+ec2-3-143-255-66.us-east-2.compute.amazonaws.com
+0 1 1 87 0 0
+-
+198.235.24.182
+0 1 1 61765 1 1758850395
+/
+ec2-13-49-127-226.eu-north-1.compute.amazonaws.com
+0 1 1 87 0 0
+-
+192.175.111.236
+0 1 1 61765 1 1758232551
+/
+205.169.39.58
+0 1 1 8994 1 1759146448
+/
+139.59.11.137
+0 2 2 346471 1 1758531882
+/
+104.170.123.34.bc.googleusercontent.com
+0 10 10 472931 0 0
+-
+fee8d5bfdc.scan.leakix.org
+0 22 3 26669 6 1758207165
+-
+66.132.153.143
+0 5 5 287448 1 1758209321
+/
+185.177.72.48
+0 12 1 31864 1 1759131510
+/
+162.142.125.115
+0 4 4 437784 1 1758209607
+/
+195.67.19.34.bc.googleusercontent.com
+0 1 1 8996 1 1759167991
+/
+ec2-35-87-132-153.us-west-2.compute.amazonaws.com
+0 78 78 1730212 1 1758212187
+/
+234.26.222.35.bc.googleusercontent.com
+0 1 1 13175 1 1758208738
+/
+ec2-47-129-119-167.ap-southeast-1.compute.amazonaws.com
+0 1 1 87 0 0
+-
+2.97.148.34.bc.googleusercontent.com
+0 1 1 8995 1 1758282676
+/
+ec2-18-246-163-229.us-west-2.compute.amazonaws.com
+0 78 78 1730206 2 1758225811
+/
+ec2-18-246-10-36.us-west-2.compute.amazonaws.com
+0 13 9 48716 2 1758371503
+/
+115.69.197.104.bc.googleusercontent.com
+0 9 9 71327 0 0
+-
+174.138.41.145
+0 2 2 346471 1 1758349084
+/
+198.235.24.149
+0 1 1 62237 1 1759073736
+/
+reliable.monitoring.internet-measurement.com
+0 1 1 8987 1 1758304251
+/
+45.130.203.131
+0 1 0 1242 0 0
+-
+ebullient.monitoring.internet-measurement.com
+0 1 1 8995 1 1758301119
+/
+ec2-54-189-114-250.us-west-2.compute.amazonaws.com
+0 3 3 26942 1 1758211596
+/
+147.185.132.48
+0 1 0 6603 0 0
+-
+eab9c05722.scan.leakix.org
+0 22 3 169107 4 1759103154
+-
+64.15.129.111
+0 1 1 61765 1 1758232559
+/
+outbound1f.letsencrypt.org
+0 2 2 174 0 0
+-
+205.169.39.231
+0 49 49 941678 1 1759103172
+/
+ec2-35-90-25-216.us-west-2.compute.amazonaws.com
+0 1 1 8980 1 1758211614
+/
+139.59.154.138
+0 2 2 346463 1 1758373735
+/
+style.instaliking.com
+0 2 1 1841 1 1758207164
+/
+a113ac0491.scan.leakix.org
+0 14 2 146282 5 1759103148
+-
+147.185.132.60
+0 1 0 6603 1 1758866951
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+sserver1.webleez.com
+0 12 12 768 0 0
+-
+193.45.231.35.bc.googleusercontent.com
+0 1 1 8985 1 1759168286
+/
+205.169.39.58
+0 1 1 8994 1 1759146448
+/
+185.177.72.48
+0 12 1 31864 1 1759131510
+/
+195.67.19.34.bc.googleusercontent.com
+0 1 1 8996 1 1759167991
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://demo.categroy.acharmela.com/
+0 327
+- (Direct Request)
+0 421
+http://demo.categroy.acharmela.com/public/frontEnd/css/all.min.css
+0 27
+http://www.demo.categroy.acharmela.com/
+0 3
+http://demo.categroy.acharmela.com/wordpress/
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Linux; Android 5.1.1; SM-J111F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36
+0 3
+Mozilla/5.0 (Linux; Android 8.0.0; SM-G965U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile S
+0 80
+Mozilla/5.0 (iPhone; CPU iPhone OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Sa
+0 39
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+0 10
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36
+0 39
+Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)
+0 4
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+0 6
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+0 12
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+0 6
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
+0 2
+Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)
+0 10
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36
+0 2
+Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+0 21
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0
+0 1
+Go-http-client/1.1
+0 70
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/125.0.6422.60 Safari/537.36
+0 39
+Mozilla/5.0 (X11; Linux x86_64; rv:139.0) Gecko/20100101 Firefox/139.0
+0 2
+Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+0 4
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D201 Sa
+0 8
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+0 1
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36
+0 1
+Cpanel-HTTP-Client/1.0
+0 184
+Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; MAMIJS; rv:11.0) like Gecko
+0 8
+Mozilla/5.0 (l9scan/2.0.63e2130323e2834323e2136313; +https://leakix.net)
+0 4
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+0 5
+Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+0 3
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.1
+0 78
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+0 41
+python-httpx/0.28.1
+0 7
+Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Sc
+0 6
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+0 10
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.
+0 2
+Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Sa
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36
+0 39
+Mozilla/5.0 (Linux; Android 5.1.1; SM-J111F)
+0 1
+Python-urllib/3.10
+0 1
+Mozilla/5.0 (compatible; CMS-Checker/1.0; +https://example.com)
+0 5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15
+0 1
+Mozilla/5.0 (Linux; Android 6.0; HTC One M9 Build/MRA439600) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2717.98 Mobil
+0 4
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

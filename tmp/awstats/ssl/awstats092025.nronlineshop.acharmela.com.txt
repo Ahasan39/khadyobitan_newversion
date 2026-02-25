@@ -1,0 +1,1366 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202509 will be lost/reset.
+# Last config file used to build this data file was /home/acharmel/tmp/awstats/ssl/awstats.nronlineshop.acharmela.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2061                
+POS_TIME 2744                
+POS_VISITOR 21958               
+POS_DAY 34943               
+POS_DOMAIN 3722                
+POS_LOGIN 4378                
+POS_ROBOT 4533                
+POS_WORMS 6092                
+POS_EMAILSENDER 6223                
+POS_EMAILRECEIVER 6366                
+POS_SESSION 35794               
+POS_FILESIZE 45133               
+POS_SIDER 36006               
+POS_FILETYPES 6501                
+POS_DOWNLOADS 6832                
+POS_OS 6938                
+POS_BROWSER 7678                
+POS_SCREENSIZE 11334               
+POS_UNKNOWNREFERER 11408               
+POS_UNKNOWNREFERERBROWSER 12458               
+POS_ORIGIN 13019               
+POS_SEREFERRALS 13165               
+POS_PAGEREFS 13367               
+POS_SEARCHWORDS 14071               
+POS_KEYWORDS 14223               
+POS_MISC 2407                
+POS_ERRORS 14282               
+POS_CLUSTER 4234                
+POS_SIDER_404 14483               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250929174432 328 73773 10584749546062
+FirstTime 20250901024811
+LastTime 20250929172058
+LastUpdate 20250929180253 328 0 328 0 0
+TotalVisits 424                 
+TotalUnique 310                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 326                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 61 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 109 395 29104906 213 372 8246295
+1 140 364 23861863 139 214 5271854
+2 44 326 31360986 146 271 14299138
+3 26 124 14572091 344 443 12916620
+4 125 320 12165462 168 318 21924960
+5 34 175 18165596 90 120 4946032
+6 36 152 10413425 199 298 8538332
+7 75 257 19668025 203 347 14569942
+8 64 313 30593217 122 218 6932298
+9 32 187 19887334 162 280 10944930
+10 51 481 31491071 148 275 10635299
+11 85 236 16764721 139 210 7517835
+12 40 213 19466119 148 223 8638615
+13 62 194 13029505 118 262 4977151
+14 73 274 22249639 143 247 11484763
+15 246 692 56787847 221 289 8654116
+16 104 271 19184995 287 381 16759264
+17 149 515 33475403 241 430 12102666
+18 127 319 16181955 604 755 30799353
+19 122 421 37216310 268 375 15895799
+20 16 83 4019982 398 482 14613837
+21 97 209 17444632 239 313 17754898
+22 57 115 11418191 202 261 14661809
+23 124 298 19846823 178 304 17242145
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 28
+nz 762 2138 153834379
+in 449 1840 153121356
+us 429 1677 121428164
+rs 101 151 17044392
+gb 90 212 2819149
+bd 42 356 34249252
+zz 29 96 7197351
+ru 23 65 4873983
+hu 21 172 16168065
+ca 18 20 1250188
+za 10 10 108615
+de 8 8 0
+ro 7 11 95936
+pa 6 6 78744
+ir 5 44 4815855
+se 5 9 1414288
+vn 5 5 574875
+eg 4 46 3473190
+jp 3 3 42080
+eu 3 3 428343
+nl 3 5 713124
+my 3 42 3342982
+bg 3 3 39272
+gr 2 3 363731
+be 2 4 700457
+ch 2 2 25693
+au 2 2 152823
+fr 1 1 12683
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 37
+bingbot/ 1451 31143417 20250929134936 33
+bot[\s_+:,\.\;\/\\-] 1135 18192471 20250929105455 99
+Googlebot/ 671 6173125 20250929151810 54
+SemrushBot/ 513 4972743 20250929164726 70
+AhrefsBot/ 353 31733507 20250929174432 37
+Applebot/ 341 7849232 20250929073405 41
+Barkrowler 309 3415716 20250928230901 6
+facebookexternalhit/ 145 8992898 20250929172653 91
+YandexBot/ 131 661811 20250929122245 72
+Linguee[\x20]Bot 99 1031807 20250912200024 0
+Googlebot\-Image/ 64 17091564 20250928215923 0
+yandex 45 1915598 20250929021326 0
+AdsBot\-Google[\x20]\( 22 403721 20250919093107 0
+no_user_agent 20 2287858 20250928182357 0
+MJ12bot/ 18 137630 20250924024821 6
+curl 15 162698 20250912020821 0
+unknown 14 336 20250928103448 14
+[\s_+:,\.\;\/\\-]bot 10 146473 20250922161429 0
+crawl 10 488027 20250928015415 4
+(firefox/)([0-9]\.|[0-1][0]\.) 8 62910 20250925041931 0
+survey 7 739902 20250910205602 0
+Go\-http\-client/ 6 76414 20250925142749 0
+scrapy 5 63667 20250927030613 0
+Konqueror/ 3 36913 20250925041951 0
+ELinks[\x20]\( 2 594 20250925041909 0
+Links[\x20]\( 1 2825 20250925042012 0
+360Spider 1 24 20250923090848 1
+Jigsaw/ 1 12379 20250923202532 0
+msnbot/ 1 4229 20250925042035 0
+CFNetwork 1 297 20250925042035 0
+validator 1 4229 20250925041740 0
+nbot 1 24 20250911135219 1
+Adsbot 1 13121 20250919093035 0
+Discordbot/ 1 8852 20250908153737 0
+link 1 297 20250925042012 0
+YandexImages/ 2 43038 20250929002501 0
+DoCoMo/ 1 12126 20250925041931 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+png 626 209533995 0 0
+jpeg 221 56332552 0 0
+webp 754 93782959 0 0
+svg 1 2399 0 0
+woff2 262 29024908 0 0
+js 1431 17965334 0 0
+woff 71 2633936 0 0
+txt 2 74928 0 0
+jpg 567 78360495 0 0
+xml 3 4634 0 0
+css 1294 12045047 0 0
+html 430 8779004 0 0
+Unknown 1272 19828779 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/.well-known/security.txt 2 0 74928
+/robots.txt 0 47 1128
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 49
+linuxdebian 2 1
+winxp 1 0
+macosx14 6 0
+palmos 2 1
+win2003 1 0
+symbian 5 0
+win8.1 9 3
+macosx10 11 11
+win10 3696 1026
+androidics 1 0
+android10 1375 381
+android13 85 8
+linux 278 74
+macos11 83 83
+androidfroyo 1 0
+win11 2 2
+win95 1 0
+androidcupcake 3 1
+winlong 1 0
+linuxubuntu 167 117
+macosx13 3 1
+android12 154 9
+winphone 5 1
+wince 2 0
+macosx7 1 0
+macosx15 306 62
+Unknown 160 96
+ios_ipad 1 1
+wii 1 0
+win8 3 1
+android 50 5
+android11 12 0
+androidmarshmallow 103 102
+bsdfreebsd 1 0
+bsdnetbsd 1 0
+psp 1 0
+androidnougat 3 0
+unix 53 12
+androidoreo 5 2
+macosx9 4 1
+winunknown 1 0
+macos12 1 1
+macosx12 4 4
+androidhoneycomb 1 0
+ios_iphone 311 27
+win7 11 4
+macosx11 1 0
+os/2 2 1
+j2me 3 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 184
+chrome98.0.4758.101 1 0
+chrome79.0.3945.0 1 0
+chrome60.0.3112.91 1 0
+chrome136.0.0.0 1 1
+safari14.1.2 2 0
+firefox40.0 10 10
+safari14.0 1 0
+edge14 1 0
+chrome122.0.0.0 1 1
+chrome73.0.3683.75 1 0
+chrome98.0.4758.102 1 0
+chrome56.0.2924.87 6 1
+firefox45.0 1 0
+iceweasel 2 1
+safari4.0.5 1 0
+iceape 1 0
+chrome76.0.3809.100 1 1
+firefox129.0 1 1
+chrome60.0.3112.90 1 1
+chrome125.0.0.0 1 1
+safari3.1.1 1 1
+safari9.0 2 0
+chrome5.0.310.0 1 0
+safari17.8.1 1 1
+chrome120.0.0.0 4 4
+chrome70.0.3538.25 1 0
+chrome99.0.4844.84 1 0
+chrome101.0.4951.64 2 1
+chrome87.0.4280.101 1 1
+chrome131.0.0.0 44 5
+chrome110.0.0.0 1 1
+safari17.6 1 1
+opera7.50 1 0
+chrome72.0.3626.121 1 0
+firefox133.0 44 4
+chrome52.0.2717.98 3 3
+edge16 1 1
+chrome139.0.0.0 1274 319
+firefox77.0 1 1
+chrome140.0.7339.127 99 99
+firefox14.0.1 1 0
+lg\- 1 0
+chrome59.0.3071.125 1 0
+chrome134.0.0.0 1 1
+chrome138.0.0.0 230 57
+sonyericsson 1 0
+iphone 2 0
+opera68.3.3557.64528 3 0
+opera12.16 1 0
+safari2.0.1 2 0
+opera40.0.2308.62 1 0
+chrome99.0.4844.74 3 0
+chrome12.0.712.0 1 0
+chrome129.0.0.0 188 27
+safari18.6 42 3
+chrome119.0.0.0 1 1
+chrome86.0.4240.198 2 0
+mozilla 75 35
+chrome77.0.3865.120 1 1
+Unknown 80 57
+arora 1 0
+chrome100.0.4896.88 1 0
+chrome118.0.0.0 86 9
+chrome114.0.0.0 97 4
+safari18.5 46 4
+firefox49.0 1 1
+chrome124.0.0.0 54 14
+chrome128.0.0.0 1 1
+chrome99.0.4844.51 1 0
+chrome94.0.4606.71 1 0
+safari15.4 1 0
+chrome84.0.4147.105 1 1
+chrome89.0.4389.90 1 0
+safari15.2 1 0
+chrome92.0.4515.159 3 0
+chrome126.0.0.0 86 9
+safari15.5 1 1
+chrome98.0.4758.109 1 1
+chrome98.0.4758.141 2 0
+chrome116.0.0.0 9 9
+netscape3.01 1 0
+chrome100.0.4896.60 3 0
+chrome139.0.7258.143 53 7
+safari18.4 1 1
+opera11.00 1 1
+chrome100.0.4896.75 1 0
+chrome95.0.846.563 1 0
+chrome96.0.4664.110 1 0
+chrome28.0.1469.0 2 0
+chrome135.0.0.0 11 11
+chrome130.0.0.0 153 33
+chrome84.0.4147.135 43 4
+chrome121.0.0.0 163 11
+chrome79.0.3945.79 1 0
+chrome87.0.4280.141 2 0
+firefox46.0 1 0
+chrome27.0.1453.116 1 0
+firefox139.0 16 9
+opera6.20 2 0
+opera89.0.4447.51 1 1
+safari17.0 1 1
+safari15.3 2 0
+chrome94.0.4606.85 1 0
+firefox39.0 1 1
+firefox131.0 3 3
+chrome86.0.4240.75 2 2
+netscape5.0 8 7
+chrome15.0.874.120 1 0
+opera18.0.1284.49 2 0
+opera20.0.1387.91 1 0
+chrome94.0.4606.113 2 0
+firefox38.0 1 1
+chrome92.0.4515.166 1 0
+chrome123.0.0.0 2 2
+chrome100.0.4896.58 1 0
+chrome50.0.2661.89 1 0
+chrome113.0.0.0 1 1
+chrome101.0.4951.54 4 1
+chrome101.0.4951.61 8 0
+chrome98.0.4758.80 2 0
+chrome70.0.3538.77 1 0
+chrome108.0.0.0 4 4
+chrome140.0.0.0 3231 966
+safari11.0.3 1 1
+msie9.0 2 0
+firefox58.0 1 1
+chrome88.0.4324.96 1 0
+chrome117.0.0.0 9 9
+firefox128.0 2 2
+chrome127.0.0.0 1 1
+opera9.64 1 1
+firefox25.0 1 0
+chrome62.0.3191.0 2 0
+msie6.0 3 0
+firefox20.0 2 0
+chrome39.0.2166.2 1 0
+chrome47.0.2526.73 1 0
+chrome109.0.0.0 51 5
+chrome90.0.4430.61 1 0
+safari11.0 1 1
+safari3.0 1 0
+galeon 1 1
+chrome92.0.4515.131 1 1
+chrome36.0.1944.0 1 0
+chrome42.0.2311.90 2 2
+firefox113.0 1 1
+chrome91.0.4472.88 1 0
+chrome91.0.4472.77 1 0
+safari17.4.1 1 1
+chrome64.0.3282.186 3 3
+chrome102.0.4972.0 1 0
+safari13.0.3 3 3
+msie7.0 2 1
+chrome62.0.3187.0 1 0
+netscape4.0 2 1
+chrome96.0.4664.45 1 0
+chrome80.0.3987.99 1 0
+firefox136.0 1 1
+firefox35.0 10 10
+chrome137.0.0.0 8 4
+msie11.0 5 0
+chrome76.0.3809.111 2 2
+opera9.30 1 0
+edge17 2 0
+android 7 1
+safari 172 14
+chrome101.0.4951.41 14 0
+safari18.1.1 42 4
+chrome105.0.0.0 8 4
+chrome17.0.963.56 1 0
+chrome87.0.4280.88 83 83
+safari7.0.3 2 0
+chrome100.0.4896.127 7 1
+firefox134.0 152 102
+chrome66.0.3359.181 1 1
+firefox52.0 1 0
+firefox24.0 10 10
+chrome102.0.5005.27 1 0
+opera9.60 1 0
+opera7.23 1 0
+chrome58.0.3029.110 1 1
+chrome102.0.0.0 1 0
+chrome133.0.0.0 3 2
+nokia 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 18
+quic-go-HTTP/3 20250926190511
+Mozilla/5.0_zgrab/0.x 20250926235954
+WhatsApp/2.23.20.0 20250918010320
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250928110059
+WhatsApp/2.2534.2_W 20250907085515
+GoogleOther 20250902142521
+python-requests/2.31.0 20250928103446
+Mozilla/5.0_(compatible;_Dataprovider.com) 20250912220113
+python-requests/2.32.4 20250921124354
+LG-GC900/V10a_Obigo/WAP2.0_Profile/MIDP-2.1_Configuration/CLDC-1.1 20250925041800
+Mozilla/5.0_(compatible;_HubSpot_DataHub;__https://www.hubspot.com) 20250905013133
+python-requests/2.32.5 20250919033617
+python-httpx/0.28.1 20250913184816
+EmailWolf_1.00 20250925041823
+SonyEricssonT100/R101 20250925041740
+\ 20250924010038
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20250928203032
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250924165427
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 11
+GoogleOther 20250902142521
+python-requests/2.31.0 20250928103446
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250928110059
+WhatsApp/2.2534.2_W 20250907085515
+python-requests/2.32.4 20250921124354
+quic-go-HTTP/3 20250926190511
+WhatsApp/2.23.20.0 20250918010320
+EmailWolf_1.00 20250925041823
+\ 20250924010038
+python-requests/2.32.5 20250919033617
+python-httpx/0.28.1 20250913184816
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 800 1344
+From1 0 0
+From2 26 32
+From3 16 109
+From4 1196 5449
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+www_google_com_hk 2 2
+www_google_com 24 25
+google_com 0 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 11
+https://mail.nronlineshop.com/public/frontEnd/css/all.min.css 5 5
+https://webmail.nronlineshop.com/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/open_sans.min.css 3 3
+https://l.facebook.com 2 2
+https://acharmela.com:2083 1 1
+https://l.wl.co 1 1
+https://dbid.gov.bd 1 1
+https://com.all-url.info/com/nronlineshop.com/ 1 1
+https://mail.nronlineshop.com 1 85
+https://www.facebook.com 1 1
+https://webmail.nronlineshop.com/cPanel_magic_revision_1749759942/unprotected/cpanel/style_v2_optimized.css 0 6
+https://webmail.nronlineshop.com 0 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+403 50 62100
+401 88 7599
+419 4 8336
+500 636 150394470
+301 16 12720
+400 75 3900
+405 31 8959300
+404 1165 2806357
+302 152 31852
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 168
+/brands 1 -
+/config.json 3 -
+//www.nronlineshop.com/public/frontEnd/js/wow.min.js 3 -
+/users/login 1 -
+/.well-known/security.txt 4 -
+/apple-app-site-association 12 -
+/public/backEnd/assets/js/toastr.js.map 15 -
+/sitemap.xml.gz 2 -
+/_all_dbs 2 -
+/product/jbl-wireless-music-and-gaming-headphone-with-micro-sd-mp3-player 1 -
+//nronlineshop.acharmela.com/public/frontEnd/js/wow.min.js 9 -
+/product/processor-cooling-fan-for-desktop-computer-I0F5jE 1 -
+/tpiaqfpt.php 1 www.google.com
+/debug/default/view 3 -
+//mail.nronlineshop.com/public/frontEnd/js/mobile-menu-init.js 4 -
+/s/63e2130323e2834323e2136313/_/ 3 -
+/.DS_Store 3 -
+/xmlrpc.php 22 -
+/categories 18 -
+//cdn.js 40 -
+/product/sharee-combo-offer 3 -
+//mail.nronlineshop.com/public/frontEnd/js/wsit-menu.js 5 -
+/category 1 -
+//www.nronlineshop.acharmela.com/public/frontEnd/js/wsit-menu.js 8 -
+/about 3 -
+//nronlineshop.com/public/backEnd/assets/js/toastr.min.js 11 -
+//mail.nronlineshop.com/public/frontEnd/js/script.js 4 -
+/sitemaps.xml 2 -
+/server 3 -
+/laravel52/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+//nronlineshop.acharmela.com/public/frontEnd/js/wsit-menu.js 12 -
+/llms.txt 1 -
+/.well-known/apple-app-site-association 12 -
+/pro 1 -
+/wp-content/plugins/about.php 1 -
+/privacy-policy 3 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+//mail.nronlineshop.com/public/frontEnd/js/owl.carousel.min.js 4 -
+/track-your-order 4 -
+/lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/sitemap_index.xml 2 -
+/@vite/env 3 -
+//nronlineshop.acharmela.com/public/backEnd/assets/js/toastr.min.js 9 -
+//www.facebook.com/profile.php 14 -
+/v2/_catalog 3 -
+//nronlineshop.com/public/frontEnd/js/jquery-3.7.1.min.js 14 -
+/public/frontEnd/css/bootstrap.min.css.map 10 -
+/public/frontEnd/js/bootstrap.min.js.map 15 -
+//nronlineshop.acharmela.com/public/frontEnd/js/owl.carousel.min.js 8 -
+//nronlineshop.com/public/frontEnd/js/mobile-menu-init.js 14 -
+/gtm.js 11 -
+//www.nronlineshop.acharmela.com/public/frontEnd/js/bootstrap.min.js 7 -
+/product/v380-wifi-ip-camera 3 -
+//www.nronlineshop.acharmela.com/public/backEnd/assets/js/toastr.min.js 8 -
+/product/admin@nronlineshop.com 16 -
+/security.txt 2 -
+//nronlineshop.acharmela.com/public/frontEnd/js/jquery-3.7.1.min.js 7 -
+//nronlineshop.com/public/frontEnd/js/owl.carousel.min.js 13 -
+//www.nronlineshop.acharmela.com/public/frontEnd/js/mobile-menu-init.js 8 -
+//www.nronlineshop.acharmela.com/public/frontEnd/js/jquery-3.7.1.min.js 8 -
+/product/t-wolf-t20-wired-rgb-gaming-keyboard 2 -
+/yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/geju.php 1 -
+//www.nronlineshop.com/public/frontEnd/js/wsit-menu.js 4 -
+//mail.nronlineshop.com/public/frontEnd/js/bootstrap.min.js 4 -
+/login.action 3 -
+/wp-content/plugins/fluentform/readme.txt 2 -
+/product/die-casting-led-bulb-45watt-4G1DHV 1 -
+/webshell.php 8 -
+//nronlineshop.acharmela.com/public/frontEnd/js/bootstrap.min.js 9 -
+/iacxjhuo.php 1 www.google.com
+/customer/admin@nronlineshop.com 17 -
+/zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+//www.nronlineshop.com/public/frontEnd/js/mobile-menu.js 3 -
+//www.nronlineshop.com/public/frontEnd/js/jquery-3.7.1.min.js 4 -
+/page/admin@nronlineshop.com 8 -
+/wp-content/plugins/fluentform/fluentform.php 1 -
+/actuator/env 3 -
+/public/uploads/product/1755458048-https___eazyhaat.com_public_uploads_product_1755447782-chatgpt-image-aug-17 5 -
+/purchase_history 3 -
+/public/frontEnd/js/parsley.min.js.map 5 -
+//nronlineshop.com/public/frontEnd/js/bootstrap.min.js 14 -
+/wordpress/wp-admin/setup-config.php 62 -
+/hspxvyqi.php 1 www.google.com
+/product/most-qute-baby-bag 2 -
+/add-to-cart 8 -
+/product/gtm.js 11 -
+/site 2 -
+/.well-known/traffic-advice 7 -
+/wp-content/plugins/fluentform/assets/js/fluentform-advanced.js 1 -
+//www.nronlineshop.acharmela.com/public/frontEnd/js/owl.carousel.min.js 8 -
+/public/backEnd/assets/images/bg-pattern-2.png 31 https://nronlineshop.com/public/backEnd/assets/css/app.min.css
+/contact 1 https://nronlineshop.com/contact
+/contactus 4 -
+//nronlineshop.com/public/frontEnd/js/script.js 15 -
+/public/uploads/product/1758156665-img-20250916-wa0019.jpg 13 -
+//mail.nronlineshop.com/public/frontEnd/js/wow.min.js 4 -
+/meta.json 6 -
+//nronlineshop.com/public/frontEnd/js/wsit-menu.js 13 -
+/compare 1 -
+/product/g63-smart-light-clock 4 https://nronlineshop.com/
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 3 -
+/product/oneplus-airpods-pro 1 -
+//www.nronlineshop.acharmela.com/public/frontEnd/js/mobile-menu.js 9 -
+//www.nronlineshop.com/public/frontEnd/js/bootstrap.min.js 3 -
+/site/gtm.js 11 -
+/hasura-console 1 -
+/webshell 8 -
+/cart 3 -
+/shell.php 8 -
+//nronlineshop.acharmela.com/public/frontEnd/js/mobile-menu-init.js 9 -
+/returnpolicy 5 -
+//mail.nronlineshop.com/public/frontEnd/js/mobile-menu.js 5 -
+/.vscode/sftp.json 3 -
+/feed/atom 1 -
+/uploaded_script.php 1 www.google.com
+//mail.nronlineshop.com/public/frontEnd/js/jquery-3.7.1.min.js 4 -
+//www.nronlineshop.com/public/frontEnd/js/mobile-menu-init.js 4 -
+/public/uploads/all/5M61qM9Yi3zGzsAkQk4z6VQbkT0u29vaY26FcIO9.jpg 7 -
+//www.nronlineshop.com/public/frontEnd/js/script.js 3 -
+/wp-admin 4 -
+/elmah.axd 2 -
+/wp-content/themes/seotheme/db.php 6 www.google.com
+/affvclot.php 1 www.google.com
+//debug-products 2 -
+//cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js 37 -
+/product/tws-m19-earbuds 2 https://nronlineshop.com/
+/public/frontEnd/js/'+b.loadinggif+' 5 -
+/page/help@nronlineshop.com 11 -
+//www.nronlineshop.com/public/backEnd/assets/js/toastr.min.js 3 -
+/shell 8 -
+//nronlineshop.acharmela.com/public/frontEnd/js/script.js 10 -
+//www.nronlineshop.com/public/frontEnd/js/owl.carousel.min.js 4 -
+/wp.php 1 -
+/server-status 3 -
+/page/gtm.js 11 -
+//www.nronlineshop.acharmela.com/public/frontEnd/js/wow.min.js 9 -
+/wp-admin/setup-config.php 65 -
+//nronlineshop.com/public/frontEnd/js/wow.min.js 12 -
+/product/dz09-sim-memory-supported-smart-watch 2 -
+/compare/reset 8 -
+/lfhxhytv.php 1 www.google.com
+/product/remax-rb-m8-rgb-tws-wireless-speaker-rhythmic-lighting-stunning-sound-streamers-CBCSq6 2 -
+/public/frontEnd/js/'+b.j+' 5 -
+/site/admin@nronlineshop.com 6 -
+/product/5m-app-phantom-ic-rgb-led-neon-strip-light 8 https://www.google.com/
+/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/rcxxkzvh.php 1 www.google.com
+//www.nronlineshop.acharmela.com/public/frontEnd/js/script.js 10 -
+/info.php 3 -
+/wp-login.php 4 -
+/public/uploads/default/user.png 30 https://nronlineshop.com/admin/order/process/42841
+/sitemap.txt 2 -
+/wp-content/plugins/fluentform/assets/css/fluentform-public.css 1 -
+/wp-json/sure-triggers/v1/automation/action 2 -
+/telescope/requests 3 -
+//nronlineshop.com/public/frontEnd/js/mobile-menu.js 13 -
+/product/olax-ax6-pro-4g-lte-sim-router-with-battery-4000mah-NeEoDW 1 -
+/product/cashing-cooling-fan-jLiUgx 2 -
+/wp-plain.php 6 www.google.com
+//www.googletagmanager.com/gtm.js 37 -
+/admin@nronlineshop.com 17 -
+/product/processor-cooling-fan-for-desktop-computer-IVAAvs 2 -
+//mail.nronlineshop.com/public/backEnd/assets/js/toastr.min.js 4 -
+/wp-editor.php 1 -
+//nronlineshop.acharmela.com/public/frontEnd/js/mobile-menu.js 8 -
+/p 1 -
+/cartdelete 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 326
+103.16.25.105 362 899 64297172 20250924093744
+103.16.25.106 253 782 54349554 20250923171546
+103.166.59.150 123 235 11542514 20250921162357
+103.166.59.151 98 457 45330774 20250916005429
+141.98.11.115 84 204 2069992 20250925041532
+103.16.25.108 84 156 8733473 20250916062732
+103.166.59.146 67 219 15797446 20250925173159
+103.77.191.6 47 93 6130833 20250907213825
+103.16.25.104 35 128 8975715 20250904170916
+103.166.59.145 32 208 18351336 20250910080650
+66.249.64.105 31 31 380256 20250918142621
+66.249.64.104 27 27 314225 20250918055826
+103.16.25.111 22 151 14745367 20250909060118
+66.249.64.103 21 21 245009 20250919012828
+103.145.209.25 17 87 7881913 20250907085515
+119.148.7.70 15 141 12710082 20250904085416
+103.166.59.149 15 53 2579113 20250923144617
+66.249.83.71 12 28 404483 20250918004700
+104.133.108.108 12 53 5363585 20250902142622
+91.231.89.16 11 15 2355506 20250928185816
+18.189.143.33 11 163 1545101 20250928103508
+196.251.87.137 10 10 108615 20250921191446
+103.84.37.14 10 102 12911279 20250924123641
+23.146.184.190 10 10 104601 20250902222258
+23.146.184.239 10 10 104815 20250913070625
+104.248.89.205 1 2 350050 20250902143233
+205.210.31.97 1 1 141773 20250927143544
+185.130.227.201 1 1 12467 20250901024811
+172.241.143.8 6 10 80388 20250910004912
+202.86.216.2 3 46 6019405 20250909052338
+91.231.89.102 5 7 695730 20250928190152
+45.55.55.92 1 1 16864 20250919161035
+15.204.182.106 2 2 26123 20250926105954
+72.14.199.233 0 3 14255 
+74.125.212.161 1 5 32907 20250911070906
+157.245.2.118 1 1 10295 20250919112942
+167.71.7.200 1 2 350160 20250913201805
+93.119.227.91 3 3 428343 20250926012655
+45.55.84.158 1 1 13266 20250919154125
+157.230.118.184 1 2 350611 20250928133127
+66.249.79.231 3 3 41791 20250917132501
+23.234.114.219 1 1 13086 20250926032811
+103.15.42.199 2 11 755593 20250907085135
+157.90.156.133 1 1 10293 20250919115834
+159.89.178.151 1 1 13721 20250920044601
+216.73.175.47 6 10 80455 20250903014857
+199.45.155.108 1 3 291244 20250911031548
+192.178.10.8 0 2 358922 
+178.128.80.244 1 1 13125 20250919221552
+206.168.34.89 1 1 12379 20250909150904
+172.94.84.163 4 42 3259157 20250903074008
+93.158.91.25 2 4 700759 20250918165647
+91.231.89.38 1 1 140093 20250926182755
+165.227.178.64 2 2 26461 20250908125755
+66.249.83.130 1 19 142353 20250911183854
+91.231.89.22 4 4 496884 20250928185947
+167.71.177.153 2 2 24505 20250908133916
+45.148.10.248 3 49 504246 20250926002406
+45.61.184.196 1 1 12540 20250905221147
+3.138.185.30 1 1 12383 20250922025344
+104.131.182.35 1 1 10563 20250919155910
+3.89.27.239 1 1 12548 20250903212243
+54.210.231.47 1 1 12545 20250909152050
+139.59.132.8 1 1 140093 20250924151049
+34.187.240.241 2 48 6596520 20250914032436
+199.45.154.157 1 3 687545 20250904180237
+66.249.83.73 8 22 401826 20250910004104
+104.164.173.204 1 1 13060 20250925081015
+206.168.34.55 2 4 456363 20250906085153
+174.138.35.212 1 2 350603 20250916163429
+185.247.137.201 1 1 12379 20250915012044
+159.89.45.94 1 1 9921 20250908125756
+165.227.140.192 1 1 12374 20250926204709
+66.249.89.167 9 75 7994193 20250920171408
+103.166.59.144 2 19 2394116 20250924100126
+44.234.50.194 1 1 140201 20250919053256
+87.236.176.142 1 1 13126 20250916040952
+118.69.6.88 2 2 223728 20250905104311
+87.236.176.215 1 1 12379 20250923093546
+44.248.152.100 0 1 33584 
+52.38.50.85 0 1 21788 
+15.204.183.221 2 2 21272 20250927061958
+147.185.132.22 1 1 130000 20250909112820
+91.231.89.21 7 16 1752418 20250928185657
+103.4.250.207 1 1 13090 20250925073157
+91.231.89.17 7 9 954704 20250928190145
+66.249.64.97 6 6 74835 20250917212857
+172.233.62.72 1 1 13057 20250925223154
+41.42.193.179 4 46 3473190 20250912101638
+64.225.51.40 1 1 14150 20250919055840
+103.183.16.69 9 86 9015090 20250906121440
+167.99.210.137 1 1 143453 20250924151054
+71.6.134.231 1 2 350031 20250906175544
+103.196.9.65 2 2 26126 20250925082511
+172.253.192.49 3 42 3621104 20250921124036
+91.231.89.97 5 9 1152085 20250928190150
+93.123.109.225 1 1 13124 20250918130123
+165.227.64.110 2 2 25231 20250919071233
+66.249.83.128 1 13 126884 20250911183848
+103.16.25.107 4 5 17733 20250909123531
+104.248.165.226 1 2 350604 20250925133617
+103.4.251.36 1 1 13060 20250925082502
+203.55.131.4 1 1 12730 20250915095946
+34.203.38.76 1 1 13063 20250925234718
+188.166.127.126 1 1 12384 20250910081016
+162.142.125.221 1 3 688085 20250928203028
+179.43.149.114 6 6 78744 20250929172058 20250929172058 /
+202.86.216.77 2 4 161206 20250909062028
+91.231.89.123 1 1 144797 20250926183454
+206.168.34.211 1 3 530825 20250922131718
+185.177.72.51 9 9 113293 20250912002617
+167.94.145.103 1 3 372914 20250904234051
+64.233.173.135 1 16 264176 20250925172304
+206.168.34.82 1 1 12379 20250909024424
+13.201.64.16 1 1 0 20250921124354
+103.86.192.92 4 44 3983426 20250916023010
+103.187.24.12 0 1 72765 
+152.39.146.173 3 43 3958580 20250918103213
+103.25.250.227 9 57 5964554 20250911183925
+54.174.62.186 1 1 0 20250905013133
+162.142.125.113 1 3 291229 20250921132842
+45.40.254.245 1 1 13059 20250929042343
+167.172.164.210 1 2 350088 20250909195847
+27.147.202.76 4 51 3321420 20250906231323
+172.236.122.62 8 47 3693278 20250924162729
+64.23.234.89 1 2 349951 20250903185342
+185.247.137.25 1 1 13075 20250924165351
+91.231.89.96 5 6 614291 20250928185619
+205.210.31.75 1 2 74928 20250926182943
+203.109.52.250 3 42 3342982 20250918103254
+206.168.34.43 1 3 373576 20250924151537
+198.235.24.244 1 1 37464 20250902140020
+104.131.13.8 1 1 12894 20250908133028
+74.125.218.231 2 40 3900696 20250928150105
+3.90.35.4 1 1 12623 20250915193902
+161.35.188.102 1 1 13353 20250908132706
+122.173.25.8 3 43 3970300 20250922174650
+144.217.135.171 2 2 12595 20250912220205
+195.211.77.142 2 2 26153 20250924151132
+45.88.127.99 1 1 13060 20250926053932
+185.247.137.121 1 1 12580 20250904200406
+91.231.89.101 6 8 1076218 20250928185533
+45.11.56.98 1 1 13091 20250925163814
+44.243.29.134 1 1 12455 20250901184532
+3.146.111.124 1 1 12476 20250905230306
+165.227.69.153 1 1 13717 20250919174902
+159.223.183.73 1 1 13064 20250928053237
+198.235.24.216 1 1 133647 20250902100314
+104.236.33.68 1 1 10568 20250919071652
+167.172.225.145 1 1 13116 20250918173733
+74.125.182.111 4 43 3645944 20250921124034
+44.193.254.10 2 2 25047 20250909082108
+205.143.210.49 4 42 4978243 20250912112806
+104.131.69.233 2 2 29772 20250908134044
+87.236.176.118 0 1 337476 
+143.198.112.230 1 2 350597 20250918131708
+54.211.72.38 1 1 12486 20250905170107
+104.131.186.51 1 1 13274 20250919152921
+66.249.83.129 6 26 454889 20250911183854
+216.81.248.61 1 1 13128 20250925193954
+195.211.77.140 2 2 0 20250924151111
+5.75.224.239 1 1 13063 20250924175214
+138.197.119.178 1 1 10195 20250908131443
+138.197.65.140 1 1 13781 20250908131132
+206.168.34.216 2 4 374454 20250902124345
+45.55.239.134 1 1 13720 20250919162153
+87.236.176.11 0 1 337476 
+169.197.85.173 9 76 6987935 20250907173902
+159.89.39.172 1 1 10559 20250919123209
+66.249.83.103 2 2 2292 20250915233942
+104.164.173.104 2 2 26181 20250925082454
+91.231.89.98 7 9 877895 20250928185826
+104.164.173.89 1 1 13085 20250925081227
+104.164.126.157 3 3 39218 20250925082439
+205.210.31.70 1 1 140201 20250917035558
+202.86.222.149 5 44 5284452 20250908140554
+138.68.75.187 1 1 12733 20250911204429
+74.125.218.232 2 4 285317 20250928150107
+174.138.52.19 1 1 12560 20250908065154
+138.246.253.7 8 8 0 20250926190511
+91.231.89.103 5 10 890197 20250928185425
+128.199.25.98 1 2 350023 20250904120622
+72.14.199.232 2 10 2656958 20250906150753
+146.190.175.203 1 2 350202 20250912082806
+49.14.149.110 3 39 1595137 20250927203119
+167.172.17.123 1 1 10192 20250908131107
+154.28.229.1 2 2 26179 20250925081234
+45.55.62.51 1 1 10581 20250919121218
+185.247.137.16 0 1 337476 
+20.188.105.19 1 1 0 20250918230520
+62.60.131.81 1 1 13123 20250923095045
+165.227.75.206 1 1 10780 20250908134607
+159.89.187.194 1 1 13719 20250919181421
+161.35.141.23 1 1 13719 20250919172354
+159.223.204.80 1 2 350059 20250904124432
+98.88.36.5 1 1 13120 20250919200435
+64.226.70.47 1 2 350596 20250919190242
+46.101.188.31 1 2 350136 20250913193403
+167.94.138.198 1 3 324484 20250923154109
+185.247.137.248 0 1 337476 
+37.111.200.214 2 5 557103 20250901154007
+118.68.5.237 1 1 109928 20250905104308
+91.231.89.18 4 6 521130 20250928190158
+198.235.24.104 1 1 37464 20250906023719
+104.236.59.17 1 1 10563 20250919161812
+52.91.101.170 1 1 12689 20250911175247
+5.133.192.131 1 2 349931 20250902162025
+66.249.64.98 9 9 89943 20250917213210
+43.130.139.177 1 1 14153 20250926144916
+69.4.87.74 3 3 428343 20250926055151
+68.183.151.205 2 2 27700 20250919113628
+192.158.30.31 1 1 13125 20250919033617
+134.122.40.150 1 2 350615 20250918093637
+91.107.205.72 4 44 3983362 20250926195147
+158.62.76.248 1 1 12487 20250906074700
+165.154.254.143 3 3 38496 20250924184034
+206.168.34.119 1 1 12378 20250909144402
+37.111.232.67 6 56 7610675 20250925190315
+205.210.31.40 1 1 133650 20250906043552
+178.156.195.188 1 1 13127 20250923135130
+209.141.35.64 1 1 13060 20250925052929
+159.203.19.100 1 1 12379 20250912143933
+66.249.83.33 1 1 1145 20250915234134
+3.140.182.19 2 2 25440 20250926235954
+162.142.125.217 1 3 324423 20250918142435
+206.189.63.183 1 2 350569 20250926111517
+199.45.154.137 1 2 349931 20250906145839
+134.122.33.103 1 2 350064 20250901202332
+104.232.199.91 3 41 3216814 20250913102516
+43.159.135.203 1 1 13780 20250905153219
+46.101.44.116 1 2 350604 20250918153756
+66.249.89.168 1 12 1076046 20250913220631
+192.178.10.1 1 3 63375 20250903152618
+192.178.10.7 0 1 33584 
+15.204.161.7 6 6 84955 20250927061926
+167.94.145.110 1 3 242018 20250917145319
+54.235.230.34 1 1 13126 20250923205416
+206.168.34.65 1 3 323934 20250910080035
+198.235.24.123 1 1 143561 20250919190946
+50.2.191.154 1 1 12633 20250912083554
+5.133.192.136 1 2 350537 20250927012646
+74.125.212.160 0 2 5023 
+104.252.191.9 2 2 26120 20250925081029
+159.65.250.79 1 1 13063 20250929071305
+91.231.89.23 6 9 999779 20250928190123
+165.232.179.30 1 2 350146 20250914125207
+138.68.86.32 1 1 144797 20250924151056
+162.120.184.52 1 1 13123 20250922174648
+66.249.83.72 6 20 449104 20250918005112
+143.244.47.81 1 1 13129 20250926014856
+157.245.222.223 1 1 16092 20250919161606
+152.53.246.211 1 1 12651 20250914152426
+199.45.155.106 1 3 688013 20250926193840
+198.235.24.90 1 1 141881 20250922195336
+138.197.107.47 1 1 12514 20250908084059
+34.83.77.54 2 49 4749674 20250927191756
+54.235.22.207 1 1 13124 20250921175602
+151.115.56.89 1 1 13058 20250927234020
+91.231.89.20 7 9 1197361 20250928190052
+144.217.135.213 1 1 132761 20250912220113
+162.120.184.8 1 1 13059 20250927203115
+66.249.83.105 1 1 1147 20250915233113
+74.125.212.162 0 1 915 
+103.4.251.106 2 2 26179 20250925073200
+167.94.138.162 1 3 504645 20250919131534
+174.138.69.160 1 1 10578 20250919165538
+45.132.194.57 1 1 13089 20250924160741
+199.45.155.75 1 3 530852 20250923155412
+64.233.173.137 2 9 280171 20250925172304
+23.82.184.209 6 10 82784 20250924010037
+103.16.25.109 2 17 2715365 20250905161852
+91.134.91.17 2 2 26148 20250926073210
+72.14.201.159 1 1 11954 20250912171515
+162.243.184.223 1 1 10281 20250919081602
+68.183.199.239 1 1 12379 20250924071806
+104.236.48.115 1 1 16263 20250908134211
+62.210.122.147 1 1 12683 20250912141500
+54.147.82.78 4 44 3983359 20250925021515
+206.189.4.145 1 2 349944 20250905181518
+104.164.173.175 1 1 13063 20250925073037
+37.111.212.71 7 64 7848892 20250918010540
+45.144.115.204 1 1 10267 20250901223406
+72.14.199.231 3 33 2802187 20250906150752
+18.212.12.67 4 44 3983393 20250925021624
+91.231.89.99 4 9 836468 20250928185653
+185.247.137.100 1 1 12659 20250902125800
+66.249.64.100 1 1 10563 20250917161954
+161.35.182.217 2 2 20138 20250908130316
+103.146.94.8 5 51 4939857 20250901131853
+161.115.239.82 1 1 12705 20250911135658
+4.218.15.184 1 1 0 20250908150914
+34.220.34.85 0 1 21446 
+18.224.192.118 1 1 12384 20250901123056
+205.210.31.105 1 1 131224 20250912144241
+3.224.17.119 8 85 8929981 20250920130252
+199.45.155.101 1 3 688102 20250920152737
+178.128.161.49 1 2 350606 20250927143938
+205.142.33.36 4 43 3645887 20250926175241
+152.39.250.172 3 42 5340812 20250913102512
+37.111.245.163 6 47 151395 20250925172245
+205.210.31.196 0 1 37464 
+31.58.90.25 4 43 4802732 20250914191425
+138.197.22.10 1 1 13350 20250908131933
+69.171.251.3 5 54 6552136 20250920235606
+27.60.98.156 3 46 6019400 20250907152030
+81.17.20.98 2 2 25693 20250919062636
+35.88.225.232 0 1 21446 
+94.247.172.129 1 1 13061 20250926194217
+159.89.188.81 1 1 10515 20250908130152
+77.36.126.155 6 10 82809 20250917040757
+54.174.26.25 4 44 3983389 20250925021551
+74.125.218.233 1 1 13056 20250928150016
+100.25.194.213 1 1 12530 20250907171709
+165.22.31.120 1 2 350595 20250921235415
+66.249.64.99 3 3 21739 20250917205439
+66.249.89.169 0 3 62557 
+91.231.89.100 5 8 692819 20250928185833
+43.130.78.203 1 1 14147 20250921081651
+192.147.66.37 1 1 12742 20250913184816
+163.172.83.95 1 1 12680 20250912130557
+1.54.215.132 2 2 241219 20250905104309
+91.231.89.19 10 14 1502564 20250928185930
+202.86.222.110 2 2 32540 20250909062601
+64.233.173.136 3 12 221633 20250925172304
+159.203.166.173 1 2 350544 20250926003428
+91.231.89.126 1 1 143453 20250926183244
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20250901 17 110 11967394 8
+20250902 31 77 7089028 9
+20250903 101 231 12945712 12
+20250904 82 416 30898484 16
+20250905 37 144 12399165 16
+20250906 20 150 13502602 10
+20250907 101 481 46926147 10
+20250908 26 65 5531694 18
+20250909 54 158 11809893 16
+20250910 121 465 46385419 13
+20250911 32 198 18439208 14
+20250912 21 102 9153324 14
+20250913 24 144 14849258 8
+20250914 8 94 11762097 4
+20250915 162 345 18653512 14
+20250916 66 395 33920395 6
+20250917 103 109 1578270 30
+20250918 160 423 28856970 17
+20250919 33 36 1482341 31
+20250920 61 328 26298831 8
+20250921 259 717 50326548 11
+20250922 16 99 8699568 8
+20250923 90 244 13549086 11
+20250924 44 212 22028454 19
+20250925 193 597 27872138 27
+20250926 36 120 10532753 23
+20250927 83 205 18612164 24
+20250928 52 264 12234216 23
+20250929 5 5 65427 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 328
+30s-2mn 22
+2mn-5mn 18
+1h+ 7
+5mn-15mn 13
+15mn-30mn 10
+30mn-1h 25
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 242
+/ 430 8779004 255 194
+/stock-check 160 24156 0 2
+/load-more-products 93 93364 1 20
+/public/frontEnd/webfonts/fa-brands-400.woff2 86 9072000 4 20
+/public/frontEnd/webfonts/fa-solid-900.woff2 86 12592272 6 11
+/admin/products/generate-slug 64 2763 0 0
+/public/frontEnd/webfonts/fa-regular-400.woff2 60 1490400 2 7
+/customer/order-save-draft 57 2315 0 0
+/admin/login 53 58614 29 15
+/admin/dashboard 45 355558 3 2
+/livesearch 36 9087 0 1
+/shipping-charge 27 36866 0 1
+/customer/checkout 27 374078 3 6
+/admin/products/manage 24 240357 0 2
+/public/backEnd/assets/fonts/feather.woff 20 590000 1 3
+/page/refund-&-return-policy 17 231988 8 10
+/site/contact-us 17 380864 3 6
+/public/backEnd/assets/fonts/cerebrisans-regular.woff 16 657344 0 0
+/public/backEnd/assets/fonts/materialdesignicons-webfont.woff2 16 5203904 0 0
+/public/backEnd/assets/fonts/cerebrisans-medium.woff 16 659648 0 0
+/public/backEnd/assets/fonts/cerebrisans-bold.woff 16 658944 0 0
+/page/terms-&-conditions 15 218856 3 3
+/admin/products/27/edit 15 320533 0 0
+/product/new-stylist-3pic 15 228357 1 1
+/page/privacy-policy 12 169524 6 6
+/admin/products/create 6 66758 0 0
+/subcategory/eyewear 5 383588 2 1
+/subcategory/speaker-microphone 1 10901 0 0
+/subcategory/bath 1 10575 0 0
+/products/bra 2 21121 1 1
+/cart/remove 1 1019 0 0
+/product/y80-smart-watch 8 136080 2 3
+/products/shirt 8 414083 2 2
+/products/bras 1 10563 1 1
+/subcategory/furniture 1 10583 0 0
+/subcategory/salwar-kameez 1 10584 0 0
+/subcategory/bedding 1 10575 0 0
+/mobilecart/count 3 63 1 1
+/products/panjabi 7 403597 1 1
+/products/desktop 1 10563 1 1
+/subcategory/air-buds 3 33091 2 2
+/admin/banner-category/manage 2 14623 0 0
+/products/wallet 4 372613 1 1
+/products/hand-bag 4 372680 1 2
+/subcategory/body-&-massage-oils 1 10608 0 0
+/admin/business-setting 2 15208 0 0
+/products/portable-speaker 1 10192 1 1
+/products/pant 1 10563 1 1
+/product/realme-i12-wireless-headphone 8 129381 3 3
+/debug-products 7 724 1 0
+/admin/banner/manage 3 22913 0 0
+/products/lingerie-sets 1 10565 0 0
+/products/charger 1 10562 0 0
+/admin/order/cancelled 2 21143 0 0
+/subcategory/kitchen-&-dining 1 10598 0 0
+/subcategory/3-piece 1 10578 0 0
+/subcategory/fragrances 1 10584 0 0
+/subcategory/women-bags 1 10586 0 0
+/visitor/reports 2 15032 0 0
+/admin/contact/manage 1 7105 0 0
+/products/t-shirt 8 414141 2 1
+/search 8 91769 5 2
+/admin/size/manage 4 33455 0 0
+/brand/neckband 1 10942 0 0
+/admin/permissions/manage 1 9908 0 0
+/admin/products/20/edit 1 9893 0 0
+/products/t-shirt-and-trouger 4 376257 1 1
+/products/ring 1 10561 0 0
+/subcategory/dairy-&-eggs 1 10597 0 0
+/products/original-brand 4 372861 1 1
+/products/loafer 4 372612 1 1
+/subcategory/cleaning 1 10578 0 0
+/admin/banner/5/edit 2 14142 0 0
+/product/bladeless-neck-cooler-fan 1 16728 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Semibold-webfont.woff 1 22908 0 0
+/keep-alive 6 228 1 3
+/category/gadgets 9 108672 3 2
+/subcategory/shoes 7 403918 1 5
+/admin/order/create 3 24295 0 1
+/products/unstitched 1 10571 1 0
+/customer/order-track/result 6 60198 4 4
+/products/bra+penti-combo 1 10569 0 0
+/customer/order-success/109 1 11349 0 0
+/update-version 2 18726 0 0
+/subcategory/womens-sharee 1 10578 0 0
+/subcategory/innerwear 1 10576 0 0
+/products/keyboard 2 122988 1 1
+/products/party-bag 4 372715 1 1
+/products/air-series 1 10564 0 0
+/products/readymade 1 10570 0 0
+/subcategory/sharee 1 10570 0 0
+/get-update-details 1 242 0 0
+/products/panties 1 10563 0 0
+/admin/childcategories/create 5 37785 0 0
+/subcategory/clothing 7 404007 1 0
+/admin/courierapi/manage 1 8214 0 0
+/subcategory/makeup 1 10577 0 0
+/subcategory/baby-boys-fashion 2 21155 0 0
+/subcategory/fruits,-meat-&-frozen 1 10612 0 0
+/products/tangail 1 10562 1 1
+/admin/coupon-code/manage 4 29269 0 0
+/products/neckband 1 10972 0 0
+/variable-view 1 515 0 0
+/products/hats-&-caps 1 10574 0 0
+/subcategory/mobile-accessories 1 10929 0 0
+/admin/order/on-hold 1 8279 0 0
+/products/earrings 1 10563 0 0
+/products/y-cloth 7 403608 2 0
+/products/smart-watch 4 372768 1 1
+/admin/order/process/16900 1 7493 0 0
+/products/mpod-earbuds 1 10835 1 0
+/subcategory/baby-shoes 2 21155 1 1
+/category/womens-fashion 6 414542 2 1
+/subcategory/cooking 1 10576 0 0
+/run-update 1 90 0 0
+/products/earphone 1 10935 1 0
+/product/5-in-1-mobile-game-combo-pack 4 69438 0 1
+/admin/subcategories/manage 5 48085 0 0
+/product/sharee-and-panjabi-combo-1 3 43748 1 2
+/products/deshi-boutique 5 52074 0 0
+/subcategory/head-phones 1 11378 0 0
+/products/penti 1 10564 0 0
+/webmail 2 26570 1 0
+/products/leather-strap 3 362257 2 1
+/subcategory/haire-care 1 10583 0 0
+/product/xt-02-bluetooth-selfie-stick-with-remote 2 33914 1 1
+/product/t-shirt-trouser-set 4 58434 1 1
+/admin/order/cart-details 2 176 0 0
+/subcategory/accessories 4 373132 0 2
+/products/tablet 1 10561 0 0
+/products/purse 3 250941 0 0
+/subcategory/combo-offer 4 380193 1 1
+/product/regrsi-re-ny060-neckband-200-ghntar-bzatari-laif 5 100156 1 0
+/product/3-in-1-ring-light-tripod-stand 4 68662 1 0
+/admin/users/manage 6 43735 1 0
+/product/sx9-wireless-microphone 5 83333 0 1
+/admin/send-sms 5 38484 0 1
+/admin/childcategories/manage 5 69791 0 0
+/admin/order/incomplete 3 39417 0 0
+/product/neckband-sa-s404-220h 4 64310 1 2
+/customer/order-success/127 1 11715 0 0
+/product/munjerin-kori-borkha 3 46769 0 1
+/register 1 20 1 1
+/products/ties 4 372550 1 1
+/products/adapter 1 10561 1 1
+/products/leather-bag 4 372773 1 1
+/category/shari-and-panjabi-offer 4 42348 1 2
+/products/smart-phone 1 10568 0 0
+/admin/users/2/edit 1 7149 0 0
+/products/powerbank 1 10564 0 0
+/subcategory/women's-t-shirts 1 10585 0 0
+/admin/products/purchase-list 2 16168 0 1
+/subcategory/mens-shoes 1 10579 0 0
+/subcategory/panjabi 1 10572 0 0
+/subcategory/bags 4 372922 0 1
+/products/cotton 1 10563 0 0
+/products/tws-earbuds 1 10570 0 0
+/products/pump-shoes 1 10565 0 1
+/category/mens-fashion 10 444642 1 1
+/ajax-product-subcategory 6 691 0 0
+/admin/coupon-code/create 1 7279 0 0
+/customer/order-track 8 80802 3 3
+/admin/order/search 6 4622 0 0
+/subcategory/man's-care 1 10588 0 0
+/admin/order/all 10 169377 0 0
+/subcategory/jewellery 1 10574 0 0
+/products/jeans 7 403528 0 0
+/subcategory/computer-accessories 1 10968 0 0
+/products/monitor 1 10563 0 0
+/admin/users/create 1 7084 0 0
+/products/formal-shoes 4 372795 0 3
+/product/airpods-4gen-with-anc-vietnam 2 32841 0 0
+/customer/register 3 130984 1 1
+/admin/size/create 3 20445 0 0
+/admin/order/edit/42841 1 8226 0 0
+/products/flats 1 10565 0 0
+/admin/order/invoice/42841 1 7860 0 0
+/products/taant 1 10564 0 0
+/admin/contact/1/edit 1 7007 0 0
+/admin/paymentgeteway/manage 6 46102 0 1
+/subcategory/skin-care 1 10582 0 0
+/admin/order/pending 3 26391 0 0
+/products/metal-chain 3 251073 0 1
+/products/smart-speaker 1 10195 1 1
+/product/soft-georgette-party-dress 3 44466 0 0
+/admin/order/on-the-way 1 8278 0 0
+/products/shirt-pant-combo 1 10568 1 1
+/products/bracelet 1 10567 0 0
+/product/airpods-pro2-non-anc-dubai 12 203703 1 2
+/products/bluetooth-speaker 1 10198 1 0
+/admin/banner-category/4/edit 1 6800 0 0
+/admin/order/processing 3 25750 0 1
+/product/redimed-threepiche 7 103455 2 1
+/subcategory/snacks-&-beverages 1 10602 0 0
+/products/mouse 1 10558 0 1
+/subcategory/herbs,-spices-&-sauces 1 10613 0 0
+/ajax-cart-store 1 70 0 0
+/admin/order/cart-shipping 2 46 0 0
+/products/casual-shoes 4 372799 1 1
+/products/painted-sharee 1 10571 0 0
+/product/a9-pro-anc-wireless-earbuds-touch-display-best-price-bd 6 134477 1 1
+/category/baby-fashion 1 10590 0 0
+/admin/categories/create 1 7094 0 0
+/admin/categories/manage 3 23895 0 0
+/admin/order/process/42841 5 37782 0 0
+/product/g63-smart-table-lamp 2 35653 1 0
+/admin/order/in-courier 8 75540 0 1
+/admin/order/cart-content 2 1160 0 0
+/products/sneakers 4 372671 1 1
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Regular-webfont.woff 1 22660 0 0
+/subcategory/smart-watch 2 21401 1 1
+/product/premium-shirt-combo-set 2 28792 0 0
+/product/skart-t-shirt-set 2 29591 1 1
+/ajax-product-childcategory 11 746 0 0
+/customer/forgot-password 5 51117 3 4
+/brand/apple 1 10619 0 0
+/products/polo-shirt 7 403714 2 0
+/admin/order-status 2 146 0 0
+/products/lawn 1 10563 0 1
+/admin/users/3/edit 3 21711 0 0
+/products/sandals 3 362077 2 2
+/public/backEnd/assets/fonts/fa-solid-900.woff2 9 635552 0 0
+/admin/subcategories/create 4 28896 0 0
+/product/airpods-pro2-3month-vietnam 12 203988 2 3
+/subcategory/watches 4 373015 0 2
+/public/backEnd/assets/libs/summernote/font/summernote.woff2 5 30780 0 0
+/subcategory/baby-toys 2 21159 1 1
+/sitemap.xml 3 4634 0 2
+/customer/login 1 10446 0 0
+/products/eyeglasses 4 372738 2 2
+/products/sunthetic-strap 4 372898 1 0
+/subcategory/personal-care 1 10583 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Bold-webfont.woff 1 22432 0 1
+/admin/order/completed 2 37367 0 0
+/products/necklace 1 10562 0 0
+/cart/count 2 1348 0 0
+/products/heels 1 10563 0 1
+/subcategory/3-pc 1 11006 0 0
+/products/kota 1 10562 0 0
+/products/belt-&-wallet 1 10575 0 0
+/subcategory/baby-girls-fathion 2 21168 0 0
+/admin/fraud-checker 5 4064 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+0-44 812
+2K-5K 2112
+1K-2K 899
+100-500 654
+5K+ 9420
+500-1K 404
+44-100 321
+END_FILESIZE

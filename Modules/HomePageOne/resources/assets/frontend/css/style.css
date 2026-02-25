@@ -1,0 +1,142 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Top Navbar */
+.top-navbar {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: #fd12ad;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.search-bar-main {
+    flex: 1;
+    display: flex ;
+    align-items: center;
+}
+
+.search-bar-main input {
+    border: 2px solid #fd12ad;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    padding: 8px 12px;
+    width: 100%;
+    outline: none;
+}
+
+.search-icon {
+    width: 90px;
+    height: 42px;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 14px;
+    border: 2px solid #fd12ad !important;
+    background: #fd12ad !important;
+    transition: 0.3s;
+}
+.search-icon:hover {
+    background: #e60088 !important;
+    border-color: #e60088 !important;
+}
+
+.icons i {
+    font-size: 22px;
+    margin-left: 15px;
+    color: #fd12ad;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.icons i:hover {
+    color: #e60088;
+}
+
+/* Sidebar */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fd12ad;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding-top: 60px;
+    z-index: 1000;
+}
+.sidebar a {
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar a:hover {
+    background: #ff3399;
+}
+.sidebar .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    color: #fff;
+}
+
+/* Headline */
+.headline {
+    background: #fd12ad;
+    color: #fff;
+    padding: 6px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Banner / Slider */
+.banner img,
+.carousel-item img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+   .section-title {
+        font-size: 28px;
+        font-weight: bold;
+        color: #ff1493; /* Hot pink like screenshot */
+    }
+    .see-all-btn {
+        background: #ff1493;
+        color: #fff;
+        font-size: 14px;
+        padding: 6px 14px;
+        border-radius: 3px;
+        text-decoration: none;
+    }
+    .see-all-btn:hover {
+        background: #e01383;
+        color: #fff;
+    }
+    .category-name {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #333;
+    }
