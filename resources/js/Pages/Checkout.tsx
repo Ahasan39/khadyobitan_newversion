@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Head, Link, router, useForm } from "@inertiajs/react";
 import { ChevronRight, CreditCard, Banknote, Smartphone, Building2, ShieldCheck } from "lucide-react";
 import { useCartStore } from "@/store/cartStore";
 import { toast } from "sonner";
@@ -13,7 +13,7 @@ const districts = [
 
 const Checkout = () => {
   const { t } = useTranslation();
-  const navigate = useNavigate();
+  
   const { items, subtotal, clearCart } = useCartStore();
   const sub = subtotal();
   const [payment, setPayment] = useState("cod");
@@ -42,28 +42,32 @@ const Checkout = () => {
       date: new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" }),
     };
     clearCart();
-    navigate("/order-confirmation", { state: orderData, replace: true });
+    router.visit("/order-confirmation", { state: orderData, replace: true });
   };
 
   if (items.length === 0) {
     return (
+    <>
+      <Head title="Checkout - Khadyobitan" />
       <div className="section-padding text-center">
         <div className="container-custom max-w-md mx-auto">
           <h1 className="font-heading text-2xl font-bold mb-2">{t("checkout.noItems")}</h1>
           <p className="font-body text-sm text-muted-foreground mb-6">{t("checkout.noItemsDesc")}</p>
-          <Link to="/shop" className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-body font-medium text-sm hover:opacity-90 transition-opacity">{t("checkout.goToShop")}</Link>
+          <Link href="/shop" className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-body font-medium text-sm hover:opacity-90 transition-opacity">{t("checkout.goToShop")}</Link>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="section-padding">
+    <>
+      <Head title="Checkout - Khadyobitan" />
+      <div className="section-padding">
       <div className="container-custom max-w-5xl">
         <nav className="flex items-center gap-2 text-sm font-body text-muted-foreground mb-8">
-          <Link to="/" className="hover:text-primary">{t("common.home")}</Link>
+          <Link href="/" className="hover:text-primary">{t("common.home")}</Link>
           <ChevronRight className="h-3 w-3" />
-          <Link to="/cart" className="hover:text-primary">{t("nav.cart")}</Link>
+          <Link href="/cart" className="hover:text-primary">{t("nav.cart")}</Link>
           <ChevronRight className="h-3 w-3" />
           <span className="text-foreground">{t("checkout.title")}</span>
         </nav>
@@ -129,7 +133,7 @@ const Checkout = () => {
               <label className="flex items-start gap-3 cursor-pointer">
                 <input type="checkbox" checked={agreed} onChange={(e) => setAgreed(e.target.checked)} className="mt-0.5 accent-[hsl(var(--primary))]" />
                 <span className="font-body text-sm text-muted-foreground">
-                  {t("checkout.agreeTerms")} <Link to="/terms" className="text-primary underline">{t("checkout.termsConditions")}</Link> {t("checkout.and")} <Link to="/privacy" className="text-primary underline">{t("checkout.privacyPolicy")}</Link>.
+                  {t("checkout.agreeTerms")} <Link href="/terms" className="text-primary underline">{t("checkout.termsConditions")}</Link> {t("checkout.and")} <Link href="/privacy" className="text-primary underline">{t("checkout.privacyPolicy")}</Link>.
                 </span>
               </label>
               <button disabled={!canPlaceOrder} onClick={handlePlaceOrder} className="mt-5 w-full py-4 bg-primary text-primary-foreground rounded-lg font-body font-semibold text-base flex items-center justify-center gap-2 hover:opacity-90 transition-opacity disabled:opacity-50 disabled:cursor-not-allowed">
@@ -170,7 +174,8 @@ const Checkout = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
-
 export default Checkout;
+

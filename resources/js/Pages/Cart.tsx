@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Head, Link } from "@inertiajs/react";
 import { motion } from "framer-motion";
 import { Minus, Plus, X, ShoppingCart, ArrowRight, Truck, Shield, RotateCcw, Tag } from "lucide-react";
 import { useCartStore } from "@/store/cartStore";
@@ -42,12 +42,14 @@ const Cart = () => {
 
   if (items.length === 0) {
     return (
+    <>
+      <Head title="Shopping Cart - Khadyobitan" />
       <div className="section-padding text-center">
         <div className="container-custom max-w-md mx-auto">
           <ShoppingCart className="h-16 w-16 text-muted-foreground mx-auto mb-4" />
           <h1 className="font-heading text-2xl font-bold mb-2">{t("cart.emptyTitle")}</h1>
           <p className="font-body text-sm text-muted-foreground mb-6">{t("cart.emptyDesc")}</p>
-          <Link to="/shop" className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-body font-medium text-sm hover:opacity-90 transition-opacity">
+          <Link href="/shop" className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-body font-medium text-sm hover:opacity-90 transition-opacity">
             {t("cart.continueShopping")} <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
@@ -56,7 +58,9 @@ const Cart = () => {
   }
 
   return (
-    <div className="section-padding">
+    <>
+      <Head title="Shopping Cart - Khadyobitan" />
+      <div className="section-padding">
       <div className="container-custom">
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
           <h1 className="font-heading text-3xl font-bold mb-8">{t("cart.shoppingCart")}</h1>
@@ -70,7 +74,7 @@ const Cart = () => {
                   <div className="flex-1 min-w-0">
                     <div className="flex items-start justify-between">
                       <div>
-                        <Link to={`/product/${item.product.slug}`} className="font-heading text-sm font-semibold hover:text-primary transition-colors line-clamp-1">{item.product.name}</Link>
+                        <Link href={`/product/${item.product.slug}`} className="font-heading text-sm font-semibold hover:text-primary transition-colors line-clamp-1">{item.product.name}</Link>
                         <p className="font-body text-xs text-muted-foreground">{item.selectedWeight}</p>
                       </div>
                       <button onClick={() => removeItem(item.product.id)} className="p-1 text-muted-foreground hover:text-destructive transition-colors" aria-label="Remove"><X className="h-4 w-4" /></button>
@@ -123,10 +127,10 @@ const Cart = () => {
                   )}
                 </div>
 
-                <Link to="/checkout" className="w-full mt-6 py-3 bg-primary text-primary-foreground rounded-lg font-body font-medium text-sm flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
+                <Link href="/checkout" className="w-full mt-6 py-3 bg-primary text-primary-foreground rounded-lg font-body font-medium text-sm flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
                   {t("cart.proceedToCheckout")} <ArrowRight className="h-4 w-4" />
                 </Link>
-                <Link to="/shop" className="block text-center mt-3 font-body text-sm text-primary hover:underline">{t("cart.continueShopping")}</Link>
+                <Link href="/shop" className="block text-center mt-3 font-body text-sm text-primary hover:underline">{t("cart.continueShopping")}</Link>
 
                 <div className="mt-6 pt-4 border-t border-border space-y-2">
                   {[
@@ -152,7 +156,8 @@ const Cart = () => {
         )}
       </div>
     </div>
+    </>
   );
 };
-
 export default Cart;
+
