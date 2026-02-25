@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams, Link, useNavigate } from "react-router-dom";
+import { Head, Link, router } from "@inertiajs/react";
 import { motion } from "framer-motion";
 import {
   Star, Heart, ShoppingCart, Check, Minus, Plus, ChevronRight, Truck, Shield,
@@ -13,11 +13,15 @@ import ReviewsTab from "@/components/ReviewsTab";
 import { toast } from "sonner";
 import { useTranslation } from "react-i18next";
 
-const ProductDetail = () => {
+interface ProductDetailProps {
+  product?: any;
+  relatedProducts?: any[];
+  recentlyViewed?: any[];
+}
+
+const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed: serverRecentlyViewed }: ProductDetailProps) => {
   const { t } = useTranslation();
-  const { slug } = useParams();
-  const navigate = useNavigate();
-  const product = products.find((p) => p.slug === slug);
+  const product = serverProduct || products.find((p) => p.slug === window.location.pathname.split('/').pop());
   const [selectedWeight, setSelectedWeight] = useState(product?.weight || "");
   const [quantity, setQuantity] = useState(1);
   const [activeTab, setActiveTab] = useState("Description");
@@ -42,20 +46,21 @@ const ProductDetail = () => {
   }, [t]);
 
   const recentlyViewedIds: number[] = JSON.parse(localStorage.getItem("recentlyViewed") || "[]");
-  const recentlyViewed = products.filter((p) => recentlyViewedIds.includes(p.id) && p.slug !== slug).slice(0, 4);
+
 
   if (!product) {
     return (
       <div className="section-padding text-center">
         <p className="font-heading text-2xl">{t("product.notFound")}</p>
-        <Link to="/shop" className="font-body text-primary hover:underline mt-2 inline-block">{t("product.backToShop")}</Link>
+        <Link href="/shop" className="font-body text-primary hover:underline mt-2 inline-block">{t("product.backToShop")}</Link>
       </div>
     );
   }
 
   const isWished = wishlist.includes(product.id);
   const discount = product.oldPrice ? Math.round(((product.oldPrice - product.price) / product.oldPrice) * 100) : 0;
-  const related = products.filter((p) => p.category === product.category && p.id !== product.id).slice(0, 4);
+  const related = relatedProducts || products.filter((p) => p.category === product.category && p.id !== product.id).slice(0, 4);
+  const recentlyViewed = serverRecentlyViewed || products.filter((p) => recentlyViewedIds.includes(p.id) && p.slug !== product?.slug).slice(0, 4);
 
   const handleAddToCart = () => {
     addItem(product, selectedWeight, quantity);
@@ -64,20 +69,22 @@ const ProductDetail = () => {
 
   const handleBuyNow = () => {
     addItem(product, selectedWeight, quantity);
-    navigate("/checkout");
+    router.visit("/checkout");
   };
 
   return (
-    <div className="bg-background min-h-screen">
+    <>
+      <Head title={`${product?.name || "Product"} - Khadyobitan`} />
+      <div className="bg-background min-h-screen">
       {/* Breadcrumb */}
       <div className="border-b border-border/50 bg-muted/30">
         <div className="container-custom py-3">
           <nav className="flex items-center gap-1.5 text-xs font-body text-muted-foreground">
-            <Link to="/" className="hover:text-primary transition-colors">{t("common.home")}</Link>
+            <Link href="/" className="hover:text-primary transition-colors">{t("common.home")}</Link>
             <ChevronRight className="h-3 w-3" />
-            <Link to="/shop" className="hover:text-primary transition-colors">{t("nav.shop")}</Link>
+            <Link href="/shop" className="hover:text-primary transition-colors">{t("nav.shop")}</Link>
             <ChevronRight className="h-3 w-3" />
-            <Link to={`/shop?category=${product.category.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "")}`} className="hover:text-primary transition-colors">{product.category}</Link>
+            <Link href={`/shop?category=${product.category.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "")}`} className="hover:text-primary transition-colors">{product.category}</Link>
             <ChevronRight className="h-3 w-3" />
             <span className="text-foreground font-medium">{product.name}</span>
           </nav>
@@ -259,7 +266,9 @@ const ProductDetail = () => {
         )}
       </div>
     </div>
+    </>
   );
 };
 
 export default ProductDetail;
+
