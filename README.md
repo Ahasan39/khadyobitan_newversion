@@ -11,6 +11,7 @@ A comprehensive, feature-rich Laravel-based e-commerce backend application with 
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
+- [Frontend Integration](#-frontend-integration)
 - [Key Features](#-key-features)
 - [Technology Stack](#-technology-stack)
 - [System Requirements](#-system-requirements)
@@ -36,6 +37,7 @@ This is a production-ready Laravel e-commerce backend application designed to po
 ### What Makes This Special?
 
 - **Modular Architecture**: Built with Laravel Modules for scalability
+- **React Frontend Included**: Modern React + TypeScript + Tailwind CSS frontend ready to integrate
 - **Feature Toggle System**: Enable/disable features without code changes
 - **Advanced Order Management**: Including incomplete order tracking
 - **Multi-Payment Gateway**: Support for multiple payment methods
@@ -45,6 +47,107 @@ This is a production-ready Laravel e-commerce backend application designed to po
 - **JWT Authentication**: Secure API authentication for customers
 - **Role-Based Access**: Spatie permissions for admin users
 - **Optimized Performance**: Caching, eager loading, and database optimization
+
+---
+
+## 🎨 Frontend Integration
+
+This project includes a complete **React + TypeScript + Tailwind CSS** frontend application (`khadyobitan_frontend`) that can be integrated **without using API calls**.
+
+### 🌿 Khadyobitan Frontend
+
+A premium organic & natural food e-commerce storefront built as a modern single-page application.
+
+**Tech Stack:**
+- React 18 + TypeScript
+- Vite (Build Tool)
+- Tailwind CSS + shadcn/ui
+- Framer Motion (Animations)
+- Zustand (State Management)
+- i18next (Bilingual: English & Bangla)
+
+**Key Features:**
+- ✅ Fully responsive design
+- ✅ Bilingual UI (English & বাংলা)
+- ✅ Product catalog with filters
+- ✅ Shopping cart & wishlist
+- ✅ Order tracking
+- ✅ Blog system
+- ✅ WhatsApp integration
+- ✅ Dark mode support
+
+### 🔗 Integration Options
+
+#### **Option 1: Inertia.js (Recommended - No API)**
+
+Integrate React directly with Laravel using Inertia.js - data flows from controllers to React components without API calls.
+
+```bash
+# Quick setup
+SETUP_FRONTEND_INTEGRATION.bat
+```
+
+**Benefits:**
+- ✅ No API calls needed
+- ✅ Direct data passing from Laravel controllers
+- ✅ Laravel sessions & auth work seamlessly
+- ✅ Better SEO (server-rendered)
+- ✅ Faster development
+
+**Documentation:**
+- [FRONTEND_INTEGRATION_SUMMARY.md](FRONTEND_INTEGRATION_SUMMARY.md) - Overview
+- [QUICK_INTEGRATION_GUIDE.md](QUICK_INTEGRATION_GUIDE.md) - Quick start
+- [FRONTEND_INTEGRATION_GUIDE.md](FRONTEND_INTEGRATION_GUIDE.md) - Complete guide
+
+#### **Option 2: API-Based (Traditional SPA)**
+
+Use the React frontend as a separate application communicating via REST API.
+
+**Documentation:**
+- [API_DOCUMENTATION.md](API_DOCUMENTATION.md) - Full API reference
+- [FRONTEND_DEVELOPER_API_GUIDE.md](FRONTEND_DEVELOPER_API_GUIDE.md) - API integration guide
+
+### 📁 Frontend Location
+
+```
+main_project_backend-main/
+└── khadyobitan_frontend/     # Complete React frontend
+    ├── src/
+    │   ├── components/       # UI components
+    │   ├── pages/           # Page components
+    │   ├── hooks/           # Custom hooks
+    │   ├���─ store/           # Zustand store
+    │   └── i18n/            # Translations
+    ├── package.json
+    └── README.md            # Frontend documentation
+```
+
+### 🚀 Quick Start (Frontend Only)
+
+```bash
+# Navigate to frontend
+cd khadyobitan_frontend
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Access at http://localhost:8080
+```
+
+### 🔄 Integration Flow
+
+**With Inertia.js (No API):**
+```
+Browser → Laravel Route → Controller → Inertia::render() → React Component
+```
+
+**With API:**
+```
+React Frontend (Port 8080) → API Calls → Laravel Backend (Port 8000)
+```
 
 ---
 
@@ -883,15 +986,22 @@ php artisan migrate:fresh --seed
 
 ## 📚 Additional Documentation
 
+### Backend Documentation
 - [API_DOCUMENTATION.md](API_DOCUMENTATION.md) - Complete API reference
 - [API_QUICK_REFERENCE.md](API_QUICK_REFERENCE.md) - Quick API guide
-- [FRONTEND_DEVELOPER_API_GUIDE.md](FRONTEND_DEVELOPER_API_GUIDE.md) - Frontend integration
 - [HOW_TO_RUN.md](HOW_TO_RUN.md) - Quick start guide
 - [PROJECT_ANALYSIS.md](PROJECT_ANALYSIS.md) - Project structure analysis
 - [PATHAO_INTEGRATION_README.md](PATHAO_INTEGRATION_README.md) - Courier integration
 - [PERFORMANCE_AUDIT_REPORT.md](PERFORMANCE_AUDIT_REPORT.md) - Performance optimization
 - [DEVELOPER_NOTES.md](DEVELOPER_NOTES.md) - Development notes
 - [COLLABORATION.md](COLLABORATION.md) - Team collaboration guide
+
+### Frontend Integration Documentation
+- [FRONTEND_INTEGRATION_SUMMARY.md](FRONTEND_INTEGRATION_SUMMARY.md) - Integration overview
+- [QUICK_INTEGRATION_GUIDE.md](QUICK_INTEGRATION_GUIDE.md) - Quick integration steps
+- [FRONTEND_INTEGRATION_GUIDE.md](FRONTEND_INTEGRATION_GUIDE.md) - Complete integration guide
+- [FRONTEND_DEVELOPER_API_GUIDE.md](FRONTEND_DEVELOPER_API_GUIDE.md) - API-based integration
+- [khadyobitan_frontend/README.md](khadyobitan_frontend/README.md) - Frontend documentation
 
 ---
 
@@ -973,6 +1083,8 @@ This project is maintained by a dedicated team of developers. For questions or s
 
 ## 🔄 Recent Updates
 
+- ✅ **React Frontend Integration** - Complete React + TypeScript frontend with Inertia.js support
+- ✅ **Frontend Integration Guides** - Comprehensive documentation for both API and non-API integration
 - ✅ Feature toggle system implemented
 - ✅ Incomplete orders API added
 - ✅ Theme color management
@@ -981,6 +1093,7 @@ This project is maintained by a dedicated team of developers. For questions or s
 - ✅ Enhanced API documentation
 - ✅ Event-driven architecture
 - ✅ Webhook support
+- ✅ Bilingual support (English & Bangla)
 
 ---
 
@@ -1001,8 +1114,22 @@ This project is maintained by a dedicated team of developers. For questions or s
 
 ---
 
-**Built with ❤️ using Laravel**
+**Built with ❤️ using Laravel + React**
 
-For detailed setup instructions, see [HOW_TO_RUN.md](HOW_TO_RUN.md)
+### 📖 Quick Links
 
-For API integration, see [FRONTEND_DEVELOPER_API_GUIDE.md](FRONTEND_DEVELOPER_API_GUIDE.md)
+**Backend:**
+- Setup: [HOW_TO_RUN.md](HOW_TO_RUN.md)
+- API: [API_DOCUMENTATION.md](API_DOCUMENTATION.md)
+
+**Frontend:**
+- Integration: [FRONTEND_INTEGRATION_SUMMARY.md](FRONTEND_INTEGRATION_SUMMARY.md)
+- Quick Start: [QUICK_INTEGRATION_GUIDE.md](QUICK_INTEGRATION_GUIDE.md)
+- Frontend Docs: [khadyobitan_frontend/README.md](khadyobitan_frontend/README.md)
+
+### 👨‍💻 Author
+
+**Ahasan39**
+- Portfolio: [https://ahasan39.github.io/](https://ahasan39.github.io/)
+- GitHub: [@Ahasan39](https://github.com/Ahasan39)
+- Email: imamul190071@gmail.com
