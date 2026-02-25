@@ -43,7 +43,7 @@ const OrderConfirmation = () => {
     bank: t("checkout.bank"),
   };
 
-  if (!order) return <Navigate to="/" replace />;
+  if (!order) return <Navigate href="/" replace />;
 
   const handlePrint = () => window.print();
 
@@ -147,7 +147,9 @@ const OrderConfirmation = () => {
   };
 
   return (
-    <div className="section-padding">
+    <>
+      <Head title="Order Confirmation - Khadyobitan" />
+      <div className="section-padding">
       <div className="container-custom max-w-3xl">
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4">
@@ -219,22 +221,23 @@ const OrderConfirmation = () => {
           <button onClick={handlePrint} className="flex-1 flex items-center justify-center gap-2 px-5 py-3 border border-border rounded-lg font-body font-medium text-sm hover:bg-muted transition-colors">
             <Printer className="h-4 w-4" /> {t("orderConfirmation.printInvoice")}
           </button>
-          <Link to="/track-order" className="flex-1 flex items-center justify-center gap-2 px-5 py-3 border border-border rounded-lg font-body font-medium text-sm hover:bg-muted transition-colors">
+          <Link href="/track-order" className="flex-1 flex items-center justify-center gap-2 px-5 py-3 border border-border rounded-lg font-body font-medium text-sm hover:bg-muted transition-colors">
             <Package className="h-4 w-4" /> {t("orderConfirmation.trackOrder")}
           </Link>
         </div>
 
         <div className="mt-4 flex flex-col sm:flex-row gap-3 print:hidden">
-          <Link to="/shop" className="flex-1 flex items-center justify-center gap-2 px-5 py-3 border border-border rounded-lg font-body font-medium text-sm hover:bg-muted transition-colors">
+          <Link href="/shop" className="flex-1 flex items-center justify-center gap-2 px-5 py-3 border border-border rounded-lg font-body font-medium text-sm hover:bg-muted transition-colors">
             <ShoppingBag className="h-4 w-4" /> {t("orderConfirmation.continueShopping")}
           </Link>
-          <Link to="/" className="flex-1 flex items-center justify-center gap-2 px-5 py-3 border border-border rounded-lg font-body font-medium text-sm hover:bg-muted transition-colors">
+          <Link href="/" className="flex-1 flex items-center justify-center gap-2 px-5 py-3 border border-border rounded-lg font-body font-medium text-sm hover:bg-muted transition-colors">
             <Home className="h-4 w-4" /> {t("orderConfirmation.goHome")}
           </Link>
         </div>
       </div>
     </div>
+    </>
   );
 };
-
 export default OrderConfirmation;
+

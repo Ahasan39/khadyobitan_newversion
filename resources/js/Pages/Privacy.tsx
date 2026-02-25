@@ -5,7 +5,9 @@ const Privacy = () => {
   const { t } = useTranslation();
 
   return (
-    <div>
+    <>
+      <Head title="Privacy Policy - Khadyobitan" />
+      <div>
       <section className="bg-gradient-earthy text-primary-foreground section-padding">
         <div className="container-custom text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
@@ -36,7 +38,8 @@ const Privacy = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
-
 export default Privacy;
+

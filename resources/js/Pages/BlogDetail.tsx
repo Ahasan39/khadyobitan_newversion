@@ -11,9 +11,11 @@ const BlogDetail = () => {
 
   if (!post) {
     return (
+    <>
+      <Head title="Blog - Khadyobitan" />
       <div className="min-h-[60vh] flex flex-col items-center justify-center">
         <h1 className="font-heading text-3xl font-bold text-foreground mb-4">{t("blog.postNotFound")}</h1>
-        <Link to="/blog" className="text-primary font-body hover:underline inline-flex items-center gap-1">
+        <Link href="/blog" className="text-primary font-body hover:underline inline-flex items-center gap-1">
           <ArrowLeft className="h-4 w-4" /> {t("blog.backToBlog")}
         </Link>
       </div>
@@ -77,13 +79,15 @@ const BlogDetail = () => {
   };
 
   return (
-    <div>
+    <>
+      <Head title="Blog - Khadyobitan" />
+      <div>
       <div className="relative h-64 sm:h-80 md:h-96 overflow-hidden">
         <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 via-foreground/30 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-10">
           <div className="container-custom">
-            <Link to="/blog" className="inline-flex items-center gap-1 text-primary-foreground/80 font-body text-sm mb-3 hover:text-primary-foreground transition-colors">
+            <Link href="/blog" className="inline-flex items-center gap-1 text-primary-foreground/80 font-body text-sm mb-3 hover:text-primary-foreground transition-colors">
               <ArrowLeft className="h-4 w-4" /> {t("blog.backToBlog")}
             </Link>
             <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="font-heading text-2xl sm:text-3xl md:text-4xl font-bold text-primary-foreground max-w-3xl">
@@ -111,7 +115,7 @@ const BlogDetail = () => {
           <h2 className="font-heading text-2xl font-bold text-foreground mb-6">{t("blog.youMayAlsoLike")}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {relatedPosts.map((rp) => (
-              <Link key={rp.id} to={`/blog/${rp.slug}`} className="bg-card border border-border rounded-xl overflow-hidden hover:shadow-md transition-shadow group">
+              <Link key={rp.id} href={`/blog/${rp.slug}`} className="bg-card border border-border rounded-xl overflow-hidden hover:shadow-md transition-shadow group">
                 <div className="aspect-video overflow-hidden">
                   <img src={rp.image} alt={rp.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                 </div>
@@ -126,7 +130,8 @@ const BlogDetail = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
-
 export default BlogDetail;
+

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import { Head, Link } from "@inertiajs/react";
 import { ChevronRight } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { useTranslation } from "react-i18next";
@@ -38,11 +38,13 @@ const FAQ = () => {
   ];
 
   return (
-    <div>
+    <>
+      <Head title="FAQ - Khadyobitan" />
+      <div>
       <section className="section-padding bg-gradient-earthy text-primary-foreground">
         <div className="container-custom">
           <nav className="flex items-center gap-2 text-sm font-body text-primary-foreground/60 mb-8">
-            <Link to="/" className="hover:text-primary-foreground">{t("common.home")}</Link>
+            <Link href="/" className="hover:text-primary-foreground">{t("common.home")}</Link>
             <ChevronRight className="h-3 w-3" />
             <span>FAQ</span>
           </nav>
@@ -83,14 +85,15 @@ const FAQ = () => {
           <div className="bg-muted rounded-2xl p-8 text-center mt-12">
             <h3 className="font-heading text-xl font-bold mb-2">{t("faq.stillHaveQuestions")}</h3>
             <p className="font-body text-sm text-muted-foreground mb-4">{t("faq.supportTeam")}</p>
-            <Link to="/contact" className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-body font-medium text-sm hover:opacity-90 transition-opacity">
+            <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-body font-medium text-sm hover:opacity-90 transition-opacity">
               {t("faq.contactUs")}
             </Link>
           </div>
         </div>
       </section>
     </div>
+    </>
   );
 };
-
 export default FAQ;
+

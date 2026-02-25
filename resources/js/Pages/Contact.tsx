@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import { Head, Link } from "@inertiajs/react";
 import { Phone, Mail, MapPin, Clock, ChevronRight, Send } from "lucide-react";
 import { toast } from "sonner";
 import { useTranslation } from "react-i18next";
@@ -25,11 +25,13 @@ const Contact = () => {
   };
 
   return (
-    <div>
+    <>
+      <Head title="Contact Us - Khadyobitan" />
+      <div>
       <section className="section-padding bg-gradient-earthy text-primary-foreground">
         <div className="container-custom">
           <nav className="flex items-center gap-2 text-sm font-body text-primary-foreground/60 mb-8">
-            <Link to="/" className="hover:text-primary-foreground">{t("common.home")}</Link>
+            <Link href="/" className="hover:text-primary-foreground">{t("common.home")}</Link>
             <ChevronRight className="h-3 w-3" />
             <span>{t("nav.contact")}</span>
           </nav>
@@ -94,7 +96,8 @@ const Contact = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
-
 export default Contact;
+

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Head, Link } from "@inertiajs/react";
 import { motion } from "framer-motion";
 import { Leaf, Eye, EyeOff, Mail, Lock, User, Phone } from "lucide-react";
 import { useTranslation } from "react-i18next";
@@ -10,10 +10,12 @@ const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
-    <div className="min-h-[80vh] flex items-center justify-center section-padding bg-muted">
+    <>
+      <Head title="Login - Khadyobitan" />
+      <div className="min-h-[80vh] flex items-center justify-center section-padding bg-muted">
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="w-full max-w-md">
         <div className="text-center mb-8">
-          <Link to="/" className="inline-flex items-center gap-2 mb-4">
+          <Link href="/" className="inline-flex items-center gap-2 mb-4">
             <Leaf className="h-8 w-8 text-primary" />
             <span className="font-heading text-2xl font-bold text-foreground">Khadyobitan</span>
           </Link>
@@ -105,7 +107,8 @@ const Login = () => {
         </div>
       </motion.div>
     </div>
+    </>
   );
 };
-
 export default Login;
+

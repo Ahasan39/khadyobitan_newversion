@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import { Head, Link } from "@inertiajs/react";
 import { Leaf, Heart, Shield, Users, Globe, Award, ArrowRight, ChevronRight } from "lucide-react";
 import aboutMission from "@/assets/about-mission.jpg";
 import aboutFarm from "@/assets/about-farm.jpg";
@@ -33,7 +33,9 @@ const About = () => {
   ];
 
   return (
-    <div>
+    <>
+      <Head title="About Us - Khadyobitan" />
+      <div>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
           <img src={aboutFarm} alt="Organic farmland" className="w-full h-full object-cover" />
@@ -41,7 +43,7 @@ const About = () => {
         </div>
         <div className="relative container-custom py-20 sm:py-28">
           <nav className="flex items-center gap-2 text-sm font-body text-primary-foreground/60 mb-8">
-            <Link to="/" className="hover:text-primary-foreground transition-colors">{t("common.home")}</Link>
+            <Link href="/" className="hover:text-primary-foreground transition-colors">{t("common.home")}</Link>
             <ChevronRight className="h-3 w-3" />
             <span className="text-primary-foreground/80">{t("footer.aboutUs")}</span>
           </nav>
@@ -74,7 +76,7 @@ const About = () => {
               <h2 className="font-heading text-3xl font-bold text-foreground mb-4">{t("about.missionTitle")}</h2>
               <p className="font-body text-sm text-muted-foreground leading-relaxed mb-4">{t("about.missionDesc1")}</p>
               <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6">{t("about.missionDesc2")}</p>
-              <Link to="/shop" className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-body font-medium text-sm hover:opacity-90 transition-opacity">
+              <Link href="/shop" className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-body font-medium text-sm hover:opacity-90 transition-opacity">
                 {t("about.exploreProducts")} <ArrowRight className="h-4 w-4" />
               </Link>
             </motion.div>
@@ -138,14 +140,15 @@ const About = () => {
           <motion.div initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
             <h2 className="font-heading text-3xl font-bold text-primary-foreground mb-3">{t("about.readyToGoOrganic")}</h2>
             <p className="font-body text-sm text-primary-foreground/70 mb-6">{t("about.readyCta")}</p>
-            <Link to="/shop" className="inline-flex items-center gap-2 px-8 py-3 bg-primary text-primary-foreground rounded-lg font-body font-medium text-sm hover:shadow-lg hover:shadow-primary/25 transition-all">
+            <Link href="/shop" className="inline-flex items-center gap-2 px-8 py-3 bg-primary text-primary-foreground rounded-lg font-body font-medium text-sm hover:shadow-lg hover:shadow-primary/25 transition-all">
               {t("about.shopNow")} <ArrowRight className="h-4 w-4" />
             </Link>
           </motion.div>
         </div>
       </section>
     </div>
+    </>
   );
 };
-
 export default About;
+

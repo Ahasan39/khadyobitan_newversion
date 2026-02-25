@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Head, Link } from "@inertiajs/react";
 import { motion } from "framer-motion";
 import { Clock, ChefHat, ArrowRight, Leaf } from "lucide-react";
 import { blogPosts } from "@/data/blogPosts";
@@ -14,7 +14,9 @@ const Blog = () => {
   const { t } = useTranslation();
 
   return (
-    <div>
+    <>
+      <Head title="Blog - Khadyobitan" />
+      <div>
       <section className="bg-gradient-earthy text-primary-foreground section-padding">
         <div className="container-custom text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
@@ -62,7 +64,7 @@ const Blog = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {blogPosts.map((post, i) => (
               <motion.article key={post.id} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.08 }} className="bg-card border border-border rounded-xl overflow-hidden hover:shadow-md transition-shadow group">
-                <Link to={`/blog/${post.slug}`}>
+                <Link href={`/blog/${post.slug}`}>
                   <div className="aspect-video bg-muted overflow-hidden">
                     <img src={post.image} alt={post.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                   </div>
@@ -73,12 +75,12 @@ const Blog = () => {
                     <span className="text-xs text-muted-foreground font-body">{post.readTime}</span>
                   </div>
                   <h3 className="font-heading text-base font-semibold text-foreground mb-2 line-clamp-2 group-hover:text-primary transition-colors">
-                    <Link to={`/blog/${post.slug}`}>{post.title}</Link>
+                    <Link href={`/blog/${post.slug}`}>{post.title}</Link>
                   </h3>
                   <p className="font-body text-sm text-muted-foreground line-clamp-2 mb-3">{post.excerpt}</p>
                   <div className="flex items-center justify-between">
                     <span className="text-xs text-muted-foreground font-body">{post.date}</span>
-                    <Link to={`/blog/${post.slug}`} className="inline-flex items-center gap-1 text-primary text-sm font-body font-medium group-hover:underline">
+                    <Link href={`/blog/${post.slug}`} className="inline-flex items-center gap-1 text-primary text-sm font-body font-medium group-hover:underline">
                       {t("blog.read")} <ArrowRight className="h-3 w-3" />
                     </Link>
                   </div>
@@ -89,7 +91,8 @@ const Blog = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
-
 export default Blog;
+

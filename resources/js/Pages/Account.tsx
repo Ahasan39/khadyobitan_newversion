@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Head, Link } from "@inertiajs/react";
 import { motion } from "framer-motion";
 import { User, Package, Heart, MapPin, Settings, LogOut, ChevronRight, Star } from "lucide-react";
 import { useTranslation } from "react-i18next";
@@ -28,7 +28,9 @@ const Account = () => {
   ];
 
   return (
-    <div className="section-padding bg-muted min-h-[80vh]">
+    <>
+      <Head title="My Account - Khadyobitan" />
+      <div className="section-padding bg-muted min-h-[80vh]">
       <div className="container-custom">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
           <h1 className="font-heading text-3xl font-bold text-foreground mb-8">{t("account.myAccount")}</h1>
@@ -46,7 +48,7 @@ const Account = () => {
                     <tab.icon className="h-4 w-4" />{tab.label}
                   </button>
                 ))}
-                <Link to="/login" className="w-full flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm font-body font-medium text-destructive hover:bg-destructive/10 transition-colors">
+                <Link href="/login" className="w-full flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm font-body font-medium text-destructive hover:bg-destructive/10 transition-colors">
                   <LogOut className="h-4 w-4" />{t("account.signOut")}
                 </Link>
               </nav>
@@ -166,7 +168,8 @@ const Account = () => {
         </motion.div>
       </div>
     </div>
+    </>
   );
 };
-
 export default Account;
+

@@ -38,7 +38,9 @@ const OrderTracking = () => {
   const handleSearch = (e: React.FormEvent) => { e.preventDefault(); setSearched(true); };
 
   return (
-    <div className="min-h-[70vh] bg-muted/30">
+    <>
+      <Head title="Track Order - Khadyobitan" />
+      <div className="min-h-[70vh] bg-muted/30">
       <div className="bg-primary/5 py-12 lg:py-16">
         <div className="container-custom text-center">
           <Truck className="h-10 w-10 text-primary mx-auto mb-4" />
@@ -81,7 +83,9 @@ const OrderTracking = () => {
                 const Icon = stepIcons[i];
                 const isLast = i === order.steps.length - 1;
                 return (
-                  <div key={step.label} className="flex gap-4">
+    <>
+      <Head title="Track Order - Khadyobitan" />
+      <div key={step.label} className="flex gap-4">
                     <div className="flex flex-col items-center">
                       <div className={`h-8 w-8 rounded-full flex items-center justify-center shrink-0 ${step.done ? "bg-primary text-primary-foreground" : "bg-muted text-muted-foreground"}`}>
                         <Icon className="h-4 w-4" />
@@ -100,7 +104,8 @@ const OrderTracking = () => {
         )}
       </div>
     </div>
+    </>
   );
 };
-
 export default OrderTracking;
+
