@@ -1,4 +1,5 @@
 import { useState, useMemo } from "react";
+import { Head } from "@inertiajs/react";
 import { motion } from "framer-motion";
 import { SlidersHorizontal, X, ChevronDown } from "lucide-react";
 import ProductCard from "@/components/ProductCard";
@@ -8,12 +9,30 @@ import { useTranslation } from "react-i18next";
 const weightFilters = ["100g", "250g", "500g", "1kg", "2kg"];
 const certFilters = ["Organic", "Non-GMO", "Gluten-Free", "Lab Tested", "Cold-Pressed"];
 
-const Shop = () => {
+interface ShopProps {
+  products?: any[];
+  categories?: any[];
+  filters?: {
+    category?: string;
+    minPrice?: number;
+    maxPrice?: number;
+    sort?: string;
+  };
+}
+
+const Shop = ({ products: serverProducts, categories: serverCategories, filters }: ShopProps) => {
   const { t } = useTranslation();
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
-  const [sortBy, setSortBy] = useState("featured");
+  
+  // Use server data if available, otherwise fall back to static data
+  const displayProducts = serverProducts || products;
+  const displayCategories = serverCategories || categories;
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(filters?.category || null);
+  const [sortBy, setSortBy] = useState(filters?.sort || "featured");
   const [showFilters, setShowFilters] = useState(false);
-  const [priceRange, setPriceRange] = useState<[number, number]>([0, 2000]);
+  const [priceRange, setPriceRange] = useState<[number, number]>([
+    filters?.minPrice || 0,
+    filters?.maxPrice || 2000
+  ]);
   const [selectedWeights, setSelectedWeights] = useState<string[]>([]);
   const [selectedCerts, setSelectedCerts] = useState<string[]>([]);
 
@@ -39,12 +58,12 @@ const Shop = () => {
   };
 
   const filtered = useMemo(() => {
-    let result = [...products];
+    let result = [...displayProducts];
     if (selectedCategory) {
       result = result.filter(
         (p) =>
           p.category.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "") === selectedCategory ||
-          p.category === categories.find((c) => c.slug === selectedCategory)?.name
+          p.category === displayCategories.find((c) => c.slug === selectedCategory)?.name
       );
     }
     result = result.filter((p) => p.price >= priceRange[0] && p.price <= priceRange[1]);
@@ -61,7 +80,7 @@ const Shop = () => {
       case "newest": result.sort((a, b) => b.id - a.id); break;
     }
     return result;
-  }, [selectedCategory, sortBy, priceRange, selectedWeights, selectedCerts]);
+  }, [displayProducts, selectedCategory, sortBy, priceRange, selectedWeights, selectedCerts]);
 
   const FilterSidebar = () => (
     <>
@@ -71,7 +90,7 @@ const Shop = () => {
           <button onClick={() => setSelectedCategory(null)} className={`w-full text-left px-3 py-2 rounded-lg text-sm font-body transition-colors ${!selectedCategory ? "bg-primary text-primary-foreground" : "hover:bg-muted"}`}>
             {t("shop.allProducts")}
           </button>
-          {categories.map((cat) => (
+          {displayCategories.map((cat) => (
             <button key={cat.slug} onClick={() => setSelectedCategory(cat.slug === selectedCategory ? null : cat.slug)} className={`w-full text-left px-3 py-2 rounded-lg text-sm font-body transition-colors ${selectedCategory === cat.slug ? "bg-primary text-primary-foreground" : "hover:bg-muted"}`}>
               {cat.name}<span className="text-xs opacity-60 ml-1">({cat.count})</span>
             </button>
@@ -122,7 +141,9 @@ const Shop = () => {
   );
 
   return (
-    <div className="section-padding">
+    <>
+      <Head title="Shop - Khadyobitan" />
+      <div className="section-padding">
       <div className="container-custom">
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mb-8">
           <p className="font-accent text-xl text-accent mb-1">{t("shop.ourCollection")}</p>
@@ -197,7 +218,9 @@ const Shop = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
 export default Shop;
+
