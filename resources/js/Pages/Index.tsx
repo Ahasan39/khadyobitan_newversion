@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Head, Link } from "@inertiajs/react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Leaf, Truck, Shield, Heart, Zap, Award, Star, ChevronRight, ArrowRight, Clock, BadgeCheck, Sparkles } from "lucide-react";
 import { useTranslation } from "react-i18next";
@@ -73,8 +73,7 @@ const Index = () => {
     return () => clearInterval(interval);
   }, []);
 
-  return (
-    <div>
+  return (`n    <>`n      <Head title="Home - Khadyobitan" />`n      <div>
       {/* Hero Section */}
       <section id="hero-section" className="relative overflow-hidden aspect-[10/3] sm:aspect-auto sm:min-h-[280px] md:min-h-[400px]">
         <AnimatePresence initial={false}>
@@ -130,7 +129,7 @@ const Index = () => {
         <div className="relative w-full">
           <div className="flex animate-marquee gap-6 sm:gap-10 w-max hover:[animation-play-state:paused]">
             {[...categories, ...categories].map((cat, i) => (
-              <Link key={`${cat.slug}-${i}`} to={`/shop?category=${cat.slug}`} className="group flex flex-col items-center gap-2 sm:gap-3 flex-shrink-0">
+              <Link key={`${cat.slug}-${i}`} href={`/shop?category=${cat.slug}`} className="group flex flex-col items-center gap-2 sm:gap-3 flex-shrink-0">
                 <div className="w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 rounded-full overflow-hidden border-2 border-border group-hover:border-primary shadow-sm group-hover:shadow-lg transition-all duration-300">
                   <img src={categoryImages[cat.image]} alt={cat.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                 </div>
@@ -149,7 +148,7 @@ const Index = () => {
               <p className="font-accent text-xl text-accent mb-1">{t("home.popularPicks")}</p>
               <h2 className="font-heading text-3xl sm:text-4xl font-bold text-foreground">{t("home.bestSellers")}</h2>
             </motion.div>
-            <Link to="/shop" className="hidden sm:flex items-center gap-1 font-body text-sm font-medium text-primary hover:underline group">
+            <Link href="/shop" className="hidden sm:flex items-center gap-1 font-body text-sm font-medium text-primary hover:underline group">
               {t("home.viewAll")} <ChevronRight className="h-4 w-4 group-hover:translate-x-0.5 transition-transform" />
             </Link>
           </div>
@@ -159,7 +158,7 @@ const Index = () => {
             ))}
           </div>
           <div className="mt-8 text-center sm:hidden">
-            <Link to="/shop" className="inline-flex items-center gap-1 font-body text-sm font-medium text-primary hover:underline">
+            <Link href="/shop" className="inline-flex items-center gap-1 font-body text-sm font-medium text-primary hover:underline">
               {t("home.viewAllProducts")} <ChevronRight className="h-4 w-4" />
             </Link>
           </div>
@@ -174,7 +173,7 @@ const Index = () => {
               <p className="font-accent text-xl text-accent mb-1">{t("home.ourCollection")}</p>
               <h2 className="font-heading text-3xl sm:text-4xl font-bold text-foreground">{t("home.allProducts")}</h2>
             </motion.div>
-            <Link to="/shop" className="hidden sm:flex items-center gap-1 font-body text-sm font-medium text-primary hover:underline group">
+            <Link href="/shop" className="hidden sm:flex items-center gap-1 font-body text-sm font-medium text-primary hover:underline group">
               {t("home.browseAll")} <ChevronRight className="h-4 w-4 group-hover:translate-x-0.5 transition-transform" />
             </Link>
           </div>
@@ -184,7 +183,7 @@ const Index = () => {
             ))}
           </div>
           <div className="mt-8 text-center sm:hidden">
-            <Link to="/shop" className="inline-flex items-center gap-1 font-body text-sm font-medium text-primary hover:underline">
+            <Link href="/shop" className="inline-flex items-center gap-1 font-body text-sm font-medium text-primary hover:underline">
               {t("home.browseAllProducts")} <ChevronRight className="h-4 w-4" />
             </Link>
           </div>
@@ -254,7 +253,7 @@ const Index = () => {
               <p className="font-accent text-xl text-accent mb-1">{t("home.fromOurKitchen")}</p>
               <h2 className="font-heading text-3xl sm:text-4xl font-bold text-foreground">{t("home.recipesTips")}</h2>
             </motion.div>
-            <Link to="/blog" className="hidden sm:flex items-center gap-1 font-body text-sm font-medium text-primary hover:underline group">
+            <Link href="/blog" className="hidden sm:flex items-center gap-1 font-body text-sm font-medium text-primary hover:underline group">
               {t("home.viewAll")} <ChevronRight className="h-4 w-4 group-hover:translate-x-0.5 transition-transform" />
             </Link>
           </div>
@@ -271,7 +270,7 @@ const Index = () => {
                   </div>
                   <h3 className="font-heading text-base font-semibold text-foreground mb-1.5 group-hover:text-primary transition-colors duration-300 line-clamp-2">{post.title}</h3>
                   <p className="font-body text-xs text-muted-foreground mb-3 flex-1 line-clamp-2">{post.excerpt}</p>
-                  <Link to={`/blog/${post.slug}`} className="inline-flex items-center gap-1 text-xs font-body font-medium text-primary hover:underline group/link">
+                  <Link href={`/blog/${post.slug}`} className="inline-flex items-center gap-1 text-xs font-body font-medium text-primary hover:underline group/link">
                     {t("home.readMore")} <ArrowRight className="h-3 w-3 group-hover/link:translate-x-1 transition-transform" />
                   </Link>
                 </div>
@@ -300,8 +299,7 @@ const Index = () => {
           </motion.div>
         </div>
       </section>
-    </div>
-  );
-};
+      </div>`n    </>`n  );`n};
 
 export default Index;
+
