@@ -160,7 +160,7 @@ const handleSubmit = (e) => {
 | Page | Status | Priority | Estimated Time |
 |------|--------|----------|----------------|
 | Index.tsx | ✅ Complete | P1 | Done |
-| Shop.tsx | 🔄 Next | P1 | 15 min |
+| Shop.tsx | ✅ Complete | P1 | Done |
 | ProductDetail.tsx | ⏳ Pending | P1 | 15 min |
 | Cart.tsx | ⏳ Pending | P1 | 20 min |
 | Checkout.tsx | ⏳ Pending | P1 | 25 min |
@@ -180,7 +180,7 @@ const handleSubmit = (e) => {
 | ShippingPolicy.tsx | ⏳ Pending | P4 | 5 min |
 | NotFound.tsx | ⏳ Pending | P4 | 5 min |
 
-**Total Progress: 5% (1/20 pages)**
+**Total Progress: 10% (2/20 pages)**
 **Estimated Time Remaining: ~3 hours**
 
 ---
