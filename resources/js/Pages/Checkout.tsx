@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from "react";
 import { Head, Link, router, useForm } from "@inertiajs/react";
 import { ChevronRight, CreditCard, Banknote, Smartphone, Building2, ShieldCheck } from "lucide-react";
@@ -47,15 +48,16 @@ const Checkout = () => {
 
   if (items.length === 0) {
     return (
-    <>
-      <Head title="Checkout - Khadyobitan" />
-      <div className="section-padding text-center">
-        <div className="container-custom max-w-md mx-auto">
-          <h1 className="font-heading text-2xl font-bold mb-2">{t("checkout.noItems")}</h1>
-          <p className="font-body text-sm text-muted-foreground mb-6">{t("checkout.noItemsDesc")}</p>
-          <Link href="/shop" className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-body font-medium text-sm hover:opacity-90 transition-opacity">{t("checkout.goToShop")}</Link>
+      <>
+        <Head title="Checkout - Khadyobitan" />
+        <div className="section-padding text-center">
+          <div className="container-custom max-w-md mx-auto">
+            <h1 className="font-heading text-2xl font-bold mb-2">{t("checkout.noItems")}</h1>
+            <p className="font-body text-sm text-muted-foreground mb-6">{t("checkout.noItemsDesc")}</p>
+            <Link href="/shop" className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-body font-medium text-sm hover:opacity-90 transition-opacity">{t("checkout.goToShop")}</Link>
+          </div>
         </div>
-      </div>
+      </>
     );
   }
 

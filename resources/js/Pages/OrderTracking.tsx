@@ -1,6 +1,8 @@
+import React from 'react';
 import { useState } from "react";
+import { Head } from "@inertiajs/react";
 import { Package, Search, Truck, CheckCircle2, Clock, MapPin } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
@@ -83,9 +85,7 @@ const OrderTracking = () => {
                 const Icon = stepIcons[i];
                 const isLast = i === order.steps.length - 1;
                 return (
-    <>
-      <Head title="Track Order - Khadyobitan" />
-      <div key={step.label} className="flex gap-4">
+                  <div key={step.label} className="flex gap-4">
                     <div className="flex flex-col items-center">
                       <div className={`h-8 w-8 rounded-full flex items-center justify-center shrink-0 ${step.done ? "bg-primary text-primary-foreground" : "bg-muted text-muted-foreground"}`}>
                         <Icon className="h-4 w-4" />

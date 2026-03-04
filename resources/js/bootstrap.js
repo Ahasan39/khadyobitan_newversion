@@ -1,7 +1,8 @@
 import _ from 'lodash';
 window._ = _;
 
-import 'bootstrap';
+// Note: Bootstrap CSS is NOT imported here to avoid conflicts with Tailwind CSS
+// Admin panel uses its own Bootstrap CSS loaded via Blade templates
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests

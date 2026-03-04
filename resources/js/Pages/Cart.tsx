@@ -1,9 +1,10 @@
+import React from 'react';
 import { useState } from "react";
 import { Head, Link } from "@inertiajs/react";
 import { motion } from "framer-motion";
 import { Minus, Plus, X, ShoppingCart, ArrowRight, Truck, Shield, RotateCcw, Tag } from "lucide-react";
 import { useCartStore } from "@/store/cartStore";
-import ProductCard from "@/components/ProductCard";
+import ProductCard from "@/Components/ProductCard";
 import { products, coupons } from "@/data/products";
 import { toast } from "sonner";
 import { productImageMap } from "@/data/productImages";
@@ -42,18 +43,19 @@ const Cart = () => {
 
   if (items.length === 0) {
     return (
-    <>
-      <Head title="Shopping Cart - Khadyobitan" />
-      <div className="section-padding text-center">
-        <div className="container-custom max-w-md mx-auto">
-          <ShoppingCart className="h-16 w-16 text-muted-foreground mx-auto mb-4" />
-          <h1 className="font-heading text-2xl font-bold mb-2">{t("cart.emptyTitle")}</h1>
-          <p className="font-body text-sm text-muted-foreground mb-6">{t("cart.emptyDesc")}</p>
-          <Link href="/shop" className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-body font-medium text-sm hover:opacity-90 transition-opacity">
-            {t("cart.continueShopping")} <ArrowRight className="h-4 w-4" />
-          </Link>
+      <>
+        <Head title="Shopping Cart - Khadyobitan" />
+        <div className="section-padding text-center">
+          <div className="container-custom max-w-md mx-auto">
+            <ShoppingCart className="h-16 w-16 text-muted-foreground mx-auto mb-4" />
+            <h1 className="font-heading text-2xl font-bold mb-2">{t("cart.emptyTitle")}</h1>
+            <p className="font-body text-sm text-muted-foreground mb-6">{t("cart.emptyDesc")}</p>
+            <Link href="/shop" className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-body font-medium text-sm hover:opacity-90 transition-opacity">
+              {t("cart.continueShopping")} <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
         </div>
-      </div>
+      </>
     );
   }
 
