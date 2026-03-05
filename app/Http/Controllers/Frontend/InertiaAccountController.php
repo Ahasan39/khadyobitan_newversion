@@ -19,12 +19,28 @@ class InertiaAccountController extends Controller
     {
         $customer = Auth::guard('customer')->user();
         $orders = Order::where('customer_id', $customer->id)
+            ->with('orderdetails', 'shipping')
             ->orderBy('created_at', 'desc')
             ->paginate(10);
 
+        // Transform orders to format expected by frontend
+        $transformedOrders = [
+            'data' => $orders->map(function ($order) {
+                return [
+                    'id' => $order->id,
+                    'order_id' => $order->invoice_id,
+                    'total' => $order->amount,
+                    'status' => $order->order_status,
+                    'created_at' => $order->created_at,
+                    'order_details' => $order->orderdetails,
+                ];
+            }),
+            'total' => $orders->total(),
+        ];
+
         return Inertia::render('Account', [
             'customer' => $customer,
-            'orders' => $orders,
+            'orders' => $transformedOrders,
             'currentPath' => '/account',
         ]);
     }
@@ -124,11 +140,29 @@ class InertiaAccountController extends Controller
     {
         $customer = Auth::guard('customer')->user();
         $orders = Order::where('customer_id', $customer->id)
+            ->with('orderdetails', 'shipping')
             ->orderBy('created_at', 'desc')
             ->paginate(15);
 
+        // Transform for frontend
+        $transformedOrders = [
+            'data' => $orders->map(function ($order) {
+                return [
+                    'id' => $order->id,
+                    'order_id' => $order->invoice_id,
+                    'total' => $order->amount,
+                    'status' => $order->order_status,
+                    'created_at' => $order->created_at,
+                    'order_details' => $order->orderdetails,
+                ];
+            }),
+            'total' => $orders->total(),
+            'current_page' => $orders->currentPage(),
+            'last_page' => $orders->lastPage(),
+        ];
+
         return Inertia::render('Orders', [
-            'orders' => $orders,
+            'orders' => $transformedOrders,
             'currentPath' => '/account/orders',
         ]);
     }
@@ -141,11 +175,38 @@ class InertiaAccountController extends Controller
         $customer = Auth::guard('customer')->user();
         $order = Order::where('id', $id)
             ->where('customer_id', $customer->id)
-            ->with('details')
+            ->with('orderdetails', 'shipping', 'payment')
             ->firstOrFail();
 
+        // Transform for frontend
+        $transformedOrder = [
+            'id' => $order->id,
+            'order_id' => $order->invoice_id,
+            'total' => $order->amount,
+            'status' => $order->order_status,
+            'shipping_charge' => $order->shipping_charge,
+            'discount' => $order->discount,
+            'created_at' => $order->created_at,
+            'items' => $order->orderdetails->map(function ($detail) {
+                return [
+                    'name' => $detail->product_name,
+                    'price' => $detail->sale_price,
+                    'quantity' => $detail->qty,
+                ];
+            }),
+            'shipping' => $order->shipping ? [
+                'name' => $order->shipping->name,
+                'phone' => $order->shipping->phone,
+                'address' => $order->shipping->address,
+            ] : null,
+            'payment' => $order->payment ? [
+                'method' => $order->payment->payment_method,
+                'status' => $order->payment->payment_status,
+            ] : null,
+        ];
+
         return Inertia::render('OrderDetail', [
-            'order' => $order,
+            'order' => $transformedOrder,
             'currentPath' => "/account/orders/{$id}",
         ]);
     }
