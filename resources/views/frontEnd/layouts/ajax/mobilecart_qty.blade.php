@@ -1,1 +1,0 @@
-{{Cart::instance('shopping')->count()}}
