@@ -60,12 +60,16 @@ class InertiaOrderTrackingController extends Controller
     public function confirmation($invoiceId)
     {
         $order = Order::where('invoice_id', $invoiceId)
-            ->with('orderdetails', 'payment')
+            ->with('orderdetails', 'payment', 'shipping', 'customer')
             ->first();
 
         if (!$order) {
             return redirect('/')->with('error', 'Order not found');
         }
+
+        // Get shipping info (customer address) or fall back to customer model
+        $shippingInfo = $order->shipping;
+        $customerInfo = $order->customer;
 
         // Transform order to format expected by frontend
         $orderData = [
@@ -80,16 +84,16 @@ class InertiaOrderTrackingController extends Controller
                 ];
             })->toArray(),
             'form' => [
-                'name' => $order->customer_name,
-                'phone' => $order->customer_phone,
-                'email' => $order->customer_email,
-                'address' => $order->customer_address,
-                'district' => $order->district,
-                'notes' => $order->notes ?? '',
+                'name' => $shippingInfo->name ?? $customerInfo->name ?? 'Guest',
+                'phone' => $shippingInfo->phone ?? $customerInfo->phone ?? '',
+                'email' => $customerInfo->email ?? '',
+                'address' => $shippingInfo->address ?? $customerInfo->address ?? '',
+                'district' => $shippingInfo->area ?? '',
+                'notes' => '',
             ],
             'payment' => $order->payment->payment_method ?? 'cod',
             'subtotal' => $order->orderdetails->sum(fn ($d) => $d->sale_price * $d->qty),
-            'shipping' => $order->amount - $order->orderdetails->sum(fn ($d) => $d->sale_price * $d->qty),
+            'shipping' => $order->shipping_charge ?? 0,
             'total' => $order->amount,
             'date' => $order->created_at->format('j F Y'),
         ];

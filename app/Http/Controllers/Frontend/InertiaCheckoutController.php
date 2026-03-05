@@ -10,6 +10,7 @@ use Gloudemans\Shoppingcart\Facades\Cart;
 use App\Models\Order;
 use App\Models\OrderDetails;
 use App\Models\Payment;
+use App\Models\Shipping;
 use App\Models\ShippingCharge;
 use App\Models\District;
 
@@ -81,20 +82,27 @@ class InertiaCheckoutController extends Controller
             $shippingCost = $subtotal >= 1000 ? 0 : 60;
             $total = $subtotal + $shippingCost;
 
-            // Create order
+            $customerId = Auth::guard('customer')->id();
+
+            // Create order (using actual orders table columns)
             $order = new Order();
             $order->invoice_id = 'INV-' . time();
-            $order->customer_id = Auth::guard('customer')->id() ?? null;
-            $order->customer_name = $validated['customer_name'];
-            $order->customer_email = $validated['customer_email'];
-            $order->customer_phone = $validated['customer_phone'];
-            $order->customer_address = $validated['customer_address'];
-            $order->district = $validated['district'];
-            $order->area = $validated['area'] ?? $validated['district'];
+            $order->customer_id = $customerId;
             $order->amount = $total;
+            $order->discount = 0;
+            $order->shipping_charge = $shippingCost;
             $order->order_status = 'pending';
-            $order->notes = $validated['notes'] ?? null;
             $order->save();
+
+            // Create shipping record for customer address
+            $shipping = new Shipping();
+            $shipping->order_id = $order->id;
+            $shipping->customer_id = $customerId;
+            $shipping->name = $validated['customer_name'];
+            $shipping->phone = $validated['customer_phone'];
+            $shipping->address = $validated['customer_address'] . ', ' . $validated['district'];
+            $shipping->area = $validated['area'] ?? $validated['district'];
+            $shipping->save();
 
             // Create order details
             if ($useLocalCart) {
@@ -124,7 +132,7 @@ class InertiaCheckoutController extends Controller
             // Create payment record
             $payment = new Payment();
             $payment->order_id = $order->id;
-            $payment->customer_id = Auth::guard('customer')->id() ?? null;
+            $payment->customer_id = $customerId;
             $payment->payment_method = $validated['payment_method'];
             $payment->amount = $order->amount;
             $payment->payment_status = 'pending';
