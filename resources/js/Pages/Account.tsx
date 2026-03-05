@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from "react";
 import { Head, Link, useForm, router } from "@inertiajs/react";
 import { motion } from "framer-motion";
-import { User, Package, Heart, MapPin, Settings, LogOut, ChevronRight, Star } from "lucide-react";
+import { User, Package, Heart, MapPin, Settings, LogOut, ChevronRight, Star, Lock, Edit } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import MainLayout from "@/Components/layout/MainLayout";
 
@@ -111,23 +111,23 @@ const Account = ({ customer, orders }: AccountProps) => {
                   <div className="bg-card border border-border rounded-xl p-6">
                     <div className="flex items-center justify-between mb-4">
                       <h3 className="font-heading text-lg font-semibold text-foreground">{t("account.recentOrders")}</h3>
-                      <button onClick={() => setActiveTab("orders")} className="text-sm font-body text-primary hover:underline flex items-center gap-1">{t("account.viewAll")} <ChevronRight className="h-3 w-3" /></button>
+                      <Link href="/account/orders" className="text-sm font-body text-primary hover:underline flex items-center gap-1">{t("account.viewAll")} <ChevronRight className="h-3 w-3" /></Link>
                     </div>
                     <div className="space-y-3">
                       {ordersList.length === 0 ? (
                         <p className="text-center text-muted-foreground py-4">{t("account.noOrders") || "No orders yet"}</p>
                       ) : (
                         ordersList.slice(0, 3).map((order) => (
-                          <div key={order.id} className="flex items-center justify-between p-3 bg-muted rounded-lg">
+                          <Link key={order.id} href={`/account/orders/${order.id}`} className="flex items-center justify-between p-3 bg-muted rounded-lg hover:bg-muted/70 transition-colors">
                             <div>
                               <p className="font-body text-sm font-semibold text-foreground">{order.order_id}</p>
-                              <p className="font-body text-xs text-muted-foreground">{formatDate(order.created_at)} · {order.order_details?.length || 0} items</p>
+                              <p className="font-body text-xs text-muted-foreground">{formatDate(order.created_at)}{order.order_details?.length ? ` · ${order.order_details.length} items` : ''}</p>
                             </div>
                             <div className="flex items-center gap-3">
                               <span className={`px-2 py-1 rounded-full text-xs font-body font-medium capitalize ${statusColors[order.status?.toLowerCase()] || statusColors.processing}`}>{order.status}</span>
                               <span className="font-body text-sm font-semibold text-foreground">৳{order.total}</span>
                             </div>
-                          </div>
+                          </Link>
                         ))
                       )}
                     </div>
@@ -143,17 +143,17 @@ const Account = ({ customer, orders }: AccountProps) => {
                       <p className="text-center text-muted-foreground py-8">{t("account.noOrders") || "No orders yet"}</p>
                     ) : (
                       ordersList.map((order) => (
-                        <div key={order.id} className="flex items-center justify-between p-4 border border-border rounded-lg hover:bg-muted transition-colors">
+                        <Link key={order.id} href={`/account/orders/${order.id}`} className="flex items-center justify-between p-4 border border-border rounded-lg hover:bg-muted transition-colors">
                           <div>
                             <p className="font-body text-sm font-semibold text-foreground">{order.order_id}</p>
-                            <p className="font-body text-xs text-muted-foreground">{formatDate(order.created_at)} · {order.order_details?.length || 0} items</p>
+                            <p className="font-body text-xs text-muted-foreground">{formatDate(order.created_at)}{order.order_details?.length ? ` · ${order.order_details.length} items` : ''}</p>
                           </div>
                           <div className="flex items-center gap-4">
                             <span className={`px-2 py-1 rounded-full text-xs font-body font-medium capitalize ${statusColors[order.status?.toLowerCase()] || statusColors.processing}`}>{order.status}</span>
                             <span className="font-body text-sm font-semibold text-foreground">৳{order.total}</span>
-                            <Link href={`/account/orders/${order.id}`} className="text-xs font-body text-primary hover:underline">{t("account.details")}</Link>
+                            <ChevronRight className="h-4 w-4 text-muted-foreground" />
                           </div>
-                        </div>
+                        </Link>
                       ))
                     )}
                   </div>
@@ -184,23 +184,37 @@ const Account = ({ customer, orders }: AccountProps) => {
               )}
 
               {activeTab === "settings" && (
-                <div className="bg-card border border-border rounded-xl p-6">
-                  <h3 className="font-heading text-lg font-semibold text-foreground mb-6">{t("account.profileSettings")}</h3>
-                  <form className="space-y-4 max-w-lg" onSubmit={(e) => e.preventDefault()}>
-                    <div>
-                      <label className="block text-sm font-body font-medium text-foreground mb-1.5">{t("checkout.fullName")}</label>
-                      <input type="text" defaultValue={customer?.name || ''} className="w-full px-4 py-2.5 rounded-lg bg-background border border-border text-foreground text-sm font-body focus:outline-none focus:ring-2 focus:ring-primary/30" />
+                <div className="space-y-4">
+                  <div className="bg-card border border-border rounded-xl p-6">
+                    <h3 className="font-heading text-lg font-semibold text-foreground mb-2">{t("account.profileSettings")}</h3>
+                    <p className="font-body text-sm text-muted-foreground mb-5">{t("account.manageYourAccount") || "Manage your account details and security settings."}</p>
+                    <div className="space-y-3">
+                      <Link href="/account/profile-edit" className="flex items-center justify-between p-4 border border-border rounded-xl hover:bg-muted transition-colors group">
+                        <div className="flex items-center gap-3">
+                          <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                            <Edit className="h-5 w-5 text-primary" />
+                          </div>
+                          <div>
+                            <p className="font-body text-sm font-semibold text-foreground">{t("account.editProfile") || "Edit Profile"}</p>
+                            <p className="font-body text-xs text-muted-foreground">{customer?.name} · {customer?.phone}</p>
+                          </div>
+                        </div>
+                        <ChevronRight className="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors" />
+                      </Link>
+                      <Link href="/account/change-password" className="flex items-center justify-between p-4 border border-border rounded-xl hover:bg-muted transition-colors group">
+                        <div className="flex items-center gap-3">
+                          <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                            <Lock className="h-5 w-5 text-primary" />
+                          </div>
+                          <div>
+                            <p className="font-body text-sm font-semibold text-foreground">{t("account.changePassword") || "Change Password"}</p>
+                            <p className="font-body text-xs text-muted-foreground">{t("account.keepAccountSecure") || "Keep your account secure"}</p>
+                          </div>
+                        </div>
+                        <ChevronRight className="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors" />
+                      </Link>
                     </div>
-                    <div>
-                      <label className="block text-sm font-body font-medium text-foreground mb-1.5">{t("checkout.email")}</label>
-                      <input type="email" defaultValue={customer?.email || ''} className="w-full px-4 py-2.5 rounded-lg bg-background border border-border text-foreground text-sm font-body focus:outline-none focus:ring-2 focus:ring-primary/30" />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-body font-medium text-foreground mb-1.5">{t("account.phone")}</label>
-                      <input type="tel" defaultValue={customer?.phone || ''} className="w-full px-4 py-2.5 rounded-lg bg-background border border-border text-foreground text-sm font-body focus:outline-none focus:ring-2 focus:ring-primary/30" />
-                    </div>
-                    <Link href="/account/profile-edit" className="inline-block px-6 py-2.5 bg-primary text-primary-foreground rounded-lg text-sm font-body font-medium hover:opacity-90 transition-opacity">{t("account.editProfile") || "Edit Profile"}</Link>
-                  </form>
+                  </div>
                 </div>
               )}
             </div>
