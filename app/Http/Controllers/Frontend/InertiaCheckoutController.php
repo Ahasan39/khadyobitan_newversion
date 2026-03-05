@@ -112,8 +112,10 @@ class InertiaCheckoutController extends Controller
                     $orderDetail->order_id = $order->id;
                     $orderDetail->product_id = $item['product_id'];
                     $orderDetail->product_name = $item['name'];
+                    $orderDetail->purchase_price = $item['price'];
                     $orderDetail->sale_price = $item['price'];
                     $orderDetail->qty = $item['quantity'];
+                    $orderDetail->product_type = 1; // simple product
                     $orderDetail->save();
                 }
             } else {
@@ -123,8 +125,10 @@ class InertiaCheckoutController extends Controller
                     $orderDetail->order_id = $order->id;
                     $orderDetail->product_id = $item->id;
                     $orderDetail->product_name = $item->name;
+                    $orderDetail->purchase_price = $item->price;
                     $orderDetail->sale_price = $item->price;
                     $orderDetail->qty = $item->qty;
+                    $orderDetail->product_type = 1; // simple product
                     $orderDetail->save();
                 }
             }
