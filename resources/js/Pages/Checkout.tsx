@@ -1,26 +1,60 @@
 import React from 'react';
 import { useState } from "react";
-import { Head, Link, router, useForm } from "@inertiajs/react";
+import { Head, Link, router } from "@inertiajs/react";
 import { ChevronRight, CreditCard, Banknote, Smartphone, Building2, ShieldCheck } from "lucide-react";
 import { useCartStore } from "@/store/cartStore";
 import { toast } from "sonner";
 import { getProductImageSrc } from "@/utils/imageUtils";
 import { useTranslation } from "react-i18next";
 import MainLayout from "@/Components/layout/MainLayout";
+import axios from "axios";
 
-const districts = [
+interface CheckoutProps {
+  cartItems?: any;
+  shippingCharges?: any[];
+  districts?: any[];
+  customer?: any;
+  subtotal?: number;
+  shippingCost?: number;
+  total?: number;
+}
+
+const districtsList = [
   "Dhaka", "Chittagong", "Rajshahi", "Khulna", "Sylhet", "Barisal", "Rangpur", "Mymensingh",
   "Comilla", "Gazipur", "Narayanganj",
 ];
 
-const Checkout = () => {
+const Checkout = ({ cartItems: serverCartItems, customer, districts: serverDistricts }: CheckoutProps) => {
   const { t } = useTranslation();
   
-  const { items, subtotal, clearCart } = useCartStore();
-  const sub = subtotal();
+  const { items: localItems, subtotal: localSubtotal, clearCart } = useCartStore();
+  
+  // Use server cart if available, otherwise use local cart
+  const hasServerCart = serverCartItems && Object.keys(serverCartItems).length > 0;
+  const items = hasServerCart 
+    ? Object.values(serverCartItems).map((item: any) => ({
+        product: { id: item.id, name: item.name, price: item.price, image: item.options?.image },
+        quantity: item.qty,
+        selectedWeight: item.options?.weight || 'Default',
+      }))
+    : localItems;
+  
+  const sub = hasServerCart 
+    ? Object.values(serverCartItems).reduce((acc: number, item: any) => acc + (item.price * item.qty), 0)
+    : localSubtotal();
+  
   const [payment, setPayment] = useState("cod");
   const [agreed, setAgreed] = useState(false);
-  const [form, setForm] = useState({ name: "", phone: "", email: "", address: "", district: "", notes: "" });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [form, setForm] = useState({ 
+    name: customer?.name || "", 
+    phone: customer?.phone || "", 
+    email: customer?.email || "", 
+    address: customer?.address || "", 
+    district: "", 
+    area: "",
+    notes: "" 
+  });
 
   const paymentMethods = [
     { id: "cod", label: t("checkout.cod"), icon: Banknote, desc: t("checkout.codDesc") },
@@ -33,18 +67,51 @@ const Checkout = () => {
   const shippingCost = sub >= 1000 ? 0 : 60;
   const total = sub + shippingCost;
   const updateField = (field: string, value: string) => setForm((f) => ({ ...f, [field]: value }));
-  const canPlaceOrder = form.name && form.phone && form.address && form.district && agreed;
+  const canPlaceOrder = form.name && form.phone && form.address && form.district && agreed && !isSubmitting;
 
-  const handlePlaceOrder = () => {
-    const orderId = "NH" + Date.now().toString(36).toUpperCase();
-    const orderData = {
-      orderId,
-      items: items.map((i) => ({ name: i.product.name, slug: i.product.slug, price: i.product.price, quantity: i.quantity, weight: i.selectedWeight })),
-      form, payment, subtotal: sub, shipping: shippingCost, total,
-      date: new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" }),
-    };
-    clearCart();
-    router.visit("/order-confirmation", { state: orderData, replace: true });
+  const handlePlaceOrder = async () => {
+    if (!canPlaceOrder) return;
+    
+    setIsSubmitting(true);
+    
+    try {
+      // Submit order to backend
+      const response = await axios.post('/api/checkout/store', {
+        customer_name: form.name,
+        customer_email: form.email || 'no-email@example.com',
+        customer_phone: form.phone,
+        customer_address: form.address,
+        district: form.district,
+        area: form.area || form.district,
+        payment_method: payment,
+        notes: form.notes,
+        // Include local cart items if no server cart
+        items: !hasServerCart ? localItems.map(item => ({
+          product_id: item.product.id,
+          name: item.product.name,
+          price: item.product.price,
+          quantity: item.quantity,
+          weight: item.selectedWeight,
+        })) : undefined,
+      });
+      
+      if (response.data.success) {
+        // Clear local cart
+        clearCart();
+        
+        toast.success('Order placed successfully!');
+        
+        // Redirect to order confirmation
+        router.visit(`/order-confirmation/${response.data.invoice_id}`);
+      } else {
+        toast.error(response.data.message || 'Failed to place order');
+      }
+    } catch (error: any) {
+      console.error('Order error:', error);
+      toast.error(error.response?.data?.message || 'Failed to place order. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   if (items.length === 0) {
@@ -105,7 +172,7 @@ const Checkout = () => {
                     <label className="block font-body text-sm font-medium mb-1">{t("checkout.districtCity")} *</label>
                     <select value={form.district} onChange={(e) => updateField("district", e.target.value)} className="w-full px-4 py-3 rounded-lg border border-border bg-background font-body text-sm focus:outline-none focus:ring-2 focus:ring-primary/30">
                       <option value="">{t("checkout.select")}</option>
-                      {districts.map((d) => <option key={d} value={d}>{d}</option>)}
+                      {districtsList.map((d) => <option key={d} value={d}>{d}</option>)}
                     </select>
                   </div>
                 </div>
@@ -140,7 +207,7 @@ const Checkout = () => {
                 </span>
               </label>
               <button disabled={!canPlaceOrder} onClick={handlePlaceOrder} className="mt-5 w-full py-4 bg-primary text-primary-foreground rounded-lg font-body font-semibold text-base flex items-center justify-center gap-2 hover:opacity-90 transition-opacity disabled:opacity-50 disabled:cursor-not-allowed">
-                <ShieldCheck className="h-5 w-5" /> {t("checkout.placeOrder")} — ৳{total}
+                <ShieldCheck className="h-5 w-5" /> {isSubmitting ? 'Processing...' : `${t("checkout.placeOrder")} — ৳${total}`}
               </button>
             </section>
           </div>
@@ -149,16 +216,16 @@ const Checkout = () => {
             <div className="bg-card border border-border rounded-xl p-6 sticky top-28">
               <h3 className="font-heading text-lg font-semibold mb-4">{t("cart.orderSummary")}</h3>
               <div className="space-y-2 mb-4 max-h-48 overflow-y-auto">
-                {items.map((item) => (
-                  <div key={item.product.id} className="flex items-center gap-3">
+                {items.map((item: any, index: number) => (
+                  <div key={item.product?.id || index} className="flex items-center gap-3">
                     <div className="w-10 h-10 bg-muted rounded overflow-hidden shrink-0">
-                      <img src={getProductImageSrc(item.product)} alt={item.product.name} className="w-full h-full object-cover" />
+                      <img src={getProductImageSrc(item.product)} alt={item.product?.name} className="w-full h-full object-cover" />
                     </div>
                     <div className="flex-1 min-w-0">
-                      <p className="font-body text-xs font-medium line-clamp-1">{item.product.name}</p>
+                      <p className="font-body text-xs font-medium line-clamp-1">{item.product?.name}</p>
                       <p className="font-body text-[11px] text-muted-foreground">{item.selectedWeight} × {item.quantity}</p>
                     </div>
-                    <span className="font-body text-xs font-semibold">৳{item.product.price * item.quantity}</span>
+                    <span className="font-body text-xs font-semibold">৳{(item.product?.price || 0) * item.quantity}</span>
                   </div>
                 ))}
               </div>

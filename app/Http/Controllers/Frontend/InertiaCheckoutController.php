@@ -22,10 +22,7 @@ class InertiaCheckoutController extends Controller
     {
         $cartItems = Cart::instance('shopping')->content();
         
-        if ($cartItems->isEmpty()) {
-            return redirect()->route('cart.show');
-        }
-
+        // Allow checkout even if server cart is empty (frontend may have local cart)
         $shippingCharges = ShippingCharge::where('status', 1)->get();
         $districts = District::select('id', 'district')->distinct()->get();
         $customer = Auth::guard('customer')->user();
@@ -54,18 +51,35 @@ class InertiaCheckoutController extends Controller
                 'customer_phone' => 'required|string|max:20',
                 'customer_address' => 'required|string',
                 'district' => 'required|string',
-                'area' => 'required|string',
+                'area' => 'nullable|string',
                 'payment_method' => 'required|string',
+                'notes' => 'nullable|string',
+                'items' => 'nullable|array',
+                'items.*.product_id' => 'required_with:items|integer',
+                'items.*.name' => 'required_with:items|string',
+                'items.*.price' => 'required_with:items|numeric',
+                'items.*.quantity' => 'required_with:items|integer|min:1',
             ]);
 
+            // Check server cart first
             $cartItems = Cart::instance('shopping')->content();
+            $useLocalCart = $cartItems->isEmpty() && !empty($validated['items']);
 
-            if ($cartItems->isEmpty()) {
+            if ($cartItems->isEmpty() && empty($validated['items'])) {
                 return response()->json([
                     'success' => false,
                     'message' => 'Cart is empty',
                 ], 422);
             }
+
+            // Calculate total
+            if ($useLocalCart) {
+                $subtotal = collect($validated['items'])->sum(fn($item) => $item['price'] * $item['quantity']);
+            } else {
+                $subtotal = floatval(str_replace(',', '', Cart::instance('shopping')->total()));
+            }
+            $shippingCost = $subtotal >= 1000 ? 0 : 60;
+            $total = $subtotal + $shippingCost;
 
             // Create order
             $order = new Order();
@@ -76,20 +90,35 @@ class InertiaCheckoutController extends Controller
             $order->customer_phone = $validated['customer_phone'];
             $order->customer_address = $validated['customer_address'];
             $order->district = $validated['district'];
-            $order->area = $validated['area'];
-            $order->amount = Cart::instance('shopping')->total() + session('shipping', 0);
+            $order->area = $validated['area'] ?? $validated['district'];
+            $order->amount = $total;
             $order->order_status = 'pending';
+            $order->notes = $validated['notes'] ?? null;
             $order->save();
 
             // Create order details
-            foreach ($cartItems as $item) {
-                $orderDetail = new OrderDetails();
-                $orderDetail->order_id = $order->id;
-                $orderDetail->product_id = $item->id;
-                $orderDetail->product_name = $item->name;
-                $orderDetail->sale_price = $item->price;
-                $orderDetail->qty = $item->qty;
-                $orderDetail->save();
+            if ($useLocalCart) {
+                // Use items from frontend local cart
+                foreach ($validated['items'] as $item) {
+                    $orderDetail = new OrderDetails();
+                    $orderDetail->order_id = $order->id;
+                    $orderDetail->product_id = $item['product_id'];
+                    $orderDetail->product_name = $item['name'];
+                    $orderDetail->sale_price = $item['price'];
+                    $orderDetail->qty = $item['quantity'];
+                    $orderDetail->save();
+                }
+            } else {
+                // Use server cart items
+                foreach ($cartItems as $item) {
+                    $orderDetail = new OrderDetails();
+                    $orderDetail->order_id = $order->id;
+                    $orderDetail->product_id = $item->id;
+                    $orderDetail->product_name = $item->name;
+                    $orderDetail->sale_price = $item->price;
+                    $orderDetail->qty = $item->qty;
+                    $orderDetail->save();
+                }
             }
 
             // Create payment record
@@ -101,7 +130,7 @@ class InertiaCheckoutController extends Controller
             $payment->payment_status = 'pending';
             $payment->save();
 
-            // Clear cart
+            // Clear server cart
             Cart::instance('shopping')->destroy();
             session(['shipping' => 0]);
 

@@ -60,11 +60,42 @@ class InertiaOrderTrackingController extends Controller
     public function confirmation($invoiceId)
     {
         $order = Order::where('invoice_id', $invoiceId)
-            ->with('details')
-            ->firstOrFail();
+            ->with('orderdetails', 'payment')
+            ->first();
+
+        if (!$order) {
+            return redirect('/')->with('error', 'Order not found');
+        }
+
+        // Transform order to format expected by frontend
+        $orderData = [
+            'orderId' => $order->invoice_id,
+            'items' => $order->orderdetails->map(function ($detail) {
+                return [
+                    'name' => $detail->product_name,
+                    'slug' => '',
+                    'price' => $detail->sale_price,
+                    'quantity' => $detail->qty,
+                    'weight' => $detail->weight ?? 'Default',
+                ];
+            })->toArray(),
+            'form' => [
+                'name' => $order->customer_name,
+                'phone' => $order->customer_phone,
+                'email' => $order->customer_email,
+                'address' => $order->customer_address,
+                'district' => $order->district,
+                'notes' => $order->notes ?? '',
+            ],
+            'payment' => $order->payment->payment_method ?? 'cod',
+            'subtotal' => $order->orderdetails->sum(fn ($d) => $d->sale_price * $d->qty),
+            'shipping' => $order->amount - $order->orderdetails->sum(fn ($d) => $d->sale_price * $d->qty),
+            'total' => $order->amount,
+            'date' => $order->created_at->format('j F Y'),
+        ];
 
         return Inertia::render('OrderConfirmation', [
-            'order' => $order,
+            'order' => $orderData,
             'currentPath' => "/order-confirmation/{$invoiceId}",
         ]);
     }
