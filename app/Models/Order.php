@@ -34,11 +34,11 @@ class Order extends Model
     }
     public function shipping()
     {
-        return $this->belongsTo(Shipping::class, 'id', 'order_id');
+        return $this->hasOne(Shipping::class, 'order_id', 'id');
     }
     public function payment()
     {
-        return $this->belongsTo(Payment::class, 'id', 'order_id');
+        return $this->hasOne(Payment::class, 'order_id', 'id');
     }
     public function customer()
     {

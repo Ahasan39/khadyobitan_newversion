@@ -176,7 +176,11 @@ class InertiaAccountController extends Controller
         $order = Order::where('id', $id)
             ->where('customer_id', $customer->id)
             ->with('orderdetails', 'shipping', 'payment')
-            ->firstOrFail();
+            ->first();
+
+        if (!$order) {
+            return redirect()->route('account.orders')->with('error', 'Order not found.');
+        }
 
         // Transform for frontend
         $transformedOrder = [
