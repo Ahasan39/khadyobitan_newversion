@@ -48,14 +48,14 @@ Route::group(['middleware' => ['web', 'ipcheck', 'check_refer']], function () {
     Route::get('/api/wishlist/check', [InertiaWishlistController::class, 'check'])->name('wishlist.check');
     
     // Authentication
-    Route::get('/login', [InertiaAuthController::class, 'showLogin'])->name('login');
-    Route::post('/api/auth/login', [InertiaAuthController::class, 'login'])->name('auth.login');
-    Route::get('/register', [InertiaAuthController::class, 'showRegister'])->name('register');
-    Route::post('/api/auth/register', [InertiaAuthController::class, 'register'])->name('auth.register');
-    Route::post('/api/auth/logout', [InertiaAuthController::class, 'logout'])->name('auth.logout');
+    Route::get('/login', [InertiaAuthController::class, 'showLogin'])->name('customer.login');
+    Route::post('/login', [InertiaAuthController::class, 'login'])->name('auth.login');
+    Route::get('/register', [InertiaAuthController::class, 'showRegister'])->name('customer.register');
+    Route::post('/register', [InertiaAuthController::class, 'register'])->name('auth.register');
+    Route::post('/logout', [InertiaAuthController::class, 'logout'])->name('customer.logout');
     
     // Order Tracking
-    Route::get('/track-order', [InertiaOrderTrackingController::class, 'index'])->name('order.track');
+    Route::get('/track-order', [InertiaOrderTrackingController::class, 'index'])->name('customer.order_track');
     Route::post('/api/order/search', [InertiaOrderTrackingController::class, 'search'])->name('order.search');
     Route::get('/order-confirmation/{invoiceId}', [InertiaOrderTrackingController::class, 'confirmation'])->name('order.confirmation');
     

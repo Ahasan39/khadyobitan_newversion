@@ -7,6 +7,8 @@ use Inertia\Inertia;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
+use Gloudemans\Shoppingcart\Facades\Cart;
 use App\Models\Customer;
 
 class InertiaAuthController extends Controller
@@ -16,42 +18,49 @@ class InertiaAuthController extends Controller
      */
     public function showLogin()
     {
+        // If already logged in, redirect to account
+        if (Auth::guard('customer')->check()) {
+            return redirect()->route('account.show');
+        }
+        
         return Inertia::render('Login', [
             'currentPath' => '/login',
         ]);
     }
 
     /**
-     * Handle login
+     * Handle login (supports both email and phone)
      */
     public function login(Request $request)
     {
-        try {
-            $validated = $request->validate([
-                'email' => 'required|email',
-                'password' => 'required|string|min:6',
+        $request->validate([
+            'phone' => 'required|string',
+            'password' => 'required|string|min:6',
+        ]);
+
+        // Check if customer exists
+        $customer = Customer::where('phone', $request->phone)->first();
+        
+        if (!$customer) {
+            return back()->withErrors([
+                'phone' => 'No account found with this phone number.',
             ]);
+        }
 
-            if (Auth::guard('customer')->attempt($validated)) {
-                $request->session()->regenerate();
+        if (Auth::guard('customer')->attempt(['phone' => $request->phone, 'password' => $request->password])) {
+            $request->session()->regenerate();
 
-                return response()->json([
-                    'success' => true,
-                    'message' => 'Login successful',
-                    'user' => Auth::guard('customer')->user(),
-                ]);
+            // If cart has items, redirect to checkout
+            if (Cart::instance('shopping')->count() > 0) {
+                return redirect()->intended(route('checkout.show'));
             }
 
-            return response()->json([
-                'success' => false,
-                'message' => 'Invalid credentials',
-            ], 401);
-        } catch (\Exception $e) {
-            return response()->json([
-                'success' => false,
-                'message' => $e->getMessage(),
-            ], 500);
+            return redirect()->intended(route('account.show'));
         }
+
+        return back()->withErrors([
+            'password' => 'The provided credentials are incorrect.',
+        ]);
     }
 
     /**
@@ -59,8 +68,14 @@ class InertiaAuthController extends Controller
      */
     public function showRegister()
     {
-        return Inertia::render('Register', [
+        // If already logged in, redirect to account
+        if (Auth::guard('customer')->check()) {
+            return redirect()->route('account.show');
+        }
+        
+        return Inertia::render('Login', [
             'currentPath' => '/register',
+            'isRegister' => true,
         ]);
     }
 
@@ -69,35 +84,29 @@ class InertiaAuthController extends Controller
      */
     public function register(Request $request)
     {
-        try {
-            $validated = $request->validate([
-                'name' => 'required|string|max:255',
-                'email' => 'required|email|unique:customers,email',
-                'phone' => 'required|string|max:20',
-                'password' => 'required|string|min:6|confirmed',
-            ]);
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'phone' => 'required|string|unique:customers,phone',
+            'email' => 'nullable|email|unique:customers,email',
+            'password' => 'required|string|min:6|confirmed',
+        ]);
 
-            $customer = Customer::create([
-                'name' => $validated['name'],
-                'email' => $validated['email'],
-                'phone' => $validated['phone'],
-                'password' => Hash::make($validated['password']),
-                'status' => 1,
-            ]);
+        $last_id = Customer::orderBy('id', 'desc')->first();
+        $last_id = $last_id ? $last_id->id + 1 : 1;
 
-            Auth::guard('customer')->login($customer);
+        $customer = Customer::create([
+            'name' => $request->name,
+            'slug' => strtolower(Str::slug($request->name . '-' . $last_id)),
+            'phone' => $request->phone,
+            'email' => $request->email,
+            'password' => Hash::make($request->password),
+            'verify' => 1,
+            'status' => 'active',
+        ]);
 
-            return response()->json([
-                'success' => true,
-                'message' => 'Registration successful',
-                'user' => $customer,
-            ]);
-        } catch (\Exception $e) {
-            return response()->json([
-                'success' => false,
-                'message' => $e->getMessage(),
-            ], 500);
-        }
+        Auth::guard('customer')->login($customer);
+
+        return redirect()->route('account.show')->with('success', 'Account created successfully!');
     }
 
     /**
@@ -109,9 +118,6 @@ class InertiaAuthController extends Controller
         $request->session()->invalidate();
         $request->session()->regenerateToken();
 
-        return response()->json([
-            'success' => true,
-            'message' => 'Logout successful',
-        ]);
+        return redirect()->route('home')->with('success', 'You have been logged out.');
     }
 }

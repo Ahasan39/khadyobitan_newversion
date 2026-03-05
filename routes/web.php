@@ -58,6 +58,7 @@ use App\Http\Controllers\Admin\NoticeController;
 use App\Http\Controllers\Admin\OfferController;
 use App\Http\Controllers\Frontend\CheckoutLeadController;
 use App\Http\Controllers\Frontend\ProductShareController;
+use App\Http\Controllers\Frontend\FrontendController;
 use App\Http\Controllers\Admin\FeatureToggleController;
 use App\Http\Controllers\Auth\LoginController;
 
@@ -131,7 +132,25 @@ Route::get('barcodess', [ProductController::class, 'barcodess'])->name('barcodes
 // Main frontend routes are now handled by Inertia in routes/inertia.php
 
 Route::group(['namespace' => 'Frontend', 'middleware' => ['ipcheck', 'check_refer']], function () {
-    // Keep only API and non-page routes here
+    // Frontend routes used by Blade templates
+    Route::get('category/{category}', [FrontendController::class, 'category'])->name('category');
+    Route::get('subcategory/{subcategory}', [FrontendController::class, 'subcategory'])->name('subcategory');
+    Route::get('products/{slug}', [FrontendController::class, 'products'])->name('products');
+    Route::get('brand/{slug}', [FrontendController::class, 'brand'])->name('brand');
+    Route::get('best-deals', [FrontendController::class, 'bestdeals'])->name('bestdeals');
+    Route::get('new-arrival', [FrontendController::class, 'newArrival'])->name('newArrival');
+    Route::get('top-rated', [FrontendController::class, 'topRated'])->name('topRated');
+    Route::get('top-selling', [FrontendController::class, 'topSelling'])->name('topSelling');
+    Route::get('livesearch', [FrontendController::class, 'livesearch'])->name('livesearch');
+    Route::get('search', [FrontendController::class, 'search'])->name('search');
+    Route::get('site/contact-us', [FrontendController::class, 'contact'])->name('contact');
+    Route::get('/page/{slug}', [FrontendController::class, 'page'])->name('page');
+    Route::get('/coupon', [FrontendController::class, 'coupon_show'])->name('coupon.view');
+    Route::get('/campaign/{slug}', [FrontendController::class, 'campaign'])->name('campaign');
+    Route::get('/campaign-stock-check', [FrontendController::class, 'campaign_stock'])->name('campaign.stock_check');
+    Route::get('/offer', [FrontendController::class, 'offers'])->name('offers');
+    
+    // API and utility routes
     Route::get('/load-more-products', [ShoppingController::class, 'loadMoreProducts']);
     Route::get('quick-view', [ShoppingController::class, 'quickview'])->name('quickview');
     Route::get('variable-view', [ShoppingController::class, 'variable_view'])->name('variable_view');
