@@ -7,7 +7,7 @@ import {
   Leaf, FlaskConical, Package, BookOpen, Thermometer, Award, RotateCcw, MessageCircle, Phone,
 } from "lucide-react";
 import { products } from "@/data/products";
-import { getProductImageSrc } from "@/utils/imageUtils";
+import { normalizeCategoryImagePath, getProductImageSrc } from "@/utils/imageUtils";
 import { useCartStore } from "@/store/cartStore";
 import ProductCard from "@/Components/ProductCard";
 import ReviewsTab from "@/Components/ReviewsTab";
@@ -67,6 +67,23 @@ const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed
     return cat?.slug || cat?.name?.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "") || 'products';
   };
   
+  // Build image list from backend images array or fallback to single image
+  const productImages: string[] = (() => {
+    const raw = product?.images;
+    const imgs: string[] = [];
+    if (Array.isArray(raw) && raw.length > 0) {
+      raw.forEach((img: any) => {
+        const path = normalizeCategoryImagePath(img);
+        if (path) imgs.push(path);
+      });
+    }
+    if (imgs.length === 0) {
+      const single = getProductImageSrc(product);
+      imgs.push(single);
+    }
+    return imgs;
+  })();
+
   const [selectedWeight, setSelectedWeight] = useState(product?.weight || "");
   const [quantity, setQuantity] = useState(1);
   const [activeTab, setActiveTab] = useState("Description");
@@ -74,6 +91,12 @@ const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed
   const addItem = useCartStore((s) => s.addItem);
   const toggleWishlist = useCartStore((s) => s.toggleWishlist);
   const wishlist = useCartStore((s) => s.wishlist);
+
+  const currentImageSrc = productImages[selectedImage] || productImages[0] || '/uploads/default/no-image.png';
+  const handleImgError = (e: React.SyntheticEvent<HTMLImageElement>) => {
+    const el = e.target as HTMLImageElement;
+    if (!el.src.includes('no-image.png')) el.src = '/uploads/default/no-image.png';
+  };
 
   const allTabs = [t("product.description"), t("product.reviews")];
 
@@ -145,7 +168,7 @@ const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="lg:col-span-7">
             <div className="sticky top-24">
               <div className="aspect-[4/3] bg-muted rounded-2xl relative overflow-hidden group border border-border/40">
-                <img src={getProductImageSrc(product)} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <img src={currentImageSrc} alt={product.name} onError={handleImgError} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                 {discount > 0 && (
                   <span className="absolute top-4 left-4 bg-accent text-accent-foreground text-xs font-bold px-3 py-1 rounded-lg font-body shadow-sm">-{discount}%</span>
                 )}
@@ -153,13 +176,15 @@ const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed
                   <span key={b} className="absolute top-4 right-4 bg-primary text-primary-foreground text-xs font-bold px-3 py-1 rounded-lg font-body shadow-sm">{b}</span>
                 ))}
               </div>
-              <div className="flex gap-2.5 mt-3">
-                {[0, 1, 2, 3].map((i) => (
-                  <button key={i} onClick={() => setSelectedImage(i)} className={`flex-1 aspect-square max-w-[80px] rounded-xl bg-muted overflow-hidden border-2 transition-all duration-200 hover:border-primary/50 ${selectedImage === i ? "border-primary shadow-md" : "border-transparent"}`}>
-                    <img src={getProductImageSrc(product)} alt={product.name} className="w-full h-full object-cover" />
-                  </button>
-                ))}
-              </div>
+              {productImages.length > 1 && (
+                <div className="flex gap-2.5 mt-3">
+                  {productImages.slice(0, 4).map((imgSrc, i) => (
+                    <button key={i} onClick={() => setSelectedImage(i)} className={`flex-1 aspect-square max-w-[80px] rounded-xl bg-muted overflow-hidden border-2 transition-all duration-200 hover:border-primary/50 ${selectedImage === i ? "border-primary shadow-md" : "border-transparent"}`}>
+                      <img src={imgSrc} alt={`${product.name} ${i + 1}`} onError={handleImgError} className="w-full h-full object-cover" />
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
           </motion.div>
 

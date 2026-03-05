@@ -64,7 +64,8 @@ export const getProductImageSrc = (product: { slug?: string; image?: any }): str
     // Normalize the path
     const imageUrl = normalizeImagePath(rawPath);
     
-    if (imageUrl.startsWith("http") || imageUrl.startsWith("/storage") || imageUrl.startsWith("/uploads")) {
+    // Accept any non-empty path: absolute URLs, /storage, /uploads, or any other server path
+    if (imageUrl && imageUrl !== "/placeholder.svg") {
       return imageUrl;
     }
   }
@@ -76,4 +77,13 @@ export const getProductImageSrc = (product: { slug?: string; image?: any }): str
   
   // Fallback to placeholder
   return "/placeholder.svg";
+};
+
+/**
+ * Normalize a raw image path from the database to a usable URL
+ */
+export const normalizeCategoryImagePath = (imagePath: any): string => {
+  if (!imagePath) return "";
+  const raw = extractImagePath(imagePath) || String(imagePath);
+  return normalizeImagePath(raw);
 };

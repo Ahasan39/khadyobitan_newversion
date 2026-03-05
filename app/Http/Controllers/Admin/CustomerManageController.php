@@ -65,6 +65,7 @@ class CustomerManageController extends Controller
             $name = strtolower(preg_replace('/\s+/', '-', $name));
             $uploadpath = 'public/uploads/customer/';
             $imageUrl = $uploadpath.$name; 
+            $diskImagePath = public_path('uploads/customer/') . $name;
             $img=Image::make($image->getRealPath());
             $img->encode('webp', 90);
             $width = 100;
@@ -73,7 +74,7 @@ class CustomerManageController extends Controller
             $img->resize($width, $height, function ($constraint) {
                 $constraint->aspectRatio();
             });
-            $img->save($imageUrl);
+            $img->save($diskImagePath);
             $input['image'] = $imageUrl;
             File::delete($update_data->image);
         }else{

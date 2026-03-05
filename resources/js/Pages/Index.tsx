@@ -5,7 +5,7 @@ import { Leaf, Truck, Shield, Heart, Zap, Award, Star, ChevronRight, ArrowRight,
 import { useTranslation } from "react-i18next";
 import { blogPosts } from "@/data/blogPosts";
 import ProductCard from "@/Components/ProductCard";
-import { products, categories, testimonials } from "@/data/products";
+import { categories, testimonials } from "@/data/products";
 import MainLayout from "@/Components/layout/MainLayout";
 import heroSlide1 from "@/assets/hero-slide-1.jpg";
 import heroSlide2 from "@/assets/hero-slide-2.jpg";
@@ -103,23 +103,42 @@ const Index = ({
   });
 
   const featuredProducts = useMemo(() => {
-    const raw = (hotdeal_top && hotdeal_top.length > 0) ? hotdeal_top : products.slice(0, 8);
+    const raw = (hotdeal_top && hotdeal_top.length > 0)
+      ? hotdeal_top
+      : (top_selling && top_selling.length > 0)
+        ? top_selling
+        : [];
     return raw.map(mapProduct);
-  }, [hotdeal_top]);
+  }, [hotdeal_top, top_selling]);
 
   const allPageProducts = useMemo(() => {
     const fromProps = Array.isArray(all_products) ? all_products : all_products?.data;
-    const raw = (fromProps && fromProps.length > 0) ? fromProps : products;
+    const raw = (fromProps && fromProps.length > 0) ? fromProps : [];
     return raw.map(mapProduct);
   }, [all_products]);
 
+  // Helper to resolve category image: DB URL or static fallback key
+  const resolveCategoryImage = (cat: any): string => {
+    if (cat.image) {
+      // If it's a known static key, use it; otherwise treat as URL
+      if (categoryImages[cat.image]) return categoryImages[cat.image];
+      // Normalize DB path
+      let path = cat.image;
+      if (path.startsWith('public/uploads/')) path = '/' + path.slice(7);
+      else if (path.startsWith('uploads/')) path = '/' + path;
+      return path;
+    }
+    // Fallback: try slug-based static image
+    const slugKey = `cat-${cat.slug?.split('-')[0]}`;
+    return categoryImages[slugKey] || catSalts;
+  };
+
   // Use dynamic categories if available
   const displayCategories = useMemo(() => {
-    if (!homecategory || homecategory.length === 0) return categories;
-    return homecategory.map(c => ({
-      ...c,
-      image: c.image || (categoryImages[`cat-${c.slug}`] ? `cat-${c.slug}` : "cat-salts")
-    }));
+    if (homecategory && homecategory.length > 0) {
+      return homecategory.map(c => ({ ...c }));
+    }
+    return categories;
   }, [homecategory]);
 
   const { t } = useTranslation();
@@ -214,7 +233,7 @@ const Index = ({
               {[...displayCategories, ...displayCategories, ...displayCategories, ...displayCategories].map((cat, i) => (
                 <Link key={`${cat.slug}-${i}`} href={`/shop?category=${cat.slug}`} className="group flex flex-col items-center gap-2 sm:gap-3 flex-shrink-0">
                   <div className="w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 rounded-full overflow-hidden border-2 border-border group-hover:border-primary shadow-sm group-hover:shadow-lg transition-all duration-300">
-                    <img src={categoryImages[cat.image] || catSalts} alt={cat.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                    <img src={resolveCategoryImage(cat)} alt={cat.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onError={(e) => { const el = e.target as HTMLImageElement; if (!el.dataset.fallback) { el.dataset.fallback = '1'; el.src = categoryImages[`cat-${cat.slug?.split('-')[0]}`] || catSalts; } }} />
                   </div>
                   <h3 className="font-heading text-xs sm:text-sm font-semibold text-foreground text-center leading-tight max-w-[90px] sm:max-w-[120px] group-hover:text-primary transition-colors duration-300">{cat.name}</h3>
                 </Link>

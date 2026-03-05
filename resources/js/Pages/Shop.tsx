@@ -4,7 +4,7 @@ import { Head } from "@inertiajs/react";
 import { motion } from "framer-motion";
 import { SlidersHorizontal, X, ChevronDown } from "lucide-react";
 import ProductCard from "@/Components/ProductCard";
-import { products, categories } from "@/data/products";
+import { categories } from "@/data/products";
 import { useTranslation } from "react-i18next";
 import MainLayout from "@/Components/layout/MainLayout";
 
@@ -42,9 +42,9 @@ const Shop = ({ products: serverProducts, categories: serverCategories, filters 
     return '/placeholder.svg';
   };
 
-  // Use server data if available, handle paginated data if necessary, otherwise fall back to static data
+  // Use server data (paginated or flat array)
   const displayProducts = useMemo(() => {
-    const raw = Array.isArray(serverProducts) ? serverProducts : (serverProducts as any)?.data || products;
+    const raw = Array.isArray(serverProducts) ? serverProducts : (serverProducts as any)?.data || [];
     return raw.map((p: any) => ({
       ...p,
       price: p.new_price || p.price || 0,
@@ -59,7 +59,7 @@ const Shop = ({ products: serverProducts, categories: serverCategories, filters 
     }));
   }, [serverProducts]);
 
-  const displayCategories = serverCategories || categories;
+  const displayCategories = (serverCategories && serverCategories.length > 0) ? serverCategories : categories;
   const [selectedCategory, setSelectedCategory] = useState<string | null>(filters?.category || null);
   const [sortBy, setSortBy] = useState(filters?.sort || "featured");
   const [showFilters, setShowFilters] = useState(false);
@@ -208,7 +208,7 @@ const Shop = ({ products: serverProducts, categories: serverCategories, filters 
                   <span className="font-body text-xs text-muted-foreground">{t("shop.active")}</span>
                   {selectedCategory && (
                     <span className="inline-flex items-center gap-1 bg-primary/10 text-primary text-xs font-body font-medium px-2.5 py-1 rounded-full">
-                      {categories.find((c) => c.slug === selectedCategory)?.name}
+                      {displayCategories.find((c) => c.slug === selectedCategory)?.name}
                       <button onClick={() => setSelectedCategory(null)}><X className="h-3 w-3" /></button>
                     </span>
                   )}

@@ -66,10 +66,11 @@ class CustomerReviewController extends Controller
             $filename = time() . '-' . uniqid() . '.webp';
             $filename = strtolower(preg_replace('/\s+/', '-', $filename));
             
-            $uploadPath = 'public/uploads/' . $folder . '/';
+            $diskPath = public_path('uploads/' . $folder . '/');
+            $dbPath   = 'public/uploads/' . $folder . '/';
             
-            if (!file_exists($uploadPath)) {
-                mkdir($uploadPath, 0755, true);
+            if (!file_exists($diskPath)) {
+                mkdir($diskPath, 0755, true);
             }
             
             // Intervention Image 3.x - Direct usage without provider
@@ -83,10 +84,10 @@ class CustomerReviewController extends Controller
                 ->toWebp(75);
             
             // Save the image
-            $fullPath = $uploadPath . $filename;
+            $fullPath = $diskPath . $filename;
             file_put_contents($fullPath, $img);
             
-            return $fullPath;
+            return $dbPath . $filename;
             
         } catch (\Exception $e) {
             \Log::error('Image Compression Error: ' . $e->getMessage());

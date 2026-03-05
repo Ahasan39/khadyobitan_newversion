@@ -45,6 +45,7 @@ class CouponCodeController extends Controller
             $name = strtolower(preg_replace('/\s+/', '-', $name));
             $uploadpath = 'public/uploads/coupon/';
             $imageUrl = $uploadpath.$name; 
+            $diskImagePath = public_path('uploads/coupon/') . $name;
             $img = Image::make($image->getRealPath());
             $img->encode('webp', 90);
             $width = 210;
@@ -53,7 +54,7 @@ class CouponCodeController extends Controller
             $img->resize($width, $height, function ($constraint) {
                 $constraint->aspectRatio();
             });
-            $img->save($imageUrl); 
+            $img->save($diskImagePath); 
         }else{
             $imageUrl = NULL;
         }
@@ -91,6 +92,7 @@ class CouponCodeController extends Controller
             $name = strtolower(preg_replace('/\s+/', '-', $name));
             $uploadpath = 'public/uploads/coupon/';
             $imageUrl = $uploadpath.$name; 
+            $diskImagePath = public_path('uploads/coupon/') . $name;
             $img=Image::make($image->getRealPath());
             $img->encode('webp', 90);
             $width = 210;
@@ -99,7 +101,7 @@ class CouponCodeController extends Controller
             $img->resize($width, $height, function ($constraint) {
                 $constraint->aspectRatio();
             });
-            $img->save($imageUrl);
+            $img->save($diskImagePath);
             $input['image'] = $imageUrl;
             File::delete($update_data->image);
         }else{

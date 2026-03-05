@@ -4,7 +4,6 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use Inertia\Inertia;
-use Illuminate\Support\Facades\Cache;
 use App\Models\Product;
 use App\Models\Category;
 use App\Models\Brand;
@@ -17,22 +16,20 @@ class InertiaHomeController extends Controller
      */
     public function index()
     {
-        $homeData = Cache::remember('home_page_data', 60 * 60, function() {
-            return [
-                'sliders' => $this->getSliders(),
-                'sliderrightads' => $this->getSliderRightAds(),
-                'popup_banner' => $this->getPopupBanner(),
-                'hotdeal_top' => $this->getHotDealTop(),
-                'new_arrival' => $this->getNewArrival(),
-                'top_rated' => $this->getTopRated(),
-                'top_selling' => $this->getTopSelling(),
-                'homecategory' => $this->getHomeCategory(),
-                'brands' => $this->getBrands(),
-            ];
-        });
+        $homeData = [
+            'sliders' => $this->getSliders(),
+            'sliderrightads' => $this->getSliderRightAds(),
+            'popup_banner' => $this->getPopupBanner(),
+            'hotdeal_top' => $this->getHotDealTop(),
+            'new_arrival' => $this->getNewArrival(),
+            'top_rated' => $this->getTopRated(),
+            'top_selling' => $this->getTopSelling(),
+            'homecategory' => $this->getHomeCategory(),
+            'brands' => $this->getBrands(),
+        ];
 
         $all_products = Product::where('status', 1)
-            ->with('image')
+            ->with(['image', 'category'])
             ->select('id', 'name', 'slug', 'new_price', 'old_price', 'type', 'category_id')
             ->paginate(12);
 
@@ -79,6 +76,7 @@ class InertiaHomeController extends Controller
     private function getHotDealTop()
     {
         return Product::where(['status' => 1, 'topsale' => 1])
+            ->with(['image', 'category'])
             ->select('id', 'name', 'slug', 'new_price', 'old_price', 'type', 'category_id')
             ->orderBy('id', 'DESC')
             ->withCount('variable')
@@ -92,6 +90,7 @@ class InertiaHomeController extends Controller
     private function getNewArrival()
     {
         return Product::where(['status' => 1, 'new_arrival' => 1])
+            ->with(['image', 'category'])
             ->select('id', 'name', 'slug', 'new_price', 'old_price', 'type', 'category_id')
             ->orderBy('id', 'DESC')
             ->withCount('variable')
@@ -105,6 +104,7 @@ class InertiaHomeController extends Controller
     private function getTopRated()
     {
         return Product::where(['status' => 1, 'top_rated' => 1])
+            ->with(['image', 'category'])
             ->select('id', 'name', 'slug', 'new_price', 'old_price', 'type', 'category_id')
             ->orderBy('id', 'DESC')
             ->withCount('variable')
@@ -118,6 +118,7 @@ class InertiaHomeController extends Controller
     private function getTopSelling()
     {
         return Product::where(['status' => 1, 'top_selling' => 1])
+            ->with(['image', 'category'])
             ->select('id', 'name', 'slug', 'new_price', 'old_price', 'type', 'category_id')
             ->orderBy('id', 'DESC')
             ->withCount('variable')
@@ -131,9 +132,13 @@ class InertiaHomeController extends Controller
     private function getHomeCategory()
     {
         return Category::where(['front_view' => 1, 'status' => 1])
-            ->select('id', 'name', 'slug', 'front_view', 'status')
+            ->select('id', 'name', 'slug', 'image', 'front_view', 'status')
             ->orderBy('id', 'ASC')
-            ->get();
+            ->get()
+            ->map(function($cat) {
+                $cat->count = Product::where('status', 1)->where('category_id', $cat->id)->count();
+                return $cat;
+            });
     }
 
     /**

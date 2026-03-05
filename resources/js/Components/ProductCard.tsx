@@ -57,7 +57,7 @@ const ProductCard = ({ product: rawProduct, index = 0 }: ProductCardProps) => {
         className="group block bg-card rounded-2xl overflow-hidden border border-border/60 hover:border-primary/30 hover:shadow-xl hover:shadow-primary/5 transition-all duration-500"
       >
         <div className="relative aspect-[4/3.5] bg-muted overflow-hidden">
-          <img src={imageSrc} alt={product.name} className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+          <img src={imageSrc} alt={product.name} className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" onError={(e) => { const el = e.target as HTMLImageElement; if (!el.src.includes('no-image.png')) el.src = '/uploads/default/no-image.png'; }} />
           <div className="absolute top-2.5 left-2.5 flex flex-col gap-1.5">
             {discount > 0 && (
               <span className="bg-accent text-accent-foreground text-[10px] font-bold px-2 py-0.5 rounded-md font-body shadow-sm">-{discount}%</span>

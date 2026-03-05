@@ -16,15 +16,19 @@ class InertiaShopController extends Controller
     public function index(Request $request)
     {
         $query = Product::where('status', 1)
+            ->with(['image', 'category'])
             ->select('id', 'name', 'slug', 'new_price', 'old_price', 'type', 'category_id')
             ->withCount('variable');
 
         // Apply sorting
         $query = $this->applySorting($query, $request->sort);
 
-        // Apply category filter if provided
+        // Apply category filter if provided (support both slug and id)
         if ($request->category) {
-            $query->where('category_id', $request->category);
+            $cat = Category::where('slug', $request->category)->orWhere('id', $request->category)->first();
+            if ($cat) {
+                $query->where('category_id', $cat->id);
+            }
         }
 
         // Apply price range filter if provided
@@ -33,7 +37,14 @@ class InertiaShopController extends Controller
         }
 
         $products = $query->paginate(12);
-        $categories = Category::where('status', 1)->select('id', 'name', 'slug')->get();
+        $categories = Category::where('status', 1)
+            ->select('id', 'name', 'slug', 'image')
+            ->get()
+            ->map(function($cat) {
+                $cat->count = \App\Models\Product::where('status', 1)
+                    ->where('category_id', $cat->id)->count();
+                return $cat;
+            });
 
         return Inertia::render('Shop', [
             'products' => $products,
@@ -80,6 +91,7 @@ class InertiaShopController extends Controller
         $perPage = 12;
 
         $query = Product::where('status', 1)
+            ->with(['image', 'category'])
             ->select('id', 'name', 'slug', 'new_price', 'old_price', 'type', 'category_id')
             ->withCount('variable');
 
@@ -88,7 +100,10 @@ class InertiaShopController extends Controller
 
         // Apply filters
         if ($request->category) {
-            $query->where('category_id', $request->category);
+            $cat = Category::where('slug', $request->category)->orWhere('id', $request->category)->first();
+            if ($cat) {
+                $query->where('category_id', $cat->id);
+            }
         }
 
         if ($request->min_price && $request->max_price) {
