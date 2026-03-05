@@ -87,22 +87,22 @@ class InertiaAuthController extends Controller
         $request->validate([
             'name' => 'required|string|max:255',
             'phone' => 'required|string|unique:customers,phone',
-            'email' => 'nullable|email|unique:customers,email',
-            'password' => 'required|string|min:6|confirmed',
+            'email' => 'nullable|email',
+            'password' => 'required|string|min:6',
         ]);
 
         $last_id = Customer::orderBy('id', 'desc')->first();
         $last_id = $last_id ? $last_id->id + 1 : 1;
 
-        $customer = Customer::create([
-            'name' => $request->name,
-            'slug' => strtolower(Str::slug($request->name . '-' . $last_id)),
-            'phone' => $request->phone,
-            'email' => $request->email,
-            'password' => Hash::make($request->password),
-            'verify' => 1,
-            'status' => 'active',
-        ]);
+        $customer = new Customer();
+        $customer->name = $request->name;
+        $customer->slug = strtolower(Str::slug($request->name . '-' . $last_id));
+        $customer->phone = $request->phone;
+        $customer->email = $request->email ?? '';
+        $customer->password = bcrypt($request->password);
+        $customer->verify = 1;
+        $customer->status = 'active';
+        $customer->save();
 
         Auth::guard('customer')->login($customer);
 
