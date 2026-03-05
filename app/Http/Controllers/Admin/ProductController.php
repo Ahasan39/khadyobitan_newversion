@@ -325,6 +325,9 @@ if ($request->policy_title && is_array($request->policy_title)) {
         $input['slug'] = $this->slug_generate($request->name, $update_data->id);
         $input['status'] = $request->status ? 1 : 0;
         $input['topsale'] = $request->topsale ? 1 : 0;
+        $input['new_arrival'] = $request->new_arrival ? 1 : 0;
+        $input['top_rated'] = $request->top_rated ? 1 : 0;
+        $input['top_selling'] = $request->top_selling ? 1 : 0;
         $update_data->update($input);
         $update_data->shipping_charge_dhaka = $request->shipping_charge_dhaka;
         $update_data->shipping_charge_outside_dhaka = $request->shipping_charge_outside_dhaka;

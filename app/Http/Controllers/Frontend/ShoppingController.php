@@ -45,7 +45,12 @@ class ShoppingController extends Controller
     public function cart_store(Request $request)
     {
         // Get product with full information for events
-        $product = Product::with('image', 'category')->select('id', 'name', 'slug', 'new_price', 'old_price', 'purchase_price', 'type', 'stock','category_id','shipping_title_dhaka','shipping_amount_dhaka','shipping_title_outside_dhaka','shipping_amount_outside_dhaka')->where(['id' => $request->id])->first();
+        $product = Product::with('image', 'category')->select('id', 'name', 'slug', 'new_price', 'old_price', 'purchase_price', 'type', 'stock','category_id','shipping_title_dhaka','shipping_amount_dhaka','shipping_title_outside_dhaka','shipping_amount_outside_dhaka')->where(['id' => $request->id, 'status' => 1])->first();
+
+        if (!$product) {
+            Toastr::error('This product is not available', 'Failed!');
+            return back();
+        }
         
         $var_product = ProductVariable::where(['product_id' => $request->id, 'color' => $request->product_color, 'size' => $request->product_size])->first();
         
@@ -139,7 +144,11 @@ class ShoppingController extends Controller
 
     public function ajax_cart_store(Request $request)
     {
-        $productInfo = Product::select('id', 'name', 'slug', 'new_price', 'old_price', 'purchase_price', 'type', 'stock', 'category_id','shipping_title_dhaka','shipping_amount_dhaka','shipping_title_outside_dhaka','shipping_amount_outside_dhaka')->where(['id' => $request->id])->first();
+        $productInfo = Product::select('id', 'name', 'slug', 'new_price', 'old_price', 'purchase_price', 'type', 'stock', 'category_id','shipping_title_dhaka','shipping_amount_dhaka','shipping_title_outside_dhaka','shipping_amount_outside_dhaka')->where(['id' => $request->id, 'status' => 1])->first();
+
+        if (!$productInfo) {
+            return response()->json(['success' => false, 'message' => 'This product is not available']);
+        }
         $var_product = ProductVariable::where(['product_id' => $request->id, 'color' => $request->color, 'size' => $request->size])->first();
         if ($productInfo->type == 0) {
             $purchase_price = $var_product ? $var_product->purchase_price : 0;

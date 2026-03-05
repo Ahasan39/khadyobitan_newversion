@@ -103,13 +103,14 @@ const Index = ({
   });
 
   const featuredProducts = useMemo(() => {
-    const raw = (hotdeal_top && hotdeal_top.length > 0)
-      ? hotdeal_top
-      : (top_selling && top_selling.length > 0)
-        ? top_selling
-        : [];
+    const raw = (hotdeal_top && hotdeal_top.length > 0) ? hotdeal_top : [];
     return raw.map(mapProduct);
-  }, [hotdeal_top, top_selling]);
+  }, [hotdeal_top]);
+
+  const bestSellerProducts = useMemo(() => {
+    const raw = (top_selling && top_selling.length > 0) ? top_selling : [];
+    return raw.map(mapProduct);
+  }, [top_selling]);
 
   const allPageProducts = useMemo(() => {
     const fromProps = Array.isArray(all_products) ? all_products : all_products?.data;
@@ -255,7 +256,7 @@ const Index = ({
               </Link>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-6">
-              {featuredProducts.map((product, i) => (
+              {bestSellerProducts.map((product, i) => (
                 <ProductCard key={product.id} product={product} index={i} />
               ))}
             </div>

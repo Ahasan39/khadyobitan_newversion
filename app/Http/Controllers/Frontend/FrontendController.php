@@ -754,6 +754,7 @@ public function details($slug)
     public function product_feed()
     {
         $products = Product::select('id', 'name', 'slug', 'description', 'stock', 'new_price', 'category_id', 'brand_id')
+            ->where('status', 1)
             ->with(['image', 'category', 'brand'])
             ->get();
 
