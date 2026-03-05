@@ -15,7 +15,6 @@
     <link rel="icon" href="{{ asset('favicon.ico') }}">
 
     <!-- Scripts -->
-    @routes
     @viteReactRefresh
     @vite(['resources/css/app.css', 'resources/js/app.tsx'])
     @inertiaHead

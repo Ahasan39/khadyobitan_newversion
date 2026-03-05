@@ -1,28 +1,68 @@
-import { useParams, Link } from "react-router-dom";
+import React, { useMemo } from 'react';
+import { Link, Head, usePage } from "@inertiajs/react";
 import { motion } from "framer-motion";
 import { ArrowLeft, Clock, Calendar, ChevronRight } from "lucide-react";
-import { blogPosts } from "@/data/blogPosts";
+import { blogPosts as staticBlogPosts } from "@/data/blogPosts";
 import { useTranslation } from "react-i18next";
+import MainLayout from "@/Components/layout/MainLayout";
 
-const BlogDetail = () => {
+interface BlogPost {
+  id: number;
+  slug: string;
+  title: string;
+  image?: string;
+  category?: string;
+  readTime?: string;
+  date?: string;
+  created_at?: string;
+  excerpt?: string;
+  description?: string;
+  content?: string;
+}
+
+interface BlogDetailProps {
+  post?: BlogPost;
+  relatedPosts?: BlogPost[];
+  slug?: string;
+}
+
+const BlogDetail = ({ post: serverPost, relatedPosts: serverRelatedPosts, slug }: BlogDetailProps) => {
   const { t } = useTranslation();
-  const { slug } = useParams<{ slug: string }>();
-  const post = blogPosts.find((p) => p.slug === slug);
+  
+  // Use server post if available, otherwise find from static data
+  const post = useMemo(() => {
+    if (serverPost) {
+      return {
+        ...serverPost,
+        image: serverPost.image || '/placeholder.svg',
+        category: serverPost.category || 'General',
+        readTime: serverPost.readTime || '5 min read',
+        date: serverPost.date || (serverPost.created_at ? new Date(serverPost.created_at).toLocaleDateString() : ''),
+        content: serverPost.content || serverPost.description || '',
+      };
+    }
+    // Fallback to static data
+    return staticBlogPosts.find((p) => p.slug === slug);
+  }, [serverPost, slug]);
 
-  if (!post) {
-    return (
-    <>
-      <Head title="Blog - Khadyobitan" />
-      <div className="min-h-[60vh] flex flex-col items-center justify-center">
-        <h1 className="font-heading text-3xl font-bold text-foreground mb-4">{t("blog.postNotFound")}</h1>
-        <Link href="/blog" className="text-primary font-body hover:underline inline-flex items-center gap-1">
-          <ArrowLeft className="h-4 w-4" /> {t("blog.backToBlog")}
-        </Link>
-      </div>
-    );
-  }
+  // Use server related posts if available, otherwise use static
+  const relatedPosts = useMemo(() => {
+    if (serverRelatedPosts && serverRelatedPosts.length > 0) {
+      return serverRelatedPosts.map((p: BlogPost) => ({
+        ...p,
+        image: p.image || '/placeholder.svg',
+        category: p.category || 'General',
+      }));
+    }
+    if (post) {
+      return staticBlogPosts.filter((p) => p.id !== post.id).slice(0, 3);
+    }
+    return [];
+  }, [serverRelatedPosts, post]);
 
-  const relatedPosts = blogPosts.filter((p) => p.id !== post.id).slice(0, 3);
+  const formatInline = (text: string): string => {
+    return text.replace(/\*\*(.+?)\*\*/g, '<strong class="text-foreground font-semibold">$1</strong>').replace(/\*(.+?)\*/g, '<em>$1</em>');
+  };
 
   const renderContent = (content: string) => {
     const lines = content.trim().split("\n");
@@ -44,9 +84,9 @@ const BlogDetail = () => {
         continue;
       } else if (line.startsWith("| ") && lines[i + 1]?.startsWith("|--")) {
         const headers = line.split("|").filter(Boolean).map(h => h.trim());
-        i++;
+        i++; // skip header
+        i++; // skip divider
         const rows: string[][] = [];
-        i++;
         while (i < lines.length && lines[i].startsWith("| ")) { rows.push(lines[i].split("|").filter(Boolean).map(c => c.trim())); i++; }
         elements.push(
           <div key={`table-${i}`} className="overflow-x-auto my-6">
@@ -74,63 +114,73 @@ const BlogDetail = () => {
     return elements;
   };
 
-  const formatInline = (text: string): string => {
-    return text.replace(/\*\*(.+?)\*\*/g, '<strong class="text-foreground font-semibold">$1</strong>').replace(/\*(.+?)\*/g, '<em>$1</em>');
-  };
+  if (!post) {
+    return (
+      <MainLayout>
+        <Head title="Blog - Khadyobitan" />
+        <div className="min-h-[60vh] flex flex-col items-center justify-center">
+          <h1 className="font-heading text-3xl font-bold text-foreground mb-4">{t("blog.postNotFound")}</h1>
+          <Link href="/blog" className="text-primary font-body hover:underline inline-flex items-center gap-1">
+            <ArrowLeft className="h-4 w-4" /> {t("blog.backToBlog")}
+          </Link>
+        </div>
+      </MainLayout>
+    );
+  }
 
   return (
-    <>
+    <MainLayout>
       <Head title="Blog - Khadyobitan" />
       <div>
-      <div className="relative h-64 sm:h-80 md:h-96 overflow-hidden">
-        <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 via-foreground/30 to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-10">
-          <div className="container-custom">
-            <Link href="/blog" className="inline-flex items-center gap-1 text-primary-foreground/80 font-body text-sm mb-3 hover:text-primary-foreground transition-colors">
-              <ArrowLeft className="h-4 w-4" /> {t("blog.backToBlog")}
-            </Link>
-            <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="font-heading text-2xl sm:text-3xl md:text-4xl font-bold text-primary-foreground max-w-3xl">
-              {post.title}
-            </motion.h1>
-          </div>
-        </div>
-      </div>
-
-      <section className="section-padding">
-        <div className="container-custom max-w-3xl">
-          <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>
-            <div className="flex flex-wrap items-center gap-4 mb-8 pb-6 border-b border-border">
-              <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-body font-medium">{post.category}</span>
-              <span className="flex items-center gap-1.5 text-sm text-muted-foreground font-body"><Calendar className="h-4 w-4" />{post.date}</span>
-              <span className="flex items-center gap-1.5 text-sm text-muted-foreground font-body"><Clock className="h-4 w-4" />{post.readTime}</span>
-            </div>
-            <div className="prose-custom">{renderContent(post.content)}</div>
-          </motion.div>
-        </div>
-      </section>
-
-      <section className="section-padding bg-muted/50">
-        <div className="container-custom">
-          <h2 className="font-heading text-2xl font-bold text-foreground mb-6">{t("blog.youMayAlsoLike")}</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {relatedPosts.map((rp) => (
-              <Link key={rp.id} href={`/blog/${rp.slug}`} className="bg-card border border-border rounded-xl overflow-hidden hover:shadow-md transition-shadow group">
-                <div className="aspect-video overflow-hidden">
-                  <img src={rp.image} alt={rp.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                </div>
-                <div className="p-4">
-                  <span className="px-2 py-0.5 bg-primary/10 text-primary rounded-full text-xs font-body font-medium">{rp.category}</span>
-                  <h3 className="font-heading text-sm font-semibold text-foreground mt-2 line-clamp-2 group-hover:text-primary transition-colors">{rp.title}</h3>
-                  <span className="inline-flex items-center gap-1 text-primary text-xs font-body font-medium mt-2">{t("blog.readMore")} <ChevronRight className="h-3 w-3" /></span>
-                </div>
+        <div className="relative h-64 sm:h-80 md:h-96 overflow-hidden">
+          <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 via-foreground/30 to-transparent" />
+          <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-10">
+            <div className="container-custom">
+              <Link href="/blog" className="inline-flex items-center gap-1 text-primary-foreground/80 font-body text-sm mb-3 hover:text-primary-foreground transition-colors">
+                <ArrowLeft className="h-4 w-4" /> {t("blog.backToBlog")}
               </Link>
-            ))}
+              <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="font-heading text-2xl sm:text-3xl md:text-4xl font-bold text-primary-foreground max-w-3xl">
+                {post.title}
+              </motion.h1>
+            </div>
           </div>
         </div>
-      </section>
-    </div>
-    </>
+
+        <section className="section-padding">
+          <div className="container-custom max-w-3xl">
+            <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>
+              <div className="flex flex-wrap items-center gap-4 mb-8 pb-6 border-b border-border">
+                <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-body font-medium">{post.category}</span>
+                <span className="flex items-center gap-1.5 text-sm text-muted-foreground font-body"><Calendar className="h-4 w-4" />{post.date}</span>
+                <span className="flex items-center gap-1.5 text-sm text-muted-foreground font-body"><Clock className="h-4 w-4" />{post.readTime}</span>
+              </div>
+              <div className="prose-custom">{renderContent(post.content)}</div>
+            </motion.div>
+          </div>
+        </section>
+
+        <section className="section-padding bg-muted/50">
+          <div className="container-custom">
+            <h2 className="font-heading text-2xl font-bold text-foreground mb-6">{t("blog.youMayAlsoLike")}</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {relatedPosts.map((rp) => (
+                <Link key={rp.id} href={`/blog/${rp.slug}`} className="bg-card border border-border rounded-xl overflow-hidden hover:shadow-md transition-shadow group">
+                  <div className="aspect-video overflow-hidden">
+                    <img src={rp.image} alt={rp.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                  </div>
+                  <div className="p-4">
+                    <span className="px-2 py-0.5 bg-primary/10 text-primary rounded-full text-xs font-body font-medium">{rp.category}</span>
+                    <h3 className="font-heading text-sm font-semibold text-foreground mt-2 line-clamp-2 group-hover:text-primary transition-colors">{rp.title}</h3>
+                    <span className="inline-flex items-center gap-1 text-primary text-xs font-body font-medium mt-2">{t("blog.readMore")} <ChevronRight className="h-3 w-3" /></span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      </div>
+    </MainLayout>
   );
 };
 export default BlogDetail;

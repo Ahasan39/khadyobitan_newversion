@@ -1,11 +1,14 @@
 <?php
 
+// ==================== INERTIA FRONTEND ROUTES ====================
+// All React frontend routes using Inertia.js
+require __DIR__ . '/inertia.php';
+
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Auth;
 use Brian2694\Toastr\Facades\Toastr;
 
-use App\Http\Controllers\Frontend\FrontendController;
 use App\Http\Controllers\Frontend\ShoppingController;
 use App\Http\Controllers\Frontend\CustomerController;
 use App\Http\Controllers\Frontend\BkashController;
@@ -71,7 +74,6 @@ Route::get('/cc', function () {
     Artisan::call('cache:clear');
     Artisan::call('route:clear');
     Artisan::call('view:clear');
-    // dd('ok');
     Toastr::success('System cache clear successfully');
     return redirect()->back();
 });
@@ -94,7 +96,6 @@ Route::get('/run-migration', function () {
     return 'Migration completed successfully!';
 });
 
-
 Route::get('/create-storage-link', function () {
     try {
         Artisan::call('storage:link');
@@ -103,15 +104,13 @@ Route::get('/create-storage-link', function () {
         return "Failed to create storage link: " . $e->getMessage();
     }
 });
-// auto update
+
 Route::get('/update-version', [UpdateClientController::class, 'showUpdatePage'])->name('update.page');
-Route::post('/get-update-details', [UpdateClientController::class, 'getUpdateDetails'])
-    ->name('update.details');
+Route::post('/get-update-details', [UpdateClientController::class, 'getUpdateDetails'])->name('update.details');
 Route::post('/run-update', [UpdateClientController::class, 'runUpdateAjax'])->name('update.run');
 Route::get('/view-update-log', [UpdateClientController::class, 'viewLogs'])->name('viewLogs');
 Route::get('/admin/licenses', [UpdateLicenseController::class, 'index'])->name('licenses.index');
 Route::post('/admin/licenses/generate', [UpdateLicenseController::class, 'generate'])->name('licenses.generate');
-
 
 Route::get('/update-shipping-session', [ShoppingController::class, 'updateShippingSession'])->name('update.shipping.session');
 
@@ -120,44 +119,26 @@ Route::get('/generate-sitemap', function () {
     return "Cleared!";
 });
 
-
-
-Route::post('/checkout/lead-save', [CheckoutLeadController::class, 'store'])
-    ->name('checkout.lead.store');
+Route::post('/checkout/lead-save', [CheckoutLeadController::class, 'store'])->name('checkout.lead.store');
 
 Route::post('/customer/coupon', [CustomerController::class, 'customer_coupon'])->name('customer.coupon');
 Route::post('/customer/coupon-remove', [CustomerController::class, 'coupon_remove'])->name('customer.coupon_remove');
 
 Route::get('barcodess', [ProductController::class, 'barcodess'])->name('barcodess.update');
 
+// ==================== OLD FRONTEND ROUTES (KEPT FOR BACKWARD COMPATIBILITY) ====================
+// These routes are kept for API and legacy functionality
+// Main frontend routes are now handled by Inertia in routes/inertia.php
+
 Route::group(['namespace' => 'Frontend', 'middleware' => ['ipcheck', 'check_refer']], function () {
-    Route::get('/', [FrontendController::class, 'index'])->name('home');
-   Route::get('/load-more-products', [FrontendController::class, 'loadMoreProducts']);
-    Route::get('category/{category}', [FrontendController::class, 'category'])->name('category');
-    Route::get('subcategory/{subcategory}', [FrontendController::class, 'subcategory'])->name('subcategory');
-    Route::get('products/{slug}', [FrontendController::class, 'products'])->name('products');
-    Route::get('brand/{slug}', [FrontendController::class, 'brand'])->name('brand');
-    Route::get('best-deals', [FrontendController::class, 'bestdeals'])->name('bestdeals');
-    Route::get('new-arrival', [FrontendController::class, 'newArrival'])->name('newArrival');
-    Route::get('top-rated', [FrontendController::class, 'topRated'])->name('topRated');
-    Route::get('top-selling', [FrontendController::class, 'topSelling'])->name('topSelling');
-    Route::get('livesearch', [FrontendController::class, 'livesearch'])->name('livesearch');
-    Route::get('search', [FrontendController::class, 'search'])->name('search');
-    Route::get('product/{id}', [FrontendController::class, 'details'])->name('product');
-    Route::get('quick-view', [FrontendController::class, 'quickview'])->name('quickview');
-    Route::get('variable-view', [FrontendController::class, 'variable_view'])->name('variable_view');
-    Route::get('/shipping-charge', [FrontendController::class, 'shipping_charge'])->name('shipping.charge');
-    Route::get('site/contact-us', [FrontendController::class, 'contact'])->name('contact');
-    Route::post('customer/mail-send', [FrontendController::class, 'mail_send'])->name('customer.mail_send');
-    Route::get('/page/{slug}', [FrontendController::class, 'page'])->name('page');
-    Route::get('districts', [FrontendController::class, 'districts'])->name('districts');
-    Route::get('/coupon', [FrontendController::class, 'coupon_show'])->name('coupon.view');
-    Route::get('/campaign/{slug}', [FrontendController::class, 'campaign'])->name('campaign');
-    Route::get('/campaign-stock-check', [FrontendController::class, 'campaign_stock'])->name('campaign.stock_check');
-    Route::get('/offer', [FrontendController::class, 'offers'])->name('offers');
-    Route::get('stock-check', [FrontendController::class, 'stock_check'])->name('stock_check');
-    Route::get('/payment-success', [FrontendController::class, 'payment_success'])->name('payment_success');
-    Route::get('/payment-cancel', [FrontendController::class, 'payment_cancel'])->name('payment_cancel');
+    // Keep only API and non-page routes here
+    Route::get('/load-more-products', [ShoppingController::class, 'loadMoreProducts']);
+    Route::get('quick-view', [ShoppingController::class, 'quickview'])->name('quickview');
+    Route::get('variable-view', [ShoppingController::class, 'variable_view'])->name('variable_view');
+    Route::get('/shipping-charge', [ShoppingController::class, 'shipping_charge'])->name('shipping.charge');
+    Route::post('customer/mail-send', [ShoppingController::class, 'mail_send'])->name('customer.mail_send');
+    Route::get('districts', [ShoppingController::class, 'districts'])->name('districts');
+    Route::get('stock-check', [ShoppingController::class, 'stock_check'])->name('stock_check');
 
     // cart route
     Route::post('cart/store', [ShoppingController::class, 'cart_store'])->name('cart.store');
@@ -175,7 +156,7 @@ Route::group(['namespace' => 'Frontend', 'middleware' => ['ipcheck', 'check_refe
     Route::get('cart/increment-campaign', [ShoppingController::class, 'cart_increment_camp'])->name('cart.increment_camp');
     Route::get('cart/content-campaign', [ShoppingController::class, 'cart_content_camp'])->name('cart.content_camp');
 
-    Route::get('product-feed', [FrontendController::class, 'product_feed'])->name('products.product_feed');
+    Route::get('product-feed', [ShoppingController::class, 'product_feed'])->name('products.product_feed');
 });
 
 Route::group(['prefix' => 'customer', 'namespace' => 'Frontend', 'middleware' => ['ipcheck', 'check_refer']], function () {
@@ -200,7 +181,7 @@ Route::group(['prefix' => 'customer', 'namespace' => 'Frontend', 'middleware' =>
     Route::get('/order-track', [CustomerController::class, 'order_track'])->name('customer.order_track');
     Route::get('/order-track/result', [CustomerController::class, 'order_track_result'])->name('customer.order_track_result');
 });
-// customer auth
+
 Route::group(['prefix' => 'customer', 'namespace' => 'Frontend', 'middleware' => ['customer', 'ipcheck', 'check_refer']], function () {
     Route::get('/account', [CustomerController::class, 'account'])->name('customer.account');
     Route::get('/orders', [CustomerController::class, 'orders'])->name('customer.orders');
@@ -221,18 +202,16 @@ Route::group(['namespace' => 'Frontend', 'middleware' => ['ipcheck', 'check_refe
     Route::get('/payment-cancel', [ShurjopayControllers::class, 'payment_cancel'])->name('payment_cancel');
 });
 
-// unathenticate admin route
 Route::group(['namespace' => 'Admin', 'prefix' => 'admin', 'middleware' => ['customer', 'ipcheck', 'check_refer']], function () {
     Route::get('locked', [DashboardController::class, 'locked'])->name('locked');
     Route::post('unlocked', [DashboardController::class, 'unlocked'])->name('unlocked');
 });
 
-
-// ajax route
 Route::get('/ajax-product-subcategory', [ProductController::class, 'getSubcategory']);
 Route::get('/ajax-product-childcategory', [ProductController::class, 'getChildcategory']);
 
-// auth route
+// ==================== ADMIN ROUTES ====================
+
 Route::group(['namespace' => 'Admin', 'middleware' => ['auth', 'lock', 'check_refer'], 'prefix' => 'admin'], function () {
     Route::get('dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
     Route::get('change-password', [DashboardController::class, 'changepassword'])->name('change_password');
@@ -240,10 +219,8 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['auth', 'lock', 'check_re
     Route::get('send-sms', [DashboardController::class, 'send_sms'])->name('admin.send_sms');
     Route::post('send-sms-post', [DashboardController::class, 'send_sms_post'])->name('admin.send_sms_post');
 
-    // reports route
     Route::get('reports/facebook-catelogue', [ReportsController::class, 'facebook_catelogue'])->name('reports.facebook_catelogue');
 
-    // users route
     Route::get('users/manage', [UserController::class, 'index'])->name('users.index');
     Route::get('users/create', [UserController::class, 'create'])->name('users.create');
     Route::post('users/save', [UserController::class, 'store'])->name('users.store');
@@ -253,7 +230,6 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['auth', 'lock', 'check_re
     Route::post('users/active', [UserController::class, 'active'])->name('users.active');
     Route::post('users/destroy', [UserController::class, 'destroy'])->name('users.destroy');
 
-    // roles
     Route::get('roles/manage', [RoleController::class, 'index'])->name('roles.index');
     Route::get('roles/{id}/show', [RoleController::class, 'show'])->name('roles.show');
     Route::get('roles/create', [RoleController::class, 'create'])->name('roles.create');
@@ -262,7 +238,6 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['auth', 'lock', 'check_re
     Route::post('roles/update', [RoleController::class, 'update'])->name('roles.update');
     Route::post('roles/destroy', [RoleController::class, 'destroy'])->name('roles.destroy');
 
-    // permissions
     Route::get('permissions/manage', [PermissionController::class, 'index'])->name('permissions.index');
     Route::get('permissions/{id}/show', [PermissionController::class, 'show'])->name('permissions.show');
     Route::get('permissions/create', [PermissionController::class, 'create'])->name('permissions.create');
@@ -271,7 +246,6 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['auth', 'lock', 'check_re
     Route::post('permissions/update', [PermissionController::class, 'update'])->name('permissions.update');
     Route::post('permissions/destroy', [PermissionController::class, 'destroy'])->name('permissions.destroy');
 
-    // categories
     Route::get('categories/manage', [CategoryController::class, 'index'])->name('categories.index');
     Route::get('categories/{id}/show', [CategoryController::class, 'show'])->name('categories.show');
     Route::get('categories/create', [CategoryController::class, 'create'])->name('categories.create');
@@ -281,10 +255,8 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['auth', 'lock', 'check_re
     Route::post('categories/inactive', [CategoryController::class, 'inactive'])->name('categories.inactive');
     Route::post('categories/active', [CategoryController::class, 'active'])->name('categories.active');
     Route::post('categories/destroy', [CategoryController::class, 'destroy'])->name('categories.destroy');
-    Route::post('/categories/status-update', [CategoryController::class, 'updateStatus'])
-    ->name('categories.status.update');
+    Route::post('/categories/status-update', [CategoryController::class, 'updateStatus'])->name('categories.status.update');
     
-    // Subcategories
     Route::get('subcategories/manage', [SubcategoryController::class, 'index'])->name('subcategories.index');
     Route::get('subcategories/{id}/show', [SubcategoryController::class, 'show'])->name('subcategories.show');
     Route::get('subcategories/create', [SubcategoryController::class, 'create'])->name('subcategories.create');
@@ -295,21 +267,12 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['auth', 'lock', 'check_re
     Route::post('subcategories/active', [SubcategoryController::class, 'active'])->name('subcategories.active');
     Route::post('subcategories/destroy', [SubcategoryController::class, 'destroy'])->name('subcategories.destroy');
     
-    // business_settings
-
-
     Route::get('/business-setting', [BusinessSettingController::class, 'index'])->name('admin.business_setting');
     Route::post('/business-setting', [BusinessSettingController::class, 'update'])->name('admin.business_setting.update');
     Route::post('/business-setting/store', [BusinessSettingController::class, 'update'])->name('admin.business_setting.store');
-     Route::post('/whatsapp-setting', [BusinessSettingController::class, 'whatsAppsstore'])->name('admin.whatsapp_setting.store');
+    Route::post('/whatsapp-setting', [BusinessSettingController::class, 'whatsAppsstore'])->name('admin.whatsapp_setting.store');
+    Route::post('/business-setting/order-notification', [BusinessSettingController::class, 'updateOrderNotification'])->name('admin.business_setting.updateOrderNotification');
 
-
-
-Route::post('/business-setting/order-notification', [BusinessSettingController::class, 'updateOrderNotification'])
-    ->name('admin.business_setting.updateOrderNotification');
-
-
-    // Childcategories
     Route::get('childcategories/manage', [ChildcategoryController::class, 'index'])->name('childcategories.index');
     Route::get('childcategories/{id}/show', [ChildcategoryController::class, 'show'])->name('childcategories.show');
     Route::get('childcategories/create', [ChildcategoryController::class, 'create'])->name('childcategories.create');
@@ -320,19 +283,15 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('childcategories/active', [ChildcategoryController::class, 'active'])->name('childcategories.active');
     Route::post('childcategories/destroy', [ChildcategoryController::class, 'destroy'])->name('childcategories.destroy');
 
-    // paymentgeteway
     Route::get('paymentgeteway/manage', [ApiIntegrationController::class, 'pay_manage'])->name('paymentgeteway.manage');
     Route::post('paymentgeteway/save', [ApiIntegrationController::class, 'pay_update'])->name('paymentgeteway.update');
 
-    // smsgeteway
     Route::get('smsgeteway/manage', [ApiIntegrationController::class, 'sms_manage'])->name('smsgeteway.manage');
     Route::post('smsgeteway/save', [ApiIntegrationController::class, 'sms_update'])->name('smsgeteway.update');
 
-    // courierapi
     Route::get('courierapi/manage', [ApiIntegrationController::class, 'courier_manage'])->name('courierapi.manage');
     Route::post('courierapi/save', [ApiIntegrationController::class, 'courier_update'])->name('courierapi.update');
 
-    // attribute
     Route::get('orderstatus/manage', [OrderStatusController::class, 'index'])->name('orderstatus.index');
     Route::get('orderstatus/{id}/show', [OrderStatusController::class, 'show'])->name('orderstatus.show');
     Route::get('orderstatus/create', [OrderStatusController::class, 'create'])->name('orderstatus.create');
@@ -343,7 +302,6 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('orderstatus/active', [OrderStatusController::class, 'active'])->name('orderstatus.active');
     Route::post('orderstatus/destroy', [OrderStatusController::class, 'destroy'])->name('orderstatus.destroy');
 
-    // expensecategories
     Route::get('expensecategories/manage', [ExpenseCategoriesController::class, 'index'])->name('expensecategories.index');
     Route::get('expensecategories/{id}/show', [ExpenseCategoriesController::class, 'show'])->name('expensecategories.show');
     Route::get('expensecategories/create', [ExpenseCategoriesController::class, 'create'])->name('expensecategories.create');
@@ -354,7 +312,6 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('expensecategories/active', [ExpenseCategoriesController::class, 'active'])->name('expensecategories.active');
     Route::post('expensecategories/destroy', [ExpenseCategoriesController::class, 'destroy'])->name('expensecategories.destroy');
 
-    // expense
     Route::get('expense/manage', [ExpenseController::class, 'index'])->name('expense.index');
     Route::get('expense/{id}/show', [ExpenseController::class, 'show'])->name('expense.show');
     Route::get('expense/create', [ExpenseController::class, 'create'])->name('expense.create');
@@ -364,7 +321,7 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('expense/inactive', [ExpenseController::class, 'inactive'])->name('expense.inactive');
     Route::post('expense/active', [ExpenseController::class, 'active'])->name('expense.active');
     Route::post('expense/destroy', [ExpenseController::class, 'destroy'])->name('expense.destroy');
-    // pixels
+
     Route::get('pixels/manage', [PixelsController::class, 'index'])->name('pixels.index');
     Route::get('pixels/{id}/show', [PixelsController::class, 'show'])->name('pixels.show');
     Route::get('pixels/create', [PixelsController::class, 'create'])->name('pixels.create');
@@ -375,7 +332,6 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('pixels/active', [PixelsController::class, 'active'])->name('pixels.active');
     Route::post('pixels/destroy', [PixelsController::class, 'destroy'])->name('pixels.destroy');
 
-    // tag manager
     Route::get('tag-manager/manage', [TagManagerController::class, 'index'])->name('tagmanagers.index');
     Route::get('tag-manager/{id}/show', [TagManagerController::class, 'show'])->name('tagmanagers.show');
     Route::get('tag-manager/create', [TagManagerController::class, 'create'])->name('tagmanagers.create');
@@ -386,7 +342,6 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('tag-manager/active', [TagManagerController::class, 'active'])->name('tagmanagers.active');
     Route::post('tag-manager/destroy', [TagManagerController::class, 'destroy'])->name('tagmanagers.destroy');
 
-    // attribute
     Route::get('brands/manage', [BrandController::class, 'index'])->name('brands.index');
     Route::get('brands/{id}/show', [BrandController::class, 'show'])->name('brands.show');
     Route::get('brands/create', [BrandController::class, 'create'])->name('brands.create');
@@ -397,7 +352,6 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('brands/active', [BrandController::class, 'active'])->name('brands.active');
     Route::post('brands/destroy', [BrandController::class, 'destroy'])->name('brands.destroy');
 
-    // color
     Route::get('color/manage', [ColorController::class, 'index'])->name('colors.index');
     Route::get('color/{id}/show', [ColorController::class, 'show'])->name('colors.show');
     Route::get('color/create', [ColorController::class, 'create'])->name('colors.create');
@@ -408,7 +362,6 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('color/active', [ColorController::class, 'active'])->name('colors.active');
     Route::post('color/destroy', [ColorController::class, 'destroy'])->name('colors.destroy');
 
-    // size
     Route::get('size/manage', [SizeController::class, 'index'])->name('sizes.index');
     Route::get('size/{id}/show', [SizeController::class, 'show'])->name('sizes.show');
     Route::get('size/create', [SizeController::class, 'create'])->name('sizes.create');
@@ -419,7 +372,6 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('size/active', [SizeController::class, 'active'])->name('sizes.active');
     Route::post('size/destroy', [SizeController::class, 'destroy'])->name('sizes.destroy');
 
-    // product
     Route::get('products/manage', [ProductController::class, 'index'])->name('products.index');
     Route::get('products/stock-alert', [ProductController::class, 'stock_alert'])->name('products.stock_alert');
     Route::get('products/{id}/show', [ProductController::class, 'show'])->name('products.show');
@@ -443,7 +395,7 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::get('products/purchase/{id}', [ProductController::class, 'purchase_history'])->name('products.purchase_history');
     Route::post('products/generate-slug', [ProductController::class, 'generate_slug'])->name('products.generate_slug');
     Route::get('/products/duplicate/{id}', [ProductController::class, 'duplicate'])->name('products.duplicate');
-    // campaign
+
     Route::get('campaign/manage', [CampaignController::class, 'index'])->name('campaign.index');
     Route::get('campaign/{id}/show', [CampaignController::class, 'show'])->name('campaign.show');
     Route::get('campaign/create', [CampaignController::class, 'create'])->name('campaign.create');
@@ -456,7 +408,6 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::get('campaign/image/destroy', [CampaignController::class, 'imgdestroy'])->name('campaign.image.destroy');
     Route::post('campaign/duplicate', [CampaignController::class, 'duplicate'])->name('campaign.duplicate');
 
-    // settings route
     Route::get('settings/manage', [GeneralSettingController::class, 'index'])->name('settings.index');
     Route::get('settings/create', [GeneralSettingController::class, 'create'])->name('settings.create');
     Route::post('settings/save', [GeneralSettingController::class, 'store'])->name('settings.store');
@@ -466,7 +417,6 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('settings/active', [GeneralSettingController::class, 'active'])->name('settings.active');
     Route::post('settings/destroy', [GeneralSettingController::class, 'destroy'])->name('settings.destroy');
 
-    // settings route
     Route::get('social-media/manage', [SocialMediaController::class, 'index'])->name('socialmedias.index');
     Route::get('social-media/create', [SocialMediaController::class, 'create'])->name('socialmedias.create');
     Route::post('social-media/save', [SocialMediaController::class, 'store'])->name('socialmedias.store');
@@ -476,7 +426,6 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('social-media/active', [SocialMediaController::class, 'active'])->name('socialmedias.active');
     Route::post('social-media/destroy', [SocialMediaController::class, 'destroy'])->name('socialmedias.destroy');
 
-    // contact route
     Route::get('contact/manage', [ContactController::class, 'index'])->name('contact.index');
     Route::get('contact/create', [ContactController::class, 'create'])->name('contact.create');
     Route::post('contact/save', [ContactController::class, 'store'])->name('contact.store');
@@ -486,13 +435,10 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('contact/active', [ContactController::class, 'active'])->name('contact.active');
     Route::post('contact/destroy', [ContactController::class, 'destroy'])->name('contact.destroy');
     
-    //useer message
     Route::get('userMessage', [ContactController::class, 'userMessage'])->name('contact.userMessage');
     Route::get('userMessage/show/{id}', [ContactController::class, 'userMessageShow'])->name('userMessage.show');
     Route::post('userMessage/destroy', [ContactController::class, 'userMessageDelete'])->name('userMessage.destroy');
     
-
-    //notice route
     Route::get('notice/manage', [NoticeController::class, 'index'])->name('notice.index');
     Route::get('notice/create', [NoticeController::class, 'create'])->name('notice.create');
     Route::post('notice/save', [NoticeController::class, 'store'])->name('notice.store');
@@ -502,20 +448,14 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('notice/active', [NoticeController::class, 'active'])->name('notice.active');
     Route::post('notice/destroy/{id}', [NoticeController::class, 'destroy'])->name('notice.destroy');
     
-    // offer
-    
-     Route::get('/offers', [OfferController::class, 'index'])->name('offers.index');
+    Route::get('/offers', [OfferController::class, 'index'])->name('offers.index');
     Route::get('/offers/create', [OfferController::class, 'create'])->name('offers.create');
     Route::post('/offers/store', [OfferController::class, 'store'])->name('offers.store');
-   Route::get('/offer/product-search', [OfferController::class, 'productSearch'])->name('offer.product.search');
-
+    Route::get('/offer/product-search', [OfferController::class, 'productSearch'])->name('offer.product.search');
     Route::get('/offers/edit/{id}', [OfferController::class, 'edit'])->name('offers.edit');
     Route::put('/offers/update/{id}', [OfferController::class, 'update'])->name('offers.update');
-
     Route::delete('/offers/destroy/{id}', [OfferController::class, 'destroy'])->name('offers.destroy');
 
-
-    // banner category route
     Route::get('banner-category/manage', [BannerCategoryController::class, 'index'])->name('banner_category.index');
     Route::get('banner-category/create', [BannerCategoryController::class, 'create'])->name('banner_category.create');
     Route::post('banner-category/save', [BannerCategoryController::class, 'store'])->name('banner_category.store');
@@ -525,7 +465,6 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('banner-category/active', [BannerCategoryController::class, 'active'])->name('banner_category.active');
     Route::post('banner-category/destroy', [BannerCategoryController::class, 'destroy'])->name('banner_category.destroy');
 
-    // banner  route
     Route::get('banner/manage', [BannerController::class, 'index'])->name('banners.index');
     Route::get('banner/create', [BannerController::class, 'create'])->name('banners.create');
     Route::post('banner/save', [BannerController::class, 'store'])->name('banners.store');
@@ -535,7 +474,6 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('banner/active', [BannerController::class, 'active'])->name('banners.active');
     Route::post('banner/destroy', [BannerController::class, 'destroy'])->name('banners.destroy');
 
-    // contact route
     Route::get('page/manage', [CreatePageController::class, 'index'])->name('pages.index');
     Route::get('page/create', [CreatePageController::class, 'create'])->name('pages.create');
     Route::post('page/save', [CreatePageController::class, 'store'])->name('pages.store');
@@ -545,7 +483,6 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('page/active', [CreatePageController::class, 'active'])->name('pages.active');
     Route::post('page/destroy', [CreatePageController::class, 'destroy'])->name('pages.destroy');
 
-    // Pos route
     Route::get('order/search', [OrderController::class, 'search'])->name('admin.livesearch');
     Route::get('order/create', [OrderController::class, 'order_create'])->name('admin.order.create');
     Route::post('order/store', [OrderController::class, 'order_store'])->name('admin.order.store');
@@ -559,15 +496,13 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::get('order/cart-shipping', [OrderController::class, 'cart_shipping'])->name('admin.order.cart_shipping');
     Route::post('order/cart-clear', [OrderController::class, 'cart_clear'])->name('admin.order.cart_clear');
 
-    // Order route
     Route::get('order/{slug}', [OrderController::class, 'index'])->name('admin.orders');
     Route::get('order/edit/{invoice_id}', [OrderController::class, 'order_edit'])->name('admin.order.edit');
     Route::post('order/update', [OrderController::class, 'order_update'])->name('admin.order.update');
     Route::get('order/invoice/{invoice_id}', [OrderController::class, 'invoice'])->name('admin.order.invoice');
     Route::get('test-invoice', function () {
-    return route('admin.order.invoice', ['invoice_id' => 12345]);
-});
-
+        return route('admin.order.invoice', ['invoice_id' => 12345]);
+    });
     Route::get('order/process/{invoice_id}', [OrderController::class, 'process'])->name('admin.order.process');
     Route::post('order/change', [OrderController::class, 'order_process'])->name('admin.order_change');
     Route::post('order/destroy', [OrderController::class, 'destroy'])->name('admin.order.destroy');
@@ -588,7 +523,6 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::get('/pathao-zone', [OrderController::class, 'pathaozone'])->name('pathaozone');
     Route::post('/fraud-checker', [OrderController::class, 'fraud_checker'])->name('admin.order.fraud_checker');
 
-    // Incomplete Orders route
     Route::get('incomplete-orders', [\App\Http\Controllers\Admin\IncompleteOrderController::class, 'index'])->name('admin.incomplete_orders.index');
     Route::get('incomplete-orders/{id}', [\App\Http\Controllers\Admin\IncompleteOrderController::class, 'show'])->name('admin.incomplete_orders.show');
     Route::post('incomplete-orders/{id}/update-status', [\App\Http\Controllers\Admin\IncompleteOrderController::class, 'updateStatus'])->name('admin.incomplete_orders.update_status');
@@ -598,7 +532,6 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('incomplete-orders/bulk-delete', [\App\Http\Controllers\Admin\IncompleteOrderController::class, 'bulkDelete'])->name('admin.incomplete_orders.bulk_delete');
     Route::post('incomplete-orders/bulk-update-status', [\App\Http\Controllers\Admin\IncompleteOrderController::class, 'bulkUpdateStatus'])->name('admin.incomplete_orders.bulk_update_status');
 
-    // Order route
     Route::get('reviews', [ReviewController::class, 'index'])->name('reviews.index');
     Route::get('review/pending', [ReviewController::class, 'pending'])->name('reviews.pending');
     Route::post('review/inactive', [ReviewController::class, 'inactive'])->name('reviews.inactive');
@@ -609,7 +542,6 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('review/update', [ReviewController::class, 'update'])->name('reviews.update');
     Route::post('review/destroy', [ReviewController::class, 'destroy'])->name('reviews.destroy');
 
-    // flavor  route
     Route::get('shipping-charge/manage', [ShippingChargeController::class, 'index'])->name('shippingcharges.index');
     Route::get('shipping-charge/create', [ShippingChargeController::class, 'create'])->name('shippingcharges.create');
     Route::post('shipping-charge/save', [ShippingChargeController::class, 'store'])->name('shippingcharges.store');
@@ -619,14 +551,11 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('shipping-charge/active', [ShippingChargeController::class, 'active'])->name('shippingcharges.active');
     Route::post('shipping-charge/destroy', [ShippingChargeController::class, 'destroy'])->name('shippingcharges.destroy');
 
-    // district routes
     Route::get('district/manage', [DistrictController::class, 'index'])->name('districts.index');
     Route::get('district/{id}/edit', [DistrictController::class, 'edit'])->name('districts.edit');
     Route::post('district/update', [DistrictController::class, 'update'])->name('districts.update');
     Route::post('district/charge-update', [DistrictController::class, 'district_charge'])->name('districts.charge');
 
-    // backend customer route
-    // Route::get('customer', [CustomerManageController::class, 'index'])->name('customers.index');
     Route::get('customer/manage', [CustomerManageController::class, 'index'])->name('customers.index');
     Route::get('customer/{id}/edit', [CustomerManageController::class, 'edit'])->name('customers.edit');
     Route::post('customer/update', [CustomerManageController::class, 'update'])->name('customers.update');
@@ -639,7 +568,6 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('customer/ip-update', [CustomerManageController::class, 'ipblock_update'])->name('customers.ipblock.update');
     Route::post('customer/ip-destroy', [CustomerManageController::class, 'ipblock_destroy'])->name('customers.ipblock.destroy');
 
-    //customer review
     Route::get('customer-review/index', [CustomerReviewController::class, 'index'])->name('customer_reviews.index');
     Route::get('customer-review/create', [CustomerReviewController::class, 'create'])->name('customer_reviews.create');
     Route::post('customer-review/store', [CustomerReviewController::class, 'store'])->name('customer_reviews.store');
@@ -647,13 +575,11 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('customer-review/update/{id}', [CustomerReviewController::class, 'update'])->name('customer_reviews.update');
     Route::post('customer-review/destroy/{id}', [CustomerReviewController::class, 'destroy'])->name('customer_reviews.destroy');
 
-    //customer product review
     Route::get('product-review/manage', [CustomerReviewController::class, 'productReviewManage'])->name('product_reviews.manage');
     Route::post('product-review/inactive', [CustomerReviewController::class, 'inactive'])->name('customer_reviews.inactive');
     Route::post('product-review/active', [CustomerReviewController::class, 'active'])->name('customer_reviews.active');
     Route::post('product-review/destroy/{id}', [CustomerReviewController::class, 'reviewDelete'])->name('product_reviews.destroy');
     
-    // coupon code route
     Route::get('coupon-code/manage', [CouponCodeController::class, 'index'])->name('couponcodes.index');
     Route::get('coupon-code/create', [CouponCodeController::class, 'create'])->name('couponcodes.create');
     Route::post('coupon-code/save', [CouponCodeController::class, 'store'])->name('couponcodes.store');
@@ -663,20 +589,12 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('coupon-code/active', [CouponCodeController::class, 'active'])->name('couponcodes.active');
     Route::post('coupon-code/destroy', [CouponCodeController::class, 'destroy'])->name('couponcodes.destroy');
     
-    //Theme Settion
-    // Route::get('/theme-setting', [ThemeSettingController::class, 'index'])->name('theme.setting.index');
-    // Route::post('/theme-setting', [ThemeSettingController::class, 'store'])->name('theme.setting.store');
-    //   Route::get('/theme-color-setting', [ThemeColorSettingController::class, 'index'])->name('theme.setting.index');
-// Route::post('/theme-color-setting', [ThemeColorSettingController::class, 'store'])->name('theme.setting.store');
-
-  Route::get('theme-color', [ThemeColorController::class, 'index'])->name('theme.setting.index');
+    Route::get('theme-color', [ThemeColorController::class, 'index'])->name('theme.setting.index');
     Route::post('theme-color', [ThemeColorController::class, 'store']);
     
-    //Checkout Content
     Route::get('checkout-content', [CheckoutContentController::class, 'index'])->name('checkout.content');
     Route::post('checkout-content', [CheckoutContentController::class, 'update'])->name('checkout.content.update');
 
-    // Feature Toggles
     Route::get('feature-toggles', [FeatureToggleController::class, 'index'])->name('feature.toggles.index');
     Route::get('feature-toggles/create', [FeatureToggleController::class, 'create'])->name('feature.toggles.create');
     Route::post('feature-toggles/store', [FeatureToggleController::class, 'store'])->name('feature.toggles.store');
@@ -685,21 +603,13 @@ Route::post('/business-setting/order-notification', [BusinessSettingController::
     Route::post('feature-toggles/toggle', [FeatureToggleController::class, 'toggle'])->name('feature.toggles.toggle');
     Route::delete('feature-toggles/{id}', [FeatureToggleController::class, 'destroy'])->name('feature.toggles.destroy');
 
-    // coupon code route
     Route::get('visitor/reports', [AnalyticsController::class, 'index'])->name('analytics.index');
 });
-    // Route::get('visitor/reports', [AnalyticsController::class, 'index'])->name('analytics.index');
-  
-
 
 Route::group(['namespace' => 'Admin', 'middleware' => ['auth', 'lock', 'check_refer'], 'prefix' => 'admin'], function () {
-  Route::get('/update-permissions', [UpdatePermissionController::class, 'index'])->name('backEnd.permissions.index');
+    Route::get('/update-permissions', [UpdatePermissionController::class, 'index'])->name('backEnd.permissions.index');
     Route::post('/permissions/update', [UpdatePermissionController::class, 'update'])->name('backEnd.permissions.update');
 });
 
-Route::get('/product/{slug}', [ProductShareController::class, 'show']);
-
-   
-
-
-
+// Commented out: This route conflicts with Inertia ProductDetail route in routes/inertia.php
+// Route::get('/product/{slug}', [ProductShareController::class, 'show']);

@@ -1,13 +1,15 @@
+import React from 'react';
 import { Head, Link } from "@inertiajs/react";
 import { motion } from "framer-motion";
 import { Leaf, ArrowRight, Home, ShoppingCart } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import MainLayout from "@/Components/layout/MainLayout";
 
 const NotFound = () => {
   const { t } = useTranslation();
 
   return (
-    <>
+    <MainLayout>
       <Head title="404 - Page Not Found - Khadyobitan" />
       <div className="min-h-[70vh] flex items-center justify-center section-padding">
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center max-w-md">
@@ -25,7 +27,7 @@ const NotFound = () => {
         </div>
       </motion.div>
     </div>
-    </>
+    </MainLayout>
   );
 };
 export default NotFound;

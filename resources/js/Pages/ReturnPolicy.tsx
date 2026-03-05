@@ -1,6 +1,8 @@
+import React from 'react';
 import { motion } from "framer-motion";
 import { RotateCcw, Shield, Clock, CheckCircle } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import MainLayout from "@/Components/layout/MainLayout";
 
 const ReturnPolicy = () => {
   const { t } = useTranslation();
@@ -13,7 +15,7 @@ const ReturnPolicy = () => {
   ];
 
   return (
-    <>
+    <MainLayout>
       <Head title="Return Policy - Khadyobitan" />
       <div>
       <section className="bg-gradient-earthy text-primary-foreground section-padding">
@@ -75,7 +77,7 @@ const ReturnPolicy = () => {
         </div>
       </section>
     </div>
-    </>
+    </MainLayout>
   );
 };
 export default ReturnPolicy;

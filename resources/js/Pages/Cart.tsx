@@ -7,8 +7,9 @@ import { useCartStore } from "@/store/cartStore";
 import ProductCard from "@/Components/ProductCard";
 import { products, coupons } from "@/data/products";
 import { toast } from "sonner";
-import { productImageMap } from "@/data/productImages";
+import { getProductImageSrc } from "@/utils/imageUtils";
 import { useTranslation } from "react-i18next";
+import MainLayout from "@/Components/layout/MainLayout";
 
 const Cart = () => {
   const { t } = useTranslation();
@@ -43,7 +44,7 @@ const Cart = () => {
 
   if (items.length === 0) {
     return (
-      <>
+      <MainLayout>
         <Head title="Shopping Cart - Khadyobitan" />
         <div className="section-padding text-center">
           <div className="container-custom max-w-md mx-auto">
@@ -55,12 +56,12 @@ const Cart = () => {
             </Link>
           </div>
         </div>
-      </>
+      </MainLayout>
     );
   }
 
   return (
-    <>
+    <MainLayout>
       <Head title="Shopping Cart - Khadyobitan" />
       <div className="section-padding">
       <div className="container-custom">
@@ -71,7 +72,7 @@ const Cart = () => {
               {items.map((item) => (
                 <div key={item.product.id} className="flex gap-4 p-4 bg-card border border-border rounded-xl">
                   <div className="w-20 h-20 bg-muted rounded-lg overflow-hidden shrink-0">
-                    <img src={productImageMap[item.product.slug] || "/placeholder.svg"} alt={item.product.name} className="w-full h-full object-cover" />
+                    <img src={getProductImageSrc(item.product)} alt={item.product.name} className="w-full h-full object-cover" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-start justify-between">
@@ -158,7 +159,7 @@ const Cart = () => {
         )}
       </div>
     </div>
-    </>
+    </MainLayout>
   );
 };
 export default Cart;

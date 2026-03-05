@@ -4,8 +4,9 @@ import { Head, Link, router, useForm } from "@inertiajs/react";
 import { ChevronRight, CreditCard, Banknote, Smartphone, Building2, ShieldCheck } from "lucide-react";
 import { useCartStore } from "@/store/cartStore";
 import { toast } from "sonner";
-import { productImageMap } from "@/data/productImages";
+import { getProductImageSrc } from "@/utils/imageUtils";
 import { useTranslation } from "react-i18next";
+import MainLayout from "@/Components/layout/MainLayout";
 
 const districts = [
   "Dhaka", "Chittagong", "Rajshahi", "Khulna", "Sylhet", "Barisal", "Rangpur", "Mymensingh",
@@ -48,7 +49,7 @@ const Checkout = () => {
 
   if (items.length === 0) {
     return (
-      <>
+      <MainLayout>
         <Head title="Checkout - Khadyobitan" />
         <div className="section-padding text-center">
           <div className="container-custom max-w-md mx-auto">
@@ -57,12 +58,12 @@ const Checkout = () => {
             <Link href="/shop" className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-body font-medium text-sm hover:opacity-90 transition-opacity">{t("checkout.goToShop")}</Link>
           </div>
         </div>
-      </>
+      </MainLayout>
     );
   }
 
   return (
-    <>
+    <MainLayout>
       <Head title="Checkout - Khadyobitan" />
       <div className="section-padding">
       <div className="container-custom max-w-5xl">
@@ -151,7 +152,7 @@ const Checkout = () => {
                 {items.map((item) => (
                   <div key={item.product.id} className="flex items-center gap-3">
                     <div className="w-10 h-10 bg-muted rounded overflow-hidden shrink-0">
-                      <img src={productImageMap[item.product.slug] || "/placeholder.svg"} alt={item.product.name} className="w-full h-full object-cover" />
+                      <img src={getProductImageSrc(item.product)} alt={item.product.name} className="w-full h-full object-cover" />
                     </div>
                     <div className="flex-1 min-w-0">
                       <p className="font-body text-xs font-medium line-clamp-1">{item.product.name}</p>
@@ -176,7 +177,7 @@ const Checkout = () => {
         </div>
       </div>
     </div>
-    </>
+    </MainLayout>
   );
 };
 export default Checkout;

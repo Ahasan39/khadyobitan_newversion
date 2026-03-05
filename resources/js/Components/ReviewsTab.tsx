@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from "react";
 import { Star, Send } from "lucide-react";
 import { toast } from "sonner";

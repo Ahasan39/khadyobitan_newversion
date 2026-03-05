@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from "react";
 import { Head, Link, router } from "@inertiajs/react";
 import { motion } from "framer-motion";
@@ -6,22 +7,66 @@ import {
   Leaf, FlaskConical, Package, BookOpen, Thermometer, Award, RotateCcw, MessageCircle, Phone,
 } from "lucide-react";
 import { products } from "@/data/products";
-import { productImageMap } from "@/data/productImages";
+import { getProductImageSrc } from "@/utils/imageUtils";
 import { useCartStore } from "@/store/cartStore";
-import ProductCard from "@/components/ProductCard";
-import ReviewsTab from "@/components/ReviewsTab";
+import ProductCard from "@/Components/ProductCard";
+import ReviewsTab from "@/Components/ReviewsTab";
 import { toast } from "sonner";
 import { useTranslation } from "react-i18next";
+import MainLayout from "@/Components/layout/MainLayout";
 
 interface ProductDetailProps {
   product?: any;
   relatedProducts?: any[];
   recentlyViewed?: any[];
+  slug?: string;
 }
 
-const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed: serverRecentlyViewed }: ProductDetailProps) => {
+const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed: serverRecentlyViewed, slug }: ProductDetailProps) => {
   const { t } = useTranslation();
-  const product = serverProduct || products.find((p) => p.slug === window.location.pathname.split('/').pop());
+  // Use server product if available, otherwise fallback to static data using slug
+  const urlSlug = slug || window.location.pathname.split('/').pop();
+  
+  // Normalize backend product to match frontend structure
+  const normalizeProduct = (p: any) => {
+    if (!p) return null;
+    // If it already has 'price' as number, it's likely from static data
+    if (typeof p.price === 'number' && p.badges) return p;
+    
+    // Normalize backend product
+    // Note: Backend uses "ratting" (misspelled) for rating field
+    const calculateRating = () => {
+      if (p.rating) return Number(p.rating);
+      if (p.reviews?.length) {
+        const sum = p.reviews.reduce((acc: number, r: any) => acc + (Number(r.ratting) || Number(r.rating) || 0), 0);
+        return sum / p.reviews.length;
+      }
+      return 0;
+    };
+    
+    return {
+      ...p,
+      price: p.new_price || p.price || 0,
+      oldPrice: p.old_price || p.oldPrice,
+      badges: p.badges || [],
+      rating: calculateRating(),
+      reviewsCount: p.reviewsCount || p.reviews_count || p.reviews?.length || 0,
+      weight: p.weight || p.variables?.[0]?.size || '',
+      weights: p.weights || p.variables?.map((v: any) => v.size).filter(Boolean) || [],
+      benefits: p.benefits || [],
+    };
+  };
+  
+  const rawProduct = serverProduct || products.find((p) => p.slug === urlSlug);
+  const product = normalizeProduct(rawProduct);
+  
+  // Helper to get category name (handles both string and object)
+  const getCategoryName = (cat: any): string => typeof cat === 'string' ? cat : cat?.name || 'Products';
+  const getCategorySlug = (cat: any): string => {
+    if (typeof cat === 'string') return cat.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "");
+    return cat?.slug || cat?.name?.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "") || 'products';
+  };
+  
   const [selectedWeight, setSelectedWeight] = useState(product?.weight || "");
   const [quantity, setQuantity] = useState(1);
   const [activeTab, setActiveTab] = useState("Description");
@@ -50,16 +95,19 @@ const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed
 
   if (!product) {
     return (
-      <div className="section-padding text-center">
-        <p className="font-heading text-2xl">{t("product.notFound")}</p>
-        <Link href="/shop" className="font-body text-primary hover:underline mt-2 inline-block">{t("product.backToShop")}</Link>
-      </div>
+      <MainLayout>
+        <div className="section-padding text-center">
+          <p className="font-heading text-2xl">{t("product.notFound")}</p>
+          <Link href="/shop" className="font-body text-primary hover:underline mt-2 inline-block">{t("product.backToShop")}</Link>
+        </div>
+      </MainLayout>
     );
   }
 
   const isWished = wishlist.includes(product.id);
   const discount = product.oldPrice ? Math.round(((product.oldPrice - product.price) / product.oldPrice) * 100) : 0;
-  const related = relatedProducts || products.filter((p) => p.category === product.category && p.id !== product.id).slice(0, 4);
+  const productCategoryName = getCategoryName(product.category);
+  const related = relatedProducts || products.filter((p) => getCategoryName(p.category) === productCategoryName && p.id !== product.id).slice(0, 4);
   const recentlyViewed = serverRecentlyViewed || products.filter((p) => recentlyViewedIds.includes(p.id) && p.slug !== product?.slug).slice(0, 4);
 
   const handleAddToCart = () => {
@@ -73,7 +121,7 @@ const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed
   };
 
   return (
-    <>
+    <MainLayout>
       <Head title={`${product?.name || "Product"} - Khadyobitan`} />
       <div className="bg-background min-h-screen">
       {/* Breadcrumb */}
@@ -84,7 +132,7 @@ const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed
             <ChevronRight className="h-3 w-3" />
             <Link href="/shop" className="hover:text-primary transition-colors">{t("nav.shop")}</Link>
             <ChevronRight className="h-3 w-3" />
-            <Link href={`/shop?category=${product.category.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "")}`} className="hover:text-primary transition-colors">{product.category}</Link>
+            <Link href={`/shop?category=${getCategorySlug(product.category)}`} className="hover:text-primary transition-colors">{getCategoryName(product.category)}</Link>
             <ChevronRight className="h-3 w-3" />
             <span className="text-foreground font-medium">{product.name}</span>
           </nav>
@@ -97,7 +145,7 @@ const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="lg:col-span-7">
             <div className="sticky top-24">
               <div className="aspect-[4/3] bg-muted rounded-2xl relative overflow-hidden group border border-border/40">
-                <img src={productImageMap[product.slug] || "/placeholder.svg"} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <img src={getProductImageSrc(product)} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                 {discount > 0 && (
                   <span className="absolute top-4 left-4 bg-accent text-accent-foreground text-xs font-bold px-3 py-1 rounded-lg font-body shadow-sm">-{discount}%</span>
                 )}
@@ -108,7 +156,7 @@ const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed
               <div className="flex gap-2.5 mt-3">
                 {[0, 1, 2, 3].map((i) => (
                   <button key={i} onClick={() => setSelectedImage(i)} className={`flex-1 aspect-square max-w-[80px] rounded-xl bg-muted overflow-hidden border-2 transition-all duration-200 hover:border-primary/50 ${selectedImage === i ? "border-primary shadow-md" : "border-transparent"}`}>
-                    <img src={productImageMap[product.slug] || "/placeholder.svg"} alt={product.name} className="w-full h-full object-cover" />
+                    <img src={getProductImageSrc(product)} alt={product.name} className="w-full h-full object-cover" />
                   </button>
                 ))}
               </div>
@@ -123,7 +171,7 @@ const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed
               ))}
             </div>
 
-            <p className="font-body text-[11px] text-muted-foreground uppercase tracking-[0.15em] mb-1">{product.category}</p>
+            <p className="font-body text-[11px] text-muted-foreground uppercase tracking-[0.15em] mb-1">{getCategoryName(product.category)}</p>
             <h1 className="font-heading text-2xl sm:text-3xl lg:text-[28px] font-bold text-foreground mb-3 leading-tight">{product.name}</h1>
 
             <div className="flex items-center gap-2 mb-5">
@@ -233,7 +281,10 @@ const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed
 
           <div className="py-8">
             {activeTab === t("product.description") && (
-              <p className="font-body text-sm text-muted-foreground leading-relaxed max-w-3xl">{product.description}</p>
+              <div 
+                className="font-body text-sm text-muted-foreground leading-relaxed max-w-3xl prose prose-sm"
+                dangerouslySetInnerHTML={{ __html: product.description || '' }}
+              />
             )}
             {activeTab === t("product.reviews") && (
               <ReviewsTab productId={product.id} rating={product.rating} reviewsCount={product.reviewsCount} />
@@ -266,7 +317,7 @@ const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed
         )}
       </div>
     </div>
-    </>
+    </MainLayout>
   );
 };
 

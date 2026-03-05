@@ -1,11 +1,13 @@
+import React from 'react';
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import MainLayout from "@/Components/layout/MainLayout";
 
 const Privacy = () => {
   const { t } = useTranslation();
 
   return (
-    <>
+    <MainLayout>
       <Head title="Privacy Policy - Khadyobitan" />
       <div>
       <section className="bg-gradient-earthy text-primary-foreground section-padding">
@@ -38,7 +40,7 @@ const Privacy = () => {
         </div>
       </section>
     </div>
-    </>
+    </MainLayout>
   );
 };
 export default Privacy;

@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from "@inertiajs/react";
 import { Facebook, Instagram, Youtube, Mail } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
@@ -19,7 +20,7 @@ const Footer = () => {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10"
         >
           <div className="lg:col-span-2">
-            <Link to="/" className="flex items-center gap-2 mb-4 group">
+            <Link href="/" className="flex items-center gap-2 mb-4 group">
               <div className="bg-white/90 rounded-lg p-1.5">
                 <img src={logo} alt="Khadyobitan logo" className="h-8 w-auto object-contain" />
               </div>
@@ -46,7 +47,7 @@ const Footer = () => {
                   { label: "FAQ", path: "/faq" },
                 ].map((l) => (
                   <li key={l.path}>
-                    <Link to={l.path} className="hover:opacity-100 hover:text-accent hover:translate-x-1 transition-all duration-200 inline-block">{l.label}</Link>
+                    <Link href={l.path} className="hover:opacity-100 hover:text-accent hover:translate-x-1 transition-all duration-200 inline-block">{l.label}</Link>
                   </li>
                 ))}
               </ul>
@@ -64,7 +65,7 @@ const Footer = () => {
                   { label: t("footer.myAccount"), path: "/account" },
                 ].map((l) => (
                   <li key={l.path}>
-                    <Link to={l.path} className="hover:opacity-100 hover:text-accent hover:translate-x-1 transition-all duration-200 inline-block">{l.label}</Link>
+                    <Link href={l.path} className="hover:opacity-100 hover:text-accent hover:translate-x-1 transition-all duration-200 inline-block">{l.label}</Link>
                   </li>
                 ))}
               </ul>
@@ -90,9 +91,9 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/10 mt-6 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs opacity-50 font-body">
           <p>{t("footer.copyright")}</p>
           <div className="flex gap-4">
-            <Link to="/terms" className="hover:opacity-100 hover:text-accent transition-all duration-200">{t("footer.terms")}</Link>
-            <Link to="/privacy" className="hover:opacity-100 hover:text-accent transition-all duration-200">{t("footer.privacy")}</Link>
-            <Link to="/shipping" className="hover:opacity-100 hover:text-accent transition-all duration-200">{t("shippingPolicy.title")}</Link>
+            <Link href="/terms" className="hover:opacity-100 hover:text-accent transition-all duration-200">{t("footer.terms")}</Link>
+            <Link href="/privacy" className="hover:opacity-100 hover:text-accent transition-all duration-200">{t("footer.privacy")}</Link>
+            <Link href="/shipping" className="hover:opacity-100 hover:text-accent transition-all duration-200">{t("shippingPolicy.title")}</Link>
           </div>
         </div>
 

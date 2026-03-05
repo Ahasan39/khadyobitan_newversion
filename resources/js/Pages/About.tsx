@@ -1,9 +1,11 @@
+import React from 'react';
 import { motion } from "framer-motion";
 import { Head, Link } from "@inertiajs/react";
 import { Leaf, Heart, Shield, Users, Globe, Award, ArrowRight, ChevronRight } from "lucide-react";
 import aboutMission from "@/assets/about-mission.jpg";
 import aboutFarm from "@/assets/about-farm.jpg";
 import { useTranslation } from "react-i18next";
+import MainLayout from "@/Components/layout/MainLayout";
 
 const About = () => {
   const { t } = useTranslation();
@@ -33,7 +35,7 @@ const About = () => {
   ];
 
   return (
-    <>
+    <MainLayout>
       <Head title="About Us - Khadyobitan" />
       <div>
       <section className="relative overflow-hidden">
@@ -147,7 +149,7 @@ const About = () => {
         </div>
       </section>
     </div>
-    </>
+    </MainLayout>
   );
 };
 export default About;

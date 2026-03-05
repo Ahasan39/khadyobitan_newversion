@@ -6,6 +6,7 @@ import { useCartStore } from "@/store/cartStore";
 import { products } from "@/data/products";
 import ProductCard from "@/Components/ProductCard";
 import { useTranslation } from "react-i18next";
+import MainLayout from "@/Components/layout/MainLayout";
 
 const Wishlist = () => {
   const { t } = useTranslation();
@@ -14,7 +15,7 @@ const Wishlist = () => {
 
   if (wishedProducts.length === 0) {
     return (
-      <>
+      <MainLayout>
         <Head title="Wishlist - Khadyobitan" />
         <div className="section-padding text-center">
           <div className="container-custom max-w-md mx-auto">
@@ -26,12 +27,12 @@ const Wishlist = () => {
             </Link>
           </div>
         </div>
-      </>
+      </MainLayout>
     );
   }
 
   return (
-    <>
+    <MainLayout>
       <Head title="Wishlist - Khadyobitan" />
       <div className="section-padding">
       <div className="container-custom">
@@ -48,7 +49,7 @@ const Wishlist = () => {
         </motion.div>
       </div>
     </div>
-    </>
+    </MainLayout>
   );
 };
 export default Wishlist;

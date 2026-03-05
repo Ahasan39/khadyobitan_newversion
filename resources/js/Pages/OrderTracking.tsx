@@ -5,6 +5,7 @@ import { Package, Search, Truck, CheckCircle2, Clock, MapPin } from "lucide-reac
 import { Button } from "@/Components/ui/button";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import MainLayout from "@/Components/layout/MainLayout";
 
 const mockOrders: Record<string, { status: string; steps: { label: string; date: string; done: boolean }[] }> = {
   "NP-10001": {
@@ -40,7 +41,7 @@ const OrderTracking = () => {
   const handleSearch = (e: React.FormEvent) => { e.preventDefault(); setSearched(true); };
 
   return (
-    <>
+    <MainLayout>
       <Head title="Track Order - Khadyobitan" />
       <div className="min-h-[70vh] bg-muted/30">
       <div className="bg-primary/5 py-12 lg:py-16">
@@ -104,7 +105,7 @@ const OrderTracking = () => {
         )}
       </div>
     </div>
-    </>
+    </MainLayout>
   );
 };
 export default OrderTracking;

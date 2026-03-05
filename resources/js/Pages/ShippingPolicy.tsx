@@ -1,6 +1,8 @@
+import React from 'react';
 import { motion } from "framer-motion";
 import { Truck, Clock, MapPin, Package } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import MainLayout from "@/Components/layout/MainLayout";
 
 const ShippingPolicy = () => {
   const { t } = useTranslation();
@@ -20,7 +22,7 @@ const ShippingPolicy = () => {
   ];
 
   return (
-    <>
+    <MainLayout>
       <Head title="Shipping Policy - Khadyobitan" />
       <div>
       <section className="bg-gradient-earthy text-primary-foreground section-padding">
@@ -83,7 +85,7 @@ const ShippingPolicy = () => {
         </div>
       </section>
     </div>
-    </>
+    </MainLayout>
   );
 };
 export default ShippingPolicy;

@@ -1,8 +1,10 @@
+import React from 'react';
 import { useState } from "react";
 import { Head, Link } from "@inertiajs/react";
 import { motion } from "framer-motion";
 import { User, Package, Heart, MapPin, Settings, LogOut, ChevronRight, Star } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import MainLayout from "@/Components/layout/MainLayout";
 
 const mockOrders = [
   { id: "NP-10234", date: "Feb 8, 2026", status: "Delivered", total: 1280, items: 3 },
@@ -28,7 +30,7 @@ const Account = () => {
   ];
 
   return (
-    <>
+    <MainLayout>
       <Head title="My Account - Khadyobitan" />
       <div className="section-padding bg-muted min-h-[80vh]">
       <div className="container-custom">
@@ -168,7 +170,7 @@ const Account = () => {
         </motion.div>
       </div>
     </div>
-    </>
+    </MainLayout>
   );
 };
 export default Account;

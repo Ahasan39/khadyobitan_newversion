@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, usePage } from "@inertiajs/react";
 import { X, Gift, Copy, Check } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
@@ -8,14 +8,14 @@ const PromoPopup = () => {
   const { t } = useTranslation();
   const [show, setShow] = useState(false);
   const [copied, setCopied] = useState(false);
-  const location = useLocation();
+  const { url } = usePage();
 
   useEffect(() => {
-    if (location.pathname !== "/") return;
+    if (url !== "/") return;
     if (sessionStorage.getItem("promo-dismissed") === "true") return;
     const timer = setTimeout(() => setShow(true), 10000);
     return () => clearTimeout(timer);
-  }, [location.pathname]);
+  }, [url]);
 
   const dismiss = () => {
     setShow(false);
@@ -27,6 +27,8 @@ const PromoPopup = () => {
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
+
+  const promoLink = "/shop";
 
   return (
     <AnimatePresence>
@@ -97,7 +99,7 @@ const PromoPopup = () => {
                 </p>
 
                 <Link
-                  to="/shop"
+                  href={promoLink}
                   onClick={dismiss}
                   className="mt-4 inline-flex items-center justify-center w-full py-3 bg-primary text-primary-foreground rounded-xl font-body font-semibold text-sm hover:shadow-lg hover:shadow-primary/25 transition-all duration-300"
                 >

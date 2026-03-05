@@ -1,10 +1,12 @@
+import React from 'react';
 import { useState, useMemo } from "react";
 import { Head } from "@inertiajs/react";
 import { motion } from "framer-motion";
 import { SlidersHorizontal, X, ChevronDown } from "lucide-react";
-import ProductCard from "@/components/ProductCard";
+import ProductCard from "@/Components/ProductCard";
 import { products, categories } from "@/data/products";
 import { useTranslation } from "react-i18next";
+import MainLayout from "@/Components/layout/MainLayout";
 
 const weightFilters = ["100g", "250g", "500g", "1kg", "2kg"];
 const certFilters = ["Organic", "Non-GMO", "Gluten-Free", "Lab Tested", "Cold-Pressed"];
@@ -22,9 +24,41 @@ interface ShopProps {
 
 const Shop = ({ products: serverProducts, categories: serverCategories, filters }: ShopProps) => {
   const { t } = useTranslation();
-  
-  // Use server data if available, otherwise fall back to static data
-  const displayProducts = serverProducts || products;
+
+  // Helper to extract image path from ProductImage object
+  const extractImagePath = (img: any): string => {
+    if (!img) return '/placeholder.svg';
+    if (typeof img === 'string') return img;
+    // ProductImage model: {id, image, product_id, ...}
+    if (typeof img === 'object' && img.image) {
+      let path = img.image;
+      // Normalize double slashes
+      path = path.replace(/([^:])\//g, '$1/');
+      // Convert public/uploads to /uploads
+      if (path.startsWith('public/uploads/')) path = '/' + path.slice(7);
+      else if (path.startsWith('uploads/')) path = '/' + path;
+      return path;
+    }
+    return '/placeholder.svg';
+  };
+
+  // Use server data if available, handle paginated data if necessary, otherwise fall back to static data
+  const displayProducts = useMemo(() => {
+    const raw = Array.isArray(serverProducts) ? serverProducts : (serverProducts as any)?.data || products;
+    return raw.map((p: any) => ({
+      ...p,
+      price: p.new_price || p.price || 0,
+      oldPrice: p.old_price || p.oldPrice,
+      category: p.category?.name || p.category || "General",
+      weights: p.weights || ["1kg"],
+      badges: p.badges || [],
+      rating: p.rating || 5,
+      reviewsCount: p.reviewsCount || 0,
+      // Extract actual image path from ProductImage object
+      image: p.image ? extractImagePath(p.image) : '/placeholder.svg',
+    }));
+  }, [serverProducts]);
+
   const displayCategories = serverCategories || categories;
   const [selectedCategory, setSelectedCategory] = useState<string | null>(filters?.category || null);
   const [sortBy, setSortBy] = useState(filters?.sort || "featured");
@@ -141,84 +175,84 @@ const Shop = ({ products: serverProducts, categories: serverCategories, filters 
   );
 
   return (
-    <>
+    <MainLayout>
       <Head title="Shop - Khadyobitan" />
       <div className="section-padding">
-      <div className="container-custom">
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mb-8">
-          <p className="font-accent text-xl text-accent mb-1">{t("shop.ourCollection")}</p>
-          <h1 className="font-heading text-3xl sm:text-4xl font-bold text-foreground">{t("shop.organicProducts")}</h1>
-        </motion.div>
+        <div className="container-custom">
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mb-8">
+            <p className="font-accent text-xl text-accent mb-1">{t("shop.ourCollection")}</p>
+            <h1 className="font-heading text-3xl sm:text-4xl font-bold text-foreground">{t("shop.organicProducts")}</h1>
+          </motion.div>
 
-        <div className="flex gap-8">
-          <aside className="hidden lg:block w-60 shrink-0"><FilterSidebar /></aside>
+          <div className="flex gap-8">
+            <aside className="hidden lg:block w-60 shrink-0"><FilterSidebar /></aside>
 
-          <div className="flex-1">
-            <div className="flex items-center justify-between mb-6 pb-4 border-b border-border">
-              <p className="font-body text-sm text-muted-foreground">
-                {t("shop.showing")} <span className="font-semibold text-foreground">{filtered.length}</span> {t("shop.products")}
-              </p>
-              <div className="flex items-center gap-3">
-                <button onClick={() => setShowFilters(!showFilters)} className="lg:hidden flex items-center gap-1.5 text-sm font-body font-medium text-foreground relative">
-                  <SlidersHorizontal className="h-4 w-4" /> {t("shop.filters")}
-                  {activeFilterCount > 0 && <span className="bg-primary text-primary-foreground text-[10px] font-bold rounded-full h-4 w-4 flex items-center justify-center">{activeFilterCount}</span>}
-                </button>
-                <select value={sortBy} onChange={(e) => setSortBy(e.target.value)} className="text-sm font-body bg-muted border-0 rounded-lg px-3 py-2 text-foreground focus:outline-none focus:ring-2 focus:ring-primary/30">
-                  {sortOptions.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
-                </select>
+            <div className="flex-1">
+              <div className="flex items-center justify-between mb-6 pb-4 border-b border-border">
+                <p className="font-body text-sm text-muted-foreground">
+                  {t("shop.showing")} <span className="font-semibold text-foreground">{filtered.length}</span> {t("shop.products")}
+                </p>
+                <div className="flex items-center gap-3">
+                  <button onClick={() => setShowFilters(!showFilters)} className="lg:hidden flex items-center gap-1.5 text-sm font-body font-medium text-foreground relative">
+                    <SlidersHorizontal className="h-4 w-4" /> {t("shop.filters")}
+                    {activeFilterCount > 0 && <span className="bg-primary text-primary-foreground text-[10px] font-bold rounded-full h-4 w-4 flex items-center justify-center">{activeFilterCount}</span>}
+                  </button>
+                  <select value={sortBy} onChange={(e) => setSortBy(e.target.value)} className="text-sm font-body bg-muted border-0 rounded-lg px-3 py-2 text-foreground focus:outline-none focus:ring-2 focus:ring-primary/30">
+                    {sortOptions.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
+                  </select>
+                </div>
               </div>
+
+              {activeFilterCount > 0 && (
+                <div className="flex items-center flex-wrap gap-2 mb-4">
+                  <span className="font-body text-xs text-muted-foreground">{t("shop.active")}</span>
+                  {selectedCategory && (
+                    <span className="inline-flex items-center gap-1 bg-primary/10 text-primary text-xs font-body font-medium px-2.5 py-1 rounded-full">
+                      {categories.find((c) => c.slug === selectedCategory)?.name}
+                      <button onClick={() => setSelectedCategory(null)}><X className="h-3 w-3" /></button>
+                    </span>
+                  )}
+                  {(priceRange[0] > 0 || priceRange[1] < 2000) && (
+                    <span className="inline-flex items-center gap-1 bg-primary/10 text-primary text-xs font-body font-medium px-2.5 py-1 rounded-full">
+                      ৳{priceRange[0]} - ৳{priceRange[1]}
+                      <button onClick={() => setPriceRange([0, 2000])}><X className="h-3 w-3" /></button>
+                    </span>
+                  )}
+                  {selectedWeights.map((w) => (
+                    <span key={w} className="inline-flex items-center gap-1 bg-primary/10 text-primary text-xs font-body font-medium px-2.5 py-1 rounded-full">
+                      {w}<button onClick={() => toggleFilter(selectedWeights, w, setSelectedWeights)}><X className="h-3 w-3" /></button>
+                    </span>
+                  ))}
+                  {selectedCerts.map((c) => (
+                    <span key={c} className="inline-flex items-center gap-1 bg-primary/10 text-primary text-xs font-body font-medium px-2.5 py-1 rounded-full">
+                      {c}<button onClick={() => toggleFilter(selectedCerts, c, setSelectedCerts)}><X className="h-3 w-3" /></button>
+                    </span>
+                  ))}
+                  <button onClick={clearAll} className="text-xs font-body text-destructive hover:underline ml-1">{t("shop.clearAll")}</button>
+                </div>
+              )}
+
+              {showFilters && (
+                <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} className="lg:hidden mb-6 p-4 bg-muted rounded-xl overflow-hidden">
+                  <FilterSidebar />
+                </motion.div>
+              )}
+
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6">
+                {filtered.map((product, i) => <ProductCard key={product.id} product={product} index={i} />)}
+              </div>
+
+              {filtered.length === 0 && (
+                <div className="text-center py-20">
+                  <p className="font-heading text-xl text-muted-foreground">{t("shop.noProductsFound")}</p>
+                  <button onClick={clearAll} className="font-body text-sm text-primary mt-2 hover:underline">{t("shop.clearFilters")}</button>
+                </div>
+              )}
             </div>
-
-            {activeFilterCount > 0 && (
-              <div className="flex items-center flex-wrap gap-2 mb-4">
-                <span className="font-body text-xs text-muted-foreground">{t("shop.active")}</span>
-                {selectedCategory && (
-                  <span className="inline-flex items-center gap-1 bg-primary/10 text-primary text-xs font-body font-medium px-2.5 py-1 rounded-full">
-                    {categories.find((c) => c.slug === selectedCategory)?.name}
-                    <button onClick={() => setSelectedCategory(null)}><X className="h-3 w-3" /></button>
-                  </span>
-                )}
-                {(priceRange[0] > 0 || priceRange[1] < 2000) && (
-                  <span className="inline-flex items-center gap-1 bg-primary/10 text-primary text-xs font-body font-medium px-2.5 py-1 rounded-full">
-                    ৳{priceRange[0]} - ৳{priceRange[1]}
-                    <button onClick={() => setPriceRange([0, 2000])}><X className="h-3 w-3" /></button>
-                  </span>
-                )}
-                {selectedWeights.map((w) => (
-                  <span key={w} className="inline-flex items-center gap-1 bg-primary/10 text-primary text-xs font-body font-medium px-2.5 py-1 rounded-full">
-                    {w}<button onClick={() => toggleFilter(selectedWeights, w, setSelectedWeights)}><X className="h-3 w-3" /></button>
-                  </span>
-                ))}
-                {selectedCerts.map((c) => (
-                  <span key={c} className="inline-flex items-center gap-1 bg-primary/10 text-primary text-xs font-body font-medium px-2.5 py-1 rounded-full">
-                    {c}<button onClick={() => toggleFilter(selectedCerts, c, setSelectedCerts)}><X className="h-3 w-3" /></button>
-                  </span>
-                ))}
-                <button onClick={clearAll} className="text-xs font-body text-destructive hover:underline ml-1">{t("shop.clearAll")}</button>
-              </div>
-            )}
-
-            {showFilters && (
-              <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} className="lg:hidden mb-6 p-4 bg-muted rounded-xl overflow-hidden">
-                <FilterSidebar />
-              </motion.div>
-            )}
-
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6">
-              {filtered.map((product, i) => <ProductCard key={product.id} product={product} index={i} />)}
-            </div>
-
-            {filtered.length === 0 && (
-              <div className="text-center py-20">
-                <p className="font-heading text-xl text-muted-foreground">{t("shop.noProductsFound")}</p>
-                <button onClick={clearAll} className="font-body text-sm text-primary mt-2 hover:underline">{t("shop.clearFilters")}</button>
-              </div>
-            )}
           </div>
         </div>
       </div>
-    </div>
-    </>
+    </MainLayout>
   );
 };
 

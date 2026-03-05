@@ -1,8 +1,10 @@
+import React from 'react';
 import { motion } from "framer-motion";
 import { Head, Link } from "@inertiajs/react";
 import { ChevronRight } from "lucide-react";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/Components/ui/accordion";
 import { useTranslation } from "react-i18next";
+import MainLayout from "@/Components/layout/MainLayout";
 
 const FAQ = () => {
   const { t } = useTranslation();
@@ -38,7 +40,7 @@ const FAQ = () => {
   ];
 
   return (
-    <>
+    <MainLayout>
       <Head title="FAQ - Khadyobitan" />
       <div>
       <section className="section-padding bg-gradient-earthy text-primary-foreground">
@@ -92,7 +94,7 @@ const FAQ = () => {
         </div>
       </section>
     </div>
-    </>
+    </MainLayout>
   );
 };
 export default FAQ;

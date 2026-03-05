@@ -1,27 +1,43 @@
-import { Link } from "react-router-dom";
+import React from "react";
+import { Link } from "@inertiajs/react";
 import { Heart, ShoppingCart, Star, Eye } from "lucide-react";
 import { motion } from "framer-motion";
 import type { Product } from "@/data/products";
 import { useCartStore } from "@/store/cartStore";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
-import { productImageMap } from "@/data/productImages";
+import { getProductImageSrc } from "@/utils/imageUtils";
 
 interface ProductCardProps {
   product: Product;
   index?: number;
 }
 
-const ProductCard = ({ product, index = 0 }: ProductCardProps) => {
+const ProductCard = ({ product: rawProduct, index = 0 }: ProductCardProps) => {
   const { t } = useTranslation();
   const addItem = useCartStore((s) => s.addItem);
   const toggleWishlist = useCartStore((s) => s.toggleWishlist);
   const wishlist = useCartStore((s) => s.wishlist);
+  
+  // Normalize backend product to match frontend structure
+  const product = {
+    ...rawProduct,
+    price: rawProduct.new_price || rawProduct.price || 0,
+    oldPrice: rawProduct.old_price || rawProduct.oldPrice,
+    category: typeof rawProduct.category === 'string' ? rawProduct.category : rawProduct.category?.name || 'Products',
+    rating: rawProduct.rating || 0,
+    reviewsCount: rawProduct.reviewsCount || rawProduct.reviews_count || 0,
+    badges: rawProduct.badges || [],
+    weight: rawProduct.weight || '',
+  };
+  
   const isWished = wishlist.includes(product.id);
 
   const discount = product.oldPrice
     ? Math.round(((product.oldPrice - product.price) / product.oldPrice) * 100)
     : 0;
+
+  const imageSrc = getProductImageSrc(product);
 
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -37,16 +53,16 @@ const ProductCard = ({ product, index = 0 }: ProductCardProps) => {
       transition={{ delay: index * 0.06, duration: 0.45, ease: "easeOut" }}
     >
       <Link
-        to={`/product/${product.slug}`}
+        href={`/product/${product.slug}`}
         className="group block bg-card rounded-2xl overflow-hidden border border-border/60 hover:border-primary/30 hover:shadow-xl hover:shadow-primary/5 transition-all duration-500"
       >
         <div className="relative aspect-[4/3.5] bg-muted overflow-hidden">
-          <img src={productImageMap[product.slug] || "/placeholder.svg"} alt={product.name} className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
+          <img src={imageSrc} alt={product.name} className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
           <div className="absolute top-2.5 left-2.5 flex flex-col gap-1.5">
             {discount > 0 && (
               <span className="bg-accent text-accent-foreground text-[10px] font-bold px-2 py-0.5 rounded-md font-body shadow-sm">-{discount}%</span>
             )}
-            {product.badges.slice(0, 1).map((b) => (
+            {(product.badges || []).slice(0, 1).map((b) => (
               <span key={b} className="bg-primary text-primary-foreground text-[10px] font-bold px-2 py-0.5 rounded-md font-body shadow-sm">{b}</span>
             ))}
           </div>

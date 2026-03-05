@@ -1,9 +1,11 @@
+import React from 'react';
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Head, Link } from "@inertiajs/react";
 import { Phone, Mail, MapPin, Clock, ChevronRight, Send } from "lucide-react";
 import { toast } from "sonner";
 import { useTranslation } from "react-i18next";
+import MainLayout from "@/Components/layout/MainLayout";
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -25,7 +27,7 @@ const Contact = () => {
   };
 
   return (
-    <>
+    <MainLayout>
       <Head title="Contact Us - Khadyobitan" />
       <div>
       <section className="section-padding bg-gradient-earthy text-primary-foreground">
@@ -96,7 +98,7 @@ const Contact = () => {
         </div>
       </section>
     </div>
-    </>
+    </MainLayout>
   );
 };
 export default Contact;

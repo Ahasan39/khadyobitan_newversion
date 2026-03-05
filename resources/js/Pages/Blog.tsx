@@ -1,8 +1,10 @@
+import React, { useMemo } from 'react';
 import { Head, Link } from "@inertiajs/react";
 import { motion } from "framer-motion";
 import { Clock, ChefHat, ArrowRight, Leaf } from "lucide-react";
-import { blogPosts } from "@/data/blogPosts";
+import { blogPosts as staticBlogPosts } from "@/data/blogPosts";
 import { useTranslation } from "react-i18next";
+import MainLayout from "@/Components/layout/MainLayout";
 
 const recipeHighlights = [
   { title: "Honey Turmeric Latte", time: "5 min", difficulty: "Easy", products: ["Raw Organic Honey", "Organic Turmeric"] },
@@ -10,11 +12,49 @@ const recipeHighlights = [
   { title: "Date Energy Balls", time: "15 min", difficulty: "Easy", products: ["Medjool Dates", "Black Chia Seeds"] },
 ];
 
-const Blog = () => {
+interface BlogPost {
+  id: number;
+  slug: string;
+  title: string;
+  image?: string;
+  category?: string;
+  readTime?: string;
+  excerpt?: string;
+  description?: string;
+  date?: string;
+  created_at?: string;
+}
+
+interface BlogProps {
+  posts?: {
+    data?: BlogPost[];
+  } | BlogPost[];
+  search?: string;
+}
+
+const Blog = ({ posts, search }: BlogProps) => {
   const { t } = useTranslation();
 
+  // Use backend posts if available, fallback to static posts
+  const blogPosts = useMemo(() => {
+    const backendPosts = Array.isArray(posts) ? posts : posts?.data;
+    if (backendPosts && backendPosts.length > 0) {
+      return backendPosts.map((post: BlogPost) => ({
+        id: post.id,
+        slug: post.slug,
+        title: post.title,
+        image: post.image || '/placeholder.svg',
+        category: post.category || 'General',
+        readTime: post.readTime || '5 min read',
+        excerpt: post.excerpt || post.description?.substring(0, 150) || '',
+        date: post.date || (post.created_at ? new Date(post.created_at).toLocaleDateString() : ''),
+      }));
+    }
+    return staticBlogPosts;
+  }, [posts]);
+
   return (
-    <>
+    <MainLayout>
       <Head title="Blog - Khadyobitan" />
       <div>
       <section className="bg-gradient-earthy text-primary-foreground section-padding">
@@ -91,7 +131,7 @@ const Blog = () => {
         </div>
       </section>
     </div>
-    </>
+    </MainLayout>
   );
 };
 export default Blog;

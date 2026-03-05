@@ -1,12 +1,13 @@
+import React from 'react';
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { usePage } from "@inertiajs/react";
 
 const ScrollToTop = () => {
-  const { pathname } = useLocation();
+  const { url } = usePage();
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
-  }, [pathname]);
+  }, [url]);
 
   return null;
 };

@@ -1,8 +1,10 @@
+import React from 'react';
 import { useState } from "react";
 import { Head, Link } from "@inertiajs/react";
 import { motion } from "framer-motion";
 import { Leaf, Eye, EyeOff, Mail, Lock, User, Phone } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import MainLayout from "@/Components/layout/MainLayout";
 
 const Login = () => {
   const { t } = useTranslation();
@@ -10,7 +12,7 @@ const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
-    <>
+    <MainLayout>
       <Head title="Login - Khadyobitan" />
       <div className="min-h-[80vh] flex items-center justify-center section-padding bg-muted">
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="w-full max-w-md">
@@ -107,7 +109,7 @@ const Login = () => {
         </div>
       </motion.div>
     </div>
-    </>
+    </MainLayout>
   );
 };
 export default Login;
