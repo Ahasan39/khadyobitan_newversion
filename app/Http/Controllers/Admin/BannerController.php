@@ -55,19 +55,19 @@ class BannerController extends Controller
                 'status' => 'required',
             ]);
 
-            $input['slug'] = strtolower(preg_replace('/\s+/', '-', $request->title));
-            $input['slug'] = str_replace('/', '', $input['slug']);
-            
-            $fileUrl = null;
+            $slug = strtolower(preg_replace('/\s+/', '-', $request->title));
+            $slug = str_replace('/', '', $slug);
+
+            $imageUrl = null;
             $file = $request->file('image');
             if ($file) {
                 $imageUrl = $this->compressAndSaveImage($file, 'banner');
-                    
             }
 
-            $input = $request->all();
+            $input = $request->except('image');
+            $input['slug'] = $slug;
             $input['status'] = $request->status ? 1 : 0;
-            $input['image'] =  $imageUrl;
+            $input['image'] = $imageUrl;
 
             Banner::create($input);
             Toastr::success('Data inserted successfully', 'Success');
@@ -100,24 +100,28 @@ class BannerController extends Controller
              
             ]);
 
-            $input['slug'] = strtolower(preg_replace('/\s+/', '-', $request->title));
-            $input['slug'] = str_replace('/', '', $input['slug']);
-            
             $update_data = Banner::findOrFail($request->id);
-            $input = $request->all();
+
+            $slug = strtolower(preg_replace('/\s+/', '-', $request->title));
+            $slug = str_replace('/', '', $slug);
+
+            $input = $request->except('image');
+            $input['slug'] = $slug;
+            $input['status'] = $request->status ? 1 : 0;
 
             $file = $request->file('image');
             if ($file) {
-                 $imageUrl = $this->compressAndSaveImage($file, 'banner');
+                $imageUrl = $this->compressAndSaveImage($file, 'banner');
                 $input['image'] = $imageUrl;
-
                 // delete old image
-                File::delete($update_data->image);
+                if ($update_data->image) {
+                    $oldImagePath = public_path(str_replace('public/', '', $update_data->image));
+                    if (File::exists($oldImagePath)) File::delete($oldImagePath);
+                }
             } else {
                 $input['image'] = $update_data->image;
             }
 
-            $input['status'] = $request->status ? 1 : 0;
             $update_data->update($input);
 
             Toastr::success('Data updated successfully', 'Success');
@@ -182,10 +186,11 @@ class BannerController extends Controller
         $filename = time() . '-' . uniqid() . '.webp';
         $filename = strtolower(preg_replace('/\s+/', '-', $filename));
         
-        $uploadPath = 'public/uploads/banner/' ;
+        $diskPath = public_path('uploads/banner/');
+        $dbPath   = 'public/uploads/banner/';
        
-        if (!file_exists($uploadPath)) {
-            mkdir($uploadPath, 0755, true);
+        if (!file_exists($diskPath)) {
+            mkdir($diskPath, 0755, true);
         }
         
         // Intervention Image 3.x - Direct usage without provider
@@ -199,16 +204,28 @@ class BannerController extends Controller
             ->toWebp(75);
          
         // Save the image
-        $fullPath = $uploadPath . $filename;
+        $fullPath = $diskPath . $filename;
          
         file_put_contents($fullPath, $img);
         
-        return $fullPath;
+        return $dbPath . $filename;
         
     } catch (\Exception $e) {
         \Log::error('Image Compression Error: ' . $e->getMessage());
         return $this->saveOriginalImage($file, $folder);
     }
 }
-    
+
+    private function saveOriginalImage($file, $folder = 'banner')
+    {
+        $ext      = $file->getClientOriginalExtension();
+        $filename = time() . '-' . uniqid() . '.' . $ext;
+        $filename = strtolower(preg_replace('/\s+/', '-', $filename));
+        $diskPath = public_path('uploads/' . $folder . '/');
+        if (!file_exists($diskPath)) {
+            mkdir($diskPath, 0755, true);
+        }
+        $file->move($diskPath, $filename);
+        return 'public/uploads/' . $folder . '/' . $filename;
+    }
 }

@@ -157,16 +157,17 @@ class BrandController extends Controller
     }
     
     
-    private function compressAndSaveImage($image, $folder = 'product')
+    private function compressAndSaveImage($image, $folder = 'brand')
 {
     try {
         $filename = time() . '-' . uniqid() . '.webp';
         $filename = strtolower(preg_replace('/\s+/', '-', $filename));
         
-        $uploadPath = 'public/uploads/' . $folder . '/';
+        $diskPath = public_path('uploads/' . $folder . '/');
+        $dbPath   = 'public/uploads/' . $folder . '/';
         
-        if (!file_exists($uploadPath)) {
-            mkdir($uploadPath, 0755, true);
+        if (!file_exists($diskPath)) {
+            mkdir($diskPath, 0755, true);
         }
         
         // Intervention Image 3.x - Direct usage without provider
@@ -180,10 +181,10 @@ class BrandController extends Controller
             ->toWebp(75);
         
         // Save the image
-        $fullPath = $uploadPath . $filename;
+        $fullPath = $diskPath . $filename;
         file_put_contents($fullPath, $img);
         
-        return $fullPath;
+        return $dbPath . $filename;
         
     } catch (\Exception $e) {
         \Log::error('Image Compression Error: ' . $e->getMessage());
@@ -192,20 +193,21 @@ class BrandController extends Controller
 }
 
 // Alternative method if above doesn't work
-private function compressAndSaveImageV2($image, $folder = 'product')
+private function compressAndSaveImageV2($image, $folder = 'brand')
 {
     try {
         $filename = time() . '-' . uniqid() . '.webp';
         $filename = strtolower(preg_replace('/\s+/', '-', $filename));
         
-        $uploadPath = 'public/uploads/' . $folder . '/';
+        $diskPath = public_path('uploads/' . $folder . '/');
+        $dbPath   = 'public/uploads/' . $folder . '/';
         
-        if (!file_exists($uploadPath)) {
-            mkdir($uploadPath, 0755, true);
+        if (!file_exists($diskPath)) {
+            mkdir($diskPath, 0755, true);
         }
         
         $manager = new ImageManager(new Driver());
-        $fullPath = $uploadPath . $filename;
+        $fullPath = $diskPath . $filename;
         
         $manager->read($image->getRealPath())
             ->resize(700, 600, function ($constraint) {
@@ -214,11 +216,24 @@ private function compressAndSaveImageV2($image, $folder = 'product')
             })
             ->save($fullPath, 75, 'webp');
         
-        return $fullPath;
+        return $dbPath . $filename;
         
     } catch (\Exception $e) {
         \Log::error('Image Compression Error: ' . $e->getMessage());
         return $this->saveOriginalImage($image, $folder);
     }
 }
+
+    private function saveOriginalImage($image, $folder = 'brand')
+    {
+        $ext      = $image->getClientOriginalExtension();
+        $filename = time() . '-' . uniqid() . '.' . $ext;
+        $filename = strtolower(preg_replace('/\s+/', '-', $filename));
+        $diskPath = public_path('uploads/' . $folder . '/');
+        if (!file_exists($diskPath)) {
+            mkdir($diskPath, 0755, true);
+        }
+        $image->move($diskPath, $filename);
+        return 'public/uploads/' . $folder . '/' . $filename;
+    }
 }

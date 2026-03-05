@@ -224,9 +224,8 @@ if ($request->policy_title && is_array($request->policy_title)) {
                         $image = $images[$key];
                         $name = time() . '-' . $image->getClientOriginalName();
                         $name = strtolower(preg_replace('/\s+/', '-', $name));
-                        $uploadPath = 'public/uploads/product/';
-                        $image->move($uploadPath, $name);
-                        $imageUrl = $uploadPath . $name;
+                        $image->move(public_path('uploads/product/'), $name);
+                        $imageUrl = 'public/uploads/product/' . $name;
                     }
 
                     if (!empty($size[$key]) || !empty($color[$key])) {
@@ -406,9 +405,8 @@ if ($request->tags && is_array($request->tags)) {
                             $image = $images[$key];
                             $name = time() . '-' . $image->getClientOriginalName();
                             $name = strtolower(preg_replace('/\s+/', '-', $name));
-                            $uploadPath = 'public/uploads/product/';
-                            $image->move($uploadPath, $name);
-                            $imageUrl = $uploadPath . $name;
+                            $image->move(public_path('uploads/product/'), $name);
+                            $imageUrl = 'public/uploads/product/' . $name;
                             
                             if ($upvariable->image && File::exists($upvariable->image)) {
                                 File::delete($upvariable->image);
@@ -453,9 +451,8 @@ if ($request->tags && is_array($request->tags)) {
                             $image = $images[$key];
                             $name = time() . '-' . $image->getClientOriginalName();
                             $name = strtolower(preg_replace('/\s+/', '-', $name));
-                            $uploadPath = 'public/uploads/product/';
-                            $image->move($uploadPath, $name);
-                            $imageUrl = $uploadPath . $name;
+                            $image->move(public_path('uploads/product/'), $name);
+                            $imageUrl = 'public/uploads/product/' . $name;
                         } else {
                             $imageUrl = NULL;
                         }
@@ -673,12 +670,13 @@ if ($request->tags && is_array($request->tags)) {
                     // Copy image file
                     $oldPath = $image->image;
                     
-                    if ($oldPath && File::exists($oldPath)) {
+                    if ($oldPath && File::exists(public_path(str_replace('public/', '', $oldPath)))) {
                         $extension = pathinfo($oldPath, PATHINFO_EXTENSION);
-                        $newFilename = 'public/uploads/product/' . time() . '-' . uniqid() . '-copy.' . $extension;
+                        $newDbPath = 'public/uploads/product/' . time() . '-' . uniqid() . '-copy.' . $extension;
+                        $newDiskPath = public_path('uploads/product/') . basename($newDbPath);
                         
-                        File::copy($oldPath, $newFilename);
-                        $newImage->image = $newFilename;
+                        File::copy(public_path(str_replace('public/', '', $oldPath)), $newDiskPath);
+                        $newImage->image = $newDbPath;
                     } else {
                         $newImage->image = $oldPath; // Keep original path if file doesn't exist
                         \Log::warning('Image file not found during duplicate: ' . $oldPath);
@@ -704,12 +702,13 @@ if ($request->tags && is_array($request->tags)) {
                     if ($variable->image) {
                         $oldVarPath = $variable->image;
                         
-                        if (File::exists($oldVarPath)) {
+                        if (File::exists(public_path(str_replace('public/', '', $oldVarPath)))) {
                             $varExtension = pathinfo($oldVarPath, PATHINFO_EXTENSION);
-                            $newVarFilename = 'public/uploads/product/' . time() . '-' . uniqid() . '-var-copy.' . $varExtension;
+                            $newVarDbPath = 'public/uploads/product/' . time() . '-' . uniqid() . '-var-copy.' . $varExtension;
+                            $newVarDiskPath = public_path('uploads/product/') . basename($newVarDbPath);
                             
-                            File::copy($oldVarPath, $newVarFilename);
-                            $newVariable->image = $newVarFilename;
+                            File::copy(public_path(str_replace('public/', '', $oldVarPath)), $newVarDiskPath);
+                            $newVariable->image = $newVarDbPath;
                         } else {
                             $newVariable->image = $oldVarPath; // Keep original path if file doesn't exist
                             \Log::warning('Variable image file not found during duplicate: ' . $oldVarPath);
@@ -749,10 +748,11 @@ private function compressAndSaveImage($image, $folder = 'product')
         $filename = time() . '-' . uniqid() . '.webp';
         $filename = strtolower(preg_replace('/\s+/', '-', $filename));
         
-        $uploadPath = 'public/uploads/' . $folder . '/';
+        $diskPath = public_path('uploads/' . $folder . '/');
+        $dbPath   = 'public/uploads/' . $folder . '/';
         
-        if (!file_exists($uploadPath)) {
-            mkdir($uploadPath, 0755, true);
+        if (!file_exists($diskPath)) {
+            mkdir($diskPath, 0755, true);
         }
         
         // Intervention Image 3.x - Direct usage without provider
@@ -766,10 +766,10 @@ private function compressAndSaveImage($image, $folder = 'product')
             ->toWebp(75);
         
         // Save the image
-        $fullPath = $uploadPath . $filename;
+        $fullPath = $diskPath . $filename;
         file_put_contents($fullPath, $img);
         
-        return $fullPath;
+        return $dbPath . $filename;
         
     } catch (\Exception $e) {
         \Log::error('Image Compression Error: ' . $e->getMessage());
@@ -784,14 +784,15 @@ private function compressAndSaveImageV2($image, $folder = 'product')
         $filename = time() . '-' . uniqid() . '.webp';
         $filename = strtolower(preg_replace('/\s+/', '-', $filename));
         
-        $uploadPath = 'public/uploads/' . $folder . '/';
+        $diskPath = public_path('uploads/' . $folder . '/');
+        $dbPath   = 'public/uploads/' . $folder . '/';
         
-        if (!file_exists($uploadPath)) {
-            mkdir($uploadPath, 0755, true);
+        if (!file_exists($diskPath)) {
+            mkdir($diskPath, 0755, true);
         }
         
         $manager = new ImageManager(new Driver());
-        $fullPath = $uploadPath . $filename;
+        $fullPath = $diskPath . $filename;
         
         $manager->read($image->getRealPath())
             ->resize(700, 600, function ($constraint) {
@@ -800,12 +801,25 @@ private function compressAndSaveImageV2($image, $folder = 'product')
             })
             ->save($fullPath, 75, 'webp');
         
-        return $fullPath;
+        return $dbPath . $filename;
         
     } catch (\Exception $e) {
         \Log::error('Image Compression Error: ' . $e->getMessage());
         return $this->saveOriginalImage($image, $folder);
     }
+}
+
+private function saveOriginalImage($image, $folder = 'product')
+{
+    $ext      = $image->getClientOriginalExtension();
+    $filename = time() . '-' . uniqid() . '.' . $ext;
+    $filename = strtolower(preg_replace('/\s+/', '-', $filename));
+    $diskPath = public_path('uploads/' . $folder . '/');
+    if (!file_exists($diskPath)) {
+        mkdir($diskPath, 0755, true);
+    }
+    $image->move($diskPath, $filename);
+    return 'public/uploads/' . $folder . '/' . $filename;
 }
 
 

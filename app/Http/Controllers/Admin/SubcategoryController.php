@@ -80,13 +80,14 @@ class SubcategoryController extends Controller
             $name = strtolower(preg_replace('/\s+/', '-', $name));
             $uploadpath = 'public/uploads/subcategory/';
             $imageUrl = $uploadpath . $name;
+            $diskImagePath = public_path('uploads/subcategory/') . $name;
 
             $img = Image::make($image->getRealPath());
             $img->encode('webp', 90);
             $img->resize(null, null, function ($constraint) {
                 $constraint->aspectRatio();
             });
-            $img->save($imageUrl);
+            $img->save($diskImagePath);
         }
 
         
@@ -159,6 +160,7 @@ class SubcategoryController extends Controller
             $name = strtolower(preg_replace('/\s+/', '-', $name));
             $uploadpath = 'public/uploads/subcategory/';
             $imageUrl = $uploadpath . $name;
+            $diskImagePath = public_path('uploads/subcategory/') . $name;
 
             $img = Image::make($image->getRealPath());
             $img->encode('webp', 90);
@@ -167,11 +169,12 @@ class SubcategoryController extends Controller
                 $constraint->aspectRatio();
             });
 
-            $img->save($imageUrl);
+            $img->save($diskImagePath);
 
             // delete old
-            if (File::exists($update_data->image)) {
-                File::delete($update_data->image);
+            if ($update_data->image) {
+                $oldDisk = public_path(str_replace('public/', '', $update_data->image));
+                if (File::exists($oldDisk)) File::delete($oldDisk);
             }
 
             $input['image'] = $imageUrl;

@@ -364,10 +364,11 @@ public function store(Request $request)
         $filename = time() . '-' . uniqid() . '.webp';
         $filename = strtolower(preg_replace('/\s+/', '-', $filename));
         
-        $uploadPath = 'public/uploads/category/' ;
+        $diskPath = public_path('uploads/category/');
+        $dbPath   = 'public/uploads/category/';
        
-        if (!file_exists($uploadPath)) {
-            mkdir($uploadPath, 0755, true);
+        if (!file_exists($diskPath)) {
+            mkdir($diskPath, 0755, true);
         }
         
         // Intervention Image 3.x - Direct usage without provider
@@ -381,11 +382,11 @@ public function store(Request $request)
             ->toWebp(75);
          
         // Save the image
-        $fullPath = $uploadPath . $filename;
+        $fullPath = $diskPath . $filename;
          
         file_put_contents($fullPath, $img);
         
-        return $fullPath;
+        return $dbPath . $filename;
         
     } catch (\Exception $e) {
         \Log::error('Image Compression Error: ' . $e->getMessage());
@@ -398,10 +399,11 @@ public function store(Request $request)
         $filename = time() . '-' . uniqid() . '.webp';
         $filename = strtolower(preg_replace('/\s+/', '-', $filename));
         
-        $uploadPath = 'public/uploads/category/' ;
+        $diskPath = public_path('uploads/category/');
+        $dbPath   = 'public/uploads/category/';
         
-        if (!file_exists($uploadPath)) {
-            mkdir($uploadPath, 0755, true);
+        if (!file_exists($diskPath)) {
+            mkdir($diskPath, 0755, true);
         }
         
         // Intervention Image 3.x - Direct usage without provider
@@ -415,14 +417,27 @@ public function store(Request $request)
             ->toWebp(75);
         
         // Save the image
-        $fullPath = $uploadPath . $filename;
+        $fullPath = $diskPath . $filename;
         file_put_contents($fullPath, $img);
         
-        return $fullPath;
+        return $dbPath . $filename;
         
     } catch (\Exception $e) {
         \Log::error('Image Compression Error: ' . $e->getMessage());
         return $this->saveOriginalImage($banner, $folder);
     }
 }
+
+    private function saveOriginalImage($image, $folder = 'category')
+    {
+        $ext      = $image->getClientOriginalExtension();
+        $filename = time() . '-' . uniqid() . '.' . $ext;
+        $filename = strtolower(preg_replace('/\s+/', '-', $filename));
+        $diskPath = public_path('uploads/' . $folder . '/');
+        if (!file_exists($diskPath)) {
+            mkdir($diskPath, 0755, true);
+        }
+        $image->move($diskPath, $filename);
+        return 'public/uploads/' . $folder . '/' . $filename;
+    }
 }

@@ -123,9 +123,9 @@ Route::prefix('incomplete-orders')->group(function () {
 Route::get('feature-toggles', [FeatureToggleController::class, 'getEnabledFeatures']);
 Route::get('feature-toggles/{featureKey}', [FeatureToggleController::class, 'getFeature']);
 
- Route::get('customer/forgot-password', [CustomerController::class, 'forgot_password'])->name('customer.forgot.password');
-    Route::post('customer/forgot-verify', [CustomerController::class, 'forgot_verify'])->name('customer.forgot.verify');
-     Route::post('customer/forgot-password/store', [CustomerController::class, 'forgot_store'])->name('customer.forgot.store');
+ Route::get('customer/forgot-password', [CustomerController::class, 'forgot_password'])->name('api.customer.forgot.password');
+    Route::post('customer/forgot-verify', [CustomerController::class, 'forgot_verify'])->name('api.customer.forgot.verify');
+     Route::post('customer/forgot-password/store', [CustomerController::class, 'forgot_store'])->name('api.customer.forgot.store');
 
 
 
