@@ -147,8 +147,8 @@ Route::group(['namespace' => 'Frontend', 'middleware' => ['ipcheck', 'check_refe
     Route::post('cart/store', [ShoppingController::class, 'cart_store'])->name('cart.store');
     Route::post('ajax-cart-store', [ShoppingController::class, 'ajax_cart_store'])->name('ajax.cart.store');
     Route::get('/add-to-cart/{id}/{qty}', [ShoppingController::class, 'addTocartGet']);
-    Route::get('shop/cart', [ShoppingController::class, 'cart_show'])->name('cart.show');
-    Route::get('cart/remove', [ShoppingController::class, 'cart_remove'])->name('cart.remove');
+    Route::get('shop/cart', fn() => redirect('/cart'))->name('cart.show.old'); // Redirect to Inertia cart
+    Route::get('cart/remove', [ShoppingController::class, 'cart_remove'])->name('cart.remove.old');
     Route::get('cart/remove-bn', [ShoppingController::class, 'cart_remove_bn'])->name('cart.remove_bn');
     Route::get('cart/content', [ShoppingController::class, 'cart_content'])->name('cart.content');
     Route::get('cart/count', [ShoppingController::class, 'cart_count'])->name('cart.count');
