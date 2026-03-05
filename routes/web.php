@@ -162,38 +162,45 @@ Route::group(['namespace' => 'Frontend', 'middleware' => ['ipcheck', 'check_refe
     Route::get('product-feed', [ShoppingController::class, 'product_feed'])->name('products.product_feed');
 });
 
+// ==================== CUSTOMER API ROUTES (kept for functionality) ====================
 Route::group(['prefix' => 'customer', 'namespace' => 'Frontend', 'middleware' => ['ipcheck', 'check_refer']], function () {
-    Route::get('/login', [CustomerController::class, 'login'])->name('customer.login');
+    // Redirect old URLs to new Inertia routes
+    Route::get('/login', fn() => redirect('/login'))->name('customer.login.redirect');
+    Route::get('/register', fn() => redirect('/register'))->name('customer.register.redirect');
+    Route::get('/checkout', fn() => redirect('/checkout'))->name('customer.checkout.redirect');
+    Route::get('/order-track', fn() => redirect('/track-order'))->name('customer.order_track.redirect');
+    
+    // API/functional routes (these don't render views)
     Route::post('/signin', [CustomerController::class, 'signin'])->name('customer.signin');
-    Route::get('/register', [CustomerController::class, 'register'])->name('customer.register');
     Route::post('/store', [CustomerController::class, 'store'])->name('customer.store');
     Route::get('/verify', [CustomerController::class, 'verify'])->name('customer.verify');
     Route::post('/verify-account', [CustomerController::class, 'account_verify'])->name('customer.account.verify');
     Route::post('/resend-otp', [CustomerController::class, 'resendotp'])->name('customer.resendotp');
-    Route::post('/logout', [CustomerController::class, 'logout'])->name('customer.logout');
+    Route::post('/logout', [CustomerController::class, 'logout'])->name('customer.logout.old');
     Route::post('/post/review', [CustomerController::class, 'review'])->name('customer.review');
     Route::get('/forgot-password', [CustomerController::class, 'forgot_password'])->name('customer.forgot.password');
     Route::post('/forgot-verify', [CustomerController::class, 'forgot_verify'])->name('customer.forgot.verify');
     Route::get('/forgot-password/reset', [CustomerController::class, 'forgot_reset'])->name('customer.forgot.reset');
     Route::post('/forgot-password/store', [CustomerController::class, 'forgot_store'])->name('customer.forgot.store');
     Route::post('/forgot-password/resendotp', [CustomerController::class, 'forgot_resend'])->name('customer.forgot.resendotp');
-    Route::get('/checkout', [CustomerController::class, 'checkout'])->name('customer.checkout');
     Route::post('/order-save', [CustomerController::class, 'order_save'])->middleware('web')->name('customer.ordersave');
     Route::get('/order-save-draft', [CustomerController::class, 'order_save_draft'])->name('order.store.draft');
     Route::get('/order-success/{id}', [CustomerController::class, 'order_success'])->name('customer.order_success');
-    Route::get('/order-track', [CustomerController::class, 'order_track'])->name('customer.order_track');
     Route::get('/order-track/result', [CustomerController::class, 'order_track_result'])->name('customer.order_track_result');
 });
 
 Route::group(['prefix' => 'customer', 'namespace' => 'Frontend', 'middleware' => ['customer', 'ipcheck', 'check_refer']], function () {
-    Route::get('/account', [CustomerController::class, 'account'])->name('customer.account');
-    Route::get('/orders', [CustomerController::class, 'orders'])->name('customer.orders');
+    // Redirect old URLs to new Inertia routes  
+    Route::get('/account', fn() => redirect('/account'))->name('customer.account.redirect');
+    Route::get('/orders', fn() => redirect('/account/orders'))->name('customer.orders.redirect');
+    
+    // API/functional routes
     Route::get('/invoice', [CustomerController::class, 'invoice'])->name('customer.invoice');
     Route::get('/pdf-reader', [CustomerController::class, 'pdfreader'])->name('customer.pdfreader');
     Route::get('/invoice/order-note', [CustomerController::class, 'order_note'])->name('customer.order_note');
-    Route::get('/profile-edit', [CustomerController::class, 'profile_edit'])->name('customer.profile_edit');
+    Route::get('/profile-edit', fn() => redirect('/account/profile-edit'))->name('customer.profile_edit.redirect');
     Route::post('/profile-update', [CustomerController::class, 'profile_update'])->name('customer.profile_update');
-    Route::get('/change-password', [CustomerController::class, 'change_pass'])->name('customer.change_pass');
+    Route::get('/change-password', fn() => redirect('/account/change-password'))->name('customer.change_pass.redirect');
     Route::post('/password-update', [CustomerController::class, 'password_update'])->name('customer.password_update');
 });
 
