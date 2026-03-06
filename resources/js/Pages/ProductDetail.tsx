@@ -85,9 +85,13 @@ const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed
   })();
 
   const [selectedWeight, setSelectedWeight] = useState(product?.weight || "");
+  const [selectedColor, setSelectedColor] = useState("");
   const [quantity, setQuantity] = useState(1);
   const [activeTab, setActiveTab] = useState("Description");
   const [selectedImage, setSelectedImage] = useState(0);
+  const [currentPrice, setCurrentPrice] = useState(0);
+  const [currentOldPrice, setCurrentOldPrice] = useState<number | null>(null);
+  const [variantStock, setVariantStock] = useState(0);
   const addItem = useCartStore((s) => s.addItem);
   const toggleWishlist = useCartStore((s) => s.toggleWishlist);
   const wishlist = useCartStore((s) => s.wishlist);
@@ -100,13 +104,43 @@ const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed
 
   const allTabs = [t("product.description"), t("product.reviews")];
 
+  // Initialize and update price when product or variant changes
   useEffect(() => {
-    if (product) {
-      const stored = JSON.parse(localStorage.getItem("recentlyViewed") || "[]") as number[];
-      const updated = [product.id, ...stored.filter((id) => id !== product.id)].slice(0, 8);
-      localStorage.setItem("recentlyViewed", JSON.stringify(updated));
+    if (!product) return;
+
+    // Store recently viewed
+    const stored = JSON.parse(localStorage.getItem("recentlyViewed") || "[]") as number[];
+    const updated = [product.id, ...stored.filter((id) => id !== product.id)].slice(0, 8);
+    localStorage.setItem("recentlyViewed", JSON.stringify(updated));
+
+    // If no weight selected or no variants, use base product price
+    if (!selectedWeight || !product.variables || product.variables.length === 0) {
+      setCurrentPrice(product.price || 0);
+      setCurrentOldPrice(product.oldPrice || null);
+      setVariantStock(product.stock || 0);
+      return;
     }
-  }, [product]);
+
+    // Find matching variant
+    const variables = product.variables || [];
+    const matchingVariant = variables.find((v: any) => {
+      const sizeMatch = v.size === selectedWeight;
+      const colorMatch = !selectedColor || v.color === selectedColor;
+      return sizeMatch && colorMatch;
+    });
+
+    if (matchingVariant) {
+      // Update price from variant
+      setCurrentPrice(Number(matchingVariant.new_price) || product.price);
+      setCurrentOldPrice(matchingVariant.old_price ? Number(matchingVariant.old_price) : null);
+      setVariantStock(Number(matchingVariant.stock) || 0);
+    } else {
+      // Variant not found, use base price
+      setCurrentPrice(product.price);
+      setCurrentOldPrice(product.oldPrice || null);
+      setVariantStock(product.stock || 0);
+    }
+  }, [product, selectedWeight, selectedColor]);
 
   // Reset active tab when language changes
   useEffect(() => {
@@ -128,7 +162,7 @@ const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed
   }
 
   const isWished = wishlist.includes(product.id);
-  const discount = product.oldPrice ? Math.round(((product.oldPrice - product.price) / product.oldPrice) * 100) : 0;
+  const discount = currentOldPrice ? Math.round(((currentOldPrice - currentPrice) / currentOldPrice) * 100) : 0;
   const productCategoryName = getCategoryName(product.category);
   const related = relatedProducts || products.filter((p) => getCategoryName(p.category) === productCategoryName && p.id !== product.id).slice(0, 4);
   const recentlyViewed = serverRecentlyViewed || products.filter((p) => recentlyViewedIds.includes(p.id) && p.slug !== product?.slug).slice(0, 4);
@@ -211,10 +245,10 @@ const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed
             </div>
 
             <div className="flex items-baseline gap-3 mb-5 pb-5 border-b border-border/50">
-              <span className="font-heading text-3xl font-bold text-foreground">৳{product.price}</span>
-              {product.oldPrice && (
+              <span className="font-heading text-3xl font-bold text-foreground">৳{currentPrice}</span>
+              {currentOldPrice && (
                 <>
-                  <span className="font-body text-base text-muted-foreground line-through">৳{product.oldPrice}</span>
+                  <span className="font-body text-base text-muted-foreground line-through">৳{currentOldPrice}</span>
                   <span className="bg-accent/15 text-accent-foreground text-xs font-bold font-body px-2 py-0.5 rounded-md">
                     {t("product.save")} {discount}%
                   </span>
@@ -222,9 +256,9 @@ const ProductDetail = ({ product: serverProduct, relatedProducts, recentlyViewed
               )}
             </div>
 
-            <p className={`font-body text-sm mb-5 flex items-center gap-1.5 ${product.stock > 50 ? "text-primary" : "text-accent"}`}>
+            <p className={`font-body text-sm mb-5 flex items-center gap-1.5 ${variantStock > 50 ? "text-primary" : "text-accent"}`}>
               <Check className="h-4 w-4" />
-              {product.stock > 50 ? t("product.inStock") : t("product.onlyLeft", { count: product.stock })}
+              {variantStock > 50 ? t("product.inStock") : t("product.onlyLeft", { count: variantStock })}
             </p>
 
             <div className="mb-5">
