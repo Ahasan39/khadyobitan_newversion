@@ -1,26 +1,29 @@
-# 🛍️ Laravel E-Commerce Backend API
+# 🛍️ Khadyobitan — E-Commerce Platform
 
-A comprehensive, feature-rich Laravel-based e-commerce backend application with RESTful API, modular architecture, and advanced features for managing online stores.
+A full-stack e-commerce platform built with **Laravel 11** (backend) and **React 19 + Inertia.js** (frontend). Designed for organic & natural food stores with bilingual support (English & বাংলা).
 
 [![Laravel](https://img.shields.io/badge/Laravel-11.x-red.svg)](https://laravel.com)
-[![PHP](https://img.shields.io/badge/PHP-8.2+-blue.svg)](https://php.net)
+[![React](https://img.shields.io/badge/React-19.x-blue.svg)](https://react.dev)
+[![PHP](https://img.shields.io/badge/PHP-8.2+-purple.svg)](https://php.net)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://typescriptlang.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+> **Repository:** [github.com/Ahasan39/khadyobitan_newversion](https://github.com/Ahasan39/khadyobitan_newversion)
 
 ---
 
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
-- [Frontend Integration](#-frontend-integration)
+- [Tech Stack](#-tech-stack)
 - [Key Features](#-key-features)
-- [Technology Stack](#-technology-stack)
 - [System Requirements](#-system-requirements)
 - [Installation](#-installation)
-- [Configuration](#-configuration)
 - [Running the Application](#-running-the-application)
-- [API Documentation](#-api-documentation)
 - [Project Structure](#-project-structure)
-- [Key Modules](#-key-modules)
+- [API Reference](#-api-reference)
+- [Frontend (React + Inertia.js)](#-frontend-react--inertiajs)
+- [Admin Panel](#-admin-panel)
 - [Development Workflow](#-development-workflow)
 - [Testing](#-testing)
 - [Deployment](#-deployment)
@@ -32,835 +35,447 @@ A comprehensive, feature-rich Laravel-based e-commerce backend application with 
 
 ## 🎯 Overview
 
-This is a production-ready Laravel e-commerce backend application designed to power modern online stores. It provides a complete RESTful API for frontend applications (web, mobile, or SPA) with comprehensive features including product management, order processing, customer management, payment integration, and advanced analytics.
+Khadyobitan is a production-ready e-commerce platform for online stores. It combines a Laravel backend with a modern React SPA frontend via Inertia.js — meaning **no separate API calls** are needed for the storefront. Data flows directly from Laravel controllers to React components.
 
-### What Makes This Special?
+### Architecture Highlights
 
-- **Modular Architecture**: Built with Laravel Modules for scalability
-- **React Frontend Included**: Modern React + TypeScript + Tailwind CSS frontend ready to integrate
-- **Feature Toggle System**: Enable/disable features without code changes
-- **Advanced Order Management**: Including incomplete order tracking
-- **Multi-Payment Gateway**: Support for multiple payment methods
-- **Courier Integration**: Automated shipping with Pathao and other couriers
-- **Real-time Analytics**: Google Analytics and Tag Manager integration
-- **Event-Driven**: Webhooks and event listeners for extensibility
-- **JWT Authentication**: Secure API authentication for customers
-- **Role-Based Access**: Spatie permissions for admin users
-- **Optimized Performance**: Caching, eager loading, and database optimization
+- **Inertia.js Bridge** — React components receive data directly from Laravel controllers (no REST API needed for frontend)
+- **REST API** — Full v1 API available for mobile apps or external integrations
+- **Modular Design** — Laravel Modules (`nwidart/laravel-modules`) for extensibility
+- **Event-Driven** — 6 custom events with webhook listeners for order/cart/product tracking
+- **Queue Jobs** — Background processing for email & SMS notifications
 
 ---
 
-## 🎨 Frontend Integration
+## 🛠️ Tech Stack
 
-This project includes a complete **React + TypeScript + Tailwind CSS** frontend application (`khadyobitan_frontend`) that can be integrated **without using API calls**.
+### Backend
+| Technology | Purpose |
+|---|---|
+| Laravel 11.x | PHP Framework |
+| PHP 8.2+ | Runtime |
+| MySQL 5.7+ | Database |
+| JWT (tymon/jwt-auth) | API Authentication |
+| Laravel Sanctum | Token Authentication |
+| Spatie Permission | Role & Permission Management |
+| Inertia.js (Server) | Laravel-to-React Bridge |
+| nwidart/laravel-modules | Modular Architecture |
 
-### 🌿 Khadyobitan Frontend
+### Frontend
+| Technology | Purpose |
+|---|---|
+| React 19 | UI Library |
+| TypeScript 5.x | Type Safety |
+| Inertia.js (Client) | SPA without API calls |
+| Tailwind CSS 4.x | Styling |
+| Radix UI / shadcn/ui | 48+ UI Components |
+| Zustand | State Management (Cart) |
+| Framer Motion | Animations |
+| i18next | Bilingual (EN / বাংলা) |
+| React Hook Form + Zod | Form Handling & Validation |
+| TanStack React Query | Server State Management |
+| Recharts | Charts & Analytics |
+| Vite 5 | Build Tool |
 
-A premium organic & natural food e-commerce storefront built as a modern single-page application.
-
-**Tech Stack:**
-- React 18 + TypeScript
-- Vite (Build Tool)
-- Tailwind CSS + shadcn/ui
-- Framer Motion (Animations)
-- Zustand (State Management)
-- i18next (Bilingual: English & Bangla)
-
-**Key Features:**
-- ✅ Fully responsive design
-- ✅ Bilingual UI (English & বাংলা)
-- ✅ Product catalog with filters
-- ✅ Shopping cart & wishlist
-- ✅ Order tracking
-- ✅ Blog system
-- ✅ WhatsApp integration
-- ✅ Dark mode support
-
-### 🔗 Integration Options
-
-#### **Option 1: Inertia.js (Recommended - No API)**
-
-Integrate React directly with Laravel using Inertia.js - data flows from controllers to React components without API calls.
-
-```bash
-# Quick setup
-SETUP_FRONTEND_INTEGRATION.bat
-```
-
-**Benefits:**
-- ✅ No API calls needed
-- ✅ Direct data passing from Laravel controllers
-- ✅ Laravel sessions & auth work seamlessly
-- ✅ Better SEO (server-rendered)
-- ✅ Faster development
-
-**Documentation:**
-- [FRONTEND_INTEGRATION_SUMMARY.md](FRONTEND_INTEGRATION_SUMMARY.md) - Overview
-- [QUICK_INTEGRATION_GUIDE.md](QUICK_INTEGRATION_GUIDE.md) - Quick start
-- [FRONTEND_INTEGRATION_GUIDE.md](FRONTEND_INTEGRATION_GUIDE.md) - Complete guide
-
-#### **Option 2: API-Based (Traditional SPA)**
-
-Use the React frontend as a separate application communicating via REST API.
-
-**Documentation:**
-- [API_DOCUMENTATION.md](API_DOCUMENTATION.md) - Full API reference
-- [FRONTEND_DEVELOPER_API_GUIDE.md](FRONTEND_DEVELOPER_API_GUIDE.md) - API integration guide
-
-### 📁 Frontend Location
-
-```
-main_project_backend-main/
-└── khadyobitan_frontend/     # Complete React frontend
-    ├── src/
-    │   ├── components/       # UI components
-    │   ├── pages/           # Page components
-    │   ├── hooks/           # Custom hooks
-    │   ├���─ store/           # Zustand store
-    │   └── i18n/            # Translations
-    ├── package.json
-    └── README.md            # Frontend documentation
-```
-
-### 🚀 Quick Start (Frontend Only)
-
-```bash
-# Navigate to frontend
-cd khadyobitan_frontend
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Access at http://localhost:8080
-```
-
-### 🔄 Integration Flow
-
-**With Inertia.js (No API):**
-```
-Browser → Laravel Route → Controller → Inertia::render() → React Component
-```
-
-**With API:**
-```
-React Frontend (Port 8080) → API Calls → Laravel Backend (Port 8000)
-```
+### Key Laravel Packages
+| Package | Purpose |
+|---|---|
+| `intervention/image` | Image processing |
+| `spatie/laravel-analytics` | Google Analytics |
+| `spatie/laravel-sitemap` | Auto sitemap generation |
+| `anayarojo/shoppingcart` | Cart functionality |
+| `milon/barcode` | Barcode generation |
+| `shurjopayv2/laravel8` | Payment gateway |
+| `brian2694/laravel-toastr` | Flash notifications |
+| `barryvdh/laravel-debugbar` | Dev debugging |
 
 ---
 
 ## ✨ Key Features
 
-### 🛒 E-Commerce Core
-- **Product Management**: Categories, subcategories, child categories, brands, colors, sizes
-- **Product Variants**: Multiple variations with different prices and stock
-- **Inventory Management**: Stock tracking, low stock alerts
-- **Shopping Cart**: Session-based cart with Laravel Shopping Cart package
-- **Order Processing**: Complete order lifecycle management
-- **Incomplete Orders**: Track abandoned carts and follow up with customers
-- **Coupon System**: Discount codes with various conditions
-- **Reviews & Ratings**: Customer product reviews with images
+### 🛒 Storefront (React)
+- 24 page components (Home, Shop, Product Detail, Cart, Checkout, Account, Blog, etc.)
+- Responsive design with mobile bottom navigation
+- Bilingual UI (English & বাংলা) via i18next
+- Product filtering, sorting, search
+- Shopping cart & wishlist (Zustand store)
+- Order tracking
+- WhatsApp integration button
+- Back-to-top, promo popups, page transitions
 
-### 👥 Customer Management
-- **Customer Registration/Login**: JWT-based authentication
-- **Customer Profiles**: Profile management and order history
-- **Address Management**: Multiple shipping addresses
-- **Order Tracking**: Real-time order status tracking
-- **Wishlist**: Save products for later
+### 📦 Product Management
+- Categories → Subcategories → Child categories (3-level hierarchy)
+- Brands, colors, sizes, tags
+- Product variants with separate pricing/stock
+- Multiple product images
+- Stock alerts & inventory tracking
+- Barcode generation
+- Product duplication
+- Product policies
 
-### 💳 Payment & Shipping
-- **Multiple Payment Gateways**: ShurjoPay and extensible for others
-- **Shipping Zones**: District-based shipping charges
-- **Courier Integration**: Pathao API integration
-- **Cash on Delivery**: COD support
+### 🧾 Order System
+- Complete order lifecycle (pending → processing → shipped → delivered)
+- Incomplete order / abandoned cart tracking (`CheckoutLead`)
+- Admin order creation
+- Bulk courier assignment (Pathao integration)
+- Order notifications (email + SMS)
+- Invoice generation
+- Fraud checker
+- Order reports & analytics
 
-### 📊 Admin Features
-- **Dashboard Analytics**: Sales, orders, revenue statistics
-- **Order Management**: Process, update, and track orders
-- **Customer Management**: View and manage customer accounts
-- **Product Management**: CRUD operations for products
-- **Banner Management**: Homepage sliders and promotional banners
-- **Campaign Management**: Special offers and campaigns
-- **Expense Tracking**: Business expense management
-- **Report Generation**: Sales and inventory reports
+### 💳 Payments & Shipping
+- ShurjoPay gateway integration
+- bKash payment support
+- Cash on Delivery
+- District-based shipping charges
+- Pathao courier API integration
 
-### 🎨 Frontend Customization
-- **Theme Colors**: Dynamic theme color management
-- **Banner Categories**: Organize promotional content
-- **Page Builder**: Create custom pages
-- **SEO Management**: Meta tags, sitemap generation
-- **Social Media Integration**: Links and sharing
+### 👤 Customer Management
+- JWT-based API authentication
+- Session-based web authentication
+- Customer registration with OTP verification
+- Profile management & order history
+- Forgot password flow
+- IP blocking for security
 
-### 🔧 Advanced Features
-- **Feature Toggles**: Enable/disable features via API
-- **Event System**: Order placed, status changed, product viewed events
-- **Webhook Support**: Send data to external services
-- **Email Notifications**: Order confirmations and updates
-- **SMS Notifications**: Order alerts via SMS gateway
-- **IP Blocking**: Security feature to block malicious IPs
-- **Google Tag Manager**: Marketing and analytics integration
-- **Multi-language Support**: Localization ready
-- **API Versioning**: v1 API with room for future versions
+### 📊 Admin Panel (Blade-based)
+- Dashboard with sales analytics
+- 42+ admin controllers covering all CRUD operations
+- Role-based access control (Spatie)
+- User & permission management
+- Expense tracking & reporting
+- Campaign & coupon management
+- Banner & page builder
+- Theme color customization
+- Feature toggle system
+- Google Tag Manager & pixel tracking
+- Business settings & WhatsApp configuration
+- Visitor analytics
+- Update/license management system
 
----
-
-## 🛠️ Technology Stack
-
-### Backend Framework
-- **Laravel 11.x** - PHP Framework
-- **PHP 8.2+** - Programming Language
-
-### Database
-- **MySQL** - Primary Database
-
-### Authentication & Authorization
-- **JWT (tymon/jwt-auth)** - API Authentication
-- **Laravel Sanctum** - Token-based authentication
-- **Spatie Laravel Permission** - Role & Permission management
-
-### Key Packages
-- **nwidart/laravel-modules** - Modular application structure
-- **intervention/image** - Image processing and manipulation
-- **spatie/laravel-analytics** - Google Analytics integration
-- **spatie/laravel-sitemap** - Automatic sitemap generation
-- **anayarojo/shoppingcart** - Shopping cart functionality
-- **milon/barcode** - Barcode generation
-- **guzzlehttp/guzzle** - HTTP client for API calls
-- **brian2694/laravel-toastr** - Flash messages
-
-### Development Tools
-- **Laravel Debugbar** - Development debugging
-- **Laravel Pint** - Code style fixer
-- **PHPUnit** - Testing framework
-- **Vite** - Frontend build tool
-
-### Frontend Assets
-- **Bootstrap 5** - CSS Framework
-- **jQuery** - JavaScript library
-- **Axios** - HTTP client
+### 🔧 Advanced
+- **6 Events**: `AddToCart`, `OrderNow`, `OrderPlaced`, `OrderStatus`, `OrderStatusChanged`, `ProductViewed`
+- **5 Webhook Listeners**: Auto-send data to external services on events
+- **2 Queue Jobs**: `SendOrderNotifications`, `SendOrderSms`
+- **6 Model Observers**: Auto-actions on Brand, Campaign, Category, CreatePage, Product, Subcategory changes
+- **Feature Toggles**: Enable/disable features without deployment
+- **4 Artisan Commands**: Cache management, sitemap generation, source encryption/decryption
+- **Response Caching Service** for performance
+- **Docker configs** for PHP 7.4, 8.0, 8.1, 8.2
 
 ---
 
 ## 💻 System Requirements
 
-- **PHP**: >= 8.2
-- **Composer**: Latest version
-- **MySQL**: >= 5.7 or MariaDB >= 10.3
-- **Node.js**: >= 16.x (for asset compilation)
-- **NPM**: >= 8.x
+- **PHP** >= 8.2 (with BCMath, Ctype, Fileinfo, GD/Imagick, JSON, Mbstring, OpenSSL, PDO, Tokenizer, XML)
+- **Composer** >= 2.x
+- **MySQL** >= 5.7 or MariaDB >= 10.3
+- **Node.js** >= 16.x & NPM >= 8.x
 - **Web Server**: Apache or Nginx
-- **PHP Extensions**:
-  - BCMath
-  - Ctype
-  - Fileinfo
-  - JSON
-  - Mbstring
-  - OpenSSL
-  - PDO
-  - Tokenizer
-  - XML
-  - GD or Imagick
 
 ---
 
 ## 📦 Installation
 
-### 1. Clone the Repository
-
 ```bash
-git clone <repository-url>
-cd main_project_backend-main
-```
+# 1. Clone
+git clone https://github.com/Ahasan39/khadyobitan_newversion.git
+cd khadyobitan_newversion
 
-### 2. Install PHP Dependencies
-
-```bash
+# 2. Install PHP dependencies
 composer install
-```
 
-### 3. Install Node Dependencies
-
-```bash
+# 3. Install Node dependencies
 npm install
-```
 
-### 4. Environment Configuration
-
-```bash
-# Copy the example environment file
+# 4. Environment setup
 copy .env.example .env
-
-# Generate application key
 php artisan key:generate
-
-# Generate JWT secret
 php artisan jwt:secret
-```
 
-### 5. Database Setup
+# 5. Configure database in .env
+# DB_DATABASE=your_db  DB_USERNAME=root  DB_PASSWORD=
 
-Edit `.env` file with your database credentials:
-
-```env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=your_database_name
-DB_USERNAME=your_username
-DB_PASSWORD=your_password
-```
-
-Run migrations:
-
-```bash
+# 6. Run migrations
 php artisan migrate
-```
 
-Seed the database (optional):
-
-```bash
+# 7. Seed database (optional)
 php artisan db:seed
-```
 
-### 6. Storage Link
-
-Create symbolic link for storage:
-
-```bash
+# 8. Create storage link
 php artisan storage:link
-```
 
-### 7. Build Assets
-
-```bash
+# 9. Build frontend assets
 npm run build
-```
-
----
-
-## ⚙️ Configuration
-
-### Application Settings
-
-Edit `.env` file for basic configuration:
-
-```env
-APP_NAME="Your Store Name"
-APP_ENV=local
-APP_DEBUG=true
-APP_URL=http://127.0.0.1:8000
-```
-
-### Mail Configuration
-
-```env
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.mailtrap.io
-MAIL_PORT=2525
-MAIL_USERNAME=your_username
-MAIL_PASSWORD=your_password
-MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS="noreply@yourstore.com"
-MAIL_FROM_NAME="${APP_NAME}"
-```
-
-### Payment Gateway (ShurjoPay)
-
-Configure in admin panel or `.env`:
-
-```env
-SHURJOPAY_USERNAME=your_username
-SHURJOPAY_PASSWORD=your_password
-SHURJOPAY_PREFIX=your_prefix
-```
-
-### Google Analytics
-
-```env
-ANALYTICS_VIEW_ID=your_view_id
-```
-
-### Queue Configuration
-
-For production, use Redis or database queue:
-
-```env
-QUEUE_CONNECTION=database
-```
-
-Then run queue worker:
-
-```bash
-php artisan queue:work
 ```
 
 ---
 
 ## 🚀 Running the Application
 
-### Development Server
+### Development
 
-#### Quick Start (Recommended)
+```bash
+# Terminal 1 — Laravel server
+php artisan serve
 
-Double-click the batch file:
+# Terminal 2 — Vite dev server (hot reload)
+npm run dev
+```
+
+Or use the batch file:
 ```
 FIX_AND_START.bat
 ```
 
-Or run manually:
+Access at: **http://127.0.0.1:8000**
+
+### Production
 
 ```bash
-php artisan serve
-```
-
-Access the application at: `http://127.0.0.1:8000`
-
-#### Test Assets Loading
-
-Visit: `http://127.0.0.1:8000/test-direct.php`
-
-You should see green checkmarks indicating assets are loading correctly.
-
-### Production Server
-
-For production deployment:
-
-1. Set environment to production:
-```env
 APP_ENV=production
 APP_DEBUG=false
-```
 
-2. Optimize the application:
-```bash
 php artisan config:cache
 php artisan route:cache
 php artisan view:cache
 php artisan optimize
+composer install --optimize-autoloader --no-dev
+npm run build
 ```
-
-3. Configure your web server (Apache/Nginx) to point to the `public` directory
-
----
-
-## 📡 API Documentation
-
-### Base URL
-
-```
-http://your-domain.com/api/v1
-```
-
-### Authentication
-
-Most endpoints require JWT authentication. Include the token in the header:
-
-```
-Authorization: Bearer {your-jwt-token}
-```
-
-### Key API Endpoints
-
-#### Public Endpoints
-
-```
-GET  /api/v1/app-config              - Application configuration
-GET  /api/v1/categories              - All categories
-GET  /api/v1/products                - All products
-GET  /api/v1/product/{slug}          - Single product details
-GET  /api/v1/slider                  - Homepage sliders
-GET  /api/v1/banner/{id}             - Banners
-POST /api/v1/chack-out               - Place order
-POST /api/v1/customer/login          - Customer login
-POST /api/v1/customer/register       - Customer registration
-GET  /api/v1/global-search           - Search products
-```
-
-#### Protected Endpoints (Require Authentication)
-
-```
-GET  /api/v1/customer/profile        - Customer profile
-GET  /api/v1/customer/orders         - Customer orders
-POST /api/v1/customer/profile-update - Update profile
-POST /api/v1/customer/change-password - Change password
-POST /api/v1/customer/logout         - Logout
-```
-
-#### Product Endpoints
-
-```
-GET  /api/v1/featured-product        - Featured products
-GET  /api/v1/latest-product          - New arrivals
-GET  /api/v1/popular-product         - Popular products
-GET  /api/v1/trending-product        - Trending products
-GET  /api/v1/best-selling-product    - Best sellers
-GET  /api/v1/category/{id}           - Products by category
-GET  /api/v1/products-by-brand/{slug} - Products by brand
-POST /api/v1/products/filter         - Filter products
-```
-
-#### Incomplete Orders API
-
-```
-POST   /api/v1/incomplete-orders              - Create incomplete order
-GET    /api/v1/incomplete-orders              - List all incomplete orders
-GET    /api/v1/incomplete-orders/{id}         - Get single order
-POST   /api/v1/incomplete-orders/{id}/update-status - Update status
-POST   /api/v1/incomplete-orders/{id}/add-note - Add admin note
-DELETE /api/v1/incomplete-orders/{id}         - Delete order
-POST   /api/v1/incomplete-orders/bulk-delete  - Bulk delete
-GET    /api/v1/incomplete-orders/statistics   - Get statistics
-```
-
-#### Feature Toggles
-
-```
-GET /api/v1/feature-toggles           - Get all enabled features
-GET /api/v1/feature-toggles/{key}     - Get specific feature
-```
-
-#### Theme & Customization
-
-```
-GET /api/v1/theme-colors              - Get theme colors
-GET /api/v1/page/{slug}               - Get custom page
-```
-
-### Detailed API Documentation
-
-For complete API documentation with request/response examples, see:
-- [API_DOCUMENTATION.md](API_DOCUMENTATION.md) - Full API reference
-- [API_QUICK_REFERENCE.md](API_QUICK_REFERENCE.md) - Quick reference guide
-- [FRONTEND_DEVELOPER_API_GUIDE.md](FRONTEND_DEVELOPER_API_GUIDE.md) - Frontend integration guide
 
 ---
 
 ## 📁 Project Structure
 
 ```
-main_project_backend-main/
 ├── app/
-│   ├── Console/              # Artisan commands
-│   ├── Events/               # Event classes
-│   │   ├── AddToCart.php
-│   │   ├── OrderPlaced.php
-│   │   ├── OrderStatusChanged.php
-│   │   └── ProductViewed.php
-│   ├── Exceptions/           # Exception handlers
-│   ├── Helpers/              # Helper functions
-│   │   └── FeatureHelper.php
+│   ├── Console/Commands/       # 4 Artisan commands (cache, sitemap, encrypt/decrypt)
+│   ├── Events/                 # 6 events (AddToCart, OrderPlaced, ProductViewed, etc.)
+│   ├── Helpers/                # FeatureHelper (feature_enabled())
 │   ├── Http/
-│   │   ├── Controllers/      # API & Web controllers
-│   │   │   └── Api/          # API controllers
-│   │   └── Middleware/       # Custom middleware
-│   ├── Jobs/                 # Queue jobs
-│   │   ├── SendOrderNotifications.php
-│   │   └── SendOrderSms.php
-│   ├── Listeners/            # Event listeners
-│   │   ├── SendOrderPlacedWebhook.php
-│   │   └── SendOrderStatusWebhook.php
-│   ├── Mail/                 # Mail classes
-│   │   └── OrderNotificationMail.php
-│   ├── Models/               # Eloquent models (60+ models)
-│   │   ├── Product.php
-│   │   ├── Order.php
-│   │   ├── Customer.php
-│   │   ├── Category.php
-│   │   └── ...
-│   ├── Observers/            # Model observers
-│   ├── Providers/            # Service providers
-│   └── Services/             # Business logic services
-├── bootstrap/                # Bootstrap files
-├── config/                   # Configuration files
-│   ├── app.php
-│   ├── database.php
-│   ├── jwt.php
-│   ├── permission.php
-│   └── ...
+│   │   ├── Controllers/
+│   │   │   ├── Admin/          # 42 admin controllers
+│   │   │   ├── Api/            # 10 API controllers (v1)
+│   │   │   └── Frontend/       # 18 frontend controllers (Inertia + legacy)
+│   │   └── Middleware/         # 19 middleware (JWT, IP filter, Inertia, CSRF, etc.)
+│   ├── Jobs/                   # 2 queue jobs (email & SMS notifications)
+│   ├── Listeners/              # 5 webhook listeners
+│   ├── Mail/                   # OrderNotificationMail
+│   ├── Models/                 # 61 Eloquent models
+│   ├── Observers/              # 6 model observers
+│   ├── Providers/              # 6 service providers
+│   └── Services/               # ResponseCacheService
+├── config/                     # 30+ config files (jwt, shurjopay, permission, etc.)
 ├── database/
-│   ├── factories/            # Model factories
-│   ├── migrations/           # Database migrations
-│   └── seeders/              # Database seeders
-├── Modules/                  # Laravel Modules
-│   └── HomePageOne/          # Homepage module
-├── public/                   # Public assets
-│   ├── backEnd/              # Admin panel assets
-│   ├── frontEnd/             # Frontend assets
-│   ├── uploads/              # Uploaded files
-│   └── index.php             # Entry point
+│   ├── migrations/             # 80+ migrations
+│   └── seeders/
+├── docker/                     # Docker configs (PHP 7.4, 8.0, 8.1, 8.2)
+├── Modules/
+│   └── HomePageOne/            # Homepage module (Laravel Modules)
+├── public/
+│   ├── backEnd/                # Admin panel assets
+│   ├── frontEnd/               # Legacy frontend assets
+│   └── uploads/                # User uploads
 ├── resources/
-│   ├── css/                  # CSS source files
-│   ├── js/                   # JavaScript source files
-│   └── views/                # Blade templates
-│       ├── frontEnd/
-│       └── backEnd/
+│   ├── js/                     # React frontend (Inertia.js)
+│   │   ├── Components/         # 11 shared components + 48 UI components (shadcn)
+│   │   │   ├── layout/         # Header, Footer, MainLayout, MobileBottomNav
+│   │   │   └── ui/             # shadcn/ui component library
+│   │   ├── Pages/              # 24 page components
+│   │   ├── hooks/              # Custom React hooks
+│   │   ├── i18n/locales/       # en.json, bn.json translations
+│   │   ├── store/              # Zustand cart store
+│   │   └── types/              # TypeScript type definitions
+│   └── views/                  # Blade templates (admin panel + emails)
 ├── routes/
-│   ├── api.php               # API routes
-│   ├── web.php               # Web routes
-│   ├── channels.php          # Broadcast channels
-│   └── console.php           # Console routes
-├── storage/                  # Storage directory
-│   ├── app/
-│   ├── framework/
-│   └── logs/
-├── tests/                    # Test files
-│   ├── Feature/
-│   └── Unit/
-├── .env.example              # Environment example
-├── composer.json             # PHP dependencies
-├── package.json              # Node dependencies
-├���─ artisan                   # Artisan CLI
-└── README.md                 # This file
+│   ├── api.php                 # REST API v1 routes
+│   ├── inertia.php             # React frontend routes (Inertia.js)
+│   └── web.php                 # Admin + legacy web routes
+├── composer.json               # PHP dependencies (17 prod + 7 dev packages)
+├── package.json                # Node dependencies (40+ packages)
+├── vite.config.ts              # Vite + React SWC + Laravel plugin
+├── tailwind.config.ts          # Tailwind CSS configuration
+└── tsconfig.json               # TypeScript configuration
 ```
 
 ---
 
-## 🔑 Key Modules
+## 📡 API Reference
 
-### Product Management
-- **Models**: Product, ProductVariable, ProductImage, ProductPolicy
-- **Features**: Variants, images, stock management, pricing
-- **API**: Full CRUD operations, filtering, sorting, search
+**Base URL:** `http://your-domain.com/api/v1`
 
-### Order Management
-- **Models**: Order, OrderDetails, OrderStatus
-- **Features**: Order processing, status tracking, notifications
-- **Events**: OrderPlaced, OrderStatusChanged
-- **Jobs**: SendOrderNotifications, SendOrderSms
+### Public Endpoints
 
-### Customer Management
-- **Models**: Customer, CustomerReview, CustomerProductReview
-- **Authentication**: JWT-based API authentication
-- **Features**: Registration, login, profile, order history
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/app-config` | App configuration |
+| GET | `/categories` | All categories |
+| GET | `/sub-categories` | All subcategories |
+| GET | `/brands` | All brands |
+| GET | `/products` | All products |
+| GET | `/product/{slug}` | Single product |
+| GET | `/featured-product` | Featured products |
+| GET | `/latest-product` | New arrivals |
+| GET | `/popular-product` | Popular products |
+| GET | `/trending-product` | Trending products |
+| GET | `/best-selling-product` | Best sellers |
+| GET | `/category/{id}` | Products by category |
+| GET | `/products-by-brand/{slug}` | Products by brand |
+| GET | `/products-by-tag/{tag}` | Products by tag |
+| POST | `/products/filter` | Filter products |
+| GET | `/global-search` | Search products |
+| GET | `/slider` | Homepage sliders |
+| GET | `/banner/{id}` | Banners |
+| GET | `/offers` | Active offers |
+| GET | `/theme-colors` | Theme colors |
+| GET | `/feature-toggles` | Enabled features |
+| GET | `/page/{slug}` | Custom page |
+| POST | `/chack-out` | Place order |
+| POST | `/customer/login` | Customer login |
+| POST | `/customer/register` | Customer registration |
 
-### Incomplete Orders
-- **Model**: CheckoutLead
-- **Purpose**: Track abandoned carts and incomplete checkouts
-- **Features**: Status management, admin notes, follow-up tracking
-- **API**: Complete CRUD with statistics
+### Protected Endpoints (JWT Required)
 
-### Category System
-- **Models**: Category, Subcategory, Childcategory
-- **Features**: Three-level category hierarchy
-- **API**: Nested categories with product counts
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/customer/profile` | Customer profile |
+| GET | `/customer/orders` | Customer orders |
+| POST | `/customer/profile-update` | Update profile |
+| POST | `/customer/change-password` | Change password |
+| POST | `/customer/logout` | Logout |
 
-### Payment Integration
-- **Models**: Payment, PaymentGateway
-- **Gateways**: ShurjoPay, Cash on Delivery
-- **Features**: Multiple payment methods, transaction tracking
+### Incomplete Orders API
 
-### Shipping & Courier
-- **Models**: Shipping, ShippingCharge, Courierapi, District
-- **Features**: Zone-based shipping, Pathao integration
-- **API**: Calculate shipping charges by district
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/incomplete-orders` | Create |
+| GET | `/incomplete-orders` | List all |
+| GET | `/incomplete-orders/statistics` | Statistics |
+| GET | `/incomplete-orders/{id}` | Get one |
+| POST | `/incomplete-orders/{id}/update-status` | Update status |
+| DELETE | `/incomplete-orders/{id}` | Delete |
 
-### Marketing & Analytics
-- **Models**: Banner, Campaign, CouponCode, EcomPixel, GoogleTagManager
-- **Features**: Promotional banners, discount campaigns, tracking pixels
-- **Integration**: Google Analytics, Tag Manager
+> Full API docs: [API_DOCUMENTATION.md](API_DOCUMENTATION.md) · [API_QUICK_REFERENCE.md](API_QUICK_REFERENCE.md)
 
-### Feature Toggle System
-- **Model**: FeatureToggle
-- **Purpose**: Enable/disable features without code deployment
-- **API**: Get enabled features for frontend
-- **Helper**: `feature_enabled('feature_key')`
+---
+
+## 🎨 Frontend (React + Inertia.js)
+
+The storefront is a React 19 SPA served via Inertia.js. No separate API calls — data flows directly from Laravel controllers.
+
+### Data Flow
+```
+Browser Request → Laravel Route → Controller → Inertia::render('PageName', $data) → React Component
+```
+
+### Pages (24 total)
+`Index` · `Shop` · `ProductDetail` · `Cart` · `Wishlist` · `Checkout` · `Login` · `Register` · `Account` · `Orders` · `OrderDetail` · `OrderConfirmation` · `OrderTracking` · `ProfileEdit` · `ChangePassword` · `Blog` · `BlogDetail` · `About` · `Contact` · `FAQ` · `Privacy` · `Terms` · `ShippingPolicy` · `ReturnPolicy`
+
+### UI Component Library (shadcn/ui — 48 components)
+Accordion · Alert · Avatar · Badge · Breadcrumb · Button · Calendar · Card · Carousel · Chart · Checkbox · Command · Dialog · Drawer · Dropdown · Form · Input · Label · Navigation Menu · Pagination · Popover · Progress · Radio · Scroll Area · Select · Separator · Sheet · Sidebar · Skeleton · Slider · Switch · Table · Tabs · Textarea · Toast · Toggle · Tooltip · and more...
+
+### Inertia Controllers (11)
+`InertiaHomeController` · `InertiaShopController` · `InertiaProductController` · `InertiaCartController` · `InertiaCheckoutController` · `InertiaAuthController` · `InertiaAccountController` · `InertiaOrderTrackingController` · `InertiaWishlistController` · `InertiaPageController` · `InertiaBlogController`
+
+---
+
+## 🔐 Admin Panel
+
+Access at: **http://your-domain.com/admin/login**
+
+Blade-based admin panel with Bootstrap 5. Features include:
+
+- **Dashboard** — Sales stats, order overview, revenue charts
+- **Products** — CRUD, variants, images, stock, barcode, duplication
+- **Orders** — Process, invoice, courier assign, bulk operations, reports
+- **Categories** — 3-level hierarchy management
+- **Customers** — Manage accounts, IP blocking, admin login-as
+- **Campaigns** — Special offers with product assignment
+- **Coupons** — Discount codes with conditions
+- **Banners** — Homepage sliders & promotional content
+- **Pages** — Custom page builder
+- **Reviews** — Product & customer review moderation
+- **Shipping** — District-based charges, courier API config
+- **Expenses** — Category-based expense tracking
+- **Settings** — General, social media, contact, theme colors, business settings
+- **Users & Roles** — Spatie permission-based access control
+- **Feature Toggles** — Enable/disable features dynamically
+- **Analytics** — Visitor reports, Google Analytics integration
+- **Notifications** — Email & SMS order notification settings
 
 ---
 
 ## 👨‍💻 Development Workflow
 
-### Daily Workflow
-
 ```bash
-# 1. Pull latest changes
+# Pull latest & update dependencies
 git pull origin main
-
-# 2. Install/update dependencies (if needed)
 composer install
 npm install
 
-# 3. Clear caches
-php artisan config:clear
-php artisan cache:clear
-php artisan view:clear
+# Clear caches
+php artisan config:clear && php artisan cache:clear && php artisan view:clear
 
-# 4. Run migrations (if any new)
+# Run new migrations
 php artisan migrate
 
-# 5. Start development server
-php artisan serve
-
-# 6. In another terminal, watch for asset changes
-npm run dev
+# Start dev servers
+php artisan serve        # Terminal 1
+npm run dev              # Terminal 2
 ```
 
 ### Code Style
-
-This project uses Laravel Pint for code formatting:
-
 ```bash
-# Format code
-./vendor/bin/pint
-
-# Check without fixing
-./vendor/bin/pint --test
+./vendor/bin/pint        # Laravel Pint (PSR-12)
+./vendor/bin/pint --test # Check only
 ```
 
-### Creating New Features
-
-1. **Create Migration**:
-```bash
-php artisan make:migration create_table_name
-```
-
-2. **Create Model**:
-```bash
-php artisan make:model ModelName -m
-```
-
-3. **Create Controller**:
-```bash
-php artisan make:controller Api/ControllerName
-```
-
-4. **Create Event**:
-```bash
-php artisan make:event EventName
-```
-
-5. **Create Listener**:
-```bash
-php artisan make:listener ListenerName --event=EventName
-```
-
-### Using Feature Toggles
-
+### Feature Toggle Usage
 ```php
-// In your code
+// In PHP
 if (feature_enabled('new_checkout_flow')) {
-    // New checkout logic
-} else {
-    // Old checkout logic
+    // new logic
 }
 
-// In API response
-$features = FeatureToggle::where('is_enabled', true)->pluck('feature_key');
+// Via API
+GET /api/v1/feature-toggles
 ```
 
 ---
 
 ## 🧪 Testing
 
-### Running Tests
-
 ```bash
-# Run all tests
-php artisan test
-
-# Run specific test file
-php artisan test tests/Feature/ProductTest.php
-
-# Run with coverage
-php artisan test --coverage
-```
-
-### Test Structure
-
-```
-tests/
-├── Feature/              # Feature tests (API, integration)
-│   ├── ProductApiTest.php
-│   ├── OrderTest.php
-│   └── CustomerAuthTest.php
-└── Unit/                 # Unit tests (isolated logic)
-    ├── ProductTest.php
-    └── CartTest.php
-```
-
-### Writing Tests
-
-```php
-// Example API test
-public function test_can_get_products()
-{
-    $response = $this->getJson('/api/v1/products');
-    
-    $response->assertStatus(200)
-             ->assertJsonStructure([
-                 'success',
-                 'data' => [
-                     '*' => ['id', 'name', 'price']
-                 ]
-             ]);
-}
+php artisan test                              # Run all tests
+php artisan test tests/Feature/ExampleTest.php # Specific test
+php artisan test --coverage                    # With coverage
 ```
 
 ---
 
 ## 🚢 Deployment
 
-### Pre-Deployment Checklist
+### Checklist
+- [ ] `APP_ENV=production`, `APP_DEBUG=false`
+- [ ] Configure production database, mail, payment gateways
+- [ ] SSL certificate
+- [ ] Run optimization commands (see above)
+- [ ] Set up queue worker (Supervisor)
+- [ ] Set up cron: `* * * * * php artisan schedule:run >> /dev/null 2>&1`
+- [ ] Point web server to `public/` directory
 
-- [ ] Set `APP_ENV=production` in `.env`
-- [ ] Set `APP_DEBUG=false` in `.env`
-- [ ] Configure production database
-- [ ] Set up mail server
-- [ ] Configure payment gateways
-- [ ] Set up SSL certificate
-- [ ] Configure queue worker
-- [ ] Set up scheduled tasks (cron)
-- [ ] Optimize application
-
-### Optimization Commands
-
-```bash
-# Cache configuration
-php artisan config:cache
-
-# Cache routes
-php artisan route:cache
-
-# Cache views
-php artisan view:cache
-
-# Optimize autoloader
-composer install --optimize-autoloader --no-dev
-
-# Optimize application
-php artisan optimize
-```
-
-### Server Configuration
-
-#### Apache (.htaccess)
-
-The project includes `.htaccess` files for Apache. Ensure `mod_rewrite` is enabled.
-
-#### Nginx
-
+### Nginx Config
 ```nginx
 server {
     listen 80;
     server_name your-domain.com;
     root /path/to/project/public;
-
-    add_header X-Frame-Options "SAMEORIGIN";
-    add_header X-Content-Type-Options "nosniff";
-
     index index.php;
-
-    charset utf-8;
 
     location / {
         try_files $uri $uri/ /index.php?$query_string;
     }
-
-    location = /favicon.ico { access_log off; log_not_found off; }
-    location = /robots.txt  { access_log off; log_not_found off; }
-
-    error_page 404 /index.php;
 
     location ~ \.php$ {
         fastcgi_pass unix:/var/run/php/php8.2-fpm.sock;
@@ -868,268 +483,88 @@ server {
         include fastcgi_params;
     }
 
-    location ~ /\.(?!well-known).* {
-        deny all;
-    }
+    location ~ /\.(?!well-known).* { deny all; }
 }
-```
-
-### Queue Worker (Supervisor)
-
-```ini
-[program:laravel-worker]
-process_name=%(program_name)s_%(process_num)02d
-command=php /path/to/project/artisan queue:work --sleep=3 --tries=3
-autostart=true
-autorestart=true
-user=www-data
-numprocs=2
-redirect_stderr=true
-stdout_logfile=/path/to/project/storage/logs/worker.log
-```
-
-### Scheduled Tasks (Cron)
-
-Add to crontab:
-
-```bash
-* * * * * cd /path/to/project && php artisan schedule:run >> /dev/null 2>&1
 ```
 
 ---
 
 ## 🔧 Troubleshooting
 
-### CSS/JS Not Loading
-
-**Problem**: Assets not loading on local development server
-
-**Solution**:
-1. Stop the server (Ctrl+C)
-2. Clear all caches:
-   ```bash
-   php artisan config:clear
-   php artisan cache:clear
-   php artisan view:clear
-   ```
-3. Clear browser cache (Ctrl+Shift+Delete)
-4. Restart server: `php artisan serve`
-5. Hard refresh browser (Ctrl+F5)
-6. Test at: `http://127.0.0.1:8000/test-direct.php`
-
-### Port Already in Use
-
-```bash
-# Use different port
-php artisan serve --port=8001
-```
-
-### Database Connection Error
-
-1. Check `.env` database credentials
-2. Ensure MySQL is running
-3. Test connection:
-   ```bash
-   php artisan tinker
-   DB::connection()->getPdo();
-   ```
-
-### Permission Errors
-
-```bash
-# Fix storage permissions (Linux/Mac)
-chmod -R 775 storage bootstrap/cache
-chown -R www-data:www-data storage bootstrap/cache
-
-# Windows - Run as Administrator
-icacls storage /grant Users:F /t
-icacls bootstrap/cache /grant Users:F /t
-```
-
-### JWT Token Issues
-
-```bash
-# Regenerate JWT secret
-php artisan jwt:secret --force
-
-# Clear config cache
-php artisan config:clear
-```
-
-### Queue Not Processing
-
-```bash
-# Check queue worker is running
-php artisan queue:work
-
-# Restart queue worker
-php artisan queue:restart
-
-# Check failed jobs
-php artisan queue:failed
-```
-
-### Migration Errors
-
-```bash
-# Rollback last migration
-php artisan migrate:rollback
-
-# Rollback all and re-run
-php artisan migrate:fresh
-
-# With seeding
-php artisan migrate:fresh --seed
-```
-
----
-
-## 📚 Additional Documentation
-
-### Backend Documentation
-- [API_DOCUMENTATION.md](API_DOCUMENTATION.md) - Complete API reference
-- [API_QUICK_REFERENCE.md](API_QUICK_REFERENCE.md) - Quick API guide
-- [HOW_TO_RUN.md](HOW_TO_RUN.md) - Quick start guide
-- [PROJECT_ANALYSIS.md](PROJECT_ANALYSIS.md) - Project structure analysis
-- [PATHAO_INTEGRATION_README.md](PATHAO_INTEGRATION_README.md) - Courier integration
-- [PERFORMANCE_AUDIT_REPORT.md](PERFORMANCE_AUDIT_REPORT.md) - Performance optimization
-- [DEVELOPER_NOTES.md](DEVELOPER_NOTES.md) - Development notes
-- [COLLABORATION.md](COLLABORATION.md) - Team collaboration guide
-
-### Frontend Integration Documentation
-- [FRONTEND_INTEGRATION_SUMMARY.md](FRONTEND_INTEGRATION_SUMMARY.md) - Integration overview
-- [QUICK_INTEGRATION_GUIDE.md](QUICK_INTEGRATION_GUIDE.md) - Quick integration steps
-- [FRONTEND_INTEGRATION_GUIDE.md](FRONTEND_INTEGRATION_GUIDE.md) - Complete integration guide
-- [FRONTEND_DEVELOPER_API_GUIDE.md](FRONTEND_DEVELOPER_API_GUIDE.md) - API-based integration
-- [khadyobitan_frontend/README.md](khadyobitan_frontend/README.md) - Frontend documentation
+| Problem | Solution |
+|---------|----------|
+| Assets not loading | `php artisan config:clear && php artisan cache:clear` then hard refresh (Ctrl+F5) |
+| Port in use | `php artisan serve --port=8001` |
+| DB connection error | Check `.env` credentials, ensure MySQL is running |
+| Permission errors (Linux) | `chmod -R 775 storage bootstrap/cache` |
+| JWT token issues | `php artisan jwt:secret --force && php artisan config:clear` |
+| Queue not processing | `php artisan queue:work` or `php artisan queue:restart` |
+| Migration errors | `php artisan migrate:rollback` or `php artisan migrate:fresh --seed` |
 
 ---
 
 ## 🤝 Contributing
 
-### How to Contribute
-
 1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit your changes: `git commit -m 'Add amazing feature'`
-4. Push to the branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
-### Coding Standards
-
-- Follow PSR-12 coding standards
-- Use Laravel best practices
-- Write meaningful commit messages
-- Add tests for new features
-- Update documentation
-
-### Pull Request Guidelines
-
-- Describe what the PR does
-- Reference any related issues
-- Include screenshots for UI changes
-- Ensure all tests pass
-- Update relevant documentation
+2. Create a feature branch: `git checkout -b feature/your-feature`
+3. Follow PSR-12 standards (use Laravel Pint)
+4. Write tests for new features
+5. Commit: `git commit -m 'Add your feature'`
+6. Push & open a Pull Request
 
 ---
 
-## 📄 License
+## 📚 Additional Documentation
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👥 Team & Support
-
-### Development Team
-
-This project is maintained by a dedicated team of developers. For questions or support:
-
-- Check the documentation files
-- Review existing issues
-- Create a new issue for bugs or feature requests
-
-### Important Notes
-
-- Always use `php artisan serve` for local development
-- Access via `http://127.0.0.1:8000` (not localhost)
-- Keep the `/public/` prefix in asset paths
-- Clear caches after pulling changes
-- Test assets loading at `/test-direct.php`
-
----
-
-## 🎯 Quick Links
-
-- **Start Server**: Run `FIX_AND_START.bat` or `php artisan serve`
-- **Test Assets**: http://127.0.0.1:8000/test-direct.php
-- **Main App**: http://127.0.0.1:8000
-- **API Base**: http://127.0.0.1:8000/api/v1
+| Document | Description |
+|----------|-------------|
+| [API_DOCUMENTATION.md](API_DOCUMENTATION.md) | Complete API reference |
+| [API_QUICK_REFERENCE.md](API_QUICK_REFERENCE.md) | Quick API guide |
+| [HOW_TO_RUN.md](HOW_TO_RUN.md) | Quick start guide |
+| [FRONTEND_INTEGRATION_GUIDE.md](FRONTEND_INTEGRATION_GUIDE.md) | Inertia.js integration |
+| [PATHAO_INTEGRATION_README.md](PATHAO_INTEGRATION_README.md) | Courier integration |
+| [PERFORMANCE_AUDIT_REPORT.md](PERFORMANCE_AUDIT_REPORT.md) | Performance optimization |
+| [DEVELOPER_NOTES.md](DEVELOPER_NOTES.md) | Development notes |
+| [COLLABORATION.md](COLLABORATION.md) | Team collaboration guide |
+| [CONTRIBUTORS.md](CONTRIBUTORS.md) | Contributors |
 
 ---
 
 ## 📊 Project Statistics
 
-- **Laravel Version**: 11.x
-- **PHP Version**: 8.2+
-- **Total Models**: 60+
-- **API Endpoints**: 100+
-- **Modules**: Modular architecture with Laravel Modules
-- **Events**: 6 custom events
-- **Jobs**: Queue-based background processing
-- **Listeners**: Webhook integrations
+| Metric | Count |
+|--------|-------|
+| Eloquent Models | 61 |
+| Database Migrations | 80+ |
+| Admin Controllers | 42 |
+| API Controllers | 10 |
+| Frontend Controllers (Inertia) | 11 |
+| React Pages | 24 |
+| UI Components (shadcn) | 48 |
+| Custom Events | 6 |
+| Webhook Listeners | 5 |
+| Queue Jobs | 2 |
+| Model Observers | 6 |
+| Middleware | 19 |
+| Artisan Commands | 4 |
+| NPM Dependencies | 40+ |
+| Composer Packages | 24 |
 
 ---
 
-## 🔄 Recent Updates
+## 📄 License
 
-- ✅ **React Frontend Integration** - Complete React + TypeScript frontend with Inertia.js support
-- ✅ **Frontend Integration Guides** - Comprehensive documentation for both API and non-API integration
-- ✅ Feature toggle system implemented
-- ✅ Incomplete orders API added
-- ✅ Theme color management
-- ✅ Pathao courier integration
-- ✅ Performance optimizations
-- ✅ Enhanced API documentation
-- ✅ Event-driven architecture
-- ✅ Webhook support
-- ✅ Bilingual support (English & Bangla)
+This project is licensed under the MIT License.
 
 ---
 
-## 🚀 Getting Started Checklist
-
-- [ ] Clone repository
-- [ ] Run `composer install`
-- [ ] Run `npm install`
-- [ ] Copy `.env.example` to `.env`
-- [ ] Generate app key: `php artisan key:generate`
-- [ ] Generate JWT secret: `php artisan jwt:secret`
-- [ ] Configure database in `.env`
-- [ ] Run migrations: `php artisan migrate`
-- [ ] Create storage link: `php artisan storage:link`
-- [ ] Start server: `php artisan serve`
-- [ ] Test at: http://127.0.0.1:8000/test-direct.php
-- [ ] Access app: http://127.0.0.1:8000
-
----
-
-**Built with ❤️ using Laravel + React**
-
-### 📖 Quick Links
-
-**Backend:**
-- Setup: [HOW_TO_RUN.md](HOW_TO_RUN.md)
-- API: [API_DOCUMENTATION.md](API_DOCUMENTATION.md)
-
-**Frontend:**
-- Integration: [FRONTEND_INTEGRATION_SUMMARY.md](FRONTEND_INTEGRATION_SUMMARY.md)
-- Quick Start: [QUICK_INTEGRATION_GUIDE.md](QUICK_INTEGRATION_GUIDE.md)
-- Frontend Docs: [khadyobitan_frontend/README.md](khadyobitan_frontend/README.md)
-
-### 👨‍💻 Author
+## 👨‍💻 Author
 
 **Ahasan39**
-- Portfolio: [https://ahasan39.github.io/](https://ahasan39.github.io/)
-- GitHub: [@Ahasan39](https://github.com/Ahasan39)
-- Email: imamul190071@gmail.com
+- 🌐 [ahasan39.github.io](https://ahasan39.github.io/)
+- 💻 [@Ahasan39](https://github.com/Ahasan39)
+- 📧 imamul190071@gmail.com
+
+---
+
+**Built with Laravel 11 + React 19 + Inertia.js + Tailwind CSS**
